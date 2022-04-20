@@ -1,4 +1,4 @@
-<?
+<?php
 include_once('../header.php');
 ?>
 
@@ -28,7 +28,7 @@ include_once('../header.php');
         </tbody>
     </table>
     <i style="font-style: italic; font-size: 10px;">Last
-        updated: <? echo date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></i>
+        updated: <?php echo date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></i>
 
     <br><br>
 
@@ -37,8 +37,8 @@ include_once('../header.php');
     | <a href="output/bg_minions_all.csv">All BG Heroes in CSV format</a>
     <br>
     <i style="font-style: italic; font-size: 10px">Last
-        updated: <? echo date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></i>
+        updated: <?php echo date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></i>
 
-<?
+<?php
 include_once('../footer.php');
 ?>

@@ -71,7 +71,7 @@ foreach ($tempMinions->data as $key => $object) {
 </div>
 
 <?php
-function getCombatResult($minionP1, $minionP2)
+function getCombatResult($minionP1, $minionP2): int
 {
     global $player1TotalDamage;
     global $player2TotalDamage;
@@ -140,7 +140,7 @@ function getCombatResult($minionP1, $minionP2)
 
 }
 
-function getCellColor($combatResult)
+function getCellColor($combatResult): string
 {
     if ($combatResult === 1) {
         return 'win';

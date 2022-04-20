@@ -54,7 +54,7 @@
                 <nav id="menu">
                     <ul class="menu-top">
                         <li class="menu-hover">
-                            <a class="menu-topic" href="index.php">BG JSON</a>
+                            <a class="menu-topic" href="//bgknowhow.com/bgjson/index.php">BG JSON</a>
                         </li>
                         <li class="menu-hover">
                             <a class="menu-topic" href="#">Curves</a>
@@ -74,11 +74,11 @@
                             </div>
                         </li>
                         <li class="menu-hover">
-                            <a class="menu-topic" href="bgsim/simulation_turn1.php">Simulator</a>
+                            <a class="menu-topic" href="//bgknowhow.com/bgsim/simulation_turn1.php">Simulator</a>
                             <div class="menu-container-1">
                                 <div class="menu-column-1">
                                     <ul>
-                                        <li><a href="bgsim/simulation_turn1.php">...Turn-1 Minion Matrix</a></li>
+                                        <li><a href="//bgknowhow.com/bgsim/simulation_turn1.php">...Turn-1 Minion Matrix</a></li>
                                         <li><a href="#">...Custom Board</a></li>
                                     </ul>
                                 </div>

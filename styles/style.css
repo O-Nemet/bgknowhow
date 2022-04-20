@@ -1982,7 +1982,7 @@ root {
     height: 180px;
 }
 
-.format-table {
+.format-table, .strategy-table {
     width: 900px;
     margin: 0 auto;
     margin-bottom: 5px
@@ -1990,6 +1990,18 @@ root {
 
 .format-table td {
     text-align: center;
+}
+
+.strategy-table td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.strategy-table .text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 400px;
 }
 
 .format-table img {
