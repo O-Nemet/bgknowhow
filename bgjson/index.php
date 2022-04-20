@@ -2,6 +2,21 @@
 include_once('../header.php');
 ?>
 
+    <script>
+        async function readJSON() {
+            const requestURL = 'https://bgknowhow.com/bgjson/output/bg_minions_all.json';
+            const request = new Request(requestURL);
+
+            const response = await fetch(request);
+            const minions = await response.json();
+
+            // check the result
+            console.log(minions.data);
+        }
+
+        readJSON();
+    </script>
+
     <h2 class="page_title">BG JSON - Downloads</h2>
 
     <br>
@@ -23,9 +38,9 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="bgjson/output/bg_heroes_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Heroes</a></td>
-            <td><a href="bgjson/output/bg_buddies_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Buddies</a></td>
-            <td><a href="bgjson/output/bg_minions_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Minions</a></td>
+            <td><a href="bgjson/output/bg_heroes_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Heroes</a></td>
+            <td><a href="bgjson/output/bg_buddies_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Buddies</a></td>
+            <td><a href="bgjson/output/bg_minions_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Minions</a></td>
         </tr>
         </tbody>
     </table>
@@ -41,9 +56,9 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="bgjson/output/bg_heroes_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Heroes</a></td>
-            <td><a href="bgjson/output/bg_buddies_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Buddies</a></td>
-            <td><a href="bgjson/output/bg_minions_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Minions</a></td>
+            <td><a href="bgjson/output/bg_heroes_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Heroes</a></td>
+            <td><a href="bgjson/output/bg_buddies_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Buddies</a></td>
+            <td><a href="bgjson/output/bg_minions_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Minions</a></td>
         </tr>
         </tbody>
     </table>
@@ -52,6 +67,7 @@ include_once('../header.php');
     <br><br>
 
     <p><u>Latest Changes:</u></p>
+    <p>21.04.2022 - Switched the picture links for minions, buddies, heropowers to the correct BG images (oopsie!).</p>
     <p>20.04.2022 - Fixed the Blizzard-IDs for Selfless, Spawn and Felfin Navigator.</p>
     <p>18.04.2022 - Added nameShort (i.e. "Baron" for "Baron Rivendare") to both datasets.</p>
 

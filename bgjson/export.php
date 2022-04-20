@@ -6,13 +6,15 @@ ini_set('display_errors', 'On');
 ini_set('log_errors', 'On');
 ini_set('error_log', 'logs/php_errors.log');
 
-const CSV_SEPARATOR         = ';';
-const PICTURE_URL_RENDER    = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/'; // locale/256or512 (png only)
-const PICTURE_URL_RENDER_DE = 'https://art.hearthstonejson.com/v1/render/latest/deDe/512x/';
-const PICTURE_URL_TILE      = 'https://art.hearthstonejson.com/v1/tiles/'; // png/webp/jpg
-const PICTURE_URL_ORIGINAL  = 'https://art.hearthstonejson.com/v1/orig/'; // png
-const PICTURE_URL_MEDIUM    = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
-const PICTURE_URL_BIG       = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
+const CSV_SEPARATOR            = ';';
+const PICTURE_URL_RENDER       = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/'; // 256or512 (png only)
+const PICTURE_URL_RENDER_BG    = 'https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/'; // 256or512 (png only)
+const PICTURE_URL_RENDER_DE    = 'https://art.hearthstonejson.com/v1/render/latest/deDE/512x/';
+const PICTURE_URL_RENDER_BG_DE = 'https://art.hearthstonejson.com/v1/bgs/latest/deDE/512x/';
+const PICTURE_URL_TILE         = 'https://art.hearthstonejson.com/v1/tiles/'; // png/webp/jpg
+const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // png
+const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
+const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
 $getActiveOnly = 1;
 
@@ -72,7 +74,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
         $heroes['data'][$i]['heroPowerCost']         = $hpCost;
         $heroes['data'][$i]['heroPowerText']         = $hpText;
-        $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER . $blizzardIdHp . '.png';
+        $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
         $heroes['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;
         $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/heroes/' . $id;
         $heroes['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
@@ -187,7 +189,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             (bool)$hasWindfury . CSV_SEPARATOR .
             (bool)$hasReborn . CSV_SEPARATOR .
             (bool)$hasAvenge . CSV_SEPARATOR .
-            PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
+            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             $artist . PHP_EOL;
 
         $minions['data'][$i]['name']                        = $name;
@@ -210,7 +212,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['abilities']['hasWindfury']    = (bool)$hasWindfury;
         $minions['data'][$i]['abilities']['hasReborn']      = (bool)$hasReborn;
         $minions['data'][$i]['abilities']['hasAvenge']      = (bool)$hasAvenge;
-        $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER . $blizzardId . '.png';
+        $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
         $minions['data'][$i]['artist']                      = $artist;
         $minions['data'][$i]['websites']['blizzard']        = 'https://playhearthstone.com/battlegrounds/' . $id;
         $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/minions/' . $id;
@@ -294,7 +296,7 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
             $health * 2 . CSV_SEPARATOR .
             $textGolden . CSV_SEPARATOR .
             (bool)$isActive . CSV_SEPARATOR .
-            PICTURE_URL_RENDER . $blizzardId . '.png' . PHP_EOL;
+            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . PHP_EOL;
 
         $buddies['data'][$i]['name']                  = $name;
         $buddies['data'][$i]['type']                  = $type;
@@ -306,7 +308,7 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
         $buddies['data'][$i]['healthGolden']          = $health * 2;
         $buddies['data'][$i]['textGolden']            = $textGolden;
         $buddies['data'][$i]['isActive']              = (bool)$isActive;
-        $buddies['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
+        $buddies['data'][$i]['picture']               = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
         $buddies['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;
         $buddies['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/buddies/' . $id;
         $buddies['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
