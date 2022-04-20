@@ -3,7 +3,8 @@ require_once('../config/db.php');
 
 const CSV_SEPARATOR         = ';';
 const PICTURE_URL_RENDER    = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/'; // locale/256or512 (png only)
-const PICTURE_URL_RENDER_DE = 'https://art.hearthstonejson.com/v1/render/latest/deDe/512x/';
+const PICTURE_URL_RENDER_BG = 'https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/'; // locale/256or512 (png only)
+const PICTURE_URL_RENDER_DE = 'https://art.hearthstonejson.com/v1/render/latest/deDE/512x/';
 const PICTURE_URL_TILE      = 'https://art.hearthstonejson.com/v1/tiles/'; // png/webp/jpg
 const PICTURE_URL_ORIGINAL  = 'https://art.hearthstonejson.com/v1/orig/'; // png
 const PICTURE_URL_MEDIUM    = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
@@ -34,6 +35,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
 // generate minions files
 if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.name,
+                                     bgm.name_short,
                                      bgm.type,
                                      bgm.pool,
                                      bgm.text,
@@ -54,20 +56,21 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.artist                                                                        
                                 FROM bg_minions bgm
                                WHERE bgm.flag_active = ?
+--                                  AND bgm.id_blizzard IN ('BT_010', 'OG_256', 'OG_221', 'BG21_027')
                             ORDER BY bgm.tier, bgm.name ASC")) {
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist);
+    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist);
 
     $row_count = $stmt->num_rows;
 
     while ($stmt->fetch()) {
 
-        if (!copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png')) {
-            echo 'failed to copy ' . $blizzardId . '<br>';
+        if (!copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png')) {
+            echo 'failed to copy ../images/' . $blizzardId . '_render.png<br>';
         } else {
-            echo 'copy success ' . $blizzardId . '<br>';
+            echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
         }
 
     }
