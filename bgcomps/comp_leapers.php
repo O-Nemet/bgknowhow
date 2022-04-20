@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
 
 <?php
-$board = ['Leaper', 'Macaw', 'Leaper', 'Macaw', 'Rat*Sewer Rat', 'Rat*Rat Pack', 'Baron'];
+$board = ['Leaper', 'Leaper', 'Macaw', 'Macaw', '*Sewer Rat', '*Rat Pack', 'Baron'];
 
 include_once('functions.php');
 ?>

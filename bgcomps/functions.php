@@ -8,7 +8,7 @@ $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.js
 $i = 0;
 foreach ($board as $needle) {
     foreach ($tempMinions->data as $key => $object) {
-        if (strpos($needle, '*')) {
+        if (strpos($needle, '*') !== false) {
             $needleNew = substr($needle, strpos($needle, '*') + 1);
             if ($object->name === $needleNew) {
                 $minions[$i]['name']    = $object->name;

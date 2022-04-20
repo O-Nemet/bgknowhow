@@ -60,7 +60,7 @@
                             <a class="menu-topic" href="#">Curves</a>
                         </li>
                         <li class="menu-hover">
-                            <a class="menu-topic" href="?import_collection">Endgame Comps</a>
+                            <a class="menu-topic" href="#">Endgame Comps</a>
                             <div class="menu-container-2">
                                 <div class="menu-column-1">
                                     <ul>
