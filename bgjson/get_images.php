@@ -1,14 +1,6 @@
 <?php
 require_once('../config/db.php');
-
-const CSV_SEPARATOR         = ';';
-const PICTURE_URL_RENDER    = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/'; // locale/256or512 (png only)
-const PICTURE_URL_RENDER_BG = 'https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/'; // locale/256or512 (png only)
-const PICTURE_URL_RENDER_DE = 'https://art.hearthstonejson.com/v1/render/latest/deDE/512x/';
-const PICTURE_URL_TILE      = 'https://art.hearthstonejson.com/v1/tiles/'; // png/webp/jpg
-const PICTURE_URL_ORIGINAL  = 'https://art.hearthstonejson.com/v1/orig/'; // png
-const PICTURE_URL_MEDIUM    = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
-const PICTURE_URL_BIG       = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
+require_once ('../functions.php');
 
 $getActiveOnly = 1;
 

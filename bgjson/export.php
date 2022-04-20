@@ -1,21 +1,9 @@
 <?php
 require_once('../config/db.php');
 
-error_reporting(E_ALL);
-ini_set('display_errors', 'On');
-ini_set('log_errors', 'On');
-ini_set('error_log', 'logs/php_errors.log');
+include_once('../functions.php');
 
-const CSV_SEPARATOR            = ';';
-const PICTURE_URL_RENDER       = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/'; // 256or512 (png only)
-const PICTURE_URL_RENDER_BG    = 'https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/'; // 256or512 (png only)
-const PICTURE_URL_RENDER_DE    = 'https://art.hearthstonejson.com/v1/render/latest/deDE/512x/';
-const PICTURE_URL_RENDER_BG_DE = 'https://art.hearthstonejson.com/v1/bgs/latest/deDE/512x/';
-const PICTURE_URL_TILE         = 'https://art.hearthstonejson.com/v1/tiles/'; // png/webp/jpg
-const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // png
-const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
-const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
-
+const CSV_SEPARATOR = ';';
 $getActiveOnly = 1;
 
 // generate heroes files
@@ -336,26 +324,4 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
     }
 } else {
     echo 'Select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
-}
-
-function getArmor($armorTier)
-{
-    switch ($armorTier) {
-        case 1:
-            return "0";
-        case 2:
-            return "2-5";
-        case 3:
-            return "3-6";
-        case 4:
-            return "4-7";
-        case 5:
-            return "5-8";
-        case 6:
-            return "6-9";
-        case 7:
-            return "7-10";
-        default:
-            return "???";
-    }
 }

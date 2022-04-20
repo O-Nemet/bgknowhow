@@ -34,7 +34,8 @@
             </hgroup>
 
             <div style="float: right;">
-                <?
+                <?php
+                /*
                 if (empty($_SESSION['user']['id']))
                 {
                     echo '<a id="login_link" href="?login" title="Log into your already existing account">Log in</a>';
@@ -45,6 +46,7 @@
                     echo '<a href="?profile='. $_SESSION['user']['id'] .'" title="View your profile">'. $_SESSION['user']['name'] .'</a>';
                     echo ' <span style="color: #777777;">|</span> <a id="logout_link" href="#" title="End your session">Log out</a>';
                 }
+                */
                 ?>
             </div>
 
@@ -68,7 +70,7 @@
                                         <li><a href="//bgknowhow.com/bgcomps/comp_pirates.php">...Pirates</a></li>
                                         <li><a href="//bgknowhow.com/bgcomps/comp_dragons.php">...Dragons</a></li>
                                         <li><a href="//bgknowhow.com/bgcomps/comp_mechs.php">...Mechs</a></li>
-                                        <li><a href="//bgknowhow.com/bgcomps/comp_leapers.php">...Leapers</a></li>
+                                        <li><a href="//bgknowhow.com/bgcomps/comp_beasts.php">...Beasts</a></li>
                                     </ul>
                                 </div>
                             </div>

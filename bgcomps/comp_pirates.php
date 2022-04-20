@@ -3,9 +3,10 @@ include_once('../header.php');
 ?>
 
 <?php
-$board = ['Dong', 'Looter*Salty Looter', 'Hoggarr', 'Hoggarr', 'Peggy', 'Peggy', 'Eliza'];
+include_once('../functions.php');
 
-include_once('functions.php');
+$board   = ['Dong', 'Looter*Salty Looter', 'Hoggarr', 'Hoggarr', 'Peggy', 'Peggy', 'Eliza'];
+$minions = getMinionsForBoard($board);
 ?>
 
 <h2 class="page_title">Endgame Composition: Pirates</h2>

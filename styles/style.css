@@ -1915,11 +1915,11 @@ root {
     border-bottom: 1px solid #333333;
     /* background: none repeat scroll 0 0 transparent; */
 }
-/*
+
 #menu li div div ul li:last-of-type:hover {
     border-radius: 0px 0px 10px 20px;
 }
-*/
+
 
 #menu li ul li:hover a {
     color: #EEEEEE;
@@ -1980,6 +1980,10 @@ root {
 .card_wrapper img {
     width: 123px;
     height: 180px;
+}
+
+p {
+    width: 950px;
 }
 
 .format-table, .strategy-table {
