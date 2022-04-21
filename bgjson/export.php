@@ -60,11 +60,12 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['armorTier']             = $armorTier;
         $heroes['data'][$i]['armor']                 = getArmor($armorTier);
         $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
+        $heroes['data'][$i]['pictureInternal']       = PICTURE_LOCAL_HERO_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $heroes['data'][$i]['heroPowerCost']         = $hpCost;
         $heroes['data'][$i]['heroPowerText']         = $hpText;
         $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
         $heroes['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;
-        $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/heroes/' . $id;
+        $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/?hero=' . $id;
         $heroes['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
 //        $heroes['data'][$i]['websites']['hearthpwn'] = 'https://hearthpwn.com/';
         $heroes['data'][$i]['isActive'] = (bool)$isActive;
@@ -201,9 +202,10 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['abilities']['hasReborn']      = (bool)$hasReborn;
         $minions['data'][$i]['abilities']['hasAvenge']      = (bool)$hasAvenge;
         $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+        $minions['data'][$i]['pictureInternal']             = PICTURE_LOCAL_MINION_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $minions['data'][$i]['artist']                      = $artist;
         $minions['data'][$i]['websites']['blizzard']        = 'https://playhearthstone.com/battlegrounds/' . $id;
-        $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/minions/' . $id;
+        $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/bgstrategy/?minion=' . $id;
         $minions['data'][$i]['websites']['fandom']          = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
 //        $minions['data'][$i]['websites']['hearthpwn'] = 'https://hearthpwn.com/';
 
@@ -297,8 +299,9 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
         $buddies['data'][$i]['textGolden']            = $textGolden;
         $buddies['data'][$i]['isActive']              = (bool)$isActive;
         $buddies['data'][$i]['picture']               = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+        $buddies['data'][$i]['pictureInternal']       = PICTURE_LOCAL_BUDDY_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $buddies['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;
-        $buddies['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/buddies/' . $id;
+        $buddies['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/?buddy=' . $id;
         $buddies['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
 //        $buddies['data'][$i]['websites']['hearthpwn'] = 'https://hearthpwn.com/';
 
@@ -322,6 +325,25 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
     } else {
         echo 'ERROR';
     }
+
+    // json metadata
+    $all_entities['meta']['date']    = date("Y-m-d");
+    $all_entities['meta']['version'] = '0.1.0';
+
+    unset($heroes['meta']);
+    unset($buddies['meta']);
+    unset($minions['meta']);
+
+    $all_entities['data']['heroes']  = $heroes['data'];
+    $all_entities['data']['buddies'] = $buddies['data'];
+    $all_entities['data']['minions'] = $minions['data'];
+
+    $jsonFile = 'output/bg_entities_all.json';
+    $jsonData = json_encode($all_entities);
+    file_put_contents($jsonFile, $jsonData);
+
+    echo 'Written file ' . $jsonFile . ' with all entries.<br>' . PHP_EOL;
 } else {
     echo 'Select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
 }
+

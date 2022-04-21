@@ -10,7 +10,7 @@ include_once('../functions.php');
 
 <div class="card_wrapper">
     <?php
-    $board = ['Macaw', 'Macaw', 'Goldrinn', 'Goldrinn', '*Rat Pack', '*Mama Bear', 'Baron'];
+    $board = ['Macaw', 'Macaw', 'Hydra', 'Hydra', 'Goldrinn', 'Goldrinn', 'Baron'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {
@@ -19,7 +19,7 @@ include_once('../functions.php');
     ?>
     <br>
     <?php
-    $board = ['Leaper', 'Leaper', 'Macaw', 'Macaw', '*Sewer Rat', '*Rat Pack', 'Baron'];
+    $board = ['Leaper', 'Macaw', '*Sewer Rat', '*Sewer Rat', '*Rat Pack', '*Rat Pack', 'Baron'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {
