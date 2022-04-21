@@ -38,9 +38,12 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="bgjson/output/bg_heroes_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Heroes</a></td>
-            <td><a href="bgjson/output/bg_buddies_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Buddies</a></td>
-            <td><a href="bgjson/output/bg_minions_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Minions</a></td>
+            <td colspan="3"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Entities</a></td>
+        </tr>
+        <tr>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Buddies</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Minions</a></td>
         </tr>
         </tbody>
     </table>
@@ -56,9 +59,9 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="bgjson/output/bg_heroes_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Heroes</a></td>
-            <td><a href="bgjson/output/bg_buddies_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Buddies</a></td>
-            <td><a href="bgjson/output/bg_minions_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Buddies</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png">All BG Minions</a></td>
         </tr>
         </tbody>
     </table>
