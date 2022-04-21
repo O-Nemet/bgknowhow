@@ -1779,12 +1779,12 @@ root {
 
 }
 .menu-container-1 {
-    width: 625px;
-    /*      background: rgba(0,0,0,0.75) !important; */
+    width: 200px;
+          background: rgba(0,0,0,0.75) !important;
 }
 .menu-container-2 {
-    width: 625px;
-    /*      background:rgba(0,0,0,0.8) !important; */
+    width: 200px;
+          background:rgba(0,0,0,0.8) !important;
 }
 .menu-container-3 {
     width: 610px;
@@ -1984,6 +1984,39 @@ root {
 
 p {
     width: 950px;
+}
+
+.intro {
+    width: 980px;
+    height: 800px;
+    margin-left: -10px;
+    margin-top: -15px;
+    padding: 20px;
+    color: #0F0F0F;
+    /*text-shadow: 2px 2px #666666;*/
+    display: block;
+    position: relative;
+}
+
+.intro::after {
+    content: "";
+    background-image: url(https://bgknowhow.com/images/misc/bartender_bob_full.webp);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.intro a {
+    color: #359D31;
+    text-shadow: none;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
 }
 
 .format-table, .strategy-table {
