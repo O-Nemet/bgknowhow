@@ -1,12 +1,16 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
-ini_set('log_errors', 'On');
+//ini_set('log_errors', 'On');
 
-const PICTURE_LOCAL_HERO_RENDER   = 'https://bgknowhow.com/images/heroes/';
-const PICTURE_LOCAL_BUDDY_RENDER  = 'https://bgknowhow.com/images/buddies/';
-const PICTURE_LOCAL_MINION_RENDER = 'https://bgknowhow.com/images/minions/';
-const PICTURE_LOCAL_RENDER_SUFFIX = '_render.png';
+const PICTURE_LOCAL = 'https://bgknowhow.com/images/';
+
+const PICTURE_LOCAL_HERO            = 'https://bgknowhow.com/images/heroes/';
+const PICTURE_LOCAL_BUDDY           = 'https://bgknowhow.com/images/buddies/';
+const PICTURE_LOCAL_MINION          = 'https://bgknowhow.com/images/minions/';
+const PICTURE_LOCAL_PORTRAIT_SUFFIX = '_portrait.png';
+const PICTURE_LOCAL_RENDER_SUFFIX   = '_render.png';
+const PICTURE_LOCAL_TILE_SUFFIX     = '_tile.webp';
 
 const PICTURE_URL_RENDER       = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/'; // 256or512 (png only)
 const PICTURE_URL_RENDER_BG    = 'https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/'; // 256or512 (png only)
