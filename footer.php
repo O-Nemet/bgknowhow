@@ -7,7 +7,7 @@
             <nav style="margin-top: 10px; margin-bottom: 10px;">
                 <small>
                     <span style="padding-right: 5px; border-right: 1px solid #777777;"><a href="?tos">Terms of Service</a></span>
-                    <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid #777777;"> <a href="?pp">Privacy Policy</a></span>
+                    <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid #777777;"> <a href="license.php">License (MIT)</a></span>
                     <span style="padding-left: 5px;"> <a href="?imp">Imprint</a></span>
                 </small>
             </nav>
