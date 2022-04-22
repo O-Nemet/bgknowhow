@@ -3,9 +3,7 @@ include_once('../header.php');
 ?>
 
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 'On');
-ini_set('log_errors', 'On');
+include_once('../functions.php');
 
 class Battlefield {
     private array $slotsP1 = [[],[],[],[],[],[],[]];
@@ -29,7 +27,7 @@ $needle      = 1;
 //var_dump($tempMinions->data);
 
 foreach ($tempMinions->data as $key => $object) {
-    if ($object->tier === $needle) {
+    if ($object->tier === $needle && $object->isToken === false) {
         $minions[] = $object;
     }
 }
@@ -41,6 +39,30 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
 
 <h2 class="page_title">Simulation: 1st Turn</h2>
+
+<p>
+    This is a dynamically generated matrix featuring the matchups of all tier 1 minions on turn 1.<br>
+    The number in the square shows how much damage you will deal/receive (on top of your turn 1 star damage).<br>
+    The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.
+    <br><br>
+    Warning: The code is not finished, yet. Currently, only Shields are integrated, while Deathrattle and Tokens are not.<br>
+    In the future you'll also be able to filter out banned minion types.
+</p>
+
+<br>
+
+<div class="typeFilter">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_beasts.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_demons.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_dragons.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_elementals.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_mechs.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_murlocs.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_pirates.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_quilboar.png" width="120">
+</div>
+
+<br><br>
 
 <div class="matrix">
     <?php
