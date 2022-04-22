@@ -89,6 +89,16 @@
                         </li>
                         <li class="menu-hover">
                             <a class="menu-topic" href="//bgknowhow.com/bgstrategy/">Strategy</a>
+                            <div class="menu-container-2">
+                                <div class="menu-column-1">
+                                    <ul>
+                                        <li><a href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">...Heroes</a></li>
+                                        <li><a href="//bgknowhow.com/bgstrategy/?show=buddies&mode=gfx">...Buddies</a></li>
+                                        <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">...Minions</a></li>
+                                        <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=txt">...All</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </nav>
