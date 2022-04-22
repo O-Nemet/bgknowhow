@@ -31,9 +31,11 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         'Health' . CSV_SEPARATOR .
         'Armor-Tier' . CSV_SEPARATOR .
         'Armor' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
         'Picture link' . CSV_SEPARATOR .
         'Hero Power cost' . CSV_SEPARATOR .
         'Hero Power text' . CSV_SEPARATOR .
+        'Hero Power Blizzard ID' . CSV_SEPARATOR .
         'Hero Power picture link' . CSV_SEPARATOR .
         'Active' . PHP_EOL;
     $csvData   = $csvHeader;
@@ -49,9 +51,11 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             $health . CSV_SEPARATOR .
             $armorTier . CSV_SEPARATOR .
             getArmor($armorTier) . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
             $hpCost . CSV_SEPARATOR .
             $hpText . CSV_SEPARATOR .
+            $blizzardIdHp . CSV_SEPARATOR .
             PICTURE_URL_RENDER . $blizzardIdHp . '.png' . CSV_SEPARATOR .
             (bool)$isActive . PHP_EOL;
 
@@ -59,10 +63,12 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['health']                = $health;
         $heroes['data'][$i]['armorTier']             = $armorTier;
         $heroes['data'][$i]['armor']                 = getArmor($armorTier);
+        $heroes['data'][$i]['blizzardId']            = $blizzardId;
         $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
         $heroes['data'][$i]['pictureInternal']       = PICTURE_LOCAL_HERO_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $heroes['data'][$i]['heroPowerCost']         = $hpCost;
         $heroes['data'][$i]['heroPowerText']         = $hpText;
+        $heroes['data'][$i]['heroPowerBlizzardId']   = $blizzardIdHp;
         $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
         $heroes['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;
         $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/?hero=' . $id;
@@ -147,6 +153,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         'Windfury' . CSV_SEPARATOR .
         'Reborn' . CSV_SEPARATOR .
         'Avenge' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
         'Picture Link' . CSV_SEPARATOR .
         'Artist' . PHP_EOL;
     $csvData   = $csvHeader;
@@ -178,6 +185,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             (bool)$hasWindfury . CSV_SEPARATOR .
             (bool)$hasReborn . CSV_SEPARATOR .
             (bool)$hasAvenge . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             $artist . PHP_EOL;
 
@@ -201,6 +209,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['abilities']['hasWindfury']    = (bool)$hasWindfury;
         $minions['data'][$i]['abilities']['hasReborn']      = (bool)$hasReborn;
         $minions['data'][$i]['abilities']['hasAvenge']      = (bool)$hasAvenge;
+        $minions['data'][$i]['blizzardId']                  = $blizzardId;
         $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
         $minions['data'][$i]['pictureInternal']             = PICTURE_LOCAL_MINION_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $minions['data'][$i]['artist']                      = $artist;
@@ -265,6 +274,7 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
         'Health Golden' . CSV_SEPARATOR .
         'Text Golden' . CSV_SEPARATOR .
         'Active' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
         'Picture Link' . PHP_EOL;
 
     $csvData = $csvHeader;
@@ -286,6 +296,7 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
             $health * 2 . CSV_SEPARATOR .
             $textGolden . CSV_SEPARATOR .
             (bool)$isActive . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . PHP_EOL;
 
         $buddies['data'][$i]['name']                  = $name;
@@ -298,6 +309,7 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
         $buddies['data'][$i]['healthGolden']          = $health * 2;
         $buddies['data'][$i]['textGolden']            = $textGolden;
         $buddies['data'][$i]['isActive']              = (bool)$isActive;
+        $buddies['data'][$i]['blizzardId']            = $blizzardId;
         $buddies['data'][$i]['picture']               = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
         $buddies['data'][$i]['pictureInternal']       = PICTURE_LOCAL_BUDDY_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $buddies['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;

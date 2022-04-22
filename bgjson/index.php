@@ -70,9 +70,10 @@ include_once('../header.php');
     <br><br>
 
     <p><u>Latest Changes:</u></p>
-    <p>21.04.2022 - Switched the picture links for minions, buddies, heropowers to the correct BG images (oopsie!).</p>
+    <p>22.04.2022 - Added the blizzardId to the heroes/buddies/minions datasets.</p>
+    <p>21.04.2022 - Switched the picture links for minions/buddies/heropowers to the correct BG images (oopsie!).</p>
     <p>20.04.2022 - Fixed the Blizzard-IDs for Selfless, Spawn and Felfin Navigator.</p>
-    <p>18.04.2022 - Added nameShort (i.e. "Baron" for "Baron Rivendare") to both datasets.</p>
+    <p>18.04.2022 - Added nameShort (i.e. "Baron" for "Baron Rivendare") to the minion datasets.</p>
 
     <br><br>
 
