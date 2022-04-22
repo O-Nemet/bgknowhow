@@ -123,9 +123,9 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.id_blizzard,                                   
                                      bgm.artist                                                                        
                                 FROM bg_minions bgm
-                               WHERE bgm.flag_active = ?
+--                               WHERE bgm.flag_active = ?
                             ORDER BY bgm.tier, bgm.name ASC")) {
-    $stmt->bind_param("i", $getActiveOnly);
+    #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
     $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist);
