@@ -6,11 +6,19 @@ include_once('../header.php');
 include_once('../functions.php');
 ?>
 
-<h2 class="page_title">Endgame Composition: Leapers</h2>
+<h2 class="page_title">Endgame Composition: Murlocs</h2>
 
-<div class="card_wrapper">
+<div class="comp_wrapper">
     <?php
     $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', 'Dong', 'Honcho', 'Sefin'];
+    $minions = getMinionsForBoard($board);
+
+    foreach ($minions as $minion) {
+        echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
+    }
+    ?>
+    <?php
+    $board   = ['Dong', 'Swolefin', 'Swolefin', 'Striker', 'Dong', 'Brann', 'Sefin'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {

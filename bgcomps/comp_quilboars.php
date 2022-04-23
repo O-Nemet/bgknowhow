@@ -6,11 +6,11 @@ include_once('../header.php');
 include_once('../functions.php');
 ?>
 
-<h2 class="page_title">Endgame Composition: Mechs</h2>
+<h2 class="page_title">Endgame Composition: Quilboars</h2>
 
 <div class="comp_wrapper">
     <?php
-    $board   = ['Buster', 'Reaper', 'Mecherel', 'Deflecto', 'Buster', 'Kangor\'s', 'Baron'];
+    $board = ['Bonker', 'Dong', 'Brute', 'Pumba', 'Shaker', 'Flat Tusk', 'Duo'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {
@@ -19,11 +19,11 @@ include_once('../functions.php');
     ?>
     <br>
     <?php
-    $board   = ['Macaw', 'Macaw', 'Reaper', 'Deflecto', 'Buster', 'Buster', 'Baron'];
+    $board = ['Hydra', 'Trickster', 'Dong', 'Warden', 'Aggem', 'Flat Tusk', 'Duo'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {
-        echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
+    echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
     }
     ?>
 </div>

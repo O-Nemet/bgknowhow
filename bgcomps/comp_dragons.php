@@ -8,9 +8,9 @@ include_once('../functions.php');
 
 <h2 class="page_title">Endgame Composition: Dragons</h2>
 
-<div class="card_wrapper">
+<div class="comp_wrapper">
     <?php
-    $board   = ['Nadina', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Razorgore', 'Promo-Drake', 'Prestor'];
+    $board   = ['Nadina', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Promo-Drake', 'Razorgore', 'Prestor'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {

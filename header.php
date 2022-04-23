@@ -53,7 +53,7 @@
 
             <!-- <div class="cf"></div> -->
 
-            <div id="nav_wrapper" style="float: left; width: 930px; margin-top: -28px;">
+            <div id="nav_wrapper" style="float: left; width: 1430px; margin-top: -28px;">
                 <nav id="menu">
                     <ul class="menu-top">
                         <li class="menu-hover">
@@ -67,11 +67,14 @@
                             <div class="menu-container-2">
                                 <div class="menu-column-1">
                                     <ul>
+                                        <li><a href="//bgknowhow.com/bgcomps/comp_beasts.php">...Beasts</a></li>
+                                        <li><a href="//bgknowhow.com/bgcomps/comp_demons.php">...Demons</a></li>
+                                        <li><a href="//bgknowhow.com/bgcomps/comp_dragons.php">...Dragons</a></li>
+                                        <li><a href="//bgknowhow.com/bgcomps/comp_elementals.php">...Elementals</a></li>
+                                        <li><a href="//bgknowhow.com/bgcomps/comp_mechs.php">...Mechs</a></li>
                                         <li><a href="//bgknowhow.com/bgcomps/comp_murlocs.php">...Murlocs</a></li>
                                         <li><a href="//bgknowhow.com/bgcomps/comp_pirates.php">...Pirates</a></li>
-                                        <li><a href="//bgknowhow.com/bgcomps/comp_dragons.php">...Dragons</a></li>
-                                        <li><a href="//bgknowhow.com/bgcomps/comp_mechs.php">...Mechs</a></li>
-                                        <li><a href="//bgknowhow.com/bgcomps/comp_beasts.php">...Beasts</a></li>
+                                        <li><a href="//bgknowhow.com/bgcomps/comp_quilboars.php">...Quilboars</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -95,7 +98,8 @@
                                         <li><a href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">...Heroes</a></li>
                                         <li><a href="//bgknowhow.com/bgstrategy/?show=buddies&mode=gfx">...Buddies</a></li>
                                         <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">...Minions</a></li>
-                                        <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=txt">...All</a></li>
+                                        <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=txt">...All Entities</a></li>
+                                        <li><a href="#">...General strategy</a></li>
                                     </ul>
                                 </div>
                             </div>
