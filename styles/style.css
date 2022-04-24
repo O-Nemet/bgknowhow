@@ -1419,9 +1419,9 @@ addthis_toolbox {
     height: 300px;
     border: 5px double #222222;
     border-radius: 10px 10px 30px 30px;
-    padding: 15px 30px 50px 20px;
+    padding: 15px 35px 50px 15px;
     margin-left: 25px;
-    background-color: #DDDDDD;
+    background-color: #D2CC96;
 }
 
 .card_wrapper span {
@@ -2096,6 +2096,14 @@ root {
     margin-left: 5px
 }
 
+.vote-buttons span {
+    font-size: 11px;
+    margin-left: 24px;
+    margin-top: -15px;
+    margin-bottom: 3px;
+    display: block;
+}
+
 .vote-buttons div p {
     width: 50px;
     height: 30px;
@@ -2204,6 +2212,10 @@ root {
     font-weight: bold;
     position: relative;
     z-index: 2;
+}
+
+.intro a:hover {
+    color: #2E76CF;
 }
 
 .format-table, .strategy-table {
