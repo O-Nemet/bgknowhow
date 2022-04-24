@@ -3,6 +3,8 @@ error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 //ini_set('log_errors', 'On');
 
+const IMG_PATH = '//bgknowhow.com/images/';
+
 const PICTURE_LOCAL = 'https://bgknowhow.com/images/';
 
 const PICTURE_LOCAL_HERO            = 'https://bgknowhow.com/images/heroes/';
@@ -21,6 +23,14 @@ const PICTURE_URL_TILE         = 'https://art.hearthstonejson.com/v1/tiles/'; //
 const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // png
 const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
+
+function getWebsiteTitle() {
+    $title = '';
+
+    $title .= 'Battlegrounds Know How (beta)';
+
+    return $title;
+}
 
 function getMinionsForBoard($board): array
 {
