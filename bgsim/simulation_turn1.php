@@ -3,7 +3,6 @@ include_once('../header.php');
 ?>
 
 <?php
-include_once('../functions.php');
 
 class Battlefield {
     private array $slotsP1 = [[],[],[],[],[],[],[]];
@@ -42,7 +41,7 @@ foreach ($tempMinions->data as $key => $object) {
 
 <p>
     This is a dynamically generated matrix featuring the matchups of all tier 1 minions on turn 1.<br>
-    The number in the square shows how much damage you will deal/receive (on top of your turn 1 star damage).<br>
+    The number in the square shows how much damage you will deal/receive (on top of your turn 1-star damage).<br>
     The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.
     <br><br>
     Warning: The code is not finished, yet. Currently, only Shields are integrated, while Deathrattle and Tokens are not.<br>
@@ -52,14 +51,14 @@ foreach ($tempMinions->data as $key => $object) {
 <br>
 
 <div class="typeFilter">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_beasts.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_demons.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_dragons.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_elementals.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_mechs.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_murlocs.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_pirates.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>/misc/tribe_quilboar.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_beasts.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_demons.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_dragons.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" width="120">
 </div>
 
 <br><br>
