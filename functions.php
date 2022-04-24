@@ -8,6 +8,7 @@ const PICTURE_LOCAL = 'https://bgknowhow.com/images/';
 const PICTURE_LOCAL_HERO            = 'https://bgknowhow.com/images/heroes/';
 const PICTURE_LOCAL_BUDDY           = 'https://bgknowhow.com/images/buddies/';
 const PICTURE_LOCAL_MINION          = 'https://bgknowhow.com/images/minions/';
+const PICTURE_LOCAL_HP              = 'https://bgknowhow.com/images/heropower/';
 const PICTURE_LOCAL_PORTRAIT_SUFFIX = '_portrait.png';
 const PICTURE_LOCAL_RENDER_SUFFIX   = '_render.png';
 const PICTURE_LOCAL_TILE_SUFFIX     = '_tile.webp';
