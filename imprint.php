@@ -1,3 +1,7 @@
+<?php
+include_once('header.php');
+?>
+
 <h2 class="page_title">Imprint</h2>
 <p>
     Under German law we are obligated to publish the following information:
@@ -14,3 +18,7 @@
     E-Mail: <a href="mailto:info@bgknowhow.com">info@bgknowhow.com</a>
     <br>
 </p>
+
+<?php
+include_once('footer.php');
+?>
