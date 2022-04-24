@@ -1,7 +1,6 @@
 <?php
 require_once('../config/db.php');
-
-include_once('../functions.php');
+require_once('../functions.php');
 
 const CSV_SEPARATOR = ';';
 $getActiveOnly = 1;
@@ -65,13 +64,13 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['armor']                 = getArmor($armorTier);
         $heroes['data'][$i]['blizzardId']            = $blizzardId;
         $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
-        $heroes['data'][$i]['pictureInternal']       = PICTURE_LOCAL_HERO_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
+        $heroes['data'][$i]['pictureInternal']       = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $heroes['data'][$i]['heroPowerCost']         = $hpCost;
         $heroes['data'][$i]['heroPowerText']         = $hpText;
         $heroes['data'][$i]['heroPowerBlizzardId']   = $blizzardIdHp;
         $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
         $heroes['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;
-        $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/?hero=' . $id;
+        $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/hero/?id=' . $id;
         $heroes['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
 //        $heroes['data'][$i]['websites']['hearthpwn'] = 'https://hearthpwn.com/';
         $heroes['data'][$i]['isActive'] = (bool)$isActive;
@@ -211,10 +210,10 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['abilities']['hasAvenge']      = (bool)$hasAvenge;
         $minions['data'][$i]['blizzardId']                  = $blizzardId;
         $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
-        $minions['data'][$i]['pictureInternal']             = PICTURE_LOCAL_MINION_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
+        $minions['data'][$i]['pictureInternal']             = PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $minions['data'][$i]['artist']                      = $artist;
         $minions['data'][$i]['websites']['blizzard']        = 'https://playhearthstone.com/battlegrounds/' . $id;
-        $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/bgstrategy/?minion=' . $id;
+        $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/bgstrategy/minion/?id=' . $id;
         $minions['data'][$i]['websites']['fandom']          = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
 //        $minions['data'][$i]['websites']['hearthpwn'] = 'https://hearthpwn.com/';
 
@@ -311,9 +310,9 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
         $buddies['data'][$i]['isActive']              = (bool)$isActive;
         $buddies['data'][$i]['blizzardId']            = $blizzardId;
         $buddies['data'][$i]['picture']               = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
-        $buddies['data'][$i]['pictureInternal']       = PICTURE_LOCAL_BUDDY_RENDER . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
+        $buddies['data'][$i]['pictureInternal']       = PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $buddies['data'][$i]['websites']['blizzard']  = 'https://playhearthstone.com/battlegrounds/' . $id;
-        $buddies['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/?buddy=' . $id;
+        $buddies['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/buddy/?id=' . $id;
         $buddies['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
 //        $buddies['data'][$i]['websites']['hearthpwn'] = 'https://hearthpwn.com/';
 
