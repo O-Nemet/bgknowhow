@@ -2,10 +2,6 @@
 include_once('../header.php');
 ?>
 
-<?php
-include_once('../functions.php');
-?>
-
 <h2 class="page_title">Endgame Composition: Mechs</h2>
 
 <div class="comp_wrapper">

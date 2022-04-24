@@ -7,9 +7,11 @@ include_once('header.php');
     <p class="intro">
         <b style="font-weight: bold;">"Seven fresh opponents. Are you ready?"</b>
         <br><br>
-        The game of Hearthstone Battlegrounds is a fascinating one...
+        The game of Hearthstone Battlegrounds is a fascinating one... From the hero selection, the matchup lottery, the tavern rolls all the way to the random attacks, every game of Battlegrounds is a different beast of odds, which we aim to tame.
+        <br>
+        And yet
         <br><br>
-        While playing and watching BG streams I picked up many small tidbits of information that improved me as a player. But with over 80 heros and every always around the corner this strategic insight was kinda fleeting. I wanted a place to store this information, so naturally I set up a Google Doc, and quickly learned that
+        While playing and watching BG streams I picked up many small tidbits of information that improved me as a player. But with over 80 heros and every always around the corner this strategic insight was kinda fleeting. I wanted a place to store and find this information quickly. So naturally I set up a Google Doc, and quickly learned the limitations of that approach.
         </br><br>
         If you happen to be totally new to Battlegrounds, I suggest reading about the basics in this excellent <a href="https://hearthstone.fandom.com/wiki/Battlegrounds" target="_blank">introduction article</a>, first.
         <br><br>
