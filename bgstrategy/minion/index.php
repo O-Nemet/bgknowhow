@@ -4,7 +4,7 @@ include_once('../../header.php');
 
 <?php
 $selectedId = $_GET['id'] ?? '';
-$selectedId = htmlspecialchars($selectedId);
+$selectedId = (int)htmlspecialchars($selectedId);
 
 $selectedStrat = $_GET['strat'] ?? '';
 $selectedStrat = (int)htmlspecialchars($selectedStrat);
@@ -73,14 +73,16 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         <br>
 
         <div class="card_wrapper">
-            <h1 class="cardname"><?= $name ?></h1>
+            <h1 class="cardname"><?= $name ?> (<?=$nameShort?>)</h1>
             <div class="card_picture_big">
                 <img src="<?= PICTURE_URL_BIG . $blizzardId . ".webp" ?>" style="border-radius: 0px 0px 0px 10px;" width="460" height="305" alt="The picture of <?= $name ?>">
             </div>
             <div style="position: absolute; width: 200px; right: 249px; top: 10px;">
                 <br>
-                Attack: <span id="count_listed_foil"><?= $attack ?></span><br><br>
-                <b>Health:</b> <span id="count_listed"><?= $health ?></span><br><br>
+                Attack: <span id="count_listed"><?= $attack ?></span><br><br>
+                Health: <span id="count_listed"><?= $health ?></span><br><br>
+                Type: <span id="count_listed"><?= (isset($type) ? $type : 'None') ?></span><br><br>
+                Pool: <span id="count_listed"><?= (isset($pool) ? $pool : 'All') ?></span><br><br>
                 Artist: <span id="low_price" class="price_font"><?= isset($artist) ?></span><br><br>
                 Flavor: <span id="avg_price" class="price_font" style="text-align: left; font-style: italic"><?= isset($flavor) ?></span><br>
             </div>

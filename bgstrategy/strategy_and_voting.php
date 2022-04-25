@@ -53,7 +53,7 @@ else if (strpos($page, '/minion/') !== false) {
             <div class="upvotes" title="Upvote"><p class="button"><a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=1#item<?= $id ?>">&and; (<?= $votesUp ?>)</a></p></div>
             <div class="downvotes" title="Downvote"><p class="button"><a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=2#item<?= $id ?>">&or; (<?= str_pad($votesDown, strlen($votesUp), '0', STR_PAD_LEFT) ?>)</a></p></div>
             <span><?= date('d.m.Y', strtotime($timeCreated)) ?></span>
-            <div class="flagvotes" title="Flag for bad content or outdated information"><p class="button"><a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=3#item<?= $id ?>">X (<?= $votesTrash ?>)</a></p></div>
+            <div class="flagvotes" title="Flag for bad/duplicate content or outdated information"><p class="button"><a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=3#item<?= $id ?>">X (<?= $votesTrash ?>)</a></p></div>
         </div>
     </div>
 <?php
