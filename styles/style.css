@@ -2370,6 +2370,17 @@ root {
     filter: grayscale(100%);
 }
 
+#latest_changes {
+    list-style: disc;
+    line-height: 22px;
+    font-family: Mono;
+    font-size: 18px;
+}
+
+#latest_changes li {
+    margin-left: 35px
+}
+
 .matrix {
     margin: 0 auto;
     width: 988px;
