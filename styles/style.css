@@ -2051,6 +2051,13 @@ root {
 
 .comp_wrapper img {
     width: 124px;
+    transition: transform .2s; /* Animation */
+    /*height: 180px;*/
+}
+
+.comp_wrapper img:hover {
+    transform: scale(2);
+    /*width: 248px;*/
     /*height: 180px;*/
 }
 
@@ -2334,10 +2341,12 @@ root {
 
 .strategy-images img {
     width: 200px;
+    transition: transform .2s; /* for hover animation */
 }
 
 .strategy-images img:hover {
     filter: contrast(130%);
+    transform: scale(1.25);
     /*filter: saturate(3);*/
     /*filter: hue-rotate(90deg);*/
 }
