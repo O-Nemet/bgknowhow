@@ -12,9 +12,9 @@
                 </small>
             </nav>
             <small style="font-size: 10px;">
-                Blizzard, Hearthstone, and their logos are trademarks of Blizzard Entertainment in the United States and other countries. @ 2022 Blizzard Entertainment. All Rights Reserved.
+                Hearthstone®: Heroes of Warcraft™ ©2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of Warcraft is a trademark, and Hearthstone is a registered trademark of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
                 <br>
-                BGKnowHow is not affiliated with, endorsed, sponsored, or specifically approved by Blizzard Entertainment. This website may use the trademarks and other intellectual property of Blizzard LLC, which is permitted under Blizzards' Fan Site Policy.
+                BGKnowHow is not affiliated with, endorsed, sponsored, or specifically approved by Blizzard Entertainment, Inc. This website may use the trademarks and other intellectual property of Blizzard Entertainment, Inc., which is permitted under Blizzards' fan site policy.
             </small>
 
         </footer>
