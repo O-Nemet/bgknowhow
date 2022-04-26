@@ -81,6 +81,7 @@ if (!empty($_GET['show'])) {
                     ?>
                     </tbody>
                 </table>
+                <br>
 
                 <?php
             }
@@ -97,9 +98,7 @@ if (!empty($_GET['show'])) {
                 echo "</div>";
             } else if ($show == 'buddies' || $show == 'all') {
                 ?>
-
-                <br><br>
-
+                <br>
                 <table class="strategy-table">
                     <thead>
                     <tr>
@@ -127,9 +126,7 @@ if (!empty($_GET['show'])) {
                     ?>
                     </tbody>
                 </table>
-
-                <br><br>
-
+                <br>
                 <?
             }
             ?>
@@ -140,8 +137,6 @@ if (!empty($_GET['show'])) {
             }
 
             if ($show == 'minions' && $mode == 'gfx') {
-//                echo '<h2 class="page_title" style="margin-top: 40px">Minions</h2>';
-
                 echo "<div class='strategy-images cf'>";
                 foreach ($minions as $minion) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
@@ -154,7 +149,7 @@ if (!empty($_GET['show'])) {
                 echo "</div>";
             } else if ($show == 'minions' || $show == 'all') {
                 ?>
-
+                <br>
                 <table class="strategy-table">
                     <thead>
                     <tr>
