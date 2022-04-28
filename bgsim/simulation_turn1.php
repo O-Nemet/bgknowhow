@@ -4,174 +4,276 @@ include_once('../header.php');
 
 <?php
 
-class Battlefield {
-    private array $slotsP1 = [[],[],[],[],[],[],[]];
-    private array $slotsP2 = [[],[],[],[],[],[],[]];
-
-    public function setSlot($player, $slot, $minion) {
-        $slotsP1[$slot] = $minion;
-    }
-
-    public function getSlot($player, $slot) {
-        return ($player === 1 ? $this->slotsP1[$slot] : $this->slotsP2[$slot]);
-    }
-}
-
-$player1TotalDamage = 0;
-$player2TotalDamage = 0;
-
-//$tempString  = ;
-$tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
-$needle      = 1;
-//var_dump($tempMinions->data);
-
-foreach ($tempMinions->data as $key => $object) {
-    if ($object->tier === $needle && $object->isToken === false) {
-        $minions[] = $object;
-    }
-}
-
-//$minions     = array_filter($tempMinions->data, function ($var) use ($needle) {
-//    return ($var['tier'] == $needle);
-//});
-//   var_dump($minions);
-?>
-
-<h2 class="page_title">Simulation: 1st Turn</h2>
-
-<p>
-    This is a dynamically generated matrix featuring the matchups of all tier 1 minions on turn 1.<br>
-    The number in the square shows how much damage you will deal/receive (on top of your turn 1-star damage).<br>
-    The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.
-    <br><br>
-    Warning: The code is not finished, yet. Currently, only Shields are integrated, while Deathrattle and Tokens are not.<br>
-    In the future you'll also be able to filter out banned minion types.
-</p>
-
-<br>
-
-<div class="typeFilter">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_beasts.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_demons.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_dragons.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" width="120">
-</div>
-
-<br><br>
-
-<div class="matrix">
-    <?php
-    echo "<div class='matrix-row' style='visibility: hidden;'>X</div>";
-    foreach ($minions as $minion_top) {
-        echo "<div class='matrix-column'>$minion_top->nameShort</div>";
-    }
-    echo "<div class='matrix-column' style='background-color: white !important;'>Losses</div>";
-    echo "<div class='matrix-column' style='background-color: white !important;'>Buddy Dmg</div>";
-    foreach ($minions as $minion_left) {
-        $i                         = 0;
-        $minion_left->combatLosses = 0;
-        $player1TotalDamage        = 0;
-//        $minion_left->buddyDmg = 0;
-        echo "<div class='matrix-row'>$minion_left->name</div>";
-        foreach ($minions as $minion_top) {
-            $i++;
-            $combatResult              = getCombatResult($minion_left, $minion_top);
-            $minion_left->combatLosses = ($combatResult === -1) ? $minion_left->combatLosses + 1 : $minion_left->combatLosses + 0;
-            echo "<div class='" . getCellColor($combatResult) . "'>" . $combatResult . "</div>";
-        }
-//        $minion_left->buddyDmg = $minion_left->buddyDmg + 1;
-        echo "<div>" . str_pad($minion_left->combatLosses, 2, '0', STR_PAD_LEFT) . "/" . $i . "</div>";
-        echo "<div>" . number_format($player1TotalDamage / $i, 2) . "</div>";
-        echo "<br><br>";
-    }
-    ?>
-</div>
-
-<?php
-function getCombatResult($minionP1, $minionP2): int
+class Minion
 {
-    global $player1TotalDamage;
-    global $player2TotalDamage;
+    private string $id;
+    private int    $position       = -1;
+    private string $name;
+    private int    $attack;
+    private int    $health;
+    private int    $tier;
+    private bool   $hasShield      = false;
+    private bool   $hasDeathrattle = false;
+    private bool   $hasReborn      = false;
 
-    $minion1 = clone $minionP1;
-    $minion2 = clone $minionP2;
+    public function __construct($id)
+    {
+        $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
 
-//    if ($minion1->name == 'Pupbot') {
-//        var_dump($minion1);
-//    }
-
-    $resetShield1 = 0;
-    $resetShield2 = 0;
-    while ($minion1->health > 0 && $minion2->health > 0) {
-
-//        echo $minion1->attack . "/" . $minion1->health . " vs " . $minion2->attack . "/" . $minion2->health . "<br>";
-
-//        var_dump($minion1->abilities);
-
-        if ($minion1->abilities->hasShield == true) {
-//            echo $minion1->name;
-            $minion1->abilities->hasShield = false;
-            $resetShield1                  = 1;
-        } else {
-//            echo $minion1->health . "*" . $minion2->attack;
-            $minion1->health    = $minion1->health - $minion2->attack;
-            $player2TotalDamage = $player2TotalDamage + $minion2->attack;
-//            var_dump($minion1);
-//            echo $minion1->health;
+        foreach ($tempMinions->data as $key => $object) {
+            if ($object->blizzardId === $id && $object->isActive === true) {
+                $this->id             = $object->blizzardId;
+                $this->name           = $object->name;
+                $this->attack         = $object->attack;
+                $this->health         = $object->health;
+                $this->tier           = $object->tier;
+                $this->hasShield      = $object->abilities->hasShield;
+                $this->hasDeathrattle = $object->abilities->hasDeathrattle;
+                $this->hasReborn      = $object->abilities->hasReborn;
+            }
         }
-
-        if ($minion2->abilities->hasShield == true) {
-            $minion2->abilities->hasShield = false;
-            $resetShield2                  = 1;
-//            echo $minion2->name;
-        } else {
-            $minion2->health    = $minion2->health - $minion1->attack;
-            $player1TotalDamage = $player1TotalDamage + $minion1->attack;
-        }
-//        echo $minion1->attack . "/" . $minion1->health . " vs " . $minion2->attack . "/" . $minion2->health . "<br>";
-
     }
 
-    if ($resetShield1) $minion1->abilities->hasShield = true;
-    if ($resetShield2) $minion2->abilities->hasShield = true;
-//    var_dump($minion1);
-//    echo "<br>";
-//    var_dump($minion2);
-
-    $minion1->health = ($minion1->health < 0) ? 0 : $minion1->health;
-    $minion2->health = ($minion2->health < 0) ? 0 : $minion2->health;
-
-    if ($minion1->health > $minion2->health) {
-        unset($minion1);
-        unset($minion2);
-        return 1;
-    } else if ($minion1->health < $minion2->health) {
-        unset($minion1);
-        unset($minion2);
-        return -1;
-    } else {
-        unset($minion1);
-        unset($minion2);
-        return 0;
+    public function killMinion()
+    {
+//        $this->
     }
 
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function getAttack(): int
+    {
+        return $this->attack;
+    }
+
+    public function getHealth(): int
+    {
+        return $this->health;
+    }
+
+    public function getHasShield(): bool
+    {
+        return $this->hasShield;
+    }
+
+    public function setHasShield(bool $hasShield): void
+    {
+        $this->hasShield = $hasShield;
+    }
+
+    public function setHealth(int $damage): void
+    {
+        if (($this->health - $damage <= 0) && $this->hasShield) {
+            $this->hasShield = false;
+        } else {
+            $this->health = $this->health - $damage;
+        }
+    }
+
+    public function getHasDeathrattle(): bool
+    {
+        return $this->hasDeathrattle;
+    }
+
+    public function setHasDeathrattle(bool $hasDeathrattle): void
+    {
+        $this->hasDeathrattle = $hasDeathrattle;
+    }
+
+    public function getHasReborn(): bool
+    {
+        return $this->hasReborn;
+    }
+
+    public function setHasReborn(bool $hasReborn): void
+    {
+        $this->hasReborn = $hasReborn;
+    }
+
+    public function getPosition(): int
+    {
+        return $this->position;
+    }
+
+    public function setPosition(int $position): void
+    {
+        $this->position = $position;
+    }
+
+    public function getIsDead(): bool
+    {
+        return ($this->health < 0 ? true : false);
+    }
+
+    public function getTier(): int
+    {
+        return $this->tier;
+    }
+
+    public function setTier(int $tier): void
+    {
+        $this->tier = $tier;
+    }
 }
 
-function getCellColor($combatResult): string
+class Battlefield
 {
-    if ($combatResult === 1) {
-        return 'win';
-    } else if ($combatResult === -1) {
-        return 'loss';
-    } else {
-        return 'draw';
+//    private array $slotsP1 = [[], [], [], [], [], [], []];
+    private array $slots         =
+        [1 => ['x', 'x', 'x', 'x', 'x', 'x', 'x'], 2 => ['x', 'x', 'x', 'x', 'x', 'x', 'x']];
+    private int   $totalDamageP1 = 0;
+    private int   $totalDamageP2 = 0;
+    private int   $totalMinionDamageP1 = 0;
+    private int   $totalMinionDamageP2 = 0;
+
+    public function __construct()
+    {
+//        echo $this->slots[1][1];
+//        $this->slotsP1[0] = [['x'], ['x'], ['x'], ['x'], ['x'], ['x'], ['x']];
+    }
+
+    public function spawnMinion($minion)
+    {
+
+    }
+
+    public function getLoserDamage() {
+        
+        for  ($i = 0; $i < 6; $i++) {
+            if (is_object($this->slots[1][$i])) {
+                $this->totalDamageP2 += $this->slots[1][$i]->getTier();
+            }
+        }
+
+        for  ($i = 0; $i < 6; $i++) {
+            if (is_object($this->slots[2][$i])) {
+                $this->totalDamageP1 += $this->slots[2][$i]->getTier();
+            }
+        }
+
+        echo "<br>";
+        echo "P1 TotalDamage: " . $this->totalDamageP1 . " | MinionDamage: " . $this->totalMinionDamageP1;
+        echo "<br>";
+        echo "P2 TotalDamage: " . $this->totalDamageP2 . " | MinionDamage: " . $this->totalMinionDamageP2;
+        echo "<br>";
+    }
+
+
+    /**
+     * @throws Exception
+     */
+    public function runFight()
+    {
+        $attacker           = 0;
+        $allDead     = false;
+        $foundMinion = false;
+        $minion      = $this->slots[1][$attacker];
+        // first found minion attacks random enemy minion (TODO: random instead of 3 + taunt)
+        while (!$allDead) {
+            echo $attacker . "|";
+            if (is_object($minion)) {
+                $foundMinion = true;
+                echo "<-";
+
+                // find target
+                $defender = 0;
+//                while ($this->slots[2][$defender]) {
+//                    if (is_object($minion)) {
+//                }
+                $target = random_int(0,6);
+                $this->runAttack($this->slots[1][$attacker], $this->slots[2][$defender]);
+            }
+            $attacker++;
+
+            // no minions left on the board
+            if ($attacker > 6 && $foundMinion == false) {
+                $allDead = true;
+            } else {
+                // reset at the end of the board
+                if ($attacker > 6) {
+                    $attacker    = 0;
+                    $foundMinion = false;
+                }
+                $minion = $this->slots[1][$i];
+            }
+        }
+    }
+
+    public function runAttack($minion1, $minion2)
+    {
+//        print_r($minion1);
+//        var_dump($minion2);
+        // attack P1
+        $minion2->setHealth($minion1->getAttack());
+        $this->totalMinionDamageP1 += $minion1->getAttack();
+
+        // attack P2
+        $minion1->setHealth($minion2->getAttack());
+        $this->totalMinionDamageP2 += $minion2->getAttack();
+
+        // check for death
+        if ($minion1->getHealth() < 1) {
+            $this->setSlot(1, $minion1->getPosition(), 'x');
+        }
+        if ($minion2->getHealth() < 1) {
+            $this->setSlot(2, $minion2->getPosition(), 'x');
+        }
+    }
+
+    public function setSlot($player, $slot, $minion)
+    {
+        if (is_object($minion)) {
+            $minion->setPosition($slot);
+        } else {
+            // kill minion
+            $realMinion = $this->getSlot($player, $slot);
+//            var_dump($realMinion);
+            $realMinion->setPosition(-1);
+        }
+        $this->slots[$player][$slot] = $minion;
+    }
+
+    public function getSlot($player, $slot)
+    {
+        return $this->slots[$player][$slot];
+    }
+
+    public function getPlayer($player)
+    {
+//        echo "<pre>";
+//        var_dump($this->slots);
+//        echo "</pre>";
+
+        foreach ($this->slots[$player] as $minion) {
+            $name = 'x';
+            if (is_object($minion)) {
+                $name = $minion->getName();
+            }
+            echo "[$name]";
+        }
     }
 }
 
+
+$battlefield = new Battlefield();
+$battlefield->setSlot(1, 3, new Minion('BGS_122'));
+$battlefield->setSlot(2, 3, new Minion('BG21_022'));
+$battlefield->getPlayer(1);
+echo "<br>";
+$battlefield->getPlayer(2);
+echo "<br><br>";
+$battlefield->runFight();
+echo "<br><br>";
+$battlefield->getPlayer(1);
+echo "<br>";
+$battlefield->getPlayer(2);
+echo "<br><br>";
+$battlefield->getLoserDamage();
+
+include_once('index.php');
 ?>
 
 <?php

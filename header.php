@@ -28,6 +28,11 @@ require_once('config/db.php');
 
 <body style="background-color: antiquewhite">
 
+<?php
+//$url =  "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+//echo parse_url($url, PHP_URL_PATH)
+?>
+
 <header class="cf">
     <div id="website_logo"><img src="<?= IMG_PATH ?>/icons/logo_battlegrounds.webp" width="80" height="80" alt="The HS Battlegrounds logo"></div>
 
@@ -85,11 +90,11 @@ require_once('config/db.php');
                         </div>
                     </li>
                     <li class="menu-hover">
-                        <a class="menu-topic" href="//bgknowhow.com/bgsim/simulation_turn1.php">Simulator</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgsim/index.php">Simulator</a>
                         <div class="menu-container-1">
                             <div class="menu-column-1">
                                 <ul>
-                                    <li><a href="//bgknowhow.com/bgsim/simulation_turn1.php">...Turn-1 Minion Matrix</a></li>
+                                    <li><a href="//bgknowhow.com/bgsim/index.php">...Turn-1 Minion Matrix</a></li>
                                     <li><a href="#">...Custom Board</a></li>
                                 </ul>
                             </div>
@@ -103,7 +108,7 @@ require_once('config/db.php');
                                     <li><a href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">...Heroes</a></li>
                                     <li><a href="//bgknowhow.com/bgstrategy/?show=buddies&mode=gfx">...Buddies</a></li>
                                     <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">...Minions</a></li>
-                                    <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=txt">...All Entities</a></li>
+                                    <li><a href="//bgknowhow.com/bgstrategy/?mode=txt">...All Entities</a></li>
                                     <li><a href="#">...General strategy</a></li>
                                 </ul>
                             </div>
