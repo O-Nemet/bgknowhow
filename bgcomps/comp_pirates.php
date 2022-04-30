@@ -13,7 +13,7 @@ include_once('../header.php');
         echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
     }
 
-    $board   = ['Scally', 'Scally', 'Dong', 'Eliza', 'Eliza', 'Khadgar', 'Baron'];
+    $board   = ['Scally', 'Scally', 'Eliza', 'Eliza', 'Khadgar', 'Khadgar', 'Baron'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {
