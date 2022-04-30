@@ -109,7 +109,7 @@ require_once('config/db.php');
                                     <li><a href="//bgknowhow.com/bgstrategy/?show=buddies&mode=gfx">...Buddies</a></li>
                                     <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">...Minions</a></li>
                                     <li><a href="//bgknowhow.com/bgstrategy/?mode=txt">...All Entities</a></li>
-                                    <li><a href="#">...General strategy</a></li>
+                                    <li><a href="//bgknowhow.com/bgstrategy/general.php">...General strategy</a></li>
                                 </ul>
                             </div>
                         </div>
