@@ -2209,7 +2209,7 @@ root {
     bottom: 0;
     right: 0;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.2;
     z-index: 1;
 }
 
@@ -2355,6 +2355,15 @@ root {
     display: block;
     margin-top: -25px;
     font-weight: bold;
+}
+
+.tier-table {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.tier-table tbody tr td {
+    text-align: center;
 }
 
 .typeFilter img {
