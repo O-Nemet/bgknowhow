@@ -120,14 +120,15 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.flag_reborn,                                     
                                      bgm.flag_avenge,                                                                          
                                      bgm.id_blizzard,                                   
-                                     bgm.artist                                                                        
+                                     bgm.artist,
+                                     bgm.flavor
                                 FROM bg_minions bgm
 --                               WHERE bgm.flag_active = ?
-                            ORDER BY bgm.tier, bgm.name ASC")) {
+                            ORDER BY bgm.flag_token, bgm.tier, bgm.name")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist);
+    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist, $flavor);
 
     $row_count = $stmt->num_rows;
 
@@ -154,7 +155,8 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         'Avenge' . CSV_SEPARATOR .
         'Blizzard ID' . CSV_SEPARATOR .
         'Picture Link' . CSV_SEPARATOR .
-        'Artist' . PHP_EOL;
+        'Artist' . CSV_SEPARATOR .
+        'Flavor' . PHP_EOL;
     $csvData   = $csvHeader;
 
     // json metadata
@@ -167,7 +169,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $type . CSV_SEPARATOR .
-            $pool . CSV_SEPARATOR .
+            ($pool ? $pool : 'All') . CSV_SEPARATOR .
             $tier . CSV_SEPARATOR .
             $attack . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
@@ -186,12 +188,13 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             (bool)$hasAvenge . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
-            $artist . PHP_EOL;
+            $artist . CSV_SEPARATOR .
+            $flavor . PHP_EOL;
 
         $minions['data'][$i]['name']                        = $name;
         $minions['data'][$i]['nameShort']                   = $nameShort;
         $minions['data'][$i]['type']                        = $type;
-        $minions['data'][$i]['pool']                        = $pool;
+        $minions['data'][$i]['pool']                        = ($pool ? $pool : 'All');
         $minions['data'][$i]['tier']                        = $tier;
         $minions['data'][$i]['attack']                      = $attack;
         $minions['data'][$i]['health']                      = $health;
@@ -212,6 +215,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
         $minions['data'][$i]['pictureInternal']             = PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $minions['data'][$i]['artist']                      = $artist;
+        $minions['data'][$i]['flavor']                      = $flavor;
         $minions['data'][$i]['websites']['blizzard']        = 'https://playhearthstone.com/battlegrounds/' . $id;
         $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/bgstrategy/minion/?id=' . $id;
         $minions['data'][$i]['websites']['fandom']          = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
