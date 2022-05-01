@@ -3,9 +3,12 @@ include_once('../header.php');
 ?>
 
 <?php
+//require_once('../functions.php');
+require_once('classes.php');
+
+StopWatch::start();
 
 $player1TotalDamage = 0;
-$player2TotalDamage = 0;
 
 //$tempString  = ;
 $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
@@ -24,10 +27,11 @@ foreach ($tempMinions->data as $key => $object) {
 
 <p>
     This is a dynamically generated matrix featuring the matchups of all tier 1 minions on turn 1.<br>
-    The number in the square shows how much damage you will deal/receive (on top of your turn 1-star damage).<br>
-    The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.
+    The number in the square shows how much damage you will deal/receive from the board (in addition to the turn 1 damage).<br>
+    The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.<br>
+    For this scenario the Razorfen Geomancer has been self-gemmed to a 4/2 minion.
     <br><br>
-    Warning: The code is not finished, yet. Currently, only Shields are integrated, while Deathrattle and Tokens are not.<br>
+    Warning: The code is not 100% finished, yet. Currently still missing the Red Whelp effect.<br>
     In the future you'll also be able to filter out banned minion types.
 </p>
 
@@ -62,7 +66,7 @@ foreach ($tempMinions->data as $key => $object) {
         echo "<div class='matrix-row'>$minion_left->name</div>";
         foreach ($minions as $minion_top) {
             $i++;
-            $combatResult              = getCombatResult($minion_left, $minion_top);
+            $combatResult              = getCombatResult($minion_left->blizzardId, $minion_top->blizzardId);
             $minion_left->combatLosses = ($combatResult === -1) ? $minion_left->combatLosses + 1 : $minion_left->combatLosses + 0;
             echo "<div class='" . getCellColor($combatResult) . "'>" . $combatResult . "</div>";
         }
@@ -71,11 +75,23 @@ foreach ($tempMinions->data as $key => $object) {
         echo "<div>" . number_format($player1TotalDamage / $i, 2) . "</div>";
         echo "<br><br>";
     }
+    echo '<br><br><span style="font-style: italic; font-size: 12px;">Simulated in: '. number_format(StopWatch::elapsed(), 4) .' seconds.</span>';
     ?>
 </div>
 
 <?php
-function getCombatResult($minionP1, $minionP2): int
+function getCombatResult($id1, $id2): int
+{
+    $battlefield = new Battlefield();
+    $battlefield->spawnMinion(1, 3, new Minion($id1));
+    $battlefield->spawnMinion(2, 3, new Minion($id2));
+    $battlefield->runFight();
+
+    return $battlefield->getLoserDamage();
+}
+
+
+function getCombatResultOld($minionP1, $minionP2): int
 {
     global $player1TotalDamage;
     global $player2TotalDamage;

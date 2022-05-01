@@ -23,10 +23,6 @@ if (!empty($_GET['show'])) {
         } else if (!empty($minion)) {
             echo "minion " . $minion;
         } else {
-            $tempHeroes  = json_decode(file_get_contents('../bgjson/output/bg_heroes_all.json'));
-            $tempBuddies = json_decode(file_get_contents('../bgjson/output/bg_buddies_all.json'));
-            $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
-
             foreach ($tempHeroes->data as $key => $object) {
                 $heroes[] = $object;
             }
