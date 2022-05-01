@@ -71,6 +71,7 @@ include_once('../header.php');
 
     <p><u>Latest Changes:</u></p>
     <ul id="latest_changes">
+        <li>26.04.2022 - Added BG changes from the patch notes.</li>
         <li>24.04.2022 - Fixed the Hp-Blizzard-IDs for the newer heroes (a 'p' was missing at the end).</li>
         <li>22.04.2022 - Added the blizzardId as a separate attribute to the heroes/buddies/minions datasets.</li>
         <li>21.04.2022 - Switched the picture links for minions/buddies/heropowers to the correct BG images (whoopsie!).</li>
