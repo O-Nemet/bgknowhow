@@ -8,19 +8,11 @@ include_once('../header.php');
     <?php
     $board = ['Bonker', 'Dong', 'Brute', 'Pumba', 'Shaker', 'Flat Tusk', 'Duo'];
     $minions = getMinionsForBoard($board);
+    drawBoard($minions);
 
-    foreach ($minions as $minion) {
-        echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
-    }
-    ?>
-    <br>
-    <?php
     $board = ['Hydra', 'Trickster', 'Dong', 'Warden', 'Aggem', 'Flat Tusk', 'Duo'];
     $minions = getMinionsForBoard($board);
-
-    foreach ($minions as $minion) {
-    echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
-    }
+    drawBoard($minions);
     ?>
 </div>
 

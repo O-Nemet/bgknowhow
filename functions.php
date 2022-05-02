@@ -146,11 +146,13 @@ function getMinionsForBoard($board): array
                 if ($object->name === $needleNew) {
                     $minions[$i]['name']    = $object->name;
                     $minions[$i]['picture'] = $object->pictureInternal;
+                    $minions[$i]['url']     = $object->websites->bgknowhow;
                 }
             } else {
                 if ($object->nameShort === $needle) {
                     $minions[$i]['name']    = $object->name;
                     $minions[$i]['picture'] = $object->pictureInternal;
+                    $minions[$i]['url']     = $object->websites->bgknowhow;
                 }
             }
         }
@@ -162,6 +164,12 @@ function getMinionsForBoard($board): array
 //echo "</pre>";
 
     return $minions;
+}
+
+function drawBoard($minions) {
+    foreach ($minions as $minion) {
+        echo '<a href="' . $minion['url'] . '"><img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title=""></a>';
+    }
 }
 
 function getArmor($armorTier): string

@@ -6,21 +6,13 @@ include_once('../header.php');
 
 <div class="comp_wrapper">
     <?php
-    $board = ['Macaw', 'Macaw', 'Hydra', 'Hydra', 'Goldrinn', 'Goldrinn', 'Baron'];
+    $board   = ['Macaw', 'Macaw', 'Hydra', 'Hydra', 'Goldrinn', 'Goldrinn', 'Baron'];
     $minions = getMinionsForBoard($board);
+    drawBoard($minions);
 
-    foreach ($minions as $minion) {
-        echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
-    }
-    ?>
-    <br>
-    <?php
-    $board = ['Leaper', 'Macaw', '*Sewer Rat', '*Sewer Rat', '*Rat Pack', '*Rat Pack', 'Baron'];
+    $board   = ['Leaper', 'Macaw', '*Sewer Rat', '*Sewer Rat', '*Rat Pack', '*Rat Pack', 'Baron'];
     $minions = getMinionsForBoard($board);
-
-    foreach ($minions as $minion) {
-    echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
-    }
+    drawBoard($minions);
     ?>
 </div>
 

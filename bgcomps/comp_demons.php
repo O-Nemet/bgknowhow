@@ -6,30 +6,17 @@ include_once('../header.php');
 
 <div class="comp_wrapper">
     <?php
-    $board = ['Selfless', 'Ur\'zul', 'Dong', 'Dong', 'Mama', 'Felbat', 'Baron'];
+    $board   = ['Selfless', 'Ur\'zul', 'Dong', 'Dong', 'Mama', 'Felbat', 'Baron'];
     $minions = getMinionsForBoard($board);
+    drawBoard($minions);
 
-    foreach ($minions as $minion) {
-        echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
-    }
-    ?>
-    <br>
-    <?php
-    $board = ['Macaw', 'Trickster', 'Trickster', 'Dong', 'Felbat', 'Felbat', 'Mama'];
+    $board   = ['Macaw', 'Trickster', 'Trickster', 'Dong', 'Felbat', 'Felbat', 'Mama'];
     $minions = getMinionsForBoard($board);
+    drawBoard($minions);
 
-    foreach ($minions as $minion) {
-    echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
-    }
-    ?>
-    <br>
-    <?php
-    $board = ['*Ring Matron', '*Ring Matron', 'Voidlord', 'Voidlord', 'Infernal', 'Juggler', 'Juggler'];
+    $board   = ['*Ring Matron', '*Ring Matron', 'Voidlord', 'Voidlord', 'Infernal', 'Juggler', 'Juggler'];
     $minions = getMinionsForBoard($board);
-
-    foreach ($minions as $minion) {
-    echo '<img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title="">';
-    }
+    drawBoard($minions);
     ?>
 </div>
 
