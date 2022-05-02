@@ -2,11 +2,11 @@
 include_once('../header.php');
 ?>
 
-<h2 class="page_title">Endgame Composition: Mechs</h2>
+<h2 class="page_title">Standard Compositions: Mechs</h2>
 
 <div class="comp_wrapper">
     <?php
-    $board   = ['Deflecto', 'Deflecto', 'Mecherel', 'Pupbot', 'Golem', 'Mummy', 'Mecherel'];
+    $board   = ['Deflecto', 'Deflecto', 'Mecherel', 'Pupbot', '*Harvest Golem', 'Mummy', 'Mecherel'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {
@@ -14,7 +14,7 @@ include_once('../header.php');
     }
     ?>
     <?php
-    $board   = ['Buster', 'Reaper', 'Mecherel', 'Deflecto', 'Buster', 'Kangor\'s', 'Baron'];
+    $board   = ['Buster', 'Buster', 'Reaper', 'Deflecto', 'Kangor\'s', 'Kangor\'s', 'Baron'];
     $minions = getMinionsForBoard($board);
 
     foreach ($minions as $minion) {

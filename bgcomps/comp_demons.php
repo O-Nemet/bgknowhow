@@ -2,7 +2,7 @@
 include_once('../header.php');
 ?>
 
-<h2 class="page_title">Endgame Composition: Demons</h2>
+<h2 class="page_title">Standard Compositions: Demons</h2>
 
 <div class="comp_wrapper">
     <?php
