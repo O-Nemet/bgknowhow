@@ -24,6 +24,10 @@ const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // 
 const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
+$tempHeroes  = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
+$tempBuddies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
+$tempMinions = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
+
 function getWebsiteTitle(): string
 {
     $title = '';
@@ -51,16 +55,29 @@ function getWebsiteTitle(): string
         $title .= 'BG Comps (Pirates) - ';
     } else if (strpos($page, '/bgcomps/comp_quilboars') !== false) {
         $title .= 'BG Comps (Quilboars) - ';
+    } else if (strpos($page, '/bgstrategy/?show=heroes') !== false) {
+        $title .= 'BG Strategy Heroes - ';
+    } else if (strpos($page, '/bgstrategy/?show=buddies') !== false) {
+        $title .= 'BG Strategy Buddies - ';
+    } else if (strpos($page, '/bgstrategy/?show=minions') !== false) {
+        $title .= 'BG Strategy Minions - ';
+    } else if (strpos($page, '/bgstrategy/hero/') !== false) {
+        $title .= 'BG Strategy Hero - ';
+    } else if (strpos($page, '/bgstrategy/buddy/') !== false) {
+        $title .= 'BG Strategy Buddy - ';
+    } else if (strpos($page, '/bgstrategy/minion/') !== false) {
+        $title .= 'BG Strategy Minion - ';
     } else if (strpos($page, '/bgstrategy/') !== false) {
-        $title .= 'BG Strategy - ';
+        $title .= 'BG Strategy All - ';
     }
 
-    $title .= 'Battlegrounds Know How (beta)';
+    $title .= 'Battlegrounds Know How';
 
     return $title;
 }
 
-function setVote($selectedStrat, $selectedVote) {
+function setVote($selectedStrat, $selectedVote)
+{
     include('config/db.php');
 
     if ($selectedVote == 1) {
