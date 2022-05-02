@@ -2334,9 +2334,9 @@ root {
 /*filter: contrast(130%);*/
 /*}*/
 
-.strategy-images .tile img {
-    border: 2px black solid;
-    border-radius: 5px;
+.strategy-images .tile:hover .image {
+    /*border: 2px #2E76CF solid;*/
+    filter: contrast(130%);
 }
 
 .strategy-images img {
