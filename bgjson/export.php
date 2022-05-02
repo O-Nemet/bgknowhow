@@ -8,6 +8,7 @@ $getActiveOnly = 1;
 // generate heroes files
 if ($stmt = $mysqli->prepare("SELECT bgh.id,
                                      bgh.name,
+                                     bgh.name_short,
                                      bgh.health,
                                      bgh.armor_tier,
                                      bgh.id_blizzard,
@@ -21,12 +22,13 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $health, $armorTier, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive);
+    $stmt->bind_result($id, $name, $nameShort, $health, $armorTier, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive);
 
     $row_count = $stmt->num_rows;
 
     $csvHeader =
         'Name' . CSV_SEPARATOR .
+        'Name Short' . CSV_SEPARATOR .
         'Health' . CSV_SEPARATOR .
         'Armor-Tier' . CSV_SEPARATOR .
         'Armor' . CSV_SEPARATOR .
@@ -47,6 +49,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     while ($stmt->fetch()) {
         $csvData .=
             $name . CSV_SEPARATOR .
+            $nameShort . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
             $armorTier . CSV_SEPARATOR .
             getArmor($armorTier) . CSV_SEPARATOR .
@@ -59,6 +62,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             (bool)$isActive . PHP_EOL;
 
         $heroes['data'][$i]['name']                  = $name;
+        $heroes['data'][$i]['nameShort']             = $nameShort;
         $heroes['data'][$i]['health']                = $health;
         $heroes['data'][$i]['armorTier']             = $armorTier;
         $heroes['data'][$i]['armor']                 = getArmor($armorTier);
@@ -119,7 +123,8 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.flag_windfury,                                     
                                      bgm.flag_reborn,                                     
                                      bgm.flag_avenge,                                                                          
-                                     bgm.id_blizzard,                                   
+                                     bgm.id_blizzard,
+                                     bgm.id_summon,
                                      bgm.artist,
                                      bgm.flavor
                                 FROM bg_minions bgm
@@ -128,7 +133,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist, $flavor);
+    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $summonId, $artist, $flavor);
 
     $row_count = $stmt->num_rows;
 
@@ -154,6 +159,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         'Reborn' . CSV_SEPARATOR .
         'Avenge' . CSV_SEPARATOR .
         'Blizzard ID' . CSV_SEPARATOR .
+        'Summon ID' . CSV_SEPARATOR .
         'Picture Link' . CSV_SEPARATOR .
         'Artist' . CSV_SEPARATOR .
         'Flavor' . PHP_EOL;
@@ -187,6 +193,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             (bool)$hasReborn . CSV_SEPARATOR .
             (bool)$hasAvenge . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
+            $summonId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             $artist . CSV_SEPARATOR .
             $flavor . PHP_EOL;
@@ -212,6 +219,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['abilities']['hasReborn']      = (bool)$hasReborn;
         $minions['data'][$i]['abilities']['hasAvenge']      = (bool)$hasAvenge;
         $minions['data'][$i]['blizzardId']                  = $blizzardId;
+        $minions['data'][$i]['summonId']                    = $summonId;
         $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
         $minions['data'][$i]['pictureInternal']             = PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
         $minions['data'][$i]['artist']                      = $artist;
@@ -232,7 +240,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 
     $jsonFile = 'output/bg_minions_all.json';
 //    $jsonFile = 'output/bg_heroes_active.json';
-    $jsonData = json_encode($minions);
+    $jsonData = json_encode(($minions));
     file_put_contents($jsonFile, $jsonData);
 
     if ($row_count > 0) {

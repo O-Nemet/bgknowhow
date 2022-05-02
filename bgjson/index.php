@@ -71,12 +71,14 @@ include_once('../header.php');
 
     <p><u>Latest Changes:</u></p>
     <ul id="latest_changes">
+        <li>02.05.2022 - Added nameShort property (i.e. "Faelin" for "Ambassador Faelin") to the hero datasets.</li>
+        <li>02.05.2022 - Added summonId property (i.e. "CFM_315t" for Alleycat) to the minion datasets (1:1 relation to non-random tokens).</li>
         <li>26.04.2022 - Added BG changes from the patch notes.</li>
         <li>24.04.2022 - Fixed the Hp-Blizzard-IDs for the newer heroes (a 'p' was missing at the end).</li>
-        <li>22.04.2022 - Added the blizzardId as a separate attribute to the heroes/buddies/minions datasets.</li>
+        <li>22.04.2022 - Added the blizzardId as a separate property to the heroes/buddies/minions datasets.</li>
         <li>21.04.2022 - Switched the picture links for minions/buddies/heropowers to the correct BG images (whoopsie!).</li>
         <li>20.04.2022 - Fixed the Blizzard-IDs for Selfless, Spawn and Felfin Navigator.</li>
-        <li>18.04.2022 - Added nameShort (i.e. "Baron" for "Baron Rivendare") to the minion datasets.</li>
+        <li>18.04.2022 - Added nameShort property (i.e. "Baron" for "Baron Rivendare") to the minion datasets.</li>
     </ul>
 
     <br><br>
