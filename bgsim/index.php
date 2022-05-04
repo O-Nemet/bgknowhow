@@ -8,7 +8,7 @@ require_once('classes.php');
 
 StopWatch::start();
 
-$player1TotalDamage = 0;
+//$player1TotalDamage = 0;
 
 //$tempString  = ;
 $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
@@ -31,7 +31,6 @@ foreach ($tempMinions->data as $key => $object) {
     The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.<br>
     For this scenario the Razorfen Geomancer has been self-gemmed to a 4/2 minion.
     <br><br>
-    Warning: The code is not 100% finished, yet. Currently still missing the Red Whelp effect.<br>
     In the future you'll also be able to filter out banned minion types.
 </p>
 
@@ -52,6 +51,8 @@ foreach ($tempMinions->data as $key => $object) {
 
 <div class="matrix">
     <?php
+    $GLOBALS['player1TotalDamage'] = 0;
+
     echo "<div class='matrix-row' style='visibility: hidden;'>X</div>";
     foreach ($minions as $minion_top) {
         echo "<div class='matrix-column'>$minion_top->nameShort</div>";
@@ -61,7 +62,7 @@ foreach ($tempMinions->data as $key => $object) {
     foreach ($minions as $minion_left) {
         $i                         = 0;
         $minion_left->combatLosses = 0;
-        $player1TotalDamage        = 0;
+        $GLOBALS['player1TotalDamage'] = 0;
 //        $minion_left->buddyDmg = 0;
         echo "<div class='matrix-row'>$minion_left->name</div>";
         foreach ($minions as $minion_top) {
@@ -72,7 +73,7 @@ foreach ($tempMinions->data as $key => $object) {
         }
 //        $minion_left->buddyDmg = $minion_left->buddyDmg + 1;
         echo "<div>" . str_pad($minion_left->combatLosses, 2, '0', STR_PAD_LEFT) . "/" . $i . "</div>";
-        echo "<div>" . number_format($player1TotalDamage / $i, 2) . "</div>";
+        echo "<div>" . number_format($GLOBALS['player1TotalDamage'] / $i, 2) . "</div>";
         echo "<br><br>";
     }
     echo '<br><br><span style="font-style: italic; font-size: 12px;">Simulated in: '. number_format(StopWatch::elapsed(), 4) .' seconds.</span>';
@@ -87,77 +88,9 @@ function getCombatResult($id1, $id2): int
     $battlefield->spawnMinion(2, 3, new Minion($id2));
     $battlefield->runFight();
 
+//    echo $battlefield->getTotalMinionDamageDoneP1();
+    $GLOBALS['player1TotalDamage'] += $battlefield->getTotalMinionDamageDoneP1();
     return $battlefield->getLoserDamage();
-}
-
-
-function getCombatResultOld($minionP1, $minionP2): int
-{
-    global $player1TotalDamage;
-    global $player2TotalDamage;
-
-    $minion1 = clone $minionP1;
-    $minion2 = clone $minionP2;
-
-//    if ($minion1->name == 'Pupbot') {
-//        var_dump($minion1);
-//    }
-
-    $resetShield1 = 0;
-    $resetShield2 = 0;
-    while ($minion1->health > 0 && $minion2->health > 0) {
-
-//        echo $minion1->attack . "/" . $minion1->health . " vs " . $minion2->attack . "/" . $minion2->health . "<br>";
-
-//        var_dump($minion1->abilities);
-
-        if ($minion1->abilities->hasShield == true) {
-//            echo $minion1->name;
-            $minion1->abilities->hasShield = false;
-            $resetShield1                  = 1;
-        } else {
-//            echo $minion1->health . "*" . $minion2->attack;
-            $minion1->health    = $minion1->health - $minion2->attack;
-            $player2TotalDamage = $player2TotalDamage + $minion2->attack;
-//            var_dump($minion1);
-//            echo $minion1->health;
-        }
-
-        if ($minion2->abilities->hasShield == true) {
-            $minion2->abilities->hasShield = false;
-            $resetShield2                  = 1;
-//            echo $minion2->name;
-        } else {
-            $minion2->health    = $minion2->health - $minion1->attack;
-            $player1TotalDamage = $player1TotalDamage + $minion1->attack;
-        }
-//        echo $minion1->attack . "/" . $minion1->health . " vs " . $minion2->attack . "/" . $minion2->health . "<br>";
-
-    }
-
-    if ($resetShield1) $minion1->abilities->hasShield = true;
-    if ($resetShield2) $minion2->abilities->hasShield = true;
-//    var_dump($minion1);
-//    echo "<br>";
-//    var_dump($minion2);
-
-    $minion1->health = ($minion1->health < 0) ? 0 : $minion1->health;
-    $minion2->health = ($minion2->health < 0) ? 0 : $minion2->health;
-
-    if ($minion1->health > $minion2->health) {
-        unset($minion1);
-        unset($minion2);
-        return 1;
-    } else if ($minion1->health < $minion2->health) {
-        unset($minion1);
-        unset($minion2);
-        return -1;
-    } else {
-        unset($minion1);
-        unset($minion2);
-        return 0;
-    }
-
 }
 
 function getCellColor($combatResult): string
