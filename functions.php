@@ -133,10 +133,10 @@ function setVote($selectedStrat, $selectedVote)
     }
 }
 
-
+// fetch comp lineup from json
 function getMinionsForBoard($board): array
 {
-    $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
+    global $tempMinions;
 
     $i = 0;
     foreach ($board as $needle) {
@@ -166,6 +166,7 @@ function getMinionsForBoard($board): array
     return $minions;
 }
 
+// generate html for comps board
 function drawBoard($minions) {
     foreach ($minions as $minion) {
         echo '<a href="' . $minion['url'] . '"><img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title=""></a>';

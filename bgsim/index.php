@@ -11,7 +11,7 @@ StopWatch::start();
 //$player1TotalDamage = 0;
 
 //$tempString  = ;
-$tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
+$tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_active.json'));
 $needle      = 1;
 //var_dump($tempMinions->data);
 
@@ -58,7 +58,7 @@ foreach ($tempMinions->data as $key => $object) {
         echo "<div class='matrix-column'>$minion_top->nameShort</div>";
     }
     echo "<div class='matrix-column' style='background-color: white !important;'>Losses</div>";
-    echo "<div class='matrix-column' style='background-color: white !important;'>Buddy Dmg</div>";
+    echo "<div class='matrix-column' style='background-color: white !important;'>Avg Dmg</div>";
     foreach ($minions as $minion_left) {
         $i                         = 0;
         $minion_left->combatLosses = 0;
@@ -67,7 +67,7 @@ foreach ($tempMinions->data as $key => $object) {
         echo "<div class='matrix-row'>$minion_left->name</div>";
         foreach ($minions as $minion_top) {
             $i++;
-            $combatResult              = getCombatResult($minion_left->blizzardId, $minion_top->blizzardId);
+            $combatResult              = getCombatResult($minion_left->id, $minion_top->id);
             $minion_left->combatLosses = ($combatResult === -1) ? $minion_left->combatLosses + 1 : $minion_left->combatLosses + 0;
             echo "<div class='" . getCellColor($combatResult) . "'>" . $combatResult . "</div>";
         }

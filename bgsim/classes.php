@@ -34,11 +34,11 @@ class Minion
 
     public function __construct($id)
     {
-        $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_all.json'));
+        $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_active.json'));
 
         foreach ($tempMinions->data as $key => $object) {
-            if ($object->blizzardId === $id && $object->isActive === true) {
-                $this->id             = $object->blizzardId;
+            if ($object->id === $id && (bool)$object->isActive === true) {
+                $this->id             = $object->id;
                 $this->name           = $object->name;
                 $this->attack         = $object->attack;
                 $this->health         = $object->health;

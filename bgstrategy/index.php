@@ -47,7 +47,7 @@ if (!empty($_GET['show'])) {
             if ($show == 'heroes' && $mode == 'gfx') {
                 echo "<div class='strategy-images cf'>";
                 foreach ($heroes as $hero) {
-                    echo "<div><a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->blizzardId . PICTURE_LOCAL_PORTRAIT_SUFFIX . "'><br><span>" . $hero->name . "</span></a></div>";
+                    echo "<div><a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->id . PICTURE_LOCAL_PORTRAIT_SUFFIX . "'><br><span>" . $hero->name . "</span></a></div>";
                 }
                 echo "</div>";
             } else if ($show == 'heroes' || $show == 'all') {
@@ -89,7 +89,7 @@ if (!empty($_GET['show'])) {
             if ($show == 'buddies' && $mode == 'gfx') {
                 echo "<div class='strategy-images cf'>";
                 foreach ($buddies as $buddy) {
-                    echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->blizzardId . PICTURE_LOCAL_RENDER_SUFFIX . "'></a></div>";
+                    echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX . "'></a></div>";
                 }
                 echo "</div>";
             } else if ($show == 'buddies' || $show == 'all') {
@@ -138,8 +138,8 @@ if (!empty($_GET['show'])) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                         echo "<div class='name'>". $minion->name . "</div>";
                         echo "<div class='mask'></div>";
-//                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->blizzardId . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
-                        echo "<div class='image' style='background-image: url(" . PICTURE_LOCAL_MINION . $minion->blizzardId . PICTURE_LOCAL_TILE_SUFFIX . ")'></div>";
+//                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
+                        echo "<div class='image' style='background-image: url(" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . ")'></div>";
                     echo "</div>";
                 }
                 echo "</div>";
