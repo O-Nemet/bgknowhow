@@ -89,7 +89,7 @@ foreach ($tempMinions->data as $key => $object) {
     <table class="tier-table">
         <thead>
         <tr>
-            <th colspan="10">Minion type count per tier</th>
+            <th colspan="11">Minion type count per tier</th>
         </tr>
         <tr>
             <th>Tavern Tier</th>
@@ -99,6 +99,7 @@ foreach ($tempMinions->data as $key => $object) {
             <th>Elementals</th>
             <th>Mechs</th>
             <th>Murlocs</th>
+            <th>Pirates</th>
             <th>Quilboars</th>
             <th>None</th>
             <th>Total</th>
@@ -115,6 +116,7 @@ foreach ($tempMinions->data as $key => $object) {
             echo "    <td>" . $minion_count['Elemental'][$i] . " (" . ($minion_pool['Elemental'][$i] - $minion_count['Elemental'][$i]) .")</td>";
             echo "    <td>" . $minion_count['Mech'][$i] . " (" . ($minion_pool['Mech'][$i] - $minion_count['Mech'][$i]) .")</td>";
             echo "    <td>" . ($minion_count['Murloc'][$i] ?? 0) . " (" . ($minion_pool['Murloc'][$i] - @$minion_count['Murloc'][$i]) .")</td>";
+            echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) .")</td>";
             echo "    <td>" . $minion_count['Quilboar'][$i] . " (" . ($minion_pool['Quilboar'][$i] - $minion_count['Quilboar'][$i]) .")</td>";
             echo "    <td>" . $minion_count['None'][$i] . "</td>";
             echo "    <td>" . $minion_count['Total'][$i] . "</td>";
