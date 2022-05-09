@@ -196,10 +196,11 @@ body {
 
 #content {
     width: 1000px;
-    min-height: 800px;
+    min-height: 850px;
     background-color: #FFFFFF;
     padding: 0px 10px 0px 10px;
     margin: 0px auto;
+    margin-bottom: 100px;
     border-right: 1px inset;
     border-left: 1px outset;
     /*       background-image: url('../images/bg-body.jpg'); */
@@ -342,6 +343,10 @@ footer {
     min-height: 80px;
     padding: 10px;
     margin: 0px auto;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    z-index: 10;
 }
 
 footer a {
@@ -2077,10 +2082,12 @@ root {
     border: 4px black double;
     width: 400px;
     min-height: 104px;
+    max-height: 208px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     font-size: 17px;
+    overflow-y: auto;
 }
 
 .strategy-input {
@@ -2267,6 +2274,7 @@ root {
 
 .strategy-images {
     margin-left: 55px;
+    /*margin-bottom: 100px;*/
 }
 
 .strategy-images div {
@@ -2437,6 +2445,11 @@ root {
     height: 158px !important;
     background-color: lightblue !important;
     text-align: left !important;
+}
+
+.caption {
+    font-weight: 700;
+    font-style: italic;
 }
 
 /* ==========================================================================
