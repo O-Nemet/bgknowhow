@@ -48,7 +48,7 @@ include_once('../header.php');
         </tr>
         <tr>
             <td>5</td>
-            <td>11</td>
+            <td>9</td>
             <td>5</td>
             <td>9</td>
         </tr>
@@ -89,7 +89,7 @@ foreach ($tempMinions->data as $key => $object) {
     <table class="tier-table">
         <thead>
         <tr>
-            <th colspan="11">Minion type count per tier</th>
+            <th colspan="12">Minion type count per tier</th>
         </tr>
         <tr>
             <th>Tavern Tier</th>
@@ -99,6 +99,7 @@ foreach ($tempMinions->data as $key => $object) {
             <th>Elementals</th>
             <th>Mechs</th>
             <th>Murlocs</th>
+            <th>Naga</th>
             <th>Pirates</th>
             <th>Quilboars</th>
             <th>None</th>
@@ -107,16 +108,17 @@ foreach ($tempMinions->data as $key => $object) {
         </thead>
         <tbody>
         <?php
-        for ($i = 1; $i < 8; $i++) {
+        for ($i = 1; $i <= 7; $i++) {
             echo "<tr>";
             echo "    <td>" . ($i == 7 ? 'Total' : $i) . "</td>";
-            echo "    <td>" . $minion_count['Beast'][$i] . " (" . ($minion_pool['Beast'][$i] - $minion_count['Beast'][$i]) .")</td>";
-            echo "    <td>" . $minion_count['Demon'][$i] . " (" . ($minion_pool['Demon'][$i] - $minion_count['Demon'][$i]) .")</td>";
-            echo "    <td>" . $minion_count['Dragon'][$i] . " (" . ($minion_pool['Dragon'][$i] - $minion_count['Dragon'][$i]) .")</td>";
-            echo "    <td>" . $minion_count['Elemental'][$i] . " (" . ($minion_pool['Elemental'][$i] - $minion_count['Elemental'][$i]) .")</td>";
-            echo "    <td>" . $minion_count['Mech'][$i] . " (" . ($minion_pool['Mech'][$i] - $minion_count['Mech'][$i]) .")</td>";
-            echo "    <td>" . ($minion_count['Murloc'][$i] ?? 0) . " (" . ($minion_pool['Murloc'][$i] - @$minion_count['Murloc'][$i]) .")</td>";
-            echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) .")</td>";
+            echo "    <td>" . $minion_count['Beast'][$i] . " (" . ($minion_pool['Beast'][$i] - $minion_count['Beast'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Demon'][$i] . " (" . ($minion_pool['Demon'][$i] - $minion_count['Demon'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Dragon'][$i] . " (" . ($minion_pool['Dragon'][$i] - $minion_count['Dragon'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Elemental'][$i] . " (" . ($minion_pool['Elemental'][$i] - $minion_count['Elemental'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Mech'][$i] . " (" . ($minion_pool['Mech'][$i] - $minion_count['Mech'][$i]) . ")</td>";
+            echo "    <td>" . ($minion_count['Murloc'][$i] ?? 0) . " (" . ($minion_pool['Murloc'][$i] - @$minion_count['Murloc'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Naga'][$i] . " (" . ($minion_pool['Naga'][$i] - $minion_count['Naga'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Quilboar'][$i] . " (" . ($minion_pool['Quilboar'][$i] - $minion_count['Quilboar'][$i]) .")</td>";
             echo "    <td>" . $minion_count['None'][$i] . "</td>";
             echo "    <td>" . $minion_count['Total'][$i] . "</td>";
