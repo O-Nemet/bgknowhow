@@ -195,17 +195,18 @@ body {
 }
 
 #content {
-    width: 1000px;
+    width: 1100px;
     min-height: 850px;
     background-color: #FFFFFF;
     padding: 0px 10px 0px 10px;
     margin: 0px auto;
-    margin-bottom: 100px;
+    margin-bottom: 92px;
     border-right: 1px inset;
     border-left: 1px outset;
     /*       background-image: url('../images/bg-body.jpg'); */
     background-repeat: repeat;
     position: relative; /* to pin recently viewed to the bottom */
+    top: 92px;
 }
 
 p {
@@ -266,6 +267,8 @@ header {
     margin: 0px auto;
     border-bottom: 1px outset #999999;
     border-top: 1px inset #999999;
+    position: fixed;
+    z-index: 10;
 }
 
 header nav {
@@ -343,10 +346,10 @@ footer {
     min-height: 80px;
     padding: 10px;
     margin: 0px auto;
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*z-index: 10;*/
     width: 99%;
-    z-index: 10;
 }
 
 footer a {
@@ -2233,7 +2236,7 @@ root {
 }
 
 .format-table, .strategy-table {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     margin-bottom: 5px
 }
@@ -2366,7 +2369,7 @@ root {
 }
 
 .tier-table {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -2400,7 +2403,7 @@ root {
 
 .matrix {
     margin: 0 auto;
-    width: 988px;
+    width: 1070px;
     height: 920px;
 }
 
