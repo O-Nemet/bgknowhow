@@ -34,7 +34,7 @@ require_once('config/db.php');
 ?>
 
 <header class="cf">
-    <div id="website_logo"><img src="<?= IMG_PATH ?>/icons/logo_battlegrounds.webp" width="80" height="80" alt="The HS Battlegrounds logo"></div>
+    <div id="website_logo"><img src="<?= IMG_PATH ?>icons/logo_battlegrounds_small.webp" width="80" height="80" alt="The HS Battlegrounds logo"></div>
 
     <div style="float: none;">
 
