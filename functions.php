@@ -7,13 +7,15 @@ const IMG_PATH = '//bgknowhow.com/images/';
 
 const PICTURE_LOCAL = 'https://bgknowhow.com/images/';
 
-const PICTURE_LOCAL_HERO            = 'https://bgknowhow.com/images/heroes/';
-const PICTURE_LOCAL_BUDDY           = 'https://bgknowhow.com/images/buddies/';
-const PICTURE_LOCAL_MINION          = 'https://bgknowhow.com/images/minions/';
-const PICTURE_LOCAL_HP              = 'https://bgknowhow.com/images/heropower/';
-const PICTURE_LOCAL_PORTRAIT_SUFFIX = '_portrait.png';
-const PICTURE_LOCAL_RENDER_SUFFIX   = '_render.png';
-const PICTURE_LOCAL_TILE_SUFFIX     = '_tile.webp';
+const PICTURE_LOCAL_HERO             = 'https://bgknowhow.com/images/heroes/';
+const PICTURE_LOCAL_BUDDY            = 'https://bgknowhow.com/images/buddies/';
+const PICTURE_LOCAL_MINION           = 'https://bgknowhow.com/images/minions/';
+const PICTURE_LOCAL_HP               = 'https://bgknowhow.com/images/heropowers/';
+const PICTURE_LOCAL_PORTRAIT_SUFFIX  = '_portrait.png';
+const PICTURE_LOCAL_RENDER_SUFFIX    = '_render.png';
+const PICTURE_LOCAL_RENDER_SUFFIX_80 = '_render_80.webp';
+const PICTURE_LOCAL_TILE_SUFFIX      = '_tile.webp';
+const PICTURE_LOCAL_BIG_SUFFIX       = '_big.webp';
 
 const PICTURE_URL_RENDER       = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/'; // 256or512 (png only)
 const PICTURE_URL_RENDER_BG    = 'https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/'; // 256or512 (png only)
@@ -167,10 +169,86 @@ function getMinionsForBoard($board): array
 }
 
 // generate html for comps board
-function drawBoard($minions) {
+function drawBoard($minions)
+{
     foreach ($minions as $minion) {
         echo '<a href="' . $minion['url'] . '"><img src="' . $minion['picture'] . '" alt="' . $minion['name'] . '" title=""></a>';
     }
+}
+
+/**
+ * Generate Webp image format
+ *
+ * Uses either Imagick or imagewebp to generate webp image
+ *
+ * @param string $file Path to image being converted.
+ * @param int $compression_quality Quality ranges from 0 (worst quality, smaller file) to 100 (best quality, biggest file).
+ *
+ * @return false|string Returns path to generated webp image, otherwise returns false.
+ * @throws ImagickException
+ */
+function generate_webp_image($file, $compression_quality = 80)
+{
+    // check if file exists
+    if (!file_exists($file)) {
+        return false;
+    }
+
+    // If output file already exists return path
+    $output_file = pathinfo($file, PATHINFO_FILENAME) . '_80.webp';
+    if (file_exists($output_file)) {
+        return $output_file;
+    }
+
+    $file_type = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+
+    if (function_exists('imagewebp')) {
+
+        switch ($file_type) {
+            case 'jpeg':
+            case 'jpg':
+                $image = imagecreatefromjpeg($file);
+                break;
+
+            case 'png':
+                $image = imagecreatefrompng($file);
+                imagepalettetotruecolor($image);
+                imagealphablending($image, true);
+                imagesavealpha($image, true);
+                break;
+
+            case 'gif':
+                $image = imagecreatefromgif($file);
+                break;
+            default:
+                return false;
+        }
+
+        // Save the image
+        $result = imagewebp($image, $output_file, $compression_quality);
+        if (false === $result) {
+            return false;
+        }
+
+        // Free up memory
+        imagedestroy($image);
+
+        return $output_file;
+    } elseif (class_exists('Imagick')) {
+        $image = new Imagick();
+        $image->readImage($file);
+
+        if ($file_type === 'png') {
+            $image->setImageFormat('webp');
+            $image->setImageCompressionQuality($compression_quality);
+            $image->setOption('webp:lossless', 'true');
+        }
+
+        $image->writeImage($output_file);
+        return $output_file;
+    }
+
+    return false;
 }
 
 function getArmor($armorTier): string
