@@ -188,6 +188,9 @@ class Battlefield
                 $minion->setAttack($minion->getAttack() + 1);
                 $minion->setHealth($minion->getHealth() + 1);
                 break;
+            case 'Mini-Myrmidon':
+                $minion->setAttack($minion->getAttack() + 2);
+                break;
             default:
                 // do nothing
                 break;
