@@ -1423,7 +1423,7 @@ addthis_toolbox {
 
 .card_wrapper {
     position: absolute; /* mabye inline ? */
-    width: 890px;
+    width: 990px;
     height: 300px;
     border: 5px double #222222;
     border-radius: 10px 10px 30px 30px;
@@ -1435,6 +1435,13 @@ addthis_toolbox {
 .card_wrapper span {
     float: right;
     /*margin-right: 5px;*/
+}
+
+.card_info {
+    position: absolute;
+    width: 200px;
+    right: 300px;
+    top: 40px;
 }
 
 .cardname {
@@ -2054,7 +2061,7 @@ root {
 /* BGKH definitions */
 .comp_wrapper {
     margin: 0 auto;
-    width: 87%;
+    width: 79%;
 }
 
 .comp_wrapper img {
@@ -2094,6 +2101,7 @@ root {
 }
 
 .strategy-input {
+    float: left;
     width: 410px;
     height: 100px;
     margin-bottom: 10px;
@@ -2263,11 +2271,11 @@ root {
 }
 
 #strategy-submit {
+    float: left;
     font-family: Georga sans-serif;
     /*font-weight: bold;*/
     width: 40px;
-    float: right;
-    margin-right: 29px;
+    margin-left: 20px;
     margin-top: 6px;
     line-height: 18px;
     cursor: pointer;
@@ -2276,7 +2284,7 @@ root {
 }
 
 .strategy-images {
-    margin-left: 55px;
+    margin-left: 110px;
     /*margin-bottom: 100px;*/
 }
 
