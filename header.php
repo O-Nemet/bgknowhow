@@ -83,6 +83,7 @@ require_once('config/db.php');
                                     <li><a href="//bgknowhow.com/bgcomps/comp_elementals.php">...Elementals</a></li>
                                     <li><a href="//bgknowhow.com/bgcomps/comp_mechs.php">...Mechs</a></li>
                                     <li><a href="//bgknowhow.com/bgcomps/comp_murlocs.php">...Murlocs</a></li>
+                                    <li><a href="//bgknowhow.com/bgcomps/comp_nagas.php">...Nagas</a></li>
                                     <li><a href="//bgknowhow.com/bgcomps/comp_pirates.php">...Pirates</a></li>
                                     <li><a href="//bgknowhow.com/bgcomps/comp_quilboars.php">...Quilboars</a></li>
                                 </ul>
