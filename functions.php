@@ -143,19 +143,14 @@ function getMinionsForBoard($board): array
     $i = 0;
     foreach ($board as $needle) {
         foreach ($tempMinions->data as $key => $object) {
+            // handle full name param (for minions where short name is the same)
             if (strpos($needle, '*') !== false) {
-                $needleNew = substr($needle, strpos($needle, '*') + 1);
-                if ($object->name === $needleNew) {
-                    $minions[$i]['name']    = $object->name;
-                    $minions[$i]['picture'] = $object->pictureInternal;
-                    $minions[$i]['url']     = $object->websites->bgknowhow;
-                }
-            } else {
-                if ($object->nameShort === $needle) {
-                    $minions[$i]['name']    = $object->name;
-                    $minions[$i]['picture'] = $object->pictureInternal;
-                    $minions[$i]['url']     = $object->websites->bgknowhow;
-                }
+                $needle = substr($needle, strpos($needle, '*') + 1);
+            }
+            if ($object->nameShort === $needle) {
+                $minions[$i]['name']    = $object->name;
+                $minions[$i]['picture'] = $object->pictureSmall;
+                $minions[$i]['url']     = $object->websites->bgknowhow;
             }
         }
         $i++;
@@ -187,7 +182,7 @@ function drawBoard($minions)
  * @return false|string Returns path to generated webp image, otherwise returns false.
  * @throws ImagickException
  */
-function generate_webp_image($file, $compression_quality = 80)
+function generate_webp_image(string $file, int $compression_quality = 80)
 {
     // check if file exists
     if (!file_exists($file)) {
