@@ -5,7 +5,7 @@ include_once('../header.php');
 
     <p>
         The cost to upgrade to the next tavern tier will reduce by 1 gold at the beginning of each of your turns. For example if you have upgraded to tavern tier 3 the cost to upgrade to tier 4 will be 8 gold. After you enter the next fight and then reenter the tavern shop the cost to upgrade will be reduced to 7 gold.
-        Notice that the cost for tavern tier 5 is 11 gold, which is more than the gold cap. So other than with a couple of special heroes it is not possible to level from 4 to 6 in one turn.
+        <!-- Notice that the cost for tavern tier 5 is 11 gold, which is more than the gold cap. So other than with a couple of special heroes it is not possible to level from 4 to 6 in one turn. -->
         <br><br>
         When upgrading to tier 2, tier 4 and tier 6 the number of minions offered in the tavern will increase by 1.
         <br><br>
@@ -82,7 +82,7 @@ foreach ($tempMinions->data as $key => $object) {
 
 ?>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs do not have a tier 6 minion. The exception is tier 1, where each type gets two minions (but notice the neutral minion Wrath Weaver, which is the third minion in the Demon pool).
+        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs only have one tier 6 minion. The exception is tier 1, where each type gets two minions (but notice the neutral minion Wrath Weaver, which is the third minion in the Demon pool).
     </p>
     <br>
 
@@ -128,10 +128,10 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
-<br><br>
+    <br><br>
 
     <p>
-        When you will receive your buddy depends on the tavern tier of the buddy and your performance (damage done, shields popped, fights won).
+        When you will receive your buddy depends on the tavern tier of the buddy and your performance (damage done, shields popped, fights won). Buddies were removed from the game with the 23.2.0 patch in May 2022 (*RIP*).
     </p>
     <br>
 
