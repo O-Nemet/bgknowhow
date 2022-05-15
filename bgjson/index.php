@@ -43,7 +43,7 @@ include_once('../header.php');
         <tr>
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Heroes</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Buddies</a></td>
+            <td>&nbsp;</td>
         </tr>
         </tbody>
     </table>
@@ -82,7 +82,7 @@ include_once('../header.php');
         <tr>
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Heroes</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Buddies</a></td>
+            <td>&nbsp;</td>
         </tr>
         </tbody>
     </table>
@@ -111,7 +111,9 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
-        <li>09.05.2022 - Added new hero and all new minions of the upcoming patch (isActive = 0 until patchday).</li>
+        <li>15.05.2022 - Renamed/Added pictureSmall property to all datasets.</li>
+        <li>10.05.2022 - Added BG changes from the 23.2.0 patch notes.</li>
+        <li>09.05.2022 - Added new hero and all new minions of the upcoming patch (isActive = false, until patchday).</li>
         <li>08.05.2022 - Changed blizzardId property name to id for all datasets.</li>
         <li>06.05.2022 - Updated the hearthpwn website links (correct IDs now) for the buddies json dataset.</li>
         <li>06.05.2022 - Updated the playhearthstone and hearthpwn website links (correct IDs now) for the heroes json dataset.</li>

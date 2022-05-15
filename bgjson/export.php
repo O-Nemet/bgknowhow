@@ -78,11 +78,12 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['armor']                 = getArmor($armorTier);
         $heroes['data'][$i]['id']                    = $blizzardId;
         $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
-        $heroes['data'][$i]['pictureInternal']       = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
+        $heroes['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
         $heroes['data'][$i]['heroPowerCost']         = $hpCost;
         $heroes['data'][$i]['heroPowerText']         = $hpText;
         $heroes['data'][$i]['heroPowerBlizzardId']   = $blizzardIdHp;
         $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
+        $heroes['data'][$i]['heroPowerPictureSmall'] = PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80;
         $heroes['data'][$i]['websites']['blizzard']  = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
         $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/hero/?id=' . $id;
         $heroes['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
@@ -253,9 +254,9 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['abilities']['hasSpellcraft']  = (bool)$hasSpellcraft;
         $minions['data'][$i]['id']                          = $blizzardId;
         $minions['data'][$i]['summonId']                    = $summonId;
-        $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
-        $minions['data'][$i]['pictureInternal']             = PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
-        $minions['data'][$i]['artist']                      = $artist;
+        $minions['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+        $minions['data'][$i]['pictureSmall'] = PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $minions['data'][$i]['artist'] = $artist;
         $minions['data'][$i]['flavor']                      = $flavor;
         $minions['data'][$i]['websites']['blizzard']        = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
         $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/bgstrategy/minion/?id=' . $id;
@@ -278,7 +279,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     file_put_contents($csvFile, $csvDataMinions);
     echo 'Written file ' . $csvFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
 
-    $csvFile = 'output/bg_heroes_active.csv';
+    $csvFile = 'output/bg_minions_active.csv';
     file_put_contents($csvFile, $csvDataMinionsActive);
     echo 'Written file ' . $csvFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
 
@@ -373,9 +374,9 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
         $buddies['data'][$i]['textGolden']            = $textGolden;
         $buddies['data'][$i]['isActive']              = (bool)$isActive;
         $buddies['data'][$i]['id']                    = $blizzardId;
-        $buddies['data'][$i]['picture']               = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
-        $buddies['data'][$i]['pictureInternal']       = PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX;
-        $buddies['data'][$i]['websites']['blizzard']  = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
+        $buddies['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+        $buddies['data'][$i]['pictureSmall'] = PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $buddies['data'][$i]['websites']['blizzard'] = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
         $buddies['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/buddy/?id=' . $id;
         $buddies['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
         $buddies['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? 'https://hearthpwn.com/cards/' . $hpwnId : null);
