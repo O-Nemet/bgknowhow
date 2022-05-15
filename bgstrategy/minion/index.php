@@ -73,11 +73,11 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         <br>
 
         <div class="card_wrapper">
-            <h1 class="cardname"><?= $name ?> (<?=$nameShort?>)</h1>
+            <h1 class="cardname"><?= $name ?> (<?= $nameShort ?>)</h1>
             <div class="card_picture_big">
-                <img src="<?= PICTURE_URL_BIG . $blizzardId . ".webp" ?>" style="border-radius: 0px 0px 0px 10px;" width="460" height="305" alt="The picture of <?= $name ?>">
+                <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_BIG_SUFFIX ?>" style="border-radius: 0px 0px 0px 10px;" width="460" height="305" alt="The picture of <?= $name ?>">
             </div>
-            <div style="position: absolute; width: 200px; right: 249px; top: 10px;">
+            <div class="card_info">
                 <br>
                 Attack: <span id="count_listed"><?= $attack ?></span><br><br>
                 Health: <span id="count_listed"><?= $health ?></span><br><br>
@@ -87,14 +87,14 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                 Flavor: <span id="avg_price" class="price_font" style="text-align: left; font-style: italic"><?= isset($flavor) ?></span><br>
             </div>
             <div style="position: absolute; right: -5px; top: -5px;">
-                <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX ?>" style="width: 250px; height:380px" alt="The minion <?= $name ?>">
+                <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" style="width: 250px; height:380px" alt="The minion <?= $name ?>">
             </div>
         </div>
 
         <?php
         include_once('../strategy_and_voting.php');
         ?>
-            
+
         </div>
         <?php
     }

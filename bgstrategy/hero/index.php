@@ -65,9 +65,9 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         <div class="card_wrapper">
             <h1 class="cardname"><?= $name ?></h1>
             <div class="card_picture_big">
-                <img src="<?= PICTURE_URL_BIG . $blizzardId . ".webp" ?>" style="border-radius: 0px 0px 0px 10px;" width="460" height="305" alt="The picture of <?= $name ?>">
+                <img src="<?= PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_BIG_SUFFIX ?>" style="border-radius: 0px 0px 0px 10px;" width="460" height="305" alt="The picture of <?= $name ?>">
             </div>
-            <div style="position: absolute; width: 200px; right: 249px; top: 10px;">
+            <div class="card_info">
                 <br>
                 <b>Health:</b> <span id="count_listed"><?= $health ?></span><br><br>
                 Armor: <span id="count_listed_foil"><?= getArmor($armorTier) ?></span><br><br>
@@ -75,7 +75,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
                 Flavor: <span id="avg_price" class="price_font" style="text-align: left; font-style: italic"><?= isset($flavor) ?></span><br>
             </div>
             <div style="position: absolute; right: -5px; top: -5px;">
-                <img src="<?= PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX ?>" style="width: 250px; height:380px" alt="The hero power of <?= $name ?>">
+                <img src="<?= PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" style="width: 250px; height:380px" alt="The hero power of <?= $name ?>">
             </div>
         </div>
 

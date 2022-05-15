@@ -89,7 +89,7 @@ if (!empty($_GET['show'])) {
             if ($show == 'buddies' && $mode == 'gfx') {
                 echo "<div class='strategy-images cf'>";
                 foreach ($buddies as $buddy) {
-                    echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX . "'></a></div>";
+                    echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "'></a></div>";
                 }
                 echo "</div>";
             } else if ($show == 'buddies' || $show == 'all') {
@@ -123,11 +123,9 @@ if (!empty($_GET['show'])) {
                     </tbody>
                 </table>
                 <br>
-                <?
+                <?php
             }
-            ?>
 
-            <?php
             if ($show == 'minions' || $show == 'all') {
                 echo '<h2 class="page_title">Minions</h2>';
             }
@@ -136,7 +134,7 @@ if (!empty($_GET['show'])) {
                 echo "<div class='strategy-images cf'>";
                 foreach ($minions as $minion) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
-                        echo "<div class='name'>". $minion->name . "</div>";
+                    echo "<div class='name'>" . $minion->name . "</div>";
                         echo "<div class='mask'></div>";
 //                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
                         echo "<div class='image' style='background-image: url(" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . ")'></div>";
