@@ -6,11 +6,11 @@ include_once('../header.php');
 
 <div class="comp_wrapper">
     <?php
-    $board   = ['Selfless', 'Ur\'zul', 'Dong', 'Dong', 'Mama', 'Felbat', 'Baron'];
+    $board   = ['Selfless', 'Ur\'zul', 'Dong', 'Dong', '*Imp Mama', 'Felbat', 'Baron'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
 
-    $board   = ['Macaw', 'Trickster', 'Trickster', 'Dong', 'Felbat', 'Felbat', 'Mama'];
+    $board   = ['Macaw', 'Trickster', 'Trickster', 'Dong', 'Felbat', 'Felbat', '*Imp Mama'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
 

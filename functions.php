@@ -145,15 +145,21 @@ function getMinionsForBoard($board): array
         foreach ($tempMinions->data as $key => $object) {
             // handle full name param (for minions where short name is the same)
             if (strpos($needle, '*') !== false) {
-                $needle = substr($needle, strpos($needle, '*') + 1);
+                $needleNew = substr($needle, strpos($needle, '*') + 1);
+                if ($object->name === $needleNew) {
+                    $minions[$i]['name']    = $object->name;
+                    $minions[$i]['picture'] = $object->pictureSmall;
+                    $minions[$i]['url']     = $object->websites->bgknowhow;
+                }
+            } else {
+                if ($object->nameShort === $needle) {
+                    $minions[$i]['name']    = $object->name;
+                    $minions[$i]['picture'] = $object->pictureSmall;
+                    $minions[$i]['url']     = $object->websites->bgknowhow;
+                }
             }
-            if ($object->nameShort === $needle) {
-                $minions[$i]['name']    = $object->name;
-                $minions[$i]['picture'] = $object->pictureSmall;
-                $minions[$i]['url']     = $object->websites->bgknowhow;
-            }
+            $i++;
         }
-        $i++;
     }
 
 //echo "<pre>";
@@ -162,6 +168,7 @@ function getMinionsForBoard($board): array
 
     return $minions;
 }
+
 
 // generate html for comps board
 function drawBoard($minions)
