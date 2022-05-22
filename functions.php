@@ -178,6 +178,11 @@ function drawBoard($minions)
     }
 }
 
+function getCompositionText(): string
+{
+    return "These different compositions are meant to display a setup to strive for, for the very end game (top 4 and above). In general one of the 7 slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore your actual board will rarely be as perfect as those listed here. Of course as many minions as possible should be tripled, buffed with Reborn, Poison or Divine Shield. Also primary support units like Brann and Nomi will be usually tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking it is also often beneficial to replace it with a Leeory or a Mantid Queen.";
+}
+
 /**
  * Generate Webp image format
  *
