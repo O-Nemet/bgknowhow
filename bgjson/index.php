@@ -1,4 +1,4 @@
-<?
+<?php
 include_once('../header.php');
 ?>
 
@@ -111,7 +111,8 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
-        <li>15.05.2022 - Renamed/Added pictureSmall property to all datasets.</li>
+        <li>19.05.2022 - Added BG changes from the 23.2.2 patch notes.</li>
+        <li>15.05.2022 - Renamed/added pictureSmall property to all datasets (converted all images to 80% webp format).</li>
         <li>10.05.2022 - Added BG changes from the 23.2.0 patch notes.</li>
         <li>09.05.2022 - Added new hero and all new minions of the upcoming patch (isActive = false, until patchday).</li>
         <li>08.05.2022 - Changed blizzardId property name to id for all datasets.</li>
@@ -191,6 +192,7 @@ include_once('../header.php');
     </code></pre>
 
     <br><br>
-<?
+
+<?php
 include_once('../footer.php');
 ?>
