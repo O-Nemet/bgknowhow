@@ -26,7 +26,7 @@ require_once('config/db.php');
     </script>
 </head>
 
-<body style="background-color: antiquewhite">
+<body class="<?= getWebsiteName(); ?>" style="background-color: antiquewhite">
 
 <?php
 //$url =  "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
@@ -40,7 +40,7 @@ require_once('config/db.php');
 
         <hgroup style="float: left;">
             <!-- TODO: fix h1-h6 css (page title should not be h1) and formatting -->
-            <h1><a href="//bgknowhow.com/index.php">BG Know How</a> <span style="font-size: 14px;">beta</span></h1>
+            <h1><a href="//bgknowhow.com/index.php">BG Know-How</a> <span style="font-size: 14px;">beta</span></h1>
             <h3>The place to get all the Hearthstone Battlegrounds knowledge you need</h3>
         </hgroup>
 
@@ -66,10 +66,10 @@ require_once('config/db.php');
         <div id="nav_wrapper" style="float: left; width: 1430px; margin-top: -28px;">
             <nav id="menu">
                 <ul class="menu-top">
-                    <li class="menu-hover">
-                        <a class="menu-topic" href="//bgknowhow.com/bgjson/index.php">BG JSON</a>
+                    <li class="menu-hover bgjson">
+                        <a class="menu-topic" href="//bgknowhow.com/bgjson/index.php">BGJSON</a>
                     </li>
-                    <li class="menu-hover">
+                    <li class="menu-hover bgcomps">
                         <a class="menu-topic" href="#">Compositions</a>
                         <div class="menu-container-2">
                             <div class="menu-column-1">
@@ -87,16 +87,16 @@ require_once('config/db.php');
                             </div>
                         </div>
                     </li>
-                    <li class="menu-hover">
+                    <li class="menu-hover bgcurves">
                         <a class="menu-topic" href="#">Curves</a>
                     </li>
-                    <li class="menu-hover">
-                        <a class="menu-topic" href="//bgknowhow.com/external/index.php">External Resources</a>
+                    <li class="menu-hover bgexternal">
+                        <a class="menu-topic" href="//bgknowhow.com/bgexternal/index.php">External Resources</a>
                     </li>
-                    <li class="menu-hover">
+                    <li class="menu-hover bglegends">
                         <a class="menu-topic" href="#">Lobby Legends</a>
                     </li>
-                    <li class="menu-hover">
+                    <li class="menu-hover bgsim">
                         <a class="menu-topic" href="//bgknowhow.com/bgsim/index.php">Simulator</a>
                         <div class="menu-container-1">
                             <div class="menu-column-1">
@@ -107,7 +107,7 @@ require_once('config/db.php');
                             </div>
                         </div>
                     </li>
-                    <li class="menu-hover">
+                    <li class="menu-hover bgstrategy">
                         <a class="menu-topic" href="//bgknowhow.com/bgstrategy/">Strategy</a>
                         <div class="menu-container-2">
                             <div class="menu-column-1">

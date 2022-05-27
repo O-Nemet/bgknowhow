@@ -30,6 +30,30 @@ $tempHeroes  = json_decode(file_get_contents('https://bgknowhow.com/bgjson/outpu
 $tempBuddies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
 $tempMinions = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
 
+function getWebsiteName(): string
+{
+    $url  = "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+    $page = parse_url($url, PHP_URL_PATH);
+
+    if (strpos($page, '/bgjson/') !== false) {
+        return 'bgjson';
+    } else if (strpos($page, '/bgcomps/') !== false) {
+        return 'bgcomps';
+    } else if (strpos($page, '/bgecurves/') !== false) {
+        return 'bgcurves';
+    } else if (strpos($page, '/bgexternal/') !== false) {
+        return 'bgexternal';
+    } else if (strpos($page, '/bglegends/') !== false) {
+        return 'bglegends';
+    } else if (strpos($page, '/bgsim/') !== false) {
+        return 'bgsim';
+    } else if (strpos($page, '/bgstrategy/') !== false) {
+        return 'bgstrategy';
+    } else {
+        return '';
+    }
+}
+
 function getWebsiteTitle(): string
 {
     $title = '';
@@ -180,7 +204,7 @@ function drawBoard($minions)
 
 function getCompositionText(): string
 {
-    return "These different compositions are meant to display a setup to strive for, for the very end game (top 4 and above). In general one of the 7 slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore your actual board will rarely be as perfect as those listed here. Of course as many minions as possible should be tripled, buffed with Reborn, Poison or Divine Shield. Also primary support units like Brann and Nomi will be usually tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking it is also often beneficial to replace it with a Leeory or a Mantid Queen.";
+    return "These different compositions are meant to display a setup to strive for, for the very end game (top 3 and above). In general one of the 7 slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore your actual board will rarely be as perfect as those listed here. Of course as many minions as possible should be tripled, buffed with Reborn, Poison or Divine Shield. Also primary support units like Brann and Nomi will be usually tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking it is also often beneficial to replace it with a Leeory or a Mantid Queen.";
 }
 
 /**
