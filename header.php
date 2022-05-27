@@ -34,7 +34,9 @@ require_once('config/db.php');
 ?>
 
 <header class="cf">
-    <div id="website_logo"><img src="<?= IMG_PATH ?>icons/logo_battlegrounds_small.webp" width="80" height="80" alt="The HS Battlegrounds logo"></div>
+    <div id="website_logo">
+        <a href="//bgknowhow.com/index.php"><img src="<?= IMG_PATH ?>icons/logo_battlegrounds_small.webp" width="80" height="80" alt="The HS Battlegrounds logo"></a>
+    </div>
 
     <div style="float: none;">
 
@@ -88,13 +90,13 @@ require_once('config/db.php');
                         </div>
                     </li>
                     <li class="menu-hover bgcurves">
-                        <a class="menu-topic" href="#">Curves</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgcurves/index.php">Curves</a>
                     </li>
                     <li class="menu-hover bgexternal">
                         <a class="menu-topic" href="//bgknowhow.com/bgexternal/index.php">External Resources</a>
                     </li>
                     <li class="menu-hover bglegends">
-                        <a class="menu-topic" href="#">Lobby Legends</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bglegends/index.php">Lobby Legends</a>
                     </li>
                     <li class="menu-hover bgsim">
                         <a class="menu-topic" href="//bgknowhow.com/bgsim/index.php">Simulator</a>
@@ -112,13 +114,30 @@ require_once('config/db.php');
                         <div class="menu-container-2">
                             <div class="menu-column-1">
                                 <ul>
-                                    <li><a href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">...Heroes</a></li>
-                                    <li><a href="//bgknowhow.com/bgstrategy/?show=buddies&mode=gfx">...Buddies</a></li>
-                                    <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">...Minions</a></li>
-                                    <li><a href="//bgknowhow.com/bgstrategy/?mode=txt">...All Entities</a></li>
                                     <li><a href="//bgknowhow.com/bgstrategy/general.php">...General strategy</a></li>
+                                    <li><a href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">...Heroes</a></li>
+                                    <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">...Minions</a></li>
+                                    <li><a href="//bgknowhow.com/bgstrategy/?show=buddies&mode=gfx">...Buddies</a></li>
+                                    <li><a href="//bgknowhow.com/bgstrategy/?mode=txt">...All Entities</a></li>
                                 </ul>
                             </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="margin-left: 30px; border-bottom: 0" id="donate-button-container">
+                            <div id="donate-button"></div>
+                            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                            <script>
+                                PayPal.Donation.Button({
+                                    env: 'production',
+                                    hosted_button_id: 'GDSSPCJDR4HL6',
+                                    image: {
+                                        src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif',
+                                        alt: 'Donate with PayPal button',
+                                        title: 'PayPal - The safer, easier way to pay online!',
+                                    }
+                                }).render('#donate-button');
+                            </script>
                         </div>
                     </li>
                 </ul>
