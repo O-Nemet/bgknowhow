@@ -69,8 +69,8 @@ if (!empty($_GET['show'])) {
                     foreach ($heroes as $hero) {
                         echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $hero->websites->bgknowhow . '\'">';
                         echo "<td><a href='" . $hero->websites->bgknowhow . "'>$hero->name</a></td>";
-                        echo "<td>$hero->health</td>";
-                        echo "<td>$hero->armor</td>";
+                        echo "<td style='text-align: center'>$hero->health</td>";
+                        echo "<td style='text-align: center'>$hero->armor</td>";
                         echo "<td class='text'>$hero->heroPowerText</td>";
                         echo "</tr>";
                     }
@@ -79,6 +79,57 @@ if (!empty($_GET['show'])) {
                 </table>
                 <br>
 
+                <?php
+            }
+
+            if ($show == 'minions' || $show == 'all') {
+                echo '<h2 class="page_title">Minions</h2>';
+            }
+
+            if ($show == 'minions' && $mode == 'gfx') {
+                echo "<div class='strategy-images cf'>";
+                foreach ($minions as $minion) {
+                    echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
+                    echo "<div class='name'>" . $minion->name . "</div>";
+                    echo "<div class='mask'></div>";
+//                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
+                    echo "<div class='image' style='background-image: url(" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . ")'></div>";
+                    echo "</div>";
+                }
+                echo "</div>";
+            } else if ($show == 'minions' || $show == 'all') {
+                ?>
+                <br>
+                <table class="strategy-table">
+                    <thead>
+                    <tr>
+                        <th colspan="6">Minions</th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <th>Tier</th>
+                        <th>Type</th>
+                        <th>Attack</th>
+                        <th>Health</th>
+                        <th>Text</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    foreach ($minions as $minion) {
+                        echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
+                        echo "<td><a href='" . $minion->websites->bgknowhow . "'>$minion->name</a></td>";
+                        echo "<td style='text-align: center'>$minion->tier</td>";
+                        echo "<td>$minion->type</td>";
+                        echo "<td style='text-align: center'>$minion->attack</td>";
+                        echo "<td style='text-align: center'>$minion->health</td>";
+                        echo "<td class='text'>$minion->text</td>";
+                        echo "</tr>";
+                    }
+                    ?>
+                    </tbody>
+                </table>
+                <br>
                 <?php
             }
 
@@ -113,66 +164,18 @@ if (!empty($_GET['show'])) {
                     foreach ($buddies as $buddy) {
                         echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $buddy->websites->bgknowhow . '\'">';
                         echo "<td><a href='" . $buddy->websites->bgknowhow . "'>$buddy->name</a></td>";
-                        echo "<td>$buddy->tier</td>";
-                        echo "<td>$buddy->attack</td>";
-                        echo "<td>$buddy->health</td>";
+                        echo "<td style='text-align: center'>$buddy->tier</td>";
+                        echo "<td style='text-align: center'>$buddy->attack</td>";
+                        echo "<td style='text-align: center'>$buddy->health</td>";
                         echo "<td class='text'>$buddy->text</td>";
                         echo "</tr>";
                     }
                     ?>
                     </tbody>
                 </table>
-                <br>
                 <?php
             }
 
-            if ($show == 'minions' || $show == 'all') {
-                echo '<h2 class="page_title">Minions</h2>';
-            }
-
-            if ($show == 'minions' && $mode == 'gfx') {
-                echo "<div class='strategy-images cf'>";
-                foreach ($minions as $minion) {
-                    echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
-                    echo "<div class='name'>" . $minion->name . "</div>";
-                        echo "<div class='mask'></div>";
-//                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
-                        echo "<div class='image' style='background-image: url(" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . ")'></div>";
-                    echo "</div>";
-                }
-                echo "</div>";
-            } else if ($show == 'minions' || $show == 'all') {
-                ?>
-                <br>
-                <table class="strategy-table">
-                    <thead>
-                    <tr>
-                        <th colspan="5">Minions</th>
-                    </tr>
-                    <tr>
-                        <th>Name</th>
-                        <th>Tier</th>
-                        <th>Attack</th>
-                        <th>Health</th>
-                        <th>Text</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <?php
-                    foreach ($minions as $minion) {
-                        echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
-                        echo "<td><a href='" . $minion->websites->bgknowhow . "'>$minion->name</a></td>";
-                        echo "<td>$minion->tier</td>";
-                        echo "<td>$minion->attack</td>";
-                        echo "<td>$minion->health</td>";
-                        echo "<td class='text'>$minion->text</td>";
-                        echo "</tr>";
-                    }
-                    ?>
-                    </tbody>
-                </table>
-                <?php
-            }
         }
     ?>
     <br><br>
