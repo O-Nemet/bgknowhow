@@ -8,11 +8,14 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
+    <p>Tarec/Promo Big Stats Comp:</p>
     <?php
     $board   = ['Nadina', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Promo-Drake', 'Razorgore', 'Prestor'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
-
+    ?>
+    <p>Kalegcos Battlecry Comp:</p>
+    <?php
     $board   = ['Warden', 'Nadina', '*Nightmare Amalgam', 'Kaly', 'Kaly', 'Brann', 'Prestor'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
