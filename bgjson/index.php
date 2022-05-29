@@ -111,6 +111,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>26.05.2022 - Added BG hotfix changes (Warden of Old in, Stormscale Siren out)</li>
         <li>19.05.2022 - Added BG changes from the 23.2.2 patch notes.</li>
         <li>15.05.2022 - Renamed/added pictureSmall property to all datasets (converted all images to 80% webp format).</li>
         <li>10.05.2022 - Added BG changes from the 23.2.0 patch notes.</li>
