@@ -4,8 +4,9 @@ include_once('../header.php');
 <h2 class="page_title">Lobby Legends Esports</h2>
 <br>
 <div>
-    <p>
-        Coming soon...
+    <p>Lobby Legends is a monthly esports series by Blizzard started in 2022 and supported with a total prize pool of $500,000.<br>
+        Basic information can be found on the <a href="https://playhearthstone.com/en-us/esports/programs/battlegrounds" target="_blank">official website</a>.
+        <br><br>More information coming soon&trade;.
     </p>
 </div>
 
