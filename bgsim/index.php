@@ -37,14 +37,15 @@ foreach ($tempMinions->data as $key => $object) {
 <br>
 
 <div class="typeFilter">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_beasts.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_demons.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_dragons.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" width="120">
-    <img src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" width="120">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_beasts.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_demons.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_dragons.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_naga.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" width="110">
+    <img src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" width="110">
 </div>
 
 <br><br>
