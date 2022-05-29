@@ -17,30 +17,23 @@ $getActiveOnly = 1;
 //    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
 //    $stmt->store_result();
-//    $stmt->bind_result($id, $name, $health, $armorTier, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive);
+//    $stmt->bind_result($id, $name, $health, $blizzardIdHp, $isActive);
 
 
 // generate minions files
 if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.name,
-                                     bgm.name_short                                  
+                                     bgm.name_short,
+                                     bgm.id_blizzard
                                 FROM bg_minions bgm
                                WHERE bgm.flag_active = ?
-                                 AND bgm.id_blizzard IN ('BG23_001'
-                                               ,'BG23_009'
-                                               ,'BG23_011'
-                                               ,'BG23_005'
-                                               ,'BG23_003'
-                                               ,'BG23_013'
-                                               ,'BG23_015'
-                                               ,'BG23_018'
-                                               ,'BG22_403'
+                                 AND bgm.id_blizzard IN ('BGS_200'
                                                )
                             ORDER BY bgm.tier, bgm.name ASC")) {
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist);
+    $stmt->bind_result($id, $name, $nameShort, $blizzardId);
 
 // generate buddies files
 //if ($stmt = $mysqli->prepare("SELECT bgb.id,
@@ -53,7 +46,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
 //    $stmt->store_result();
-//    $stmt->bind_result($id, $name, $type, $text, $textGolden, $tier, $attack, $health, $blizzardId, $isActive);
+//    $stmt->bind_result($id, $name, $blizzardId, $isActive);
 
     $row_count = $stmt->num_rows;
 
@@ -62,6 +55,21 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             echo 'failed to copy ../images/' . $blizzardId . '_render.png<br>';
         } else {
             echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
+        }
+        if (!copy(PICTURE_URL_BIG . $blizzardId . '.webp', '../images/' . $blizzardId . '_big.webp')) {
+            echo 'failed to copy ../images/' . $blizzardId . '_big.webp<br>';
+        } else {
+            echo 'copy success ../images/' . $blizzardId . '_big.webp<br>';
+        }
+        if (!copy(PICTURE_URL_MEDIUM . $blizzardId . '.webp', '../images/' . $blizzardId . '_medium.webp')) {
+            echo 'failed to copy ../images/' . $blizzardId . '_medium.webp<br>';
+        } else {
+            echo 'copy success ../images/' . $blizzardId . '_medium.webp<br>';
+        }
+        if (!copy(PICTURE_URL_TILE . $blizzardId . '.webp', '../images/' . $blizzardId . '_tile.webp')) {
+            echo 'failed to copy ../images/' . $blizzardId . '_tile.webp<br>';
+        } else {
+            echo 'copy success ../images/' . $blizzardId . '_tile.webp<br>';
         }
     }
 
