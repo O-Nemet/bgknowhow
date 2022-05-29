@@ -196,7 +196,7 @@ body {
 
 #content {
     width: 1100px;
-    min-height: 850px;
+    min-height: 880px; /* 850px */
     background-color: #FFFFFF;
     padding: 0px 10px 0px 10px;
     margin: 0px auto;
@@ -1768,7 +1768,7 @@ root {
     border: none !important;
 }
 
-#menu li:hover {
+#menu li:hover:not #donate-button-container {
     /*
             border-top: 4px solid #1666CA;
             padding-top: 3px;
@@ -1907,6 +1907,9 @@ root {
     margin-bottom: 2px; /* ex 5px */
     line-height: 21px;
     text-align: left;
+}
+
+#menu p, #menu h2, #menu h3, #menu ul li:not #donate-button-container {
     border-bottom: 4px solid #444444;
 }
 
@@ -2060,6 +2063,16 @@ root {
 */
 
 /* BGKH definitions */
+h3 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+hgroup > h3 {
+    font-weight: normal;
+    margin-top: 0;
+}
+
 body.bgjson .bgjson > a,
 body.bgcomps .bgcomps > a,
 body.bgcurves .bgcurves > a,
@@ -2072,11 +2085,11 @@ body.bgstrategy .bgstrategy > a {
 
 .comp_wrapper {
     margin: 0 auto;
-    width: 79%;
+    width: 87%;
 }
 
 .comp_wrapper img {
-    width: 124px;
+    width: 136px; /* 124px; */
     transition: transform .2s; /* Animation */
     /*height: 180px;*/
 }
@@ -2369,6 +2382,14 @@ body.bgstrategy .bgstrategy > a {
 /*filter: contrast(130%);*/
 /*}*/
 
+#website_logo a:hover {
+    filter: contrast(130%);
+}
+
+#donate-button img:hover {
+    filter: contrast(130%);
+}
+
 .strategy-images .tile:hover .image {
     /*border: 2px #2E76CF solid;*/
     filter: contrast(130%);
@@ -2399,6 +2420,11 @@ body.bgstrategy .bgstrategy > a {
 
 .tier-table tbody tr td {
     text-align: center;
+}
+
+.typeFilter {
+    width: 94%;
+    margin: 0 auto;
 }
 
 .typeFilter img {
