@@ -16,7 +16,7 @@ include_once('../header.php');
     ?>
     <p>Kalegcos Battlecry Comp:</p>
     <?php
-    $board   = ['Warden', 'Nadina', '*Nightmare Amalgam', 'Kaly', 'Kaly', 'Brann', 'Prestor'];
+    $board   = ['Bronze Warden', 'Nadina', '*Nightmare Amalgam', 'Kaly', 'Kaly', 'Brann', 'Prestor'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
