@@ -35,19 +35,20 @@ require_once('config/db.php');
 
 <header class="cf">
     <div id="website_logo">
-        <a href="//bgknowhow.com/index.php"><img src="<?= IMG_PATH ?>icons/logo_battlegrounds_small.webp" width="80" height="80" alt="The HS Battlegrounds logo"></a>
+        <a href="//bgknowhow.com"><img src="<?= IMG_PATH ?>icons/logo_battlegrounds_small.webp" width="80" height="80" alt="The HS Battlegrounds logo"></a>
     </div>
 
     <div style="float: none;">
 
         <hgroup style="float: left;">
             <!-- TODO: fix h1-h6 css (page title should not be h1) and formatting -->
-            <h1><a href="//bgknowhow.com/index.php">BG Know-How</a> <span style="font-size: 14px;">beta</span></h1>
-            <h3>The place to get all the Hearthstone Battlegrounds knowledge you need</h3>
+            <h1><a href="//bgknowhow.com">BG Know-How</a></h1>
+            <!--            <h3>The place to get all the Hearthstone Battlegrounds knowledge you need</h3>-->
+            <h3>"Welcome to my tavern, friends. Enjoy your stay!"</h3>
         </hgroup>
 
-        <div style="float: right;">
-            <?php
+        <!--        <div style="float: right;">-->
+        <?php
             /*
             if (empty($_SESSION['user']['id']))
             {
@@ -61,18 +62,18 @@ require_once('config/db.php');
             }
             */
             ?>
-        </div>
+        <!--        </div>-->
 
-        <!-- <div class="cf"></div> -->
+        <!--        <div class="cf"></div>-->
 
-        <div id="nav_wrapper" style="float: left; width: 1430px; margin-top: -28px;">
+        <div id="nav_wrapper" style="width: 1430px;">
             <nav id="menu">
                 <ul class="menu-top">
                     <li class="menu-hover bgjson">
                         <a class="menu-topic" href="//bgknowhow.com/bgjson/index.php">BGJSON</a>
                     </li>
                     <li class="menu-hover bgcomps">
-                        <a class="menu-topic" href="#">Compositions</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgcomps/index.php">Compositions</a>
                         <div class="menu-container-2">
                             <div class="menu-column-1">
                                 <ul>
@@ -95,6 +96,18 @@ require_once('config/db.php');
                     <li class="menu-hover bgexternal">
                         <a class="menu-topic" href="//bgknowhow.com/bgexternal/index.php">External Resources</a>
                     </li>
+                    <li class="menu-hover bgguides">
+                        <a class="menu-topic" href="#">Guides</a>
+                        <div class="menu-container-1">
+                            <div class="menu-column-1">
+                                <ul>
+                                    <li><a href="#">...Guide #1</a></li>
+                                    <li><a href="#">...Guide #2</a></li>
+                                    <li><a href="#">...Guide #3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                     <li class="menu-hover bglegends">
                         <a class="menu-topic" href="//bgknowhow.com/bglegends/index.php">Lobby Legends</a>
                     </li>
@@ -104,7 +117,7 @@ require_once('config/db.php');
                             <div class="menu-column-1">
                                 <ul>
                                     <li><a href="//bgknowhow.com/bgsim/index.php">...Turn-1 Minion Matrix</a></li>
-                                    <li><a href="#">...Custom Board</a></li>
+                                    <li><a href="//bgknowhow.com/bgsim/custom.php">...Custom Board</a></li>
                                 </ul>
                             </div>
                         </div>
