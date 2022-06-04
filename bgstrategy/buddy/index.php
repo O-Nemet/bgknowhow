@@ -48,14 +48,15 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
                                      bgb.attack,
                                      bgb.health,
                                      bgb.id_blizzard,
-                                     bgb.flag_active
+                                     bgb.flag_active,
+                                     bgb.artist
                                 FROM bg_buddies bgb
                                WHERE bgb.id = ?
                                LIMIT 1")) {
     $stmt->bind_param("i", $selectedId);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($selectedId, $name, $type, $text, $textGolden, $tier, $attack, $health, $blizzardId, $isActive);
+    $stmt->bind_result($selectedId, $name, $type, $text, $textGolden, $tier, $attack, $health, $blizzardId, $isActive, $artist);
 
     while ($stmt->fetch()) {
         ?>
@@ -69,9 +70,9 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
             <div class="card_info">
                 <br>
                 Attack: <span id="count_listed_foil"><?= $attack ?></span><br><br>
-                <b>Health:</b> <span id="count_listed"><?= $health ?></span><br><br>
-                Artist: <span id="low_price" class="price_font"><?= isset($artist) ?></span><br><br>
-                Flavor: <span id="avg_price" class="price_font" style="text-align: left; font-style: italic"><?= isset($flavor) ?></span><br>
+                <b>Health:</b> <span><?= $health ?></span><br><br>
+                Artist: <span id="low_price" class="price_font"><?= $artist ?? '' ?></span><br><br>
+                Flavor: <span id="avg_price" class="price_font" style="text-align: left; font-style: italic"><?= $flavor ?? '' ?></span><br>
             </div>
             <div style="position: absolute; right: -5px; top: -5px;">
                 <img src="<?= PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" style="width: 250px; height:380px" alt="The buddy <?= $name ?>">

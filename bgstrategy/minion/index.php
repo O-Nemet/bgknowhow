@@ -59,6 +59,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.flag_reborn,                                     
                                      bgm.flag_avenge,                                                                          
                                      bgm.id_blizzard,                                   
+                                     bgm.flavor,                                                                        
                                      bgm.artist                                                                        
                                 FROM bg_minions bgm
                                WHERE bgm.id = ?
@@ -66,7 +67,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     $stmt->bind_param("i", $selectedId);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $artist);
+    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $flavor, $artist);
 
     while ($stmt->fetch()) {
         ?>
@@ -79,12 +80,12 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             </div>
             <div class="card_info">
                 <br>
-                Attack: <span id="count_listed"><?= $attack ?></span><br><br>
-                Health: <span id="count_listed"><?= $health ?></span><br><br>
-                Type: <span id="count_listed"><?= (isset($type) ? $type : 'None') ?></span><br><br>
-                Pool: <span id="count_listed"><?= (isset($pool) ? $pool : 'All') ?></span><br><br>
-                Artist: <span id="low_price" class="price_font"><?= isset($artist) ?></span><br><br>
-                Flavor: <span id="avg_price" class="price_font" style="text-align: left; font-style: italic"><?= isset($flavor) ?></span><br>
+                Attack: <span class="card_attack"><?= $attack ?></span><br><br>
+                Health: <span class="card_health"><?= $health ?></span><br><br>
+                Type: <span><?= ($type ?? 'None') ?></span><br><br>
+                Pool: <span><?= ($pool ?? 'All') ?></span><br><br>
+                Artist: <span id="low_price" class="price_font"><?= $artist ?? '' ?></span><br><br>
+                Flavor: <span id="avg_price" class="price_font" style="text-align: left; font-style: italic"><?= $flavor ?? '' ?></span><br>
             </div>
             <div style="position: absolute; right: -5px; top: -5px;">
                 <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" style="width: 250px; height:380px" alt="The minion <?= $name ?>">
