@@ -22,7 +22,7 @@ include_once('../header.php');
     <br>
     <p>
         This page is providing Hearthstone Battleground data in different data collections and file types.<br>
-        Feel free to use this as a starting point for your own projects and content creation.<br>
+        Feel free to use this as a starting point for your own projects and content creation (code examples below).<br>
         <br>
         At least every 8 hours fresh files will be generated from the database.<br>
         Official updates and hotfixes will be integrated as soon as possible.
@@ -111,6 +111,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>01.06.2022 - Added BG changes from the 23.4.0 patch notes.</li>
         <li>26.05.2022 - Added BG hotfix changes (Warden of Old in, Stormscale Siren out)</li>
         <li>19.05.2022 - Added BG changes from the 23.2.2 patch notes.</li>
         <li>15.05.2022 - Renamed/added pictureSmall property to all datasets (converted all images to 80% webp format).</li>
@@ -133,7 +134,7 @@ include_once('../header.php');
     <br><br>
 
     <p class="caption">Code Example (PHP):</p>
-    <pre style="background-color: lightblue; border-radius: 10px;"><code>
+    <pre class="code_example"><code>
         // read the file and convert
         $tempMinions = json_decode(file_get_contents('bg_minions_all.json'));
         // optional filtering condition (for example for tier1 minions)
@@ -151,7 +152,7 @@ include_once('../header.php');
     </code></pre>
     <br>
     <p class="caption">Code Example (JS via URL):</p>
-    <pre style="background-color: lightblue; border-radius: 10px;"><code>
+    <pre class="code_example"><code>
         async function readJSON() {
             const requestURL = 'https://bgknowhow.com/bgjson/output/bg_minions_all.json';
             const request = new Request(requestURL);
@@ -170,7 +171,7 @@ include_once('../header.php');
     </code></pre>
     <br>
     <p class="caption">Code Example (JS via local file):</p>
-    <pre style="background-color: lightblue; border-radius: 10px;"><code>
+    <pre class="code_example"><code>
         function readTextFile(file, callback) {
             var rawFile = new XMLHttpRequest();
             rawFile.overrideMimeType("application/json");
