@@ -105,6 +105,9 @@ function getWebsiteTitle(): string
 function setVote($selectedStrat, $selectedVote)
 {
     include('config/db.php');
+    $blocklistIp = ['216.244.66.201'
+        , '85.25.185.138'
+    ];
 
     if ($selectedVote == 1) {
         $voteColumn = 'votes_up';
@@ -116,6 +119,10 @@ function setVote($selectedStrat, $selectedVote)
 
     $userIp      = $_SERVER['REMOTE_ADDR'];
     $userProxyIp = isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDED_FOR'] : null;
+
+    if (in_array($userIp, $blocklistIp)) {
+        return false;
+    }
 
     if ($stmt = $mysqli->prepare("SELECT COALESCE(MAX(1), 0)
                                 FROM log_strategy lgs

@@ -35,7 +35,7 @@ else if (strpos($page, '/minion/') !== false) {
                                 FROM bg_strategy bgs
                                WHERE bgs.id_". $unitType ." = ?
                                  AND bgs.flag_active = 1
-                                 AND bgs.votes_trash < 10
+                                 AND bgs.votes_trash < 5
                             GROUP BY bgs.id
                             ORDER BY 7 DESC")) {
     $stmt->bind_param("i", $selectedId);
