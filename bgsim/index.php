@@ -69,11 +69,11 @@ foreach ($tempMinions->data as $key => $object) {
         foreach ($minions as $minion_top) {
             $i++;
             $combatResult              = getCombatResult($minion_left->id, $minion_top->id);
-            $minion_left->combatLosses = ($combatResult === -1) ? $minion_left->combatLosses + 1 : $minion_left->combatLosses + 0;
+            $minion_left->combatLosses = ($combatResult < 0) ? $minion_left->combatLosses + 1 : $minion_left->combatLosses + 0;
             echo "<div class='" . getCellColor($combatResult) . "'>" . $combatResult . "</div>";
         }
 //        $minion_left->buddyDmg = $minion_left->buddyDmg + 1;
-        echo "<div>" . str_pad($minion_left->combatLosses, 2, '0', STR_PAD_LEFT) . "/" . $i . "</div>";
+        echo "<div style='font-size: 14px; line-height: 15px;'>" . str_pad($minion_left->combatLosses, 2, '0', STR_PAD_LEFT) . "/" . $i . "</div>";
         echo "<div>" . number_format($GLOBALS['player1TotalDamage'] / $i, 2) . "</div>";
         echo "<br><br>";
     }
@@ -96,9 +96,9 @@ function getCombatResult($id1, $id2): int
 
 function getCellColor($combatResult): string
 {
-    if ($combatResult === 1) {
+    if ($combatResult > 0) {
         return 'win';
-    } else if ($combatResult === -1) {
+    } else if ($combatResult < 0) {
         return 'loss';
     } else {
         return 'draw';

@@ -82,7 +82,9 @@ class Minion
 
     public function setHealthbyDamage(int $damage): void
     {
-        if (($this->health - $damage < 1) && $this->hasShield) {
+        if ($this->name === 'Bubblette' && $damage === 1) {
+            $this->health = 0;
+        } else if (($this->health - $damage < 1) && $this->hasShield) {
             $this->hasShield = false;
         } else {
             $this->health = $this->health - $damage;
@@ -213,7 +215,7 @@ class Battlefield
         }
 
         if ($this->roundDamageP1 > $this->roundDamageP2) {
-            return -1;
+            return $this->roundDamageP1 * -1;
         } else if ($this->roundDamageP1 < $this->roundDamageP2) {
             return 1;
         } else {
@@ -285,7 +287,6 @@ class Battlefield
                 }
             }
         }
-
 
         // first found minion (checking left to right) attacks random enemy minion (TODO: taunt handling)
         while (!$allDead) {
