@@ -44,7 +44,7 @@ require_once('config/db.php');
             <!-- TODO: fix h1-h6 css (page title should not be h1) and formatting -->
             <h1><a href="//bgknowhow.com">BG Know-How</a></h1>
             <!--            <h3>The place to get all the Hearthstone Battlegrounds knowledge you need</h3>-->
-            <h3>"Welcome to my tavern, friends. Enjoy your stay!"</h3>
+            <h3>“Welcome to my tavern, friends. Enjoy your stay!”</h3>
         </hgroup>
 
         <!--        <div style="float: right;">-->
@@ -98,10 +98,10 @@ require_once('config/db.php');
                     </li>
                     <li class="menu-hover bgguides">
                         <a class="menu-topic" href="#">Guides</a>
-                        <div class="menu-container-1">
-                            <div class="menu-column-1">
+                        <div class="menu-container-3">
+                            <div class="menu-column-3">
                                 <ul>
-                                    <li><a href="#">...Guide #1</a></li>
+                                    <li><a href="//bgknowhow.com/bgguides/guide_pocky.php">...Guide to Improving at Battlegrounds</a></li>
                                     <li><a href="#">...Guide #2</a></li>
                                     <li><a href="#">...Guide #3</a></li>
                                 </ul>
