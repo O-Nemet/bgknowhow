@@ -137,19 +137,36 @@ include_once('../header.php');
     <p class="caption">Code Example (PHP):</p>
     <pre class="code_example"><code>
         // read the file and convert
-        $tempMinions = json_decode(file_get_contents('bg_minions_all.json'));
-        // optional filtering condition (for example for tier1 minions)
-        $needle = 1;
+        $tempMinions = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
 
         // build final array
         foreach ($tempMinions->data as $key => $object) {
-            // only get tier1 minions (optional)
-            if ($object->tier === $needle) {
+            // only get non-token tier1 minions (optional)
+            if ($object->tier === 1 && $object->isToken === false) {
             $minions[] = $object;
         }
 
         // check the result
         var_dump($minions);
+    </code></pre>
+    <br>
+    <p class="caption">Code Example (Python via URL with requests module):</p>
+    <pre class="code_example"><code>
+        import requests, json
+
+        # read the file and convert
+        response = requests.get('https://bgknowhow.com/bgjson/output/bg_minions_all.json').text
+        tempMinions = json.loads(response)['data']
+
+        # build final array
+        minions = []
+        for minion in tempMinions:
+          # only get non-token tier1 minions (optional)
+          if minion['tier'] == 1 and minion['isToken'] == False:
+            minions.append(minion);
+
+        # check the result
+        print(json.dumps(minions, indent=4))
     </code></pre>
     <br>
     <p class="caption">Code Example (JS via URL):</p>
@@ -193,7 +210,6 @@ include_once('../header.php');
             console.log(minions);
         });
     </code></pre>
-
     <br><br>
 
 <?php
