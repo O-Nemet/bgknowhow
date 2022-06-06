@@ -70,10 +70,10 @@ require_once('config/db.php');
             <nav id="menu">
                 <ul class="menu-top">
                     <li class="menu-hover bgjson">
-                        <a class="menu-topic" href="//bgknowhow.com/bgjson/index.php">BGJSON</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgjson/">BGJSON</a>
                     </li>
                     <li class="menu-hover bgcomps">
-                        <a class="menu-topic" href="//bgknowhow.com/bgcomps/index.php">Compositions</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgcomps/">Compositions</a>
                         <div class="menu-container-2">
                             <div class="menu-column-1">
                                 <ul>
@@ -91,10 +91,10 @@ require_once('config/db.php');
                         </div>
                     </li>
                     <li class="menu-hover bgcurves">
-                        <a class="menu-topic" href="//bgknowhow.com/bgcurves/index.php">Curves</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgcurves/">Curves</a>
                     </li>
                     <li class="menu-hover bgexternal">
-                        <a class="menu-topic" href="//bgknowhow.com/bgexternal/index.php">External Resources</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgexternal/">External Resources</a>
                     </li>
                     <li class="menu-hover bgguides">
                         <a class="menu-topic" href="#">Guides</a>
@@ -109,14 +109,14 @@ require_once('config/db.php');
                         </div>
                     </li>
                     <li class="menu-hover bglegends">
-                        <a class="menu-topic" href="//bgknowhow.com/bglegends/index.php">Lobby Legends</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bglegends/">Lobby Legends</a>
                     </li>
                     <li class="menu-hover bgsim">
-                        <a class="menu-topic" href="//bgknowhow.com/bgsim/index.php">Simulator</a>
+                        <a class="menu-topic" href="//bgknowhow.com/bgsim/">Simulator</a>
                         <div class="menu-container-1">
                             <div class="menu-column-1">
                                 <ul>
-                                    <li><a href="//bgknowhow.com/bgsim/index.php">...Turn-1 Minion Matrix</a></li>
+                                    <li><a href="//bgknowhow.com/bgsim/">...Turn-1 Minion Matrix</a></li>
                                     <li><a href="//bgknowhow.com/bgsim/custom.php">...Custom Board</a></li>
                                 </ul>
                             </div>
