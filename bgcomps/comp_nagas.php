@@ -10,13 +10,13 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <p>Spellcraft Comp:</p>
     <?php
-    $board   = ['Waverider', 'Myrmidon', '*Eventide Brute', 'Athissa', 'Athissa', 'Glowscale', 'Glowscale'];
+    $board   = ['Waverider', 'Myrmidon', '*Eventide Brute', 'Athissa', 'Athissa', 'Orgozoa', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>Big Stats Comp:</p>
     <?php
-    $board   = ['Athissa', 'Wrangler', 'Wrangler', 'Orgozoa', 'Orgozoa', 'Glowscale', 'Glowscale'];
+    $board   = ['Athissa', 'Wrangler', 'Wrangler', 'Shoal Commander', 'Shoal Commander', 'Glowscale', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
