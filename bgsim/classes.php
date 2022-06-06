@@ -214,20 +214,18 @@ class Battlefield
             }
         }
 
+        if ($this->roundDamageP1 > 0 && $this->roundDamageP2 > 0) {
+            echo "ERROR in getLoserDamage()";
+        }
+
+        // return the actual dmg given/taken (number of stars still on the board)
         if ($this->roundDamageP1 > $this->roundDamageP2) {
             return $this->roundDamageP1 * -1;
         } else if ($this->roundDamageP1 < $this->roundDamageP2) {
-            return 1;
+            return $this->roundDamageP2;
         } else {
             return 0;
         }
-
-//        echo "<br>";
-//        echo "P1 RoundDamage: " . $this->roundDamageP1 . " | MinionDamageDone: " . $this->totalMinionDamageDoneP1;
-//        echo "<br>";
-//        echo "P2 RoundDamage: " . $this->roundDamageP2 . " | MinionDamageDone: " . $this->totalMinionDamageDoneP2;
-//        echo "<br>";
-//        return $this->roundDamageP2;
     }
 
     public function findTarget(int $player): int
@@ -252,7 +250,6 @@ class Battlefield
         } else {
             return -1;
         }
-
     }
 
     /**
