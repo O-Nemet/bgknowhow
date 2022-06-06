@@ -87,7 +87,7 @@ if (!empty($_GET['show'])) {
             }
 
             if ($show == 'minions' && $mode == 'gfx') {
-                echo "<div class='strategy-images cf'>";
+                echo "<div class='strategy-images minions cf'>";
                 foreach ($minions as $minion) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                     echo "<div class='name'>" . $minion->name . "</div>";
@@ -138,7 +138,7 @@ if (!empty($_GET['show'])) {
             }
 
             if ($show == 'buddies' && $mode == 'gfx') {
-                echo "<div class='strategy-images cf'>";
+                echo "<div class='strategy-images buddies cf'>";
                 foreach ($buddies as $buddy) {
                     echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "'></a></div>";
                 }
