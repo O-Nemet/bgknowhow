@@ -43,6 +43,8 @@ function getWebsiteName(): string
         return 'bgcurves';
     } else if (strpos($page, '/bgexternal/') !== false) {
         return 'bgexternal';
+    } else if (strpos($page, '/bgguides/') !== false) {
+        return 'bgguides';
     } else if (strpos($page, '/bglegends/') !== false) {
         return 'bglegends';
     } else if (strpos($page, '/bgsim/') !== false) {
@@ -221,7 +223,7 @@ function drawBoard($minions)
 
 function getCompositionText(): string
 {
-    return "These different compositions are meant to display a setup to strive for, for the very end game (top 3 and above). In general one of the 7 slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore your actual board will rarely be as perfect as those listed here. Of course as many minions as possible should be tripled, buffed with Reborn, Taunt, Poison or Divine Shield. Also primary support units like Brann and Nomi will be usually tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking it is also often beneficial to replace it with a Leeroy or a Mantid Queen.";
+    return "These different compositions are meant to display a setup to strive for, for the very end game (top 3 and above). In general one of the 7 slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Taunt, Poison or Divine Shield. Also primary support units like <a href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking it is also often beneficial to replace it with a <a href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight.";
 }
 
 /**
