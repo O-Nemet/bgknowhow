@@ -189,7 +189,6 @@ body {
     font-size: 16px;
     color: #222222;
     background-color: #F2F2F2;
-    /*        background-image: url('../images/bg-body.jpg'); */
     background-repeat: repeat;
     -webkit-font-smoothing: antialiased;
 }
@@ -203,7 +202,6 @@ body {
     margin-bottom: 92px;
     border-right: 1px inset;
     border-left: 1px outset;
-    /*       background-image: url('../images/bg-body.jpg'); */
     background-repeat: repeat;
     position: relative; /* to pin recently viewed to the bottom */
     top: 92px;
@@ -230,6 +228,10 @@ a {
 a:hover {
     /*font-weight: bold;*/
     color: #2E76CF;
+}
+
+p a {
+    font-weight: bold;
 }
 
 .dialog a {
@@ -1835,11 +1837,10 @@ root {
     /* gradient */
     background: #333333;
     background: linear-gradient(to bottom, #444444, #111111) repeat scroll 0 0 transparent;
-    background: gradient(linear, left top, left bottom, from(#444444), to(#111111));
+    /*background: gradient(linear, left top, left bottom, from(#444444), to(#111111));*/
     background: rgba(235, 235, 235, 1.00); /* ex 0.8 */
     opacity: 0.0;
     border-radius: 0px 0px 10px 20px;
-
 }
 
 .menu-container-1 {
@@ -1849,12 +1850,12 @@ root {
 
 .menu-container-2 {
     width: 200px;
-    background: rgba(0, 0, 0, 0.8) !important;
+    background: rgba(0, 0, 0, 0.75) !important;
 }
 
 .menu-container-3 {
-    width: 610px;
-    /*      background:rgba(0,0,0,0.75) !important; */
+    width: 350px;
+    background: rgba(0, 0, 0, 0.75) !important;
 }
 
 .menu-container-4 {
@@ -1891,7 +1892,7 @@ root {
 }
 
 .menu-column-3 {
-    /* width:240px; */
+    width: 350px;
     border: 0px solid #FFFFFF;
 }
 
@@ -2002,7 +2003,7 @@ root {
     border-bottom: none;
 }
 */
-#menu li div div:not(.menu-column-3) ul li:hover {
+#menu li div div:not(.menu-column-4) ul li:hover {
     background-color: #2E76CF;
     border-bottom: 1px solid #333333;
     /* background: none repeat scroll 0 0 transparent; */
@@ -2017,7 +2018,7 @@ root {
     color: #EEEEEE;
 }
 
-#menu li div div.menu-column-3 ul li:hover a {
+#menu li div div.menu-column-4 ul li:hover a {
     color: #8DBDD8; /* ex #000000; */
 }
 
@@ -2055,7 +2056,7 @@ root {
 /* new settings */
 #menu > ul.menu-top > li.menu-hover > div.menu-container-3 > div.menu-column-3 > ul > li {
     float: left;
-    width: 202px;
+    width: 350px;
     height: 25px;
     /* line-height: 29px; */
     vertical-align: middle;
@@ -2094,6 +2095,7 @@ body.bgjson .bgjson > a,
 body.bgcomps .bgcomps > a,
 body.bgcurves .bgcurves > a,
 body.bgexternal .bgexternal > a,
+body.bgguides .bgguides > a,
 body.bglegends .bglegends > a,
 body.bgsim .bgsim > a,
 body.bgstrategy .bgstrategy > a {
@@ -2172,6 +2174,44 @@ body.bgstrategy .bgstrategy > a {
 /*p {*/
 /*    width: 950px;*/
 /*}*/
+
+.lobby_legends img {
+    width: 1120px;
+    margin-left: -10px;
+}
+
+.lobby_legends img:first-of-type {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.lobby_legends img:last-of-type {
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+.streamers, .websites {
+    margin: 0 auto;
+    width: 1000px;
+    height: 250px;
+}
+
+.streamers img, .websites img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid white;
+    background-clip: padding-box;
+}
+
+.streamers img:hover, .websites img:hover {
+    filter: contrast(130%);
+    border: 3px dotted black;
+    background-clip: padding-box;
+}
 
 .strategy-wrapper {
     margin: 0 auto;
@@ -2361,6 +2401,7 @@ body.bgstrategy .bgstrategy > a {
     background-repeat: no-repeat;
     color: whitesmoke;
     font-size: 20px;
+    letter-spacing: 2px;
     text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px 1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0) 0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.55883px 0px;
 }
 
@@ -2465,6 +2506,7 @@ body.bgstrategy .bgstrategy > a {
     height: 80%;
     width: 197px;
     background-position: -54px 0px;
+    background-clip: padding-box;
     z-index: 1;
     border: 2px black solid;
     border-radius: 5px;
@@ -2674,10 +2716,10 @@ body.bgstrategy .bgstrategy > a {
 }
 
 #latest_changes {
-    list-style: disc;
+    list-style: inside;
     line-height: 22px;
-    font-family: Mono;
-    font-size: 18px;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 #latest_changes li {
@@ -2691,7 +2733,7 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .matrix div {
-    background-color: #FFF;
+    background-color: #FFFFFF;
     float: left;
     font-size: 15px;
     padding: 10px 0px;
@@ -2731,6 +2773,50 @@ body.bgstrategy .bgstrategy > a {
     height: 158px !important;
     background-color: lightblue !important;
     text-align: left !important;
+}
+
+.guide {
+    padding-bottom: 80px;
+}
+
+.guide p {
+    text-align: justify;
+}
+
+.guide h3 {
+    font-size: 20px;
+}
+
+.guide h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.guide strong, .guide a {
+    font-weight: bold;
+}
+
+.guide em {
+    font-style: italic;
+}
+
+.guide ul {
+    list-style: disc;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+
+.guide .comp_wrapper {
+    width: 75%;
+}
+
+.guide .quote {
+    display: block;
+    border-left: 4px solid #8DBDD8;
+    padding: 5px 0px 5px 8px;
+    height: 60px;
 }
 
 .caption {
