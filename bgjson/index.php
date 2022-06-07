@@ -20,9 +20,13 @@ include_once('../header.php');
     <h2 class="page_title">BG JSON - Downloads</h2>
 
     <br>
-    <p>
-        This page is providing Hearthstone Battleground data in different data collections and file types.<br>
+    <p class="bgjson_introduction">
+        This page is providing curated and condensed Hearthstone Battleground data in different data collections and file types.<br>
         Feel free to use this as a starting point for your own projects and content creation (code examples below).<br>
+        <br>
+        These datasets have several advantages over the data available from the Blizzard API or the Hearthstone JSON files:<br>
+        For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. 'Eliza' instead of 'Dread Admiral Eliza'), <em>pictureSmall</em> references a webp version ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
+        For minions <em>abilities</em> includes an array of boolean key/value pairs, indicating skills like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
         At least every 8 hours fresh files will be generated from the database.<br>
         Official updates and hotfixes will be integrated as soon as possible.
@@ -191,7 +195,7 @@ include_once('../header.php');
     <p class="caption">Code Example (JS via local file):</p>
     <pre class="code_example"><code>
         function readTextFile(file, callback) {
-            var rawFile = new XMLHttpRequest();
+            let rawFile = new XMLHttpRequest();
             rawFile.overrideMimeType("application/json");
             rawFile.open('GET', file, true);
             rawFile.onreadystatechange = function() {
@@ -204,7 +208,7 @@ include_once('../header.php');
 
         // usage
         readTextFile('bg_minions_all.json', function(text) {
-            var minions = JSON.parse(text.data);
+            let minions = JSON.parse(text.data);
 
             // check the result
             console.log(minions);

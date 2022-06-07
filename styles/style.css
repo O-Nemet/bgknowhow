@@ -86,6 +86,11 @@ table {
     /* outline: 1px dotted red; */
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
 table {
     font-size: 18px;
     border: 1px;
@@ -2100,6 +2105,10 @@ body.bglegends .bglegends > a,
 body.bgsim .bgsim > a,
 body.bgstrategy .bgstrategy > a {
     color: #8DBDD8 !important;
+}
+
+.bgjson_introduction em {
+    font-style: italic;
 }
 
 .comp_selection {
