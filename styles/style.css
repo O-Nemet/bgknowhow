@@ -2713,6 +2713,7 @@ body.bgstrategy .bgstrategy > a {
 
 .typeFilter img {
     cursor: pointer;
+    width: 110px;
 }
 
 .typeFilter img:hover {
@@ -2720,8 +2721,16 @@ body.bgstrategy .bgstrategy > a {
     filter: contrast(130%);
 }
 
-.typeFilter img:focus, .typeFilter img:active {
+/*.typeFilter img:focus, .typeFilter img:active {*/
+/*    filter: grayscale(100%);*/
+/*}*/
+
+.typeFilter img.inactive {
     filter: grayscale(100%);
+}
+
+.typeFilter img.inactive:hover {
+    filter: grayscale(0%);
 }
 
 #latest_changes {
@@ -2782,6 +2791,17 @@ body.bgstrategy .bgstrategy > a {
     height: 158px !important;
     background-color: lightblue !important;
     text-align: left !important;
+}
+
+.matrix .column_divider {
+    width: 221px;
+    margin-top: 143px;
+    visibility: hidden;
+}
+
+.matrix .row_divider {
+    width: 221px;
+    visibility: hidden;
 }
 
 .guide {
