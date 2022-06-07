@@ -13,22 +13,22 @@ include_once('header.php');
         <a href="bgstrategy/?show=minions&mode=gfx">
             <div id="strategy_minions"><span>Minion<br>Strategy</span></div>
         </a>
-        <a href="bgcurves/index.php">
+        <a href="bgcurves/">
             <div id="curves"><span>Curves</span></div>
         </a>
-        <a href="bgsim/index.php">
+        <a href="bgsim/">
             <div id="simulator"><span>Simulator</span></div>
         </a>
-        <a href="bgcomps/index.php">
+        <a href="bgcomps/">
             <div id="comps"><span>Endgame<br>Comps</span></div>
         </a>
-        <a href="bgjson/index.php">
+        <a href="bgjson/">
             <div id="bgjson"><span>BGJSON</span></div>
         </a>
-        <a href="bglegends/index.php">
+        <a href="bglegends/">
             <div id="lobbylegends"><span>Lobby<br>Legends</span></div>
         </a>
-        <a href="bgexternal/index.php">
+        <a href="bgexternal/">
             <div id="external"><span>External<br>Resources</span></div>
         </a>
     </div>
