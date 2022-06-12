@@ -8,7 +8,7 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <p>Big Stats Comp:</p>
+    <h3>Big Stats Comp:</h3>
     <?php
     $board   = ['*Nightmare Amalgam', 'Swolefin', 'Swolefin', 'Striker', 'Brann', 'Sefin', '*Nightmare Amalgam'];
     $minions = getMinionsForBoard($board);
@@ -17,7 +17,7 @@ include_once('../header.php');
     //    $minions = getMinionsForBoard($board);
     //    drawBoard($minions);
     ?>
-    <p>Selfless/Baron Shield Comp:</p>
+    <h3>Selfless/Baron Shield Comp:</h3>
     <?php
     $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', '*Nightmare Amalgam', 'Honcho', 'Sefin'];
     $minions = getMinionsForBoard($board);

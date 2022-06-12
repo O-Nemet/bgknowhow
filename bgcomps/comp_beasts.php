@@ -8,13 +8,19 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <p>Macaw/Goldrinn/Baron Deathrattle Comp:</p>
+    <h3>Macaw/Goldrinn/Baron Deathrattle Comp:</h3>
     <?php
     $board   = ['Macaw', 'Macaw', 'Hydra', 'Hydra', 'Goldrinn', 'Goldrinn', 'Baron'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>Leaper Deathrattle Comp:</p>
+    <h3>Mama Bear Deathrattle Comp:</h3>
+    <?php
+    $board   = ['Hydra', 'Highmane', 'Krush', '*Rat Pack', '*Rat Pack', 'Croc', '*Mama Bear'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <h3>Leaper Deathrattle Comp:</h3>
     <?php
     $board   = ['Leaper', 'Macaw', '*Sewer Rat', '*Sewer Rat', '*Rat Pack', '*Rat Pack', 'Baron'];
     $minions = getMinionsForBoard($board);

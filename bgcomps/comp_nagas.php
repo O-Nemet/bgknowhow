@@ -8,13 +8,13 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <p>Spellcraft Comp:</p>
+    <h3>Spellcraft Comp:</h3>
     <?php
     $board   = ['Waverider', 'Myrmidon', '*Eventide Brute', 'Athissa', 'Athissa', 'Orgozoa', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>Big Stats Comp:</p>
+    <h3>Big Stats Comp:</h3>
     <?php
     $board   = ['Athissa', 'Wrangler', 'Wrangler', 'Shoal Commander', 'Shoal Commander', 'Glowscale', 'Glowscale'];
     $minions = getMinionsForBoard($board);

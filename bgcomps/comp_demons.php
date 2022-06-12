@@ -8,19 +8,19 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <p>Big Stats Comp:</p>
+    <h3>Big Stats Comp:</h3>
     <?php
     $board   = ['Selfless', '*Nightmare Amalgam', 'Ur\'zul', 'Ur\'zul', '*Imp Mama', 'Felbat', 'Baron'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>Macaw/Trickster Deathrattle Comp:</p>
+    <h3>Macaw/Trickster Deathrattle Comp:</h3>
     <?php
     $board   = ['Macaw', 'Trickster', 'Trickster', '*Imp Mama', 'Felbat', 'Felbat', '*Imp Mama'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>Maximum Juggler Comp:</p>
+    <h3>Maximum Juggler Comp:</h3>
     <?php
     $board   = ['*Ring Matron', '*Ring Matron', 'Voidlord', 'Voidlord', 'Infernal', 'Juggler', 'Juggler'];
     $minions = getMinionsForBoard($board);
