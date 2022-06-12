@@ -42,16 +42,16 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="3"><a href="//bgknowhow.com/bgjson/output/bg_entities_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Entities</a></td>
+            <td colspan="3"><a href="//bgknowhow.com/bgjson/output/bg_entities_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Entities</a></td>
         </tr>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Minions</a></td>
             <td>&nbsp;</td>
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <? echo date("F d, Y H:i:s", filemtime('output/bg_heroes_active.json')); ?></i>
+    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.json')); ?></i>
 
     <br><br>
 
@@ -63,16 +63,16 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="3"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Entities</a></td>
+            <td colspan="3"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Entities</a></td>
         </tr>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Buddies</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Buddies</a></td>
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <? echo date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></i>
+    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></i>
 
     <br><br>
 
@@ -84,13 +84,13 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> Active BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Minions</a></td>
             <td>&nbsp;</td>
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <? echo date("F d, Y H:i:s", filemtime('output/bg_heroes_active.csv')); ?></i>
+    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.csv')); ?></i>
 
     <br><br>
 
@@ -102,13 +102,13 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png"> All BG Buddies</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Buddies</a></td>
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <? echo date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></i>
+    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></i>
 
     <br><br>
 
