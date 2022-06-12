@@ -3,6 +3,8 @@ include_once('../header.php');
 ?>
 
 <?php
+StopWatch::start();
+
 require_once('classes.php');
 
 $minionTypes['beasts']     = isset($_GET['be']) ? intval($_GET['be']) : 1;
@@ -16,12 +18,6 @@ $minionTypes['pirates']    = isset($_GET['pi']) ? intval($_GET['pi']) : 1;
 $minionTypes['quilboar']   = isset($_GET['qu']) ? intval($_GET['qu']) : 1;
 
 //var_dump($minionTypes);
-
-StopWatch::start();
-
-$tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_active.json'));
-//var_dump($tempMinions->data);
-
 //var_dump($_SERVER["REQUEST_URI"]);
 
 $minions = [];
@@ -46,24 +42,24 @@ foreach ($tempMinions->data as $key => $object) {
 
 <h2 class="page_title">Simulation: 1st Turn</h2>
 <p>
-    This is a dynamically generated matrix featuring the matchups of all tier 1 minions on turn 1.<br>
+    This is a dynamically generated matrix featuring the match-ups of all tier 1 minions on turn 1.<br>
     The number in the square shows how much damage you will deal/receive from the board (in addition to the turn 1 damage).<br>
     The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.<br>
     For this scenario the Razorfen Geomancer has been self-gemmed to a 4/2 minion.
     <br><br>
-    Click any of these icons below to deactivate the banned minion types of your tavern.
+    Click any of these icons below to deactivate the banned minion types of your lobby.
 </p>
 <br>
 <div class="typeFilter">
-    <a href="<?= getLink('be', $minionTypes['beasts']); ?>"><img class="<?= ($minionTypes['beasts'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_beasts.png" title="Beasts"></a>
-    <a href="<?= getLink('de', $minionTypes['demons']); ?>"><img class="<?= ($minionTypes['demons'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_demons.png" title="Demons"></a>
-    <a href="<?= getLink('dr', $minionTypes['dragons']); ?>"><img class="<?= ($minionTypes['dragons'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_dragons.png" title="Dragons"></a>
-    <a href="<?= getLink('el', $minionTypes['elementals']); ?>"><img class="<?= ($minionTypes['elementals'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" title="Elementals"></a>
-    <a href="<?= getLink('me', $minionTypes['mechs']); ?>"><img class="<?= ($minionTypes['mechs'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" title="Mechs"></a>
-    <a href="<?= getLink('mu', $minionTypes['murlocs']); ?>"><img class="<?= ($minionTypes['murlocs'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" title="Murlocs"></a>
-    <a href="<?= getLink('na', $minionTypes['nagas']); ?>"><img class="<?= ($minionTypes['nagas'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_naga.png" title="Nagas"></a>
-    <a href="<?= getLink('pi', $minionTypes['pirates']); ?>"><img class="<?= ($minionTypes['pirates'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" title="Pirates"></a>
-    <a href="<?= getLink('qu', $minionTypes['quilboar']); ?>"><img class="<?= ($minionTypes['quilboar'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" title="Quilboar"></a>
+    <a href="<?= getLink('be', $minionTypes['beasts']); ?>"><img class="<?= ($minionTypes['beasts'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_beasts.png" alt="Beasts" title="Beasts"></a>
+    <a href="<?= getLink('de', $minionTypes['demons']); ?>"><img class="<?= ($minionTypes['demons'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_demons.png" alt="Beasts" title="Demons"></a>
+    <a href="<?= getLink('dr', $minionTypes['dragons']); ?>"><img class="<?= ($minionTypes['dragons'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_dragons.png" alt="Dragons" title="Dragons"></a>
+    <a href="<?= getLink('el', $minionTypes['elementals']); ?>"><img class="<?= ($minionTypes['elementals'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" alt="Elementals" title="Elementals"></a>
+    <a href="<?= getLink('me', $minionTypes['mechs']); ?>"><img class="<?= ($minionTypes['mechs'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" alt="Mechs" title="Mechs"></a>
+    <a href="<?= getLink('mu', $minionTypes['murlocs']); ?>"><img class="<?= ($minionTypes['murlocs'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" alt="Murlocs" title="Murlocs"></a>
+    <a href="<?= getLink('na', $minionTypes['nagas']); ?>"><img class="<?= ($minionTypes['nagas'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_naga.png" alt="Nagas" title="Nagas"></a>
+    <a href="<?= getLink('pi', $minionTypes['pirates']); ?>"><img class="<?= ($minionTypes['pirates'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" alt="Pirates" title="Pirates"></a>
+    <a href="<?= getLink('qu', $minionTypes['quilboar']); ?>"><img class="<?= ($minionTypes['quilboar'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" alt="Quilboar" title="Quilboar"></a>
 </div>
 
 <br><br>
@@ -131,7 +127,6 @@ function getCombatResult($id1, $id2): int
     $battlefield->spawnMinion(2, 3, new Minion($id2));
     $battlefield->runFight();
 
-//    echo $battlefield->getTotalMinionDamageDoneP1();
     $GLOBALS['player1TotalDamage'] += $battlefield->getTotalMinionDamageDoneP1();
     return $battlefield->getLoserDamage();
 }
