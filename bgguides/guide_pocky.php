@@ -36,7 +36,7 @@ include_once('../header.php');
     </ul>
     <p>
         <br>
-        <strong>Tempo</strong> heroes are heroes like <a href="https://bgknowhow.com/bgstrategy/hero/?id=78">Yogg</a>, <a href="https://bgknowhow.com/bgstrategy/hero/?id=32">Kael'thas</a>, <a href="https://bgknowhow.com/bgstrategy/hero/?id=14">Deryl</a>, or <a href="https://bgknowhow.com/bgstrategy/hero/?id=33">Mukla</a>. Simply put they buff the stats on your minions which means all else being equal, your minions will typically be stronger than your opponents.
+        <strong>Tempo</strong> heroes are heroes like <a href="https://bgknowhow.com/bgstrategy/hero/?id=78">Yogg</a>, <a href="https://bgknowhow.com/bgstrategy/hero/?id=32">Kael'thas</a>, <a href="https://bgknowhow.com/bgstrategy/hero/?id=14">Deryl</a>, or <a href="https://bgknowhow.com/bgstrategy/hero/?id=33">Mukla</a>. Simply put, they buff the stats on your minions which means all else being equal, your minions will typically be stronger than your opponents.
     </p>
     <div class="comp_wrapper" style="width: 51%">
         <a href="https://bgknowhow.com/bgstrategy/hero/?id=78"><img src="<?= PICTURE_LOCAL ?>heropowers/TB_BaconShop_HP_039_render_80.webp"></a>
@@ -81,7 +81,7 @@ include_once('../header.php');
         <a href="https://bgknowhow.com/bgstrategy/hero/?id=2"><img src="<?= PICTURE_LOCAL ?>heropowers/TB_BaconShop_HP_086_render_80.webp"></a>
         <a href="https://bgknowhow.com/bgstrategy/hero/?id=7"><img src="<?= PICTURE_LOCAL ?>heropowers/BG22_HERO_001p_render_80.webp"></a>
     </div>
-    <h3>“You are only as strong as your weakest link...” <em>(Strengths and Weaknesses)</em></h3>
+    <h3 id="testscroll">“You are only as strong as your weakest link...” <em>(Strengths and Weaknesses)</em></h3>
     <p>
         Understanding the strengths of your hero power allows you to play towards it, as well as understand your weaknesses and how to play around it. There are a number of guides that people have written on specific heroes that go into far more depth on the details on different heroes, but in a general sense there are some tips that can help you organically think about different hero power characteristics.
         <br><br>
@@ -103,7 +103,7 @@ include_once('../header.php');
         <br><br>
         As mentioned before, many hero powers now have multiple characteristics. Consider hero powers holistically, and try to identify your heroes strengths and weaknesses. Playing into a hero’s strengths, and balancing the hedge against their weaknesses is foundational to being the best player you can be.
     </p>
-    <h3>“Minions, Assemble!”</h3>
+    <h3 id="testscroll2">“Minions, Assemble!”</h3>
     <p>
         Battlegrounds now has 9 minion types, but only 5 are in any given lobby. That means that different combinations can play out drastically differently. When there were only 6 and 7 minion types, we had 6 and 21 lobby configurations respectively. Now we have 126! Don’t bother memorizing them anymore. Instead, understanding the characteristics and synergies of the different minion types can give you insight into how a lobby will play out before it even starts.
         <br><br>
