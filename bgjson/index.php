@@ -1,7 +1,6 @@
 <?php
 include_once('../header.php');
 ?>
-
     <script>
         async function readJSON() {
             const requestURL = 'https://bgknowhow.com/bgjson/output/bg_minions_all.json';
@@ -11,7 +10,7 @@ include_once('../header.php');
             const minions = await response.json();
 
             // check the result
-            console.log(minions.data);
+            console.table(minions.data);
         }
 
         readJSON();
@@ -26,10 +25,11 @@ include_once('../header.php');
         <br>
         These datasets have several advantages over the data available from the Blizzard API or the Hearthstone JSON files:<br>
         For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. 'Eliza' instead of 'Dread Admiral Eliza'), <em>pictureSmall</em> references a webp version ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
-        For minions <em>abilities</em> includes an array of boolean key/value pairs, indicating skills like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
+        For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating skills like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
         At least every 8 hours fresh files will be generated from the database.<br>
-        Official updates and hotfixes will be integrated as soon as possible.
+        Official updates and hotfixes will be integrated as soon as possible.<br>
+        If you have any suggestion for additional properties that could/should be implemented, just drop me a message.
     </p>
 
     <br><br>
@@ -183,7 +183,7 @@ include_once('../header.php');
             const minions = await response.json();
 
             // check the result
-            console.log(minions.data);
+            console.table(minions.data);
 
             return minions.data;
         }
@@ -211,7 +211,7 @@ include_once('../header.php');
             let minions = JSON.parse(text.data);
 
             // check the result
-            console.log(minions);
+            console.table(minions);
         });
     </code></pre>
     <br><br>
