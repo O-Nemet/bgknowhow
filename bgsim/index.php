@@ -3,9 +3,8 @@ include_once('../header.php');
 ?>
 
 <?php
-StopWatch::start();
-
 require_once('classes.php');
+StopWatch::start();
 
 $minionTypes['beasts']     = isset($_GET['be']) ? intval($_GET['be']) : 1;
 $minionTypes['demons']     = isset($_GET['de']) ? intval($_GET['de']) : 1;
