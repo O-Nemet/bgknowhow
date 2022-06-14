@@ -24,7 +24,9 @@ if (!empty($buddy)) {
     echo "minion " . $minion;
 } else {
     foreach ($tempHeroes->data as $key => $object) {
-        $heroes[] = $object;
+        if ($object->isActive === true) {
+            $heroes[] = $object;
+        }
     }
 
     foreach ($tempBuddies->data as $key => $object) {
@@ -32,8 +34,9 @@ if (!empty($buddy)) {
     }
 
     foreach ($tempMinions->data as $key => $object) {
-        if ($object->isActive === true && $object->isToken !== true)
+        if ($object->isActive === true && $object->isToken !== true) {
             $minions[] = $object;
+        }
     }
 
     //echo "<pre>";
