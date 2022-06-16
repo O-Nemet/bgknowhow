@@ -76,7 +76,7 @@ foreach ($tempMinions->data as $key => $object) {
 
     echo "<div class='matrix-row' style='visibility: hidden;'>X</div>";
     foreach ($minions as $minion_top) {
-        echo "<div class='matrix-column'>$minion_top->nameShort</div>";
+        echo "<div class='matrix-column'><a href='" . $minion_top->websites->bgknowhow . "' target='_blank'>$minion_top->nameShort</a></div>";
     }
     if ($minionsCount > 0) {
         echo "<div class='matrix-column' style='background-color: white !important;'>Losses</div>";
@@ -86,7 +86,7 @@ foreach ($tempMinions->data as $key => $object) {
     foreach ($minions as $minion_left) {
         $minion_left->combatLosses     = 0;
         $GLOBALS['player1TotalDamage'] = 0;
-        echo "<div class='matrix-row'>$minion_left->name</div>";
+        echo "<div class='matrix-row'><a href='" . $minion_left->websites->bgknowhow . "' target='_blank'>$minion_left->name</a></div>";
         foreach ($minions as $minion_top) {
             $combatResult              = getCombatResult($minion_left->id, $minion_top->id);
             $minion_left->combatLosses = ($combatResult < 0) ? $minion_left->combatLosses + 1 : $minion_left->combatLosses + 0;
@@ -140,6 +140,7 @@ function getCellColor($combatResult): string
         return 'draw';
     }
 }
+
 ?>
 
 <?php
