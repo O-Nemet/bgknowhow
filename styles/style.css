@@ -1478,8 +1478,18 @@ addthis_toolbox {
     border: 5px double #222222;
     border-radius: 10px 10px 30px 30px;
     padding: 15px 35px 50px 15px;
+    margin-top: 10px;
     margin-left: 25px;
     background-color: #D2CC96;
+}
+
+.card_wrapper2 {
+    position: absolute;
+    width: 990px;
+    height: 300px;
+    padding: 15px 35px 50px 15px;
+    margin-top: 10px;
+    margin-left: 25px;
 }
 
 .card_wrapper span {
@@ -1487,11 +1497,15 @@ addthis_toolbox {
     /*margin-right: 5px;*/
 }
 
+.card_wrapper2 span {
+    float: right;
+}
+
 .card_info {
     position: absolute;
     width: 200px;
     right: 300px;
-    top: 40px;
+    top: 60px;
 }
 
 .cardname {
@@ -1508,6 +1522,30 @@ addthis_toolbox {
     background-repeat: repeat-x;
     background-position: bottom;
     border-radius: 10px 10px 0px 0px;
+}
+
+.card_picture_big img {
+    width: 460px;
+    height: 305px;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.card_picture_big2 img {
+    /*width: 460px;*/
+    /*height: 305px;*/
+    border-radius: 0px 0px 0px 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.card_picture {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.card_picture img {
+    width: 250px;
+    height: 380px;
 }
 
 #card_printings {
@@ -1760,6 +1798,10 @@ root {
     color: #000000;
     /* border-color: #CCCCCC; */
     background-color: #F7BE21;
+}
+
+.hfb {
+    visibility: hidden;
 }
 
 #hamburger_menu {
@@ -2407,6 +2449,17 @@ body.bgstrategy .bgstrategy > a {
     left: -20px;
     text-align: justify;
     visibility: hidden;
+}
+
+.streamers .iframe_div {
+    height: 540px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.streamers iframe {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .websites img:hover, .streamers img:hover {
