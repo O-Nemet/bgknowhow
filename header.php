@@ -44,7 +44,6 @@ require_once('config/db.php');
     <label id="hamburger_menu" for="hamburger_input">
         <!--        <div class="hamburger_icon"></div>-->
         <nav id="sidebar_menu">
-            <h3>BG Know-How</h3>
             <ul>
                 <li><a class="menu-topic" href="//bgknowhow.com/introduction.php">&#9654; Introduction</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">&#9654; Hero Strategy</a></li>
@@ -115,13 +114,13 @@ require_once('config/db.php');
                     <a class="menu-topic" href="//bgknowhow.com/bgexternal/">External Resources</a>
                 </li>
                 <li class="menu-hover bgguides">
-                    <a class="menu-topic" href="#">Guides</a>
+                    <a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">Guides</a>
                     <div class="menu-container-3">
                         <div class="menu-column-3">
                             <ul>
                                 <li><a href="//bgknowhow.com/bgguides/guide_pocky.php">...Guide to Improving at Battlegrounds</a></li>
-                                <li><a href="#">...Guide #2</a></li>
-                                <li><a href="#">...Guide #3</a></li>
+                                <li><a href="//bgknowhow.com/bgguides/guide_youtube.php">...Featured YouTube video guides</a></li>
+                                <li><a href="//bgknowhow.com/bgguides/guide_your.php">...Your guide here</a></li>
                             </ul>
                         </div>
                     </div>
@@ -177,4 +176,4 @@ require_once('config/db.php');
 
 </header>
 
-<div id="content">
+<div id="content" class="cf">

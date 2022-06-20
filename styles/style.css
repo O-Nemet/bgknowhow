@@ -1451,6 +1451,7 @@ addthis_toolbox {
 .price_font {
     text-align: right;
     font-family: Georga, sans-serif;
+    color: gold;
 }
 
 .edition {
@@ -1471,25 +1472,29 @@ addthis_toolbox {
     border: 1px solid #F7BE21;
 }
 
-.card_wrapper {
-    position: absolute; /* mabye inline ? */
-    width: 990px;
-    height: 300px;
-    border: 5px double #222222;
-    border-radius: 10px 10px 30px 30px;
-    padding: 15px 35px 50px 15px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: #D2CC96;
-}
+/*.card_wrapper {*/
+/*    position: absolute; !* mabye inline ? *!*/
+/*    width: 990px;*/
+/*    height: 300px;*/
+/*    border: 5px double #222222;*/
+/*    border-radius: 10px 10px 30px 30px;*/
+/*    padding: 15px 35px 50px 15px;*/
+/*    margin-top: 10px;*/
+/*    margin-left: 25px;*/
+/*    background-color: #D2CC96;*/
+/*}*/
 
-.card_wrapper2 {
-    position: absolute;
+.card_wrapper {
     width: 990px;
-    height: 300px;
+    height: 500px;
     padding: 15px 35px 50px 15px;
-    margin-top: 10px;
+    margin-top: 1px;
     margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    /*gap: 1ch;*/
 }
 
 .card_wrapper span {
@@ -1497,23 +1502,12 @@ addthis_toolbox {
     /*margin-right: 5px;*/
 }
 
-.card_wrapper2 span {
-    float: right;
-}
-
-.card_info {
-    position: absolute;
-    width: 200px;
-    right: 300px;
-    top: 60px;
-}
-
 .cardname {
     font-size: 24px;
     height: 30px;
-    margin-top: -3px;
-    padding: 5px 0 0 10px;
-    width: 450px;
+    padding: 5px 0 5px 0px;
+    width: 512px;
+    text-align: center;
     color: #EEEEEE;
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3); /* TODO: add glossy texture as seen on mtgo.com */
     background-color: #BBBBBB; /* TODO: add texture bg as seen on mtgo.com */
@@ -1524,28 +1518,258 @@ addthis_toolbox {
     border-radius: 10px 10px 0px 0px;
 }
 
+.card_info {
+    position: absolute;
+    width: 185px;
+    left: 100px;
+    padding-top: 35px;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px 1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0) 0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.55883px 0px;
+}
+
+.card_info span {
+    font-family: Georga, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    float: none;
+}
+
+.card_info .container {
+    position: relative;
+    display: inline-block;
+}
+
+.card_info img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.card_info .img_health {
+    width: 100px;
+}
+
+.card_info .img_armor {
+    width: 100px;
+}
+
+.card_info .card_attack {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.card_info .card_attack:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.card_info .card_attack, .card_info .card_health {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card_info .card_health {
+    padding-top: 14px;
+}
+
+/*.card_info .card_attack {*/
+/*    background-image: url('../images/icons/attack.png');*/
+/*}*/
+
+/*.card_info .card_health {*/
+/*    background-image: url('../images/icons/health.png');*/
+/*}*/
+
 .card_picture_big img {
-    width: 460px;
-    height: 305px;
+    /*width: 460px;*/
+    /*height: 305px;*/
+    margin: 0 auto;
     border-radius: 0px 0px 0px 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
 .card_picture_big2 img {
     /*width: 460px;*/
     /*height: 305px;*/
+    margin: 0 auto;
+    margin-top: -16px;
     border-radius: 0px 0px 0px 10px;
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(0 3%, 100% 3%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
 .card_picture {
     position: absolute;
-    top: -5px;
-    right: -5px;
+    right: 35px;
 }
 
 .card_picture img {
     width: 250px;
     height: 380px;
+}
+
+.card_flavor {
+    position: absolute;
+    right: 35px;
+    width: 300px;
+    margin-top: 355px;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px 1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0) 0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.55883px 0px;
+}
+
+.card_flavor span {
+    font-family: Georga, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: gold;
+    float: none;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.strategy_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+.strategy_input span {
+    display: block;
+    margin-left: 130px;
+}
+
+.strategy-item {
+    float: left;
+    padding: 10px;
+    border: 4px black double;
+    width: 400px;
+    min-height: 104px;
+    max-height: 208px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    overflow-y: auto;
+}
+
+.strategy-input {
+    float: left;
+    width: 410px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    border-radius: 5px;
+    border: 7px aliceblue solid;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.strategy-input:focus-visible {
+    outline: none;
+    border-color: cornflowerblue;
+}
+
+.vote-buttons {
+    float: left;
+    margin-top: 1px;
+    margin-left: 5px
+}
+
+.vote-buttons span {
+    font-size: 11px;
+    margin-left: 24px;
+    margin-top: -15px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.vote-buttons div p {
+    width: 50px;
+    height: 30px;
+}
+
+/*.vote-buttons div {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+.upvotes {
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.downvotes {
+    margin-bottom: 25px;
+}
+
+.flagvotes {
+}
+
+.upvotes p a {
+    color: white;
+    border-color: #D1FB8E #84BF29 #669F0C;
+    background: linear-gradient(to bottom, #AAE251 0%, #6BA80C 100%) repeat scroll 0 0 transparent;
+}
+
+.upvotes p a:hover {
+    background: linear-gradient(to bottom, #B5EB60 0%, #76B317 100%) repeat scroll 0 0 transparent;
+}
+
+.upvotes p a:active {
+    border-color: #20559A;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3) inset, 0 1px 0 #FFFFFF;
+}
+
+.downvotes p a {
+    color: white;
+    border-color: #fb8e8e #bf2929 #9f0c0c;
+    background: linear-gradient(to bottom, #e25151 0%, #a80c0c 100%) repeat scroll 0 0 transparent;
+}
+
+.downvotes p a:hover {
+    background: linear-gradient(to bottom, #ce8686 0%, #a92828 100%) repeat scroll 0 0 transparent;
+}
+
+.downvotes p a:active {
+    border-color: #20559A;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3) inset, 0 1px 0 #FFFFFF;
+}
+
+.flagvotes p a {
+    color: white;
+    border-color: #e3c5ff #bc6cc2 #984ca6;
+    background: linear-gradient(to bottom, #d5b9e3 0%, #a167af 100%) repeat scroll 0 0 transparent;
+    padding-top: 5px;
+}
+
+.flagvotes p a:hover {
+    background: linear-gradient(to bottom, #dac9e1 0%, #a27cb0 100%) repeat scroll 0 0 transparent;
+}
+
+.flagvotes p a:active {
+    border-color: #20559A;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3) inset, 0 1px 0 #FFFFFF;
+}
+
+.vote-buttons div p a {
+    font-family: Monospaced, monospace;
+    font-weight: bold;
+    width: 70px;
+    height: 24px;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #card_printings {
@@ -1878,7 +2102,7 @@ root {
 #hamburger_menu #sidebar_menu {
     visibility: hidden;
     position: fixed;
-    top: 0;
+    top: 92px;
     margin-top: 0px;
     left: -250px;
     height: 100%;
@@ -2418,13 +2642,22 @@ body.bgstrategy .bgstrategy > a {
     margin-bottom: -2px;
 }
 
-.websites, .streamers {
+.websites, .streamers, .cats {
     margin: 0 auto;
     width: 1000px;
     height: 250px;
 }
 
-.websites img, .streamers img {
+.websites div, .streamers div, .cats div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.websites img, .streamers img, .cats img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -2432,13 +2665,14 @@ body.bgstrategy .bgstrategy > a {
     background-clip: padding-box;
 }
 
-.websites div, .streamers div {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
+.cats div, .cats img {
+    width: 300px;
+    height: 300px;
+}
+
+.cats img {
+    border: 3px solid lightgray;
+    background-clip: padding-box;
 }
 
 .streamers div span {
@@ -2468,130 +2702,15 @@ body.bgstrategy .bgstrategy > a {
     background-clip: padding-box;
 }
 
+.strategy {
+    margin-left: 95px;
+    padding-bottom: 20px;
+}
+
 .strategy-wrapper {
     margin: 0 auto;
     width: 55%;
-    margin-bottom: 10px
-}
-
-.strategy-item {
-    float: left;
-    padding: 10px;
-    border: 4px black double;
-    width: 400px;
-    min-height: 104px;
-    max-height: 208px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    font-size: 17px;
-    overflow-y: auto;
-}
-
-.strategy-input {
-    float: left;
-    width: 410px;
-    height: 100px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    border: 7px aliceblue solid;
-    margin-top: 5px;
-}
-
-.strategy-input:focus-visible {
-    outline: none;
-    border-color: cornflowerblue;
-}
-
-.vote-buttons {
-    float: left;
-    margin-top: 1px;
-    margin-left: 5px
-}
-
-.vote-buttons span {
-    font-size: 11px;
-    margin-left: 24px;
-    margin-top: -15px;
-    margin-bottom: 3px;
-    display: block;
-}
-
-.vote-buttons div p {
-    width: 50px;
-    height: 30px;
-}
-
-/*.vote-buttons div {*/
-/*    margin-bottom: 15px;*/
-/*}*/
-
-.upvotes {
-    margin-top: 1px;
-    margin-bottom: 10px;
-}
-
-.downvotes {
-    margin-bottom: 25px;
-}
-
-.flagvotes {
-}
-
-.upvotes p a {
-    color: white;
-    border-color: #D1FB8E #84BF29 #669F0C;
-    background: linear-gradient(to bottom, #AAE251 0%, #6BA80C 100%) repeat scroll 0 0 transparent;
-}
-
-.upvotes p a:hover {
-    background: linear-gradient(to bottom, #B5EB60 0%, #76B317 100%) repeat scroll 0 0 transparent;
-}
-
-.upvotes p a:active {
-    border-color: #20559A;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3) inset, 0 1px 0 #FFFFFF;
-}
-
-.downvotes p a {
-    color: white;
-    border-color: #fb8e8e #bf2929 #9f0c0c;
-    background: linear-gradient(to bottom, #e25151 0%, #a80c0c 100%) repeat scroll 0 0 transparent;
-}
-
-.downvotes p a:hover {
-    background: linear-gradient(to bottom, #ce8686 0%, #a92828 100%) repeat scroll 0 0 transparent;
-}
-
-.downvotes p a:active {
-    border-color: #20559A;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3) inset, 0 1px 0 #FFFFFF;
-}
-
-.flagvotes p a {
-    color: white;
-    border-color: #e3c5ff #bc6cc2 #984ca6;
-    background: linear-gradient(to bottom, #d5b9e3 0%, #a167af 100%) repeat scroll 0 0 transparent;
-    padding-top: 5px;
-}
-
-.flagvotes p a:hover {
-    background: linear-gradient(to bottom, #dac9e1 0%, #a27cb0 100%) repeat scroll 0 0 transparent;
-}
-
-.flagvotes p a:active {
-    border-color: #20559A;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3) inset, 0 1px 0 #FFFFFF;
-}
-
-.vote-buttons div p a {
-    font-family: Monospaced, monospace;
-    font-weight: bold;
-    width: 70px;
-    height: 24px;
-    margin: 0;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .intro {
@@ -2645,28 +2764,6 @@ body.bgstrategy .bgstrategy > a {
     margin-bottom: -5px;
     width: 25px;
 }
-
-.card_info span {
-    font-family: Georga, sans-serif;
-}
-
-.card_info .card_attack, .card_info .card_health {
-    /*padding: 10px;*/
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: whitesmoke;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px 1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0) 0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.55883px 0px;
-}
-
-/*.card_info .card_attack {*/
-/*    background-image: url('../images/icons/attack.png');*/
-/*}*/
-
-/*.card_info .card_health {*/
-/*    background-image: url('../images/icons/health.png');*/
-/*}*/
 
 .strategy-table td {
     padding-top: 8px;
@@ -3167,6 +3264,54 @@ body.bgstrategy .bgstrategy > a {
         padding-right: 3px;
     }
 
+    .card_wrapper {
+        width: fit-content;
+        height: fit-content;
+        padding: 0;
+    }
+
+    .card_wrapper .card_picture {
+        position: relative;
+        margin-left: 55px;
+    }
+
+    .card_wrapper .cardname, .card_wrapper .card_picture_big, .card_wrapper .card_picture_big2,
+    .card_wrapper .card_info, .card_wrapper .card_flavor {
+        display: none;
+    }
+
+    .strategy {
+        margin-left: 0;
+    }
+
+    .strategy_input {
+        margin-left: 0;
+    }
+
+    .strategy_input span {
+        margin-left: 0;
+    }
+
+    .strategy-input {
+        width: 315px;
+        margin-left: 1px;
+    }
+
+    #strategy-submit {
+        width: 265px;
+        height: 40px;
+        margin-top: -25px;
+        margin-bottom: 25px;
+    }
+
+    .strategy-wrapper {
+        width: fit-content;
+    }
+
+    .strategy-item {
+        width: fit-content;
+    }
+
     .pathes2, .comp_selection {
         width: fit-content;
         margin-left: 17px;
@@ -3180,6 +3325,24 @@ body.bgstrategy .bgstrategy > a {
 
     .strategy-images.minions {
         margin-left: 70px;
+    }
+
+    .vote-buttons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    .vote-buttons .upvotes {
+        margin-top: 0;
+        margin-right: 20px;
+    }
+
+    .vote-buttons span {
+        margin-top: 11px;
+        margin-left: 38px;
+        margin-right: 20px;
     }
 
     .matrix {
