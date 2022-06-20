@@ -104,12 +104,14 @@ function getWebsiteTitle(): string
     return $title;
 }
 
-function getEntityData($selectedId)
+function getEntityData($selectedId, $unitType)
 {
     include('config/db.php');
 
-    if ($stmt = $mysqli->prepare("SELECT bgh.id,
+    if ($unitType == 'hero') {
+        if ($stmt = $mysqli->prepare("SELECT bgh.id,
                                      bgh.name,
+                                     bgh.name_short,
                                      bgh.health,
                                      bgh.armor_tier,
                                      bgh.id_blizzard,
@@ -122,9 +124,59 @@ function getEntityData($selectedId)
                                 FROM bg_heroes bgh
                                WHERE bgh.id = ?
                                LIMIT 1")) {
-        $stmt->bind_param("i", $selectedId);
-        $stmt->execute();
-        $stmt->store_result();
+            $stmt->bind_param("i", $selectedId);
+            $stmt->execute();
+            $stmt->store_result();
+        }
+    } else if ($unitType == 'buddy') {
+        if ($stmt = $mysqli->prepare("SELECT bgb.id,
+                                     bgb.name,
+                                     bgb.type,
+                                     bgb.text,
+                                     bgb.text_golden,
+                                     bgb.tier,
+                                     bgb.attack,
+                                     bgb.health,
+                                     bgb.id_blizzard,
+                                     bgb.flag_active,
+                                     bgb.artist
+                                FROM bg_buddies bgb
+                               WHERE bgb.id = ?
+                               LIMIT 1")) {
+            $stmt->bind_param("i", $selectedId);
+            $stmt->execute();
+            $stmt->store_result();
+        }
+    } else if ($unitType == 'minion') {
+        if ($stmt = $mysqli->prepare("SELECT bgm.id,
+                                     bgm.name,
+                                     bgm.name_short,
+                                     bgm.type,
+                                     bgm.pool,
+                                     bgm.text,
+                                     bgm.text_golden,
+                                     bgm.tier,
+                                     bgm.attack,
+                                     bgm.health,
+                                     bgm.flag_token,
+                                     bgm.flag_active,
+                                     bgm.flag_battlecry,
+                                     bgm.flag_deathrattle,
+                                     bgm.flag_taunt,                                     
+                                     bgm.flag_shield,                                     
+                                     bgm.flag_windfury,                                     
+                                     bgm.flag_reborn,                                     
+                                     bgm.flag_avenge,                                                                          
+                                     bgm.id_blizzard,                                   
+                                     bgm.flavor,                                                                        
+                                     bgm.artist                                                                        
+                                FROM bg_minions bgm
+                               WHERE bgm.id = ?
+                               LIMIT 1")) {
+            $stmt->bind_param("i", $selectedId);
+            $stmt->execute();
+            $stmt->store_result();
+        }
     }
 
     return $stmt;
