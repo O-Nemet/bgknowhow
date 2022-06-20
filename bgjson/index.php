@@ -115,6 +115,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>16.06.2022 - Added BG changes from the 23.4.3 patch notes.</li>
         <li>06.06.2022 - Added picturePortrait to the hero dataset.</li>
         <li>01.06.2022 - Added BG changes from the 23.4.0 patch notes.</li>
         <li>26.05.2022 - Added BG hotfix changes (Warden of Old in, Stormscale Siren out)</li>
