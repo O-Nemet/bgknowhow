@@ -83,7 +83,7 @@ require_once('config/db.php');
 
     <!--        <div class="cf"></div>-->
 
-    <div id="nav_wrapper" style="width: 1430px;">
+    <div id="nav_wrapper">
         <nav id="menu">
             <ul class="menu-top">
                 <li class="menu-hover bgjson">

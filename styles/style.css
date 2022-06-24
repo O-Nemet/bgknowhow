@@ -2747,7 +2747,7 @@ body.bgstrategy .bgstrategy > a {
     margin: 0 auto;
 }
 
-.websites img:hover, .streamers a:hover img {
+.websites a:hover img, .streamers a:hover img {
     filter: contrast(130%);
     border: 3px dotted black;
     background-clip: padding-box;
@@ -3234,6 +3234,8 @@ body.bgstrategy .bgstrategy > a {
 
 .guide .comp_wrapper {
     width: 75%;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .guide .quote {
