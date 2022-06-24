@@ -46,8 +46,8 @@ require_once('config/db.php');
         <nav id="sidebar_menu">
             <ul>
                 <li><a class="menu-topic" href="//bgknowhow.com/introduction.php">&#9654; Introduction</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">&#9654; Hero Strategy</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">&#9654; Minion Strategy</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcomps/">&#9654; Endgame Comps</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgsim/">&#9654; Simulator</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcurves/">&#9654; Curves</a></li>
@@ -145,9 +145,9 @@ require_once('config/db.php');
                         <div class="menu-column-1">
                             <ul>
                                 <li><a href="//bgknowhow.com/bgstrategy/general.php">...General strategy</a></li>
-                                <li><a href="//bgknowhow.com/bgstrategy/?show=heroes&mode=gfx">...Heroes</a></li>
-                                <li><a href="//bgknowhow.com/bgstrategy/?show=minions&mode=gfx">...Minions</a></li>
-                                <li><a href="//bgknowhow.com/bgstrategy/?show=buddies&mode=gfx">...Buddies</a></li>
+                                <li><a href="//bgknowhow.com/bgstrategy/?show=heroes">...Heroes</a></li>
+                                <li><a href="//bgknowhow.com/bgstrategy/?show=minions">...Minions</a></li>
+                                <li><a href="//bgknowhow.com/bgstrategy/?show=buddies">...Buddies</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?mode=txt">...All Entities</a></li>
                             </ul>
                         </div>
