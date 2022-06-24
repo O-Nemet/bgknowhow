@@ -11,8 +11,8 @@ include_once('../header.php');
             <span>RDU</span>
         </a>
         <p>
-            Longtime and popular HS player from Romania, streaming in english.<br><br>
-            Mainstay in the EU top50.<br><br>
+            Very popular BG player from Romania, explaining his plays in english.<br><br>
+            Mainstay in the EU top32.<br><br>
             Qualified for LL#2 top48, LL#3 top48.
         </p>
     </div>
@@ -22,8 +22,8 @@ include_once('../header.php');
             <span>XQN</span>
         </a>
         <p>
-            Longtime and high-skilled BG player from Ukraine, streaming in english.<br><br>
-            Mainstay in the EU top20.<br><br>
+            Very high-skilled BG player from Belarus, explaining his plays in english.<br><br>
+            Mainstay in the EU top16.<br><br>
             Qualified for LL#1 top24, LL#2 top24, LL#3 top16, LL#4 top16.
         </p>
     </div>
@@ -34,7 +34,7 @@ include_once('../header.php');
         </a>
         <p>
             Longtime German BG player, streaming in english.<br><br>
-            Mainstay in the EU top100.<br><br>
+            Mainstay in the EU top50.<br><br>
             Winner of LL#1.<br>
         </p>
     </div>
@@ -51,7 +51,7 @@ include_once('../header.php');
     <!--    <li><a href="https://twitch.tv/tylerootd" target="_blank"><img src="--><? //= PICTURE_LOCAL ?><!--misc/streamer_tyler.jpg"></a></li>-->
     <!--    https://www.twitch.tv/guddummit  russian -->
     <!--    https://www.twitch.tv/ixxdeee-->
-    <!--    https://www.twitch.tv/beterbabbit us-->
+    <!--    https://www.twitch.tv/beterbabbit US-->
     <!--    EducatedCollins US-->
 </div>
 
@@ -134,7 +134,7 @@ include_once('../header.php');
             <span>HS JSON</span>
         </a>
         <p>
-            The Hearthstone JSON project, automatically providing card data and images.<br><br>
+            The Hearthstone JSON project, automatically providing card data and images after every patch.<br><br>
         </p>
     </div>
 </div>
