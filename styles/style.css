@@ -290,11 +290,15 @@ header nav {
     padding-left: 10px;
 }
 
-header nav_wrapper li {
-    float: left;
-    padding: 10px;
-    font-size: 19px;
+header #nav_wrapper {
+    width: 1430px;
 }
+
+/*header #nav_wrapper li {*/
+/*    float: left;*/
+/*    padding: 10px;*/
+/*    font-size: 19px;*/
+/*}*/
 
 /*
         header li:hover {
@@ -561,10 +565,6 @@ footer nav span {
     cursor: pointer;
     /* ONe: temp removed due to country selecor  */
     border-radius: 0px !important;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
 }
 
 .ui-autocomplete .ui-menu-item:first-child a {
@@ -1367,7 +1367,7 @@ addthis_toolbox {
 
 #basket_preview table {
     width: 200px;
-    align: center;
+    text-align: center;
 }
 
 #basket_preview table th {
@@ -1667,13 +1667,14 @@ addthis_toolbox {
     float: left;
     width: 410px;
     height: 100px;
+    font-family: Georgia, serif;
+    margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 130px;
-    border-radius: 5px;
     border: 7px aliceblue solid;
-    margin-top: 5px;
     padding-top: 5px;
     padding-left: 5px;
+    border-radius: 5px;
 }
 
 .strategy-input:focus-visible {
@@ -2010,7 +2011,7 @@ root {
 
 .pagination span {
     font-weight: bold;
-    background-color: none;
+    background-color: unset;
     box-shadow: 0 1px 3px #333333 inset;
 }
 
@@ -2661,7 +2662,7 @@ body.bgstrategy .bgstrategy > a {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid whitesmoke;
     background-clip: padding-box;
 }
 
@@ -2675,14 +2676,64 @@ body.bgstrategy .bgstrategy > a {
     background-clip: padding-box;
 }
 
-.streamers div span {
+.websites, .streamers {
+    width: 1100px;
+    height: 420px;
+}
+
+.websites div, .streamers div {
+    margin-left: 33px;
+    margin-right: 44px;
+}
+
+.websites div:last-of-type, .streamers div:last-of-type {
+    margin-right: 33px;
+}
+
+.websites div a, .streamers div a {
     position: absolute;
-    /*border: 1px solid black;*/
-    width: 230px;
-    top: 210px;
-    left: -20px;
-    text-align: justify;
-    visibility: hidden;
+    z-index: 2;
+}
+
+.iframe_div a {
+    position: relative !important;
+}
+
+.websites div span, .streamers div span {
+    position: absolute;
+    width: 229px;
+    top: 169px;
+    left: -14px;
+    height: 33px;
+    font-size: 30px;
+    border: 2px solid black;
+    text-align: center;
+    background: black;
+    color: gold;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.websites div a:hover span, .streamers div a:hover span {
+    border: 2px solid black;
+    background-color: #3A3A3A;
+    background-clip: padding-box;
+}
+
+.websites div p, .streamers div p {
+    position: absolute;
+    width: 235px;
+    top: 123px;
+    left: -45px;
+    height: 175px;
+    font-size: 18px;
+    text-align: center;
+    background: antiquewhite;
+    color: black;
+    padding: 10px;
+    padding-top: 90px;
+    border-radius: 15px;
+    z-index: 1;
 }
 
 .streamers .iframe_div {
@@ -2696,7 +2747,7 @@ body.bgstrategy .bgstrategy > a {
     margin: 0 auto;
 }
 
-.websites img:hover, .streamers img:hover {
+.websites img:hover, .streamers a:hover img {
     filter: contrast(130%);
     border: 3px dotted black;
     background-clip: padding-box;
@@ -3356,7 +3407,18 @@ body.bgstrategy .bgstrategy > a {
     }
 
     .websites div, .streamers div {
+        height: 400px;
+        margin-left: 40px;
         margin-bottom: 20px
+    }
+
+    .websites div a, .streamers div a {
+        left: -23px;
+    }
+
+    .websites div p, .streamers div p {
+        height: 180px;
+        font-size: 15px;
     }
 
     .logo_footer {
