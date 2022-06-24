@@ -1,29 +1,14 @@
-<?php
-$url  = "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-$page = parse_url($url, PHP_URL_PATH);
-
- if (strpos($page, '/hero/') !== false) {
-    $unitType = 'hero';
-}
-else if (strpos($page, '/buddy/') !== false) {
-    $unitType = 'buddy';
-}
-else if (strpos($page, '/minion/') !== false) {
-    $unitType = 'minion';
-}
-
-?>
-
-<div style="margin: 390px auto 0;width: 55%;">
+<div class="strategy_input">
     <form method="post" action="index.php" novalidate>
         <span>Add your strategy or tips:</span>
         <textarea name="text" autocomplete="strategy-text" class="strategy-input" placeholder="What is good with this <?= $unitType ?>?&#10;What is something only it can do?&#10;What are its weaknesses?"></textarea>
+        <input type="text" name="email" class="hfb" id="email">
         <input type="hidden" name="id" value="<?= $selectedId ?>">
         <button type="submit" id="strategy-submit" class="button_sell">SUBMIT your strategy</button>
     </form>
 </div>
 
-<div style="padding-bottom: 20px;">
+<div class="strategy">
     <?php
     if ($stmt = $mysqli->prepare("SELECT bgs.id,
                                      bgs.text,
