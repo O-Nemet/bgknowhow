@@ -65,38 +65,50 @@ function getWebsiteTitle(): string
 
     if (strpos($page, '/bgjson/') !== false) {
         $title .= 'BG JSON - ';
-    } else if (strpos($page, '/bgsim/') !== false) {
-        $title .= 'BG Simulator - ';
     } else if (strpos($page, '/bgcomps/comp_beasts') !== false) {
-        $title .= 'BG Comps (Beasts) - ';
+        $title .= 'Comps (Beasts) - ';
     } else if (strpos($page, '/bgcomps/comp_demons') !== false) {
-        $title .= 'BG Comps (Demons) - ';
+        $title .= 'Comps (Demons) - ';
     } else if (strpos($page, '/bgcomps/comp_dragons') !== false) {
-        $title .= 'BG Comps (Dragons) - ';
+        $title .= 'Comps (Dragons) - ';
     } else if (strpos($page, '/bgcomps/comp_elementals') !== false) {
-        $title .= 'BG Comps (Elementals) - ';
+        $title .= 'Comps (Elementals) - ';
     } else if (strpos($page, '/bgcomps/comp_mechs') !== false) {
-        $title .= 'BG Comps (Mechs) - ';
+        $title .= 'Comps (Mechs) - ';
     } else if (strpos($page, '/bgcomps/comp_murlocs') !== false) {
-        $title .= 'BG Comps (Murlocs) - ';
+        $title .= 'Comps (Murlocs) - ';
+    } else if (strpos($page, '/bgcomps/comp_nagas') !== false) {
+        $title .= 'Comps (Nagas) - ';
     } else if (strpos($page, '/bgcomps/comp_pirates') !== false) {
-        $title .= 'BG Comps (Pirates) - ';
+        $title .= 'Comps (Pirates) - ';
     } else if (strpos($page, '/bgcomps/comp_quilboars') !== false) {
-        $title .= 'BG Comps (Quilboars) - ';
+        $title .= 'Comps (Quilboars) - ';
+    } else if (strpos($page, '/bgcomps/') !== false) {
+        $title .= 'Compositions - ';
+    } else if (strpos($page, '/bgcurves/') !== false) {
+        $title .= 'Curves - ';
+    } else if (strpos($page, '/bgexternal/') !== false) {
+        $title .= 'External Resources - ';
+    } else if (strpos($page, '/bgguides/') !== false) {
+        $title .= 'Guides - ';
+    } else if (strpos($page, '/bglegends/') !== false) {
+        $title .= 'Lobby Legends - ';
+    } else if (strpos($page, '/bgsim/') !== false) {
+        $title .= 'Simulator - ';
     } else if (strpos($page, '/bgstrategy/?show=heroes') !== false) {
-        $title .= 'BG Strategy Heroes - ';
+        $title .= 'Strategy Heroes - ';
     } else if (strpos($page, '/bgstrategy/?show=buddies') !== false) {
-        $title .= 'BG Strategy Buddies - ';
+        $title .= 'Strategy Buddies - ';
     } else if (strpos($page, '/bgstrategy/?show=minions') !== false) {
-        $title .= 'BG Strategy Minions - ';
+        $title .= 'Strategy Minions - ';
     } else if (strpos($page, '/bgstrategy/hero/') !== false) {
-        $title .= 'BG Strategy Hero - ';
+        $title .= 'Strategy Hero - ';
     } else if (strpos($page, '/bgstrategy/buddy/') !== false) {
-        $title .= 'BG Strategy Buddy - ';
+        $title .= 'Strategy Buddy - ';
     } else if (strpos($page, '/bgstrategy/minion/') !== false) {
-        $title .= 'BG Strategy Minion - ';
+        $title .= 'Strategy Minion - ';
     } else if (strpos($page, '/bgstrategy/') !== false) {
-        $title .= 'BG Strategy All - ';
+        $title .= 'Strategy All - ';
     }
 
     $title .= 'Battlegrounds Know-How';
@@ -301,7 +313,7 @@ function drawBoard($minions)
 
 function getCompositionText(): string
 {
-    return "These different compositions are meant to display proven setups to strive for, for the very end game (top 3 and above). In general one of the 7 slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Taunt, Poison or Divine Shield. Also primary support units like <a href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight.";
+    return "These different compositions are meant to display proven setups to strive for, for the very end game (top 4 and above). In general one of the seven slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Taunt, Poison or Divine Shield. Also primary support units like <a href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight.";
 }
 
 /**
