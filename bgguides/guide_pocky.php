@@ -4,7 +4,7 @@ include_once('../header.php');
 <h2 class="page_title">Pocky's Guide to Improving at Battlegrounds</h2>
 
 <div class="guide">
-    <h3>“Hello. My name's Pocky, Pocky Plays. You want a chocolate?”</h3>
+    <h3 data-movie="Forest Gump">“Hello. My name's Pocky, Pocky Plays. You want a chocolate?”</h3>
     <p>
         Hi all, I'm Pocky, a BGs streamer and player. I've peaked as high as Rank 11 on leaderboards, was part of a winning Twitch Rivals team, and some other tourney wins. Nearly 2 years ago I posted a <a href="https://www.reddit.com/r/hearthstone/comments/hkmbzd/a_guide_to_improving_at_battlegrounds_or_how_i/" target="_blank">popular guide</a> to Improving at Battlegrounds. I've gotten a lot better since then, but the game has also changed significantly. I still suck. I've wanted to update the guide for a while but there was always an excuse not to. No longer. I've added a ton, and cut out a lot of specific examples. Just like last time, the goal of this guide is to help you frame how you think of Battlegrounds, not teach you about specific examples, which will hopefully help keep this relevant for a long time to come.
         <br><br>
@@ -18,7 +18,7 @@ include_once('../header.php');
         <br><br>
         Before we can get into it this time though, the game has changed. Game knowledge is more important now than ever. So we're restructuring everything. Understanding heroes and minion types come into play right from the start. So let's start with that.
     </p>
-    <h3>“You Had Me at Hero” <em>(Understanding Heroes)</em></h3>
+    <h3 data-movie="Jerry Maguire">“You Had Me at Hero” <em>(Understanding Heroes)</em></h3>
     <p>
         Picking a hero is the first decision you make in a game of BGs. Heroes are defined by their hero powers, of which there are many. Most importantly it's important to know what each hero's hero power is, and what it does.
         <br><br>
@@ -81,7 +81,7 @@ include_once('../header.php');
         <a href="https://bgknowhow.com/bgstrategy/hero/?id=2"><img src="<?= PICTURE_LOCAL ?>heropowers/TB_BaconShop_HP_086_render_80.webp"></a>
         <a href="https://bgknowhow.com/bgstrategy/hero/?id=7"><img src="<?= PICTURE_LOCAL ?>heropowers/BG22_HERO_001p_render_80.webp"></a>
     </div>
-    <h3 id="testscroll">“You are only as strong as your weakest link...” <em>(Strengths and Weaknesses)</em></h3>
+    <h3 data-movie="Fanboys" id="testscroll">“You are only as strong as your weakest link...” <em>(Strengths and Weaknesses)</em></h3>
     <p>
         Understanding the strengths of your hero power allows you to play towards it, as well as understand your weaknesses and how to play around it. There are a number of guides that people have written on specific heroes that go into far more depth on the details on different heroes, but in a general sense there are some tips that can help you organically think about different hero power characteristics.
         <br><br>
@@ -103,7 +103,7 @@ include_once('../header.php');
         <br><br>
         As mentioned before, many hero powers now have multiple characteristics. Consider hero powers holistically, and try to identify your heroes strengths and weaknesses. Playing into a hero’s strengths, and balancing the hedge against their weaknesses is foundational to being the best player you can be.
     </p>
-    <h3 id="testscroll2">“Minions, Assemble!”</h3>
+    <h3 data-movie="Avengers: Endgame" id="testscroll2">“Minions, Assemble!”</h3>
     <p>
         Battlegrounds now has 9 minion types, but only 5 are in any given lobby. That means that different combinations can play out drastically differently. When there were only 6 and 7 minion types, we had 6 and 21 lobby configurations respectively. Now we have 126! Don’t bother memorizing them anymore. Instead, understanding the characteristics and synergies of the different minion types can give you insight into how a lobby will play out before it even starts.
         <br><br>
@@ -111,7 +111,7 @@ include_once('../header.php');
         <br><br>
         On top of these characteristics and synergies, it also helps to consider the directional or keystone minions in each tribe, as well as the availability of econ on lower tiers. Knowing which minions you’re going for, as well as the gold resources you’ll have available to you in the early game will help you guide you in our next section.
     </p>
-    <h3>“You Want Something, Go Get It. Period.”</h3>
+    <h3 data-movie="The Pursuit of Happyness">“You Want Something, Go Get It. Period.”</h3>
     <p>
         You should have an idea of your goals for a game before you even see your first shop. Between your hero choice and the minion types in a lobby, you should have a general plan through the early game, mid-game, and where you’d ideally be in the end-game. BGs, like life, rarely goes according to plan, but having that plan can help guide our decisions, both in leaning into certain end games or lines, or when to adjust when a line no longer seems feasible to us.
     </p>
@@ -128,7 +128,7 @@ include_once('../header.php');
         <br><br>
         And NOW we’re ready to start the game.
     </p>
-    <h3>“Gentlemen, You Can't Fight In Here! This is The Tavern” / “Not Quite My Tempo”</h3>
+    <h3 data-movie="Dr. Strangelove / Whiplash">“Gentlemen, You Can't Fight In Here! This is The Tavern” / “Not Quite My Tempo”</h3>
     <p>
         As we get into the Tavern, we need to understand minions, tempo, and direction.
         <br><br>
@@ -157,7 +157,7 @@ include_once('../header.php');
     <p>
         Without going into details on every minion, it's important to understand which minions are strong on stats and tempo (and when), and which minions give you a direction, and are worth building around and when. Together with our pre-game picture, and the picture that gets painted in-game we can lean into and find our direction.
     </p>
-    <h3>“A Figure With Curves Offers A Lot Of Interesting Angles.” <em>(Understanding Curves)</em></h3>
+    <h3 data-movie="I'm no Angel">“A Figure With Curves Offers A Lot Of Interesting Angles.” <em>(Understanding Curves)</em></h3>
     <p>
         Understanding curves is essentially understanding leveling patterns. The table below is a breakdown of some basic statistics on each level:<br><br>
     </p>
@@ -217,7 +217,7 @@ include_once('../header.php');
         <br><br>
         Standard Curve is far less common now than it has been in the past (so much so that some don’t like calling it that now, see Basic Curve.) It does still provide a very clear outline of how to level gold efficiently with a 0 cost hero power. It’s helpful to know it in and out, because then we can easily think about when and why deviate from the curve.
     </p>
-    <h4>“Have you ever thought about doing things differently?”</h4>
+    <h4 data-movie="Wanted">“Have you ever thought about doing things differently?”</h4>
     <p>
         So when do you want to deviate from the curve?
     </p>
@@ -253,7 +253,7 @@ include_once('../header.php');
     <p>
         Staying alive is a bit more straightforward. We all have those games where it seems nothing is going our way. We can't get good minions in the shop, we can't win a fight for our lives, and we're almost dead on Turn 7. In this case the outcome of potentially taking first place is almost entirely gone, a win for us now is simply losing the least MMR, whether that's a top 4, or a 6th place rather than 8th. We don't level on curve because we need to stabilize and improve our tempo, simply, so we don't lose the next turn or two. Maybe you’re doing alright, but are about to face the high roller. We wait a turn, and simply tempo up the best we can, to survive.
     </p>
-    <h3>“Greed, for lack of a better word, is good.”</h3>
+    <h3 data-movie="Wall Street">“Greed, for lack of a better word, is good.”</h3>
     <p>
         Sometimes you're getting one of those games where everything is going your way. The shops are great, you're getting pairs, and you're winning every fight. Boom you hit a triple. You've got a board full of dragons, and you'd really love to get a Kalecgos instead of a tier 5. In this case you can level, potentially sacrificing a fight, but increasing your odds to take first place, and you know you're not going to die immediately.You'll hopefully power spike with your 6 drop, and go from there. Level and believe in the heart of the cards.
         <br><br>
@@ -263,12 +263,12 @@ include_once('../header.php');
         <br><br>
         Eventually you won’t need to abide by any of them, but you need to know the rules to break them. Understanding curves is simply, understanding how to best utilize your hero, tempo, and managing your resources. Which brings us to our next topic.
     </p>
-    <h3>“We Can't Waste Resources On A Lost Cause.” <em>(Understanding Resources)</em></h3>
-    <h4>“I love goooold”</h4>
+    <h3 data-movie="Vertical Limit">“We Can't Waste Resources On A Lost Cause.” <em>(Understanding Resources)</em></h3>
+    <h4 data-movie="Austin Powers">“I love goooold”</h4>
     <p>
         In Battlegrounds there are two resources to manage. Gold, obviously, and health. Most of what we've discussed above is actually rooted in understanding how to manage these resources. Our curves are based on maximizing gold efficiency while keeping your health as high as possible. This is because it's focused on buying the maximum amount of minions while still leveling efficiently, allowing you to get stronger minions as you level up. This optimizes your tempo, while limiting the amount of wasted gold.
     </p>
-    <h4>“It's a trap!”</h4>
+    <h4 data-movie="Star Wars">“It's a trap!”</h4>
     <p>
         One of the most common traps lower level players fall into is rolling for specific minions, whether it's a murloc for their murloc board, or a triple too hard. Rolls are expensive. If you look at the standard curve, we don't typically have excess gold to roll until our 8 gold turn (i.e. turn 6). In a standard curve, you'll generally only roll 3 times in your first 8 turns. Any excess rolls on any earlier turns will usually prevent you from being gold efficient, resulting either in you playing down a minion or delaying a level. Is that really worth the rolls? If we look at a curve like Warrior Curve, there’s usually even less gold dedicated to rolling.
         <br><br>
@@ -276,15 +276,15 @@ include_once('../header.php');
         <br><br>
         If your opponents are wasting 20 gold in a game, and you’re perfectly efficient, you’re getting a boost of two <a href="https://bgknowhow.com/bgstrategy/hero/?id=62">Kragg</a> hero powers in a single game! That’s an insane advantage, almost sure to make up for any bad RNG. Now of course playing perfectly efficiently isn’t realistic, but you would be surprised how often the margin between you and your opponents could be even more than 20 gold. A million gold isn't cool. You know what's cool? A billion gold.
     </p>
-    <h4>“Money does buy happiness. And I'm healthy already.”</h4>
+    <h4 data-movie="Mel Brooks">“Money does buy happiness. And I'm healthy already.”</h4>
     <p>
         This is pretty straightforward and essentially what was discussed around greedy heroes, and when to deviate from the curve. It's simply knowing when you are wealthy and healthy (#rhymes) enough to take a hit while being greedy, or when you are poor and need to be a little more frugal with your health. If you are willing to play with your MMR a little, practicing with <a href="https://bgknowhow.com/bgstrategy/hero/?id=50">Patchwerk</a> and <a href="https://bgknowhow.com/bgstrategy/hero/?id=35">Lich Baz'hial</a> can give you a good feel for managing health, as they both utilize it as a resource more than any other hero.
     </p>
-    <h3>“Battlegrounds is Like a Box of Chocolates”</h3>
+    <h3 data-movie="Forrest Gump">“Battlegrounds is Like a Box of Chocolates”</h3>
     <p>
         Battlegrounds is an auto-battler, meaning during the actual combat phase we don’t have any control of the game. However, as players we can still hugely impact how a combat will go. We can choose our chocolates if you will.
     </p>
-    <h3>“You Must Become More Than Just A Man In The Mind Of Your Opponent.” <em>(Understanding Opponents)</em></h3>
+    <h3 data-movie="Batman Begins">“You Must Become More Than Just A Player In The Mind Of Your Opponent.” <em>(Understanding Opponents)</em></h3>
     <p>
         So first off a plug for <a href="https://hsreplay.net/downloads/" target="_blank">Hearthstone Deck Tracker</a>. If you play on desktop it's an insanely helpful resource/crutch. It tracks the minions your opponents have had when you've played against them. There's also the Bob's Buddy addition, which gives you rough combat odds based on simulations that can help you judge how strong you are relative to your opponents and a general understanding of how likely you were to win, regardless of the results of a specific combat outcome. This can help us be more objective in the analysis of our play.
         <br><br>
@@ -302,7 +302,7 @@ include_once('../header.php');
     <p>
         Checking your opponents will have a huge impact on your decisions in the Tavern phase, and those decisions will improve your combat outcomes, specifically in preventing big losses when an opponent is very strong.
     </p>
-    <h3>“First, You Strategically Position Your Pieces And When The Timing Is Right You... Strike.” <em>(Understanding Positioning)</em></h3>
+    <h3 data-movie="Independence Day">“First, You Strategically Position Your Pieces And When The Timing Is Right You Strike.” <em>(Understanding Positioning)</em></h3>
     <p>
         Positioning can have a huge impact on combat outcomes. To use a stark example, imagine putting a <a href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a> in the left-most position and a <a href="https://bgknowhow.com/bgstrategy/minion/?id=136">Goldrinn</a> in the right-most position. In most situations that can turn an easy win into a guaranteed loss.
         <br><br>
@@ -411,24 +411,24 @@ include_once('../header.php');
     <p>
         Last bit on positioning is just to reiterate and stress the importance of checking your opponents before combat. If they have 5 or 6 dragons you might want to play around <a href="https://bgknowhow.com/bgstrategy/minion/?id=140">Nadina</a>. If they're Beasts or Mechs you're more likely going to want to make sure you have cleave protection. If they're running <a href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>, focus on trying to get <a href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> for a turn.
     </p>
-    <h3>“When That Perfect Shop Comes Along, You Buy Big” <em>(Understanding the Game Flow)</em></h3>
+    <h3 data-movie="Oceans Eleven">“When That Perfect Shop Comes Along, You Buy Big” <em>(Understanding the Game Flow)</em></h3>
     <p>
         The last thing to understand is a more general game sense aspect. Understanding the game state and the general game flow of the lobby that you're in. Sometimes you run into a high roller and you know they're likely to win the lobby. Your priority and focus might shift from trying to win to trying to get a top 4. If a lobby is grindy and filled with players going for top 4, they might not be able to do as much damage to you, and you will have more opportunities to play a little greedier and go for a winning build. Perhaps you're the high roller, but you have pirates, you might try to play aggressive in getting to 6 and getting high value minions to pace up the lobby and kill people faster, increasing your odds of top 4 and of 1st. Understanding the state of your lobby, should influence how you play, and your goals in each lobby. To climb you're just trying to get the best finish possible for your game. If you turn a game that you should have gotten top 8 into a 6th place finish
         you can consider that a win. Playing turn to turn will often get you good finishes, but thinking about the long game in each lobby can help you get to that next level.
         <br><br>
         Likewise, you should also recognize your opportunities to strike. If you get dealt a pair of aces, you always split. In BGs, if you’re presented with a high-roll game, you should do your best to capitalize on it. Every placement matters, so if getting 6th instead of 8th is a win, so is getting 1st instead of 3rd. You will not get a first every game, nor will you even have the chance to, but if it’s in the cards, carpe diem. Seize the day.
     </p>
-    <h3>“Remember, All I’m Offering Is The Truth. Nothing More.” <em>(Understanding the Meta)</em></h3>
+    <h3 data-movie="The Matrix">“Remember, All I’m Offering Is The Truth. Nothing More.” <em>(Understanding the Meta)</em></h3>
     <p>
         The meta is always changing, so it's difficult to give lasting advice, but it's important to understand that the meta shifts can have a huge impact on your play, especially at higher MMRs. If you don't play according to the meta, you can see huge MMR drops. Sometimes you will have a greedy meta, and you will either have to play into the greed, or play for survival against those that hit. In a more tempo-oriented meta, you will have to balance not taking too much damage with capitalizing on opportunities to level and play aggressively. It’s also vital to know what comps are strongest, how to play them, and perhaps more importantly, how to play against them. Metas will shift as certain comps become more popular, and their counters will then become more contested. Knowing the meta makes it easier to analyze the game state or know what your opponent has before you fight them. Whether it’s what type of build they’re running, what direction you may want to lean into, or countering
         the meta or even countering the counter, it all starts with understanding.
     </p>
-    <h4>“Why You Forcin’ It?”</h4>
+    <h4 data-movie="Drumline">“Why You Forcin’ It?”</h4>
     <p>
         An important reminder. DON’T FORCE IT (*terms and conditions apply). The questions, what comp should I learn first, or what’s the best comp in the game, are frequently asked. The best comp is the one that’s getting you the best placement. While certain comps will at times be the strongest, if you force it you’ll miss other opportunities. A forced beast build may be worse than a pirate board that comes to you more naturally, because you won’t put so many resources into looking for the pieces for the build you’re trying to put together. On top of that if everyone is forcing the same build, then it becomes more contested, which makes it even harder to put together an optimal comp. A perfect dragon board may be better than a perfect elemental board, but a more fully put together elemental board will still likely prevail against a sub-par build of any kind. While you won't climb trying to force the 'best build' every game, it definitely helps to know what that best build is and when
         to go for it.
     </p>
-    <h3>“It is Not Our Luck That Shows What We Truly Are… It is Our Choices.”</h3>
+    <h3 data-movie="Harry Potter">“It is Not Our Luck That Shows What We Truly Are… It is Our Choices.”</h3>
     <p>
         Improving at this game is an exercise in looking at how we can improve our play in the aspects that we can control. Your decisions do matter, and too often I’ll see players dismiss losses as a matter of RNG. This can happen, and you can get unlucky, but more often than not, their play could still be improved.
         <br><br>
