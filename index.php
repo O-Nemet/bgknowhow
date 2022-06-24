@@ -4,13 +4,13 @@ include_once('header.php');
     <h2 class="page_title">Choose your path</h2>
 
     <div class="pathes2">
-        <a href="bgstrategy/?show=heroes&mode=gfx">
+        <a href="bgstrategy/?show=heroes">
             <div id="strategy_heroes"><span>Hero<br>Strategy</span></div>
         </a>
         <a href="introduction.php">
             <div id="intro"><span>What?<br>Why?<br>How?</span></div>
         </a>
-        <a href="bgstrategy/?show=minions&mode=gfx">
+        <a href="bgstrategy/?show=minions">
             <div id="strategy_minions"><span>Minion<br>Strategy</span></div>
         </a>
         <a href="bgcurves/">
