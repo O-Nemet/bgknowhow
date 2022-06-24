@@ -239,12 +239,13 @@ function setVote($selectedStrat, $selectedVote)
             $stmt->execute();
             $stmt->close();
 
-            if ($stmt = $mysqli->prepare("INSERT INTO log_strategy (id_strategy, ip, ip_proxy)
+            if ($stmt = $mysqli->prepare("INSERT INTO log_strategy (id_strategy, vote, ip, ip_proxy)
                                      VALUES (?
                                             ,?
                                             ,?
+                                            ,?
                                             )")) {
-                $stmt->bind_param('iss', $selectedStrat, $userIp, $userProxyIp);
+                $stmt->bind_param('iiss', $selectedStrat, $selectedVote, $userIp, $userProxyIp);
                 $stmt->execute();
                 $stmt->close();
             } else {
