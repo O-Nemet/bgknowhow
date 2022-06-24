@@ -8,7 +8,7 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Standard Nomi Big Stats Comp:</h3>
+    <h3>Standard Avenge/Nomi Big Stats Comp:</h3>
     <!--    <p>You start by picking up Crackling Cyclone and try to discover a Nomi. Then utilize Recycling Wraith to filter through Elementals to grow the Elementals in the tavern. A Brann can greatly help by improving the effect of Smogger and Tempest. Later Cyclone and Wildfire will be tripled.</p>-->
     <?php
     $board   = ['Cyclone', 'Cyclone', 'Wildfire', 'Wildfire', 'Wraith', 'Brann', 'Nomi'];

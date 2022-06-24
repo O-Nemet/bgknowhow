@@ -37,8 +37,6 @@ include_once('../header.php');
         <br><br>
         It is quite important to taunt the second Buster via <a href="https://bgknowhow.com/bgstrategy/minion/?id=80" target="_blank">Defender of Argus</a>. Then you have a 50% chance that your first two dead minions will be Busters. Without the taunt, what will usually happen is that the token from the first Buster will die as a second minion and be saved in the Kangors. Taunting also greatly reduces the chance that your Baron or Kangors will be sniped before providing sufficient value.
         <br><br>
-        Due to the Macaws, you have to be mindful to not apply <a href="https://bgknowhow.com/bgstrategy/minion/?id=62" target="_blank">Replicating Menace</a> to any of your late-game minions, because you really need to trigger your Busters with every attack. The Macaws themselves should be buffed with Reborn via a <a href="https://bgknowhow.com/bgstrategy/minion/?id=95" target="_blank">Reanimating Rattler</a>, so that you will get two attacks from each Macaw.
-        <br><br>
         The Foe Reaper is the least important part of this comp, but obviously increases your chances against poison or shield lineups. In addition to the Baron, tripling a Buster is a big plus, whereas a golden Kangor's should be avoided as two regular ones are way more valuable.
     </p>
     <h3>Macaw/Buster Deathrattle Comp:</h3>

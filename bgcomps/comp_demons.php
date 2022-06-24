@@ -16,7 +16,7 @@ include_once('../header.php');
     ?>
     <h3>Macaw/Trickster Deathrattle Comp:</h3>
     <?php
-    $board   = ['Macaw', 'Trickster', 'Trickster', '*Imp Mama', 'Felbat', 'Felbat', '*Imp Mama'];
+    $board   = ['Macaw', 'Trickster', '*Imp Mama', 'Felbat', 'Felbat', '*Imp Mama', 'Baron'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
