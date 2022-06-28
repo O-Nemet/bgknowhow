@@ -44,15 +44,57 @@ include_once('../header.php');
             <span>Pocky</span>
         </a>
         <p>
-            High MMR streamer from the United States.<br><br>
+            High MMR player from the United States.<br><br>
             Writer of educational BG guides.
+        </p>
+    </div>
+
+    <div>
+        <a href="https://twitch.tv/educated_collins" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_educatedc.jpg" alt="Educated Collins">
+            <span>Educated Collins</span>
+        </a>
+        <p>
+            High MMR player from the United States.<br><br>
+            Host of the weekly HSBG podcast.<br><br>
+            Qualified for LL#1 top16, LL#2 top48, LL#3 top48, LL#4 top48.
+        </p>
+    </div>
+    <div>
+        <a href="https://twitch.tv/zorgo_hs" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_zorg.png" alt="Zorg">
+            <span>Zorg</span>
+        </a>
+        <p>
+            High MMR player from Germany, streaming in english.<br><br>
+            Mainstay in the EU top32.<br><br>
+            Qualified for LL#2 top24, LL#3 top16, LL#4 top48.
+        </p>
+    </div>
+    <div>
+        <a href="https://twitch.tv/ixxdeee" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_ixxdeee.jpg" alt="Ixxdeee">
+            <span>Ixxdeee</span>
+        </a>
+        <p>
+            High MMR player from Luxembourg, streaming in english.<br><br>
+            Mainstay in the EU top50.<br><br>
+            Qualified for LL#1 top48.
+        </p>
+    </div>
+    <div>
+        <a href="https://twitch.tv/beterbabbit/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_beterbabbit.jpg" alt="BeterBabbit">
+            <span>BeterBabbit</span>
+        </a>
+        <p>
+            High MMR streamer from the United States.<br><br>
+            Mainstay in the US top32.<br><br>
+            Qualified for LL#3 top48, LL#4 top16.
         </p>
     </div>
     <!--    <li><a href="https://twitch.tv/tylerootd" target="_blank"><img src="--><? //= PICTURE_LOCAL ?><!--misc/streamer_tyler.jpg"></a></li>-->
     <!--    https://www.twitch.tv/guddummit  russian -->
-    <!--    https://www.twitch.tv/ixxdeee-->
-    <!--    https://www.twitch.tv/beterbabbit US-->
-    <!--    EducatedCollins US-->
 </div>
 
 <h3 class="cf">Youtubers</h3>
