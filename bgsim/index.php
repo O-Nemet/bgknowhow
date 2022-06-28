@@ -21,7 +21,7 @@ $minionTypes['quilboar']   = isset($_GET['qu']) ? intval($_GET['qu']) : 1;
 
 $minions = [];
 foreach ($tempMinions->data as $key => $object) {
-    if ($object->tier === 1 && $object->isToken === false &&
+    if ($object->tier === 1 && $object->isToken === false && $object->isActive === true &&
         (
             ($object->pool === 'Beast' && $minionTypes['beasts']) ||
             ($object->pool === 'Demon' && $minionTypes['demons']) ||
@@ -31,7 +31,8 @@ foreach ($tempMinions->data as $key => $object) {
             ($object->pool === 'Murloc' && $minionTypes['murlocs']) ||
             ($object->pool === 'Naga' && $minionTypes['nagas']) ||
             ($object->pool === 'Pirate' && $minionTypes['pirates']) ||
-            ($object->pool === 'Quilboar' && $minionTypes['quilboar'])
+            ($object->pool === 'Quilboar' && $minionTypes['quilboar']) ||
+            ($object->pool === 'All')
         )
     ) {
         $minions[] = $object;
@@ -39,11 +40,13 @@ foreach ($tempMinions->data as $key => $object) {
 }
 ?>
 
-<h2 class="page_title">Simulation: 1st Turn</h2>
+<h2 class="page_title" xmlns="http://www.w3.org/1999/html">Simulation: 1st Turn</h2>
 <p>
+    <span style="color: darkred">[Not fixed for mobile view, yet.]</span>
+    <br><br>
     This is a dynamically generated matrix featuring the match-ups of all tier 1 minions on turn 1.<br>
     The number in the square shows how much damage you will deal/receive from the board (in addition to the turn 1 damage).<br>
-    The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.<br>
+    <!--    The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.<br>-->
     For this scenario the Razorfen Geomancer has been self-gemmed to a 4/2 minion.
     <br><br>
     Click any of these icons below to deactivate the banned minion types of your lobby.
@@ -68,7 +71,8 @@ foreach ($tempMinions->data as $key => $object) {
     $minionsCount                  = count($minions);
     $GLOBALS['player1TotalDamage'] = 0;
     // (14 + 2) * 42 = 672 + 157 = 829 + 221 = 1050 (min)
-    $dividerWidth = 1050 - (157 + ($minionsCount + 2) * 42);
+    //    $dividerWidth = 1050 - (157 + ($minionsCount + 2) * 42);
+    $dividerWidth = 1050 - (157 + ($minionsCount) * 42);
     $dividerWidth = max($dividerWidth, 0);
 
     //    var_dump($dividerWidth);
@@ -79,8 +83,8 @@ foreach ($tempMinions->data as $key => $object) {
         echo "<div class='matrix-column'><a href='" . $minion_top->websites->bgknowhow . "' target='_blank'>$minion_top->nameShort</a></div>";
     }
     if ($minionsCount > 0) {
-        echo "<div class='matrix-column' style='background-color: white !important;'>Losses</div>";
-        echo "<div class='matrix-column' style='background-color: white !important;'>Avg Dmg</div>";
+//        echo "<div class='matrix-column' style='background-color: white !important;'>Losses</div>";
+//        echo "<div class='matrix-column' style='background-color: white !important;'>Avg Dmg</div>";
         echo "<div class='column_divider cf' style='width: " . $dividerWidth . "px;'>&nbsp;</div>";
     }
     foreach ($minions as $minion_left) {
@@ -92,8 +96,8 @@ foreach ($tempMinions->data as $key => $object) {
             $minion_left->combatLosses = ($combatResult < 0) ? $minion_left->combatLosses + 1 : $minion_left->combatLosses + 0;
             echo "<div class='" . getCellColor($combatResult) . "'>" . $combatResult . "</div>";
         }
-        echo "<div style='font-size: 14px; line-height: 15px;'>" . str_pad($minion_left->combatLosses, 2, '0', STR_PAD_LEFT) . "/" . $minionsCount . "</div>";
-        echo "<div>" . number_format($GLOBALS['player1TotalDamage'] / $minionsCount, 2) . "</div>";
+//        echo "<div style='font-size: 14px; line-height: 15px;'>" . str_pad($minion_left->combatLosses, 2, '0', STR_PAD_LEFT) . "/" . $minionsCount . "</div>";
+//        echo "<div>" . number_format($GLOBALS['player1TotalDamage'] / $minionsCount, 2) . "</div>";
         echo "<div class='row_divider cf' style='width: " . $dividerWidth . "px;'>&nbsp;</div>";
         echo "<br><br>";
     }
