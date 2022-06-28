@@ -24,7 +24,7 @@ include_once('../header.php');
         <br><br>
         The Mecherel on the right should be taunted and shielded by an <a href="https://bgknowhow.com/bgstrategy/minion/?id=73" target="_blank">Annoy-o-Module</a>. That way you can position all your other shielded minions on the left side and the taunted Mecherel will provide perfect value by getting a new shield every time one of your minions attacks. The second Mecherel is optional, but the first one is kinda essential to play for first place.
         <br><br>
-        Another little trick: If your opponent is trying to counter your shields via a Ghoul, your Mecherels will instantly regain their shield as long as another minion with a shield was positioned to the right of the Mecherel.
+        Another little trick: If your opponent is trying to counter your shields via a Blaster, your Mecherels will instantly regain their shield as long as another minion with a shield was positioned to the right of the Mecherel.
     </p>
     <h3>Buster/Kangor Deathrattle Comp:</h3>
     <?php
