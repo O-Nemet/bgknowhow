@@ -6,7 +6,7 @@ include_once('header.php');
     <p class="intro">
         <b style="font-weight: bold;">“Seven fresh opponents. Are you ready?”</b>
         <br><br>
-        The game of Hearthstone Battlegrounds is a fascinating one... From the hero selection, the minion type bans, the matchup lottery, the tavern rolls all the way to the random attacks, every game of Battlegrounds is a different beast of odds, which all of us players aim to tame.<br>The ebbs and flows of randomness strike us again and again, and yet we can not do anything but return, always hoping to get kissed by lady luck again.
+        The game of Hearthstone Battlegrounds is a fascinating one... From the hero selection, the minion type bans, the matchup lottery, the tavern rolls all the way to the random attacks, every game of Battlegrounds is a different beast of odds, which all of us players aim to tame. The ebbs and flows of randomness strike us again and again, and yet we can not do anything but return, always hoping to get kissed by lady luck again.
         <br><br>
         While playing and while watching streams, I picked up many small tidbits of information that improved me as a player. But with over 80 heroes, over 160 minions and the next game always around the corner, this strategic insight was kinda fleeting. I wanted a place to store and find this knowledge quickly, and a Google Doc was just not good enough anymore. Therefore, I did create this website to be a hub of knowledge and know-how.
         <br><br>
