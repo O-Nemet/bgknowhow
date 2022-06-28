@@ -134,11 +134,11 @@ include_once('../header.php');
         <br><br>
         Minions, they're what you buy. Minions are the foundation of Battlegrounds, as they're what do the battling. Minions can have stats and effects. The stats are made up of attack and health, and the effects can be a range. Some effects have synergy with specific minion types. Each minion costs 3 gold to buy (usually), and so buying minions will typically make up most of your gold spent in a game.
         <br><br>
-        Tempo in a general sense is buying minions to optimize your chances of winning the next fight. Typically, this revolves around buying the minions with the best stats possible. Sometimes this is naked stats, but sometimes it's based on what's currently on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=28">Murloc Warleader</a> can be a naked 3/3 or could effectively be adding 6 attack to 3 other murlocs already on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=89">Menagerie Jug</a> can range from a 3/3 on its own, or it can be as strong as a 9/9 in total stats with a full buff.
+        Tempo in a general sense is buying minions to optimize your chances of winning the next fight. Typically, this revolves around buying the minions with the best stats possible. Sometimes this is naked stats, but sometimes it's based on what's currently on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=28">Murloc Warleader</a> can be a naked 3/3 or could effectively be adding 6 attack to 3 other murlocs already on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=25">Menagerie Mug</a> can range from a 2/2 on its own, or it can be as strong as a 5/5 in total stats with a full buff.
     </p>
     <div class="comp_wrapper">
         <?php
-        $board   = ['Warleader', 'Jug', 'Goldrinn', 'Mama Bear', 'Elder', 'Kaly'];
+        $board   = ['Warleader', 'Mug', 'Goldrinn', 'Mama Bear', 'Elder', 'Kaly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -290,11 +290,11 @@ include_once('../header.php');
         <br><br>
         One of the main things that lower level players don't do is check their opponents before each combat phase. Even without a deck tracker the game gives you a lot of information about your opponents. How much damage they've done to their last two opponents, how many triples they have, their win streak, and a very blurry picture of the sort of comp they have. As it relates to deciding if you need to tempo up or if you can be greedy, checking your opponent typically gives you the answer. If they level, you know they invest gold in leveling instead of tempo, and may want to take the opportunity to level as well. If they are on a 5 round win streak doing a lot of damage to opponents, perhaps we focus on tempo for a turn. If they've been struggling and taking it from everyone, maybe you have the leeway to level aggressively. Do not judge an opponent’s strength by their health total. They may have been greeding and spiked against you, or they may have gotten lucky match up RNG.
         <br><br>
-        Knowing their comp is also vital to shop purchasing decisions and positioning. If someone has a deathrattle comp, you may more specifically look for a <a href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> to snipe their <a href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>. If they're mechs on tier 4 you might put a bumper in front to break a potential divine shield on their taunt. If they look to have multiple shields, consider <a href="https://bgknowhow.com/bgstrategy/minion/?id=41">Ghoul</a>. If they are likely to have extremely high-statted minions, look for <a href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a> and poison.
+        Knowing their comp is also vital to shop purchasing decisions and positioning. If someone has a deathrattle comp, you may more specifically look for a <a href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> to snipe their <a href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>. If they're mechs on tier 4 you might put a bumper in front to break a potential divine shield on their taunt. If they look to have multiple shields, consider a <a href="https://bgknowhow.com/bgstrategy/minion/?id=226">Buster</a>. If they are likely to have extremely high-statted minions, look for <a href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a> and poison.
     </p>
     <div class="comp_wrapper" style="width: 62%">
         <?php
-        $board   = ['Zapp', 'Baron', 'Ghoul', 'Leeroy', 'Goldrinn'];
+        $board   = ['Zapp', 'Baron', 'Buster', 'Leeroy', 'Goldrinn'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -384,7 +384,7 @@ include_once('../header.php');
         ?>
     </div>
     <p>
-        A large cleave in front can take out a lot of minions at once, or more reliably snipe the opponents own high priority minions before they can attack or have an impact. Similarly, certain deathrattles are important to have gone off first, <a href="https://bgknowhow.com/bgstrategy/minion/?id=41">Ghoul</a> to clear an opponent's divine shields, or a Spawn or <a href="https://bgknowhow.com/bgstrategy/minion/?id=136">Goldrinn</a> to buff as much of your board as possible. Another example of a minion that you would want to attack earlier is something like <a href="https://bgknowhow.com/bgstrategy/minion/?id=53">Deflect-o-Bot</a> (or formerly <a href="https://bgknowhow.com/bgstrategy/minion/?id=112">Holy Mecherel</a> RIP, leaving this lol), so it can lose its divine shield and get a potential reset before accidentally getting sniped later in your order. This is also why you typically position the reset right behind it.
+        A large cleave in front can take out a lot of minions at once, or more reliably snipe the opponents own high priority minions before they can attack or have an impact. Similarly, certain deathrattles are important to have gone off first, <a href="https://bgknowhow.com/bgstrategy/minion/?id=226">Buster</a> to clear an opponent's divine shields, or a Spawn or <a href="https://bgknowhow.com/bgstrategy/minion/?id=136">Goldrinn</a> to buff as much of your board as possible. Another example of a minion that you would want to attack earlier is something like <a href="https://bgknowhow.com/bgstrategy/minion/?id=53">Deflect-o-Bot</a> (or formerly <a href="https://bgknowhow.com/bgstrategy/minion/?id=112">Holy Mecherel</a> RIP, leaving this lol), so it can lose its divine shield and get a potential reset before accidentally getting sniped later in your order. This is also why you typically position the reset right behind it.
     </p>
     <div class="comp_wrapper" style="width: 87%;">
         <?php
@@ -399,11 +399,11 @@ include_once('../header.php');
     <h4>Taunts</h4>
     <p>
         Taunts are severely underrated by lower level players. Taunts are one of the best ways to manipulate the outcomes of battles in ways that favor you because it's the most you can do to control how your opponents' minions attack. They serve a lot of purposes, mostly related to what we discussed above. A taunt soaking attacks means that the minions that you want to have attack priority will more likely get to attack, and your general attack order will be preserved. It also helps keep your other minions alive. The last value is that they serve as cleave protection. We've all been devastated by that cleave that just kills 3 minions in the middle of your order, or snipes your most important minion. Putting a taunt at the far left or usually right (so it stays alive rather than attacking), and a low value minion next to it can protect from a strong potential cleave. You'll often see a <a href="https://bgknowhow.com/bgstrategy/minion/?id=127">Voidlord</a>, <a
-                href="https://bgknowhow.com/bgstrategy/minion/?id=18">Acolyte</a>, or Divine Shield taunt put into unrelated builds to simply provide a two attack taunt for protection. Another benefit with some of these minions is that, unbuffed, they can be used to play around cards like <a href="https://bgknowhow.com/bgstrategy/minion/?id=140">Nadina</a> or <a href="https://bgknowhow.com/bgstrategy/minion/?id=12">Scallywag</a>.
+                href="https://bgknowhow.com/bgstrategy/minion/?id=73">Annoy-o-Module</a>, or Divine Shield taunt put into unrelated builds to simply provide a two attack taunt for protection. Another benefit with some of these minions is that, unbuffed, they can be used to play around cards like <a href="https://bgknowhow.com/bgstrategy/minion/?id=140">Nadina</a> or <a href="https://bgknowhow.com/bgstrategy/minion/?id=12">Scallywag</a>.
     </p>
     <div class="comp_wrapper">
         <?php
-        $board   = ['Voidlord', 'Acolyte', 'Nadina', 'Scallywag', 'Baron', 'Zapp'];
+        $board   = ['Voidlord', 'Module', 'Nadina', 'Scallywag', 'Baron', 'Zapp'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -454,7 +454,7 @@ include_once('../header.php');
     <hr>
     <br>
     <p>
-        This guide has been written and was kindly provided for publishing on this website by Pocky. You can watch him stream on <a href="https://www.twitch.tv/PockyPlays" target="_blank">Twitch</a>, catch his videos on <a href="https://www.youtube.com/pockyplays" target="_blank">Youtube</a> or contact him on <a href="https://twitter.com/pocky_plays" target="_blank">Twitter</a>. There is also a downloadable <a href="https://drive.google.com/file/d/1W10ItAeVeirWrmioAWi668niB5hyT2F8/view" target="_blank">PDF Version</a>.
+        This guide has been written and was kindly provided for publishing on this website by Pocky. You can watch him stream on <a href="https://www.twitch.tv/PockyPlays" target="_blank">Twitch</a>, catch his videos on <a href="https://www.youtube.com/pockyplays" target="_blank">Youtube</a> or contact him on <a href="https://twitter.com/pocky_plays" target="_blank">Twitter</a>. There is also a downloadable <a href="https://drive.google.com/file/d/1W10ItAeVeirWrmioAWi668niB5hyT2F8/view" target="_blank">PDF Version</a> (not updated after patch 23.4).
     </p>
 </div>
 
