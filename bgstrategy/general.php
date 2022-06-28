@@ -27,7 +27,7 @@ include_once('../header.php');
             <td>1</td>
             <td>-</td>
             <td>3</td>
-            <td>16</td>
+            <td>15</td>
         </tr>
         <tr>
             <td>2</td>
@@ -82,7 +82,9 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="types">Minion types and distribution</h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs only have one tier 6 minion. The exception is tier 1, where each type gets two minions (but notice the neutral minion Wrath Weaver, which is the third minion in the Demon pool). The table below is automatically generated and always up to date and accurate:
+        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs only have one tier 6 minion. Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bublette</a>. Also notice the neutral minion <a href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        <br><br>
+        The table below is automatically generated and therefore always up to date and accurate:
     </p>
     <br>
 
@@ -145,7 +147,7 @@ foreach ($tempMinions->data as $key => $object) {
     <div style="margin-top: -30px;">
         <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
         <p style="width: 920px; padding-top: 90px; text-align: justify;">
-            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a Leeroy or any of the other possible Deathrattle minions. There are currently <?= $i ?> Deathrattle minions in the game, but the Coiler can not spawn itself. Therefore, the odds for a specific minion from coiler are <?= number_format(1 / $i * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / $i * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / $i * 2) * (1 / $i * 2) * 100, 2) ?>%.
+            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or any of the other possible Deathrattle minions. There are currently <?= $i ?> Deathrattle minions in the game, but the Coiler can not spawn itself. Therefore, the odds for a specific minion from coiler are <?= number_format(1 / $i * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / $i * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / $i * 2) * (1 / $i * 2) * 100, 2) ?>%.
         </p>
     </div>
     <div class="comp_wrapper cf">
