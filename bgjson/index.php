@@ -16,7 +16,7 @@ include_once('../header.php');
         readJSON();
     </script>
 
-    <h2 class="page_title">BG JSON - Downloads</h2>
+    <h2 class="page_title">BG JSON</h2>
 
     <br>
     <p class="bgjson_introduction">
@@ -115,6 +115,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>27.06.2022 - Added BG changes from the 23.6.0 patch notes.</li>
         <li>16.06.2022 - Added BG changes from the 23.4.3 patch notes.</li>
         <li>06.06.2022 - Added picturePortrait to the hero dataset.</li>
         <li>01.06.2022 - Added BG changes from the 23.4.0 patch notes.</li>
