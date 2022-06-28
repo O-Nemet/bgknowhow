@@ -22,7 +22,7 @@ include_once('../header.php');
     ?>
     <h3>Groundshaker Shield Comp:</h3>
     <?php
-    $board   = ['Mecherel', 'Mecherel', 'Warden', 'Warden', 'Groundshaker', 'Gemsplitter', 'Duo'];
+    $board   = ['Warden', 'Mecherel', 'Mecherel', 'Warden', 'Groundshaker', 'Gemsplitter', 'Duo'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
