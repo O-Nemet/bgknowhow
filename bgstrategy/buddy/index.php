@@ -39,7 +39,7 @@ if ($selectedId) {
             <!--                --><?//= $flavor ? 'Flavor:' : '' ?><!--<span class="price_font" style="text-align: left; font-style: italic">--><?//= $flavor ?? '' ?><!--</span><br>-->
         </div>
         <div class="card_picture">
-            <img src="<?= PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="The buddy <?= $name ?>">
+            <img src="<?= PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $text ?>">
         </div>
     </div>
 
