@@ -2652,7 +2652,7 @@ body.bgstrategy .bgstrategy > a {
 .websites div, .streamers div, .cats div {
     position: relative;
     width: 200px;
-    height: 200px;
+    height: 430px;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -2683,7 +2683,7 @@ body.bgstrategy .bgstrategy > a {
 
 .websites div, .streamers div {
     margin-left: 33px;
-    margin-right: 44px;
+    margin-right: 42px;
 }
 
 .websites div:last-of-type, .streamers div:last-of-type {
@@ -3142,7 +3142,7 @@ body.bgstrategy .bgstrategy > a {
 .matrix {
     margin: 0 auto;
     width: 1090px;
-    height: 960px;
+    height: 1030px;
 }
 
 .matrix div {
@@ -3416,6 +3416,10 @@ body.bgstrategy .bgstrategy > a {
 
     .websites div a, .streamers div a {
         left: -23px;
+    }
+
+    .websites div span, .streamers div span {
+        font-size: 28px;
     }
 
     .websites div p, .streamers div p {
