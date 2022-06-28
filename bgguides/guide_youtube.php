@@ -11,21 +11,21 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“Buffs that will shake up the game (patch 23.4.3)” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
+            <h3>“This Update Will Completely Change The Game (Patch 23.6)” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/xTuajhf4IIg?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/yNwkOdb_Fog?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“The ultimate hero guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
+            <h3>“Full Patch 23.6 Note Review” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">ninaisnoob</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/wz120-aKmY4?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/QngS4E0oszY?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Onyxia is buffed and good now (with the right tribes)” by <a href="https://www.youtube.com/c/dogdogtwitch" target="_blank">dogdog</a></h3>
+            <h3>“Welcome to our new Mech Overlords” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/MfCqQTUrPjI?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/mXKhxel4StI?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -35,9 +35,21 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
+            <h3>“The ultimate Pyramad guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/IBn0UZuVHyM?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“Quick Hero Tips: Ozumat” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/4coTCFGv3g0?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“The ultimate hero guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/wz120-aKmY4?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
     </div>
