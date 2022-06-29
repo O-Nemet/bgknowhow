@@ -134,11 +134,11 @@ include_once('../header.php');
         <br><br>
         Minions, they're what you buy. Minions are the foundation of Battlegrounds, as they're what do the battling. Minions can have stats and effects. The stats are made up of attack and health, and the effects can be a range. Some effects have synergy with specific minion types. Each minion costs 3 gold to buy (usually), and so buying minions will typically make up most of your gold spent in a game.
         <br><br>
-        Tempo in a general sense is buying minions to optimize your chances of winning the next fight. Typically, this revolves around buying the minions with the best stats possible. Sometimes this is naked stats, but sometimes it's based on what's currently on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=28">Murloc Warleader</a> can be a naked 3/3 or could effectively be adding 6 attack to 3 other murlocs already on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=25">Menagerie Mug</a> can range from a 2/2 on its own, or it can be as strong as a 5/5 in total stats with a full buff.
+        Tempo in a general sense is buying minions to optimize your chances of winning the next fight. Typically, this revolves around buying the minions with the best stats possible. Sometimes this is naked stats, but sometimes it's based on what's currently on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=28">Murloc Warleader</a> can be a naked 3/3 or could effectively be adding 6 attack to 3 other murlocs already on your board. <a href="https://bgknowhow.com/bgstrategy/minion/?id=89">Menagerie Jug</a> can range from a 3/3 on its own, or it can be as strong as a 9/9 in total stats with a full buff.
     </p>
     <div class="comp_wrapper">
         <?php
-        $board   = ['Warleader', 'Mug', 'Goldrinn', 'Mama Bear', 'Elder', 'Kaly'];
+        $board   = ['Warleader', 'Jug', 'Goldrinn', 'Mama Bear', 'Elder', 'Kaly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
