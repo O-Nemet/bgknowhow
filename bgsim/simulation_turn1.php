@@ -25,8 +25,6 @@ include_once('classes.php');
 //$battlefield->getPlayer(2);
 //echo "<br><br>";
 //$battlefield->getLoserDamage();
-
-//include_once('index.php');
 ?>
 
 <?php
