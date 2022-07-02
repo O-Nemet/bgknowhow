@@ -1611,7 +1611,7 @@ addthis_toolbox {
 
 .card_picture img {
     width: 250px;
-    height: 380px;
+    /*height: 380px;*/
 }
 
 .card_flavor {
@@ -2542,6 +2542,14 @@ body.bgstrategy .bgstrategy > a {
     font-style: italic;
 }
 
+.bgjson_last_update {
+    float: right;
+    margin-top: 5px;
+    padding-right: 50px;
+    font-style: italic;
+    font-size: 10px;
+}
+
 .comp_selection {
     margin: 0 auto;
     margin-top: 25px;
@@ -2640,7 +2648,7 @@ body.bgstrategy .bgstrategy > a {
 
 .lobby_legends img:last-of-type {
     margin-top: 10px;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
 }
 
 .websites, .streamers, .cats {
@@ -3333,6 +3341,44 @@ body.bgstrategy .bgstrategy > a {
         display: none;
     }
 
+    /*BGJSON*/
+    .format-table {
+        width: fit-content;
+        margin: unset;
+    }
+
+    .bgjson_last_update {
+        float: left;
+    }
+
+    #latest_changes {
+        width: fit-content;
+    }
+
+    #latest_changes li {
+        margin-left: 10px;
+    }
+
+    .code_example {
+        width: 338px;
+        overflow: auto;
+    }
+
+    /*BGLL*/
+    .lobby_legends img {
+        margin-left: -10px;
+        /*padding: 10px;*/
+        height: auto;
+        width: calc(100% + 20px);
+        /*width: 348px;*/
+        /*width: fit-content;*/
+    }
+
+    .tier-table {
+        width: fit-content;
+    }
+
+    /*BGSTRATEGY*/
     .strategy {
         margin-left: 0;
     }
@@ -3398,8 +3444,16 @@ body.bgstrategy .bgstrategy > a {
         margin-right: 20px;
     }
 
+    .typeFilter img {
+        width: 100px;
+    }
+
     .matrix {
         overflow-x: scroll;
+    }
+
+    .matrix div {
+        font-size: 13px;
     }
 
     .websites, .streamers {
@@ -3425,6 +3479,10 @@ body.bgstrategy .bgstrategy > a {
     .websites div p, .streamers div p {
         height: 180px;
         font-size: 15px;
+    }
+
+    footer {
+        min-height: unset;
     }
 
     .logo_footer {
