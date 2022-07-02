@@ -8,7 +8,7 @@ include_once('../header.php');
         The cost to upgrade to the next tavern tier will reduce by 1 gold at the beginning of each of your turns. For example if you have upgraded to tavern tier 3 the cost to upgrade to tier 4 will be 8 gold. After you enter the next fight and then reenter the tavern shop the cost to upgrade will be reduced to 7 gold.
         <!-- Notice that the cost for tavern tier 5 is 11 gold, which is more than the gold cap. So other than with a couple of special heroes it is not possible to level from 4 to 6 in one turn. -->
         <br><br>
-        When upgrading to tier 2, tier 4 and tier 6 the number of minions offered in the tavern will increase by 1.
+        When upgrading to tier 2, tier 4 and tier 6 the number of minions offered per roll in the tavern will increase by 1.
         <br><br>
         The higher the tier, the fewer copies of each minion will be available in the minion pool shared by all players. For example each tier 6 minion is only available 7 times. This includes most ways of discoveries, but not the HP of Tess and Scabbs.
     </p>
@@ -74,11 +74,6 @@ foreach ($tempMinions->data as $key => $object) {
         @$minion_count['Total'][7] = @$minion_count['Total'][7] + 1;
     }
 }
-
-//echo "<pre>";
-//print_r($minion_pool['Demon']);
-//echo "</pre>";
-
 ?>
     <h3 id="types">Minion types and distribution</h3>
     <p>
@@ -130,6 +125,18 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
+    <h3>Key minions guiding your strategy</h3>
+    <p>
+        Transitioning from mid-game to a viable end-game composition is an important step you should master in order to improve your game. Often times your first discovery of a 5 or 6 drop minion after a triple, will guide you in a specific direction. Here are the key minions for each minion type strategy:
+    </p>
+    <div class="comp_wrapper cf">
+        <?php
+        $board   = ['Mama Bear', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Greasebot', 'Buster', 'Sefin', 'Brann', 'Orgozoa', 'Athissa', 'Eliza', 'Hoggarr', 'Charly', 'Elder', 'Mythrax'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        ?>
+    </div>
 <?php
 $i = 0;
 foreach ($tempMinions->data as $key => $object) {
@@ -138,16 +145,12 @@ foreach ($tempMinions->data as $key => $object) {
         $i++;
     }
 }
-//echo "<pre>";
-//print_r($board);
-//exit;
-//echo "</pre>";
 ?>
     <h3 id="coiler">Ghastcoiler odds</h3>
     <div style="margin-top: -30px;">
         <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
         <p style="width: 920px; padding-top: 90px; text-align: justify;">
-            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or any of the other possible Deathrattle minions. There are currently <?= $i ?> Deathrattle minions in the game, but the Coiler can not spawn itself. Therefore, the odds for a specific minion from coiler are <?= number_format(1 / $i * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / $i * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / $i * 2) * (1 / $i * 2) * 100, 2) ?>%.
+            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or any of the other possible Deathrattle minions. There are currently <?= $i ?> Deathrattle minions in the game, but the Coiler can not spawn itself. Therefore, the odds for a specific minion from coiler are <?= number_format(1 / ($i - 1) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i - 1) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i - 1) * 2) * (1 / ($i - 1) * 2) * 100, 2) ?>%.
         </p>
     </div>
     <div class="comp_wrapper cf">
