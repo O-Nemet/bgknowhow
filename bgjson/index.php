@@ -51,7 +51,7 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.json')); ?></i>
+    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.json')); ?></span>
 
     <br><br>
 
@@ -72,7 +72,7 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></i>
+    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></span>
 
     <br><br>
 
@@ -90,7 +90,7 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.csv')); ?></i>
+    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.csv')); ?></span>
 
     <br><br>
 
@@ -108,13 +108,14 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <i style="font-style: italic; font-size: 10px; margin-top: 5px; float: right;">Last updated: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></i>
+    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></span>
 
     <br><br>
 
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>30.06.2022 - Added BG changes from the 23.6.1 patch notes.</li>
         <li>27.06.2022 - Added BG changes from the 23.6.0 patch notes.</li>
         <li>16.06.2022 - Added BG changes from the 23.4.3 patch notes.</li>
         <li>06.06.2022 - Added picturePortrait to the hero dataset.</li>
