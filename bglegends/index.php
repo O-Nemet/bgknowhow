@@ -4,10 +4,21 @@ include_once('../header.php');
 <h2 class="page_title">Lobby Legends Esports</h2>
 <div class="lobby_legends">
     <img src="<?= PICTURE_LOCAL ?>misc/ll_logo.webp" alt="Lobby Legends logo">
-    <p>Lobby Legends is a monthly esports series by Blizzard, started in 2022 and supported with a total prize pool of $500,000.<br>
-        Basic information can be found on the <a href="https://playhearthstone.com/en-us/esports/programs/battlegrounds" target="_blank">official website</a>.
     <p>
-    <h3>Lobby Legends #1 (Raid Leaders at 02/03.04.2022) Top 8 after 5 lobbies:</h3>
+        Lobby Legends is a monthly esports series by Blizzard, started in 2022 and supported with a total prize pool of $500,000.<br>
+        Basic information can be found on the <a href="https://playhearthstone.com/en-us/esports/programs/battlegrounds" target="_blank">official website</a>.
+        <br><br>
+        In theory everyone can qualify for the finals. The first qualification gate is securing a spot in the Top 16 of one of the official <a href="https://playhearthstone.com/en-us/community/leaderboards?region=US&leaderboardId=BG" target="_blank">regional leaderboards</a> at the end of the month.
+        <br><br>
+        The next Lobby Legends will happen on July 9th (top 16 semi-finals) and July 10th (top 8 finals) and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-4/" target="_blank">Blizzards event website</a>
+    </p>
+    <h3>Lobby Legends #1 (“Raid Leaders” at 02/03.04.2022) Top 8 after 5 lobbies:</h3>
+    <p>
+        <a href="https://www.youtube.com/watch?v=LAdvFKn7_bQ" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=nbLv0qRHLhs" target="_blank">YouTube VOD recording of day 2</a>
+    </p>
+    <br>
     <table class="tier-table">
         <thead>
         <tr>
@@ -20,7 +31,7 @@ include_once('../header.php');
         <tbody>
         <tr>
             <td>1</td>
-            <td>BeNice / YEPBENIS</td>
+            <td>BeNice</td>
             <td>EU (GER)</td>
             <td>27.5</td>
         </tr>
@@ -69,7 +80,13 @@ include_once('../header.php');
         </tbody>
     </table>
 
-    <h3>Lobby Legends #2 (Noblegarden at 14/15.05.2022) Top 8 after 6 lobbies:</h3>
+    <h3>Lobby Legends #2 (“Noblegarden” at 14/15.05.2022) Top 8 after 6 lobbies:</h3>
+    <p>
+        <a href="https://www.youtube.com/watch?v=ax9lhjKrU24" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.twitch.tv/videos/1484409587" target="_blank">Twitch VOD recording of day 2</a>
+    </p>
+    <br>
     <table class="tier-table">
         <thead>
         <tr>
@@ -131,7 +148,13 @@ include_once('../header.php');
         </tbody>
     </table>
 
-    <h3>Lobby Legends #3 (Eternal Night at 25/26.06.2022) Top 8 after 6 lobbies:</h3>
+    <h3>Lobby Legends #3 (“Eternal Night” at 25/26.06.2022) Top 8 after 6 lobbies:</h3>
+    <p>
+        <a href="https://www.twitch.tv/videos/1513204286" target="_blank">Twitch VOD recording of day 1</a>
+        <br>
+        <a href="https://www.twitch.tv/videos/1514156489" target="_blank">Twitch VOD recording of day 2</a>
+    </p>
+    <br>
     <table class="tier-table">
         <thead>
         <tr>
