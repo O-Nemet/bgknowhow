@@ -14,7 +14,7 @@ include_once('../header.php');
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Kalegcos Battlecry Comp:</h3>
+    <h3>Kalecgos Battlecry Comp:</h3>
     <?php
     $board   = ['Bronze Warden', 'Nadina', 'Atramedes', '*Nightmare Amalgam', 'Kaly', 'Kaly', 'Brann'];
     $minions = getMinionsForBoard($board);
