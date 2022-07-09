@@ -1,6 +1,9 @@
 <?php
 require_once('functions.php');
 require_once('config/db.php');
+
+$test = 567;
+
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +11,7 @@ require_once('config/db.php');
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="Keywords" content="hearthstone,battlegrounds,hs,bg,heroes,buddies,minions,strategy,json,bgjson">
+    <meta name="Keywords" content="bgknowhow,hearthstone,battlegrounds,hs,bg,heroes,buddies,minions,strategy,json,bgjson">
     <title><?= getWebsiteTitle() ?></title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAnHNrAFpjUgD///8A96WUAP/e1gD/vbUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAVVhUAAAAABTMzZVYAAABjMzNRM2AAAFMxM1ExEAAAUzFlZDVWAABTMxFDMzVgAFMzMzMzM1AABTMzMzURYAAgUzMzM1YAAAIGUzMzM2AAAAAGUzMzUAAAAAAGUzNQAAAAAAAGVUAAAAAAAAAAAAAAAAAAAAAADgfwAAgB8AAIAPAAAABwAAAAcAAAADAAAAAQAAAAEAAIABAACAAwAAwAEAAPABAAD8AQAA/wEAAP/DAAD//wAA" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="//bgknowhow.com/styles/style.css">
@@ -25,7 +28,12 @@ require_once('config/db.php');
         gtag('js', new Date());
         gtag('config', 'G-P1G76VLP1E');
     </script>
+    <script src="//bgknowhow.com/miniontooltip.js" type="text/javascript"></script>
 </head>
+
+<script>
+    var hoverImages = [<?= $hoverImages ?>];
+</script>
 
 <body class="<?= getWebsiteName(); ?>" style="background-color: antiquewhite">
 
