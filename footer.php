@@ -17,5 +17,11 @@
     </small>
 </footer>
 
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        let tooltips = new bgTooltip();
+    });
+</script>
+
 </body>
 </html>
