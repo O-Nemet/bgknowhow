@@ -11,9 +11,9 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“How to build Demons in Patch 23.6” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <h3>“3 on 3 and 4 on 4 Curves Explained” by <a href="https://www.youtube.com/channel/UCb2EqHXk3x9T71QUtLIEXsw" target="_blank">ninaisnoob</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/mcFUhOEEQGE?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/a3-CZBI5-IY?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -23,9 +23,9 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Full Patch 23.6 Note Review” by <a href="https://www.youtube.com/channel/UCb2EqHXk3x9T71QUtLIEXsw" target="_blank">ninaisnoob</a></h3>
+            <h3>“How to build Demons in Patch 23.6” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/QngS4E0oszY?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/mcFUhOEEQGE?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
