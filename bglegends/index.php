@@ -11,6 +11,8 @@ include_once('../header.php');
         In theory everyone can qualify for the finals. The first qualification gate is securing a spot in the Top 16 of one of the official <a href="https://playhearthstone.com/en-us/community/leaderboards?region=US&leaderboardId=BG" target="_blank">regional leaderboards</a> at the end of the month.
         <br><br>
         The next Lobby Legends will happen on July 9th (top 16 semi-finals) and July 10th (top 8 finals) and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-4/" target="_blank">Blizzards event website</a>
+        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+        <a href="https://logwork.com/countdown-73t7" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-07-09 17:00">Lobby Legends #4 Semi-Finals</a>
     </p>
     <h3>Lobby Legends #1 (“Raid Leaders” at 02/03.04.2022) Top 8 after 5 lobbies:</h3>
     <p>
