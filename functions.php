@@ -5,8 +5,7 @@ ini_set('display_errors', 'On');
 
 const IMG_PATH = '//bgknowhow.com/images/';
 
-const PICTURE_LOCAL = 'https://bgknowhow.com/images/';
-
+const PICTURE_LOCAL                  = 'https://bgknowhow.com/images/';
 const PICTURE_LOCAL_HERO             = 'https://bgknowhow.com/images/heroes/';
 const PICTURE_LOCAL_BUDDY            = 'https://bgknowhow.com/images/buddies/';
 const PICTURE_LOCAL_MINION           = 'https://bgknowhow.com/images/minions/';
@@ -29,6 +28,18 @@ const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // 
 $tempHeroes  = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
 $tempBuddies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
 $tempMinions = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
+
+// reference table for image tooltips on hover (provided to JS)
+$hoverImages = '';
+foreach ($tempMinions->data as $key => $object) {
+    if ($object->isToken !== true) {
+        $hoverImages = $hoverImages . "{name:'" . addslashes($object->name) . "',shortname:'" . addslashes($object->nameShort) . "',id:'$object->id',type:'M'},";
+    }
+}
+foreach ($tempHeroes->data as $key => $object) {
+    $hoverImages = $hoverImages . "{name:'" . addslashes($object->name) . "',shortname:'" . addslashes($object->nameShort) . "',id:'$object->heroPowerId',type:'H'},";
+}
+$hoverImages = rtrim($hoverImages, ',');
 
 function getWebsiteName(): string
 {
@@ -314,7 +325,7 @@ function drawBoard($minions)
 
 function getCompositionText(): string
 {
-    return "These different compositions are meant to display proven setups to strive for, for the very end game (top 4 and above). In general one of the seven slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Taunt, Poison or Divine Shield. Also primary support units like <a href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight.";
+    return "These different compositions are meant to display proven setups to strive for, for the very end game (top 4 and above). In general one of the seven slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Taunt, Poison or Divine Shield. Also primary support units like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight.";
 }
 
 /**
