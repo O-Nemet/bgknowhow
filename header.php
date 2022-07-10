@@ -54,15 +54,17 @@ $test = 567;
         <nav id="sidebar_menu">
             <ul>
                 <li><a class="menu-topic" href="//bgknowhow.com/introduction.php">&#9654; Introduction</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgcomps/">&#9654; Endgame Comps</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/">&#9654; Simulator</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgcomps/">&#9654; Compositions</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcurves/">&#9654; Curves</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgjson/">&#9654; BGJSON</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/">&#9654; Simulator</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bglegends/">&#9654; Lobby Legends</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgexternal/">&#9654; External Resources</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_pocky.php">&#9654; Guide to Improving at BGs</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">&#9654; Featured YouTube guides</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgjson/">&#9654; BGJSON</a></li>
             </ul>
         </nav>
     </label>

@@ -7,20 +7,20 @@ include_once('header.php');
         <a href="bgstrategy/?show=heroes">
             <div id="strategy_heroes"><span>Hero<br>Strategy</span></div>
         </a>
-        <a href="introduction.php">
-            <div id="intro"><span>What?<br>Why?<br>How?</span></div>
-        </a>
         <a href="bgstrategy/?show=minions">
             <div id="strategy_minions"><span>Minion<br>Strategy</span></div>
+        </a>
+        <a href="introduction.php">
+            <div id="intro"><span>What?<br>Why?<br>How?</span></div>
         </a>
         <a href="bgcurves/">
             <div id="curves"><span>Curves</span></div>
         </a>
-        <a href="bgsim/">
-            <div id="simulator"><span>Simulator</span></div>
-        </a>
         <a href="bgcomps/">
             <div id="comps"><span>Endgame<br>Comps</span></div>
+        </a>
+        <a href="bgsim/">
+            <div id="simulator"><span>Simulator</span></div>
         </a>
         <a href="bgjson/">
             <div id="bgjson"><span>BGJSON</span></div>
