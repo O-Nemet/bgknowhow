@@ -11,10 +11,12 @@ include_once('../header.php');
         <br><br>
         After that the LL main event happens, where the 12 remaining players and 4 qualifiers from China will battle it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players will play lobbies until someone has accumulated 20 points and then wins a lobby).
         <br><br>
-        The next Lobby Legends will happen on July 9th (top 16 semi-finals) and July 10th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-4/" target="_blank">Blizzards event website</a>.
+        The next Lobby Legends Top 48 qualifier will happen on August 6th. There will be no official broadcast but it will be live-streamed by several of the players on their Twitch channels. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.
         <br><br>
+        <!--        The next Lobby Legends will happen on September 3rd (top 16 semi-finals) and September 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-4/" target="_blank">Blizzards event website</a>.-->
+        <!--        <br><br>-->
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-07-10 17:00" data-background="#8dbdd8">Lobby Legends #4 (“Fire Festival”) Finals</a>
+        <a href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-08-06 09:00" data-background="#8dbdd8">Lobby Legends #5 Top 48</a>
     </p>
     <br>
 
@@ -236,13 +238,15 @@ include_once('../header.php');
         </tbody>
     </table>
 
-    <h3>Lobby Legends #4 (“Fire Festival” at 09/10.07.2022) Top 8 after ? lobbies:</h3>
+    <h3>Lobby Legends #4 (“Fire Festival” at 09/10.07.2022) Top 8 after 7 lobbies:</h3>
     <p>
-        Patch 23.6.1 with a 25% chance of Darkmoon Prizes, as well as <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=222'>Kooky</a> but without <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=3'>Chromawing</a> was played.
+        Patch 23.6.1 with a 25% chance of Darkmoon Prizes, as well as <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=222'>Kooky</a> but without <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=3'>Chromawing</a> was played. Also, an unfixed <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=208'>Leeroy</a> Divine Shield bug was featured.
     </p>
     <br>
     <p>
         <a href="https://www.twitch.tv/videos/1526886709" target="_blank">Twitch VOD recording of day 1</a>
+        <br>
+        <a href="https://www.twitch.tv/videos/1527825628" target="_blank">Twitch VOD recording of day 2</a>
     </p>
     <br>
     <table class="tier-table">
@@ -256,52 +260,52 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td>8</td>
-            <td>Alucard</td>
-            <td>US (BRA)</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Butterfly</td>
-            <td>CHN</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>8</td>
+            <td>1</td>
             <td>KidFive</td>
             <td>CHN</td>
-            <td>0</td>
+            <td>27.0</td>
         </tr>
         <tr>
-            <td>8</td>
+            <td>2</td>
+            <td>Alucard</td>
+            <td>US (BRA)</td>
+            <td>29.5</td>
+        </tr>
+        <tr>
+            <td>3</td>
             <td>Satellite</td>
             <td>AP (JPN)</td>
-            <td>0</td>
+            <td>28.0</td>
         </tr>
         <tr>
-            <td>8</td>
+            <td>4</td>
+            <td>MXJF</td>
+            <td>CHN</td>
+            <td>26.5</td>
+        </tr>
+        <tr>
+            <td>5</td>
             <td>BeterBabbit</td>
             <td>US (USA)</td>
-            <td>0</td>
+            <td>25.5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Butterfly</td>
+            <td>CHN</td>
+            <td>22.0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Ribapusa</td>
+            <td>AP (KOR)</td>
+            <td>19.0</td>
         </tr>
         <tr>
             <td>8</td>
             <td>Cytro</td>
             <td>EU (BEL)</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>MXJF</td>
-            <td>CHN</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Ribapusa</td>
-            <td>AP (KOR)</td>
-            <td>0</td>
+            <td>18.5</td>
         </tr>
         </tbody>
     </table>
