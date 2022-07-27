@@ -13,7 +13,7 @@ include_once('../header.php');
         <p>
             Very popular BG player from Romania, explaining his plays in english.<br><br>
             Mainstay in the EU top32.<br><br>
-            Qualified for LL#2 top48, LL#3 top48, LL#5 top48.
+            LL#2 top48, LL#3 top48, LL#5 top48.
         </p>
     </div>
     <div>
@@ -24,7 +24,7 @@ include_once('../header.php');
         <p>
             Very high-skilled BG player from Belarus, explaining his plays in english.<br><br>
             Mainstay in the EU top16.<br><br>
-            Qualified for LL#1 top24, LL#2 top24, LL#3 top16, LL#4 top16, LL#5 top48.
+            LL#1 top24, LL#2 top24, LL#3 top16, LL#4 top16, LL#5 top48.
         </p>
     </div>
     <div>
@@ -35,7 +35,7 @@ include_once('../header.php');
         <p>
             Longtime German BG player, streaming in english.<br><br>
             Mainstay in the EU top50.<br><br>
-            Winner of LL#1, Qualified for LL#5 top48.<br>
+            Winner of LL#1, LL#5 top48.<br>
         </p>
     </div>
     <div>
@@ -56,8 +56,8 @@ include_once('../header.php');
         </a>
         <p>
             High MMR player from the United States.<br><br>
-            Host of the weekly HSBG podcast.<br><br>
-            Qualified for LL#1 top16, LL#2 top48, LL#3 top48, LL#4 top48, LL#5 top48.
+            Mainstay in the US top16. Host of weekly HSBG podcast.<br><br>
+            LL#1 top16, LL#2 top48, LL#3 top48, LL#4 top48, LL#5 top48.
         </p>
     </div>
     <div>
@@ -67,8 +67,8 @@ include_once('../header.php');
         </a>
         <p>
             High MMR player from Germany, streaming in english.<br><br>
-            Mainstay in the EU top32.<br><br>
-            Qualified for LL#2 top24, LL#3 top16, LL#4 top48, LL#5 top48.
+            Mainstay in the EU top16. Winner of Twitch Rivals BG.<br><br>
+            LL#2 top24, LL#3 top16, LL#4 top48, LL#5 top48.
         </p>
     </div>
     <div>
@@ -79,7 +79,7 @@ include_once('../header.php');
         <p>
             High MMR player from Luxembourg, streaming in english.<br><br>
             Mainstay in the EU top50.<br><br>
-            Qualified for LL#1 top48.
+            LL#1 top48.
         </p>
     </div>
     <div>
@@ -89,8 +89,8 @@ include_once('../header.php');
         </a>
         <p>
             High MMR streamer from the United States.<br><br>
-            Mainstay in the US top32.<br><br>
-            Qualified for LL#3 top48, LL#4 top16, LL#5 top48.
+            Mainstay in the US top16.<br><br>
+            LL#3 top48, LL#4 5th, LL#5 top48.
         </p>
     </div>
     <!--    <li><a href="https://twitch.tv/tylerootd" target="_blank"><img src="--><? //= PICTURE_LOCAL ?><!--misc/streamer_tyler.jpg"></a></li>-->
@@ -125,7 +125,8 @@ include_once('../header.php');
             <span>Ninaisnoob</span>
         </a>
         <p>
-            High-quality educational and gameplay videos.
+            High-quality educational and gameplay videos.<br><br>
+            Host of the official Lobby Legends #4 broadcast.
         </p>
     </div>
     <div>
