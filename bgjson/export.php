@@ -10,6 +10,7 @@ $getActiveOnly = 1;
 if ($stmt = $mysqli->prepare("SELECT bgh.id,
                                      bgh.name,
                                      bgh.name_short,
+                                     bgh.pool,
                                      bgh.health,
                                      bgh.armor_tier,
                                      bgh.id_blizzard,
@@ -25,7 +26,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $health, $armorTier, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive);
+    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armorTier, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive);
 
     $row_count = $stmt->num_rows;
 
@@ -71,19 +72,20 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
 
         $csvDataHeroes .= $csvData;
 
-        $heroes['data'][$i]['name']                  = $name;
-        $heroes['data'][$i]['nameShort']             = $nameShort;
-        $heroes['data'][$i]['health']                = $health;
-        $heroes['data'][$i]['armorTier']             = $armorTier;
-        $heroes['data'][$i]['armor']                 = getArmor($armorTier);
-        $heroes['data'][$i]['id']                    = $blizzardId;
-        $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
-        $heroes['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
-        $heroes['data'][$i]['picturePortrait']       = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_PORTRAIT_SUFFIX;
-        $heroes['data'][$i]['heroPowerCost']         = $hpCost;
-        $heroes['data'][$i]['heroPowerText']         = $hpText;
-        $heroes['data'][$i]['heroPowerId']           = $blizzardIdHp;
-        $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
+        $heroes['data'][$i]['name']             = $name;
+        $heroes['data'][$i]['nameShort']        = $nameShort;
+        $heroes['data'][$i]['pool']             = $pool;
+        $heroes['data'][$i]['health']           = $health;
+        $heroes['data'][$i]['armorTier']        = $armorTier;
+        $heroes['data'][$i]['armor']            = getArmor($armorTier);
+        $heroes['data'][$i]['id']               = $blizzardId;
+        $heroes['data'][$i]['picture']          = PICTURE_URL_RENDER . $blizzardId . '.png';
+        $heroes['data'][$i]['pictureSmall']     = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $heroes['data'][$i]['picturePortrait']  = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_PORTRAIT_SUFFIX;
+        $heroes['data'][$i]['heroPowerCost']    = $hpCost;
+        $heroes['data'][$i]['heroPowerText']    = $hpText;
+        $heroes['data'][$i]['heroPowerId']      = $blizzardIdHp;
+        $heroes['data'][$i]['heroPowerPicture'] = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
         $heroes['data'][$i]['heroPowerPictureSmall'] = PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80;
         $heroes['data'][$i]['websites']['blizzard']  = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
         $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/hero/?id=' . $id;
@@ -245,24 +247,24 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['textGolden']                  = $textGolden;
         $minions['data'][$i]['isActive']                    = (bool)$isActive;
         $minions['data'][$i]['isToken']                     = (bool)$isToken;
-        $minions['data'][$i]['abilities']['hasBattlecry'] = (bool)$hasBattlecry;
+        $minions['data'][$i]['abilities']['hasBattlecry']   = (bool)$hasBattlecry;
         $minions['data'][$i]['abilities']['hasDeathrattle'] = (bool)$hasDeathrattle;
-        $minions['data'][$i]['abilities']['hasTaunt'] = (bool)$hasTaunt;
-        $minions['data'][$i]['abilities']['hasShield'] = (bool)$hasShield;
-        $minions['data'][$i]['abilities']['hasWindfury'] = (bool)$hasWindfury;
-        $minions['data'][$i]['abilities']['hasReborn'] = (bool)$hasReborn;
-        $minions['data'][$i]['abilities']['hasAvenge'] = (bool)$hasAvenge;
-        $minions['data'][$i]['abilities']['hasSpellcraft'] = (bool)$hasSpellcraft;
-        $minions['data'][$i]['id'] = $blizzardId;
-        $minions['data'][$i]['summonId'] = $summonId;
-        $minions['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
-        $minions['data'][$i]['pictureSmall'] = PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
-        $minions['data'][$i]['artist'] = $artist;
-        $minions['data'][$i]['flavor'] = $flavor;
-        $minions['data'][$i]['websites']['blizzard'] = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
-        $minions['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/minion/?id=' . $id;
-        $minions['data'][$i]['websites']['fandom'] = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
-        $minions['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? 'https://hearthpwn.com/cards/' . $hpwnId : null);
+        $minions['data'][$i]['abilities']['hasTaunt']       = (bool)$hasTaunt;
+        $minions['data'][$i]['abilities']['hasShield']      = (bool)$hasShield;
+        $minions['data'][$i]['abilities']['hasWindfury']    = (bool)$hasWindfury;
+        $minions['data'][$i]['abilities']['hasReborn']      = (bool)$hasReborn;
+        $minions['data'][$i]['abilities']['hasAvenge']      = (bool)$hasAvenge;
+        $minions['data'][$i]['abilities']['hasSpellcraft']  = (bool)$hasSpellcraft;
+        $minions['data'][$i]['id']                          = $blizzardId;
+        $minions['data'][$i]['summonId']                    = $summonId;
+        $minions['data'][$i]['picture']                     = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+        $minions['data'][$i]['pictureSmall']                = PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $minions['data'][$i]['artist']                      = $artist;
+        $minions['data'][$i]['flavor']                      = $flavor;
+        $minions['data'][$i]['websites']['blizzard']        = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
+        $minions['data'][$i]['websites']['bgknowhow']       = 'https://bgknowhow.com/bgstrategy/minion/?id=' . $id;
+        $minions['data'][$i]['websites']['fandom']          = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
+        $minions['data'][$i]['websites']['hearthpwn']       = ($hpwnId ? 'https://hearthpwn.com/cards/' . $hpwnId : null);
 
         if ($isActive) {
             $csvDataMinionsActive      .= $csvData;
