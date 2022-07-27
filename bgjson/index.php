@@ -1,20 +1,20 @@
 <?php
 include_once('../header.php');
 ?>
-    <script>
-        async function readJSON() {
-            const requestURL = 'https://bgknowhow.com/bgjson/output/bg_minions_all.json';
-            const request = new Request(requestURL);
-
-            const response = await fetch(request);
-            const minions = await response.json();
-
-            // check the result
-            console.table(minions.data);
-        }
-
-        readJSON();
-    </script>
+    <!--    <script>-->
+    <!--        async function readJSON() {-->
+    <!--            const requestURL = 'https://bgknowhow.com/bgjson/output/bg_minions_all.json';-->
+    <!--            const request = new Request(requestURL);-->
+    <!---->
+    <!--            const response = await fetch(request);-->
+    <!--            const minions = await response.json();-->
+    <!---->
+    <!--            // check the result-->
+    <!--            console.table(minions.data);-->
+    <!--        }-->
+    <!---->
+    <!--        let minions = readJSON();-->
+    <!--    </script>-->
 
     <h2 class="page_title">BG JSON</h2>
 
@@ -115,6 +115,8 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>26.07.2022 - Added BG changes from the 24.0.0 patch notes.</li>
+        <li>21.07.2022 - Added pool (i.e. "Naga" for "Queen Azshara") to the hero dataset.</li>
         <li>30.06.2022 - Added BG changes from the 23.6.1 patch notes.</li>
         <li>27.06.2022 - Added BG changes from the 23.6.0 patch notes.</li>
         <li>16.06.2022 - Added BG changes from the 23.4.3 patch notes.</li>
@@ -202,7 +204,7 @@ include_once('../header.php');
             rawFile.overrideMimeType("application/json");
             rawFile.open('GET', file, true);
             rawFile.onreadystatechange = function() {
-                if (rawFile.readyState === 4 && rawFile.status == '200') {
+                if (rawFile.readyState === 4 && rawFile.status === 200) {
                     callback(rawFile.responseText);
                 }
             }
