@@ -8,7 +8,7 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats Comp:</h3>
+    <h3>Big Stats aka APM Comp:</h3>
     <?php
     $board   = ['Selfless', '*Salty Looter', 'Hoggarr', 'Hoggarr', 'Peggy', 'Peggy', 'Baron'];
     $minions = getMinionsForBoard($board);

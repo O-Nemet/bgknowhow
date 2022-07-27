@@ -15,9 +15,9 @@ include_once('../header.php');
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Rag + Domo Buff Comp:</h3>
+    <h3>Domo + Rag Buff Comp:</h3>
     <?php
-    $board   = ['Cyclone', 'Wildfire', 'Rag', 'Rag', 'Wraith', 'Domo', 'Master'];
+    $board   = ['Cyclone', 'Wildfire', 'Rag', 'Wraith', 'Domo', 'Domo', 'Master'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

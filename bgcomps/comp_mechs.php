@@ -8,7 +8,7 @@ include_once('../header.php');
 </p>
 <br>
 <p>
-    In general Mech compositions are strong against Murlocs and poison/scam comps, and fare better when Quilboars are available to increase the size of shielded mechs in the early- and mid-game. They are weaker against big stats comp featuring Demons or Elementals.
+    In general Mech compositions are strong against Murlocs and poison/scam comps, and fare better when Quilboars are available to increase the size of shielded mechs in the early- and mid-game. They are weaker against big stats comp featuring Demons, Elementals or Naga.
 </p>
 <div class="comp_wrapper">
     <h3>Deflecto Reset Comp:</h3>
@@ -24,18 +24,18 @@ include_once('../header.php');
         <br><br>
         The Mecherel on the right should be taunted and shielded by an <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=73">Annoy-o-Module</a>. That way you can position all your other shielded minions on the left side and the taunted Mecherel will provide perfect value by getting a new shield every time one of your minions attacks. The second Mecherel is optional, but the first one is kinda essential to play for first place.
         <br><br>
-        Another little trick: If your opponent is trying to counter your shields via a Blaster, your Mecherels will instantly regain their shield as long as another minion with a shield was positioned to the right of the Mecherel.
+        Another little trick: If your opponent is trying to counter your shields via a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=226">Blaster</a>, your Mecherels will instantly regain their shield as long as another minion with a shield was positioned to the right of the Mecherel.
     </p>
     <h3>Greasebot Shield Comp:</h3>
     <?php
-    $board   = ['Knight', 'Mecherel', 'Mecherel', 'Deflecto', 'Greasebot', 'Greasebot', 'Pupbot'];
+    $board   = ['Knight', 'Mecherel', 'Mecherel', 'Deflecto', 'Greasebot', 'Greasebot', 'Mummy'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        While this comp may look kinda similar, the focus here is less on the resets and more on the constant stat buffing thanks to the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=83">Grease Bot</a>. After getting two or a golden one, the most important minion is the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=112">Mecherel</a> (two normal ones are more valuable than a golden), which will constantly regain its Divine Shield and therefore receive multiple buffs during each fight.
+        While this comp may look kinda similar, the focus here is less on the resets and more on the constant stat buffing thanks to the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=83">Grease Bot</a>. After getting two or a golden one, the most important minion is the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=112">Mecherel</a> (with those, two normal ones are more valuable than a golden), which will constantly regain its Divine Shield and therefore receive multiple buffs during each fight.
         <br><br>
-        The Deflect-o-Bot is rather optional in this comp and can be replaced by any shielded minion, even non-mech ones like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=52">Crackling Cyclone</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=214">Bristleback Knight</a>. But of course, with how easy it is to apply a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a>, they will always have extra value in any mech comp.
+        The Deflect-o-Bot is rather optional in this comp and can be replaced by any shielded minion, even non-mech ones like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=52">Crackling Cyclone</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=214">Bristleback Knight</a>. But of course, with how easy it is to apply a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a>, they will always provide extra value in any mech comp.
     </p>
     <h3>Buster/Kangor Deathrattle Comp:</h3>
     <?php

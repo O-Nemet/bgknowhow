@@ -22,7 +22,7 @@ include_once('../header.php');
     ?>
     <h3>Leaper Deathrattle Comp:</h3>
     <?php
-    $board   = ['Leaper', 'Macaw', '*Sewer Rat', '*Sewer Rat', '*Rat Pack', '*Rat Pack', 'Baron'];
+    $board   = ['Leaper', 'Macaw', 'Macaw', '*Sewer Rat', '*Sewer Rat', '*Rat Pack', 'Baron'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

@@ -10,7 +10,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Big Stats Comp:</h3>
     <?php
-    $board   = ['Bonker', 'Knight', '*Bristleback Brute', 'Pumba', 'Shaker', 'Elder', 'Duo'];
+    $board   = ['Charly', 'Knight', '*Bristleback Brute', 'Pumba', 'Shaker', 'Elder', 'Duo'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -23,6 +23,12 @@ include_once('../header.php');
     <h3>Groundshaker Shield Comp:</h3>
     <?php
     $board   = ['Warden', 'Mecherel', 'Mecherel', 'Warden', 'Groundshaker', 'Gemsplitter', 'Duo'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <h3>Elder/Hoggarr Gem Comp:</h3>
+    <?php
+    $board   = ['Knight', 'Hoggarr', 'Hoggarr', 'Elder', 'Elder', 'Tusk', 'Duo'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
