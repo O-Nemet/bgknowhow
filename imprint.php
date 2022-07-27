@@ -23,13 +23,13 @@ include_once('header.php');
 
     <div class="cats" style="width: fit-content; margin-top: 65px;">
         <div>
-            <img src="<?= PICTURE_LOCAL ?>misc/cat_mia2.webp" title="Mia">
+            <img src="<?= PICTURE_LOCAL ?>misc/cat_mia2.webp" title="Mia" alt="My cat called Mia">
         </div>
         <div>
-            <img src="<?= PICTURE_LOCAL ?>misc/cat_yuna3.webp" title="Yuna">
+            <img src="<?= PICTURE_LOCAL ?>misc/cat_yuna3.webp" title="Yuna" alt="My cat called Yuna">
         </div>
         <div>
-            <img src="<?= PICTURE_LOCAL ?>misc/cat_kiru2.webp" title="Kiru">
+            <img src="<?= PICTURE_LOCAL ?>misc/cat_kiru2.webp" title="Kiru" alt="My cat called Kiru">
         </div>
     </div>
 
