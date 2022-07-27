@@ -58,7 +58,7 @@ include_once('../header.php');
         <tr>
             <td>3</td>
             <td>KenKen</td>
-            <td>US (CND)</td>
+            <td>US (CAN)</td>
             <td>18.5</td>
         </tr>
         <tr>
@@ -96,7 +96,7 @@ include_once('../header.php');
 
     <h3>Lobby Legends #2 (“Noblegarden” at 14/15.05.2022) Top 8 after 6 lobbies:</h3>
     <p>
-        Patch 23.2.0 with Naga freshly released (and still unerfed), as well as the new key minions <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=211'>Mantid Queen</a>, <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=208'>Leeroy</a>, <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=210'>Darkgaze Elder</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=209'>Young Murk-Eye</a> was played.
+        Patch 23.2.0 with Naga freshly released (and still unnerfed), as well as the new key minions <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=211'>Mantid Queen</a>, <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=208'>Leeroy</a>, <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=210'>Darkgaze Elder</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=209'>Young Murk-Eye</a> was played.
     </p>
     <br>
     <p>
@@ -124,7 +124,7 @@ include_once('../header.php');
         <tr>
             <td>2</td>
             <td>DaPeeDou</td>
-            <td>AP (TW)</td>
+            <td>AP (TWN)</td>
             <td>24.0</td>
         </tr>
         <tr>
@@ -136,7 +136,7 @@ include_once('../header.php');
         <tr>
             <td>4</td>
             <td>Awedragon</td>
-            <td>US (CND)</td>
+            <td>US (CAN)</td>
             <td>21.5</td>
         </tr>
         <tr>
@@ -148,7 +148,7 @@ include_once('../header.php');
         <tr>
             <td>6</td>
             <td>jag-eunsae</td>
-            <td>AP (SK)</td>
+            <td>AP (KOR)</td>
             <td>19.5</td>
         </tr>
         <tr>
@@ -196,7 +196,7 @@ include_once('../header.php');
         <tr>
             <td>2</td>
             <td>DaPeeDou</td>
-            <td>AP (TW)</td>
+            <td>AP (TWN)</td>
             <td>27.5</td>
         </tr>
         <tr>
