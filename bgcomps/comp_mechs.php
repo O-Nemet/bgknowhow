@@ -27,6 +27,7 @@ include_once('../header.php');
         Another little trick: If your opponent is trying to counter your shields via a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=226">Blaster</a>, your Mecherels will instantly regain their shield as long as another minion with a shield was positioned to the right of the Mecherel.
     </p>
     <h3>Greasebot Shield Comp:</h3>
+    <br><i style="font-style: italic; font-weight: 700; color: darkred; font-size: 14px;">(*currently not available, with Grease Bot hotfixed to the bench*)</i><br>
     <?php
     $board   = ['Knight', 'Mecherel', 'Mecherel', 'Deflecto', 'Greasebot', 'Greasebot', 'Mummy'];
     $minions = getMinionsForBoard($board);
@@ -35,7 +36,7 @@ include_once('../header.php');
     <p>
         While this comp may look kinda similar, the focus here is less on the resets and more on the constant stat buffing thanks to the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=83">Grease Bot</a>. After getting two or a golden one, the most important minion is the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=112">Mecherel</a> (with those, two normal ones are more valuable than a golden), which will constantly regain its Divine Shield and therefore receive multiple buffs during each fight.
         <br><br>
-        The Deflect-o-Bot is rather optional in this comp and can be replaced by any shielded minion, even non-mech ones like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=52">Crackling Cyclone</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=214">Bristleback Knight</a>. But of course, with how easy it is to apply a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a>, they will always provide extra value in any mech comp.
+        The Deflect-o-Bot is rather optional in this comp and can be replaced by any shielded minion, even non-mech ones like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=52">Crackling Cyclone</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=214">Bristleback Knight</a>. But of course, with how easy it is to apply a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a>, they will always provide extra value in any mech comp and every reset will synergize with Grease Bot.
     </p>
     <h3>Buster/Kangor Deathrattle Comp:</h3>
     <?php
