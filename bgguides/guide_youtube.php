@@ -11,27 +11,27 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
+            <h3>“Quick Hero Tips: Heistbaron Togwaggle” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/zsiIrcP_hk8?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“This interaction is Breaking the Meta” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/tG3xf7rusrc?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“So you think you can leapers? Leapfrogger Guide” by <a href="https://www.youtube.com/channel/UClZE5U3aRdXNq3JTLJIQuRQ/videos" target="_blank">Dellroth</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/1rgqBL_FVrw?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“3 on 3 and 4 on 4 Curves Explained” by <a href="https://www.youtube.com/channel/UCb2EqHXk3x9T71QUtLIEXsw" target="_blank">ninaisnoob</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/a3-CZBI5-IY?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“This Update Will Completely Change The Game (Patch 23.6)” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/yNwkOdb_Fog?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“How to build Demons in Patch 23.6” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/mcFUhOEEQGE?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Welcome to our new Mech Overlords” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/mXKhxel4StI?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -47,15 +47,21 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Quick Hero Tips: Ozumat” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/4coTCFGv3g0?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
             <h3>“The ultimate hero guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/wz120-aKmY4?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“This Update Will Completely Change The Game (Patch 23.6)” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/yNwkOdb_Fog?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“How to build Demons in Patch 23.6” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/mcFUhOEEQGE?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
     </div>
