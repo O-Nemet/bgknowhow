@@ -11,6 +11,12 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
+            <h3>“How to Play Togwaggle and Steamroll the Lobby” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/Xs026CLF3hg?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“Quick Hero Tips: Heistbaron Togwaggle” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/zsiIrcP_hk8?autoplay=0&origin=https://bgknowhow.com">
@@ -50,12 +56,6 @@ include_once('../header.php');
             <h3>“The ultimate hero guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/wz120-aKmY4?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“This Update Will Completely Change The Game (Patch 23.6)” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/yNwkOdb_Fog?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
