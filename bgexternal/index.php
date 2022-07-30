@@ -190,6 +190,25 @@ include_once('../header.php');
 <h3>Websites</h3>
 <div class="websites">
     <div>
+        <a href="https://www.reddit.com/r/BobsTavern/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_reddit.jpg" alt="r/BobsTavern on Reddit">
+            <span>r/BobsTavern</span>
+        </a>
+        <p>
+            The biggest Reddit community about everything Hearthstone Battlegrounds.
+        </p>
+    </div>
+    <div>
+        <a href="https://discord.gg/RUsfdacMwA" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_discord.jpg" alt="Competitive BG Discord">
+            <span>BG Discord</span>
+        </a>
+        <p>
+            Called the "Competitive Battleground" Discord server but open for everyone.<br><br>
+            Featuring a great community, many high level content creators as well as some developers from Blizzard.
+        </p>
+    </div>
+    <div>
         <a href="https://www.bgcurvesheet.com/" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_bgcheatsheet.jpg" alt="Battlegrounds CheatSheet">
             <span>BG Curve Sheet</span>
@@ -206,6 +225,16 @@ include_once('../header.php');
         </a>
         <p>
             Interactive calculator to compute the odds of seeing a specific minion in the tavern.
+        </p>
+    </div>
+    <div>
+        <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=BG" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards">
+            <span>BG Leaderboard</span>
+        </a>
+        <p>
+            The official Blizzard top 200 leaderboards for each of the three regions (US, EU, AP).<br><br>
+            At the end of each month the top16 players qualify for the Lobby Legends tourney.
         </p>
     </div>
     <div>
