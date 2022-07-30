@@ -93,6 +93,52 @@ include_once('../header.php');
             LL#3 top48, LL#4 5th, LL#5 top48.
         </p>
     </div>
+
+    <div>
+        <a href="https://www.twitch.tv/jeefhs" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_jeef.jpg" alt="Jeef">
+            <span>Jeef</span>
+        </a>
+        <p>
+            High MMR player from the United States.<br><br>
+            Mainstay in the US top16.<br><br>
+            LL#4 top24, LL#5 top48.
+        </p>
+    </div>
+    <div>
+        <a href="hhttps://www.twitch.tv/guddummit" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_guddummit.png" alt="guDDummit">
+            <span>guDDummit</span>
+        </a>
+        <p>
+            High MMR player from Russia, streaming in russian.<br><br>
+            Mainstay in the EU top16.<br><br>
+            LL#1 top16, LL#2 top24, LL#3 7th, LL#4 top48, LL#5 top48.
+        </p>
+    </div>
+    <div>
+        <a href="https://www.twitch.tv/zoinhu" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_zoinhu.jpg" alt="ZoinhU">
+            <span>ZoinhU</span>
+        </a>
+        <p>
+            High MMR player from Portugal, streaming in portuguese.<br><br>
+            Mainstay in the US top16.<br><br>
+            LL#1 top16, LL#2 top48, LL#3 top48, LL#4 top48.
+        </p>
+    </div>
+    <div>
+        <a href="https://www.twitch.tv/sunbaconrelaxer" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_sbr.jpg" alt="SunBaconRelaxer">
+            <span>SunBaconRelaxer</span>
+        </a>
+        <p>
+            High MMR streamer from the United States.<br><br>
+            Mainstay in the US top50.<br><br>
+            LL#1 top48, LL#3 top48.
+        </p>
+    </div>
+
     <!--    <li><a href="https://twitch.tv/tylerootd" target="_blank"><img src="--><? //= PICTURE_LOCAL ?><!--misc/streamer_tyler.jpg"></a></li>-->
     <!--    https://www.twitch.tv/guddummit  russian -->
 </div>
