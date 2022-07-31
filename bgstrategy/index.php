@@ -18,6 +18,23 @@ if (!empty($_GET['show'])) {
 } else {
     $show = 'all';
 }
+
+if (!empty($_GET['type'])) {
+    $minionPool = ucfirst(strtolower($_GET['type']));
+    if ($minionPool === 'None') {
+        $minionPool = 'All';
+    }
+} else {
+    $minionPool = 'Everything';
+}
+
+if (!empty($_GET['tier'])) {
+    $minionTier = (int)$_GET['tier'];
+    $minionTier = ($minionTier > 0 && $minionTier < 7) ? $minionTier : 0;
+} else {
+    $minionTier = 0;
+}
+
 if (!empty($buddy)) {
     echo "buddy " . $buddy;
 } else if (!empty($minion)) {
@@ -86,11 +103,14 @@ if (!empty($buddy)) {
     }
 
     if ($show == 'minions' || $show == 'all') {
-        echo '<h2 class="page_title">Minions</h2>';
+        echo '<h2 class="page_title">Minions' . ($minionPool !== 'Everything' ? ' - ' . $minionPool . 's' : '') . '</h2>';
     }
 
+    $tierFrom = $minionTier !== 0 ? $minionTier : 1;
+    $tierTo   = $minionTier !== 0 ? $minionTier : 6;
+
     if ($show == 'minions' && $mode == 'gfx') {
-        for ($i = 1; $i <= 6; $i++) {
+        for ($i = $tierFrom; $i <= $tierTo; $i++) {
             echo "<div style='width: 101%; display: flex; justify-content: center;'>";
             for ($j = 1; $j <= $i; $j++) {
                 echo "<img src='" . PICTURE_LOCAL . "icons/star.webp' style='width: 50px; margin-top: 15px; margin-bottom: 25px;'>";
@@ -98,7 +118,7 @@ if (!empty($buddy)) {
             echo "</div>";
             echo "<div class='strategy-images minions cf'>";
             foreach ($minions as $minion) {
-                if ($minion->tier === $i) {
+                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pool === $minionPool)) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                     echo "<div class='name'>" . $minion->name . "</div>";
                     echo "<div class='mask'></div>";
