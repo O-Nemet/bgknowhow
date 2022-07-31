@@ -131,13 +131,14 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Goldrinn', 'Mama Bear', 'Croc', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Buster', 'Sefin', 'Brann', 'Athissa', 'Orgozoa', 'Eliza', 'Hoggarr', 'Elder', 'Charly', 'Mythrax'];
+        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Buster', 'Brann', 'Sefin', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Mythrax', 'Elder', 'Charly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         ?>
     </div>
 <?php
+// Ghastcoiler minions
 $i = 0;
 foreach ($tempMinions->data as $key => $object) {
     if ($object->isActive && $object->isToken === false && $object->abilities->hasDeathrattle && $object->name !== 'Ghastcoiler') {
@@ -160,7 +161,60 @@ foreach ($tempMinions->data as $key => $object) {
         ?>
     </div>
 
-    <h3 id="buddycurves">Buddy curves</h3>
+    <h3 id="queen">Mantid Queen odds</h3>
+    <div style="margin-top: -30px;">
+        <a href="https://bgknowhow.com/bgstrategy/minion/?id=211"><img width="200" src="https://bgknowhow.com/images/minions/BG22_402_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
+        <p style="width: 920px; padding-top: 20px; text-align: justify;">
+            This endgame minion will always have Poisonous, but what will take it from a good investment to a great one is the combination with Divine Shield, enabling it to take out two of your opponents biggest minions while only needing one slot on your board. If you are playing this on a board with only minions from one type or neutral ones, the odds of getting the elusive shield are a measly 25% (as there are 4 random buffs to choose from).
+            <br><br>
+            In order to increase the odds you can either place more different minions types on your board (not always an option, depending on your general strategy) or buff the Queen with Taunt and/or Windfury (because if it has either of those at the beginning of combat that option will be ignored for the random roll). All but the +5/+5 buff can only be applied once, therefore the maximum chance with only one minion type will be 50% for a fully buffed Queen. Whereas adding a second minion type will bring the odds of an unbuffed Queen to nearly 48%, and adding a third to nearly 68%.
+        </p>
+    </div>
+
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Number of minion types</th>
+            <th>Unbuffed</th>
+            <th>Taunt OR Windfury</th>
+            <th>Taunt AND Windfury</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>25.00%</td>
+            <td>33.33%</td>
+            <td>50.00%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>47.92%</td>
+            <td>61.11%</td>
+            <td>75.00%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>67.53%</td>
+            <td>78.70%</td>
+            <td>87.50%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>81.24%</td>
+            <td>88.73%</td>
+            <td>93.75%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>??.??%</td>
+            <td>??.??%</td>
+            <td>96.88%</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3 id="buddycurves" class="cf">Buddy curves</h3>
     <p>
         When you will receive your buddy depends on the tavern tier of the buddy and your performance (damage done, shields popped, fights won). Buddies were removed from the game with the 23.2.0 patch in May 2022 (*RIP*).
     </p>
