@@ -64,6 +64,17 @@ include_once('../header.php');
         <br><br>
         Golden Macaws, a golden Baron and golden Busters will make the most impact for this composition. If you only have one Buster, taunting the Deflect-o-Bot or even the Reaper as protection for the essential Baron can sometimes be the right call. But with any Baron comp, winning or losing the attack-first coin flip has a huge impact on the following battle.
     </p>
+    <h3>Exodia Deathrattle Comp:</h3>
+    <?php
+    $board   = ['Blaster', 'Selfless', 'Kangor\'s', 'Kangor\'s', 'Buster', 'Buster', 'Baron'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        This is a special case of another Mech Deathrattle variation, where you will need exactly the pieces displayed here. Due to the timing interaction of the different components, what whill happen is that the Blaster will die first and trigger twice, destroying your whole board but the Baron. After that mayhem the Kangor's will both spawn fresh Busters and your board will be 6 big Busters plus the Baron, and every dying Buster will grow the stats on your board again.
+        <br><br>
+        This is a very hard to beat comp, especially if you are able to protect your Baron from <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zap</a> by buffing it with <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=227">Uther</a> or Blood Gems.
+    </p>    
 </div>
 
 <?php
