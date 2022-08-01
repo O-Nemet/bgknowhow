@@ -71,10 +71,10 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        This is a special case of another Mech Deathrattle variation, where you will need exactly the pieces displayed here. Due to the timing interaction of the different components, what whill happen is that the Blaster will die first and trigger twice, destroying your whole board but the Baron. After that mayhem the Kangor's will both spawn fresh Busters and your board will be 6 big Busters plus the Baron, and every dying Buster will grow the stats on your board again.
+        This is a special case of another Mech Deathrattle variation, for which you will bascially need exactly the pieces displayed here (the Selfless Hero is mostly optional, though). Due to the timing interaction of the different components, what whill happen is that the Blaster will die first and trigger twice, destroying your whole board but the Baron. After that mayhem the Kangor's will both spawn fresh Busters and your board will be 6 big Busters plus the Baron, and every dying Buster will grow the stats on your board again.
         <br><br>
-        This is a very hard to beat comp, especially if you are able to protect your Baron from <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zap</a> by buffing it with <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=227">Uther</a> or Blood Gems.
-    </p>    
+        This is a very hard to beat comp, especially if you are able to protect your Baron from <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> by buffing it with <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=227">Uther</a> or Blood Gems.
+    </p>
 </div>
 
 <?php
