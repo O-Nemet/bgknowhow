@@ -205,7 +205,7 @@ include_once('../header.php');
         </a>
         <p>
             Called the "Competitive Battleground" Discord server but open for everyone.<br><br>
-            Featuring a great community, many high level content creators as well as some developers from Blizzard.
+            Featuring a great community, many high-level content creators as well as some developers from Blizzard.
         </p>
     </div>
     <div>
@@ -244,6 +244,16 @@ include_once('../header.php');
         </a>
         <p>
             A huge wiki covering everything Hearthstone and also featuring several pages about BGs.<br><br>
+        </p>
+    </div>
+    <div>
+        <a href="https://www.firestoneapp.com/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_firestone.png" alt="Firestone Companion App">
+            <span>Firestone</span>
+        </a>
+        <p>
+            A very well programmed companion app for Hearthstone on PC.<br><br>
+            Featuring an extensive BG module, including game tracking and the option to simulate different board states.
         </p>
     </div>
     <div>
