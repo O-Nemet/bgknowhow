@@ -207,8 +207,8 @@ foreach ($tempMinions->data as $key => $object) {
         </tr>
         <tr>
             <td>5</td>
-            <td>??.??%</td>
-            <td>??.??%</td>
+            <td>89.68%</td>
+            <td>94.16%</td>
             <td>96.88%</td>
         </tr>
         </tbody>
