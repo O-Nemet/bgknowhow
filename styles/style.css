@@ -2668,6 +2668,10 @@ body.bgstrategy .bgstrategy > a {
     margin-bottom: -3px;
 }
 
+.countdown-timer {
+    cursor: inherit;
+}
+
 .websites, .streamers, .cats {
     margin: 0 auto;
     width: 1000px;
