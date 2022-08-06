@@ -3,6 +3,87 @@ include_once('../header.php');
 ?>
 
 <h2 class="page_title">External Resources</h2>
+
+<h3>Websites</h3>
+<div class="websites">
+    <div>
+        <a href="https://www.reddit.com/r/BobsTavern/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_reddit.jpg" alt="r/BobsTavern on Reddit">
+            <span>r/BobsTavern</span>
+        </a>
+        <p>
+            The biggest Reddit community about everything Hearthstone Battlegrounds.
+        </p>
+    </div>
+    <div>
+        <a href="https://discord.gg/RUsfdacMwA" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_discord.jpg" alt="Competitive BG Discord">
+            <span>BG Discord</span>
+        </a>
+        <p>
+            Called the "Competitive Battleground" Discord server but open for everyone.<br><br>
+            Featuring a great community, many high-level content creators as well as some developers from Blizzard.
+        </p>
+    </div>
+    <div>
+        <a href="https://www.bgcurvesheet.com/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_bgcheatsheet.jpg" alt="Battlegrounds CheatSheet">
+            <span>BG Curve Sheet</span>
+        </a>
+        <p>
+            Google Docs listing all heroes, their main curve and minion type benefits.<br><br>
+            Also featuring a cheat sheet for all BG curves.<br>
+        </p>
+    </div>
+    <div>
+        <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=BG" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards">
+            <span>BG Leaderboard</span>
+        </a>
+        <p>
+            The official Blizzard top 200 leaderboards for each of the three regions (US, EU, AP).<br><br>
+            At the end of each month the top 16 players qualify for the Lobby Legends tourney.
+        </p>
+    </div>
+    <div>
+        <a href="https://www.firestoneapp.com/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_firestone.png" alt="Firestone Companion App">
+            <span>Firestone</span>
+        </a>
+        <p>
+            A very well programmed companion app for Hearthstone on PC.<br><br>
+            Featuring an extensive BG module, including game tracking and the option to simulate different board states.
+        </p>
+    </div>
+    <div>
+        <a href="https://hs-tools.github.io/bg-probabilities/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_liis_calculator.png" alt="Lii's Hearthstone Battlegrounds Probability Calculator">
+            <span>BG Calculator</span>
+        </a>
+        <p>
+            Interactive calculator to compute the odds of seeing a specific minion in the tavern.
+        </p>
+    </div>
+    <div>
+        <a href="https://hearthstone.fandom.com/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_hearthstone_wiki.webp" alt="Hearthstone Wiki">
+            <span>HS Wiki</span>
+        </a>
+        <p>
+            A huge wiki covering everything Hearthstone and also featuring several pages about BGs.<br><br>
+        </p>
+    </div>
+    <div>
+        <a href="https://hearthstonejson.com" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_hsjson.png" alt="HearthstoneJSON">
+            <span>HS JSON</span>
+        </a>
+        <p>
+            The Hearthstone JSON project, automatically providing card data and images after every patch.<br><br>
+        </p>
+    </div>
+</div>
+
 <h3 class="cf">Streamers</h3>
 <div class="streamers">
     <div>
@@ -62,8 +143,8 @@ include_once('../header.php');
     </div>
     <div>
         <a href="https://twitch.tv/zorgo_hs" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/streamer_zorg.png" alt="Zorg">
-            <span>Zorg</span>
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_zorg.png" alt="Zorgo">
+            <span>Zorgo</span>
         </a>
         <p>
             High MMR player from Germany, streaming in english.<br><br>
@@ -135,7 +216,7 @@ include_once('../header.php');
         <p>
             High MMR streamer from the United States.<br><br>
             Mainstay in the US top50.<br><br>
-            LL#1 top48, LL#3 top48.
+            LL#1 top48, LL#3 top48, L#5 top48.
         </p>
     </div>
 
@@ -183,86 +264,6 @@ include_once('../header.php');
         <p>
             US based high MMR BG player, producing short educational videos.<br><br>
             Amongst others a series called Quick Hero Tips.
-        </p>
-    </div>
-</div>
-
-<h3>Websites</h3>
-<div class="websites">
-    <div>
-        <a href="https://www.reddit.com/r/BobsTavern/" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_reddit.jpg" alt="r/BobsTavern on Reddit">
-            <span>r/BobsTavern</span>
-        </a>
-        <p>
-            The biggest Reddit community about everything Hearthstone Battlegrounds.
-        </p>
-    </div>
-    <div>
-        <a href="https://discord.gg/RUsfdacMwA" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_discord.jpg" alt="Competitive BG Discord">
-            <span>BG Discord</span>
-        </a>
-        <p>
-            Called the "Competitive Battleground" Discord server but open for everyone.<br><br>
-            Featuring a great community, many high-level content creators as well as some developers from Blizzard.
-        </p>
-    </div>
-    <div>
-        <a href="https://www.bgcurvesheet.com/" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_bgcheatsheet.jpg" alt="Battlegrounds CheatSheet">
-            <span>BG Curve Sheet</span>
-        </a>
-        <p>
-            Google Docs listing all heroes, their main curve and minion type benefits.<br><br>
-            Also featuring a cheat sheet for all BG curves.<br>
-        </p>
-    </div>
-    <div>
-        <a href="https://hs-tools.github.io/bg-probabilities/" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_liis_calculator.png" alt="Lii's Hearthstone Battlegrounds Probability Calculator">
-            <span>BG Calculator</span>
-        </a>
-        <p>
-            Interactive calculator to compute the odds of seeing a specific minion in the tavern.
-        </p>
-    </div>
-    <div>
-        <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=BG" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards">
-            <span>BG Leaderboard</span>
-        </a>
-        <p>
-            The official Blizzard top 200 leaderboards for each of the three regions (US, EU, AP).<br><br>
-            At the end of each month the top16 players qualify for the Lobby Legends tourney.
-        </p>
-    </div>
-    <div>
-        <a href="https://hearthstone.fandom.com/" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_hearthstone_wiki.webp" alt="Hearthstone Wiki">
-            <span>HS Wiki</span>
-        </a>
-        <p>
-            A huge wiki covering everything Hearthstone and also featuring several pages about BGs.<br><br>
-        </p>
-    </div>
-    <div>
-        <a href="https://www.firestoneapp.com/" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_firestone.png" alt="Firestone Companion App">
-            <span>Firestone</span>
-        </a>
-        <p>
-            A very well programmed companion app for Hearthstone on PC.<br><br>
-            Featuring an extensive BG module, including game tracking and the option to simulate different board states.
-        </p>
-    </div>
-    <div>
-        <a href="https://hearthstonejson.com" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_hsjson.png" alt="HearthstoneJSON">
-            <span>HS JSON</span>
-        </a>
-        <p>
-            The Hearthstone JSON project, automatically providing card data and images after every patch.<br><br>
         </p>
     </div>
 </div>
