@@ -11,6 +11,18 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
+            <h3>“The Most broken Strat Currently in the Game (Ysera)” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/jRWPtphTgSI?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Quick Hero Tips: Ysera (Patch 24.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/HRGsR87xtb0?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“How to Play Togwaggle and Steamroll the Lobby” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/Xs026CLF3hg?autoplay=0&origin=https://bgknowhow.com">
@@ -26,6 +38,12 @@ include_once('../header.php');
             <h3>“This interaction is Breaking the Meta” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/tG3xf7rusrc?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“APM & Scally Exodia Guide (Pirate Tribe Guide)” by <a href="https://www.youtube.com/channel/UClZE5U3aRdXNq3JTLJIQuRQ/videos" target="_blank">Dellroth</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/3DeXJ5sqto4?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -56,12 +74,6 @@ include_once('../header.php');
             <h3>“The ultimate hero guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/wz120-aKmY4?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“How to build Demons in Patch 23.6” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/mcFUhOEEQGE?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
     </div>
