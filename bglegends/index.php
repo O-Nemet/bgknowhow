@@ -11,12 +11,12 @@ include_once('../header.php');
         <br><br>
         After that the LL main event happens, where the 12 remaining players and 4 qualifiers from China will battle it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players will play lobbies until someone has accumulated 20 points and then wins a lobby).
         <br><br>
-        The next Lobby Legends top 48 qualifier will happen on August 6th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30 minute delay. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.
-        <br><br>
-        <!--        The next Lobby Legends will happen on September 3rd (top 16 semi-finals) and September 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-4/" target="_blank">Blizzards event website</a>.-->
+        <!--        The next Lobby Legends top 48 qualifier will happen on August 6th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30 minute delay. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.-->
         <!--        <br><br>-->
+        The next Lobby Legends will happen on September 3rd (top 16 semi-finals) and September 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.
+        <br><br>
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-08-06 17:30" data-background="#8dbdd8">Lobby Legends #5 Top 48</a>
+        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-09-03 09:00" data-background="#8dbdd8">Lobby Legends #5</a>
     </p>
     <br>
 
