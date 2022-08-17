@@ -115,6 +115,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>16.08.2022 - Added BG changes from the 24.0.3 patch notes.</li>
         <li>26.07.2022 - Added BG changes from the 24.0.0 patch notes.</li>
         <li>21.07.2022 - Added pool (i.e. "Naga" for "Queen Azshara") to the hero dataset.</li>
         <li>30.06.2022 - Added BG changes from the 23.6.1 patch notes.</li>
