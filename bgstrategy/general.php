@@ -97,7 +97,7 @@ foreach ($tempMinions->data as $key => $object) {
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=mech">Mechs</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=murloc">Murlocs</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=naga">Naga</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=pirates">Pirates</a></th>
+            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=pirate">Pirates</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=quilboar">Quilboars</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=none">None</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a></th>
@@ -131,7 +131,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Buster', 'Brann', 'Sefin', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Mythrax', 'Elder', 'Charly'];
+        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Sefin', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Mythrax', 'Elder', 'Charly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
