@@ -20,6 +20,12 @@ include_once('../header.php');
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <h3>Amalgam Poison Comp:</h3>
+    <?php
+    $board   = ['Nadina', '*Nightmare Amalgam', '*Nightmare Amalgam', 'Nadina', 'Mantid', 'Mantid', 'Sefin'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
 </div>
 
 <?php
