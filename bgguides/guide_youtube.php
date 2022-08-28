@@ -10,34 +10,28 @@ include_once('../header.php');
     <hr>
 
     <div class="streamers">
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Finally the Update We All Wanted!!” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/03Of9mmbFuU?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Quick Hero Tips: Ysera (Patch 24.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/HRGsR87xtb0?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>https://www.youtube.com/watch?v=03Of9mmbFuU-->
+        <!--        </div>-->
         <div class="iframe_div">
-            <h3>“The Most broken Strat Currently in the Game (Ysera)” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
+            <h3>“Discussing ALL Win Conditions (Patch 24.0.3)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/jRWPtphTgSI?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/S3QO2Y5zKt4?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Quick Hero Tips: Ysera (Patch 24.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <h3>“The Ranking System (MMR) Explained for Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/HRGsR87xtb0?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“How to Play Togwaggle and Steamroll the Lobby” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/Xs026CLF3hg?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Quick Hero Tips: Heistbaron Togwaggle” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/zsiIrcP_hk8?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“This interaction is Breaking the Meta” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/tG3xf7rusrc?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/e5aXcu25ISc?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -65,15 +59,15 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“The ultimate Pyramad guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
+            <h3>“How to play perfect Omega Buster Exodia” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/IBn0UZuVHyM?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/PfCFK3Uxvec?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“The ultimate hero guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
+            <h3>“How to Play Togwaggle and Steamroll the Lobby” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/wz120-aKmY4?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/Xs026CLF3hg?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
     </div>
