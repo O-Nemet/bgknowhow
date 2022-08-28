@@ -94,7 +94,7 @@ include_once('../header.php');
         <p>
             Very popular BG player from Romania, explaining his plays in english.<br><br>
             Mainstay in the EU top32.<br><br>
-            LL#2 top48, LL#3 top48, LL#5 top48.
+            LL#2 top48, LL#3 top48, LL#5 top24.
         </p>
     </div>
     <div>
@@ -105,7 +105,7 @@ include_once('../header.php');
         <p>
             Very high-skilled BG player from Belarus, explaining his plays in english.<br><br>
             Mainstay in the EU top16.<br><br>
-            LL#1 top24, LL#2 top24, LL#3 top16, LL#4 top16, LL#5 top48, LL#6 top48.
+            LL#1 top24, LL#2 top24, LL#3 top16, LL#4 top16, LL#5 top16, LL#6 top48.
         </p>
     </div>
     <div>
@@ -149,7 +149,7 @@ include_once('../header.php');
         <p>
             High MMR player from Germany, streaming in english.<br><br>
             Mainstay in the EU top16. Winner of Twitch Rivals BG.<br><br>
-            LL#2 top24, LL#3 top16, LL#4 top48, LL#5 top48, LL#6 top48.
+            LL#2 top24, LL#3 top16, LL#4 top48, LL#5 top24, LL#6 top48.
         </p>
     </div>
     <div>
@@ -159,7 +159,7 @@ include_once('../header.php');
         </a>
         <p>
             High MMR player from Luxembourg, streaming in english.<br><br>
-            Mainstay in the EU top50.<br><br>
+            Mainstay in the EU top100.<br><br>
             LL#1 top48.
         </p>
     </div>
@@ -216,7 +216,7 @@ include_once('../header.php');
         <p>
             High MMR streamer from the United States.<br><br>
             Mainstay in the US top50.<br><br>
-            LL#1 top48, LL#3 top48, L#5 top48.
+            LL#1 top48, LL#3 top48.
         </p>
     </div>
 
