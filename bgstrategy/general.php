@@ -6,7 +6,6 @@ include_once('../header.php');
     <h3 id="tiers">Tavern Tiers and upgrading</h3>
     <p>
         The cost to upgrade to the next tavern tier will reduce by 1 gold at the beginning of each of your turns. For example if you have upgraded to tavern tier 2 the cost to upgrade to tier 3 will be 7 gold. After you enter the next fight and then reenter the tavern shop the cost to upgrade will be reduced to 6 gold.
-        <!-- Notice that the cost for tavern tier 5 is 11 gold, which is more than the gold cap. So other than with a couple of special heroes it is not possible to level from 4 to 6 in one turn. -->
         <br><br>
         When upgrading to tier 2, tier 4 and tier 6 the number of minions offered per roll in the tavern will increase by 1.
         <br><br>
@@ -77,7 +76,9 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="types">Minion types and distribution</h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs only have one tier 6 minion. Even on tier 1, where each type used to have two minions, Elementals and Beasts have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=220'>Silverback Patriarch</a>. Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs only have one tier 6 minion. Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        <br><br>
+        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.
         <br><br>
         The table below is automatically generated and therefore always up to date and accurate:
     </p>
@@ -125,6 +126,67 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
+    <h3>Tier 2 minions influencing your decision to go 3on3</h3>
+    <p>
+        While some heroes like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the level 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it and don't buy tier 1 minions, for example.
+    </p>
+    <br>
+    <p>
+        Abort 3on3 plan, go for the minions:
+    </p>
+    <div class="comp_wrapper cf">
+        <?php
+        $board   = ['Gambler', 'Roadboar', 'Tad'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        ?>
+    </div>
+    <p>
+        Heavily think about switching up your 3on3 plan:
+    </p>
+    <div class="comp_wrapper cf">
+        <?php
+        $board   = ['Rat', 'Saurolisk', 'Angler'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        ?>
+    </div>
+    <p>
+        Middle of the pack, decide based on hero, synergy and/or lobby composition:
+    </p>
+    <div class="comp_wrapper cf">
+        <?php
+        $board   = ['Ogre', 'Tusk', 'Bot', 'Golem', 'Lurker', 'Spawn', 'Yrel'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        ?>
+    </div>
+    <p>
+        Not really worth it, better go 3on3:
+    </p>
+    <div class="comp_wrapper cf">
+        <?php
+        $board   = ['Leaper', 'Guardian', 'Rock', 'Party', 'Prophet', 'Captain', 'Honcho'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        ?>
+    </div>
+    <p>
+        Definitely not worth it, absolutely go 3on3:
+    </p>
+    <div class="comp_wrapper cf">
+        <?php
+        $board   = ['*Metaltooth Leaper', 'Warleader', 'Selfless', 'Smuggler', 'Partner'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        ?>
+    </div>
+
     <h3>Key minions guiding your strategy</h3>
     <p>
         Transitioning from mid-game to a viable end-game composition is an important step you should master in order to improve your game. Often times your first discovery of a 5 or 6 drop minion after a triple, will guide you in a specific direction. Here are the key minions for each minion type strategy:
@@ -137,6 +199,7 @@ foreach ($tempMinions->data as $key => $object) {
         unset($board);
         ?>
     </div>
+
 <?php
 // Ghastcoiler minions
 $i = 0;
@@ -214,116 +277,116 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
-    <h3 id="buddycurves" class="cf">Buddy curves</h3>
-    <p>
-        When you will receive your buddy depends on the tavern tier of the buddy and your performance (damage done, shields popped, fights won). Buddies were removed from the game with the 23.2.0 patch in May 2022 (*RIP*).
-    </p>
-    <br>
-
-    <table class="tier-table">
-        <thead>
-        <tr>
-            <th>Turn</th>
-            <th>Gold available</th>
-            <th>Fast buddy curve</th>
-            <th>Regular buddy curve</th>
-            <th>Slow buddy curve</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>3</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>4</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>5</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>6</td>
-            <td>Tier 2 Buddy</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>7</td>
-            <td>Tier 3 Buddy</td>
-            <td>Tier 2 Buddy</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>8</td>
-            <td>Tier 4 Buddy</td>
-            <td>Tier 3 Buddy</td>
-            <td>Tier 2 Buddy</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>9</td>
-            <td></td>
-            <td>Tier 4 Buddy</td>
-            <td>Tier 3 Buddy</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>10</td>
-            <td></td>
-            <td></td>
-            <td>Tier 4 Buddy</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>10</td>
-            <td>Tier 2 Buddy x2</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>10</td>
-            <td>Tier 3 Buddy x2</td>
-            <td>Tier 2 Buddy x2</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>10</td>
-            <td>Tier 4 Buddy x2</td>
-            <td>Tier 3 Buddy x2</td>
-            <td>Tier 2 Buddy x2</td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>10</td>
-            <td></td>
-            <td>Tier 4 Buddy x2</td>
-            <td>Tier 3 Buddy x2</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>10</td>
-            <td></td>
-            <td></td>
-            <td>Tier 4 Buddy x2</td>
-        </tr>
-        </tbody>
-    </table>
+    <!--    <h3 id="buddycurves" class="cf">Buddy curves</h3>-->
+    <!--    <p>-->
+    <!--        When you will receive your buddy depends on the tavern tier of the buddy and your performance (damage done, shields popped, fights won). Buddies were removed from the game with the 23.2.0 patch in May 2022 (*RIP*).-->
+    <!--    </p>-->
+    <!--    <br>-->
+    <!---->
+    <!--    <table class="tier-table">-->
+    <!--        <thead>-->
+    <!--        <tr>-->
+    <!--            <th>Turn</th>-->
+    <!--            <th>Gold available</th>-->
+    <!--            <th>Fast buddy curve</th>-->
+    <!--            <th>Regular buddy curve</th>-->
+    <!--            <th>Slow buddy curve</th>-->
+    <!--        </tr>-->
+    <!--        </thead>-->
+    <!--        <tbody>-->
+    <!--        <tr>-->
+    <!--            <td>1</td>-->
+    <!--            <td>3</td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>2</td>-->
+    <!--            <td>4</td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>3</td>-->
+    <!--            <td>5</td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>4</td>-->
+    <!--            <td>6</td>-->
+    <!--            <td>Tier 2 Buddy</td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>5</td>-->
+    <!--            <td>7</td>-->
+    <!--            <td>Tier 3 Buddy</td>-->
+    <!--            <td>Tier 2 Buddy</td>-->
+    <!--            <td></td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>6</td>-->
+    <!--            <td>8</td>-->
+    <!--            <td>Tier 4 Buddy</td>-->
+    <!--            <td>Tier 3 Buddy</td>-->
+    <!--            <td>Tier 2 Buddy</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>7</td>-->
+    <!--            <td>9</td>-->
+    <!--            <td></td>-->
+    <!--            <td>Tier 4 Buddy</td>-->
+    <!--            <td>Tier 3 Buddy</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>8</td>-->
+    <!--            <td>10</td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--            <td>Tier 4 Buddy</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>9</td>-->
+    <!--            <td>10</td>-->
+    <!--            <td>Tier 2 Buddy x2</td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>10</td>-->
+    <!--            <td>10</td>-->
+    <!--            <td>Tier 3 Buddy x2</td>-->
+    <!--            <td>Tier 2 Buddy x2</td>-->
+    <!--            <td></td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>11</td>-->
+    <!--            <td>10</td>-->
+    <!--            <td>Tier 4 Buddy x2</td>-->
+    <!--            <td>Tier 3 Buddy x2</td>-->
+    <!--            <td>Tier 2 Buddy x2</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>12</td>-->
+    <!--            <td>10</td>-->
+    <!--            <td></td>-->
+    <!--            <td>Tier 4 Buddy x2</td>-->
+    <!--            <td>Tier 3 Buddy x2</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>13</td>-->
+    <!--            <td>10</td>-->
+    <!--            <td></td>-->
+    <!--            <td></td>-->
+    <!--            <td>Tier 4 Buddy x2</td>-->
+    <!--        </tr>-->
+    <!--        </tbody>-->
+    <!--    </table>-->
 
     <br><br>
 
