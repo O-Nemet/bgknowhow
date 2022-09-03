@@ -16,7 +16,7 @@ include_once('../header.php');
         The next Lobby Legends will happen on September 3rd (top 16 semi-finals) and September 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.
         <br><br>
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-09-03 09:00" data-background="#8dbdd8">Lobby Legends #5</a>
+        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-09-04 09:00" data-background="#8dbdd8">Lobby Legends #5 Top 8 Finals</a>
     </p>
     <br>
 
