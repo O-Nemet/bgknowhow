@@ -20,9 +20,9 @@ include_once('../header.php');
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Menagerie Comp:</h3>
+    <h3>Menagerie/Poison Comp:</h3>
     <?php
-    $board   = ['*Nightmare Amalgam', '*Nightmare Amalgam', 'Athissa', 'Aggem', 'Sefin', 'Gemsplitter', 'Glowscale'];
+    $board   = ['*Nightmare Amalgam', '*Nightmare Amalgam', 'Athissa', 'Aggem', 'Gemsplitter', 'Glowscale', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

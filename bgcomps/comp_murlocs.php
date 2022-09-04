@@ -10,7 +10,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Big Stats Comp:</h3>
     <?php
-    $board   = ['Brann', '*Nightmare Amalgam', 'Swolefin', 'Murk-Eye', 'Swolefin', 'Sefin', '*Nightmare Amalgam'];
+    $board   = ['Brann', '*Nightmare Amalgam', 'Swolefin', 'Murk-Eye', 'Swolefin', 'Murk-Eye', '*Nightmare Amalgam'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     //    $board   = ['Dong', 'Swolefin', 'Swolefin', 'Striker', 'Dong', 'Brann', 'Sefin'];
@@ -19,7 +19,7 @@ include_once('../header.php');
     ?>
     <h3>Selfless/Baron Shield Comp:</h3>
     <?php
-    $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', '*Nightmare Amalgam', 'Honcho', 'Sefin'];
+    $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', 'Amalgam', 'Honcho', 'Amalgam'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     //    $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', 'Dong', 'Honcho', 'Sefin'];

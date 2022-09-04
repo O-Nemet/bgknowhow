@@ -22,7 +22,7 @@ include_once('../header.php');
     ?>
     <h3>Amalgam Poison Comp:</h3>
     <?php
-    $board   = ['Nadina', '*Nightmare Amalgam', '*Nightmare Amalgam', 'Nadina', 'Mantid', 'Mantid', 'Sefin'];
+    $board   = ['Nadina', '*Nightmare Amalgam', '*Nightmare Amalgam', 'Nadina', 'Mantid', 'Mantid', 'Toxfin'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

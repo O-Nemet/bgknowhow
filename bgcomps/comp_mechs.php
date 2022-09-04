@@ -27,7 +27,6 @@ include_once('../header.php');
         Another little trick: If your opponent is trying to counter your shields via a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=226">Blaster</a>, your Mecherels will instantly regain their shield as long as another minion with a shield was positioned to the right of the Mecherel.
     </p>
     <h3>Greasebot Shield Comp:</h3>
-    <br><i style="font-style: italic; font-weight: 700; color: darkred; font-size: 14px;">(*currently not available, with Grease Bot hotfixed to the bench*)</i><br>
     <?php
     $board   = ['Knight', 'Mecherel', 'Mecherel', 'Deflecto', 'Greasebot', 'Greasebot', 'Mummy'];
     $minions = getMinionsForBoard($board);
