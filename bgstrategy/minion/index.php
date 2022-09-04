@@ -36,7 +36,8 @@ if ($selectedId) {
             <!--            <br>-->
             Type:<br><span class="price_font"><?= ($type ?? 'None') ?></span><br><br>
             Pool:<br><span class="price_font"><?= ($pool ?? 'All') ?></span><br><br>
-            <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span>
+            <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span><br>
+            <span style="color: white; text-shadow: none"><?= $blizzardId ?></span>
         </div>
         <div class="card_picture">
             <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $text ?>">

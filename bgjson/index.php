@@ -24,7 +24,7 @@ include_once('../header.php');
         Feel free to use this as a starting point for your own projects and content creation (code examples below).<br>
         <br>
         These datasets have several advantages over the data available from the Blizzard API or the Hearthstone JSON files:<br>
-        For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. 'Eliza' instead of 'Dread Admiral Eliza'), <em>pictureSmall</em> references a webp version ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
+        For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. 'Eliza' instead of 'Dread Admiral Eliza'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
         For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating skills like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
         At least every 8 hours fresh files will be generated from the database.<br>
@@ -115,6 +115,8 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>03.09.2022 - Added BG hotfix changes (armor tier adjustments)</li>
+        <li>30.08.2022 - Added BG changes from the 24.2.0 patch notes.</li>
         <li>16.08.2022 - Added BG changes from the 24.0.3 patch notes.</li>
         <li>26.07.2022 - Added BG changes from the 24.0.0 patch notes.</li>
         <li>21.07.2022 - Added pool (i.e. "Naga" for "Queen Azshara") to the hero dataset.</li>
