@@ -13,10 +13,10 @@ include_once('../header.php');
         <br><br>
         <!--        The next Lobby Legends top 48 qualifier will happen on August 6th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30 minute delay. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.-->
         <!--        <br><br>-->
-        The next Lobby Legends will happen on September 3rd (top 16 semi-finals) and September 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.
+        The next Lobby Legends will happen on September 25th (top 16 semi-finals) and September 26th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-6/" target="_blank">Blizzards event website</a>.
         <br><br>
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-09-04 09:00" data-background="#8dbdd8">Lobby Legends #5 Top 8 Finals</a>
+        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-09-25 01:00" data-background="#8dbdd8">Lobby Legends #6</a>
     </p>
     <br>
 
@@ -306,6 +306,80 @@ include_once('../header.php');
             <td>Cytro</td>
             <td>EU (BEL)</td>
             <td>18.5</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <h3>Lobby Legends #5 (“Magic of Azeroth” at 04/05.09.2022) Top 8 after 8 lobbies:</h3>
+    <p>
+        Patch 24.2.1 with quests/rewards, a Demon revamp and brand-new minions like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=240'>Rendle</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=241'>Tortollan Blue Shell</a>, was played. Also, a controversy arose in lobby number 5, when Ribapusa was in a tournament winning condition but the lobby server crashed (a too well known bug) with only 3 players left. The ruling was a no-score and a fresh lobby start, resulting in the longest Lobby Legendy, yet.
+    </p>
+    <br>
+    <p>
+        <a href="https://www.twitch.tv/videos/1580479899" target="_blank">Twitch VOD recording of day 1</a>
+        <br>
+        <a href="https://www.twitch.tv/videos/1581442493" target="_blank">Twitch VOD recording of day 2</a>
+    </p>
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>rimgosu</td>
+            <td>AP (???)</td>
+            <td>31.5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SeseiSei</td>
+            <td>AP (???)</td>
+            <td>35.5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ribapusa</td>
+            <td>AP (KOR)</td>
+            <td>34.0</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>AlexJP</td>
+            <td>US (USA)</td>
+            <td>30.0</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Xixo</td>
+            <td>EU (GER)</td>
+            <td>28.0</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>aliciasan</td>
+            <td>AP (???)</td>
+            <td>28.0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>blyunchang</td>
+            <td>CHN</td>
+            <td>22.0</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>torisan</td>
+            <td>US (USA)</td>
+            <td>15.0</td>
         </tr>
         </tbody>
     </table>
