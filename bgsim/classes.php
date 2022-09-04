@@ -186,12 +186,16 @@ class Battlefield
             case 'Alleycat':
                 $this->spawnMinion($player, $slot + 1, new Minion('CFM_315t'));
                 break;
+            case 'Mini-Myrmidon':
+                $minion->setAttack($minion->getAttack() + 2);
+                break;
+            case 'Picky Eater':
+                $minion->setAttack($minion->getAttack() + 2);
+                $minion->setHealth($minion->getHealth() + 2);
+                break;
             case 'Razorfen Geomancer':
                 $minion->setAttack($minion->getAttack() + 1);
                 $minion->setHealth($minion->getHealth() + 1);
-                break;
-            case 'Mini-Myrmidon':
-                $minion->setAttack($minion->getAttack() + 2);
                 break;
             default:
                 // do nothing
@@ -368,6 +372,9 @@ class Battlefield
                     case 'Icky Imp':
                         $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
                         $this->spawnMinion($player, $slot + 1, new Minion('BRM_006t'));
+                        break;
+                    case 'Imprisoner':
+                        $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
                         break;
                     case 'Scallywag':
                         $this->spawnMinion($player, $slot, new Minion($realMinion->getId() . 't'));
