@@ -2621,7 +2621,7 @@ body.bgstrategy .bgstrategy > a {
 
 .comp_wrapper {
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 5px; /* 20px */
     width: 87%;
 }
 
