@@ -36,12 +36,12 @@ include_once('../header.php');
         </p>
     </div>
     <div>
-        <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=BG" target="_blank">
+        <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=battlegrounds" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards">
             <span>BG Leaderboard</span>
         </a>
         <p>
-            The official Blizzard top 200 leaderboards for each of the three regions (US, EU, AP).<br><br>
+            The official Blizzard leaderboards for each of the three regions (US, EU, AP).<br><br>
             At the end of each month the top 16 players qualify for the Lobby Legends tourney.
         </p>
     </div>
