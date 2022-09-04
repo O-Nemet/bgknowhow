@@ -76,11 +76,11 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="types">Minion types and distribution</h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs only have one tier 6 minion. Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs only have one tier 6 minion. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
         <br><br>
         On tier 5 there is one special case regarding the minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.
         <br><br>
-        The table below is automatically generated and therefore always up to date and accurate:
+        The table below is automatically generated and therefore always up to date and accurate. Click on the different types or tiers to display all minions for that selection.
     </p>
     <br>
 
@@ -147,7 +147,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Saurolisk', 'Angler'];
+        $board   = ['Rat', 'Saurolisk', 'Angler', 'Piggy'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -158,7 +158,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Ogre', 'Tusk', 'Bot', 'Golem', 'Lurker', 'Spawn', 'Yrel'];
+        $board   = ['Ogre', 'Tusk', 'Bot', 'Golem', 'Lurker', 'Trickster', 'Muck', 'Drake', 'Spawn', 'Yrel'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -193,7 +193,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Sefin', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Mythrax', 'Elder', 'Charly'];
+        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Amalgam', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
