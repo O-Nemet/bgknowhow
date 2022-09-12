@@ -115,8 +115,9 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>09.09.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23852686/24-2-2-patch-notes" target="_blank">24.2.2</a> patch notes.</li>
         <li>03.09.2022 - Added BG hotfix changes (armor tier adjustments)</li>
-        <li>30.08.2022 - Added BG changes from the 24.2.0 patch notes.</li>
+        <li>30.08.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23831411/24-2-patch-notes" target="_blank">24.2.0</a> patch notes.</li>
         <li>16.08.2022 - Added BG changes from the 24.0.3 patch notes.</li>
         <li>26.07.2022 - Added BG changes from the 24.0.0 patch notes.</li>
         <li>21.07.2022 - Added pool (i.e. "Naga" for "Queen Azshara") to the hero dataset.</li>
