@@ -105,7 +105,7 @@ include_once('../header.php');
         <p>
             Very high-skilled BG player from Belarus, explaining his plays in english.<br><br>
             Mainstay in the EU top16.<br><br>
-            LL#1 top24, LL#2 top24, LL#3 top16, LL#4 top16, LL#5 top16, LL#6 top48.
+            LL#1 top24, LL#2 top24, LL#3 top16, LL#4 top16, LL#5 top16, LL#6 top16.
         </p>
     </div>
     <div>
@@ -138,7 +138,7 @@ include_once('../header.php');
         <p>
             High MMR player from the United States.<br><br>
             Mainstay in the US top16. Host of weekly HSBG podcast.<br><br>
-            LL#1 top16, LL#2 top48, LL#3 top48, LL#4 top48, LL#5 top48, LL#6 top48.
+            LL#1 top16, LL#2 top48, LL#3 top48, LL#4 top48, LL#5 top48, LL#6 top16.
         </p>
     </div>
     <div>
@@ -171,7 +171,7 @@ include_once('../header.php');
         <p>
             High MMR streamer from the United States.<br><br>
             Mainstay in the US top32.<br><br>
-            LL#3 top48, LL#4 5th, LL#5 top48.
+            LL#3 top48, LL#4 5th, LL#5 top48, LL#6 top16.
         </p>
     </div>
 
@@ -194,7 +194,7 @@ include_once('../header.php');
         <p>
             High MMR player from Russia, streaming in russian.<br><br>
             Mainstay in the EU top16.<br><br>
-            LL#1 top16, LL#2 top24, LL#3 7th, LL#4 top48, LL#5 top48, LL#6 top48.
+            LL#1 top16, LL#2 top24, LL#3 7th, LL#4 top48, LL#5 top48, LL#6 top24.
         </p>
     </div>
     <div>
