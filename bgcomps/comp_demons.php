@@ -10,13 +10,13 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Big Stats Comp:</h3>
     <?php
-    $board   = ['Selfless', '*Nightmare Amalgam', 'Ur\'zul', 'Ur\'zul', '*Imp Mama', 'Felbat', 'Baron'];
+    $board   = ['Selfless', '*Nightmare Amalgam', 'Ur\'zul', '*Legion Overseer', '*Imp Mama', 'Felbat', 'Baron'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <h3>Macaw/Trickster Deathrattle Comp:</h3>
     <?php
-    $board   = ['Macaw', 'Trickster', '*Imp Mama', 'Felbat', 'Felbat', '*Imp Mama', 'Baron'];
+    $board   = ['Macaw', 'Trickster', '*Imp Mama', 'Felbat', '*Legion Overseer', '*Imp Mama', 'Baron'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
