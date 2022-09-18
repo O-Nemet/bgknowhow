@@ -115,6 +115,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>15.09.2022 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/patch-2423-patch-notes/94885" target="_blank">24.2.3</a> patch notes.</li>
         <li>09.09.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23852686/24-2-2-patch-notes" target="_blank">24.2.2</a> patch notes.</li>
         <li>03.09.2022 - Added BG hotfix changes (armor tier adjustments)</li>
         <li>30.08.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23831411/24-2-patch-notes" target="_blank">24.2.0</a> patch notes.</li>
