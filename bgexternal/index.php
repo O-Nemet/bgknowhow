@@ -65,12 +65,21 @@ include_once('../header.php');
         </p>
     </div>
     <div>
-        <a href="https://hearthstone.fandom.com/" target="_blank">
+        <a href="https://hearthstone.fandom.com/wiki/Hearthstone_Wiki/Battlegrounds" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_hearthstone_wiki.webp" alt="Hearthstone Wiki">
             <span>HS Wiki</span>
         </a>
         <p>
-            A huge wiki covering everything Hearthstone and also featuring several pages about BGs.<br><br>
+            A huge wiki covering everything Hearthstone and also featuring several pages and tables about BGs.<br><br>
+        </p>
+    </div>
+    <div>
+        <a href="https://public.tableau.com/app/profile/yovel.deutel/viz/HearthstoneBattlegrounds-Leaderboards/HearthstoneBattlegoundsLeaderboards" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards Search">
+            <span>BG LB Search</span>
+        </a>
+        <p>
+            An easy to use interface for searching and filtering the official Blizzard leaderboards for each of the three regions (US, EU, AP), providing additional information<br><br>
         </p>
     </div>
     <div>
