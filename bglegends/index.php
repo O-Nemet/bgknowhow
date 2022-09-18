@@ -11,9 +11,9 @@ include_once('../header.php');
         <br><br>
         After that the LL main event happens, where the 12 remaining players and 4 qualifiers from China will battle it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players will play lobbies until someone has accumulated 20 points and then wins a lobby).
         <br><br>
-        <!--        The next Lobby Legends top 48 qualifier will happen on August 6th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30 minute delay. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-5/" target="_blank">Blizzards event website</a>.-->
+        <!--        The next Lobby Legends top 48 qualifier will happen on September 10th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30-minute delay and the event will take 2x3 rounds, so about 5 hours. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-6/" target="_blank">Blizzards event website</a>.-->
         <!--        <br><br>-->
-        The next Lobby Legends will happen on September 25th (top 16 semi-finals) and September 26th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-6/" target="_blank">Blizzards event website</a>.
+        The next Lobby Legends will happen on September 25th (top 16 semi-finals) and September 26th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-6/" target="_blank">Blizzards event website</a>.
         <br><br>
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
         <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-09-25 01:00" data-background="#8dbdd8">Lobby Legends #6</a>
@@ -102,7 +102,7 @@ include_once('../header.php');
     <p>
         <a href="https://www.youtube.com/watch?v=ax9lhjKrU24" target="_blank">YouTube VOD recording of day 1</a>
         <br>
-        <a href="https://www.twitch.tv/videos/1484409587" target="_blank">Twitch VOD recording of day 2</a>
+        <a href="https://www.youtube.com/watch?v=Q0DptBMLxnQ" target="_blank">YouTube VOD recording of day 2</a>
     </p>
     <br>
     <table class="tier-table">
@@ -172,9 +172,9 @@ include_once('../header.php');
     </p>
     <br>
     <p>
-        <a href="https://www.twitch.tv/videos/1513204286" target="_blank">Twitch VOD recording of day 1</a>
+        <a href="https://www.youtube.com/watch?v=d4wcMcCRiJQ" target="_blank">YouTube VOD recording of day 1</a>
         <br>
-        <a href="https://www.twitch.tv/videos/1514156489" target="_blank">Twitch VOD recording of day 2</a>
+        <a href="https://www.youtube.com/watch?v=U0FuSjq7Sx0" target="_blank">YouTube VOD recording of day 2</a>
     </p>
     <br>
     <table class="tier-table">
@@ -244,9 +244,9 @@ include_once('../header.php');
     </p>
     <br>
     <p>
-        <a href="https://www.twitch.tv/videos/1526886709" target="_blank">Twitch VOD recording of day 1</a>
+        <a href="https://www.youtube.com/watch?v=kxCOBg9ipEs" target="_blank">YouTube VOD recording of day 1</a>
         <br>
-        <a href="https://www.twitch.tv/videos/1527825628" target="_blank">Twitch VOD recording of day 2</a>
+        <a href="https://www.youtube.com/watch?v=OVo8LXBNoqE" target="_blank">YouTube VOD recording of day 2</a>
     </p>
     <br>
     <table class="tier-table">
@@ -310,17 +310,15 @@ include_once('../header.php');
         </tbody>
     </table>
 
-    <br><br>
-
     <h3>Lobby Legends #5 (“Magic of Azeroth” at 04/05.09.2022) Top 8 after 8 lobbies:</h3>
     <p>
-        Patch 24.2.1 with quests/rewards, a Demon revamp and brand-new minions like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=240'>Rendle</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=241'>Tortollan Blue Shell</a>, was played. Also, a controversy arose in lobby number 5, when Ribapusa was in a tournament winning condition but the lobby server crashed (a too well known bug) with only 3 players left. The ruling was a no-score and a fresh lobby start, resulting in the longest Lobby Legendy, yet.
+        Patch 24.2.1 with quests/rewards, a Demon revamp and brand-new minions like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=240'>Rendle</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=241'>Tortollan Blue Shell</a>, was played. Also, a controversy arose in lobby number 5, when Ribapusa was in a tournament winning position but the lobby server crashed (a too well known bug) with only 3 players left alive. The ruling was a no-score and a fresh lobby start, resulting in the longest Lobby Legendy and Ribapusa only finishing third.
     </p>
     <br>
     <p>
-        <a href="https://www.twitch.tv/videos/1580479899" target="_blank">Twitch VOD recording of day 1</a>
+        <a href="https://www.youtube.com/watch?v=psA276cScgc" target="_blank">YouTube VOD recording of day 1</a>
         <br>
-        <a href="https://www.twitch.tv/videos/1581442493" target="_blank">Twitch VOD recording of day 2</a>
+        <a href="https://www.youtube.com/watch?v=R2CqqDBZu9Y" target="_blank">YouTube VOD recording of day 2</a>
     </p>
     <br>
     <table class="tier-table">
@@ -336,13 +334,13 @@ include_once('../header.php');
         <tr>
             <td>1</td>
             <td>rimgosu</td>
-            <td>AP (???)</td>
+            <td>AP (KOR)</td>
             <td>31.5</td>
         </tr>
         <tr>
             <td>2</td>
             <td>SeseiSei</td>
-            <td>AP (???)</td>
+            <td>AP (JPN)</td>
             <td>35.5</td>
         </tr>
         <tr>
@@ -366,7 +364,7 @@ include_once('../header.php');
         <tr>
             <td>6</td>
             <td>aliciasan</td>
-            <td>AP (???)</td>
+            <td>AP (JPN)</td>
             <td>28.0</td>
         </tr>
         <tr>
