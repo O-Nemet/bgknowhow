@@ -115,6 +115,10 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>14.11.2022 - Added pictureWhole to the hero dataset. This is a link to the whole/complete picture of the hero, without the cropping of the portrait borders.</li>
+        <li>11.11.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-gb/news/23874319/24-6-2-patch-notes" target="_blank">24.6.2</a> patch notes.</li>
+        <li>03.11.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23852694/24-6-patch-notes" target="_blank">24.6.0</a> patch notes.</li>
+        <li>14.10.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23852692/24-4-3-patch-notes" target="_blank">24.4.3</a> patch notes.</li>
         <li>15.09.2022 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/patch-2423-patch-notes/94885" target="_blank">24.2.3</a> patch notes.</li>
         <li>09.09.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23852686/24-2-2-patch-notes" target="_blank">24.2.2</a> patch notes.</li>
         <li>03.09.2022 - Added BG hotfix changes (armor tier adjustments)</li>
