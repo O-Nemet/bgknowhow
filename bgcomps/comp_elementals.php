@@ -23,7 +23,7 @@ include_once('../header.php');
     ?>
     <h3>Elemental Demon Comp:</h3>
     <?php
-    $board   = ['Cyclone', 'Wildfire', '*Nightmare Amalgam', '*Nightmare Amalgam', 'Felbat', '*Imp Mama', 'Nomi'];
+    $board   = ['Cyclone', 'Wildfire', 'Ball', 'Ball', 'Felbat', '*Imp Mama', 'Nomi'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
 

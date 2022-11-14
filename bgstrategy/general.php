@@ -193,7 +193,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Amalgam', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', 'Theo'];
+        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Ball', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', 'Theo'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);

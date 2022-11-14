@@ -16,7 +16,7 @@ include_once('../header.php');
     ?>
     <h3>Aggem Menagerie Comp:</h3>
     <?php
-    $board   = ['Hydra', 'Reaper', 'Trickster', 'Warden', 'Aggem', 'Elder', '*Nightmare Amalgam'];
+    $board   = ['Hydra', 'Reaper', 'Trickster', 'Warden', 'Aggem', 'Elder', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
