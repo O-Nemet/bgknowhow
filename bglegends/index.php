@@ -11,12 +11,14 @@ include_once('../header.php');
         <br><br>
         After that the LL main event happens, where the 12 remaining players and 4 qualifiers from China will battle it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players will play lobbies until someone has accumulated 20 points and then wins a lobby).
         <br><br>
-        <!--        The next Lobby Legends top 48 qualifier will happen on September 10th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30-minute delay and the event will take 2x3 rounds, so about 5 hours. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-6/" target="_blank">Blizzards event website</a>.-->
-        <!--        <br><br>-->
-        The next Lobby Legends will happen on September 25th (top 16 semi-finals) and September 26th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-6/" target="_blank">Blizzards event website</a>.
+        The next Lobby Legends top 48 qualifier will happen on November 19th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30-minute delay and the event will take 2x3 rounds, so about 5 hours. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-9/" target="_blank">Blizzards event website</a>.
         <br><br>
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-09-25 01:00" data-background="#8dbdd8">Lobby Legends #6</a>
+        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 13:00" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>
+        <!--        The next Lobby Legends will happen on December 3rd (top 16 semi-finals) and December 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-9/" target="_blank">Blizzards event website</a>.-->
+        <!--        <br><br>-->
+        <!--        <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
+        <!--        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-12-03 00:00" data-background="#8dbdd8">Lobby Legends #9 Top48</a>-->
     </p>
     <br>
 
@@ -312,7 +314,7 @@ include_once('../header.php');
 
     <h3>Lobby Legends #5 (“Magic of Azeroth” at 04/05.09.2022) Top 8 after 8 lobbies:</h3>
     <p>
-        Patch 24.2.1 with quests/rewards, a Demon revamp and brand-new minions like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=240'>Rendle</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=241'>Tortollan Blue Shell</a>, was played. Also, a controversy arose in lobby number 5, when Ribapusa was in a tournament winning position but the lobby server crashed (a too well known bug) with only 3 players left alive. The ruling was a no-score and a fresh lobby start, resulting in the longest Lobby Legendy and Ribapusa only finishing third.
+        Patch 24.2.1 with quests/rewards, a Demon revamp and brand-new minions like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=242'>Tea Master Theotar</a>, <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=240'>Rendle</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=241'>Tortollan Blue Shell</a>, was played. Also, a controversy arose in lobby number 5, when Ribapusa was in a tournament winning position but the lobby server crashed (a too well known bug) with only 3 players left alive. The ruling was a no-score and a fresh lobby start, resulting in the longest Lobby Legends yet, and Ribapusa only finishing third.
     </p>
     <br>
     <p>
@@ -381,6 +383,78 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
+
+    <h3>Lobby Legends #6 (“Castle Nathria” at 24/25.09.2022) Top 8 after x lobbies:</h3>
+    <p>
+        Patch 24.2.2 with quests/rewards, with buffed two-drops and nerfed Toggwaggle, was played. Also, the Twitch "Tavern Buddy" extension for multiple ways of viewer interaction was used for the very first time.
+    </p>
+    <br>
+    <p>
+        <a href="https://www.youtube.com/watch?v=h2-s6Tv5pOM" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=f8SC268fx1o" target="_blank">YouTube VOD recording of day 2</a>
+    </p>
+    <!--    <br>-->
+    <!--    <table class="tier-table">-->
+    <!--        <thead>-->
+    <!--        <tr>-->
+    <!--            <th>Place</th>-->
+    <!--            <th>Player</th>-->
+    <!--            <th>Country</th>-->
+    <!--            <th>Points</th>-->
+    <!--        </tr>-->
+    <!--        </thead>-->
+    <!--        <tbody>-->
+    <!--        <tr>-->
+    <!--            <td>1</td>-->
+    <!--            <td>rimgosu</td>-->
+    <!--            <td>AP (KOR)</td>-->
+    <!--            <td>31.5</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>2</td>-->
+    <!--            <td>SeseiSei</td>-->
+    <!--            <td>AP (JPN)</td>-->
+    <!--            <td>35.5</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>3</td>-->
+    <!--            <td>Ribapusa</td>-->
+    <!--            <td>AP (KOR)</td>-->
+    <!--            <td>34.0</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>4</td>-->
+    <!--            <td>AlexJP</td>-->
+    <!--            <td>US (USA)</td>-->
+    <!--            <td>30.0</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>5</td>-->
+    <!--            <td>Xixo</td>-->
+    <!--            <td>EU (GER)</td>-->
+    <!--            <td>28.0</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>6</td>-->
+    <!--            <td>aliciasan</td>-->
+    <!--            <td>AP (JPN)</td>-->
+    <!--            <td>28.0</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>7</td>-->
+    <!--            <td>blyunchang</td>-->
+    <!--            <td>CHN</td>-->
+    <!--            <td>22.0</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <td>8</td>-->
+    <!--            <td>&nbsp;</td>-->
+    <!--            <td>&nbsp;</td>-->
+    <!--            <td>&nbsp;</td>-->
+    <!--        </tr>-->
+    <!--        </tbody>-->
+    <!--    </table>-->
 
     <br><br>
 
