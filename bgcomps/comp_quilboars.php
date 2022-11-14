@@ -20,12 +20,12 @@ include_once('../header.php');
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Groundshaker Shield Comp:</h3>
-    <?php
-    $board   = ['Warden', 'Mecherel', 'Mecherel', 'Warden', 'Groundshaker', 'Gemsplitter', 'Duo'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
+    <!--    <h3>Groundshaker Shield Comp:</h3>-->
+    <!--    --><?php
+    //    $board   = ['Warden', 'Mecherel', 'Mecherel', 'Warden', 'Groundshaker', 'Gemsplitter', 'Duo'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
+    //    ?>
     <h3>Elder/Hoggarr Gem Comp:</h3>
     <?php
     $board   = ['Knight', 'Hoggarr', 'Hoggarr', 'Elder', 'Elder', 'Tusk', 'Duo'];
