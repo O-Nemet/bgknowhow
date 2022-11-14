@@ -72,20 +72,21 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
 
         $csvDataHeroes .= $csvData;
 
-        $heroes['data'][$i]['name']             = $name;
-        $heroes['data'][$i]['nameShort']        = $nameShort;
-        $heroes['data'][$i]['pool']             = $pool;
-        $heroes['data'][$i]['health']           = $health;
-        $heroes['data'][$i]['armorTier']        = $armorTier;
-        $heroes['data'][$i]['armor']            = getArmor($armorTier);
-        $heroes['data'][$i]['id']               = $blizzardId;
-        $heroes['data'][$i]['picture']          = PICTURE_URL_RENDER . $blizzardId . '.png';
-        $heroes['data'][$i]['pictureSmall']     = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
-        $heroes['data'][$i]['picturePortrait']  = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_PORTRAIT_SUFFIX;
-        $heroes['data'][$i]['heroPowerCost']    = $hpCost;
-        $heroes['data'][$i]['heroPowerText']    = $hpText;
-        $heroes['data'][$i]['heroPowerId']      = $blizzardIdHp;
-        $heroes['data'][$i]['heroPowerPicture'] = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
+        $heroes['data'][$i]['name']                  = $name;
+        $heroes['data'][$i]['nameShort']             = $nameShort;
+        $heroes['data'][$i]['pool']                  = $pool;
+        $heroes['data'][$i]['health']                = $health;
+        $heroes['data'][$i]['armorTier']             = $armorTier;
+        $heroes['data'][$i]['armor']                 = getArmor($armorTier);
+        $heroes['data'][$i]['id']                    = $blizzardId;
+        $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
+        $heroes['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $heroes['data'][$i]['picturePortrait']       = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_PORTRAIT_SUFFIX;
+        $heroes['data'][$i]['pictureWhole']          = PICTURE_LOCAL_HERO . $blizzardId . '_big.webp';
+        $heroes['data'][$i]['heroPowerCost']         = $hpCost;
+        $heroes['data'][$i]['heroPowerText']         = $hpText;
+        $heroes['data'][$i]['heroPowerId']           = $blizzardIdHp;
+        $heroes['data'][$i]['heroPowerPicture']      = PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png';
         $heroes['data'][$i]['heroPowerPictureSmall'] = PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80;
         $heroes['data'][$i]['websites']['blizzard']  = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
         $heroes['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/hero/?id=' . $id;
