@@ -81,7 +81,8 @@ if (!empty($buddy)) {
                 <th>Name</th>
                 <th>Health</th>
                 <th>Armor</th>
-                <th>Text</th>
+                <th>HP<br>Cost</th>
+                <th>Hero Power<br>Text</th>
             </tr>
             </thead>
             <tbody>
@@ -91,7 +92,8 @@ if (!empty($buddy)) {
                 echo "<td><a href='" . $hero->websites->bgknowhow . "'>$hero->name</a></td>";
                 echo "<td style='text-align: center'>$hero->health</td>";
                 echo "<td style='text-align: center'>$hero->armor</td>";
-                echo "<td class='text'>$hero->heroPowerText</td>";
+                echo "<td style='text-align: center'>" . ($hero->heroPowerCost !== null ? $hero->heroPowerCost : '-') . "</td>";
+                echo "<td class='text' title='" . htmlspecialchars($hero->heroPowerText, ENT_QUOTES, 'utf-8') . "'>$hero->heroPowerText</td>";
                 echo "</tr>";
             }
             ?>
@@ -135,12 +137,13 @@ if (!empty($buddy)) {
         <table class="strategy-table">
             <thead>
             <tr>
-                <th colspan="6">Minions</th>
+                <th colspan="7">Minions</th>
             </tr>
             <tr>
                 <th>Name</th>
                 <th>Tier</th>
                 <th>Type</th>
+                <th>Pool</th>
                 <th>Attack</th>
                 <th>Health</th>
                 <th>Text</th>
@@ -150,12 +153,13 @@ if (!empty($buddy)) {
             <?php
             foreach ($minions as $minion) {
                 echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
-                echo "<td><a href='" . $minion->websites->bgknowhow . "'>$minion->name</a></td>";
+                echo "<td><a class='hoverimage' href='" . $minion->websites->bgknowhow . "'>$minion->name</a></td>";
                 echo "<td style='text-align: center'>$minion->tier</td>";
                 echo "<td>$minion->type</td>";
+                echo "<td>$minion->pool</td>";
                 echo "<td style='text-align: center'>$minion->attack</td>";
                 echo "<td style='text-align: center'>$minion->health</td>";
-                echo "<td class='text'>$minion->text</td>";
+                echo "<td class='text' title='" . htmlspecialchars($minion->text, ENT_QUOTES, 'utf-8') . "'>$minion->text</td>";
                 echo "</tr>";
             }
             ?>
@@ -181,11 +185,12 @@ if (!empty($buddy)) {
         <table class="strategy-table">
             <thead>
             <tr>
-                <th colspan="5">Buddies</th>
+                <th colspan="6">Buddies</th>
             </tr>
             <tr>
                 <th>Name</th>
                 <th>Tier</th>
+                <th>Type</th>
                 <th>Attack</th>
                 <th>Health</th>
                 <th>Text</th>
@@ -197,9 +202,10 @@ if (!empty($buddy)) {
                 echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $buddy->websites->bgknowhow . '\'">';
                 echo "<td><a href='" . $buddy->websites->bgknowhow . "'>$buddy->name</a></td>";
                 echo "<td style='text-align: center'>$buddy->tier</td>";
+                echo "<td style='text-align: center'>$buddy->type</td>";
                 echo "<td style='text-align: center'>$buddy->attack</td>";
                 echo "<td style='text-align: center'>$buddy->health</td>";
-                echo "<td class='text'>$buddy->text</td>";
+                echo "<td class='text' title='" . htmlspecialchars($buddy->text, ENT_QUOTES, 'utf-8') . "'>$buddy->text</td>";
                 echo "</tr>";
             }
             ?>
