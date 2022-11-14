@@ -158,7 +158,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Tusk', 'Lurker', 'Bot', 'Golem', 'Trickster', 'Muck', 'Drake', 'Spawn', 'Yrel'];
+        $board   = ['Tusk', 'Prophet', 'Lurker', 'Bot', 'Golem', 'Trickster', 'Muck', 'Scout', 'Emissary'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -169,7 +169,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Leaper', 'Guardian', 'Rock', 'Party', 'Prophet', 'Captain', 'Honcho'];
+        $board   = ['Leaper', 'Guardian', 'Rock', 'Party', 'Captain', 'Honcho'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -180,7 +180,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['*Metaltooth Leaper', 'Warleader', 'Selfless', 'Smuggler', 'Partner'];
+        $board   = ['*Metaltooth Leaper', 'Warleader', 'Selfless', 'Smuggler', 'Mug', 'Partner'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -193,7 +193,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Amalgam', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly'];
+        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Amalgam', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', 'Theo'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
