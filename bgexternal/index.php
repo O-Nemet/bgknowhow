@@ -61,7 +61,25 @@ include_once('../header.php');
             <span>BG Calculator</span>
         </a>
         <p>
-            Interactive calculator to compute the odds of seeing a specific minion in the tavern.
+            An interactive calculator to compute the odds of seeing a specific minion in the tavern.
+        </p>
+    </div>
+    <div>
+        <a href="https://tranred-armor-tiers.streamlit.app/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_armor.webp" alt="Armor Tier Averages">
+            <span>Armor Tiers</span>
+        </a>
+        <p>
+            An interactive tool displaying average hero finishes in relation to their armor tier.<br><br>
+        </p>
+    </div>
+    <div>
+        <a href="https://public.tableau.com/app/profile/yovel.deutel/viz/HearthstoneBattlegrounds-Leaderboards/HearthstoneBattlegoundsLeaderboards" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards Search">
+            <span>BG LB Search</span>
+        </a>
+        <p>
+            An easy to use interface for searching and filtering the official Blizzard leaderboards for each of the three regions (US, EU, AP), providing additional information.<br><br>
         </p>
     </div>
     <div>
@@ -71,15 +89,6 @@ include_once('../header.php');
         </a>
         <p>
             A huge wiki covering everything Hearthstone and also featuring several pages and tables about BGs.<br><br>
-        </p>
-    </div>
-    <div>
-        <a href="https://public.tableau.com/app/profile/yovel.deutel/viz/HearthstoneBattlegrounds-Leaderboards/HearthstoneBattlegoundsLeaderboards" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards Search">
-            <span>BG LB Search</span>
-        </a>
-        <p>
-            An easy to use interface for searching and filtering the official Blizzard leaderboards for each of the three regions (US, EU, AP), providing additional information<br><br>
         </p>
     </div>
     <div>
