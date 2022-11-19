@@ -14,7 +14,7 @@ include_once('../header.php');
         The next Lobby Legends top 48 qualifier will happen on November 19th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30-minute delay and the event will take 2x3 rounds, so about 5 hours. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-9/" target="_blank">Blizzards event website</a>.
         <br><br>
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 13:00" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>
+        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 09:30" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>
         <!--        The next Lobby Legends will happen on December 3rd (top 16 semi-finals) and December 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-9/" target="_blank">Blizzards event website</a>.-->
         <!--        <br><br>-->
         <!--        <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
@@ -53,7 +53,7 @@ include_once('../header.php');
         </tr>
         <tr>
             <td>2</td>
-            <td>Hof</td>
+            <td>hof</td>
             <td>CHN</td>
             <td>19.5</td>
         </tr>
@@ -384,7 +384,7 @@ include_once('../header.php');
         </tbody>
     </table>
 
-    <h3>Lobby Legends #6 (“Castle Nathria” at 24/25.09.2022) Top 8 after x lobbies:</h3>
+    <h3>Lobby Legends #6 (“Castle Nathria” at 24/25.09.2022) Top 8 after 8 lobbies:</h3>
     <p>
         Patch 24.2.2 with quests/rewards, with buffed two-drops and nerfed Toggwaggle, was played. Also, the Twitch "Tavern Buddy" extension for multiple ways of viewer interaction was used for the very first time.
     </p>
@@ -394,67 +394,211 @@ include_once('../header.php');
         <br>
         <a href="https://www.youtube.com/watch?v=f8SC268fx1o" target="_blank">YouTube VOD recording of day 2</a>
     </p>
-    <!--    <br>-->
-    <!--    <table class="tier-table">-->
-    <!--        <thead>-->
-    <!--        <tr>-->
-    <!--            <th>Place</th>-->
-    <!--            <th>Player</th>-->
-    <!--            <th>Country</th>-->
-    <!--            <th>Points</th>-->
-    <!--        </tr>-->
-    <!--        </thead>-->
-    <!--        <tbody>-->
-    <!--        <tr>-->
-    <!--            <td>1</td>-->
-    <!--            <td>rimgosu</td>-->
-    <!--            <td>AP (KOR)</td>-->
-    <!--            <td>31.5</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>2</td>-->
-    <!--            <td>SeseiSei</td>-->
-    <!--            <td>AP (JPN)</td>-->
-    <!--            <td>35.5</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>3</td>-->
-    <!--            <td>Ribapusa</td>-->
-    <!--            <td>AP (KOR)</td>-->
-    <!--            <td>34.0</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>4</td>-->
-    <!--            <td>AlexJP</td>-->
-    <!--            <td>US (USA)</td>-->
-    <!--            <td>30.0</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>5</td>-->
-    <!--            <td>Xixo</td>-->
-    <!--            <td>EU (GER)</td>-->
-    <!--            <td>28.0</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>6</td>-->
-    <!--            <td>aliciasan</td>-->
-    <!--            <td>AP (JPN)</td>-->
-    <!--            <td>28.0</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>7</td>-->
-    <!--            <td>blyunchang</td>-->
-    <!--            <td>CHN</td>-->
-    <!--            <td>22.0</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>8</td>-->
-    <!--            <td>&nbsp;</td>-->
-    <!--            <td>&nbsp;</td>-->
-    <!--            <td>&nbsp;</td>-->
-    <!--        </tr>-->
-    <!--        </tbody>-->
-    <!--    </table>-->
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>SeseiSei</td>
+            <td>AP (JPN)</td>
+            <td>43.0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MATSURI</td>
+            <td>AP (JPN)</td>
+            <td>33.0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>BeterBabbit</td>
+            <td>US (USA)</td>
+            <td>32.0</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>rimgosu</td>
+            <td>AP (KOR)</td>
+            <td>30.5</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>PenguinSan</td>
+            <td>AP (JPN)</td>
+            <td>30.0</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>hof</td>
+            <td>CHN</td>
+            <td>23.0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>SleepyHS</td>
+            <td>US (USA)</td>
+            <td>22.0</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>EastLeaf</td>
+            <td>CHN</td>
+            <td>10.5</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3>Lobby Legends #7 (“Murlocized” at 15/16.10.2022) Top 8 after 7 lobbies:</h3>
+    <p>
+        Patch 24.4.0 with Sylvanas as a new hero was played.
+    </p>
+    <br>
+    <p>
+        <a href="https://www.youtube.com/watch?v=HEGFZ4ZZjVA" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=5lxJFfCpVV0" target="_blank">YouTube VOD recording of day 2</a>
+    </p>
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>yanase</td>
+            <td>AP (JPN)</td>
+            <td>40.0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>YJNB</td>
+            <td>CHN</td>
+            <td>29.0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>EastLeaf</td>
+            <td>CHN</td>
+            <td>26.0</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>SleepyHS</td>
+            <td>US (USA)</td>
+            <td>26.0</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>MATSURI</td>
+            <td>AP (JPN)</td>
+            <td>24.5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>XQN</td>
+            <td>EU (BLR)</td>
+            <td>24.0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>MengXia</td>
+            <td>CHN</td>
+            <td>16.5</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>kuroneko</td>
+            <td>AP (JPN)</td>
+            <td>10.0</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3>Lobby Legends #8 (“Hallow's End Trailer” at 12/13.11.2022) Top 8 after 6 lobbies:</h3>
+    <p>
+        Patch 24.6.2 with a slightly nerfed Volatile Venom and the returned quest rewards Golden Hammer and Kidnap Sack was played.
+    </p>
+    <br>
+    <p>
+        <a href="https://www.youtube.com/watch?v=wqhDuWYc3Og" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=9MHEYOI0TQA" target="_blank">YouTube VOD recording of day 2</a>
+    </p>
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>XunYu</td>
+            <td>CHN</td>
+            <td>29.0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sola</td>
+            <td>CHN</td>
+            <td>25.0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Slyders</td>
+            <td>EU (FRA)</td>
+            <td>22.5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Gongi</td>
+            <td>AP (KOR)</td>
+            <td>21.0</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>KunKing</td>
+            <td>CHN</td>
+            <td>20.5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>oliech</td>
+            <td>EU (BEL)</td>
+            <td>17.5</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Geobugi</td>
+            <td>AP (KOR)</td>
+            <td>17.5</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>SeseiSei</td>
+            <td>AP (JPN)</td>
+            <td>15.0</td>
+        </tr>
+        </tbody>
+    </table>
 
     <br><br>
 
