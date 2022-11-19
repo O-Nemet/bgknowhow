@@ -3,7 +3,7 @@ require_once('../config/db.php');
 require_once('../functions.php');
 
 const CSV_SEPARATOR = ';';
-const VERSION       = '0.5.0';
+const VERSION       = '0.6.0';
 $getActiveOnly = 1;
 
 // generate heroes files
@@ -415,42 +415,232 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
     file_put_contents($jsonFile, $jsonData);
     echo 'Written file ' . $jsonFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
 
-
-    // json metadata
-    $allEntities['meta']['date']    = date("Y-m-d");
-    $allEntities['meta']['version'] = VERSION;
-
-    unset($heroes['meta']);
-    unset($buddies['meta']);
-    unset($minions['meta']);
-
-    $allEntities['data']['heroes']  = $heroes['data'];
-    $allEntities['data']['minions'] = $minions['data'];
-    $allEntities['data']['buddies'] = $buddies['data'];
-
-    $jsonFile = 'output/bg_entities_all.json';
-    $jsonData = json_encode($allEntities);
-    file_put_contents($jsonFile, $jsonData);
-    echo 'Written file ' . $jsonFile . ' with all entries.<br>' . PHP_EOL;
-
-    // json metadata
-    $allEntitiesActive['meta']['date']    = date("Y-m-d");
-    $allEntitiesActive['meta']['version'] = VERSION;
-
-    unset($heroesActive['meta']);
-    unset($buddiesActive['meta']);
-    unset($minionsActive['meta']);
-
-    $allEntitiesActive['data']['heroes']  = $heroesActive['data'];
-    $allEntitiesActive['data']['minions'] = $minionsActive['data'];
-    $allEntitiesActive['data']['buddies'] = $buddiesActive['data'];
-
-    $jsonFile = 'output/bg_entities_active.json';
-    $jsonData = json_encode($allEntitiesActive);
-    file_put_contents($jsonFile, $jsonData);
-    echo 'Written file ' . $jsonFile . ' with all entries.<br>' . PHP_EOL;
-
 } else {
     echo 'Select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
 }
+
+// generate quest files
+if ($stmt = $mysqli->prepare("SELECT bgh.id,
+                                     bgh.name,
+                                     bgh.text,
+                                     bgh.id_blizzard,
+                                     bgh.id_playhs,
+                                     bgh.id_hpwn,
+                                     bgh.flag_active
+                                FROM bg_quests bgh
+     --                          WHERE bgh.flag_active = ?
+                            ORDER BY bgh.name ASC")) {
+    #$stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $text, $blizzardId, $playhsId, $hpwnId, $isActive);
+
+    $row_count = $stmt->num_rows;
+
+    $csvHeader           =
+        'Name' . CSV_SEPARATOR .
+        'Text' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
+        'Picture link' . CSV_SEPARATOR .
+        'Active' . PHP_EOL;
+    $csvDataQuests       = $csvHeader;
+    $csvDataQuestsActive = $csvHeader;
+    $csvData             = '';
+
+    // json metadata
+    $quests['meta']['date']          = date("Y-m-d");
+    $quests['meta']['version']       = VERSION;
+    $questsActive['meta']['date']    = date("Y-m-d");
+    $questsActive['meta']['version'] = VERSION;
+
+    $i = 0;
+    $j = 0;
+    while ($stmt->fetch()) {
+        $csvData =
+            $name . CSV_SEPARATOR .
+            $text . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
+            PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
+            (bool)$isActive . PHP_EOL;
+
+        $csvDataQuests .= $csvData;
+
+        $quests['data'][$i]['name']    = $name;
+        $quests['data'][$i]['text']    = $text;
+        $quests['data'][$i]['id']      = $blizzardId;
+        $quests['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+//        $quests['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $quests['data'][$i]['websites']['blizzard'] = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
+//        $quests['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/hero/?id=' . $id;
+        $quests['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
+        $quests['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? 'https://hearthpwn.com/cards/' . $hpwnId : null);
+        $quests['data'][$i]['isActive']              = (bool)$isActive;
+
+        if ($isActive) {
+            $csvDataQuestsActive      .= $csvData;
+            $questsActive['data'][$j] = $quests['data'][$i];
+
+            $j++;
+        }
+
+        $i++;
+    }
+
+    $stmt->close();
+
+    $csvFile = 'output/bg_quests_all.csv';
+    file_put_contents($csvFile, $csvDataQuests);
+    echo 'Written file ' . $csvFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $csvFile = 'output/bg_quests_active.csv';
+    file_put_contents($csvFile, $csvDataQuestsActive);
+    echo 'Written file ' . $csvFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+    $jsonFile = 'output/bg_quests_all.json';
+    $jsonData = json_encode($quests);
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $jsonData = json_encode($questsActive);
+    $jsonFile = 'output/bg_quests_active.json';
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+} else {
+    echo 'Quests select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
+}
+
+// generate rewards files
+if ($stmt = $mysqli->prepare("SELECT bgh.id,
+                                     bgh.name,
+                                     bgh.text,
+                                     bgh.id_blizzard,
+                                     bgh.id_playhs,
+                                     bgh.id_hpwn,
+                                     bgh.flag_active
+                                FROM bg_rewards bgh
+     --                          WHERE bgh.flag_active = ?
+                            ORDER BY bgh.name ASC")) {
+    #$stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $text, $blizzardId, $playhsId, $hpwnId, $isActive);
+
+    $row_count = $stmt->num_rows;
+
+    $csvHeader            =
+        'Name' . CSV_SEPARATOR .
+        'Text' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
+        'Picture link' . CSV_SEPARATOR .
+        'Active' . PHP_EOL;
+    $csvDataRewards       = $csvHeader;
+    $csvDataRewardsActive = $csvHeader;
+    $csvData              = '';
+
+    // json metadata
+    $rewards['meta']['date']          = date("Y-m-d");
+    $rewards['meta']['version']       = VERSION;
+    $rewardsActive['meta']['date']    = date("Y-m-d");
+    $rewardsActive['meta']['version'] = VERSION;
+
+    $i = 0;
+    $j = 0;
+    while ($stmt->fetch()) {
+        $csvData =
+            $name . CSV_SEPARATOR .
+            $text . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
+            PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
+            (bool)$isActive . PHP_EOL;
+
+        $csvDataRewards .= $csvData;
+
+        $rewards['data'][$i]['name']    = $name;
+        $rewards['data'][$i]['text']    = $text;
+        $rewards['data'][$i]['id']      = $blizzardId;
+        $rewards['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+//        $rewards['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $rewards['data'][$i]['websites']['blizzard'] = ($playhsId ? 'https://playhearthstone.com/battlegrounds/' . $playhsId : null);
+//        $rewards['data'][$i]['websites']['bgknowhow'] = 'https://bgknowhow.com/bgstrategy/hero/?id=' . $id;
+        $rewards['data'][$i]['websites']['fandom']    = 'https://hearthstone.fandom.com/wiki/Battlegrounds/' . str_replace(' ', '_', $name);
+        $rewards['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? 'https://hearthpwn.com/cards/' . $hpwnId : null);
+        $rewards['data'][$i]['isActive']              = (bool)$isActive;
+
+        if ($isActive) {
+            $csvDataQuestsActive       .= $csvData;
+            $rewardsActive['data'][$j] = $rewards['data'][$i];
+
+            $j++;
+        }
+
+        $i++;
+    }
+
+    $stmt->close();
+
+    $csvFile = 'output/bg_rewards_all.csv';
+    file_put_contents($csvFile, $csvDataRewards);
+    echo 'Written file ' . $csvFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $csvFile = 'output/bg_rewards_active.csv';
+    file_put_contents($csvFile, $csvDataRewardsActive);
+    echo 'Written file ' . $csvFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+    $jsonFile = 'output/bg_rewards_all.json';
+    $jsonData = json_encode($rewards);
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $jsonData = json_encode($rewardsActive);
+    $jsonFile = 'output/bg_rewards_active.json';
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+} else {
+    echo 'Rewards select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
+}
+
+
+// json metadata
+$allEntities['meta']['date']    = date("Y-m-d");
+$allEntities['meta']['version'] = VERSION;
+
+unset($heroes['meta']);
+unset($minions['meta']);
+unset($buddies['meta']);
+unset($quests['meta']);
+unset($rewards['meta']);
+
+$allEntities['data']['heroes']  = $heroes['data'];
+$allEntities['data']['minions'] = $minions['data'];
+$allEntities['data']['buddies'] = $buddies['data'];
+$allEntities['data']['quests']  = $quests['data'];
+$allEntities['data']['rewards'] = $quests['rewards'];
+
+$jsonFile = 'output/bg_entities_all.json';
+$jsonData = json_encode($allEntities);
+file_put_contents($jsonFile, $jsonData);
+echo 'Written file ' . $jsonFile . ' with all entries.<br>' . PHP_EOL;
+
+// json metadata
+$allEntitiesActive['meta']['date']    = date("Y-m-d");
+$allEntitiesActive['meta']['version'] = VERSION;
+
+unset($heroesActive['meta']);
+unset($minionsActive['meta']);
+unset($buddiesActive['meta']);
+unset($questsActive['meta']);
+unset($rewardsActive['meta']);
+
+$allEntitiesActive['data']['heroes']  = $heroesActive['data'];
+$allEntitiesActive['data']['minions'] = $minionsActive['data'];
+$allEntitiesActive['data']['buddies'] = $buddiesActive['data'];
+$allEntitiesActive['data']['quests']  = $questsActive['data'];
+$allEntitiesActive['data']['rewards'] = $rewardsActive['data'];
+
+$jsonFile = 'output/bg_entities_active.json';
+$jsonData = json_encode($allEntitiesActive);
+file_put_contents($jsonFile, $jsonData);
+echo 'Written file ' . $jsonFile . ' with all entries.<br>' . PHP_EOL;
 
