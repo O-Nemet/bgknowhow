@@ -568,7 +568,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $rewards['data'][$i]['isActive']              = (bool)$isActive;
 
         if ($isActive) {
-            $csvDataQuestsActive       .= $csvData;
+            $csvDataRewardsActive      .= $csvData;
             $rewardsActive['data'][$j] = $rewards['data'][$i];
 
             $j++;
@@ -601,7 +601,6 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     echo 'Rewards select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
 }
 
-
 // json metadata
 $allEntities['meta']['date']    = date("Y-m-d");
 $allEntities['meta']['version'] = VERSION;
@@ -616,7 +615,7 @@ $allEntities['data']['heroes']  = $heroes['data'];
 $allEntities['data']['minions'] = $minions['data'];
 $allEntities['data']['buddies'] = $buddies['data'];
 $allEntities['data']['quests']  = $quests['data'];
-$allEntities['data']['rewards'] = $quests['rewards'];
+$allEntities['data']['rewards'] = $rewards['data'];
 
 $jsonFile = 'output/bg_entities_all.json';
 $jsonData = json_encode($allEntities);
@@ -643,4 +642,3 @@ $jsonFile = 'output/bg_entities_active.json';
 $jsonData = json_encode($allEntitiesActive);
 file_put_contents($jsonFile, $jsonData);
 echo 'Written file ' . $jsonFile . ' with all entries.<br>' . PHP_EOL;
-
