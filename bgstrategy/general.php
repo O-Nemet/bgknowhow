@@ -158,7 +158,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Tusk', 'Prophet', 'Lurker', 'Bot', 'Golem', 'Trickster', 'Muck', 'Scout', 'Emissary'];
+        $board   = ['Tusk', 'Prophet', 'Lurker', 'Bot', 'Golem', 'Captain', 'Trickster', 'Muck', 'Scout', 'Emissary'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -169,7 +169,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Leaper', 'Guardian', 'Rock', 'Party', 'Captain', 'Honcho'];
+        $board   = ['Leaper', 'Guardian', 'Smuggler', 'Rock', 'Party', 'Honcho', 'Warleader'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -180,7 +180,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['*Metaltooth Leaper', 'Warleader', 'Selfless', 'Smuggler', 'Mug', 'Partner'];
+        $board   = ['*Metaltooth Leaper', 'Selfless', 'Mug', 'Partner'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -193,7 +193,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Grease Bot', 'Buster', 'Brann', 'Ball', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', 'Theo'];
+        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Deflecto', 'Grease Bot', 'Buster', 'Ball', 'Brann', 'Murk-Eye', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', 'Theo', 'Fort'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -214,7 +214,7 @@ foreach ($tempMinions->data as $key => $object) {
     <div style="margin-top: -30px;">
         <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
         <p style="width: 920px; padding-top: 90px; text-align: justify;">
-            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or any of the other possible Deathrattle minions. There are currently <?= $i ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i - 1) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i - 1) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i - 1) * 2) * (1 / ($i - 1) * 2) * 100, 2) ?>%.
+            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or any of the other possible Deathrattle minions. There are currently <?= $i + 1 ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
         </p>
     </div>
     <div class="comp_wrapper cf">
