@@ -113,6 +113,7 @@ $test = 567;
                                 <li><a href="//bgknowhow.com/bgcomps/comp_nagas.php">...Nagas</a></li>
                                 <li><a href="//bgknowhow.com/bgcomps/comp_pirates.php">...Pirates</a></li>
                                 <li><a href="//bgknowhow.com/bgcomps/comp_quilboars.php">...Quilboars</a></li>
+                                <li><a href="//bgknowhow.com/bgcomps/comp_neutrals.php">...Neutrals</a></li>
                             </ul>
                         </div>
                     </div>
