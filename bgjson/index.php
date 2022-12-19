@@ -24,7 +24,7 @@ include_once('../header.php');
         Feel free to use this as a starting point for your own projects and content creation (code examples below).<br>
         <br>
         These datasets have several advantages over the data available from the Blizzard API or the Hearthstone JSON files:<br>
-        For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. 'Eliza' instead of 'Dread Admiral Eliza'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
+        For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=131'>Eliza</a>' instead of '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=131'>Dread Admiral Eliza</a>'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
         For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating skills like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
         At least every 8 hours fresh files will be generated from the database.<br>
@@ -123,9 +123,11 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>19.12.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23892223/25-0-4-patch-notes" target="_blank">25.0.4</a> patch notes.</li>
+        <li>29.11.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23882860/25-0-patch-notes" target="_blank">25.0.0</a> patch notes.</li>
         <li>19.11.2022 - Added quest and reward datasets (finally).</li>
         <li>14.11.2022 - Added pictureWhole to the hero dataset (a link to the complete hero picture, without cropping of the borders).</li>
-        <li>11.11.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-gb/news/23874319/24-6-2-patch-notes" target="_blank">24.6.2</a> patch notes.</li>
+        <li>11.11.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23874319/24-6-2-patch-notes" target="_blank">24.6.2</a> patch notes.</li>
         <li>03.11.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23852694/24-6-patch-notes" target="_blank">24.6.0</a> patch notes.</li>
         <li>14.10.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23852692/24-4-3-patch-notes" target="_blank">24.4.3</a> patch notes.</li>
         <li>15.09.2022 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/patch-2423-patch-notes/94885" target="_blank">24.2.3</a> patch notes.</li>
