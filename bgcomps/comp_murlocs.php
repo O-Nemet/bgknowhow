@@ -17,7 +17,7 @@ include_once('../header.php');
     //    $minions = getMinionsForBoard($board);
     //    drawBoard($minions);
     ?>
-    <h3>Selfless/Baron Shield Comp:</h3>
+    <h3>Selfless/Baron Poison Comp:</h3>
     <?php
     $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', 'Ball', 'Honcho', 'Ball'];
     $minions = getMinionsForBoard($board);
