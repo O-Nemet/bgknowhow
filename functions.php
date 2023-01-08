@@ -215,6 +215,7 @@ function getEntityData($selectedId, $unitType)
 function setVote($selectedStrat, $selectedVote)
 {
     include('config/db.php');
+
     $blocklistIp = [
         '216.244.66.201',
         '85.25.185.138'
@@ -284,12 +285,12 @@ function getMinionsForBoard($board): array
     global $tempMinions;
 
     $i = 0;
-    foreach ($board as $needle) {
+    foreach ($board as $minionName) {
         foreach ($tempMinions->data as $key => $object) {
             // handle full name param (for minions where short name is the same)
-            if (strpos($needle, '*') !== false) {
-                $needleNew = substr($needle, strpos($needle, '*') + 1);
-                if ($object->name === $needleNew) {
+            if (strpos($minionName, '*') !== false) {
+                $minionNameNew = substr($minionName, strpos($minionName, '*') + 1);
+                if ($object->name === $minionNameNew) {
 //                    echo "* ";
                     $minions[$i]['name']    = $object->name;
                     $minions[$i]['picture'] = $object->pictureSmall;
@@ -297,13 +298,13 @@ function getMinionsForBoard($board): array
                     continue 2;
                 }
             } else {
-                if ($object->name === $needle) {
+                if ($object->name === $minionName) {
 //                    echo "long ";
                     $minions[$i]['name']    = $object->name;
                     $minions[$i]['picture'] = $object->pictureSmall;
                     $minions[$i]['url']     = $object->websites->bgknowhow;
                     continue 2;
-                } else if ($object->nameShort === $needle) {
+                } else if ($object->nameShort === $minionName) {
 //                    echo "short ";
                     $minions[$i]['name']    = $object->name;
                     $minions[$i]['picture'] = $object->pictureSmall;
