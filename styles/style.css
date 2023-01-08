@@ -2188,7 +2188,7 @@ root {
     /* width:400px; */
     margin: 0 auto;
     /*height:45px; */
-    padding: 10px 30px;
+    padding: 10px 5px 10px 25px;
 }
 
 #menu ul, #menu li {
@@ -2204,7 +2204,7 @@ root {
     position: relative;
     text-align: center;
     /*padding:4px 10px; */
-    padding: 7px;
+    padding: 5px;
     padding-top: 7px;
     /*margin:7px 30px 0 0;*/
     /*      border:none; */

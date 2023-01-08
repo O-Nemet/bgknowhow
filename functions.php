@@ -60,6 +60,8 @@ function getWebsiteName(): string
         return 'bglegends';
     } else if (strpos($page, '/bgsim/') !== false) {
         return 'bgsim';
+    } else if (strpos($page, '/bgbasics/') !== false) {
+        return 'bgbasics';
     } else if (strpos($page, '/bgstrategy/') !== false) {
         return 'bgstrategy';
     } else {
@@ -75,53 +77,58 @@ function getWebsiteTitle(): string
     $page = parse_url($url, PHP_URL_PATH);
 
     if (strpos($page, '/bgjson/') !== false) {
-        $title .= 'BG JSON - ';
+        $title .= 'BG JSON';
     } else if (strpos($page, '/bgcomps/comp_beasts') !== false) {
-        $title .= 'Comps (Beasts) - ';
+        $title .= 'Comps (Beasts)';
     } else if (strpos($page, '/bgcomps/comp_demons') !== false) {
-        $title .= 'Comps (Demons) - ';
+        $title .= 'Comps (Demons)';
     } else if (strpos($page, '/bgcomps/comp_dragons') !== false) {
-        $title .= 'Comps (Dragons) - ';
+        $title .= 'Comps (Dragons)';
     } else if (strpos($page, '/bgcomps/comp_elementals') !== false) {
-        $title .= 'Comps (Elementals) - ';
+        $title .= 'Comps (Elementals)';
     } else if (strpos($page, '/bgcomps/comp_mechs') !== false) {
-        $title .= 'Comps (Mechs) - ';
+        $title .= 'Comps (Mechs)';
     } else if (strpos($page, '/bgcomps/comp_murlocs') !== false) {
-        $title .= 'Comps (Murlocs) - ';
+        $title .= 'Comps (Murlocs)';
     } else if (strpos($page, '/bgcomps/comp_nagas') !== false) {
-        $title .= 'Comps (Nagas) - ';
+        $title .= 'Comps (Nagas)';
     } else if (strpos($page, '/bgcomps/comp_pirates') !== false) {
-        $title .= 'Comps (Pirates) - ';
+        $title .= 'Comps (Pirates)';
     } else if (strpos($page, '/bgcomps/comp_quilboars') !== false) {
-        $title .= 'Comps (Quilboars) - ';
+        $title .= 'Comps (Quilboars)';
     } else if (strpos($page, '/bgcomps/') !== false) {
-        $title .= 'Compositions - ';
+        $title .= 'Compositions';
     } else if (strpos($page, '/bgcurves/') !== false) {
-        $title .= 'Curves - ';
+        $title .= 'Curves';
     } else if (strpos($page, '/bgexternal/') !== false) {
-        $title .= 'External Resources - ';
+        $title .= 'External Resources';
     } else if (strpos($page, '/bgguides/') !== false) {
-        $title .= 'Guides - ';
+        $title .= 'Guides';
     } else if (strpos($page, '/bglegends/') !== false) {
-        $title .= 'Lobby Legends - ';
+        $title .= 'Lobby Legends';
     } else if (strpos($page, '/bgsim/') !== false) {
-        $title .= 'Simulator - ';
+        $title .= 'Simulator';
+    } else if (strpos($page, '/bgbasics/armor') !== false) {
+        $title .= 'BG Hero Armor Tiers';
+    } else if (strpos($page, '/bgbasics/') !== false) {
+        $title .= 'Battleground Basics';
     } else if (strpos($page, '/bgstrategy/?show=heroes') !== false) {
-        $title .= 'Strategy Heroes - ';
+        $title .= 'Strategy Heroes';
     } else if (strpos($page, '/bgstrategy/?show=buddies') !== false) {
-        $title .= 'Strategy Buddies - ';
+        $title .= 'Strategy Buddies';
     } else if (strpos($page, '/bgstrategy/?show=minions') !== false) {
-        $title .= 'Strategy Minions - ';
+        $title .= 'Strategy Minions';
     } else if (strpos($page, '/bgstrategy/hero/') !== false) {
-        $title .= 'Strategy Hero - ';
+        $title .= 'Strategy Hero';
     } else if (strpos($page, '/bgstrategy/buddy/') !== false) {
-        $title .= 'Strategy Buddy - ';
+        $title .= 'Strategy Buddy';
     } else if (strpos($page, '/bgstrategy/minion/') !== false) {
-        $title .= 'Strategy Minion - ';
+        $title .= 'Strategy Minion';
     } else if (strpos($page, '/bgstrategy/') !== false) {
-        $title .= 'Strategy All - ';
+        $title .= 'Strategy All';
     }
 
+    $title .= ' - ';
     $title .= 'Battlegrounds Know-How';
 
     return $title;

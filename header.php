@@ -54,6 +54,7 @@ $test = 567;
         <nav id="sidebar_menu">
             <ul>
                 <li><a class="menu-topic" href="//bgknowhow.com/introduction.php">&#9654; Introduction</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/">&#9654; Basics</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
@@ -150,6 +151,18 @@ $test = 567;
                         </div>
                     </div>
                 </li>
+                <li class="menu-hover bgbasics">
+                    <a class="menu-topic" href="//bgknowhow.com/bgbasics/">Basics</a>
+                    <div class="menu-container-1">
+                        <div class="menu-column-1">
+                            <ul>
+                                <li><a href="//bgknowhow.com/bgbasics/">...Definitions</a></li>
+                                <li><a href="//bgknowhow.com/bgbasics/">...FAQ</a></li>
+                                <li><a href="//bgknowhow.com/bgbasics/armor.php">...Hero Armor Tiers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
                 <li class="menu-hover bgstrategy">
                     <a class="menu-topic" href="//bgknowhow.com/bgstrategy/">Strategy</a>
                     <div class="menu-container-2">
@@ -165,7 +178,7 @@ $test = 567;
                     </div>
                 </li>
                 <li>
-                    <div style="margin-left: 30px; border-bottom: 0" id="donate-button-container">
+                    <div style="margin-left: 10px; margin-top: 1px; border-bottom: 0" id="donate-button-container">
                         <div id="donate-button"></div>
                         <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
                         <script>
