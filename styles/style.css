@@ -1537,7 +1537,7 @@ addthis_toolbox {
     float: none;
 }
 
-.card_info .container {
+.card_info .container, #hero_armor_tiers .container {
     position: relative;
     display: inline-block;
 }
@@ -1556,21 +1556,21 @@ addthis_toolbox {
     width: 100px;
 }
 
-.card_info .card_attack {
+.card_info .card_attack, #hero_armor_tiers .card_attack {
     position: absolute;
     height: 100%;
     width: 100%;
     text-align: center;
 }
 
-.card_info .card_attack:before {
+.card_info .card_attack:before, #hero_armor_tiers .card_attack:before {
     content: '';
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.card_info .card_attack, .card_info .card_health {
+.card_info .card_attack, .card_info .card_health, #hero_armor_tiers .card_attack {
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -3278,6 +3278,54 @@ body.bgstrategy .bgstrategy > a {
     font-weight: 700;
     font-style: italic;
 }
+
+#hero_armor_tiers {
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid #3A3A3A;*/
+}
+
+#hero_armor_tiers > div {
+    margin: 0 auto;
+    /*border: 1px dotted red;*/
+}
+
+#hero_armor_tiers > div .title {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    /*background-color: #555555;*/
+    /*color: #DDDDDD;*/
+    padding: 10px;
+    /*border-right: 2px dotted #222;*/
+}
+
+#hero_armor_tiers > div > div {
+    padding: 5px;
+    font-size: 14px;
+}
+
+#hero_armor_tiers > div > div img {
+    width: 100px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+#hero_armor_tiers .img_armor {
+    width: 50px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+#hero_armor_tiers .title .card_attack {
+    color: white;
+    font-weight: bold;
+}
+
+/*#hero_armor_tiers > div > div:first-of-type {*/
+/*    margin-top: 10px;*/
+/*}*/
 
 /* ==========================================================================
    Media Queries
