@@ -11,23 +11,41 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“Rating All the New Quests in Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
+            <h3>“5 Tips to Instantly get Better at Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/bGpy6p0O8c4?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/HqPbDGUzl_I?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
-        <!--        <div class="iframe_div">-->
-        <!--            <h3>“Quest Tierlist from Rank 1 EU” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>-->
-        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
-        <!--                    src="https://www.youtube.com/embed/EerCBmqlv9w?autoplay=0&origin=https://bgknowhow.com">-->
-        <!--            </iframe>-->
-        <!--        </div>-->
+        <div class="iframe_div">
+            <h3>“The ULTIMATE Battlegrounds Quest Guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/D5jmME7Vl7c?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Early Game Explained” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/JZLsJOGO8Vo?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Updated Quest Tierlist from Rank 3 EU” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/Bj99LwzgjRI?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
         <div class="iframe_div">
             <h3>“Wondrous Wisdomball Quest Reward Guide” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/xU0PhK_ueKk?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Rating All the New Quests in Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/bGpy6p0O8c4?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
         <div class="iframe_div">
             <h3>“What Everyone does wrong with Quests” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
