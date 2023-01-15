@@ -27,7 +27,7 @@ include_once('../header.php');
         For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=131'>Eliza</a>' instead of '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=131'>Dread Admiral Eliza</a>'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
         For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating skills like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
-        At least every 8 hours fresh files will be generated from the database.<br>
+        At least every 4 hours fresh files will be generated from the database.<br>
         Official updates and hotfixes will be integrated as soon as possible.<br>
         If you have any suggestion for additional properties that could/should be implemented, just drop me a message.
     </p>
@@ -123,6 +123,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>15.01.2023 - Added new hero and new minions of the upcoming BG season 3 release (isActive flag as false, of course).</li>
         <li>19.12.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23892223/25-0-4-patch-notes" target="_blank">25.0.4</a> patch notes.</li>
         <li>29.11.2022 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23882860/25-0-patch-notes" target="_blank">25.0.0</a> patch notes.</li>
         <li>19.11.2022 - Added quest and reward datasets (finally).</li>
