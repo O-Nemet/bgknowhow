@@ -83,6 +83,16 @@ include_once('../header.php');
         </p>
     </div>
     <div>
+        <a href="https://rss.com/podcasts/hsbgpodcast/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_podcast_hsbg.jpg" alt="HSBG Podcast">
+            <span>HSBG Podcast</span>
+        </a>
+        <p>
+            A long-time running weekly podcast by Collins and Shadybunny.<br><br>
+            Discussing everything new as well as the current meta and often featuring special guests.
+        </p>
+    </div>
+    <div>
         <a href="https://hearthstone.fandom.com/wiki/Hearthstone_Wiki/Battlegrounds" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_hearthstone_wiki.webp" alt="Hearthstone Wiki">
             <span>HS Wiki</span>
