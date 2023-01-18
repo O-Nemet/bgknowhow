@@ -64,7 +64,7 @@ include_once('../header.php');
 <?php
 foreach ($tempMinions->data as $key => $object) {
     if ($object->isActive === true && $object->isToken !== true) {
-        $type = !isset($object->type) ? 'None' : $object->type;
+        $type = (is_null($object->type) && $object->pool === 'All' && $object->name !== 'Ball of Minions') ? 'None' : $object->type;
         @$minion_count[$type][$object->tier] = @$minion_count[$type][$object->tier] + 1;
         @$minion_count[$type][7] = @$minion_count[$type][7] + 1;
         @$minion_pool[$object->pool][$object->tier] = @$minion_pool[$object->pool][$object->tier] + 1;
@@ -76,7 +76,7 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="types">Minion types and distribution</h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Pirates only have one tier 6 minion. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Dragons have only one tier 5 minion. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
         <br><br>
         On tier 5 there is one special case regarding the minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.
         <br><br>
@@ -87,10 +87,10 @@ foreach ($tempMinions->data as $key => $object) {
     <table class="tier-table">
         <thead>
         <tr>
-            <th colspan="12">Minion type count per tier</th>
+            <th colspan="13">Minion type count per tier</th>
         </tr>
         <tr>
-            <th>Tavern Tier</th>
+            <th>Tier</th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=beast">Beasts</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=demon">Demons</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=dragon">Dragons</a></th>
@@ -100,6 +100,7 @@ foreach ($tempMinions->data as $key => $object) {
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=naga">Naga</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=pirate">Pirates</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=quilboar">Quilboars</a></th>
+            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=undead">Undead</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=none">None</a></th>
             <th><a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a></th>
         </tr>
@@ -111,13 +112,14 @@ foreach ($tempMinions->data as $key => $object) {
             echo "    <td>" . ($i == 7 ? '<a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a>' : '<a href="//bgknowhow.com/bgstrategy/?show=minions&tier=' . $i . '">' . $i . '</a>') . "</td>";
             echo "    <td>" . $minion_count['Beast'][$i] . " (" . ($minion_pool['Beast'][$i] - $minion_count['Beast'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Demon'][$i] . " (" . ($minion_pool['Demon'][$i] - $minion_count['Demon'][$i]) . ")</td>";
-            echo "    <td>" . $minion_count['Dragon'][$i] . " (" . ($minion_pool['Dragon'][$i] - $minion_count['Dragon'][$i]) . ")</td>";
+            echo "    <td>" . @$minion_count['Dragon'][$i] . " (" . (@$minion_pool['Dragon'][$i] - @$minion_count['Dragon'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Elemental'][$i] . " (" . ($minion_pool['Elemental'][$i] - $minion_count['Elemental'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Mech'][$i] . " (" . ($minion_pool['Mech'][$i] - $minion_count['Mech'][$i]) . ")</td>";
             echo "    <td>" . ($minion_count['Murloc'][$i] ?? 0) . " (" . ($minion_pool['Murloc'][$i] - @$minion_count['Murloc'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Naga'][$i] . " (" . ($minion_pool['Naga'][$i] - $minion_count['Naga'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Quilboar'][$i] . " (" . ($minion_pool['Quilboar'][$i] - $minion_count['Quilboar'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Undead'][$i] . " (" . ($minion_pool['Undead'][$i] - $minion_count['Undead'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['None'][$i] . "</td>";
             echo "    <td>" . $minion_count['Total'][$i] . "</td>";
             echo "</tr>";
@@ -136,7 +138,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Gambler', 'Roadboar', 'Tad'];
+        $board   = ['*Eternal Knight', 'Gambler', 'Roadboar', 'Tad'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -147,7 +149,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Saurolisk', 'Ogre', 'Angler', 'Piggy'];
+        $board   = ['Rat', 'Saurolisk', 'Angler', 'Piggy'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -158,7 +160,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Tusk', 'Prophet', 'Lurker', 'Bot', 'Golem', 'Captain', 'Trickster', 'Muck', 'Scout', 'Emissary'];
+        $board   = ['Tusk', 'Prophet', 'Lurker', 'Bot', 'Golem', 'Captain', 'Trickster', 'Muck', 'Scout', 'Emissary', 'Skyfin', 'Deathswarmer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -169,7 +171,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Leaper', 'Guardian', 'Smuggler', 'Rock', 'Party', 'Honcho', 'Warleader'];
+        $board   = ['Leaper', 'Smuggler', 'Rock', 'Party', 'Warleader', 'Snail', 'Refiner', 'Skull'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -193,7 +195,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Croc', 'Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Deflecto', 'Grease Bot', 'Buster', 'Ball', 'Brann', 'Murk-Eye', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', 'Theo', 'Fort'];
+        $board   = ['Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Rag', 'Deflecto', 'Grease Bot', 'Buster', 'Ball', 'Brann', 'Murk-Eye', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', '*Eternal Knight', 'Summoner', 'Deathwhisper', 'Theo', 'Fort'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
