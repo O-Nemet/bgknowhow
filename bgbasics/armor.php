@@ -23,7 +23,7 @@ if (!empty($_GET['mode'])) {
                 if ($mode === 'txt') {
                     echo "<div><a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a></div>";
                 } else {
-                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . $object->name . "'></img></a></div>";
+                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . htmlspecialchars($object->name, ENT_QUOTES, 'utf-8') . "'></img></a></div>";
                 }
             }
         }
@@ -41,7 +41,7 @@ if (!empty($_GET['mode'])) {
                 if ($mode === 'txt') {
                     echo "<div><a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a></div>";
                 } else {
-                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . $object->name . "'></img></a></div>";
+                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . htmlspecialchars($object->name, ENT_QUOTES, 'utf-8') . "'></img></a></div>";
                 }
             }
         }
@@ -59,7 +59,7 @@ if (!empty($_GET['mode'])) {
                 if ($mode === 'txt') {
                     echo "<div><a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a></div>";
                 } else {
-                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . $object->name . "'></img></a></div>";
+                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . htmlspecialchars($object->name, ENT_QUOTES, 'utf-8') . "'></img></a></div>";
                 }
             }
         }
@@ -77,7 +77,7 @@ if (!empty($_GET['mode'])) {
                 if ($mode === 'txt') {
                     echo "<div><a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a></div>";
                 } else {
-                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . $object->name . "'></img></a></div>";
+                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . htmlspecialchars($object->name, ENT_QUOTES, 'utf-8') . "'></img></a></div>";
                 }
             }
         }
@@ -95,7 +95,7 @@ if (!empty($_GET['mode'])) {
                 if ($mode === 'txt') {
                     echo "<div><a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a></div>";
                 } else {
-                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . $object->name . "'></img></a></div>";
+                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . htmlspecialchars($object->name, ENT_QUOTES, 'utf-8') . "'></img></a></div>";
                 }
             }
         }
@@ -113,7 +113,7 @@ if (!empty($_GET['mode'])) {
                 if ($mode === 'txt') {
                     echo "<div><a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a></div>";
                 } else {
-                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . $object->name . "'></img></a></div>";
+                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . htmlspecialchars($object->name, ENT_QUOTES, 'utf-8') . "'></img></a></div>";
                 }
             }
         }
@@ -131,13 +131,15 @@ if (!empty($_GET['mode'])) {
                 if ($mode === 'txt') {
                     echo "<div><a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a></div>";
                 } else {
-                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . $object->name . "'></img></a></div>";
+                    echo "<div><a href='" . $object->websites->bgknowhow . "'><img src='" . $object->picturePortrait . "' title='" . htmlspecialchars($object->name, ENT_QUOTES, 'utf-8') . "'></img></a></div>";
                 }
             }
         }
         ?>
     </div>
 </div>
+
+<br><br>
 
 <?php
 include_once('../footer.php');
