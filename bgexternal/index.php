@@ -65,15 +65,6 @@ include_once('../header.php');
         </p>
     </div>
     <div>
-        <a href="https://tranred-armor-tiers.streamlit.app/" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_armor.webp" alt="Armor Tier Averages">
-            <span>Armor Tiers</span>
-        </a>
-        <p>
-            An interactive tool displaying average hero finishes in relation to their armor tier.<br><br>
-        </p>
-    </div>
-    <div>
         <a href="https://public.tableau.com/app/profile/yovel.deutel/viz/HearthstoneBattlegrounds-Leaderboards/HearthstoneBattlegoundsLeaderboards" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards Search">
             <span>BG LB Search</span>
