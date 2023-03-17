@@ -96,6 +96,10 @@ function getWebsiteTitle(): string
         $title .= 'Comps (Pirates)';
     } else if (strpos($page, '/bgcomps/comp_quilboars') !== false) {
         $title .= 'Comps (Quilboars)';
+    } else if (strpos($page, '/bgcomps/comp_undead') !== false) {
+        $title .= 'Comps (Undeads)';
+    } else if (strpos($page, '/bgcomps/comp_neutrals') !== false) {
+        $title .= 'Comps (Neutrals)';
     } else if (strpos($page, '/bgcomps/') !== false) {
         $title .= 'Compositions';
     } else if (strpos($page, '/bgcurves/') !== false) {
@@ -128,7 +132,7 @@ function getWebsiteTitle(): string
         $title .= 'Strategy All';
     }
 
-    $title .= ' - ';
+    $title .= strlen($title) > 0 ? ' - ' : '';
     $title .= 'Battlegrounds Know-How';
 
     return $title;
@@ -144,6 +148,8 @@ function getEntityData($selectedId, $unitType)
                                      bgh.name_short,
                                      bgh.health,
                                      bgh.armor_tier,
+                                     bgh.armor,
+                                     bgh.armor_mmr,
                                      bgh.id_blizzard,
                                      bgh.hp_cost,
                                      bgh.hp_text,
@@ -182,7 +188,9 @@ function getEntityData($selectedId, $unitType)
                                      bgm.name,
                                      bgm.name_short,
                                      bgm.type,
+                                     bgm.type2,
                                      bgm.pool,
+                                     bgm.pool2,
                                      bgm.text,
                                      bgm.text_golden,
                                      bgm.tier,
