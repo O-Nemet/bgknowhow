@@ -53,6 +53,18 @@ include_once('../header.php');
         <!--            </iframe>https://www.youtube.com/watch?v=03Of9mmbFuU-->
         <!--        </div>-->
         <div class="iframe_div">
+            <h3>“Maiev Shadowsong Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/zWb08lj7o8c?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Captain Hooktusk Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/IjF1QpEY1yw?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“Choosing Between a Tier-5 or Tier-6 Discover” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/z8VjkdXThcg?autoplay=0&origin=https://bgknowhow.com">
@@ -64,12 +76,12 @@ include_once('../header.php');
                     src="https://www.youtube.com/embed/e5aXcu25ISc?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
-        <div class="iframe_div">
-            <h3>“APM & Scally Exodia Guide (Pirate Tribe Guide)” by <a href="https://www.youtube.com/channel/UClZE5U3aRdXNq3JTLJIQuRQ/videos" target="_blank">Dellroth</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/3DeXJ5sqto4?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“APM & Scally Exodia Guide (Pirate Tribe Guide)” by <a href="https://www.youtube.com/channel/UClZE5U3aRdXNq3JTLJIQuRQ/videos" target="_blank">Dellroth</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/3DeXJ5sqto4?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
         <div class="iframe_div">
             <h3>“So you think you can leapers? Leapfrogger Guide” by <a href="https://www.youtube.com/channel/UClZE5U3aRdXNq3JTLJIQuRQ/videos" target="_blank">Dellroth</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
