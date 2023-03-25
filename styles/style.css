@@ -2318,7 +2318,7 @@ root {
 #menu li:hover .menu-container-1, #menu li:hover .menu-container-2, #menu li:hover .menu-container-3, #menu li:hover .menu-container-4 {
     top: auto;
     left: 0px;
-    margin-top: 8px;
+    margin-top: 0px;
     opacity: 1.0;
     -webkit-transition: opacity 0.3s ease-out 0.15s;
     -moz-transition: opacity 0.3s ease-out 0.15s;
@@ -2497,6 +2497,7 @@ root {
 */
 .menu-topic {
     text-transform: uppercase;
+    padding-bottom: 8px;
 }
 
 .menu_normallink {
@@ -3137,7 +3138,7 @@ body.bgstrategy .bgstrategy > a {
 
 .typeFilter img {
     cursor: pointer;
-    width: 110px;
+    width: 99px;
 }
 
 .typeFilter img:hover {
