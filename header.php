@@ -159,6 +159,7 @@ $test = 567;
                         <div class="menu-column-1">
                             <ul>
                                 <li><a href="//bgknowhow.com/bgbasics/">...Definitions</a></li>
+                                <li><a href="//bgknowhow.com/bgbasics/triple_stats.php">...Triple Stats</a></li>
                                 <li><a href="//bgknowhow.com/bgbasics/faq.php">...FAQ</a></li>
                                 <!--                                <li><a href="//bgknowhow.com/bgbasics/armor.php">...Hero Armor Tiers</a></li>-->
                             </ul>
