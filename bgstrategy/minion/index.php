@@ -17,7 +17,7 @@ if ($selectedStrat && $selectedVote) {
 if ($selectedId) {
     $stmt = getEntityData($selectedId, $unitType);
 
-    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $flavor, $artist);
+    $stmt->bind_result($id, $name, $nameShort, $type, $type2, $pool, $pool2, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $blizzardId, $flavor, $artist);
 
     $stmt->fetch()
     ?>
@@ -34,8 +34,8 @@ if ($selectedId) {
             <!--                <img class="img_health" src="--><?//= PICTURE_LOCAL ?><!--icons/health.png">-->
             <!--            </div>-->
             <!--            <br>-->
-            Type:<br><span class="price_font"><?= ($type ?? 'None') ?></span><br><br>
-            Pool:<br><span class="price_font"><?= ($pool ?? 'All') ?></span><br><br>
+            Type:<br><span class="price_font"><?= ($type ?? 'None') ?><?= ($type2 ? '<br>' . $type2 : '') ?></span><br><br>
+            Pool:<br><span class="price_font"><?= ($pool ?? 'All') ?><?= ($pool2 ? '<br>' . $pool2 : '') ?></span><br><br>
             <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span><br>
             <span style="color: white; text-shadow: none"><?= $blizzardId ?></span>
         </div>
