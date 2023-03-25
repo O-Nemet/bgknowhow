@@ -10,15 +10,21 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Big Stats aka APM Comp:</h3>
     <?php
-    $board   = ['Selfless', '*Salty Looter', 'Hoggarr', 'Hoggarr', 'Peggy', 'Peggy', 'Baron'];
+    $board   = ['Selfless', 'Titus', '*Salty Looter', 'Hoggarr', 'Hoggarr', '*Peggy Sturdybone', 'Greta'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Scallywag Deathrattle Comp:</h3>
+    <h3>Big Stats Attack Comp:</h3>
     <?php
-    $board   = ['Scally', 'Scally', 'Eliza', 'Eliza', 'Khadgar', 'Khadgar', 'Baron'];
+    $board   = ['Vanessa', 'Vanessa', 'Ball', 'Greta', 'Greta', 'Ripsnarl', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
+    ?>
+    <!--    <h3>Scallywag Deathrattle Comp:</h3>-->
+    <?php
+    //    $board   = ['Scally', 'Scally', 'Eliza', 'Eliza', 'Khadgar', 'Khadgar', 'Titus'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
     ?>
 </div>
 

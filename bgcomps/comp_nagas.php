@@ -10,7 +10,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Big Stats Athissa Comp:</h3>
     <?php
-    $board   = ['Waverider', 'Myrmidon', '*Eventide Brute', 'Shoal Commander', 'Athissa', 'Orgozoa', 'Glowscale'];
+    $board   = ['Waverider', 'Myrmidon', '*Eventide Brute', 'Athissa', 'Athissa', 'Orgozoa', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

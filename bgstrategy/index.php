@@ -89,7 +89,7 @@ if (!empty($buddy)) {
             <?php
             foreach ($heroes as $hero) {
                 echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $hero->websites->bgknowhow . '\'">';
-                echo "<td><a href='" . $hero->websites->bgknowhow . "'>$hero->name</a></td>";
+                echo "<td><a class='hoverimage' href='" . $hero->websites->bgknowhow . "'>$hero->name</a></td>";
                 echo "<td style='text-align: center'>$hero->health</td>";
                 echo "<td style='text-align: center'>$hero->armor</td>";
                 echo "<td style='text-align: center'>" . ($hero->heroPowerCost !== null ? $hero->heroPowerCost : '-') . "</td>";
@@ -120,7 +120,7 @@ if (!empty($buddy)) {
             echo "</div>";
             echo "<div class='strategy-images minions cf'>";
             foreach ($minions as $minion) {
-                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pool === $minionPool)) {
+                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool)) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                     echo "<div class='name'>" . $minion->name . "</div>";
                     echo "<div class='mask'></div>";

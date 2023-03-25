@@ -1,6 +1,7 @@
 <?php
 include_once('../header.php');
 ?>
+
     <h2 class="page_title">Select your minion type</h2>
 
     <div class="comp_selection">
@@ -13,9 +14,9 @@ include_once('../header.php');
         <div><a href="comp_nagas.php"><img src="<?= PICTURE_LOCAL ?>misc/comps_nagas.webp"><span>Nagas</span></a></div>
         <div><a href="comp_pirates.php"><img src="<?= PICTURE_LOCAL ?>misc/comps_pirates.webp"><span>Pirates</span></a></div>
         <div><a href="comp_quilboars.php"><img src="<?= PICTURE_LOCAL ?>misc/comps_quilboars.webp"><span>Quilboars</span></a></div>
+        <div><a href="comp_undeads.php"><img src="<?= PICTURE_LOCAL ?>misc/comps_undeads.webp"><span>Undeads</span></a></div>
+        <div><a href="comp_neutrals.php"><img src="<?= PICTURE_LOCAL ?>misc/comps_neutrals.webp"><span>Neutrals</span></a></div>
     </div>
-
-    <!--    <div class="cf"></div>-->
 
 <?php
 include_once('../footer.php');

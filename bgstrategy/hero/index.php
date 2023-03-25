@@ -17,7 +17,7 @@ if ($selectedStrat && $selectedVote) {
 if ($selectedId) {
     $stmt = getEntityData($selectedId, $unitType);
 
-    $stmt->bind_result($selectedId, $name, $nameShort, $health, $armorTier, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive, $artist, $flavor);
+    $stmt->bind_result($selectedId, $name, $nameShort, $health, $armorTier, $armor, $armorMMR, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive, $artist, $flavor);
 
     $stmt->fetch();
     ?>
@@ -28,7 +28,7 @@ if ($selectedId) {
                 <img class="img_health" src="<?= PICTURE_LOCAL ?>icons/health.png">
             </div>
             <br><br>
-            <div class="container"><span class="card_attack" style="padding-left: 1px;"><?= getArmor($armorTier) ?></span>
+            <div class="container"><span class="card_attack" style="padding-left: 1px;"><?= $armor ?></span>
                 <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor.webp">
             </div>
             <br><br><br>

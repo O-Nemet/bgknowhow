@@ -17,12 +17,12 @@ include_once('../header.php');
     //    $minions = getMinionsForBoard($board);
     //    drawBoard($minions);
     ?>
-    <h3>Selfless/Baron Poison Comp:</h3>
+    <h3>Selfless/Titus Poison Comp:</h3>
     <?php
-    $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', 'Ball', 'Honcho', 'Ball'];
+    $board   = ['Selfless', 'Titus', 'Swolefin', 'Ball', 'Magma', 'Magma', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
-    //    $board   = ['Selfless', 'Baron', 'Swolefin', 'Striker', 'Dong', 'Honcho', 'Sefin'];
+    //    $board   = ['Selfless', 'Titus', 'Swolefin', 'Striker', 'Dong', 'Honcho', 'Sefin'];
     //    $minions = getMinionsForBoard($board);
     //    drawBoard($minions);
     ?>

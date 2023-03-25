@@ -5,20 +5,20 @@ include_once('../header.php');
 <div class="lobby_legends">
     <img src="<?= PICTURE_LOCAL ?>misc/ll_logo.webp" alt="Lobby Legends logo">
     <p>
-        Lobby Legends is a monthly esports series by Blizzard, started in 2022 and supported with a total prize pool of $500,000. Basic information can be found on the <a href="https://playhearthstone.com/esports/programs/battlegrounds" target="_blank">official website</a>.
+        Lobby Legends was a monthly esports series by Blizzard, started in early 2022 and supported with a total prize pool of $500,000. Basic information can be found on the <a href="https://playhearthstone.com/esports/programs/battlegrounds" target="_blank">official website</a>.
         <br><br>
-        In theory, everyone can qualify for the finals. The first qualification gate is securing a spot in the top 16 of one of the official <a href="https://playhearthstone.com/community/leaderboards?region=US&leaderboardId=battlegrounds" target="_blank">regional leaderboards</a> (Americas, Asia-Pacific or Europe) at the end of the month. Usually 3-4 weeks later a top 48 tournament with the qualified players from all three regions will take place. To advance further, one has to reach top 4 out of 8 (8 players per group) after three rounds of BGs, twice.
+        In theory, everyone could qualify for the finals. The first qualification gate was securing a spot in the top 16 of one of the official <a href="https://playhearthstone.com/community/leaderboards?region=US&leaderboardId=battlegrounds" target="_blank">regional leaderboards</a> (Americas, Asia-Pacific or Europe) at the end of the month. Usually 3-4 weeks later a top 48 tournament with the qualified players from all three regions would take place. To advance further, one had to reach top 4 out of 8 (8 players per group) after three rounds of BGs, twice.
         <br><br>
-        After that the LL main event happens, where the 12 remaining players and 4 qualifiers from China will battle it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players will play lobbies until someone has accumulated 20 points and then wins a lobby).
+        After that the LL main event happened, where the 12 remaining players and 4 qualifiers from China were battling it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players would play lobbies until someone has accumulated 20 points and then wins a lobby).
         <br><br>
-        The next Lobby Legends top 48 qualifier will happen on November 19th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30-minute delay and the event will take 2x3 rounds, so about 5 hours. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-9/" target="_blank">Blizzards event website</a>.
-        <br><br>
-        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 09:30" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>
+        <!--        The next Lobby Legends top 48 qualifier will happen on November 19th. There will be no official broadcast, but it will be live-streamed by several of the players on their Twitch channels. All streamers will have to obey a 30-minute delay and the event will take 2x3 rounds, so about 5 hours. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-9/" target="_blank">Blizzards event website</a>.-->
+        <!--        <br><br>-->
+        <!--        <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
+        <!--        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 09:30" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>-->
         <!--        The next Lobby Legends will happen on December 3rd (top 16 semi-finals) and December 4th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://playhearthstone.com/en-gb/esports/tournament/lobby-legends-9/" target="_blank">Blizzards event website</a>.-->
         <!--        <br><br>-->
         <!--        <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
-        <!--        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-12-03 00:00" data-background="#8dbdd8">Lobby Legends #9 Top48</a>-->
+        <!--        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-12-03 00:00" data-background="#8dbdd8">Lobby Legends #9 Top16</a>-->
     </p>
     <br>
 
@@ -386,7 +386,7 @@ include_once('../header.php');
 
     <h3>Lobby Legends #6 (“Castle Nathria” at 24/25.09.2022) Top 8 after 8 lobbies:</h3>
     <p>
-        Patch 24.2.2 with quests/rewards, with buffed two-drops and nerfed Toggwaggle, was played. Also, the Twitch "Tavern Buddy" extension for multiple ways of viewer interaction was used for the very first time.
+        Patch 24.2.2 with quests/rewards, with buffed two-drops and a nerfed <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=85'>Toggwaggle</a>, was played. Also, the Twitch "Tavern Buddy" extension for multiple ways of viewer interaction was used for the very first time.
     </p>
     <br>
     <p>
@@ -458,7 +458,7 @@ include_once('../header.php');
 
     <h3>Lobby Legends #7 (“Murlocized” at 15/16.10.2022) Top 8 after 7 lobbies:</h3>
     <p>
-        Patch 24.4.0 with Sylvanas as a new hero was played.
+        Patch 24.4.0 with quests/rewards and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=88'>Sylvanas</a> as a new hero was played.
     </p>
     <br>
     <p>
@@ -528,9 +528,9 @@ include_once('../header.php');
         </tbody>
     </table>
 
-    <h3>Lobby Legends #8 (“Hallow's End Trailer” at 12/13.11.2022) Top 8 after 6 lobbies:</h3>
+    <h3>Lobby Legends #8 (“Hallow's End” at 12/13.11.2022) Top 8 after 6 lobbies:</h3>
     <p>
-        Patch 24.6.2 with a slightly nerfed Volatile Venom and the returned quest rewards Golden Hammer and Kidnap Sack was played.
+        Patch 24.6.2 with quests/rewards, a slightly nerfed Volatile Venom and the returned rewards Golden Hammer and Kidnap Sack was played.
     </p>
     <br>
     <p>
@@ -600,6 +600,78 @@ include_once('../header.php');
         </tbody>
     </table>
 
+    <h3>Lobby Legends #9 (“Winter Veil” at 02/03.12.2022) Top 8 after 6 lobbies:</h3>
+    <p>
+        Patch 25.0.0 with quests/rewards, the new hero <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=90'>Enhance-o Mechano</a> and the new quest reward Enhance-a-matic was played. The prize pool was doubled to $100,000 for this final event of the year.
+    </p>
+    <br>
+    <p>
+        <a href="https://www.youtube.com/watch?v=9dW5x4g0V04" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=RkePogKCoDw" target="_blank">YouTube VOD recording of day 2</a>
+    </p>
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>PenguinSan</td>
+            <td>AP (JPN)</td>
+            <td>30.0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Zanyang</td>
+            <td>AP (KOR)</td>
+            <td>26.5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Shaxy</td>
+            <td>AP (TWN)</td>
+            <td>24.5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sara</td>
+            <td>CHN</td>
+            <td>24.5</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>iGSword</td>
+            <td>CHN</td>
+            <td>19.5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Vigo</td>
+            <td>CHN</td>
+            <td>17.0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Zorg</td>
+            <td>EU (GER)</td>
+            <td>15.0</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Maks7K</td>
+            <td>EU (RUS)</td>
+            <td>11.0</td>
+        </tr>
+        </tbody>
+    </table>
+
     <br><br>
 
     <!--    <img src="--><? //= PICTURE_LOCAL ?><!--misc/ll_prizepool.webp" alt="Lobby Legends prize pool">-->
@@ -631,7 +703,7 @@ include_once('../header.php');
         <tbody>
         <tr>
             <td>1</td>
-            <td>Zorgo</td>
+            <td>Zorg</td>
             <td>EU (GER)</td>
             <td>36</td>
         </tr>

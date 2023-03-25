@@ -3,7 +3,7 @@ require_once('../config/db.php');
 require_once('../functions.php');
 
 const CSV_SEPARATOR = ';';
-const VERSION       = '0.6.0';
+const VERSION       = '0.8.0';
 $getActiveOnly = 1;
 
 // generate heroes files
@@ -12,6 +12,8 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
                                      bgh.name_short,
                                      bgh.pool,
                                      bgh.health,
+                                     bgh.armor,
+                                     bgh.armor_mmr,
                                      bgh.armor_tier,
                                      bgh.id_blizzard,
                                      bgh.id_playhs,
@@ -26,7 +28,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armorTier, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive);
+    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armor, $armorMMR, $armorTier, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive);
 
     $row_count = $stmt->num_rows;
 
@@ -34,8 +36,9 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         'Name' . CSV_SEPARATOR .
         'Name Short' . CSV_SEPARATOR .
         'Health' . CSV_SEPARATOR .
-        'Armor-Tier' . CSV_SEPARATOR .
+//        'Armor-Tier' . CSV_SEPARATOR .
         'Armor' . CSV_SEPARATOR .
+        'Armor High MMR' . CSV_SEPARATOR .
         'Blizzard ID' . CSV_SEPARATOR .
         'Picture link' . CSV_SEPARATOR .
         'Hero Power cost' . CSV_SEPARATOR .
@@ -60,14 +63,15 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
-            $armorTier . CSV_SEPARATOR .
-            getArmor($armorTier) . CSV_SEPARATOR .
+//            $armorTier . CSV_SEPARATOR .
+            $armor . CSV_SEPARATOR .
+            $armorMMR . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
             $hpCost . CSV_SEPARATOR .
             $hpText . CSV_SEPARATOR .
             $blizzardIdHp . CSV_SEPARATOR .
-            PICTURE_URL_RENDER . $blizzardIdHp . '.png' . CSV_SEPARATOR .
+            PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png' . CSV_SEPARATOR .
             (bool)$isActive . PHP_EOL;
 
         $csvDataHeroes .= $csvData;
@@ -77,7 +81,8 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['pool']                  = $pool;
         $heroes['data'][$i]['health']                = $health;
         $heroes['data'][$i]['armorTier']             = $armorTier;
-        $heroes['data'][$i]['armor']                 = getArmor($armorTier);
+        $heroes['data'][$i]['armor']                 = $armor;
+        $heroes['data'][$i]['armorHighMMR']          = $armorMMR;
         $heroes['data'][$i]['id']                    = $blizzardId;
         $heroes['data'][$i]['picture']               = PICTURE_URL_RENDER . $blizzardId . '.png';
         $heroes['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
@@ -133,7 +138,9 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.name,
                                      bgm.name_short,
                                      bgm.type,
+                                     bgm.type2,
                                      bgm.pool,
+                                     bgm.pool2,
                                      bgm.text,
                                      bgm.text_golden,
                                      bgm.tier,
@@ -161,7 +168,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $type, $pool, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $hasSpellcraft, $blizzardId, $summonId, $playhsId, $hpwnId, $artist, $flavor);
+    $stmt->bind_result($id, $name, $nameShort, $type, $type2, $pool, $pool2, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $hasSpellcraft, $blizzardId, $summonId, $playhsId, $hpwnId, $artist, $flavor);
 
     $row_count = $stmt->num_rows;
 
@@ -169,7 +176,9 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         'Name' . CSV_SEPARATOR .
         'Name Short' . CSV_SEPARATOR .
         'Type' . CSV_SEPARATOR .
-        'Type Pool' . CSV_SEPARATOR .
+        'Type2' . CSV_SEPARATOR .
+        'Pool' . CSV_SEPARATOR .
+        'Pool2' . CSV_SEPARATOR .
         'Tier' . CSV_SEPARATOR .
         'Attack' . CSV_SEPARATOR .
         'Health' . CSV_SEPARATOR .
@@ -209,7 +218,9 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $type . CSV_SEPARATOR .
+            $type2 . CSV_SEPARATOR .
             ($pool ? $pool : 'All') . CSV_SEPARATOR .
+            $pool2 . CSV_SEPARATOR .
             $tier . CSV_SEPARATOR .
             $attack . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
@@ -235,10 +246,18 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 
         $csvDataMinions .= $csvData;
 
-        $minions['data'][$i]['name']                        = $name;
-        $minions['data'][$i]['nameShort']                   = $nameShort;
-        $minions['data'][$i]['type']                        = $type;
-        $minions['data'][$i]['pool']                        = ($pool ? $pool : 'All');
+        $minions['data'][$i]['name']      = $name;
+        $minions['data'][$i]['nameShort'] = $nameShort;
+        $minions['data'][$i]['type']      = $type;
+        $minions['data'][$i]['types'][0]  = $type;
+        if ($type2) {
+            $minions['data'][$i]['types'][1] = $type2;
+        }
+        $minions['data'][$i]['pool']     = ($pool ? $pool : 'All');
+        $minions['data'][$i]['pools'][0] = ($pool ? $pool : 'All');
+        if ($pool2) {
+            $minions['data'][$i]['pools'][1] = $pool2;
+        }
         $minions['data'][$i]['tier']                        = $tier;
         $minions['data'][$i]['attack']                      = $attack;
         $minions['data'][$i]['health']                      = $health;
@@ -351,19 +370,23 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-        $csvData =
-            $name . CSV_SEPARATOR .
-            $type . CSV_SEPARATOR .
-            $tier . CSV_SEPARATOR .
-            $attack . CSV_SEPARATOR .
-            $health . CSV_SEPARATOR .
-            $text . CSV_SEPARATOR .
-            $attack * 2 . CSV_SEPARATOR .
-            $health * 2 . CSV_SEPARATOR .
-            $textGolden . CSV_SEPARATOR .
-            (bool)$isActive . CSV_SEPARATOR .
-            $blizzardId . CSV_SEPARATOR .
-            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . PHP_EOL;
+        $textFixed = str_contains($text, ';') ? '"' . $text . '"' . CSV_SEPARATOR : $text . CSV_SEPARATOR .
+
+            $csvData =
+                $name . CSV_SEPARATOR .
+                $type . CSV_SEPARATOR .
+                $tier . CSV_SEPARATOR .
+                $attack . CSV_SEPARATOR .
+                $health . CSV_SEPARATOR .
+//            str_replace('\'', '""\'""', $text) . CSV_SEPARATOR .
+//                $textFixed . CSV_SEPARATOR .
+                $text . CSV_SEPARATOR .
+                $attack * 2 . CSV_SEPARATOR .
+                $health * 2 . CSV_SEPARATOR .
+                $textGolden . CSV_SEPARATOR .
+                (bool)$isActive . CSV_SEPARATOR .
+                $blizzardId . CSV_SEPARATOR .
+                PICTURE_URL_RENDER_BG . $blizzardId . '.png' . PHP_EOL;
 
         $csvBuddies .= $csvData;
 
@@ -460,7 +483,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             $name . CSV_SEPARATOR .
             $text . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
-            PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
+            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             (bool)$isActive . PHP_EOL;
 
         $csvDataQuests .= $csvData;
@@ -551,7 +574,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             $name . CSV_SEPARATOR .
             $text . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
-            PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
+            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             (bool)$isActive . PHP_EOL;
 
         $csvDataRewards .= $csvData;

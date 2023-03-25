@@ -15,6 +15,7 @@ $minionTypes['murlocs']    = isset($_GET['mu']) ? intval($_GET['mu']) : 1;
 $minionTypes['nagas']      = isset($_GET['na']) ? intval($_GET['na']) : 1;
 $minionTypes['pirates']    = isset($_GET['pi']) ? intval($_GET['pi']) : 1;
 $minionTypes['quilboar']   = isset($_GET['qu']) ? intval($_GET['qu']) : 1;
+$minionTypes['undead']     = isset($_GET['ud']) ? intval($_GET['ud']) : 1;
 
 //var_dump($minionTypes);
 //var_dump($_SERVER["REQUEST_URI"]);
@@ -23,15 +24,16 @@ $minions = [];
 foreach ($tempMinions->data as $key => $object) {
     if ($object->tier === 1 && $object->isToken === false && $object->isActive === true &&
         (
-            ($object->pool === 'Beast' && $minionTypes['beasts']) ||
-            ($object->pool === 'Demon' && $minionTypes['demons']) ||
-            ($object->pool === 'Dragon' && $minionTypes['dragons']) ||
-            ($object->pool === 'Elemental' && $minionTypes['elementals']) ||
-            ($object->pool === 'Mech' && $minionTypes['mechs']) ||
-            ($object->pool === 'Murloc' && $minionTypes['murlocs']) ||
-            ($object->pool === 'Naga' && $minionTypes['nagas']) ||
-            ($object->pool === 'Pirate' && $minionTypes['pirates']) ||
-            ($object->pool === 'Quilboar' && $minionTypes['quilboar']) ||
+            (($object->pools[0] === 'Beast' || @$object->pools[1] === 'Beast') && $minionTypes['beasts']) ||
+            (($object->pools[0] === 'Demon' || @$object->pools[1] === 'Demon') && $minionTypes['demons']) ||
+            (($object->pools[0] === 'Dragon' || @$object->pools[1] === 'Dragon') && $minionTypes['dragons']) ||
+            (($object->pools[0] === 'Elemental' || @$object->pools[1] === 'Elemental') && $minionTypes['elementals']) ||
+            (($object->pools[0] === 'Mech' || @$object->pools[1] === 'Mech') && $minionTypes['mechs']) ||
+            (($object->pools[0] === 'Murloc' || @$object->pools[1] === 'Murloc') && $minionTypes['murlocs']) ||
+            (($object->pools[0] === 'Naga' || @$object->pools[1] === 'Naga') && $minionTypes['nagas']) ||
+            (($object->pools[0] === 'Pirate' || @$object->pools[1] === 'Pirate') && $minionTypes['pirates']) ||
+            (($object->pools[0] === 'Quilboar' || @$object->pools[1] === 'Quilboar') && $minionTypes['quilboar']) ||
+            (($object->pools[0] === 'Undead' || @$object->pools[1] === 'Undead') && $minionTypes['undead']) ||
             ($object->pool === 'All')
         )
     ) {
@@ -47,7 +49,7 @@ foreach ($tempMinions->data as $key => $object) {
     This is a dynamically generated matrix featuring the match-ups of all tier 1 minions on turn 1.<br>
     The number in the square shows how much damage you will deal/receive from the board (in addition to the turn 1 damage).<br>
     The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.<br>
-    For this scenario the Razorfen Geomancer has been self-gemmed to a 4/2 minion.
+    For this scenario the <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=8'>Razorfen Geomancer</a> has been self-gemmed to a 4/2 minion.
     <br><br>
     Click any of these icons below to deactivate the banned minion types of your lobby.
 </p>
@@ -62,6 +64,7 @@ foreach ($tempMinions->data as $key => $object) {
     <a href="<?= getLink('na', $minionTypes['nagas']); ?>"><img class="<?= ($minionTypes['nagas'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_naga.png" alt="Nagas" title="Nagas"></a>
     <a href="<?= getLink('pi', $minionTypes['pirates']); ?>"><img class="<?= ($minionTypes['pirates'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" alt="Pirates" title="Pirates"></a>
     <a href="<?= getLink('qu', $minionTypes['quilboar']); ?>"><img class="<?= ($minionTypes['quilboar'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" alt="Quilboar" title="Quilboar"></a>
+    <a href="<?= getLink('ud', $minionTypes['undead']); ?>"><img class="<?= ($minionTypes['undead'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_undead.png" alt="Undead" title="Undead"></a>
 </div>
 
 <br><br>
@@ -121,7 +124,7 @@ function getLink($type, $currentValue): string
 {
     // first-load handling (so a call to index.php is valid)
     if (strstr($_SERVER["REQUEST_URI"], '?') === false) {
-        $newLink = $_SERVER["REQUEST_URI"] . '?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1';
+        $newLink = $_SERVER["REQUEST_URI"] . '?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1';
     } else {
         $newLink = $_SERVER["REQUEST_URI"];
     }

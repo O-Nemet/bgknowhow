@@ -10,7 +10,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Big Stats Comp:</h3>
     <?php
-    $board   = ['Prophet', 'Knight', '*Bristleback Brute', 'Pumba', 'Shaker', 'Elder', 'Duo'];
+    $board   = ['Prophet', '*Bristleback Knight', '*Bristleback Brute', 'Pumba', 'Shaker', 'Elder', 'Duo'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -28,7 +28,7 @@ include_once('../header.php');
     //    ?>
     <h3>Elder/Hoggarr Gem Comp:</h3>
     <?php
-    $board   = ['Knight', 'Hoggarr', 'Hoggarr', 'Elder', 'Elder', 'Tusk', 'Duo'];
+    $board   = ['*Bristleback Knight', 'Tusk', 'Elder', 'Elder', 'Hoggarr', 'Hoggarr', 'Duo'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
