@@ -8,16 +8,15 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats Comp:</h3>
+    <h3>Big Stats Tea Master/Menagerie Comp:</h3>
     <?php
-    $board   = ['Hydra', 'Knight', 'Ball', 'Warden', 'Theo', 'Theo', 'Ball'];
+    $board   = ['Hydra', '*Bristleback Knight', 'Blanchy', 'Warden', 'Theo', 'Theo', 'Queen'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
-
     ?>
-    <h3>Big Stats Taunt Comp:</h3>
+    <h3>Big Stats Fort/Taunt Comp:</h3>
     <?php
-    $board   = ['Queen', 'Voidlord', 'Queen', 'Glowscale', 'Fort', 'Fort', 'Ball'];
+    $board   = ['Queen', 'Blanchy', 'Queen', 'Glowscale', 'Fort', 'Fort', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

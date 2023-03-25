@@ -16,13 +16,13 @@ include_once('../header.php');
     ?>
     <h3>Kalecgos Battlecry Comp:</h3>
     <?php
-    $board   = ['Bronze Warden', 'Nadina', 'Atramedes', 'Ball', 'Kaly', 'Kaly', 'Brann'];
+    $board   = ['Bronze Warden', 'Nadina', 'Cyborg', 'Ball', 'Kaly', 'Kaly', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Ball Poison Comp:</h3>
+    <h3>Nadina Poison Comp:</h3>
     <?php
-    $board   = ['Nadina', 'Ball', 'Ball', 'Nadina', 'Queen', 'Queen', 'Toxfin'];
+    $board   = ['Nadina', 'Skyfin', 'Skyfin', 'Nadina', 'Queen', 'Ball', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

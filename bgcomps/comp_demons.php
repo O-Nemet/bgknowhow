@@ -8,27 +8,28 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats Comp:</h3>
-    <?php
-    $board   = ['Selfless', 'Ball', 'Ur\'zul', '*Legion Overseer', '*Imp Mama', 'Felbat', 'Baron'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <h3>Macaw/Trickster Deathrattle Comp:</h3>
-    <?php
-    $board   = ['Macaw', 'Trickster', '*Imp Mama', 'Felbat', '*Legion Overseer', '*Imp Mama', 'Baron'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
     <h3>Maximum Juggler Comp:</h3>
     <?php
     $board   = ['*Ring Matron', '*Ring Matron', 'Voidlord', 'Voidlord', 'Infernal', 'Juggler', 'Juggler'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
-    //    $board   = ['Selfless', 'Ur\'zul', 'Dong', 'Dong', '*Imp Mama', 'Felbat', 'Baron'];
+    ?>
+    <h3>Big Stats Comp:</h3>
+    <?php
+    $board   = ['Selfless', 'Ball', 'Ball', 'Ur\'zul', '*Legion Overseer', 'Felbat', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <!--    <h3>Macaw/Trickster Deathrattle Comp:</h3>-->
+    <!--    --><?php
+    //    $board   = ['Macaw', 'Trickster', '*Imp Mama', 'Felbat', '*Legion Overseer', '*Imp Mama', 'Titus'];
     //    $minions = getMinionsForBoard($board);
     //    drawBoard($minions);
-    ?>
+    //    $board   = ['Selfless', 'Ur\'zul', 'Dong', 'Dong', '*Imp Mama', 'Felbat', 'Titus'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
+
+    //    ?>
 </div>
 
 <?php
