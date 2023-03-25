@@ -120,13 +120,13 @@ include_once('../header.php');
     </p>
     <div class="comp_wrapper" style="width: 87%;">
         <?php
-        $board   = ['Eliza', 'Buster', 'Zapp', 'Baron', 'Mummy', 'Pupbot', 'Scallywag'];
+        $board   = ['Eliza', 'Buster', 'Zapp', 'Titus', 'Mummy', 'Pupbot', 'Scallywag'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
     </div>
     <p>
-        A brief example could be a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/hero/?id=38">Maiev</a> game in a lobby with Pirates, Mechs, Dragons, Quilboar, and Murlocs. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/hero/?id=38">Maiev</a> is strong at lining up early triples, especially into 6 before other heroes are able to. Dragons, Quilboar, and Murlocs can be slow to scale up, meaning an early <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=131">Eliza</a> has a strong window to tempo out those comps. Pirate Exodia likes Quilboar in as a way to play around <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a>. Mechs provide an alternative course in <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=142">Omega Buster</a> as a comp that can also make use of a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>, as well as providing high tempo
+        A brief example could be a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/hero/?id=38">Maiev</a> game in a lobby with Pirates, Mechs, Dragons, Quilboar, and Murlocs. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/hero/?id=38">Maiev</a> is strong at lining up early triples, especially into 6 before other heroes are able to. Dragons, Quilboar, and Murlocs can be slow to scale up, meaning an early <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=131">Eliza</a> has a strong window to tempo out those comps. Pirate Exodia likes Quilboar in as a way to play around <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a>. Mechs provide an alternative course in <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=142">Omega Buster</a> as a comp that can also make use of a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a>, as well as providing high tempo
         1 drops in <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=6">Micro Mummy</a> and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=7">Pupbot</a>. Picking up early <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=12">Scallywag</a>s, can play into this plan, and we can have contingencies if our plan doesn't come to fruition. Having a blurry painting of this before the game starts will help your game.
         <br><br>
         And NOW we're ready to start the game.
@@ -148,13 +148,13 @@ include_once('../header.php');
     </div>
     <p>
         When you want or need to win fights, you should be playing for tempo. Oftentimes playing for tempo means that you'll naturally start taking advantage of tribal synergies, which begins what we call our direction. If your board is made up of 5 pirates early on, you will start looking for minions that benefit pirates, as you move to late-game. As you get later on in the game, if you have a direction, you'll be looking for 'keystone' cards that fit your direction. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=136">Goldrinn</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a> for Beasts, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=210">Darkgaze Elder</a> for Quilboar, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=138">Kalecgos, Arcane Aspect</a> for Dragons etc. Neutral cards like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=109">Brann</a>,
-        <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>, or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=242">Tea Master Theotar</a> can also advise your direction. If you don't have a direction, then it's important to play for tempo so that you can get to Tier 5 and 6 where most of the 'keystone' cards reside. This allows you to pick one of them up and then have a direction for your late game build. There is a balance to deciding what is an acceptable direction depending on the trajectory of a lobby, because different cards scale at different speeds. Scaling engines like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=138">Kaly</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=210">Elder</a>, or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=206">Athissa</a> take time to build up. Exodia style comps scale exponentially with each additional piece
+        <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a>, or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=242">Tea Master Theotar</a> can also advise your direction. If you don't have a direction, then it's important to play for tempo so that you can get to Tier 5 and 6 where most of the 'keystone' cards reside. This allows you to pick one of them up and then have a direction for your late game build. There is a balance to deciding what is an acceptable direction depending on the trajectory of a lobby, because different cards scale at different speeds. Scaling engines like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=138">Kaly</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=210">Elder</a>, or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=206">Athissa</a> take time to build up. Exodia style comps scale exponentially with each additional piece
         of the
         puzzle picked up.
     </p>
     <div class="comp_wrapper">
         <?php
-        $board   = ['Brann', 'Baron', 'Theo', 'Kaly', 'Elder', 'Athissa'];
+        $board   = ['Brann', 'Titus', 'Theo', 'Kaly', 'Elder', 'Athissa'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -295,11 +295,11 @@ include_once('../header.php');
         <br><br>
         One of the main things that lower level players don't do is check their opponents before each combat phase. Even without a deck tracker the game gives you a lot of information about your opponents. How much damage they've done to their last two opponents, how many triples they have, their win streak, and a very blurry picture of the sort of comp they have. As it relates to deciding if you need to tempo up or if you can be greedy, checking your opponent typically gives you the answer. If they level, you know they invest gold in leveling instead of tempo, and may want to take the opportunity to level as well. If they are on a 5 round win streak doing a lot of damage to opponents, perhaps we focus on tempo for a turn. If they've been struggling and taking it from everyone, maybe you have the leeway to level aggressively. Do not judge an opponent's strength by their health total. They may have been greeding and spiked against you, or they may have gotten lucky match up RNG.
         <br><br>
-        Knowing their comp is also vital to shop purchasing decisions and positioning. If someone has a deathrattle comp, you may more specifically look for a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> to snipe their <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>. If they're mechs on tier 4 you might put a bumper in front to break a potential divine shield on their taunt. If they look to have multiple shields, consider a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=226">Blaster</a>. If they are likely to have extremely high-statted minions, look for <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a> and poison.
+        Knowing their comp is also vital to shop purchasing decisions and positioning. If someone has a deathrattle comp, you may more specifically look for a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> to snipe their <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a>. If they're mechs on tier 4 you might put a bumper in front to break a potential divine shield on their taunt. If they look to have multiple shields, consider a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=226">Blaster</a>. If they are likely to have extremely high-statted minions, look for <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a> and poison.
     </p>
     <div class="comp_wrapper" style="width: 62%">
         <?php
-        $board   = ['Zapp', 'Baron', 'Blaster', 'Leeroy', 'Goldrinn'];
+        $board   = ['Zapp', 'Titus', 'Blaster', 'Leeroy', 'Goldrinn'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -309,7 +309,7 @@ include_once('../header.php');
     </p>
     <h3 data-movie="Independence Day">“First, You Strategically Position Your Pieces And When The Timing Is Right You Strike.” <em>(Understanding Positioning)</em></h3>
     <p>
-        Positioning can have a huge impact on combat outcomes. To use a stark example, imagine putting a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a> in the left-most position and a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=136">Goldrinn</a> in the right-most position. In most situations that can turn an easy win into a guaranteed loss.
+        Positioning can have a huge impact on combat outcomes. To use a stark example, imagine putting a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a> in the left-most position and a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=136">Goldrinn</a> in the right-most position. In most situations that can turn an easy win into a guaranteed loss.
         <br><br>
         A note for beginners, attack priority is determined by the player with more minions. If you have more minions than your opponent, you will attack first, if they have more they will attack first, and if you have the same it will be a coin flip (50/50 chance). This is another reason why playing on curve and not over-rolling is important. Attacking first typically benefits you in combat, in a way giving your minions 'control' of a fight, so making sure you're not missing out on filling your board will result in better combat results.
     </p>
@@ -378,12 +378,12 @@ include_once('../header.php');
     </p>
     <h4>Priority</h4>
     <p>
-        As an even more general rule, you want minions that you want to attack first to attack first. Mind-blowing, right? As we just went over, usually this is higher attack minions, but there are also any other number of reasons why we'd want other minions to attack first, usually because that minion has an effect on attacking (or on death). <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=60">Macaw</a>, and Cleave, Overkill, and Windfury minions all have additional value when they're attacking, but not when they're attacked. Part of the reason attacking first can be so important is if a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> attacks first it can kill a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=67">Juggler</a>
+        As an even more general rule, you want minions that you want to attack first to attack first. Mind-blowing, right? As we just went over, usually this is higher attack minions, but there are also any other number of reasons why we'd want other minions to attack first, usually because that minion has an effect on attacking (or on death). <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=60">Macaw</a>, and Cleave, Overkill, and Windfury minions all have additional value when they're attacking, but not when they're attacked. Part of the reason attacking first can be so important is if a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> attacks first it can kill a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=67">Juggler</a>
         before they can have any impact on a fight, if a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=60">Macaw</a> attacks first it can trigger free deathrattles before you have a chance to kill anything on their board.
     </p>
     <div class="comp_wrapper" style="width: 52%;">
         <?php
-        $board   = ['Zapp', 'Macaw', 'Baron', 'Juggler'];
+        $board   = ['Zapp', 'Macaw', 'Titus', 'Juggler'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -394,13 +394,13 @@ include_once('../header.php');
     </p>
     <div class="comp_wrapper" style="width: 87%;">
         <?php
-        $board   = ['Goldrinn', 'Mecherel', 'Baron', 'Mama Bear', 'Gemsplitter', 'Kangor\'s', 'Rat Pack'];
+        $board   = ['Goldrinn', 'Mecherel', 'Titus', 'Mama Bear', 'Gemsplitter', 'Kangor\'s', 'Rat Pack'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
     </div>
     <p>
-        Another concept of priority is minions you want to die later in combat. For obvious reasons you typically want to put these minions further right on your board to delay their attacks as much as possible. Examples of this are minions like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=56">Gemsplitter</a> and other minions like Avenge units that have an effect while they're alive. Other minions that you might want to die later are things like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=114">Kangor's</a>, or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=61">Rat Pack</a>, so they can have as many summons as possible. Besides, positioning these minions to delay their attacks, there's one more way you can help these minions stay
+        Another concept of priority is minions you want to die later in combat. For obvious reasons you typically want to put these minions further right on your board to delay their attacks as much as possible. Examples of this are minions like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=56">Gemsplitter</a> and other minions like Avenge units that have an effect while they're alive. Other minions that you might want to die later are things like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=114">Kangor's</a>, or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=61">Rat Pack</a>, so they can have as many summons as possible. Besides, positioning these minions to delay their attacks, there's one more way you can help these minions stay
         alive, which brings us to our next topic.
     </p>
     <h4>Taunts</h4>
@@ -410,13 +410,13 @@ include_once('../header.php');
     </p>
     <div class="comp_wrapper">
         <?php
-        $board   = ['Voidlord', 'Module', 'Nadina', 'Scallywag', 'Baron', 'Zapp'];
+        $board   = ['Voidlord', 'Module', 'Nadina', 'Scallywag', 'Titus', 'Zapp'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
     </div>
     <p>
-        Last bit on positioning is just to reiterate and stress the importance of checking your opponents before combat. If they have 5 or 6 dragons you might want to play around <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=140">Nadina</a>. If they're Beasts or Mechs you're more likely going to want to make sure you have cleave protection. If they're running <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=108">Baron</a>, focus on trying to get <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> for a turn.
+        Last bit on positioning is just to reiterate and stress the importance of checking your opponents before combat. If they have 5 or 6 dragons you might want to play around <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=140">Nadina</a>. If they're Beasts or Mechs you're more likely going to want to make sure you have cleave protection. If they're running <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a>, focus on trying to get <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=144">Zapp</a> for a turn.
     </p>
     <h3 data-movie="Oceans Eleven">“When That Perfect Shop Comes Along, You Buy Big” <em>(Understanding the Game Flow)</em></h3>
     <p>
