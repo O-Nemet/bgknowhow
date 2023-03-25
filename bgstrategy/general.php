@@ -48,7 +48,7 @@ include_once('../header.php');
         </tr>
         <tr>
             <td>5</td>
-            <td>9</td>
+            <td>11</td>
             <td>5</td>
             <td>9</td>
         </tr>
@@ -138,7 +138,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['*Eternal Knight', 'Gambler', 'Roadboar', 'Tad'];
+        $board   = ['Gambler', 'Roadboar', 'Tad'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -149,7 +149,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Saurolisk', 'Angler', 'Piggy'];
+        $board   = ['Rat', 'Saurolisk', 'Angler', 'Piggy', '*Eternal Knight'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -160,7 +160,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Tusk', 'Prophet', 'Lurker', 'Bot', 'Golem', 'Captain', 'Trickster', 'Muck', 'Scout', 'Emissary', 'Skyfin', 'Deathswarmer'];
+        $board   = ['Tusk', 'Prophet', 'Lurker', 'Bot', 'Golem', 'Captain', 'Trickster', 'Muck', 'Scout', 'Pen Pal', 'Emissary', 'Skyfin', 'Refiner', 'Deathswarmer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -171,7 +171,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Leaper', 'Smuggler', 'Rock', 'Party', 'Warleader', 'Snail', 'Refiner', 'Skull'];
+        $board   = ['Leaper', 'Smuggler', 'Rock', 'Party', 'Warleader', 'Snail', 'Skull'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -195,7 +195,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Nomi', 'Rag', 'Deflecto', 'Grease Bot', 'Buster', 'Ball', 'Brann', 'Murk-Eye', 'Athissa', 'Orgozoa', 'Hoggarr', 'Eliza', 'Elder', 'Charly', '*Eternal Knight', 'Summoner', 'Deathwhisper', 'Theo', 'Fort'];
+        $board   = ['Mama Bear', 'Goldrinn', 'Felbat', 'Promo-Drake', 'Kaly', 'Magmaloc', 'Nomi', 'Rag', 'Deflecto', 'Grease Bot', 'Buster', 'Ball', 'Murk-Eye', 'Athissa', 'Orgozoa', 'Vanessa', 'Hoggarr', 'Eliza', 'Aggem', 'Elder', 'Charly', 'Anub', 'Summoner', 'Deathwhisper', 'Brann', 'Titus', 'Theo', 'Fort'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -275,6 +275,56 @@ foreach ($tempMinions->data as $key => $object) {
             <td>89.68%</td>
             <td>94.16%</td>
             <td>96.88%</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3 id="buddycurves" class="cf">Buying Buddies</h3>
+    <p>
+        Each hero has a buddy button, which you can press during your shop turn to buy the buddy. The Buddy Button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.
+        <br><br>
+        The first time you press the Button, you'll get one copy of your Buddy; the second time you press the Button, you'll get two copies. The cost to press the Button resets and is slightly increased after you press it the first time.
+    </p>
+    <br>
+
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Turn</th>
+            <th>Initial Cost</th>
+            <th>Reset Cost</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>11</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>13</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>15</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>17</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>19</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>21</td>
+            <td>23</td>
         </tr>
         </tbody>
     </table>
