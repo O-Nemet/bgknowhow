@@ -19,7 +19,7 @@ include_once('header.php');
         <a href="bgcomps/">
             <div id="comps"><span>Endgame<br>Comps</span></div>
         </a>
-        <a href="bgsim/">
+        <a href="bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">
             <div id="simulator"><span>Simulator</span></div>
         </a>
         <a href="bgjson/">

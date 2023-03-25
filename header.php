@@ -11,7 +11,7 @@ $test = 567;
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="Keywords" content="bgknowhow,hearthstone,battlegrounds,hs,bg,heroes,buddies,minions,strategy,json,bgjson">
+    <meta name="Keywords" content="bgknowhow,hearthstone,battlegrounds,hs,bg,hsbg,heroes,minions,buddies,strategy,json,bgjson">
     <title><?= getWebsiteTitle() ?></title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAnHNrAFpjUgD///8A96WUAP/e1gD/vbUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAVVhUAAAAABTMzZVYAAABjMzNRM2AAAFMxM1ExEAAAUzFlZDVWAABTMxFDMzVgAFMzMzMzM1AABTMzMzURYAAgUzMzM1YAAAIGUzMzM2AAAAAGUzMzUAAAAAAGUzNQAAAAAAAGVUAAAAAAAAAAAAAAAAAAAAAADgfwAAgB8AAIAPAAAABwAAAAcAAAADAAAAAQAAAAEAAIABAACAAwAAwAEAAPABAAD8AQAA/wEAAP/DAAD//wAA" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="//bgknowhow.com/styles/style.css">
@@ -55,16 +55,17 @@ $test = 567;
             <ul>
                 <li><a class="menu-topic" href="//bgknowhow.com/introduction.php">&#9654; Introduction</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/">&#9654; Basics</a></li>
+                <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/armor.php">&#9654; Hero Armor Tiers</a></li>-->
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcomps/">&#9654; Compositions</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcurves/">&#9654; Curves</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/">&#9654; Simulator</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bglegends/">&#9654; Lobby Legends</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgexternal/">&#9654; External Resources</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_pocky.php">&#9654; Guide to Improving at BGs</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">&#9654; Featured YouTube guides</a></li>
+                <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">&#9654; Featured YouTube guides</a></li>-->
                 <li><a class="menu-topic" href="//bgknowhow.com/bgjson/">&#9654; BGJSON</a></li>
             </ul>
         </nav>
@@ -114,6 +115,7 @@ $test = 567;
                                 <li><a href="//bgknowhow.com/bgcomps/comp_nagas.php">...Nagas</a></li>
                                 <li><a href="//bgknowhow.com/bgcomps/comp_pirates.php">...Pirates</a></li>
                                 <li><a href="//bgknowhow.com/bgcomps/comp_quilboars.php">...Quilboars</a></li>
+                                <li><a href="//bgknowhow.com/bgcomps/comp_undeads.php">...Undeads</a></li>
                                 <li><a href="//bgknowhow.com/bgcomps/comp_neutrals.php">...Neutrals</a></li>
                             </ul>
                         </div>
@@ -141,11 +143,11 @@ $test = 567;
                     <a class="menu-topic" href="//bgknowhow.com/bglegends/">Lobby Legends</a>
                 </li>
                 <li class="menu-hover bgsim">
-                    <a class="menu-topic" href="//bgknowhow.com/bgsim/">Simulator</a>
+                    <a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">Simulator</a>
                     <div class="menu-container-1">
                         <div class="menu-column-1">
                             <ul>
-                                <li><a href="//bgknowhow.com/bgsim/">...Turn-1 Minion Matrix</a></li>
+                                <li><a href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">...Turn-1 Minion Matrix</a></li>
                                 <li><a href="//bgknowhow.com/bgsim/custom.php">...Custom Board</a></li>
                             </ul>
                         </div>
@@ -157,8 +159,8 @@ $test = 567;
                         <div class="menu-column-1">
                             <ul>
                                 <li><a href="//bgknowhow.com/bgbasics/">...Definitions</a></li>
-                                <li><a href="//bgknowhow.com/bgbasics/">...FAQ</a></li>
-                                <li><a href="//bgknowhow.com/bgbasics/armor.php">...Hero Armor Tiers</a></li>
+                                <li><a href="//bgknowhow.com/bgbasics/faq.php">...FAQ</a></li>
+                                <!--                                <li><a href="//bgknowhow.com/bgbasics/armor.php">...Hero Armor Tiers</a></li>-->
                             </ul>
                         </div>
                     </div>
