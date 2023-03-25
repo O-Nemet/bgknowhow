@@ -47,10 +47,31 @@ include_once('../header.php');
     <h3>Spellcraft</h3>
     <p>
     </p>
+    <h3>Order of effects</h3>
+    <p>
+    </p>
     <h3>Damage Cap</h3>
     <p>
     </p>
     <h3>Fighting 'Deadguy'</h3>
+    <p>
+    </p>
+    <h3>Game length</h3>
+    <p>
+    </p>
+    <h3>Rating Floors</h3>
+    <p>
+    </p>
+    <h3>Damage Output</h3>
+    <p>
+    </p>
+    <h3>Scouting</h3>
+    <p>
+    </p>
+    <h3>Disconnecting</h3>
+    <p>
+    </p>
+    <h3>Conceding</h3>
     <p>
     </p>
 </div>
