@@ -2568,6 +2568,11 @@ body.bgstrategy .bgstrategy > a {
     font-size: 10px;
 }
 
+.image_centered {
+    display: block;
+    margin: 0 auto;
+}
+
 .comp_selection {
     margin: 0 auto;
     margin-top: 25px;

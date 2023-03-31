@@ -32,7 +32,7 @@ $test = 567;
 </head>
 
 <script>
-    var hoverImages = [<?= $hoverImages ?>];
+    let hoverImages = [<?= $hoverImages ?>];
 </script>
 
 <body class="<?= getWebsiteName(); ?>" style="background-color: antiquewhite">
