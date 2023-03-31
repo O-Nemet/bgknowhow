@@ -52,6 +52,9 @@ include_once('../header.php');
     </p>
     <h3>Damage Cap</h3>
     <p>
+        The Damage Cap was implemented to avoid players from taking huge amounts of damage on early turns. It is indicated by a little shield symbol you can see while hovering over heroes on the left bar.
+        The current Damage Cap is set to 15, meaning if a player would take more than 15 damage (e.g. 20) while the cap is active, the damage will be reduced to the maximum amount of 15.
+        The Damage Cap is in place until both a hero has died and the game has reached turn 8 (10 gold).
     </p>
     <h3>Fighting 'Deadguy'</h3>
     <p>
@@ -61,6 +64,8 @@ include_once('../header.php');
     </p>
     <h3>Rating Floors</h3>
     <p>
+        "There are rating "floors" between 2000 to 6000 for external rating. Your external rating does not drop below each "floor" once it's above it. 
+        Currently there is a floor every 500 rating: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000." (<a href=https://hearthstone.blizzard.com/en-us/news/23523064 target="_blank">source</a>)
     </p>
     <h3>Damage Output</h3>
     <p>
