@@ -25,12 +25,24 @@ if ($selectedId) {
     <div class="card_wrapper">
         <div class="card_info">
             <div class="container"><span class="card_attack card_health"><?= $health ?></span>
-                <img class="img_health" src="<?= PICTURE_LOCAL ?>icons/health.png">
+                <img class="img_health" src="<?= PICTURE_LOCAL ?>icons/health.png" title="Health" alt="Health">
             </div>
-            <br><br>
-            <div class="container"><span class="card_attack" style="padding-left: 1px;"><?= $armor ?></span>
-                <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor.webp">
+            <br>
+            <div class="container">
+                <span class="card_attack" style="padding-left: 1px;"><?= $armor ?></span>
+                <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor.webp" title="Armor" alt="Armor">
             </div>
+            <?php
+            if ($armorMMR) {
+                ?>
+                <br>
+                <div class="container">
+                    <span class="card_attack" style="padding-left: 1px;"><?= $armorMMR ?></span>
+                    <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor_mmr.webp" title="Armor on high MMR" alt="Armor on high MMR">
+                </div>
+                <?php
+            }
+            ?>
             <br><br><br>
             <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span>
             <br><br>
