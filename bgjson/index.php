@@ -125,6 +125,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>29.02.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2563-patch-notes/104774" target="_blank">25.6.3</a> patch notes.</li>
         <li>23.03.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23921500/25-6-2-patch-notes" target="_blank">25.6.2</a> patch notes.</li>
         <li>18.03.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2561-patch-notes/104261" target="_blank">25.6.1</a> patch notes.</li>
         <li>17.03.2023 - Added "armor" and "armorHighMMR" fields to, and removed "armorTier" field from the hero dataset.</li>

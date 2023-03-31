@@ -290,7 +290,7 @@ foreach ($tempMinions->data as $key => $object) {
     <table class="tier-table">
         <thead>
         <tr>
-            <th>Turn</th>
+            <th>Tier</th>
             <th>Initial Cost</th>
             <th>Reset Cost</th>
         </tr>
