@@ -189,7 +189,7 @@ foreach ($tempMinions->data as $key => $object) {
         ?>
     </div>
 
-    <h3>Key minions guiding your strategy</h3>
+    <h3 id="keyminions">Key minions guiding your strategy</h3>
     <p>
         Transitioning from mid-game to a viable end-game composition is an important step you should master in order to improve your game. Often times your first discovery of a 5 or 6 drop minion after a triple, will guide you in a specific direction. Here are the key minions for each minion type strategy:
     </p>
