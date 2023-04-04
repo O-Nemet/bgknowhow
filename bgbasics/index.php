@@ -26,7 +26,7 @@ include_once('../header.php');
     <p>
         A minion with Windfury will attack a second time, if it survived its first attack. Multiple instances of Windfury do not increase the number of attacks. Tripling a Windfury minion will upgrade it to Mega-Windfury, meaning it will attack four times in total (as long as it survives the previous attacks).
         <br><br>
-        As Windfury is an offensive ability only, it is usually best to place a minion with Windfury to the left to increase the chance that it can attack twice before being killed by an attack itself. Also notice, that Windfury only provides value if the minion is able to survive its first attack. Therefore, the value of Windfury increases on minions with high HP or a Divine Shield.
+        As Windfury is an offensive ability only, it is usually best to place a minion with Windfury to the left to increase the chance that it can attack twice before being killed by an attack itself. Also notice, that Windfury only provides value if the minion is able to survive its first attack. Therefore, the value of Windfury increases on minions with high health or a Divine Shield.
     </p>
     <h3>Divine Shield</h3>
     <p>
@@ -91,7 +91,7 @@ include_once('../header.php');
     </p>
     <h3 id="ratinginternal">Internal rating</h3>
     <p>
-        At the start of each BG season (roughly every 3 months) your shown/external MMR will be reset to 0. But Hearthstone saves your internal MMR (which at the end of a season will be very close to your external MMR) and will match-make you by your internal MMR.
+        At the start of each BG season (roughly every 3 months) your shown/external MMR will be reset to zero. But Hearthstone saves your internal MMR (which at the end of a season will be very close to your external MMR) and will match-make you by your internal MMR.
         <br><br>
         A lobby win at that point in time will net you up to 300 points, allowing you to climb back to your 'real' MMR faster. This bonus for point gains will decrease the closer you'll get to your internal MMR (and will also be capped at ~8000 MMR, even if you had a very high rating like 10,000+ in the last season).
     </p>
