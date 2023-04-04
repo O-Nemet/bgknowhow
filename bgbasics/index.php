@@ -62,12 +62,6 @@ include_once('../header.php');
     <h3>Game length</h3>
     <p>
     </p>
-    <h3>Rating Floors</h3>
-    <p>
-        There are rating floors between 2000 and 6000 for your match making rating (MMR). Your rating does not drop below each floor once it is above it.
-        Currently, there is a floor every 500 rating points: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000.
-        <!--        (<a href=https://hearthstone.blizzard.com/en-us/news/23523064 target="_blank">source</a>)-->
-    </p>
     <h3>Damage Output</h3>
     <p>
     </p>
@@ -80,6 +74,26 @@ include_once('../header.php');
     <h3>Conceding</h3>
     <p>
     </p>
+    <h3>Rating (BG MMR)</h3>
+    <p>
+        The rating shown after every game is your match making rating (MMR), a first place will normally net you around +100 points, whereas an 8th place will make you lose around -100 points. The actual values are based on a formula and depend on the MMR of every player in the lobby and your actual placement at the end of the game.
+        <br><br>
+        The higher your MMR gets, the harder it will be to further accumulate points (for example with an MMR of 10,000 a win will only provide like 70 points, while an 8th place will cost you ~115 points). At normal rating ranges, a singular 5th place and below will make you lose points, whereas a singular 4th place and above will make you gain points. If multiple players die on the same turn, the rating gain/loss will be 'split' between them.
+        <br><br>
+        The matchmaking algorithm will try to build lobbies where every player is roughly in the same MMR range. But after you reach a high rating (8000+ in the middle of the season) there is a chance to be matched with everyone, even the top 100 players of the <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=battlegrounds" target="_blank">ladder</a>.
+    </p>
+    <h3>Rating Floors</h3>
+    <p>
+        There are rating floors between 2000 and 6000 for your match making rating (MMR). Your rating does not drop below each floor once it is above it. Currently, there is a floor every 500 rating points: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000.
+        <!--        (<a href=https://hearthstone.blizzard.com/en-us/news/23523064 target="_blank">source</a>)-->
+    </p>
+    <h3>Internal rating</h3>
+    <p>
+        At the start of each BG season (roughly every 3 months) your shown/external MMR will be reset to 0. But Hearthstone saves your internal MMR (which at the end of a season will be very close to your external MMR) and will match-make you by your internal MMR.
+        <br><br>
+        A win at that point in time will net you up to 300 points, allowing you to climb back to your 'real' MMR faster. This bonus for point gains will decrease the closer you'll get to your internal MMR (and will also be capped at ~8000 MMR, even if you had a very high rating like 10,000+ in the last season).
+    </p>
+    <br><br>
 </div>
 
 <?php
