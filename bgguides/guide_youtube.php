@@ -11,6 +11,12 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
+            <h3>“How To Play Every Buddy in Battlegrounds” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/dKNmsylUJxg?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“5 Tips to Instantly get Better at Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/HqPbDGUzl_I?autoplay=0&origin=https://bgknowhow.com">
@@ -28,6 +34,19 @@ include_once('../header.php');
                     src="https://www.youtube.com/embed/JZLsJOGO8Vo?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
+        <div class="iframe_div">
+            <h3>“Mid Game Explained” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/etugXx4LrL8?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Late Game & End Game Explained” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/u8-3rJ_XjXI?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+
         <!--        <div class="iframe_div">-->
         <!--            <h3>“Updated Quest Tierlist from Rank 3 EU” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>-->
         <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
@@ -52,28 +71,28 @@ include_once('../header.php');
         <!--                    src="https://www.youtube.com/embed/HRGsR87xtb0?autoplay=0&origin=https://bgknowhow.com">-->
         <!--            </iframe>https://www.youtube.com/watch?v=03Of9mmbFuU-->
         <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Maiev Shadowsong Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/zWb08lj7o8c?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Captain Hooktusk Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/IjF1QpEY1yw?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
         <div class="iframe_div">
-            <h3>“Maiev Shadowsong Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“The Ranking System (MMR) Explained for Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/zWb08lj7o8c?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Captain Hooktusk Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/IjF1QpEY1yw?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/e5aXcu25ISc?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
             <h3>“Choosing Between a Tier-5 or Tier-6 Discover” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/z8VjkdXThcg?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“The Ranking System (MMR) Explained for Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/e5aXcu25ISc?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <!--        <div class="iframe_div">-->
