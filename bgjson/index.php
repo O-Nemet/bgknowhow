@@ -47,7 +47,7 @@ include_once('../header.php');
         <tr>
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Heroes</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Buddies</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Buddies</a></td>
             <!--            <td>&nbsp;</td>-->
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Quests</a></td>-->
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Rewards</a></td>-->
