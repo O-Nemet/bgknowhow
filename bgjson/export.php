@@ -86,7 +86,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
             $hpCost . CSV_SEPARATOR .
-            $hpText . CSV_SEPARATOR .
+            (str_contains($hpText, ';') ? '"' . $hpText . '"' : $hpText) . CSV_SEPARATOR .
             $blizzardIdHp . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png' . CSV_SEPARATOR .
             (bool)$isActive . PHP_EOL;
@@ -246,10 +246,10 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             $tier . CSV_SEPARATOR .
             $attack . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
-            $text . CSV_SEPARATOR .
+            (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
             $attack * 2 . CSV_SEPARATOR .
             $health * 2 . CSV_SEPARATOR .
-            $textGolden . CSV_SEPARATOR .
+            (str_contains($textGolden, ';') ? '"' . $textGolden . '"' : $textGolden) . CSV_SEPARATOR .
             (bool)$isToken . CSV_SEPARATOR .
             (bool)$hasBattlecry . CSV_SEPARATOR .
             (bool)$hasDeathrattle . CSV_SEPARATOR .
@@ -395,7 +395,6 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-//        $textFixed = str_contains($text, ';') ? '"' . $text . '"' . CSV_SEPARATOR : $text . CSV_SEPARATOR .
 
         $csvData =
             $name . CSV_SEPARATOR .
@@ -403,12 +402,10 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
             $tier . CSV_SEPARATOR .
             $attack . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
-//            str_replace('\'', '""\'""', $text) . CSV_SEPARATOR .
-//                $textFixed . CSV_SEPARATOR .
-            $text . CSV_SEPARATOR .
+            (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
             $attack * 2 . CSV_SEPARATOR .
             $health * 2 . CSV_SEPARATOR .
-            $textGolden . CSV_SEPARATOR .
+            (str_contains($textGolden, ';') ? '"' . $textGolden . '"' : $textGolden) . CSV_SEPARATOR .
             $heroName . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
@@ -509,7 +506,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     while ($stmt->fetch()) {
         $csvData =
             $name . CSV_SEPARATOR .
-            $text . CSV_SEPARATOR .
+            (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             (bool)$isActive . PHP_EOL;
@@ -601,7 +598,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     while ($stmt->fetch()) {
         $csvData =
             $name . CSV_SEPARATOR .
-            $text . CSV_SEPARATOR .
+            (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             (bool)$isActive . PHP_EOL;
