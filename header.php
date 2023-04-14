@@ -1,9 +1,6 @@
 <?php
 require_once('functions.php');
 require_once('config/db.php');
-
-$test = 567;
-
 ?>
 
 <!DOCTYPE html>
