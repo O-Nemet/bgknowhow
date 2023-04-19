@@ -125,6 +125,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>20.04.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2603-patch-notes/106272" target="_blank">26.0.3</a> patch notes.</li>
         <li>14.04.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23935319/26-0-2-patch-notes" target="_blank">26.0.2</a> patch notes.</li>
         <li>09.04.2023 - Added buddy/hero relation as "buddy" field to the heroes JSON/CSV and "hero" field to the buddies JSON/CSV.</li>
         <li>04.04.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23934449/26-0-patch-notes" target="_blank">26.0.0</a> patch notes.</li>
