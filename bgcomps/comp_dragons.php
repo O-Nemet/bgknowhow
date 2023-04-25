@@ -10,7 +10,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Tarec/Promo Big Stats Comp:</h3>
     <?php
-    $board   = ['Atramedes', 'Nadina', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Promo-Drake', 'Razorgore'];
+    $board   = ['Razorgore', 'Nadina', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Promo-Drake', 'Razorgore'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

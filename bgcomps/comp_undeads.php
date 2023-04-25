@@ -10,19 +10,19 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Anub/Titus Deathrattle Comp:</h3>
     <?php
-    $board   = ['Anub', 'Anub', 'Summoner', 'Summoner', 'Splitter', 'Splitter', 'Titus'];
+    $board   = ['Anub', 'Anub', 'Splitter', 'Splitter', 'Summoner', 'Summoner', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <h3>Reborn Comp:</h3>
     <?php
-    $board   = ['Colossus', 'Blanchy', 'Splitter', 'Splitter', 'Deathwhisper', 'Deathwhisper', 'Ball'];
+    $board   = ['Colossus', 'Splitter', 'Blanchy', 'Blanchy', 'Deathwhisper', 'Deathwhisper', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <h3>Eternal Knight Comp:</h3>
     <?php
-    $board   = ['*Eternal Knight', '*Eternal Knight', 'Summoner', 'Summoner', 'Splitter', 'Splitter', 'Deathwhisper'];
+    $board   = ['*Eternal Knight', '*Eternal Knight', 'Splitter', 'Splitter', 'Summoner', 'Summoner', 'Deathwhisper'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

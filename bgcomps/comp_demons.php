@@ -10,7 +10,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Maximum Juggler Comp:</h3>
     <?php
-    $board   = ['*Ring Matron', '*Ring Matron', 'Voidlord', 'Voidlord', 'Infernal', 'Juggler', 'Juggler'];
+    $board   = ['*Ring Matron', '*Ring Matron', 'Voidlord', 'Voidlord', 'Infernal', 'Juggler', 'Stomper'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -20,16 +20,12 @@ include_once('../header.php');
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <!--    <h3>Macaw/Trickster Deathrattle Comp:</h3>-->
-    <!--    --><?php
-    //    $board   = ['Macaw', 'Trickster', '*Imp Mama', 'Felbat', '*Legion Overseer', '*Imp Mama', 'Titus'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    $board   = ['Selfless', 'Ur\'zul', 'Dong', 'Dong', '*Imp Mama', 'Felbat', 'Titus'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-
-    //    ?>
+    <h3>Macaw/Trickster Comp:</h3>
+    <?php
+    $board   = ['Macaw', 'Macaw', 'Trickster', 'Queen', 'Queen', 'Felbat', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
 </div>
 
 <?php

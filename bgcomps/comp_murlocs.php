@@ -19,7 +19,7 @@ include_once('../header.php');
     ?>
     <h3>Selfless/Titus Poison Comp:</h3>
     <?php
-    $board   = ['Selfless', 'Titus', 'Swolefin', 'Ball', 'Magma', 'Magma', 'Ball'];
+    $board   = ['Selfless', 'Titus', 'Skyfin', 'Ball', 'Magma', 'Magma', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     //    $board   = ['Selfless', 'Titus', 'Swolefin', 'Striker', 'Dong', 'Honcho', 'Sefin'];

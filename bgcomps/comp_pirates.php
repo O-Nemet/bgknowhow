@@ -16,7 +16,7 @@ include_once('../header.php');
     ?>
     <h3>Big Stats Attack Comp:</h3>
     <?php
-    $board   = ['Vanessa', 'Vanessa', 'Ball', 'Greta', 'Greta', 'Ripsnarl', 'Ball'];
+    $board   = ['Vanessa', 'Vanessa', 'Ball', 'Greta', 'Greta', 'Eliza', 'Ball'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
