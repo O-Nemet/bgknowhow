@@ -14,6 +14,12 @@ include_once('../header.php');
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <h3>Stomper Deathrattle Comp:</h3>
+    <?php
+    $board   = ['Raptor', 'Raptor', 'Coiler', 'Coiler', 'Blanchy', 'Stomper', 'Stomper'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
     <h3>Macaw/Goldrinn/Titus Deathrattle Comp:</h3>
     <?php
     $board   = ['Macaw', 'Goldrinn', 'Macaw', 'Hydra', 'Blanchy', 'Goldrinn', 'Titus'];
