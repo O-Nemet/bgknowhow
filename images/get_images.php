@@ -27,7 +27,7 @@ $getActiveOnly = 1;
 //                                     bgm.id_blizzard
 //                                FROM bg_minions bgm
 //                               WHERE bgm.flag_active = ?
-//                                 AND bgm.name IN ('Tarecgosa', 'Shell Collector', 'Annihilan Battlemaster', 'Poetic Pen Pal', 'Leeching Felhound', 'Fireworks Fanatic', 'Dr. Boombox', 'Sly Raptor', 'Gem Smuggler', 'Bonemare')
+//                                 AND bgm.name IN ('Dr. Boombox')
 //                            ORDER BY bgm.tier, bgm.name ASC")) {
 //    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
@@ -41,7 +41,8 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
                                      bgb.flag_active
                                 FROM bg_buddies bgb
                                WHERE bgb.flag_active = ?
-                                 AND bgb.id_blizzard is not null 
+                                 AND bgb.id_blizzard is not null
+                                 AND bgb.name IN ('Nightmare Ectoplasm', 'Magnus Manastorm', 'Bilgewater Mogul')
                             ORDER BY bgb.tier, bgb.name ASC")) {
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
