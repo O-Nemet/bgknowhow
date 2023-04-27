@@ -27,6 +27,11 @@ include_once('../header.php');
     </p>
     <h3 id="shield">Divine Shield</h3>
     <p>
+        Minions with a divine shield will not get damaged the first time they are hit during each combat (the shield will refresh between combats). This provides the opportunity to trade 2 for 1 if the shielded minion is big enough or to protect a key minion from dying too early.
+        <br><br>
+        Out of the box only 9 minions in total come with shields but there a different means to buff any minion with a shield (primarily via <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=203">Glowscale</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=73">Annoy-o-Module</a>).
+        <br><br>
+        While usually the positioning of a DS minion is less important because the shield works on offense as well as on defense you should still try to position against what your opponent has. The best counter against a shielded minion is a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a>, as he will kill any minion in one hit, shield or no shield. But even a small taunt minion like a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=272">Risen Rider</a> can be played as a blocker to waste your shield. If your opponent is featuring several shielded minions instead of just one huge one you should consider picking up a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=266">Blaster</a> and putting it in first position.
     </p>
     <h3 id="deathrattle">Deathrattle</h3>
     <p>
@@ -65,6 +70,8 @@ include_once('../header.php');
     </p>
     <h3 id="deadguy">Fighting 'Deadguy'</h3>
     <p>
+        Everytime an odd number of players is already defeated before a combat round, one of the remaining players will be paired with one of the dead players. These 'deadguys' will bring the board lineup from the time of their death to the fight, but will not activate hero powers or anything else.
+        <br><br>
     </p>
     <h3 id="gamelength">Game length</h3>
     <p>
