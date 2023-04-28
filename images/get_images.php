@@ -42,7 +42,7 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
                                 FROM bg_buddies bgb
                                WHERE bgb.flag_active = ?
                                  AND bgb.id_blizzard is not null
-                                 AND bgb.name IN ('Nightmare Ectoplasm', 'Magnus Manastorm', 'Bilgewater Mogul')
+                                 AND bgb.name IN ('Piloted Whirl-O-Tron', 'Vaelastrasz', 'Waxadred, the Drippy')
                             ORDER BY bgb.tier, bgb.name ASC")) {
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
