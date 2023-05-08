@@ -76,7 +76,7 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="types">Minion types and distribution</h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Dragons have only one tier 5 minion. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs have only one tier 4 minion. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
         <br><br>
         On tier 5 there is one special case regarding the minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.
         <br><br>
@@ -230,9 +230,9 @@ foreach ($tempMinions->data as $key => $object) {
     <div style="margin-top: -30px;">
         <a href="https://bgknowhow.com/bgstrategy/minion/?id=211"><img width="200" src="https://bgknowhow.com/images/minions/BG22_402_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
         <p style="width: 920px; padding-top: 20px; text-align: justify;">
-            This endgame minion will always have Poisonous, but what will take it from a good investment to a great one is the combination with Divine Shield, enabling it to take out two of your opponents biggest minions while only needing one slot on your board. If you are playing this on a board with only minions from one type or neutral ones, the odds of getting the elusive shield are a measly 25% (as there are 4 random buffs to choose from).
+            This endgame minion will always have Venomous, but what will take it from a good investment to a great one is the combination with Reborn, enabling it to take out two of your opponents biggest minions while only needing one slot on your board. If you are playing this on a board with only minions from one type or neutral ones, the odds of getting the elusive ability are a measly 25% (as there are 4 random buffs to choose from).
             <br><br>
-            In order to increase the odds you can either place more different minions types on your board (not always an option, depending on your general strategy) or buff the Queen with Taunt and/or Windfury (because if it has either of those at the beginning of combat that option will be ignored for the random roll). All but the +5/+5 buff can only be applied once, therefore the maximum chance for getting a DS with only one minion type will be 50%, for a fully buffed Queen. Whereas adding a second minion type will bring the odds of an unbuffed Queen to nearly 48%, and adding a third to nearly 68%.
+            In order to increase the odds you can either place more different minions types on your board (not always an option, depending on your general strategy) or buff the Queen with Taunt and/or Windfury (because if it has either of those at the beginning of combat that option will be ignored for the random roll). All but the +5/+5 buff can only be applied once, therefore the maximum chance for getting Reborn with only one minion type will be 50%, for a fully buffed Queen. Whereas adding a second minion type will bring the odds of an unbuffed Queen to nearly 48%, and adding a third to nearly 68%.
         </p>
     </div>
 
@@ -279,163 +279,52 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
-    <h3 id="buddycurves" class="cf">Buying Buddies</h3>
-    <p>
-        Each hero has a buddy button, which you can press during your shop turn to buy the buddy. The Buddy Button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.
-        <br><br>
-        The first time you press the Button, you'll get one copy of your Buddy; the second time you press the Button, you'll get two copies. The cost to press the Button resets and is slightly increased after you press it the first time.
-    </p>
-    <br>
-
-    <table class="tier-table">
-        <thead>
-        <tr>
-            <th>Tier</th>
-            <th>Initial Cost</th>
-            <th>Reset Cost</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>11</td>
-            <td>13</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>13</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>15</td>
-            <td>17</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>17</td>
-            <td>19</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>19</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>21</td>
-            <td>23</td>
-        </tr>
-        </tbody>
-    </table>
-
-    <!--    <h3 id="buddycurves" class="cf">Buddy curves</h3>-->
+    <!--    <h3 id="buddycurves" class="cf">Buying Buddies</h3>-->
     <!--    <p>-->
-    <!--        When you will receive your buddy depends on the tavern tier of the buddy and your performance (damage done, shields popped, fights won). Buddies were removed from the game with the 23.2.0 patch in May 2022 (*RIP*).-->
+    <!--        Each hero has a Buddy button, which you can press during your shop turn to buy the buddy. The Buddy button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.-->
+    <!--        <br><br>-->
+    <!--        The first time you press the button, you'll get one copy of your Buddy; the second time you press the button, you'll get two copies. The cost to press the button resets and is slightly increased after you press it the first time.-->
     <!--    </p>-->
     <!--    <br>-->
     <!---->
     <!--    <table class="tier-table">-->
     <!--        <thead>-->
     <!--        <tr>-->
-    <!--            <th>Turn</th>-->
-    <!--            <th>Gold available</th>-->
-    <!--            <th>Fast buddy curve</th>-->
-    <!--            <th>Regular buddy curve</th>-->
-    <!--            <th>Slow buddy curve</th>-->
+    <!--            <th>Tier</th>-->
+    <!--            <th>Initial Cost</th>-->
+    <!--            <th>Reset Cost</th>-->
     <!--        </tr>-->
     <!--        </thead>-->
     <!--        <tbody>-->
     <!--        <tr>-->
     <!--            <td>1</td>-->
-    <!--            <td>3</td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
+    <!--            <td>11</td>-->
+    <!--            <td>13</td>-->
     <!--        </tr>-->
     <!--        <tr>-->
     <!--            <td>2</td>-->
-    <!--            <td>4</td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
+    <!--            <td>13</td>-->
+    <!--            <td>15</td>-->
     <!--        </tr>-->
     <!--        <tr>-->
     <!--            <td>3</td>-->
-    <!--            <td>5</td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
+    <!--            <td>15</td>-->
+    <!--            <td>17</td>-->
     <!--        </tr>-->
     <!--        <tr>-->
     <!--            <td>4</td>-->
-    <!--            <td>6</td>-->
-    <!--            <td>Tier 2 Buddy</td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
+    <!--            <td>17</td>-->
+    <!--            <td>19</td>-->
     <!--        </tr>-->
     <!--        <tr>-->
     <!--            <td>5</td>-->
-    <!--            <td>7</td>-->
-    <!--            <td>Tier 3 Buddy</td>-->
-    <!--            <td>Tier 2 Buddy</td>-->
-    <!--            <td></td>-->
+    <!--            <td>19</td>-->
+    <!--            <td>21</td>-->
     <!--        </tr>-->
     <!--        <tr>-->
     <!--            <td>6</td>-->
-    <!--            <td>8</td>-->
-    <!--            <td>Tier 4 Buddy</td>-->
-    <!--            <td>Tier 3 Buddy</td>-->
-    <!--            <td>Tier 2 Buddy</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>7</td>-->
-    <!--            <td>9</td>-->
-    <!--            <td></td>-->
-    <!--            <td>Tier 4 Buddy</td>-->
-    <!--            <td>Tier 3 Buddy</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>8</td>-->
-    <!--            <td>10</td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
-    <!--            <td>Tier 4 Buddy</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>9</td>-->
-    <!--            <td>10</td>-->
-    <!--            <td>Tier 2 Buddy x2</td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>10</td>-->
-    <!--            <td>10</td>-->
-    <!--            <td>Tier 3 Buddy x2</td>-->
-    <!--            <td>Tier 2 Buddy x2</td>-->
-    <!--            <td></td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>11</td>-->
-    <!--            <td>10</td>-->
-    <!--            <td>Tier 4 Buddy x2</td>-->
-    <!--            <td>Tier 3 Buddy x2</td>-->
-    <!--            <td>Tier 2 Buddy x2</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>12</td>-->
-    <!--            <td>10</td>-->
-    <!--            <td></td>-->
-    <!--            <td>Tier 4 Buddy x2</td>-->
-    <!--            <td>Tier 3 Buddy x2</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>13</td>-->
-    <!--            <td>10</td>-->
-    <!--            <td></td>-->
-    <!--            <td></td>-->
-    <!--            <td>Tier 4 Buddy x2</td>-->
+    <!--            <td>21</td>-->
+    <!--            <td>23</td>-->
     <!--        </tr>-->
     <!--        </tbody>-->
     <!--    </table>-->
