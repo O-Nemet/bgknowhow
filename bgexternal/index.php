@@ -145,7 +145,8 @@ include_once('../header.php');
         </a>
         <p>
             High MMR player from the United States.<br><br>
-            Writer of educational BG guides.
+            Writer of educational BG guides.<br><br>
+            Host of the official Lobby Legends #9 broadcast.
         </p>
     </div>
 
