@@ -174,8 +174,10 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.flag_taunt,                                     
                                      bgm.flag_shield,                                     
                                      bgm.flag_windfury,                                     
+                                     bgm.flag_venomous,                                     
                                      bgm.flag_reborn,                                     
                                      bgm.flag_avenge,                                                                          
+                                     bgm.flag_magnetic,                                                                          
                                      bgm.flag_spellcraft,
                                      bgm.id_blizzard,
                                      bgm.id_summon,
@@ -189,7 +191,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $type, $type2, $pool, $pool2, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasReborn, $hasAvenge, $hasSpellcraft, $blizzardId, $summonId, $playhsId, $hpwnId, $artist, $flavor);
+    $stmt->bind_result($id, $name, $nameShort, $type, $type2, $pool, $pool2, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasVenomous, $hasReborn, $hasAvenge, $hasMagnetic, $hasSpellcraft, $blizzardId, $summonId, $playhsId, $hpwnId, $artist, $flavor);
 
     $row_count = $stmt->num_rows;
 
@@ -213,8 +215,10 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         'Taunt' . CSV_SEPARATOR .
         'Divine Shield' . CSV_SEPARATOR .
         'Windfury' . CSV_SEPARATOR .
+        'Venomous' . CSV_SEPARATOR .
         'Reborn' . CSV_SEPARATOR .
         'Avenge' . CSV_SEPARATOR .
+        'Magnetic' . CSV_SEPARATOR .
         'Spellcraft' . CSV_SEPARATOR .
         'Blizzard ID' . CSV_SEPARATOR .
         'Summon ID' . CSV_SEPARATOR .
@@ -256,8 +260,10 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             (bool)$hasTaunt . CSV_SEPARATOR .
             (bool)$hasShield . CSV_SEPARATOR .
             (bool)$hasWindfury . CSV_SEPARATOR .
+            (bool)$hasVenomous . CSV_SEPARATOR .
             (bool)$hasReborn . CSV_SEPARATOR .
             (bool)$hasAvenge . CSV_SEPARATOR .
+            (bool)$hasMagnetic . CSV_SEPARATOR .
             (bool)$hasSpellcraft . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             $summonId . CSV_SEPARATOR .
@@ -294,8 +300,10 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['abilities']['hasTaunt']       = (bool)$hasTaunt;
         $minions['data'][$i]['abilities']['hasShield']      = (bool)$hasShield;
         $minions['data'][$i]['abilities']['hasWindfury']    = (bool)$hasWindfury;
+        $minions['data'][$i]['abilities']['hasVenomous']    = (bool)$hasVenomous;
         $minions['data'][$i]['abilities']['hasReborn']      = (bool)$hasReborn;
         $minions['data'][$i]['abilities']['hasAvenge']      = (bool)$hasAvenge;
+        $minions['data'][$i]['abilities']['hasMagnetic']    = (bool)$hasMagnetic;
         $minions['data'][$i]['abilities']['hasSpellcraft']  = (bool)$hasSpellcraft;
         $minions['data'][$i]['id']                          = $blizzardId;
         $minions['data'][$i]['summonId']                    = $summonId;

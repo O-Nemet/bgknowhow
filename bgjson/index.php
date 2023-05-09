@@ -125,6 +125,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>09.05.2023 - Added hasVenomous and hasMagnetic to the minion dataset.</li>
         <li>27.04.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23935323/26-0-4-patch-notes" target="_blank">26.0.4</a> patch notes.</li>
         <li>20.04.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2603-patch-notes/106272" target="_blank">26.0.3</a> patch notes.</li>
         <li>14.04.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23935319/26-0-2-patch-notes" target="_blank">26.0.2</a> patch notes.</li>
