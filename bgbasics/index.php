@@ -86,10 +86,16 @@ include_once('../header.php');
         minion with taunt on the outer right position, a cleaving attacker will only hit two of your minions). So be
         aware of lobbies featuring the above-mentioned minions and the picks or discoveries of your opponents.
     </p>
+    <h3 id="venomous">Venomous</h3>
+    <p>
+    </p>
     <h3 id="avenge">Avenge</h3>
     <p>
     </p>
     <h3 id="battlecry">Battlecry</h3>
+    <p>
+    </p>
+    <h3 id="magnetic">Magnetic</h3>
     <p>
     </p>
     <h3 id="spellcraft">Spellcraft</h3>
