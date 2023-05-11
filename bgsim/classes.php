@@ -84,6 +84,9 @@ class Minion
     {
         if ($this->name === 'Bubblette' && $damage === 1) {
             $this->health = 0;
+        } else if ($this->name === 'Incorporeal Corporal' && $damage >= 1) {
+            // TODO: fix results by implementing random roll for attack first and a loop for each individual fight
+            $this->health = 0;
         } else if (($this->health - $damage < 1) && $this->hasShield) {
             $this->hasShield = false;
         } else {
@@ -219,7 +222,7 @@ class Battlefield
         }
 
         if ($this->roundDamageP1 > 0 && $this->roundDamageP2 > 0) {
-            echo "ERROR in getLoserDamage() $this->roundDamageP1 vs. $this->roundDamageP2<br>";
+#            echo "ERROR in getLoserDamage() $this->roundDamageP1 vs. $this->roundDamageP2<br>";
         }
 
         // return the actual dmg given/taken (number of stars still on the board)
@@ -395,6 +398,10 @@ class Battlefield
                         break;
                     case 'Imprisoner':
                         $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
+                        break;
+                    case 'Manasaber':
+                        $this->spawnMinion($player, $slot, new Minion('BG26_800t'));
+                        $this->spawnMinion($player, $slot + 1, new Minion('BG26_800t'));
                         break;
                     case 'Scallywag':
                         $this->spawnMinion($player, $slot, new Minion($realMinion->getId() . 't'));
