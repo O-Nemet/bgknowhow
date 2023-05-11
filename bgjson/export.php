@@ -4,13 +4,13 @@ require_once('../functions.php');
 
 const CSV_SEPARATOR  = ';';
 const VERSION        = '0.8.0';
-const BUDDIES_ACTIVE = true;
+const BUDDIES_ACTIVE = false;
 const URL_BKH        = 'https://bgknowhow.com/bgstrategy/';
 const URL_PHS        = 'https://playhearthstone.com/battlegrounds/';
 const URL_HPN        = 'https://hearthpwn.com/cards/';
 const URL_HSF        = 'https://hearthstone.fandom.com/wiki/Battlegrounds/';
 
-$getActiveOnly                  = 1;
+$getActiveOnly = 1;
 
 // generate heroes files
 if ($stmt = $mysqli->prepare("SELECT bgh.id,
@@ -50,7 +50,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         'Name' . CSV_SEPARATOR .
         'Name Short' . CSV_SEPARATOR .
         'Health' . CSV_SEPARATOR .
-//        'Armor-Tier' . CSV_SEPARATOR .
+        //        'Armor-Tier' . CSV_SEPARATOR .
         'Armor' . CSV_SEPARATOR .
         'Armor High MMR' . CSV_SEPARATOR .
         (BUDDIES_ACTIVE ? 'Buddy' . CSV_SEPARATOR : null) .
@@ -79,10 +79,10 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
-//            $armorTier . CSV_SEPARATOR .
+            //            $armorTier . CSV_SEPARATOR .
             $armor . CSV_SEPARATOR .
             $armorMMR . CSV_SEPARATOR .
-            (BUDDIES_ACTIVE ? $buddyName . CSV_SEPARATOR : null) .
+            (BUDDIES_ACTIVE ? '"' . $buddyName . '"' . CSV_SEPARATOR : null) .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
             $hpCost . CSV_SEPARATOR .
@@ -240,7 +240,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-        $csvData                                            =
+        $csvData =
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $type . CSV_SEPARATOR .
