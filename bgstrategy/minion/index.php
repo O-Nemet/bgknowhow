@@ -22,7 +22,7 @@ if ($selectedId) {
     $stmt->fetch()
     ?>
     <div class="card_wrapper">
-        <h1 class="cardname"><?= $name ?> <?= $name != $nameShort ? '(' . $nameShort . ')' : '' ?></h1>
+        <h1 class="cardname"><?= $name ?> <?= $name != $nameShort ? '(' . $nameShort . ')' : '' ?> <?= $isActive === 0 ? '[inactive]' : '' ?></h1>
         <div class="card_picture_big2">
             <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_BIG_SUFFIX ?>" alt="The picture of <?= $name ?>">
         </div>
@@ -40,7 +40,7 @@ if ($selectedId) {
             <span style="color: white; text-shadow: none"><?= $blizzardId ?></span>
         </div>
         <div class="card_picture">
-            <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $text ?>">
+            <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="Card text: <?= $text ?>">
         </div>
         <div class="card_flavor">
             <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font" style="text-align: left; font-style: italic"><?= $flavor ?? '' ?></span>

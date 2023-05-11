@@ -1607,6 +1607,7 @@ addthis_toolbox {
 .card_picture {
     position: absolute;
     right: 35px;
+    max-width: 250px;
 }
 
 .card_picture img {
