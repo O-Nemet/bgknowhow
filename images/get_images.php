@@ -13,7 +13,7 @@ $getActiveOnly = 1;
 //                                     bgh.flag_active
 //                                FROM bg_heroes bgh
 //                               WHERE bgh.flag_active = ?
-//                                 AND bgh.id_blizzard IN ('BG25_HERO_105')
+//                                 AND bgh.id_blizzard IN ('BG26_HERO_104')
 //                            ORDER BY bgh.name ASC")) {
 //    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
@@ -27,7 +27,8 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.id_blizzard
                                 FROM bg_minions bgm
                                WHERE bgm.flag_active = ?
-                                 AND bgm.name IN ('Leapfrogger')
+--                                 AND bgm.id > 300
+                                 AND bgm.name IN ('Young Murk-Eye', 'Deep-Sea Angler')
                             ORDER BY bgm.tier, bgm.name ASC")) {
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
@@ -54,7 +55,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 
     while ($stmt->fetch()) {
         // heros
-//        if (!copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png')
+//        if (!copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
 //            !copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
 //          ) {
 //            echo 'failed to copy ../images/' . $blizzardId . '_render.png<br>';
@@ -62,7 +63,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //            echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
 //        }
 
-//        // heropowers
+        // heropowers
 //        if (!copy(PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png', '../images/' . $blizzardIdHp . '_render.png') ||
 //            !copy(PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png', '../images/convert/' . $blizzardIdHp . '_render.png')
 //          ) {
@@ -71,7 +72,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //            echo 'copy success ../images/' . $blizzardIdHp . '_render.png<br>';
 //        }
 
-        // minions / hero pictures
+//        // minions / hero pictures
         if (!copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
             !copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
         ) {
