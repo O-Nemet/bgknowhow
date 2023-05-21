@@ -29,7 +29,7 @@ include_once('../header.php');
         it attacks as late as possible and will block most of your opponents minions.
         <br><br>
         Another thing to keep in mind with taunt minions occurs when facing minions with cleave (e.g. <a
-            class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=76">Cave Hydra</a>).
+                class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a>).
     </p>
     <h3 id="windfury">Windfury</h3>
     <p>
@@ -70,12 +70,10 @@ include_once('../header.php');
     <h3 id="cleave">Cleave</h3>
     <p>
         Cleave is short for the text "Also damages the minions next to whomever this attacks." and is featured on only
-        two minions, namely <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=76">Cave Hydra</a>
-        and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=133">Foe Reaper 4000</a>. There are
+        two minions, namely <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a>
+        and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=133">Foe Reaper 4000</a>. There is
         also <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=224">Wildfire Elemental</a> (will
-        only cleave when killing its target and only to one side until golden) and <a class="hoverimage"
-                                                                                      href="https://bgknowhow.com/bgstrategy/minion/?id=224">Atramedes</a>
-        (with a fixed cleave-damage of 3), as honorable mentions.
+        only cleave when killing its target and only to one side until golden) as a honorable mention.
         <br><br>
         That is most likely because it is one of the strongest offensive abilities in the game, with the potential to
         trade your one minion for up to three of your opponent minions. Because cleave has no defensive benefit you
