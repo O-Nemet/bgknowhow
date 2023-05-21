@@ -24,7 +24,7 @@ include_once('../header.php');
         Feel free to use this as a starting point for your own projects and content creation (code examples below).<br>
         <br>
         These datasets have several advantages over the data available from the Blizzard API or the Hearthstone JSON files:<br>
-        For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=131'>Eliza</a>' instead of '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=131'>Dread Admiral Eliza</a>'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
+        For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=131'>Eliza</a>' instead of '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=131'>Dread Admiral Eliza</a>'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
         For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating keywords like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
         At least every 4 hours fresh files will be generated from the database.<br>
