@@ -157,7 +157,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Ripsnarl', 'Angler', '*Eternal Knight', 'Flutist'];
+        $board   = ['Rat', 'Ripsnarl', 'Angler', '*Eternal Knight', 'Rewinder', 'Flutist'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -168,7 +168,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Tusk', 'Prophet', 'Thorncaller', 'Lurker', 'Snail', 'Golem', 'Rewinder', 'Trickster', 'Muck', 'Security', 'Scout', 'Emissary', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Honcho', 'Tad'];
+        $board   = ['Tusk', 'Prophet', 'Thorncaller', 'Lurker', 'Snail', 'Golem', 'Trickster', 'Muck', 'Security', 'Scout', 'Emissary', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Honcho', 'Tad', 'Rock', 'Frostling'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -179,7 +179,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Leaper', 'Bird', 'Lulla', 'Smuggler', 'Rock', 'Party', 'Frostling', 'Riffer', 'Skull'];
+        $board   = ['Leaper', 'Bird', 'Lulla', 'Smuggler', 'Party', 'Riffer', 'Skull'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -203,7 +203,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Slamma', 'Rylak', 'Croc', 'Mama Bear', 'Rewinder', 'Felbat', 'Stomper', 'Promo-Drake', 'Kaly', 'Barnstormer', 'Nomi', 'Magmaloc', 'Deflecto', 'Scrap', 'Boombox', 'Beatboxer', 'Buster', 'Counter', 'Murk-Eye', 'Deep Blue', 'Athissa', 'Orgozoa', '*Record Smuggler', 'Vanessa', 'Aggem', 'Charly', 'Anub', 'Summoner', 'Deathwhisper', 'Fanatic', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
+        $board   = ['Rylak', 'Slamma', 'Croc', 'Mama Bear', 'Rewinder', 'Felbat', 'Stomper', 'Promo-Drake', 'Kaly', 'Barnstormer', 'Nomi', 'Magmaloc', 'Rock Rock', 'Deflecto', 'Scrap', 'Boombox', 'Beatboxer', 'Buster', 'Counter', 'Murk-Eye', 'Deep Blue', 'Athissa', 'Orgozoa', '*Record Smuggler', 'Vanessa', 'Tethys', 'Aggem', 'Charly', 'Anub', 'Summoner', 'Deathwhisper', 'Fanatic', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
