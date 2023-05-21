@@ -3295,11 +3295,15 @@ body.bgstrategy .bgstrategy > a {
 #hero_armor_tiers {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-left: 20px;
+    justify-content: flex-start;
     /*border: 1px solid #3A3A3A;*/
 }
 
 #hero_armor_tiers > div {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     /*border: 1px dotted red;*/
 }
 
@@ -3319,10 +3323,16 @@ body.bgstrategy .bgstrategy > a {
     font-size: 14px;
 }
 
-#hero_armor_tiers > div > div img {
+#hero_armor_tiers > div img {
     width: 100px;
     margin-top: -10px;
     margin-bottom: -20px;
+    transition: transform .2s;
+}
+
+#hero_armor_tiers > div img:hover {
+    filter: contrast(130%);
+    transform: scale(1.25);
 }
 
 #hero_armor_tiers .img_armor {
@@ -3573,6 +3583,17 @@ body.bgstrategy .bgstrategy > a {
 
     .legal_text {
         display: none;
+    }
+
+    #hero_armor_tiers {
+        padding-left: 0px;
+        column-gap: 13px;
+    }
+
+    #hero_armor_tiers > div img {
+        width: 90px;
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
 }
 

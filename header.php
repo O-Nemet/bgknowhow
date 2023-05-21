@@ -52,7 +52,7 @@ require_once('config/db.php');
             <ul>
                 <li><a class="menu-topic" href="//bgknowhow.com/introduction.php">&#9654; Introduction</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/">&#9654; Basics</a></li>
-                <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/armor.php">&#9654; Hero Armor Tiers</a></li>-->
+                <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/armor.php">&#9654; Hero Armor</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
@@ -158,7 +158,7 @@ require_once('config/db.php');
                                 <li><a href="//bgknowhow.com/bgbasics/">...Definitions</a></li>
                                 <li><a href="//bgknowhow.com/bgbasics/triple_stats.php">...Triple Stats</a></li>
                                 <li><a href="//bgknowhow.com/bgbasics/faq.php">...FAQ</a></li>
-                                <!--                                <li><a href="//bgknowhow.com/bgbasics/armor.php">...Hero Armor Tiers</a></li>-->
+                                <li><a href="//bgknowhow.com/bgbasics/armor.php">...Hero Armor</a></li>
                             </ul>
                         </div>
                     </div>
