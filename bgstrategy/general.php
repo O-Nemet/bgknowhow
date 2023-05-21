@@ -62,13 +62,21 @@ include_once('../header.php');
     </table>
 
 <?php
+// loops over all active non-token minions, identifies the type and increases the count for the type and the pool
 foreach ($tempMinions->data as $key => $object) {
     if ($object->isActive === true && $object->isToken !== true) {
-        $type = (is_null($object->type) && $object->pool === 'All' && $object->name !== 'Ball of Minions') ? 'None' : $object->type;
+        $type  = ((is_null($object->type) || $object->type == 'All') && $object->pool === 'All' && $object->name !== 'Ball of Minions') ? 'None' : $object->type;
+        $type2 = !isset($object->types[1]) ? null : $object->types[1];
         @$minion_count[$type][$object->tier] = @$minion_count[$type][$object->tier] + 1;
         @$minion_count[$type][7] = @$minion_count[$type][7] + 1;
         @$minion_pool[$object->pool][$object->tier] = @$minion_pool[$object->pool][$object->tier] + 1;
         @$minion_pool[$object->pool][7] = @$minion_pool[$object->pool][7] + 1;
+        if ($type2) {
+            @$minion_count[$type2][$object->tier] = @$minion_count[$type2][$object->tier] + 1;
+            @$minion_count[$type2][7] = @$minion_count[$type2][7] + 1;
+            @$minion_pool[$object->pools[1]][$object->tier] = @$minion_pool[$object->pools[1]][$object->tier] + 1;
+            @$minion_pool[$object->pools[1]][7] = @$minion_pool[$object->pools[1]][7] + 1;
+        }
         @$minion_count['Total'][$object->tier] = @$minion_count['Total'][$object->tier] + 1;
         @$minion_count['Total'][7] = @$minion_count['Total'][7] + 1;
     }
@@ -76,9 +84,9 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="types">Minion types and distribution</h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Murlocs have only one tier 4 minion. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
-        <br><br>
-        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.
+        The different minion types are not equally distributed across the six tavern tiers. For example Nagas have only two tier 4 minions. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        <!--        <br><br>-->
+        <!--        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.-->
         <br><br>
         The table below is automatically generated and therefore always up to date and accurate. Click on the different types or tiers to display all minions for that selection.
     </p>
@@ -112,15 +120,15 @@ foreach ($tempMinions->data as $key => $object) {
             echo "    <td>" . ($i == 7 ? '<a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a>' : '<a href="//bgknowhow.com/bgstrategy/?show=minions&tier=' . $i . '">' . $i . '</a>') . "</td>";
             echo "    <td>" . $minion_count['Beast'][$i] . " (" . ($minion_pool['Beast'][$i] - $minion_count['Beast'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Demon'][$i] . " (" . ($minion_pool['Demon'][$i] - $minion_count['Demon'][$i]) . ")</td>";
-            echo "    <td>" . @$minion_count['Dragon'][$i] . " (" . (@$minion_pool['Dragon'][$i] - @$minion_count['Dragon'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Dragon'][$i] . " (" . ($minion_pool['Dragon'][$i] - @$minion_count['Dragon'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Elemental'][$i] . " (" . ($minion_pool['Elemental'][$i] - $minion_count['Elemental'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Mech'][$i] . " (" . ($minion_pool['Mech'][$i] - $minion_count['Mech'][$i]) . ")</td>";
-            echo "    <td>" . ($minion_count['Murloc'][$i] ?? 0) . " (" . ($minion_pool['Murloc'][$i] - @$minion_count['Murloc'][$i]) . ")</td>";
+            echo "    <td>" . $minion_count['Murloc'][$i] . " (" . ($minion_pool['Murloc'][$i] - @$minion_count['Murloc'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Naga'][$i] . " (" . ($minion_pool['Naga'][$i] - $minion_count['Naga'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Quilboar'][$i] . " (" . ($minion_pool['Quilboar'][$i] - $minion_count['Quilboar'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Undead'][$i] . " (" . ($minion_pool['Undead'][$i] - $minion_count['Undead'][$i]) . ")</td>";
-            echo "    <td>" . @$minion_count['None'][$i] . "</td>";
+            echo "    <td>" . $minion_count['None'][$i] . "</td>";
             echo "    <td>" . $minion_count['Total'][$i] . "</td>";
             echo "</tr>";
         }
@@ -130,7 +138,7 @@ foreach ($tempMinions->data as $key => $object) {
 
     <h3>Tier 2 minions influencing your decision to go 3on3</h3>
     <p>
-        While some heroes like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the level 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it and don't buy tier 1 minions, for example.
+        While some heroes like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
     </p>
     <br>
     <p>
@@ -215,10 +223,10 @@ foreach ($tempMinions->data as $key => $object) {
     <h3 id="coiler">Ghastcoiler odds</h3>
     <div style="margin-top: -30px;">
         <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
-        <p style="width: 920px; padding-top: 90px; text-align: justify;">
+        <p style="width: 920px; padding-top: 40px; text-align: justify;">
             This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or any of the other possible Deathrattle minions. There are currently <?= $i + 1 ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
-            <br>
-            *These numbers are currently not filtered
+            <br><br>
+            <em>(These numbers are currently not filtered for banned minion types. So roughly multiply by 2 for your given lobby.)</em>
         </p>
     </div>
     <div class="comp_wrapper cf">
