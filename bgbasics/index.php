@@ -3,9 +3,26 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Basic Definitions</h2>
 <div>
+    <h3 id="gamestart">Start of the game</h3>
+    <p>
+        At the beginning of each battleground game you will first have to select the hero you will be playing for the rest of the game. Heroes differ by their values for health (usually 30), for armor (between 0 and 20) and most importantly their unique hero power. There are nearly 100 different heroes, all of which you can check out on our <a href="https://bgknowhow.com/bgstrategy/?show=heroes">Heroes listing</a>.
+        <br><br>
+        Normally you get to choose from two different heroes, but if you buy the <a href="https://us.shop.battle.net/en-us/product/hearthstone-battlegrounds-season-pass">Battleground Season Pass</a> you will be offered a selection of four heroes until the end of the season (usually lasting 3-4 months).
+        <br><br>
+        A key part in influencing your decision for a hero is the availability of minion types in your BG lobby. While there are 10 different minion types (<a href="https://bgknowhow.com/bgstrategy/?show=minions&type=beast">Beast</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=demon">Demons</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=dragon">Dragons</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=elemental">Elementals</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=mech">Mechs</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=murloc">Murlocs</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=naga">Naga</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=pirate">Pirates</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=quilboar">Quilboars</a>, <a href="https://bgknowhow.com/bgstrategy/?show=minions&type=undead">Undeads</a> and <a
+                href="https://bgknowhow.com/bgstrategy/?show=minions&type=none">Neutrals</a> which are in each game) only a random selection of 5 of them will be available for each game. Some heroes do perform better with a specific minion type or a combination of minion types due to synergies with their hero power. Also, some minion types have a huge effect on how the game will play out in general. For example with Murlocs in, players will have access to more Venomous minions than usual which means the value of high HP minions is reduced.
+        <br><br>
+        With 8 players in each game a maximum of 32 heroes will be offered to pick from. Some heroes are only offered in games featuring a specific minion type (e.g. <a href="https://bgknowhow.com/bgstrategy/hero/?id=42">Millificent Manastorm</a> only when Mechs are available). The heroes offered to you can not be picked by other players. With each new game you will get another random selection offered, therefore it is possible to not see a specific hero for a long time.
+    </p>
+    <h3 id="armor">Hero armor</h3>
+    <p>
+        The armor of a hero can be between 0 and 20 and is used as a balancing tool by Blizzard. Heroes which are weaker or need more time to get their game going will usually have higher armor values, whereas heroes which are better in the current meta will usually be given lower armor values. These armor values are constantly adjusted with every Hearthstone patch.
+        <br><br>
+        In the past there used to be an armor tier system, meaning that one hero had a range of armor (e.g. 7-10) instead of one set armor value. But nowadays, each hero has one specific armor value and only some heroes have a second armor value for higher MMR ranges (~6000+). On our <a href="https://bgknowhow.com/bgstrategy/hero/?id=72">hero pages</a> the regular armor value will be displayed with a gray background, whereas the high MMR value has a golden tinted background.
+    </p>
     <h3 id="attacks">Attacks</h3>
     <p>
-        In the combat phase the left-most minion of one player will attack a random minion on the opponents board. On a full board that means your attacking minion has a 1:7 (or 14.29%) chance to attack a specific minion of your opponent. This luck-factor can become very relevant when 'sniping' a minion like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a> will decide over the outcome of the match.
+        In the combat phase the left-most minion (with an attack > 0) of one player will attack a random minion on the opponents board. On a full board that means your attacking minion has a 1:7 (or 14.29%) chance to attack a specific minion of your opponent. This luck-factor can become very relevant when 'sniping' a minion like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a> will decide over the outcome of the match.
         <br><br>
         After the attack has concluded the left-most minion of the player who did not attack, will begin its attack. This loop will continue until all minions on one side of the board have been killed.
     </p>
@@ -20,16 +37,9 @@ include_once('../header.php');
     </p>
     <h3 id="taunt">Taunt</h3>
     <p>
-        As a defensive measure to protect your valuable creatures providing in-combat buffs (e.g. <a class="hoverimage"
-                                                                                                     href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama
-            Bear</a>) you can play minions with taunt or buff any of your minions via <a class="hoverimage"
-                                                                                         href="https://bgknowhow.com/bgstrategy/minion/?id=221">Sparring
-            Partner</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=250">Vigilant
-            Stoneborn</a>. A basic strategy is to position a big taunt minion to the right side of your board, so that
-        it attacks as late as possible and will block most of your opponents minions.
+        As a defensive measure to protect your valuable creatures providing in-combat buffs (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a>) you can play minions with taunt or buff any of your minions via <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=221">Sparring Partner</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=250">Vigilant Stoneborn</a>. A basic strategy is to position a big taunt minion to the right side of your board, so that it attacks as late as possible and will block most of your opponents minions.
         <br><br>
-        Another thing to keep in mind with taunt minions occurs when facing minions with cleave (e.g. <a
-                class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a>).
+        Another thing to keep in mind with taunt minions occurs when facing minions with cleave (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a>).
     </p>
     <h3 id="windfury">Windfury</h3>
     <p>
@@ -54,12 +64,7 @@ include_once('../header.php');
         While usually the positioning of a DS minion is less important because the shield works on offense as well as on
         defense you should still try to position against what your opponent has. The best counter against a shielded
         minion is a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a>, as he will
-        kill any minion in one hit, shield or no shield. But even a small taunt minion like a <a class="hoverimage"
-                                                                                                 href="https://bgknowhow.com/bgstrategy/minion/?id=272">Risen
-            Rider</a> can be played as a blocker to waste your shield. If your opponent is featuring several shielded
-        minions instead of just one huge one you should consider picking up a <a class="hoverimage"
-                                                                                 href="https://bgknowhow.com/bgstrategy/minion/?id=266">Blaster</a>
-        and putting it in first position.
+        kill any minion in one hit, shield or no shield. But even a small taunt minion like a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=272">Risen Rider</a> can be played as a blocker to waste your shield. If your opponent is featuring several shielded minions instead of just one huge one you should consider picking up a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=266">Blaster</a> and putting it in first position.
     </p>
     <h3 id="deathrattle">Deathrattle</h3>
     <p>
@@ -73,7 +78,7 @@ include_once('../header.php');
         two minions, namely <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a>
         and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=133">Foe Reaper 4000</a>. There is
         also <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=224">Wildfire Elemental</a> (will
-        only cleave when killing its target and only to one side until golden) as a honorable mention.
+        only cleave when killing its target and only to one side until golden) as an honorable mention.
         <br><br>
         That is most likely because it is one of the strongest offensive abilities in the game, with the potential to
         trade your one minion for up to three of your opponent minions. Because cleave has no defensive benefit you
@@ -86,6 +91,7 @@ include_once('../header.php');
     </p>
     <h3 id="venomous">Venomous</h3>
     <p>
+        Fighting a minion with 0 attack will make the minion lose Venomous, while fighting a minion with divine shield will not remove Venomous.
     </p>
     <h3 id="avenge">Avenge</h3>
     <p>
@@ -99,8 +105,35 @@ include_once('../header.php');
     <h3 id="spellcraft">Spellcraft</h3>
     <p>
     </p>
+    <h3 id="hand">Hand size and interactions</h3>
+    <p>
+        The maximum number of cards (minions, spells, effects, coins, gems, etc.) in your hand is 10. After that you first have to play a card to buy or receive another one. Cards which would added to your hand if you are at maximum hand size will be lost, except for Spellcraft cards, which will be newly generated when the space opens up again.
+        <br><br>
+        Some minions add cards to your hand during combat (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=248">Bristlemane Scrapsmith</a>) or can access the cards in your hand (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=332">Bassgill</a>).
+        <br><br>
+        During the combat round you are able to see the number of cards in the hand of your current opponent and can sometimes deduce their strength or strategy from that information.
+    </p>
+    <h3 id="discovers">Discovering</h3>
+    <p>
+        Some cards or effects let you discover minions (and sometimes even spells). When this happens you will usually be presented with a choice of three options to pick from. The card picked will be added to your hand.
+        <br><br>
+        The most common occurence of discovering happens when tripling minions.
+    </p>
     <h3 id="tripling">Tripling minions</h3>
     <p>
+        When you buy or otherwise get the third copy of a minion all copies on your battlefield will be pulled back to your hand and combined into a golden minion. In general a tripled minion will have double the stats of the regular minion plus all the permanent buffs accumulated on the prior copies. For an in-depth look at the math involved please refer to our <a href="https://bgknowhow.com/bgbasics/triple_stats.php">Triple Stats guide</a>. In most cases it will also have
+        <br><br>
+        As a bonus, when you play the golden minion you will receive a discover-effect card which lets you discover one minion from a tier one level higher than your current tavern tier. The tier level for the discover will be locked in when you play the golden minion. Therefore, if you want to get a higher discovery it is possible to delay the playing of your triple. You also benefit from tripled minions by needing one less space on your tavern board.
+        <br><br>
+        Your first triple during a game can often be a key decision guiding your direction or strategy for the rest of the game. Please refer to <a href="https://bgknowhow.com/bgstrategy/general.php#keyminions">our list of key minions for each minion type</a>.
+        <br><br>
+        Already golden minions can not be tripled again and will bind three copies of the minion on your board. Of course, it is possible to get another golden version of a minion by combining three new minions of the same name. When you sell a tripled minion three copies will be readded to the shared minion pool. This is more relevant for high-tier minions, because there are only 9 copies of each tier 5 minion and only 7 minions of each tier 6 minion.
+    </p>
+    <h3 id="buffs">Buff persistence</h3>
+    <p>
+        Unless explicitly stated that an effect is permant (like on <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=50">Budding Greenthumb</a>) buffs which happen during the combat phase won't carry over. This includes all "at the beginning of combat" effects.
+        <br><br>
+        On the other hand, buffs that happen during the tavern/buy phase (from something like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">The Boogie Monster</a>) or "at the end of your turn" (e.g <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">Famished Felbat</a>) will persist.
     </p>
     <h3 id="order">Order of effects</h3>
     <p>
@@ -148,7 +181,7 @@ include_once('../header.php');
     <h3 id="scouting">Scouting</h3>
     <p>
     </p>
-    <h3 id="disconnecting">Disconnecting</h3>
+    <h3 id="disconnecting">Disconnecting intentionally</h3>
     <p>
     </p>
     <h3 id="conceding">Conceding</h3>
@@ -179,8 +212,11 @@ include_once('../header.php');
         faster. This bonus for point gains will decrease the closer you'll get to your internal MMR (and will also be
         capped at ~8000 MMR, even if you had a very high rating like 10,000+ in the last season).
     </p>
-    <h3 id="ratinginternal">Winning percentages</h3>
+    <h3 id="winningpercentages">Winning percentages</h3>
     <p>
+        Some external addons are capable of calculating your odds of winning, tying or losing a given round by simulating the combat before or while it happens. Although those tools will usually run several thousand iterations of the combat in order to provide percentages as accurate as possible, it can still happen that you lose a combat for which the addon claimed a 100% chance to win. As the number of random effects during combat increase (e.g. with cards like <a href="https://bgknowhow.com/bgstrategy/minion/?id=135">Ghastcoiler</a>) there is always the off chance that a crazy result will happen not in the first 5000 iterations but only on the 5001st run (which could be your actual combat).
+        <br><br>
+        Although knowing your chances in combat can be used as a guide for the relative strength of your composition, be aware of the mental impact of always checking the win percentages and what the percentages really express. For example a fair amount of combats will be decided by who attacks first, which is essentially a 50:50 coin flip at the begining of the match. This effect is evened out by the theoretical simulations running several thousand iterations. But in practice, it will still be just the one coin flip at the start, having a major impact on the result of the given round.
     </p>
     <br><br>
 </div>
