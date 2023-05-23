@@ -146,7 +146,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Gambler'];
+        $board   = ['Gambler', 'Rewinder'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -157,7 +157,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Ripsnarl', 'Angler', '*Eternal Knight', 'Rewinder', 'Flutist'];
+        $board   = ['Rat', 'Ripsnarl', 'Angler', '*Eternal Knight', 'Security', 'Flutist'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -168,7 +168,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Tusk', 'Prophet', 'Thorncaller', 'Lurker', 'Snail', 'Golem', 'Trickster', 'Muck', 'Security', 'Scout', 'Emissary', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Honcho', 'Tad', 'Rock', 'Frostling'];
+        $board   = ['Tusk', 'Prophet', 'Thorncaller', 'Lurker', 'Snail', 'Golem', 'Trickster', 'Muck', 'Scout', 'Emissary', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Tad', 'Rock', 'Frostling'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -179,7 +179,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Leaper', 'Bird', 'Lulla', 'Smuggler', 'Party', 'Riffer', 'Skull'];
+        $board   = ['Leaper', 'Lulla', 'Smuggler', 'Party', 'Riffer', 'Skull', 'Honcho'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -190,7 +190,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['*Metaltooth Leaper', 'Selfless', 'Mug', 'Partner'];
+        $board   = ['Bird', '*Metaltooth Leaper', 'Selfless', 'Mug', 'Partner'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -203,7 +203,57 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Slamma', 'Croc', 'Mama Bear', 'Rewinder', 'Felbat', 'Stomper', 'Promo-Drake', 'Kaly', 'Barnstormer', 'Nomi', 'Magmaloc', 'Rock Rock', 'Deflecto', 'Scrap', 'Boombox', 'Beatboxer', 'Buster', 'Counter', 'Murk-Eye', 'Deep Blue', 'Athissa', 'Orgozoa', '*Record Smuggler', 'Vanessa', 'Tethys', 'Aggem', 'Charly', 'Anub', 'Summoner', 'Deathwhisper', 'Fanatic', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
+        $board   = ['Rylak', 'Slamma', 'Croc', 'Mama Bear'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Rewinder', 'Felbat', 'Stomper'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Promo-Drake', 'Kaly'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Barnstormer', 'Nomi', 'Magmaloc', 'Rock Rock'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Deflecto', 'Scrap', 'Boombox', 'Beatboxer', 'Buster'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Counter', 'Murk-Eye'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Deep Blue', 'Athissa', 'Orgozoa'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Vanessa', '*Record Smuggler', 'Tethys'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Aggem', 'Charly', 'Bristlebach'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Anub', 'Summoner', 'Deathwhisper'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        unset($board);
+        echo "<br>";
+        $board   = ['Fanatic', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -224,9 +274,11 @@ foreach ($tempMinions->data as $key => $object) {
     <div style="margin-top: -30px;">
         <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
         <p style="width: 920px; padding-top: 40px; text-align: justify;">
-            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or any of the other possible Deathrattle minions. There are currently <?= $i + 1 ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
+            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a>, <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=343'>Operatic Belcher</a> or any of the other possible Deathrattle minions.
             <br><br>
-            <em>(These numbers are currently not filtered for banned minion types. So roughly multiply by 2 for your given lobby.)</em>
+            There are currently <?= $i + 1 ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
+            <br><br>
+            <em>(These numbers are currently not filtered for banned minion types. So roughly multiply by 2, depending on your actual lobby composition.)</em>
         </p>
     </div>
     <div class="comp_wrapper cf">
