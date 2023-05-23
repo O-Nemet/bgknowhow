@@ -1,7 +1,7 @@
 <?php
 include_once('../header.php');
 ?>
-<h2 class="page_title">Lobby Legends Esports</h2>
+<h2 class="page_title">Tournaments</h2>
 <div class="lobby_legends">
     <img src="<?= PICTURE_LOCAL ?>misc/ll_logo.webp" alt="Lobby Legends logo">
     <p>

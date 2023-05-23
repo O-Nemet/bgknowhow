@@ -59,7 +59,7 @@ require_once('config/db.php');
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcomps/">&#9654; Compositions</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcurves/">&#9654; Curves</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bglegends/">&#9654; Lobby Legends</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bglegends/">&#9654; Tournaments</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgexternal/">&#9654; External Resources</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_pocky.php">&#9654; Guide to Improving at BGs</a></li>
                 <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">&#9654; Featured YouTube guides</a></li>-->
@@ -137,7 +137,7 @@ require_once('config/db.php');
                     </div>
                 </li>
                 <li class="menu-hover bglegends">
-                    <a class="menu-topic" href="//bgknowhow.com/bglegends/">Lobby Legends</a>
+                    <a class="menu-topic" href="//bgknowhow.com/bglegends/">Tournaments</a>
                 </li>
                 <li class="menu-hover bgsim">
                     <a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">Simulator</a>
