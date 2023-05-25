@@ -2,9 +2,9 @@
 include_once('../header.php');
 ?>
 
-<h2 class="page_title">External Resources</h2>
+<h2 class="page_title">Resources</h2>
 
-<h3>Websites</h3>
+<h3 id="websites">Websites</h3>
 <div class="websites">
     <div>
         <a href="https://www.reddit.com/r/BobsTavern/" target="_blank">
@@ -51,8 +51,18 @@ include_once('../header.php');
             <span>Firestone</span>
         </a>
         <p>
-            A very well programmed companion app for Hearthstone on PC.<br><br>
+            A very well programmed and free companion app for Hearthstone on PC.<br><br>
             Featuring an extensive BG module, including game tracking and the option to simulate different board states.
+        </p>
+    </div>
+    <div>
+        <a href="https://hsreplay.net/downloads/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_hsdt.png" alt="Hearthstone Deck Tracker">
+            <span>HS Deck Tracker</span>
+        </a>
+        <p>
+            The original and free Hearthstone overlay/tracking addon.<br><br>
+            Also featuring a paid subscription service for BG stats called Tier7.
         </p>
     </div>
     <div>
@@ -84,6 +94,24 @@ include_once('../header.php');
         </p>
     </div>
     <div>
+        <a href="https://bobsleague.com/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_bobsleague.png" alt="Bob's League Tournaments">
+            <span>Bob's League</span>
+        </a>
+        <p>
+            Community run weekly tournaments with medium prize pool support on the EU server.
+        </p>
+    </div>
+    <div>
+        <a href="https://hsbgclub.com/Help" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_hsbgclub.png" alt="HSBG Club Tournaments">
+            <span>HSBG Club</span>
+        </a>
+        <p>
+            Community run weekly tournaments with small prize pool support on the US server.
+        </p>
+    </div>
+    <div>
         <a href="https://hearthstone.fandom.com/wiki/Hearthstone_Wiki/Battlegrounds" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_hearthstone_wiki.webp" alt="Hearthstone Wiki">
             <span>HS Wiki</span>
@@ -103,7 +131,7 @@ include_once('../header.php');
     </div>
 </div>
 
-<h3 class="cf">Streamers</h3>
+<h3 id="streamers" class="cf">Streamers</h3>
 <div class="streamers">
     <div>
         <a href="https://twitch.tv/rdulive" target="_blank">
@@ -244,7 +272,7 @@ include_once('../header.php');
     <!--    https://www.twitch.tv/guddummit  russian -->
 </div>
 
-<h3 class="cf">Youtubers</h3>
+<h3 id="youtubers" class="cf">Youtubers</h3>
 <div class="streamers">
     <div>
         <a href="https://www.youtube.com/playlist?list=PL3kmT1mmaRnGdkZGVJbcLfg_oGk32vk2v" target="_blank">
