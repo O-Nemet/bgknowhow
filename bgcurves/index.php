@@ -5,10 +5,15 @@ include_once('../header.php');
 <br>
 <div>
     <p>
-        When to level to the next tavern tier and when to buy minions or utilize your hero power instead, is a whole lot of theory on its own and greatly depends on the hero you are playing and also on the cost of its hero power.<br><br>
-        The standard/basic curve is going to level 2 on turn 2 (4 gold), going to level 3 on turn 5 (7 gold) and going to level 4 on turn 7 (9 gold). After that, deciding to level to 5 or 6 will heavily depend on your board, which discover you get from your first triple, and even your opponents board.
-        <br><br>For the time being, please refer to the <a href="https://docs.google.com/spreadsheets/d/1J_NuzXHEsppgrAWJzLEZwESfiiNyURo3pCBAO1ga2mE/" target="_blank">Battlegrounds Curvesheet by Minder</a>.
-        <br><br>More information coming soon&trade;.
+        When to level to the next tavern tier and when to buy minions or utilize your hero power instead, is a whole lot of theory on its own and greatly depends on the hero you are playing and also on the cost to use its hero power.
+        <br><br>
+        The standard/basic curve is buying one minion on turn 1 (3 gold), going to level 2 on turn 2 (4 gold), selling your minion to buy two minions on turn 3 (5 gold), buying two minions on turn 4 (6 gold), buying one minion and going to level 3 on turn 5 (7 gold), rolling and buying the best two minions on turn 6 (8 gold), and going to level 4 on turn 7 (9 gold). After that, deciding to level to 5 or 6 will heavily depend on your board, which discover you get from your first triple, and even your opponents boards.
+        <br><br>
+        If you happen to get an early minion that can generate gold for you (the most prominent examples being <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=14">Sellemental</a> and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=193">Shell Collector</a>) you can either gain some tempo by buying two minions without having to sell one on turn 3 (5 gold) or alter your curve aggressively to level earlier (for example going to level 3 on turn 3 (5 gold) without having to sell your minion).
+        <br><br>
+        If your hero power activation costs 1 gold and is worthwhile early on you can alternatively play the so-called Rafaam curve going to level 2 on turn 4 (6 gold), going to level 3 on turn 6 (8 gold) and going to level 4 on turn 7 (9 gold).
+        <br><br>
+        For the time being, for further information about playing curves please refer to the <a href="https://docs.google.com/spreadsheets/d/1J_NuzXHEsppgrAWJzLEZwESfiiNyURo3pCBAO1ga2mE/" target="_blank">Battlegrounds Curvesheet by Minder</a>.
     </p>
 </div>
 
