@@ -27,8 +27,8 @@ include_once('../header.php');
         For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=131'>Eliza</a>' instead of '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=131'>Dread Admiral Eliza</a>'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
         For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating keywords like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
-        At least every 4 hours fresh files will be generated from the database.<br>
-        Official updates and hotfixes will be integrated as soon as possible.<br>
+        At least every 4 hours fresh files will be generated from the database. Official updates and hotfixes will be integrated as soon as possible.
+        <br>
         If you have any suggestion for additional properties that could/should be implemented, just drop me a message.
     </p>
 
@@ -123,6 +123,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>25.05.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2623-patch-notes/108059" target="_blank">26.2.3</a> patch notes.</li>
         <li>19.05.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23957164/26-2-2-patch-notes" target="_blank">26.2.2</a> patch notes.</li>
         <li>12.05.2023 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2621-patch-notes/107435" target="_blank">26.2.1</a> patch notes.</li>
         <li>09.05.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23935322/26-2-patch-notes" target="_blank">26.2.0</a> patch notes.</li>
