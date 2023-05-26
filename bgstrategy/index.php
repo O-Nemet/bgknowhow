@@ -28,6 +28,12 @@ if (!empty($_GET['type'])) {
     $minionPool = 'Everything';
 }
 
+if (!empty($_GET['ability'])) {
+    $minionAbility = ucfirst(strtolower($_GET['ability']));
+} else {
+    $minionAbility = '';
+}
+
 if (!empty($_GET['tier'])) {
     $minionTier = (int)$_GET['tier'];
     $minionTier = ($minionTier > 0 && $minionTier < 7) ? $minionTier : 0;
@@ -120,7 +126,17 @@ if (!empty($buddy)) {
             echo "</div>";
             echo "<div class='strategy-images minions cf'>";
             foreach ($minions as $minion) {
-                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool)) {
+                if ($minionAbility !== '') {
+                    $key = 'has' . $minionAbility;
+                    if ($minion->abilities->$key) {
+                        $hasAbility = true;
+                    } else {
+                        $hasAbility = false;
+                    }
+                } else {
+                    $hasAbility = true;
+                }
+                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool) && ($hasAbility)) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                     echo "<div class='name'>" . $minion->name . "</div>";
                     echo "<div class='mask'></div>";
