@@ -8,24 +8,34 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Maximum Juggler Comp:</h3>
-    <?php
-    $board   = ['*Ring Matron', '*Ring Matron', 'Voidlord', 'Voidlord', 'Infernal', 'Juggler', 'Stomper'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
     <h3>Big Stats Comp:</h3>
     <?php
-    $board   = ['Selfless', 'Ball', 'Ball', 'Ur\'zul', '*Legion Overseer', 'Felbat', 'Titus'];
+    $board   = ['Tichondrius', 'Weaver', 'Malchezaar', 'Rewinder', 'Felbat', 'Ur\'zul', 'Ur\'zul'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <p>
+        Needs an early Soul Rewinder. Two Insatiable Ur'zul are usually better than a golden one. Don't forget to utilize <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> for double Ur'zul triggers and magnetic buffs.
+    </p>
+    <h3>Stomper Deathrattle Comp:</h3>
+    <?php
+    $board   = ['Felbat', 'Imp', 'Imp', 'Matron', 'Matron', 'Felstomper', 'Felstomper'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        Very 6-drop dependent.
+    </p>
     <h3>Macaw/Trickster Comp:</h3>
     <?php
-    $board   = ['Macaw', 'Macaw', 'Trickster', 'Queen', 'Queen', 'Felbat', 'Titus'];
+    $board   = ['Macaw', 'Macaw', 'Trickster', 'Blanchy', 'Blanchy', 'Felbat', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <p>
+        Needs the availability of Beasts. Needs a heavily buffed and golden Impulsive Trickster.
+    </p>
+    <br>
 </div>
 
 <?php

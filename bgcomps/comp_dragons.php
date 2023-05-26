@@ -10,22 +10,23 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3>Tarec/Promo Big Stats Comp:</h3>
     <?php
-    $board   = ['Razorgore', 'Nadina', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Promo-Drake', 'Razorgore'];
+    $board   = ['Rester', 'Rester', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Promo-Drake', 'Nadina'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <p>
+        Don't taunt the Nadina, because your Tarecgosas will start with a shield and are your only heavy hitters.
+    </p>
     <h3>Kalecgos Battlecry Comp:</h3>
     <?php
-    $board   = ['Bronze Warden', 'Nadina', 'Cyborg', 'Ball', 'Kaly', 'Kaly', 'Brann'];
+    $board   = ['Nadina', 'Stormbringer', 'Drakkisath', 'Murk-Eye', 'Kaly', 'Kaly', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Nadina Poison Comp:</h3>
-    <?php
-    $board   = ['Nadina', 'Skyfin', 'Skyfin', 'Nadina', 'Queen', 'Ball', 'Ball'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
+    <p>
+        Try to taunt the Nadina. The Murk-Eye is a bonus if Murlocs are available and can be replaced by <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=319">Rylak Metalhead</a> or used as a flex spot to play <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=339">Disco Shuffler</a>.
+    </p>
+    <br>
 </div>
 
 <?php
