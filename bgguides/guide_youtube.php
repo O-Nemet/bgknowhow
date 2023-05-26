@@ -11,15 +11,9 @@ include_once('../header.php');
 
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“How To Play Every Buddy in Battlegrounds” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <h3>“Discussing Win Conditions for Beast, Murloc, Naga, Elemental, Undead, Dragon (Patch 26.2)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/dKNmsylUJxg?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“When Should You Summon Your Buddy” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/xFbu7nWpYyg?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/qPbX4aRx43A?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
