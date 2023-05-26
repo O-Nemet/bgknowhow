@@ -16,15 +16,25 @@ include_once('../header.php');
     </p>
     <h3 id="armor">Hero armor</h3>
     <p>
-        The armor of a hero can be between 0 and 20 and is used as a balancing tool by Blizzard. Heroes which are weaker or need more time to get their game going will usually have higher armor values, whereas heroes which are better in the current meta will usually be given lower armor values. These armor values are constantly adjusted with every Hearthstone patch.
+        The armor of a hero can be between 0 and 20 and is used as a balancing tool by Blizzard. Heroes which are weaker or need more time to get their game going will usually have higher armor values, whereas heroes which are more tempo oriented or better in the current meta will usually be given lower armor values. These armor values are constantly adjusted with every Hearthstone patch. In reality no ingame difference exists between health and armor regarding the survivability of your hero, it is just a means to keep all heroes at 30 health.
         <br><br>
         In the past there used to be an armor tier system, meaning that one hero had a range of armor (e.g. 7-10) instead of one set armor value. But nowadays, each hero has one specific armor value and only some heroes have a second armor value for higher MMR ranges (~6000+). On our <a href="https://bgknowhow.com/bgstrategy/hero/?id=72">hero pages</a> the regular armor value will be displayed with a gray background, whereas the high MMR value has a golden tinted background.
+        <br><br>
+        For a sorted list of all heroes and their armor values check out this <a href="https://bgknowhow.com/bgbasics/armor.php">page</a>.
+    </p>
+    <h3 id="tavern">Tavern phase</h3>
+    <p>
+    </p>
+    <h3 id="pool">Minion pool</h3>
+    <p>
     </p>
     <h3 id="attacks">Attacks</h3>
     <p>
         In the combat phase the left-most minion (with an attack > 0) of one player will attack a random minion on the opponents board. On a full board that means your attacking minion has a 1:7 (or 14.29%) chance to attack a specific minion of your opponent. This luck-factor can become very relevant when 'sniping' a minion like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a> will decide over the outcome of the match.
         <br><br>
         After the attack has concluded the left-most minion of the player who did not attack, will begin its attack. This loop will continue until all minions on one side of the board have been killed.
+        <br><br>
+        Minions with zero attack power will be skipped and the next minion to the right (which has a positive attack value) will attack instead. If both players have only minions with zero attack power on the board the combat will end in a tie.
     </p>
     <h3 id="initiative">Initiative</h3>
     <p>
@@ -98,6 +108,11 @@ include_once('../header.php');
     </p>
     <h3 id="battlecry">Battlecry</h3>
     <p>
+        Minions with this ability will trigger an effect when played from your hand. Many Battlecry effects will buff the minions on your board with permanent stats (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=89">Menagerie Jug</a>) or permanent abilites (e.g. Taunt by <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=221">Sparring Partner</a>).
+        <br><br>
+        A key minion to utilize battlecries as a winning strategy is the neutral <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=109">Brann Bronzebeard</a> available in all games. Also <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=319">Rylak Metalhead</a> can trigger the battlecries from minions on your board during the combat phase (those buffs will vanish after combat, though).
+        <br><br>
+        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=battlecry">list of all Battlecry minions</a> to know your options.
     </p>
     <h3 id="magnetic">Magnetic</h3>
     <p>
@@ -133,7 +148,7 @@ include_once('../header.php');
     <p>
         Unless explicitly stated that an effect is permant (like on <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=50">Budding Greenthumb</a>) buffs which happen during the combat phase won't carry over. This includes all "at the beginning of combat" effects.
         <br><br>
-        On the other hand, buffs that happen during the tavern/buy phase (from something like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">The Boogie Monster</a>) or "at the end of your turn" (e.g <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">Famished Felbat</a>) will persist.
+        On the other hand, buffs that happen during the tavern/buy phase (from something like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">The Boogie Monster</a>) or "at the end of your turn" (e.g <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">Famished Felbat</a>) will persist, unless specified otherwise.
     </p>
     <h3 id="order">Order of effects</h3>
     <p>
@@ -166,14 +181,14 @@ include_once('../header.php');
     </p>
     <h3 id="gamelength">Game length</h3>
     <p>
-        Most lobbies will take about 13-15 turns to find a winner, which translates to around 25 to 30 minutes in real
+        Most lobbies will take about 13-16 turns to find a winner, which translates to around 25 to 30 minutes in real
         life. Of course there are exceptions to this rule, for example when many fights end in ties during the endgame
         it is totally possible to reach 20+ turns.
         <br><br>
         The first 5 turns are usually refered to as the early game, whereas turns 6 to 10 are the mid-game and
         everything after that is the end game. It is very uncommon for a player to die before turn 8 (notwithstanding
-        conceding or disconnecting), but pretty common on turns 9 to 10. But that will also depend on the tempo of the
-        current meta game, of course.
+        conceding or disconnecting), but pretty common on turns 9 to 10. This will also depend on the tempo of the
+        current meta game and the lobby composition, of course.
     </p>
     <h3 id="damage">Damage Output</h3>
     <p>
@@ -214,9 +229,9 @@ include_once('../header.php');
     </p>
     <h3 id="winningpercentages">Winning percentages</h3>
     <p>
-        Some external addons are capable of calculating your odds of winning, tying or losing a given round by simulating the combat before or while it happens. Although those tools will usually run several thousand iterations of the combat in order to provide percentages as accurate as possible, it can still happen that you lose a combat for which the addon claimed a 100% chance to win. As the number of random effects during combat increase (e.g. with cards like <a href="https://bgknowhow.com/bgstrategy/minion/?id=135">Ghastcoiler</a>) there is always the off chance that a crazy result will happen not in the first 5000 iterations but only on the 5001st run (which could be your actual combat).
+        Some external addons are capable of calculating your odds of winning, tying or losing a given round by simulating the combat before or while it happens. Although those tools will usually run several thousand iterations of the combat in order to provide percentages as accurate as possible, it can still happen that you lose a combat for which the addon claimed a 100% chance to win. As the number of random effects during combat increase (e.g. with cards like <a href="https://bgknowhow.com/bgstrategy/minion/?id=135">Ghastcoiler</a>) there is always the off chance that a crazy result will happen, not in the first 5000 iterations but only on the 5001st run (which could be your actual combat).
         <br><br>
-        Although knowing your chances in combat can be used as a guide for the relative strength of your composition, be aware of the mental impact of always checking the win percentages and what the percentages really express. For example a fair amount of combats will be decided by who attacks first, which is essentially a 50:50 coin flip at the begining of the match. This effect is evened out by the theoretical simulations running several thousand iterations. But in practice, it will still be just the one coin flip at the start, having a major impact on the result of the given round.
+        Although knowing your chances in combat can be used as a guide for the relative strength of your composition do not overvalue the numbers. Be aware of the mental impact of always checking the win percentages and what the percentages really express. For example a fair amount of combats will be decided by who attacks first, which is essentially a 50:50 coin flip at the begining of the match. This effect is evened out by the theoretical simulations running several thousand iterations. But in practice, it will still be just the one coin flip at the start of your combat, having a major impact on the result of the given round.
     </p>
     <br><br>
 </div>
