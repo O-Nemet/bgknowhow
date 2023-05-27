@@ -111,7 +111,7 @@ if (!empty($buddy)) {
     }
 
     if ($show == 'minions' || $show == 'all') {
-        echo '<h2 class="page_title">Minions' . ($minionPool !== 'Everything' ? ' - ' . $minionPool . 's' : '') . '</h2>';
+        echo '<h2 class="page_title">Minions' . ($minionPool !== 'Everything' ? ' - ' . $minionPool . 's' : '') . ($minionAbility !== '' ? ' (' . $minionAbility . ')' : '') . '</h2>';
     }
 
     $tierFrom = $minionTier !== 0 ? $minionTier : 1;
