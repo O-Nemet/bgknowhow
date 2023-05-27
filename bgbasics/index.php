@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Basic Definitions</h2>
 <div>
-    <h3 id="gamestart">Start of the game <a href="#" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="gamestart">Start of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         At the beginning of each battleground game you will first have to select the hero you will be playing for the rest of the game. Heroes differ by their values for health (usually 30), for armor (between 0 and 20) and most importantly their unique hero power. There are nearly 100 different heroes, all of which you can check out on our <a href="https://bgknowhow.com/bgstrategy/?show=heroes">Heroes listing</a>.
         <br><br>
@@ -14,7 +14,7 @@ include_once('../header.php');
         <br><br>
         With 8 players in each game a maximum of 32 heroes will be offered to pick from. Some heroes are only offered in games featuring a specific minion type (e.g. <a href="https://bgknowhow.com/bgstrategy/hero/?id=42">Millificent Manastorm</a> only when Mechs are available). The heroes offered to you can not be picked by other players. With each new game you will get another random selection offered, therefore it is possible to not see a specific hero for a long time.
     </p>
-    <h3 id="armor"><a href="#" onclick="CopyLink(this);" title="Copy the link to this section to clipboard"><i class="bi bi-link-45deg"></i></a> Hero armor</h3>
+    <h3 id="armor">Hero armor <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The armor of a hero can be between 0 and 20 and is used as a balancing tool by Blizzard. Heroes which are weaker or need more time to get their game going will usually have higher armor values, whereas heroes which are more tempo oriented or better in the current meta will usually be given lower armor values. These armor values are constantly adjusted with every Hearthstone patch. In reality no ingame difference exists between health and armor regarding the survivability of your hero, it is just a means to keep all heroes at 30 health.
         <br><br>
@@ -22,13 +22,13 @@ include_once('../header.php');
         <br><br>
         For a sorted list of all heroes and their armor values check out this <a href="https://bgknowhow.com/bgbasics/armor.php">page</a>.
     </p>
-    <h3 id="tavern">Tavern phase <a href="#" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="tavern">Tavern phase <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="pool">Minion pool</h3>
+    <h3 id="pool">Minion pool <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="attacks">Attacks</h3>
+    <h3 id="attacks">Attacks <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         In the combat phase the left-most minion (with an attack > 0) of one player will attack a random minion on the opponents board. On a full board that means your attacking minion has a 1:7 (or 14.29%) chance to attack a specific minion of your opponent. This luck-factor can become very relevant when 'sniping' a minion like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=256">Titus</a> will decide over the outcome of the match.
         <br><br>
@@ -36,7 +36,7 @@ include_once('../header.php');
         <br><br>
         Minions with zero attack power will be skipped and the next minion to the right (which has a positive attack value) will attack instead. If both players have only minions with zero attack power on the board the combat will end in a tie.
     </p>
-    <h3 id="initiative">Initiative</h3>
+    <h3 id="initiative">Initiative <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Which player will attack first is decided by the number of minions on each side at the beginning of combat. If
         you control more minions than your opponent your left-most minion will attack first, followed by your opponents
@@ -45,13 +45,13 @@ include_once('../header.php');
         attack first, but there are some corner cases where it could be beneficial to go down from 7 to 6 minions to
         force your opponent to attack first.
     </p>
-    <h3 id="taunt">Taunt</h3>
+    <h3 id="taunt">Taunt <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         As a defensive measure to protect your valuable creatures providing in-combat buffs (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=117">Mama Bear</a>) you can play minions with taunt or buff any of your minions via <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=221">Sparring Partner</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=250">Vigilant Stoneborn</a>. A basic strategy is to position a big taunt minion to the right side of your board, so that it attacks as late as possible and will block most of your opponents minions.
         <br><br>
         Another thing to keep in mind with taunt minions occurs when facing minions with cleave (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a>).
     </p>
-    <h3 id="windfury">Windfury</h3>
+    <h3 id="windfury">Windfury <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         A minion with Windfury will attack a second time, if it survived its first attack. Multiple instances of
         Windfury do not increase the number of attacks.
@@ -61,7 +61,7 @@ include_once('../header.php');
         only provides value if the minion is able to survive its first attack. Therefore, the value of Windfury
         increases on minions with high health or a Divine Shield.
     </p>
-    <h3 id="shield">Divine Shield</h3>
+    <h3 id="shield">Divine Shield <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Minions with a divine shield will not get damaged the first time they are hit during each combat (the shield
         will refresh between combats). This provides the opportunity to trade 2 for 1 if the shielded minion is big
@@ -76,13 +76,13 @@ include_once('../header.php');
         minion is a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a>, as he will
         kill any minion in one hit, shield or no shield. But even a small taunt minion like a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=272">Risen Rider</a> can be played as a blocker to waste your shield. If your opponent is featuring several shielded minions instead of just one huge one you should consider picking up a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=266">Blaster</a> and putting it in first position.
     </p>
-    <h3 id="deathrattle">Deathrattle</h3>
+    <h3 id="deathrattle">Deathrattle <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="reborn">Reborn</h3>
+    <h3 id="reborn">Reborn <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="cleave">Cleave</h3>
+    <h3 id="cleave">Cleave <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Cleave is short for the text "Also damages the minions next to whomever this attacks." and is featured on only
         two minions, namely <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a>
@@ -99,14 +99,14 @@ include_once('../header.php');
         minion with taunt on the outer right position, a cleaving attacker will only hit two of your minions). So be
         aware of lobbies featuring the above-mentioned minions and the picks or discoveries of your opponents.
     </p>
-    <h3 id="venomous">Venomous</h3>
+    <h3 id="venomous">Venomous <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Fighting a minion with 0 attack will make the minion lose Venomous, while fighting a minion with divine shield will not remove Venomous.
     </p>
-    <h3 id="avenge">Avenge</h3>
+    <h3 id="avenge">Avenge <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="battlecry">Battlecry</h3>
+    <h3 id="battlecry">Battlecry <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Minions with this ability will trigger an effect when played from your hand. Many Battlecry effects will buff the minions on your board with permanent stats (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=89">Menagerie Jug</a>) or permanent abilites (e.g. Taunt by <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=221">Sparring Partner</a>).
         <br><br>
@@ -114,13 +114,13 @@ include_once('../header.php');
         <br><br>
         Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=battlecry">list of all Battlecry minions</a> to know your options.
     </p>
-    <h3 id="magnetic">Magnetic</h3>
+    <h3 id="magnetic">Magnetic <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="spellcraft">Spellcraft</h3>
+    <h3 id="spellcraft">Spellcraft <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="hand">Hand size and interactions</h3>
+    <h3 id="hand">Hand size and interactions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The maximum number of cards (minions, spells, effects, coins, gems, etc.) in your hand is 10. After that you first have to play a card to buy or receive another one. Cards which would added to your hand if you are at maximum hand size will be lost, except for Spellcraft cards, which will be newly generated when the space opens up again.
         <br><br>
@@ -128,13 +128,13 @@ include_once('../header.php');
         <br><br>
         During the combat round you are able to see the number of cards in the hand of your current opponent and can sometimes deduce their strength or strategy from that information.
     </p>
-    <h3 id="discovers">Discovering</h3>
+    <h3 id="discovers">Discovering <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Some cards or effects let you discover minions (and sometimes even spells). When this happens you will usually be presented with a choice of three options to pick from. The card picked will be added to your hand.
         <br><br>
         The most common occurence of discovering happens when tripling minions.
     </p>
-    <h3 id="tripling">Tripling minions</h3>
+    <h3 id="tripling">Tripling minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         When you buy or otherwise get the third copy of a minion all copies on your battlefield will be pulled back to your hand and combined into a golden minion. In general a tripled minion will have double the stats of the regular minion plus all the permanent buffs accumulated on the prior copies. For an in-depth look at the math involved please refer to our <a href="https://bgknowhow.com/bgbasics/triple_stats.php">Triple Stats guide</a>. In most cases it will also have
         <br><br>
@@ -144,16 +144,16 @@ include_once('../header.php');
         <br><br>
         Already golden minions can not be tripled again and will bind three copies of the minion on your board. Of course, it is possible to get another golden version of a minion by combining three new minions of the same name. When you sell a tripled minion three copies will be readded to the shared minion pool. This is more relevant for high-tier minions, because there are only 9 copies of each tier 5 minion and only 7 minions of each tier 6 minion.
     </p>
-    <h3 id="buffs">Buff persistence</h3>
+    <h3 id="buffs">Buff persistence <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Unless explicitly stated that an effect is permant (like on <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=50">Budding Greenthumb</a>) buffs which happen during the combat phase won't carry over. This includes all "at the beginning of combat" effects.
         <br><br>
         On the other hand, buffs that happen during the tavern/buy phase (from something like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">The Boogie Monster</a>) or "at the end of your turn" (e.g <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=351">Famished Felbat</a>) will persist, unless specified otherwise.
     </p>
-    <h3 id="order">Order of effects</h3>
+    <h3 id="order">Order of effects <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="damagecap">Damage Cap</h3>
+    <h3 id="damagecap">Damage Cap <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The Damage Cap was implemented to avoid players from taking huge amounts of damage on early turns. It is
         indicated by a little shield symbol you can see while hovering over heroes on the left bar. The current Damage
@@ -162,7 +162,7 @@ include_once('../header.php');
         <br><br>
         The Damage Cap is in place until both a hero has died and the game has reached at least turn 8 (10 gold).
     </p>
-    <h3 id="deadguy">Fighting 'Deadguy'</h3>
+    <h3 id="deadguy">Fighting 'Deadguy' <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Whenever an odd number of players are defeated before a combat round, one of the remaining players will be
         randomly paired with one of the eliminated players. These eliminated players, referred to as 'deadguys' (their
@@ -179,7 +179,7 @@ include_once('../header.php');
         event of a 'deadguy' fight, the bottom three players who were not paired with a 'deadguy' during the previous
         round will be eligible.
     </p>
-    <h3 id="gamelength">Game length</h3>
+    <h3 id="gamelength">Game length <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Most lobbies will take about 13-16 turns to find a winner, which translates to around 25 to 30 minutes in real
         life. Of course there are exceptions to this rule, for example when many fights end in ties during the endgame
@@ -190,19 +190,19 @@ include_once('../header.php');
         conceding or disconnecting), but pretty common on turns 9 to 10. This will also depend on the tempo of the
         current meta game and the lobby composition, of course.
     </p>
-    <h3 id="damage">Damage Output</h3>
+    <h3 id="damage">Damage Output <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="scouting">Scouting</h3>
+    <h3 id="scouting">Scouting <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="disconnecting">Disconnecting intentionally</h3>
+    <h3 id="disconnecting">Disconnecting intentionally <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="conceding">Conceding</h3>
+    <h3 id="conceding">Conceding <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="rating">Rating (BG MMR)</h3>
+    <h3 id="rating">Rating (BG MMR) <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The rating shown after every game is your match making rating (MMR), a first place will normally net you around +100 points, whereas an 8th place will make you lose around -100 points. The actual values are based on a formula and depend on the MMR of every player in the lobby and your actual placement at the end of the game.
         <br><br>
@@ -210,14 +210,14 @@ include_once('../header.php');
         <br><br>
         The matchmaking algorithm will try to build lobbies where every player is roughly in the same MMR range. But after you reach a high rating (8000+ in the middle of the season) there is a chance to be matched with everyone, even the top 100 players of the <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=battlegrounds" target="_blank">ladder</a>.
     </p>
-    <h3 id="ratingfloor">Rating Floors</h3>
+    <h3 id="ratingfloor">Rating Floors <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         There are rating floors between 2000 and 6000 for your MMR. Your rating does not drop below each floor once it
         is above it. Currently, there is a floor every 500 rating points: 2000, 2500, 3000, 3500, 4000, 4500, 5000,
         5500, 6000.
         <!--        (<a href=https://hearthstone.blizzard.com/en-us/news/23523064 target="_blank">source</a>)-->
     </p>
-    <h3 id="ratinginternal">Internal rating</h3>
+    <h3 id="ratinginternal">Internal rating <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         At the start of each BG season (roughly every 3 months) your shown/external MMR will be reset to zero. But
         Hearthstone saves your internal MMR (which at the end of a season will be very close to your external MMR) and
@@ -227,7 +227,7 @@ include_once('../header.php');
         faster. This bonus for point gains will decrease the closer you'll get to your internal MMR (and will also be
         capped at ~8000 MMR, even if you had a very high rating like 10,000+ in the last season).
     </p>
-    <h3 id="winningpercentages">Winning percentages</h3>
+    <h3 id="winningpercentages">Winning percentages <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Some external addons are capable of calculating your odds of winning, tying or losing a given round by simulating the combat before or while it happens. Although those tools will usually run several thousand iterations of the combat in order to provide percentages as accurate as possible, it can still happen that you lose a combat for which the addon claimed a 100% chance to win. As the number of random effects during combat increase (e.g. with cards like <a href="https://bgknowhow.com/bgstrategy/minion/?id=135">Ghastcoiler</a>) there is always the off chance that a crazy result will happen, not in the first 5000 iterations but only on the 5001st run (which could be your actual combat).
         <br><br>

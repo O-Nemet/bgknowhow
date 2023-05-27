@@ -1777,6 +1777,7 @@ addthis_toolbox {
 .bi-link-45deg {
     font-size: 20px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 #card_printings {
