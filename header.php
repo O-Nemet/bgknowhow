@@ -11,6 +11,7 @@ require_once('config/db.php');
     <meta name="Keywords" content="bgknowhow,hearthstone,battlegrounds,hs,bg,hsbg,heroes,minions,buddies,strategy,json,bgjson">
     <title><?= getWebsiteTitle() ?></title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAnHNrAFpjUgD///8A96WUAP/e1gD/vbUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAVVhUAAAAABTMzZVYAAABjMzNRM2AAAFMxM1ExEAAAUzFlZDVWAABTMxFDMzVgAFMzMzMzM1AABTMzMzURYAAgUzMzM1YAAAIGUzMzM2AAAAAGUzMzUAAAAAAGUzNQAAAAAAAGVUAAAAAAAAAAAAAAAAAAAAAADgfwAAgB8AAIAPAAAABwAAAAcAAAADAAAAAQAAAAEAAIABAACAAwAAwAEAAPABAAD8AQAA/wEAAP/DAAD//wAA" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="//bgknowhow.com/styles/style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,6 +26,7 @@ require_once('config/db.php');
         gtag('js', new Date());
         gtag('config', 'G-P1G76VLP1E');
     </script>
+    <script src="//bgknowhow.com/functions.js" type="text/javascript"></script>
     <script src="//bgknowhow.com/miniontooltip.js" type="text/javascript"></script>
 </head>
 

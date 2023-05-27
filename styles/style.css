@@ -1658,7 +1658,7 @@ addthis_toolbox {
     min-height: 104px;
     max-height: 208px;
     border-radius: 10px;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     font-size: 17px;
     overflow-y: auto;
@@ -1772,6 +1772,11 @@ addthis_toolbox {
     margin: 0;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.bi-link-45deg {
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 #card_printings {

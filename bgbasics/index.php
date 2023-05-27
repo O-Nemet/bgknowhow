@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Basic Definitions</h2>
 <div>
-    <h3 id="gamestart">Start of the game</h3>
+    <h3 id="gamestart">Start of the game <a href="#" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         At the beginning of each battleground game you will first have to select the hero you will be playing for the rest of the game. Heroes differ by their values for health (usually 30), for armor (between 0 and 20) and most importantly their unique hero power. There are nearly 100 different heroes, all of which you can check out on our <a href="https://bgknowhow.com/bgstrategy/?show=heroes">Heroes listing</a>.
         <br><br>
@@ -14,7 +14,7 @@ include_once('../header.php');
         <br><br>
         With 8 players in each game a maximum of 32 heroes will be offered to pick from. Some heroes are only offered in games featuring a specific minion type (e.g. <a href="https://bgknowhow.com/bgstrategy/hero/?id=42">Millificent Manastorm</a> only when Mechs are available). The heroes offered to you can not be picked by other players. With each new game you will get another random selection offered, therefore it is possible to not see a specific hero for a long time.
     </p>
-    <h3 id="armor">Hero armor</h3>
+    <h3 id="armor"><a href="#" onclick="CopyLink(this);" title="Copy the link to this section to clipboard"><i class="bi bi-link-45deg"></i></a> Hero armor</h3>
     <p>
         The armor of a hero can be between 0 and 20 and is used as a balancing tool by Blizzard. Heroes which are weaker or need more time to get their game going will usually have higher armor values, whereas heroes which are more tempo oriented or better in the current meta will usually be given lower armor values. These armor values are constantly adjusted with every Hearthstone patch. In reality no ingame difference exists between health and armor regarding the survivability of your hero, it is just a means to keep all heroes at 30 health.
         <br><br>
@@ -22,7 +22,7 @@ include_once('../header.php');
         <br><br>
         For a sorted list of all heroes and their armor values check out this <a href="https://bgknowhow.com/bgbasics/armor.php">page</a>.
     </p>
-    <h3 id="tavern">Tavern phase</h3>
+    <h3 id="tavern">Tavern phase <a href="#" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
     <h3 id="pool">Minion pool</h3>
