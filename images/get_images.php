@@ -28,7 +28,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                 FROM bg_minions bgm
                                WHERE bgm.flag_active = ?
 --                                 AND bgm.id > 300
-                                 AND bgm.name IN ('Young Murk-Eye', 'Deep-Sea Angler')
+                                 AND bgm.name IN ('Upbeat Frontdrake', 'Low-Flier', 'Reef Riffer', 'Molten Rock', 'Flourishing Frostling', 'Scourfin', 'Radio Star', 'Pufferquil', 'Banana Slamma', 'Upbeat Duo', 'Reanimating Rattler', 'Peggy Sturdybone', 'Dancing Barnstormer', 'Electric Synthesizer', 'General Drakkisath', 'Underhand Dealer', 'Mama Bear', 'Record Smuggler', 'Gusty Trumpeter', 'Kalecgos, Arcane Aspect', 'Nadina the Red', 'Rock Rock', 'Zapp Slywick')
                             ORDER BY bgm.tier, bgm.name ASC")) {
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
@@ -54,7 +54,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     if ($row_count == 0) echo '0 results';
 
     while ($stmt->fetch()) {
-        // heros
+        // heroes
 //        if (!copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
 //            !copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
 //          ) {
