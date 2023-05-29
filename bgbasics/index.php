@@ -78,9 +78,11 @@ include_once('../header.php');
     </p>
     <h3 id="deathrattle">Deathrattle <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=deathrattle">list of all Deathrattle minions</a> to know your options.
     </p>
     <h3 id="reborn">Reborn <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=reborn">list of all Reborn minions</a> to know your options.
     </p>
     <h3 id="cleave">Cleave <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -102,9 +104,12 @@ include_once('../header.php');
     <h3 id="venomous">Venomous <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Fighting a minion with 0 attack will make the minion lose Venomous, while fighting a minion with divine shield will not remove Venomous.
+        <br><br>
+        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=venomous">list of all Venomous minions</a> to know your options.
     </p>
     <h3 id="avenge">Avenge <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=avenge">list of all Avenge minions</a> to know your options.
     </p>
     <h3 id="battlecry">Battlecry <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -116,9 +121,13 @@ include_once('../header.php');
     </p>
     <h3 id="magnetic">Magnetic <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Since May 2023 (patch 26.2.0) it is possible to play magnetic minions even when you already have the maximum number of 7 minions on your board.
+        <br><br>
+        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=magnetic">list of all Magnetic minions</a> to know your options.
     </p>
     <h3 id="spellcraft">Spellcraft <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=spellcraft">list of all Spellcraft minions</a> to know your options.
     </p>
     <h3 id="hand">Hand size and interactions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -178,6 +187,11 @@ include_once('../header.php');
         The bar on the left of the screen represents the heroes ordered by their remaining health and armor. In the
         event of a 'deadguy' fight, the bottom three players who were not paired with a 'deadguy' during the previous
         round will be eligible.
+        <br><br>
+        In 7-player lobbies where one player disconnected or conceded early it can be a successful tactic to level faster than
+        usual, while taking lots of damage in the early fights to place oneself on the lower half of the scoreboard and
+        therefore have a high repeating chance to face the 'deadguy' and use these auto-win rounds to catchup and overtake
+        the other living players.
     </p>
     <h3 id="gamelength">Game length <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -219,7 +233,7 @@ include_once('../header.php');
     </p>
     <h3 id="ratinginternal">Internal rating <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        At the start of each BG season (roughly every 3 months) your shown/external MMR will be reset to zero. But
+        At the start of each BG season (roughly every 3 to 4 months) your shown/external MMR will be reset to zero. But
         Hearthstone saves your internal MMR (which at the end of a season will be very close to your external MMR) and
         will match-make you by your internal MMR.
         <br><br>
