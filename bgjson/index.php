@@ -25,7 +25,7 @@ include_once('../header.php');
         <br>
         These datasets have several advantages over the data available from the Blizzard API or the Hearthstone JSON files:<br>
         For example <em>nameShort</em> attaches the short name the community uses to reference the entity (e.g. '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=131'>Eliza</a>' instead of '<a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=131'>Dread Admiral Eliza</a>'), <em>pictureSmall</em> references a webp version up to ten times smaller than the original image, while <em>websites</em> includes an array of links to the entity representation on the biggest HS community hubs.
-        For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating keywords like Battlecry or Taunt, and for heroes the <em>armorTier</em> as well as the <em>picturePortrait</em> are part of the data collection.<br>
+        For minions, <em>abilities</em> includes an array of boolean key/value pairs, indicating keywords like Battlecry or Taunt, and for heroes the <em>armor</em> values for low and high MMR as well as the <em>picturePortrait</em> are part of the data collection.<br>
         <br>
         At least every 4 hours fresh files will be generated from the database. Official updates and hotfixes will be integrated as soon as possible.
         <br>
@@ -42,11 +42,11 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="5"><a href="//bgknowhow.com/bgjson/output/bg_entities_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Entities</a></td>
+            <td colspan="5"><a href="//bgknowhow.com/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active BG Entities</a></td>
         </tr>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Buddies</a></td>-->
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Quests</a></td>-->
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Rewards</a></td>-->
@@ -65,14 +65,14 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="5"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Entities</a></td>
+            <td colspan="5"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All BG Entities</a></td>
         </tr>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Buddies</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Quests</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Rewards</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
         </tr>
         </tbody>
     </table>
@@ -88,8 +88,8 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Buddies</a></td>-->
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Quests</a></td>-->
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Rewards</a></td>-->
@@ -108,11 +108,11 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Buddies</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Quests</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> All BG Rewards</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
         </tr>
         </tbody>
     </table>
@@ -123,6 +123,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>30.05.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23957168/26-4-patch-notes" target="_blank">26.4.0</a> patch notes.</li>
         <li>25.05.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2623-patch-notes/108059" target="_blank">26.2.3</a> patch notes.</li>
         <li>19.05.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23957164/26-2-2-patch-notes" target="_blank">26.2.2</a> patch notes.</li>
         <li>12.05.2023 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2621-patch-notes/107435" target="_blank">26.2.1</a> patch notes.</li>
