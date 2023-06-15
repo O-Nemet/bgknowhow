@@ -4,7 +4,7 @@ include_once('../header.php');
 
 <h2 class="page_title">Resources</h2>
 
-<h3 id="websites">Websites</h3>
+<h3 id="websites">Websites <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
 <div class="websites">
     <div>
         <a href="https://www.reddit.com/r/BobsTavern/" target="_blank">
@@ -131,7 +131,7 @@ include_once('../header.php');
     </div>
 </div>
 
-<h3 id="streamers" class="cf">Streamers</h3>
+<h3 id="streamers" class="cf">Streamers <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
 <div class="streamers">
     <div>
         <a href="https://twitch.tv/rdulive" target="_blank">
@@ -272,7 +272,7 @@ include_once('../header.php');
     <!--    https://www.twitch.tv/guddummit  russian -->
 </div>
 
-<h3 id="youtubers" class="cf">Youtubers</h3>
+<h3 id="youtubers" class="cf">Youtubers <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
 <div class="streamers">
     <div>
         <a href="https://www.youtube.com/playlist?list=PL3kmT1mmaRnGdkZGVJbcLfg_oGk32vk2v" target="_blank">
