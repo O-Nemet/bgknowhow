@@ -224,6 +224,39 @@ include_once('../header.php');
     </div>
 
     <div>
+        <a href="https://www.twitch.tv/dogdog" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_dogdog.jpg" alt="DogDog">
+            <span>DogDog</span>
+        </a>
+        <p>
+            High MMR streamer from the United States.<br><br>
+            Mainstay in the US top32.<br><br>
+        </p>
+    </div>
+
+    <div>
+        <a href="https://www.twitch.tv/itshafu" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_hafu.jpg" alt="itsHafu">
+            <span>itsHafu</span>
+        </a>
+        <p>
+            High MMR streamer from the United States.<br><br>
+            Mainstay in the US top32.<br><br>
+        </p>
+    </div>
+
+    <div>
+        <a href="https://www.twitch.tv/superjj102" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/streamer_superjj.jpg" alt="SuperJJ">
+            <span>SuperJJ</span>
+        </a>
+        <p>
+            High MMR streamer from Germany.<br><br>
+            Mainstay in the EU top32.<br><br>
+        </p>
+    </div>
+
+    <div>
         <a href="https://www.twitch.tv/jeefhs" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/streamer_jeef.jpg" alt="Jeef">
             <span>Jeef</span>
@@ -285,16 +318,6 @@ include_once('../header.php');
         </p>
     </div>
     <div>
-        <a href="https://www.youtube.com/playlist?list=PLuChyl5Zve-EFCN8RYwjOkWdhizZ4givw" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/youtube_trolden.jpg" alt="Trolden">
-            <span>Trolden</span>
-        </a>
-        <p>
-            Weekly edited high-quality videos capturing the insanity of the funny and lucky moments in HS.<br><br>
-            Also featuring BG special episodes.
-        </p>
-    </div>
-    <div>
         <a href="https://www.youtube.com/channel/UCb2EqHXk3x9T71QUtLIEXsw/videos" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/youtube_ninaisnoob.jpg" alt="Ninaisnoob">
             <span>Ninaisnoob</span>
@@ -311,7 +334,27 @@ include_once('../header.php');
         </a>
         <p>
             US based high MMR BG player, producing short educational videos.<br><br>
-            Amongst others a series called Quick Hero Tips.
+            Amongst others a series called 'Quick Hero Tips'.
+        </p>
+    </div>
+    <div>
+        <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/youtube_heretic721.jpg" alt="Heretic721">
+            <span>Heretic721</span>
+        </a>
+        <p>
+            US based medium MMR BG player, producing short educational videos.<br><br>
+            Amongst others a series called 'Basic Win Conditions'.
+        </p>
+    </div>
+    <div>
+        <a href="https://www.youtube.com/playlist?list=PLuChyl5Zve-EFCN8RYwjOkWdhizZ4givw" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/youtube_trolden.jpg" alt="Trolden">
+            <span>Trolden</span>
+        </a>
+        <p>
+            Weekly edited high-quality videos capturing the insanity of the funny and lucky moments in HS.<br><br>
+            Also featuring BG special episodes.
         </p>
     </div>
 </div>
