@@ -123,6 +123,8 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>15.06.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23968055/26-4-3-patch-notes" target="_blank">26.4.3</a> patch notes.</li>
+        <li>12.06.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2642-patch-notes/108735" target="_blank">26.4.2</a> patch notes.</li>
         <li>30.05.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23957168/26-4-patch-notes" target="_blank">26.4.0</a> patch notes.</li>
         <li>25.05.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2623-patch-notes/108059" target="_blank">26.2.3</a> patch notes.</li>
         <li>19.05.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23957164/26-2-2-patch-notes" target="_blank">26.2.2</a> patch notes.</li>
