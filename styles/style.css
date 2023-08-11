@@ -227,6 +227,10 @@ a {
     color: green;
 }
 
+a.deactivated {
+    cursor: not-allowed !important;
+}
+
 a:hover {
     /*font-weight: bold;*/
     color: #2E76CF;
@@ -1655,7 +1659,7 @@ addthis_toolbox {
     padding: 10px;
     border: 4px black double;
     width: 400px;
-    min-height: 104px;
+    min-height: 125px;
     max-height: 208px;
     border-radius: 10px;
     /*display: flex;*/
@@ -2533,6 +2537,12 @@ root {
 */
 
 /* BGKH definitions */
+/*.login:before {*/
+/*    content: "|";*/
+/*    position: relative;*/
+/*    left: -2px;*/
+/*}*/
+
 h3 {
     font-weight: bold;
     margin-top: 30px;
@@ -2904,6 +2914,10 @@ body.bgstrategy .bgstrategy > a {
     float: left;
 }
 
+.strategy-images.buddies div {
+    height: 295px;
+}
+
 .strategy-images .tile {
     width: 200px;
     height: 75px;
@@ -3162,6 +3176,10 @@ body.bgstrategy .bgstrategy > a {
 /*    filter: grayscale(100%);*/
 /*}*/
 
+.inactive-img {
+    filter: grayscale(100%);
+}
+
 .typeFilter img.inactive {
     filter: grayscale(100%);
 }
@@ -3352,6 +3370,10 @@ body.bgstrategy .bgstrategy > a {
     font-weight: bold;
 }
 
+.mobile_only {
+    display: none;
+}
+
 /*#hero_armor_tiers > div > div:first-of-type {*/
 /*    margin-top: 10px;*/
 /*}*/
@@ -3359,8 +3381,32 @@ body.bgstrategy .bgstrategy > a {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media screen and (max-width: 1500px) {
+    .legal_text {
+        display: none;
+    }
+
+    #hamburger_menu {
+        display: inline;
+        /*visibility: visible;*/
+    }
+
+    #nav_wrapper {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1130px) {
     .legal_text {
+        display: none;
+    }
+
+    #hamburger_menu {
+        display: inline;
+        /*visibility: visible;*/
+    }
+
+    #nav_wrapper {
         display: none;
     }
 }
@@ -3421,6 +3467,13 @@ body.bgstrategy .bgstrategy > a {
     #content p {
         margin-left: 1px;
         padding-right: 3px;
+    }
+
+    .cardname_mobile {
+        margin-left: -5px;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 800;
     }
 
     .card_wrapper {
@@ -3506,7 +3559,8 @@ body.bgstrategy .bgstrategy > a {
     }
 
     .strategy-item {
-        width: fit-content;
+        /*width: fit-content;*/
+        width: 91%;
     }
 
     .pathes2, .comp_selection {
@@ -3528,7 +3582,7 @@ body.bgstrategy .bgstrategy > a {
         display: flex;
         flex-direction: row;
         margin-top: 5px;
-        margin-bottom: -10px;
+        margin-bottom: -18px;
     }
 
     .vote-buttons .upvotes {
@@ -3537,13 +3591,21 @@ body.bgstrategy .bgstrategy > a {
     }
 
     .vote-buttons span {
-        margin-top: 11px;
+        margin-top: 4px;
         margin-left: 38px;
         margin-right: 20px;
     }
 
     .typeFilter img {
         width: 100px;
+    }
+
+    .pc_only {
+        display: none;
+    }
+
+    .mobile_only {
+        display: inline;
     }
 
     .matrix {
@@ -3600,6 +3662,10 @@ body.bgstrategy .bgstrategy > a {
         width: 90px;
         margin-top: -10px;
         margin-bottom: -20px;
+    }
+
+    #logintext {
+        font-size: 30px;
     }
 }
 

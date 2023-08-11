@@ -4,8 +4,10 @@ include_once('../header.php');
 
 <?php
 
-$buddy  = $_GET['buddy'] ?? '';
 $minion = $_GET['minion'] ?? '';
+$buddy  = $_GET['buddy'] ?? '';
+$quest  = $_GET['quest'] ?? '';
+$reward = $_GET['reward'] ?? '';
 
 if (!empty($_GET['mode'])) {
     $mode = $_GET['mode'];
@@ -47,17 +49,23 @@ if (!empty($buddy)) {
     echo "minion " . $minion;
 } else {
     foreach ($tempHeroes->data as $key => $object) {
-        if ($object->isActive === true) {
-            $heroes[] = $object;
-        }
+        $heroes[] = $object;
     }
 
     foreach ($tempBuddies->data as $key => $object) {
         $buddies[] = $object;
     }
 
+    foreach ($tempQuests->data as $key => $object) {
+        $quests[] = $object;
+    }
+
+    foreach ($tempRewards->data as $key => $object) {
+        $rewards[] = $object;
+    }
+
     foreach ($tempMinions->data as $key => $object) {
-        if ($object->isActive === true && $object->isToken !== true) {
+        if ($object->isActive === true && $object->isToken === false) {
             $minions[] = $object;
         }
     }
@@ -73,7 +81,7 @@ if (!empty($buddy)) {
     if ($show == 'heroes' && $mode == 'gfx') {
         echo "<div class='strategy-images cf'>";
         foreach ($heroes as $hero) {
-            echo "<div><a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->id . PICTURE_LOCAL_PORTRAIT_SUFFIX . "'><br><span>" . $hero->name . "</span></a></div>";
+            echo "<div><a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->id . PICTURE_LOCAL_PORTRAIT_SUFFIX . "' class='" . (!$hero->isActive ? 'inactive-img' : '') . "'><br><span>" . $hero->name . "</span></a></div>";
         }
         echo "</div>";
     } else if ($show == 'heroes' || $show == 'all') {
@@ -192,7 +200,7 @@ if (!empty($buddy)) {
     if ($show == 'buddies' && $mode == 'gfx') {
         echo "<div class='strategy-images buddies cf'>";
         foreach ($buddies as $buddy) {
-            echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "'></a></div>";
+            echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$buddy->isActive ? 'inactive-img' : '') . "'><br><span>Hero: " . $buddy->hero . "</span></a></div>";
         }
         echo "</div>";
     } else if ($show == 'buddies' || $show == 'all') {
@@ -227,8 +235,86 @@ if (!empty($buddy)) {
             ?>
             </tbody>
         </table>
+        <br>
         <?php
     }
+
+    if ($show == 'quests' || $show == 'all') {
+        echo '<h2 class="page_title">Quests</h2>';
+        echo '<p>Quests are offered at the beginning of turn 4 (6 gold). The quest texts utilize placeholders like {0} (for example in the text "Spend {0} Gold."), which are replaced by an actual numeric value based on the armor value of the hero you are playing (heroes with more armor will receive easier to complete quests) and the minion types in the lobby. The baseline value for each quest is documented on the details page.</p>';
+    }
+
+    if ($show == 'quests' && $mode == 'gfx') {
+        echo "<div class='strategy-images buddies cf'>";
+        foreach ($quests as $quest) {
+            echo "<div><img src='" . PICTURE_LOCAL_QUEST . $quest->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$quest->isActive ? 'inactive-img' : '') . "' alt='$quest->name'></a></div>";
+        }
+        echo "</div>";
+    } else if ($show == 'quests' || $show == 'all') {
+        ?>
+        <br>
+        <table class="strategy-table">
+            <thead>
+            <tr>
+                <th colspan="2">Quests</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Text</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+            foreach ($quests as $quest) {
+                echo '<tr style="cursor: pointer;">';
+                echo "<td>$quest->name</td>";
+                echo "<td class='text' title='" . htmlspecialchars($quest->text, ENT_QUOTES, 'utf-8') . "'>$quest->text</td>";
+                echo "</tr>";
+            }
+            ?>
+            </tbody>
+        </table>
+        <br>
+        <?php
+    }
+
+    if ($show == 'rewards' || $show == 'all') {
+        echo '<h2 class="page_title">Rewards</h2>';
+    }
+
+    if ($show == 'rewards' && $mode == 'gfx') {
+        echo "<div class='strategy-images buddies cf'>";
+        foreach ($rewards as $reward) {
+            echo "<div><img src='" . PICTURE_LOCAL_REWARD . $reward->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$reward->isActive ? 'inactive-img' : '') . "' alt='$reward->name : " . htmlspecialchars($reward->text, ENT_QUOTES, 'utf-8') . "'></a></div>";
+        }
+        echo "</div>";
+    } else if ($show == 'rewards' || $show == 'all') {
+        ?>
+        <br>
+        <table class="strategy-table">
+            <thead>
+            <tr>
+                <th colspan="2">Rewards</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Text</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+            foreach ($rewards as $reward) {
+                echo '<tr style="cursor: pointer;">';
+                echo "<td>$reward->name</td>";
+                echo "<td class='text' title='" . htmlspecialchars($quest->text, ENT_QUOTES, 'utf-8') . "'>$reward->text</td>";
+                echo "</tr>";
+            }
+            ?>
+            </tbody>
+        </table>
+        <?php
+    }
+
 
 }
 ?>
