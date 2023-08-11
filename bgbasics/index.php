@@ -78,11 +78,17 @@ include_once('../header.php');
     </p>
     <h3 id="deathrattle">Deathrattle <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=deathrattle">list of all Deathrattle minions</a> to know your options.
+        A minion with Deathrattle will trigger an action upon its own death, usually spawning one or more token minions (token minions are 1-star minions not buyable from the shop). The number of spawns is limited by the currently remaining board space (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a> will try to spawn 3 Microbot tokens, but if there are already 6 minions on the board only 1 Microbot will be created).
+        <br><br>
+        An example of a Deathrattle effect not spawning a minion is <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=35">Selfless Hero</a> which will gift a Divine Shield upon death instead.
+        <br><br>
+        Deathrattle triggers before Reborn. Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=deathrattle">list of all Deathrattle minions</a> to know your options.
     </p>
     <h3 id="reborn">Reborn <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=reborn">list of all Reborn minions</a> to know your options.
+        A minion with Reborn will respawn upon its own death in its basic state (meaning as bought from the shop with no buffs applied later) but with only 1 health.
+        <br><br>
+        Reborn triggers after Deathrattle. Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=reborn">list of all Reborn minions</a> to know your options.
     </p>
     <h3 id="cleave">Cleave <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -103,7 +109,7 @@ include_once('../header.php');
     </p>
     <h3 id="venomous">Venomous <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Fighting a minion with 0 attack will make the minion lose Venomous, while fighting a minion with divine shield will not remove Venomous.
+        A minion with Venomous will kill any minion (without a Divine Shield) it hits regardless that minions health, once. Afterward the Venomous will fall off. Fighting a minion with 0 attack will make the minion lose Venomous, while fighting a minion with Divine Shield will not remove Venomous.
         <br><br>
         Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=venomous">list of all Venomous minions</a> to know your options.
     </p>
@@ -171,12 +177,10 @@ include_once('../header.php');
         <br><br>
         The Damage Cap is in place until both a hero has died and the game has reached at least turn 8 (10 gold).
     </p>
-    <h3 id="deadguy">Fighting 'Deadguy' <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="deadguy">Fighting a ghost aka 'Deadguy' <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Whenever an odd number of players are defeated before a combat round, one of the remaining players will be
-        randomly paired with one of the eliminated players. These eliminated players, referred to as 'deadguys' (their
-        ingame name will show as "Kel'Thuzad"), will bring their board lineup from the time of their death to the fight,
-        but will not activate hero powers or any other abilities.
+        randomly paired with one of the eliminated players. These eliminated players, referred to as ghosts or 'deadguys' (their ingame name will show as "Kel'Thuzad"), will bring their board lineup from the time of their death to the fight, but will not activate hero powers (even passive ones like from <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/hero/?id=16">Deathwing</a> will be inactive) or any other abilities.
         <br><br>
         In most cases, the fight will be relatively easy to win, allowing players to use the lobby turn beforehand to
         level up a tier or improve their board without much concern for the matchup. However, an exception can occur in
@@ -185,8 +189,8 @@ include_once('../header.php');
         and could potentially lead to elimination.
         <br><br>
         The bar on the left of the screen represents the heroes ordered by their remaining health and armor. In the
-        event of a 'deadguy' fight, the bottom three players who were not paired with a 'deadguy' during the previous
-        round will be eligible.
+        event of a 'deadguy' fight, the bottom three players who were not paired with a ghost during the previous two
+        rounds will be eligible.
         <br><br>
         In 7-player lobbies where one player disconnected or conceded early it can be a successful tactic to level faster than
         usual, while taking lots of damage in the early fights to place oneself on the lower half of the scoreboard and
