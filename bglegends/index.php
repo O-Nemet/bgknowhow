@@ -8,13 +8,15 @@ include_once('../header.php');
     <!--    <br><br>-->
     <!--    <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
     <!--    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 09:30" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>-->
-    <!--    The Lobby Legends Spring Championship with a $50,000 prize pool will happen on May 27th (top 16 semi-finals) and May 28th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://hearthstone.blizzard.com/en-us/news/23958485" target="_blank">Blizzards event website</a> or this <a href="https://esports.gg/news/hearthstone/battlegrounds-lobby-legends-returns-this-weekend-with-the-spring-championship/" target="_blank">article on esports.gg</a>.-->
-    <!--    <br><br>-->
-    <!--    <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
-    <!--    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-05-28 18:00" data-background="#8dbdd8">Lobby Legends Spring Championship Finals</a>-->
-    <!--    <br><br>-->
-    <!--    </p>-->
-    <!--    <br>-->
+    <!--        <p>-->
+    <!--        The Lobby Legends Summmer Championship with a $50,000 prize pool will happen on July 22th (top 16 semi-finals) and July 23th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://hearthstone.blizzard.com/en-us/news/23973740/the-battlegrounds-lobby-legends-summer-championship-is-here" target="_blank">Blizzards Event website</a>.-->
+    <!--        </p>-->
+    <!--        <br>-->
+    <!--        <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
+    <!--        <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-07-23 18:00" data-background="#8dbdd8">Lobby Legends Summer Championship Finals</a>-->
+    <!--        <br><br>-->
+    <!--        </p>-->
+    <!--        <br>-->
     <img src="<?= PICTURE_LOCAL ?>misc/ll_logo.webp" alt="Lobby Legends logo">
     <br>
     <p>
@@ -24,6 +26,78 @@ include_once('../header.php');
         <br><br>
         The top 4 players from each region (by accumulated points) and the 4 players with most points from any region, will battle it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players would play lobbies until someone has accumulated 20 points and then wins a lobby).
     </p>
+    <h3 id="ll11">Lobby Legends #11 (“Summer Championships” at 22/23.07.2023) Top 8 after 6 lobbies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Patch 26.6.3 with lots of newly added quests and rewards was played. Also, heroes had low MMR armor values and streamer-mode was enabled (meaning players were unable to see which hero was played by whom) and the overlay did not work due to technological difficulties.
+    </p>
+    <br>
+    <p>
+        <a href="https://www.youtube.com/watch?v=h3SHLDsUZB0" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=s0MkfgwGOLQ" target="_blank">YouTube VOD recording of day 2</a>
+    </p>
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Waterloooooo</td>
+            <td>US (CAN)</td>
+            <td>28.5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maks7K</td>
+            <td>EU (RUS)</td>
+            <td>29.5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tume</td>
+            <td>EU (FIN)</td>
+            <td>27.0</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Yanase</td>
+            <td>AP (JPN)</td>
+            <td>23.0</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Sevel</td>
+            <td>EU (POL)</td>
+            <td>17.0</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>jeef</td>
+            <td>US (USA)</td>
+            <td>18.0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Cytro</td>
+            <td>EU (BEL)</td>
+            <td>13.5</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Lii</td>
+            <td>US (USA)</td>
+            <td>8.5</td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
     <h3 id="ll10">Lobby Legends #10 (“Spring Championships” at 27/28.05.2023) Top 8 after 5 lobbies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Patch 26.2.3 with all minion types freshly redesigned and the new hero <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/hero/?id=94">Rock Master Voone</a> was played. Also, heroes had low MMR armor values and streamer-mode was enabled (meaning players were unable to see which hero was played by whom).
@@ -32,7 +106,7 @@ include_once('../header.php');
     <p>
         <a href="https://www.youtube.com/watch?v=U54y4fVI_-M" target="_blank">YouTube VOD recording of day 1</a>
         <br>
-        <a href="https://www.youtube.com/watch?v=XKDeSuVPS3w" target="_blank">YouTube VOD recording of day 2</a>
+        <a href="https://www.youtube.com/watch?v=XKDeSuVPS3w" target="_blank">YouTube VOD recording of day 2 (currently missing)</a>
     </p>
     <br>
     <table class="tier-table">
@@ -95,7 +169,6 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-
     <br>
     <hr>
     <br>
@@ -274,7 +347,7 @@ include_once('../header.php');
         <tr>
             <td>1</td>
             <td>Waterloooooo</td>
-            <td>US (USA)</td>
+            <td>US (CAN)</td>
             <td>27.0</td>
         </tr>
         <tr>
@@ -468,7 +541,7 @@ include_once('../header.php');
 
     <h3 id="ll6">Lobby Legends #6 (“Castle Nathria” at 24/25.09.2022) Top 8 after 8 lobbies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Patch 24.2.2 with quests/rewards, with buffed two-drops and a nerfed <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=85'>Toggwaggle</a>, was played. Also, the Twitch "Tavern Buddy" extension for multiple ways of viewer interaction was used for the very first time.
+        Patch 24.2.2 with quests/rewards, with buffed two-drops and a nerfed <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/hero/?id=85'>Togwaggle</a>, was played. Also, the Twitch "Tavern Buddy" extension for multiple ways of viewer interaction was used for the very first time.
     </p>
     <br>
     <p>
