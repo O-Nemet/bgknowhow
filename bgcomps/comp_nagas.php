@@ -8,24 +8,34 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats Athissa Comp:</h3>
+    <h3 id="deepblues">Deep Blues Tier 4 Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Waverider', 'Myrmidon', '*Eventide Brute', 'Athissa', 'Athissa', 'Orgozoa', 'Glowscale'];
+    $board   = ['*Eventide Brute', 'Wrangler', 'Shaker', 'Shaker', 'Deep Blue', 'Deep Blue', 'Lurker'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Spellcraft Comp:</h3>
+    <p>
+        Stay on tier 4 to get as many Shakers and Crooners as possible to constantly increase the size of your Deep Blues spellcrafts. Lurker is the best option to make the biggest stats gain permanent each round. Brute will grow quite a bit if you can get one early and Wrangler can be discovered by your triples to strengthen your usually small other minions for the endgame.
+    </p>
+    <h3 id="athissa">Athissa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Waverider', 'Myrmidon', 'Wrangler', 'Wrangler', 'Shoal Commander', 'Glowscale', 'Glowscale'];
+    $board   = ['Myrmidon', '*Eventide Brute', 'Athissa', 'Athissa', 'Orgozoa', 'Orgozoa', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Menagerie/Poison Comp:</h3>
+    <p>
+        An early Orgozoa can help you discover Glowscale or Athissa herself and later provide gold or further spellcrafts to buff your Naga on the board.
+    </p>
+    <h3 id="wrangler">Wrangler Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Ball', 'Ball', 'Athissa', 'Aggem', 'Prophet', 'Glowscale', 'Glowscale'];
+    $board   = ['*Blade Collector', 'Myrmidon', '*Eventide Brute', 'Wrangler', 'Wrangler', 'Glowscale', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <p>
+        The Wranglers enable the possibility to scale non-Naga minions. Therefore, this comp improves by the availability of Pirates or Mechs, because they both offer a cleave minion (Blade Collector and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=133">Reaper</a>).
+    </p>
+    <br>
 </div>
 
 <?php

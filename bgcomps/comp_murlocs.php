@@ -8,24 +8,25 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats Comp:</h3>
+    <h3 id="battlecry">Battlecry Hand Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Brann', 'Ball', 'Swolefin', 'Murk-Eye', 'Swolefin', 'Murk-Eye', 'Ball'];
+    $board   = ['Bassgill', 'Magma', 'Magma', 'Skyfin', 'Primalfin', 'Murk-Eye', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
-    //    $board   = ['Dong', 'Swolefin', 'Swolefin', 'Striker', 'Dong', 'Brann', 'Sefin'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
     ?>
-    <h3>Selfless/Titus Poison Comp:</h3>
+    <p>
+        Buffs the board but can also support one or two <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=333">Bream Counter</a> by playing/cycling lots of Murlocs. The Bassgill is also useful for summoning <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=211">Mantid Queen</a>.
+    </p>
+    <h3 id="venomous">Venomous Hand Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Selfless', 'Titus', 'Skyfin', 'Ball', 'Magma', 'Magma', 'Ball'];
+    $board   = ['Belcher', 'Belcher', 'Bassgill', 'Bassgill', 'Choral', 'Choral', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
-    //    $board   = ['Selfless', 'Titus', 'Swolefin', 'Striker', 'Dong', 'Honcho', 'Sefin'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
     ?>
+    <p>
+        Heavily depends on growing two <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=333">Bream Counter</a> in your hand or your venom carrying you to victory (don't play this against Undead). The Bassgill is also useful for summoning <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=208">Leeroy</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=211">Mantid Queen</a>.
+    </p>
+    <br>
 </div>
 
 <?php

@@ -8,30 +8,42 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats Comp:</h3>
+    <h3 id="aggem">Aggem Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Prophet', '*Bristleback Knight', '*Bristleback Brute', 'Pumba', 'Shaker', 'Elder', 'Duo'];
+    $board   = ['Reaper', 'Blade Collector', 'Trickster', 'Warden', 'Aggem', 'Charly', 'Mistake'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Aggem Menagerie Comp:</h3>
+    <p>
+
+    </p>
+    <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Hydra', 'Reaper', 'Trickster', 'Warden', 'Aggem', 'Elder', 'Ball'];
+    $board   = ['Tusk', 'Handless', 'Handless', 'Puffer', 'Puffer', 'Bristlebach', 'Tusk'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <!--    <h3>Groundshaker Shield Comp:</h3>-->
-    <!--    --><?php
-    //    $board   = ['Warden', 'Mecherel', 'Mecherel', 'Warden', 'Groundshaker', 'Gemsplitter', 'Duo'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <h3>Elder/Hoggarr Gem Comp:</h3>
+    <p>
+        One Tough Tusk should be taunted. The Handless Forsaken can basically be any minion which summons another minion via Deathrattle or Reborn.
+    </p>
+    <h3 id="charly">Charly Gem Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['*Bristleback Knight', 'Tusk', 'Elder', 'Elder', 'Hoggarr', 'Hoggarr', 'Duo'];
+    $board   = ['*Bristleback Knight', 'Blade Collector', 'Charly', 'Charly', 'Enchanter', 'Duo', 'Duo'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <p>
+
+    </p>
+    <h3 id="rylak">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Macaw', '*Bristleback Knight', 'Jazzer', 'Rylak', '*Gem Smuggler', 'Murk-Eye', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+    </p>
+    <br>
 </div>
 
 <?php

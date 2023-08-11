@@ -8,24 +8,33 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats aka APM Comp:</h3>
+    <h3 id="apm">Infinite gold aka APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Selfless', 'Titus', '*Salty Looter', 'Hoggarr', 'Hoggarr', '*Peggy Sturdybone', 'Greta'];
+    $board   = ['*Blade Collector', 'Dealer', 'Dealer', 'Tethys', 'Tethys', '*Peggy Sturdybone', '*Record Smuggler'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Big Stats Attack Comp:</h3>
+    <p>
+
+    </p>
+    <h3 id="battlecry">Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Vanessa', 'Vanessa', 'Ball', 'Greta', 'Greta', 'Eliza', 'Ball'];
+    $board   = ['*Blade Collector', 'Dealer', 'Brann', 'Courier', 'Courier', '*Peggy Sturdybone', 'Mistake'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <!--    <h3>Scallywag Deathrattle Comp:</h3>-->
+    <p>
+
+    </p>
+    <h3 id="attack">Attack Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    //    $board   = ['Scally', 'Scally', 'Eliza', 'Eliza', 'Khadgar', 'Khadgar', 'Titus'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
+    $board   = ['Vanessa', 'Vanessa', '*Blade Collector', '*Blade Collector', 'Dealer', 'Dealer', 'Mistake'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
     ?>
+    <p>
+    </p>
+    <br>
 </div>
 
 <?php

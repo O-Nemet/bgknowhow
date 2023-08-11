@@ -8,24 +8,43 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Big Stats Fireworks Fanatic Tier4 Comp:</h3>
+    <!--    <h3 id="fanatic">Fireworks Fanatic Tier 4 Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
+    <!--    --><?php
+    //    $board = ['*Blade Collector', '*Bristleback Knight', 'Blanchy', 'Blanchy', 'Warden', 'Fanatic', 'Fanatic'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
+    //    ?>
+    <!--    <p>-->
+    <!--        Stay on tier 4 to limit the minion pool and try to discover Blanchy by tripling your minions.-->
+    <!--    </p>-->
+    <h3 id="boogie">Boogie Monster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board = ['Hydra', '*Bristleback Knight', 'Blanchy', 'Warden', 'Fanatic', 'Fanatic', 'Ball'];
+    $board   = ['Reaper', 'Reaper', 'Queen', 'Queen', 'Boogie', 'Boogie', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Big Stats Tea Master/Menagerie Comp:</h3>
+    <p>
+        The Reaper can also be a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
+    </p>
+    <h3 id="fort">Fort/Taunt Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board = ['Reaper', '*Bristleback Knight', 'Blanchy', 'Queen', 'Theo', 'Theo', 'Glowscale'];
+    $board   = ['Queen', 'Leeroy', 'Queen', 'Glowscale', 'Fort', 'Fort', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <h3>Big Stats Fort/Taunt Comp:</h3>
+    <p>
+        Very flexible in chosing the minions which will be buffed, because it is very easy to buff any minion with Taunt.
+    </p>
+    <h3 id="lightfang">Lightfang Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board = ['Queen', 'Blanchy', 'Queen', 'Glowscale', 'Fort', 'Fort', 'Ball'];
+    $board   = ['Reaper', 'Collector', 'Mistake', 'Glowscale', 'Lightfang', 'Lightfang', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
+    <p>
+        The Reaper can also be a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
+    </p>
+    <br>
 </div>
 
 <?php

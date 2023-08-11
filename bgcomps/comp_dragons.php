@@ -8,7 +8,7 @@ include_once('../header.php');
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3>Tarec/Promo Big Stats Comp:</h3>
+    <h3 id="tarec">Tarec/Promo Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Rester', 'Rester', 'Tarecgosa', 'Promo-Drake', 'Tarecgosa', 'Promo-Drake', 'Nadina'];
     $minions = getMinionsForBoard($board);
@@ -17,7 +17,7 @@ include_once('../header.php');
     <p>
         Don't taunt the Nadina, because your Tarecgosas will start with a shield and are your only heavy hitters.
     </p>
-    <h3>Kalecgos Battlecry Comp:</h3>
+    <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Nadina', 'Stormbringer', 'Drakkisath', 'Murk-Eye', 'Kaly', 'Kaly', 'Brann'];
     $minions = getMinionsForBoard($board);
