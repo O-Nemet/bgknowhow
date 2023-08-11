@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
     <h2 class="page_title">General strategy</h2>
 
-    <h3 id="tiers">Tavern Tiers and upgrading</h3>
+    <h3 id="taverntiers">Tavern Tiers and upgrading <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The cost to upgrade to the next tavern tier will reduce by 1 gold at the beginning of each of your turns. For example if you have upgraded to tavern tier 2 the cost to upgrade to tier 3 will be 7 gold. After you enter the next fight and then reenter the tavern shop the cost to upgrade will be reduced to 6 gold.
         <br><br>
@@ -82,7 +82,7 @@ foreach ($tempMinions->data as $key => $object) {
     }
 }
 ?>
-    <h3 id="types">Minion types and distribution</h3>
+    <h3 id="miniontypes">Minion types and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The different minion types are not equally distributed across the six tavern tiers. For example Nagas have only two tier 4 minions. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
         <!--        <br><br>-->
@@ -128,7 +128,7 @@ foreach ($tempMinions->data as $key => $object) {
             echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Quilboar'][$i] . " (" . ($minion_pool['Quilboar'][$i] - $minion_count['Quilboar'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Undead'][$i] . " (" . ($minion_pool['Undead'][$i] - $minion_count['Undead'][$i]) . ")</td>";
-            echo "    <td>" . $minion_count['None'][$i] . "</td>";
+            echo "    <td>" . ($i == 3 ? 0 : $minion_count['None'][$i]) . "</td>";
             echo "    <td>" . $minion_count['Total'][$i] . "</td>";
             echo "</tr>";
         }
@@ -136,7 +136,7 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
-    <h3>Tier 2 minions influencing your decision to go 3on3</h3>
+    <h3 id="3on3">Tier 2 minions influencing your decision to go 3on3 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         While some heroes like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
     </p>
@@ -146,7 +146,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Gambler', 'Rewinder'];
+        $board   = ['Gambler', '*Eternal Knight'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -157,7 +157,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Ripsnarl', 'Angler', '*Eternal Knight', 'Security', 'Flutist'];
+        $board   = ['Rat', 'Ripsnarl', 'Angler', 'Rewinder', 'Security', 'Frostling'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -168,7 +168,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Tusk', 'Prophet', 'Thorncaller', 'Lurker', 'Snail', 'Golem', 'Trickster', 'Muck', 'Scout', 'Emissary', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Tad', 'Rock', 'Frostling'];
+        $board   = ['Snapjaw', 'Tusk', 'Prophet', 'Thorncaller', 'Lurker', 'Riffer', 'Snail', 'Golem', 'Copter', 'Lulla', 'Trickster', 'Muck', 'Emissary', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Flutist', 'Tad', 'Rock', 'Scout'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -179,7 +179,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Leaper', 'Lulla', 'Smuggler', 'Party', 'Riffer', 'Skull', 'Honcho'];
+        $board   = ['Spawn', 'Smuggler', 'Party', 'Skull', 'Honcho'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -190,25 +190,25 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Bird', '*Metaltooth Leaper', 'Selfless', 'Mug', 'Partner'];
+        $board   = ['Bird', 'Selfless', 'Mug', 'Partner'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         ?>
     </div>
 
-    <h3 id="keyminions">Key minions guiding your strategy</h3>
+    <h3 id="keyminions">Key minions guiding your strategy <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Transitioning from mid-game to a viable end-game composition is an important step you should master in order to improve your game. Often times your first discovery of a 5 or 6 drop minion after a triple, will guide you in a specific direction. Here are the key minions for each minion type strategy:
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Slamma', 'Croc', 'Mama Bear'];
+        $board   = ['Rylak', 'Slamma', 'Mama Bear'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Rewinder', 'Felbat', 'Stomper'];
+        $board   = ['Rewinder', 'Ur\'zul', 'Felbat', 'Stomper'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -218,22 +218,22 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Barnstormer', 'Nomi', 'Magmaloc', 'Rock Rock'];
+        $board   = ['Nomi', 'Magmaloc', 'Trumpeter', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Deflecto', 'Scrap', 'Boombox', 'Beatboxer', 'Buster'];
+        $board   = ['Deflecto', 'Scraper', 'Beatboxer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Counter', 'Murk-Eye'];
+        $board   = ['Bassgill', 'Counter', 'Belcher', 'Murk-Eye'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Deep Blue', 'Athissa', 'Orgozoa'];
+        $board   = ['Lava Lurker', 'Deep Blue', 'Athissa', 'Orgozoa'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -253,7 +253,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Fanatic', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
+        $board   = ['Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -270,11 +270,11 @@ foreach ($tempMinions->data as $key => $object) {
     }
 }
 ?>
-    <h3 id="coiler">Ghastcoiler odds</h3>
+    <h3 id="coiler">Ghastcoiler odds <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <div style="margin-top: -30px;">
-        <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
+        <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;" alt="The minion Ghastcoiler"></a>
         <p style="width: 920px; padding-top: 40px; text-align: justify;">
-            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a>, <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=343'>Operatic Belcher</a> or any of the other possible Deathrattle minions.
+            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a>, an <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=343'>Operatic Belcher</a> or any of the other possible Deathrattle minions.
             <br><br>
             There are currently <?= $i + 1 ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
             <br><br>
@@ -288,9 +288,9 @@ foreach ($tempMinions->data as $key => $object) {
         ?>
     </div>
 
-    <h3 id="queen">Mantid Queen odds</h3>
+    <h3 id="queen">Mantid Queen odds <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <div style="margin-top: -30px;">
-        <a href="https://bgknowhow.com/bgstrategy/minion/?id=211"><img width="200" src="https://bgknowhow.com/images/minions/BG22_402_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;"></a>
+        <a href="https://bgknowhow.com/bgstrategy/minion/?id=211"><img width="200" src="https://bgknowhow.com/images/minions/BG22_402_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;" alt="The minion Mantid Queen"></a>
         <p style="width: 920px; padding-top: 20px; text-align: justify;">
             This endgame minion will always have Venomous, but what will take it from a good investment to a great one is the combination with Reborn, enabling it to take out two of your opponents biggest minions while only needing one slot on your board. If you are playing this on a board with only minions from one type or neutral ones, the odds of getting the elusive ability are a measly 25% (as there are 4 random buffs to choose from).
             <br><br>
@@ -341,7 +341,7 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
-    <!--    <h3 id="buddycurves" class="cf">Buying Buddies</h3>-->
+    <!--    <h3 id="buddycurves" class="cf">Buying Buddies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    <p>-->
     <!--        Each hero has a Buddy button, which you can press during your shop turn to buy the buddy. The Buddy button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.-->
     <!--        <br><br>-->
