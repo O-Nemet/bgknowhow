@@ -48,8 +48,8 @@ include_once('../header.php');
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Buddies</a></td>-->
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Quests</a></td>-->
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Rewards</a></td>-->
+            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
         </tr>
         </tbody>
     </table>
@@ -91,8 +91,8 @@ include_once('../header.php');
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
             <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Buddies</a></td>-->
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Quests</a></td>-->
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Rewards</a></td>-->
+            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
         </tr>
         </tbody>
     </table>
@@ -123,6 +123,12 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>04.08.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2702-patch-notes/111231" target="_blank">27.0.2</a> patch notes.</li>
+        <li>29.07.2023 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2701-patch-notes/110763" target="_blank">27.0.1</a> patch notes.</li>
+        <li>25.07.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23973121/27-0-patch-notes" target="_blank">27.0.0</a> patch notes.</li>
+        <li>11.07.2023 - Added and updated quests and rewards from the <a href="https://hearthstone.blizzard.com/en-us/news/23973118/quests-return-to-battlegrounds" target="_blank">26.6.3</a> patch notes.</li>
+        <li>07.07.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23973117/26-6-2-patch-notes" target="_blank">26.6.2</a> patch notes.</li>
+        <li>28.06.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23973115/26-6-patch-notes" target="_blank">26.6.0</a> patch notes.</li>
         <li>15.06.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23968055/26-4-3-patch-notes" target="_blank">26.4.3</a> patch notes.</li>
         <li>12.06.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2642-patch-notes/108735" target="_blank">26.4.2</a> patch notes.</li>
         <li>30.05.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23957168/26-4-patch-notes" target="_blank">26.4.0</a> patch notes.</li>
