@@ -5,35 +5,36 @@ require_once('../functions.php');
 $getActiveOnly = 1;
 
 // generate heroes files
-if ($stmt = $mysqli->prepare("SELECT bgh.id,
-                                     bgh.name,
-                                     bgh.health,
-                                     bgh.id_blizzard,
-                                     bgh.hp_id_blizzard,
-                                     bgh.flag_active
-                                FROM bg_heroes bgh
-                               WHERE bgh.flag_active = ?
-                                 AND bgh.id_blizzard IN ('BG26_HERO_101', 'BG26_HERO_102')
-                            ORDER BY bgh.name ASC")) {
-    $stmt->bind_param("i", $getActiveOnly);
-    $stmt->execute();
-    $stmt->store_result();
-    $stmt->bind_result($id, $name, $health, $blizzardId, $blizzardIdHp, $isActive);
-
-// generate minions files
-//if ($stmt = $mysqli->prepare("SELECT bgm.id,
-//                                     bgm.name,
-//                                     bgm.name_short,
-//                                     bgm.id_blizzard
-//                                FROM bg_minions bgm
-//                               WHERE bgm.flag_active = ?
-//--                                 AND bgm.id > 300
-//                                 AND bgm.name IN ('Upbeat Frontdrake', 'Low-Flier', 'Reef Riffer', 'Molten Rock', 'Flourishing Frostling', 'Scourfin', 'Radio Star', 'Pufferquil', 'Banana Slamma', 'Upbeat Duo', 'Reanimating Rattler', 'Peggy Sturdybone', 'Dancing Barnstormer', 'Electric Synthesizer', 'General Drakkisath', 'Underhand Dealer', 'Mama Bear', 'Record Smuggler', 'Gusty Trumpeter', 'Kalecgos, Arcane Aspect', 'Nadina the Red', 'Rock Rock', 'Zapp Slywick')
-//                            ORDER BY bgm.tier, bgm.name ASC")) {
+//if ($stmt = $mysqli->prepare("SELECT bgh.id,
+//                                     bgh.name,
+//                                     bgh.health,
+//                                     bgh.id_blizzard,
+//                                     bgh.hp_id_blizzard,
+//                                     bgh.flag_active
+//                                FROM bg_heroes bgh
+//                               WHERE bgh.flag_active = ?
+//                                 AND bgh.name IN ('Cariel Roame', 'Aranna Starseeker', 'The Curator')
+//--                                 AND bgh.id_blizzard IN ('BG26_HERO_101', 'BG26_HERO_102')
+//                            ORDER BY bgh.name ASC")) {
 //    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
 //    $stmt->store_result();
-//    $stmt->bind_result($id, $name, $nameShort, $blizzardId);
+//    $stmt->bind_result($id, $name, $health, $blizzardId, $blizzardIdHp, $isActive);
+
+// generate minions files
+if ($stmt = $mysqli->prepare("SELECT bgm.id,
+                                     bgm.name,
+                                     bgm.name_short,
+                                     bgm.id_blizzard
+                                FROM bg_minions bgm
+                               WHERE bgm.flag_active = ?
+--                                 AND bgm.id > 300
+                                 AND bgm.name IN ('Selfless Hero')
+                            ORDER BY bgm.tier, bgm.name ASC")) {
+    $stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $nameShort, $blizzardId);
 
 // generate buddies files
 //if ($stmt = $mysqli->prepare("SELECT bgb.id,
@@ -43,25 +44,49 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
 //                                FROM bg_buddies bgb
 //                               WHERE bgb.flag_active = ?
 //                                 AND bgb.id_blizzard is not null
-//                                 AND bgb.name IN ('Piloted Whirl-O-Tron', 'Vaelastrasz', 'Waxadred, the Drippy')
+//                                 AND bgb.name IN ('Talent Scout')
 //                            ORDER BY bgb.tier, bgb.name ASC")) {
 //    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
 //    $stmt->store_result();
 //    $stmt->bind_result($id, $name, $blizzardId, $isActive);
 
+// generate quest files
+//if ($stmt = $mysqli->prepare("SELECT bgq.id,
+//                                     bgq.name,
+//                                     bgq.id_blizzard
+//                                FROM bg_quests bgq
+//                               WHERE 1=1 -- bgq.flag_active = ?
+//                            ORDER BY bgq.name ASC")) {
+//    #$stmt->bind_param("i", $getActiveOnly);
+//    $stmt->execute();
+//    $stmt->store_result();
+//    $stmt->bind_result($id, $name, $blizzardId);
+
+// generate reward files
+//    if ($stmt = $mysqli->prepare("SELECT bgr.id,
+//                                         bgr.name,
+//                                         bgr.id_blizzard
+//                                FROM bg_rewards bgr
+//                               WHERE 1=1 -- bgq.flag_active = ?
+//                            ORDER BY bgr.name ASC")) {
+//        #$stmt->bind_param("i", $getActiveOnly);
+//        $stmt->execute();
+//        $stmt->store_result();
+//        $stmt->bind_result($id, $name, $blizzardId);
+
     $row_count = $stmt->num_rows;
     if ($row_count == 0) echo '0 results';
 
     while ($stmt->fetch()) {
         # heroes
-        if (!copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
-            !copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
-        ) {
-            echo 'failed to copy ../images/' . $blizzardId . '_render.png<br>';
-        } else {
-            echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
-        }
+//        if (!copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
+//            !copy(PICTURE_URL_RENDER . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
+//        ) {
+//            echo 'failed to copy ../images/' . $blizzardId . '_render.png<br>';
+//        } else {
+//            echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
+//        }
 
         # heropowers
 //        if (!copy(PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png', '../images/' . $blizzardIdHp . '_render.png') ||
