@@ -7,13 +7,71 @@ include_once('../header.php');
         This subpage is featuring helpful and most importantly current (no outdated content here) video guides by different content creators. Please visit their YouTube or Twitch hubs to explore their whole portfolio of videos.
     </p>
     <br>
-    <hr>
-
     <div class="streamers">
+        <div class="iframe_div">
+            <h3>“Win Conditions Tier List Patch 27.0.1 Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/ZE3OaGLZbaM?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Discussing Win Conditions for Mechs, Quilboars, & Neutrals (Patch 27.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/kEXOjpGk1xk?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Discussing Win Conditions for Pirates and Demons (Patch 26.4)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/a_zoMwjDW6E?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
         <div class="iframe_div">
             <h3>“Discussing Win Conditions for Beast, Murloc, Naga, Elemental, Undead, Dragon (Patch 26.2)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/qPbX4aRx43A?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“What Everyone does wrong with Quests” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/AX2fZysv5_8?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Basic Rock Master Voon How to” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/8mJwvf3sa9c?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Basic Pirates How to” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/w1wul7cGZKE?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Basic Dragon Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/_BBYz4BSQZ0?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Basic Murloc Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/NcjVEYXzj6c?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Basic Naga Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/XgqzRi-RJfE?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Basic Beast Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/U76HK93LXLU?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -60,28 +118,10 @@ include_once('../header.php');
         <!--            </iframe>-->
         <!--        </div>-->
         <!--        <div class="iframe_div">-->
-        <!--            <h3>“What Everyone does wrong with Quests” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>-->
-        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
-        <!--                    src="https://www.youtube.com/embed/AX2fZysv5_8?autoplay=0&origin=https://bgknowhow.com">-->
-        <!--            </iframe>-->
-        <!--        </div>-->
-        <!--        <div class="iframe_div">-->
         <!--            <h3>“Quick Hero Tips: Ysera (Patch 24.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>-->
         <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
         <!--                    src="https://www.youtube.com/embed/HRGsR87xtb0?autoplay=0&origin=https://bgknowhow.com">-->
         <!--            </iframe>https://www.youtube.com/watch?v=03Of9mmbFuU-->
-        <!--        </div>-->
-        <!--        <div class="iframe_div">-->
-        <!--            <h3>“Maiev Shadowsong Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
-        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
-        <!--                    src="https://www.youtube.com/embed/zWb08lj7o8c?autoplay=0&origin=https://bgknowhow.com">-->
-        <!--            </iframe>-->
-        <!--        </div>-->
-        <!--        <div class="iframe_div">-->
-        <!--            <h3>“Captain Hooktusk Players Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
-        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
-        <!--                    src="https://www.youtube.com/embed/IjF1QpEY1yw?autoplay=0&origin=https://bgknowhow.com">-->
-        <!--            </iframe>-->
         <!--        </div>-->
         <div class="iframe_div">
             <h3>“The Ranking System (MMR) Explained for Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
@@ -101,18 +141,18 @@ include_once('../header.php');
         <!--                    src="https://www.youtube.com/embed/3DeXJ5sqto4?autoplay=0&origin=https://bgknowhow.com">-->
         <!--            </iframe>-->
         <!--        </div>-->
-        <div class="iframe_div">
-            <h3>“So you think you can leapers? Leapfrogger Guide” by <a href="https://www.youtube.com/channel/UClZE5U3aRdXNq3JTLJIQuRQ/videos" target="_blank">Dellroth</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/1rgqBL_FVrw?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“How to play perfect Omega Buster Exodia” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/PfCFK3Uxvec?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“So you think you can leapers? Leapfrogger Guide” by <a href="https://www.youtube.com/channel/UClZE5U3aRdXNq3JTLJIQuRQ/videos" target="_blank">Dellroth</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/1rgqBL_FVrw?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“How to play perfect Omega Buster Exodia” by <a href="https://www.youtube.com/c/PockyPlays" target="_blank">Pocky</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/PfCFK3Uxvec?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
         <div class="iframe_div">
             <h3>“3 on 3 and 4 on 4 Curves Explained” by <a href="https://www.youtube.com/channel/UCb2EqHXk3x9T71QUtLIEXsw" target="_blank">ninaisnoob</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
