@@ -42,7 +42,7 @@ include_once('../header.php');
         </a>
         <p>
             The official Blizzard leaderboards for each of the three regions (US, EU, AP).<br><br>
-            At the end of each month the top 16 players qualify for the Lobby Legends tourney.
+            Qualification for the the Lobby Legends tourneys are based on these ladders.
         </p>
     </div>
     <div>
@@ -237,7 +237,7 @@ include_once('../header.php');
     <div>
         <a href="https://www.twitch.tv/itshafu" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/streamer_hafu.jpg" alt="itsHafu">
-            <span>itsHafu</span>
+            <span>Hafu</span>
         </a>
         <p>
             High MMR streamer from the United States.<br><br>
