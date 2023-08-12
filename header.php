@@ -1,10 +1,14 @@
 <?php
-require_once('functions.php');
 require_once('config/db.php');
+require_once('config/api_blizzard.php');
+
+require_once('functions.php');
+require_once('session.php');
+
+$lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
 ?>
 
 <!DOCTYPE html>
-
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -54,18 +58,25 @@ require_once('config/db.php');
             <ul>
                 <li><a class="menu-topic" href="//bgknowhow.com/introduction.php">&#9654; Introduction</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/">&#9654; Basics</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/armor.php">&#9654; Hero Armor</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcomps/">&#9654; Compositions</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/armor.php">&#9654; Hero Armor</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcurves/">&#9654; Curves</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>
+                <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>-->
                 <li><a class="menu-topic" href="//bgknowhow.com/bglegends/">&#9654; Tournaments</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgexternal/">&#9654; External Resources</a></li>
-                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_pocky.php">&#9654; Guide to Improving at BGs</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgexternal/">&#9654; Resources</a></li>
+                <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_pocky.php">&#9654; Guide to Improving at BGs</a></li>-->
                 <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">&#9654; Featured YouTube guides</a></li>-->
                 <li><a class="menu-topic" href="//bgknowhow.com/bgjson/">&#9654; BGJSON</a></li>
+                <?php
+                if (!isset($_SESSION['usertag'])) {
+                    echo '<li><a class="menu-topic" href="//bgknowhow.com/login.php"><i class="bi bi-box-arrow-in-right"></i> &nbsp;Log in via BNet</a></li>';
+                } else {
+                    echo '<li><a class="menu-topic" href="//bgknowhow.com/logout.php"><i class="bi bi-box-arrow-right"></i> &nbsp;Log out</a></li>';
+                }
+                ?>
             </ul>
         </nav>
     </label>
@@ -73,24 +84,20 @@ require_once('config/db.php');
     <div class="overlay"></div>
 
     <h1><a href="//bgknowhow.com">BG Know-How</a></h1>
-    <h3>“Welcome to my tavern, friends. Enjoy your stay!”</h3>
-
-    <!--        <div style="float: right;">-->
     <?php
-    /*
-    if (empty($_SESSION['user']['id']))
-    {
-        echo '<a id="login_link" href="?login" title="Log into your already existing account">Log in</a>';
-        echo ' <span style="color: #777777;">|</span> <a href="#" title="Create a new account">Sign up</a>';
-    }
-    else
-    {
-        echo '<a href="?profile='. $_SESSION['user']['id'] .'" title="View your profile">'. $_SESSION['user']['name'] .'</a>';
-        echo ' <span style="color: #777777;">|</span> <a id="logout_link" href="#" title="End your session">Log out</a>';
-    }
-    */
+    $name = isset($_SESSION['usertag']) ? strstr($_SESSION['usertag'], '#', true) : 'friends';
+    echo "<h3>“Welcome to my tavern, $name. Enjoy your stay!”</h3>";
     ?>
-    <!--        </div>-->
+
+    <div style="float: right;">
+        <?php
+        //        if (empty($_SESSION['user']['id'])) {
+        //            echo '<a id="login_link" href="?login.php" title="Log in via your existing BattleNet account">Log in</a>';
+        //        } else {
+        //            echo '<a id="logout_link" href="?logout.php" title="End your session">Log out</a>';
+        //        }
+        ?>
+    </div>
 
     <!--        <div class="cf"></div>-->
 
@@ -124,7 +131,7 @@ require_once('config/db.php');
                     <a class="menu-topic" href="//bgknowhow.com/bgcurves/">Curves</a>
                 </li>
                 <li class="menu-hover bgexternal">
-                    <a class="menu-topic" href="//bgknowhow.com/bgexternal/">External Resources</a>
+                    <a class="menu-topic" href="//bgknowhow.com/bgexternal/">Resources</a>
                 </li>
                 <li class="menu-hover bgguides">
                     <a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">Guides</a>
@@ -173,6 +180,8 @@ require_once('config/db.php');
                                 <li><a href="//bgknowhow.com/bgstrategy/general.php">...General strategy</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=heroes">...Heroes</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=minions">...Minions</a></li>
+                                <li><a href="//bgknowhow.com/bgstrategy/?show=quests">...Quests</a></li>
+                                <li><a href="//bgknowhow.com/bgstrategy/?show=rewards">...Rewards</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=buddies">...Buddies</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?mode=txt">...All Entities</a></li>
                             </ul>
@@ -180,7 +189,19 @@ require_once('config/db.php');
                     </div>
                 </li>
                 <li>
-                    <div style="margin-left: 10px; margin-top: 1px; border-bottom: 0" id="donate-button-container">
+                    <span style="color: #CCC">&nbsp;|&nbsp;</span>
+                </li>
+                <li class="menu-hover login">
+                    <?php
+                    if (!isset($_SESSION['usertag'])) {
+                        echo '<a class="menu-topic" href="//bgknowhow.com/login.php" title="Log in via your existing BattleNet account"> <i class="bi bi-box-arrow-in-right"></i> &nbsp;Log in</a>';
+                    } else {
+                        echo '<a class="menu-topic" href="//bgknowhow.com/logout.php" title="End your session"> <i class="bi bi-box-arrow-right"></i> &nbsp;Log out</a>';
+                    }
+                    ?>
+                </li>
+                <li>
+                    <div style="margin-left: 5px; margin-top: 1px; border-bottom: 0" id="donate-button-container">
                         <div id="donate-button"></div>
                         <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
                         <script>

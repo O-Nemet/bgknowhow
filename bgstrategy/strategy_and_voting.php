@@ -16,34 +16,63 @@
                                      bgs.votes_down,
                                      bgs.votes_trash,    
                                      bgs.time_created,
+                                     (SELECT lli.battletag FROM log_login lli WHERE lli.id = bgs.id_user) AS USERNAME,
                                      SUM(bgs.votes_up - bgs.votes_down) AS TOTAL_VOTES
                                 FROM bg_strategy bgs
-                               WHERE bgs.id_". $unitType ." = ?
+                               WHERE bgs.id_" . $unitType . " = ?
                                  AND bgs.flag_active = 1
                                  AND bgs.votes_trash < 5
                             GROUP BY bgs.id
-                            ORDER BY 7 DESC")) {
-    $stmt->bind_param("i", $selectedId);
-    $stmt->execute();
-    $stmt->store_result();
-    $stmt->bind_result($id, $text, $votesUp, $votesDown, $votesTrash, $timeCreated, $totalVotes);
+                            ORDER BY 8 DESC")) {
+        $stmt->bind_param("i", $selectedId);
+        $stmt->execute();
+        $stmt->store_result();
+        $stmt->bind_result($id, $text, $votesUp, $votesDown, $votesTrash, $timeCreated, $userName, $totalVotes);
 
-    while ($stmt->fetch()) {
+        while ($stmt->fetch()) {
 
-        $textLinked = convertStrategyText($text);
-        ?>
-        <div class="strategy-wrapper cf">
-            <div id="item<?= $id ?>" class="strategy-item">
-                <span><?= nl2br($textLinked) ?></span>
+            $textLinked = convertStrategyText($text);
+            ?>
+            <div class="strategy-wrapper cf">
+                <div id="item<?= $id ?>" class="strategy-item">
+                    <span><?= nl2br($textLinked) ?></span>
+                </div>
+                <div class="vote-buttons">
+                    <div class="upvotes" title="Upvote">
+                        <p class="button">
+                            <?php if (isLoggedIn()) { ?>
+                                <a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=1#item<?= $id ?>">&and; (<?= $votesUp ?>)</a>
+                            <?php } else { ?>
+                                <a tabindex="0" class="deactivated" title="Please log in via BattleNet to vote">&and; (<?= $votesUp ?>)</a>
+                            <?php } ?>
+                        </p>
+                    </div>
+                    <div class="downvotes" title="Downvote">
+                        <p class="button">
+                            <?php if (isLoggedIn()) { ?>
+                                <a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=2#item<?= $id ?>">&or; (<?= str_pad($votesDown, strlen($votesUp), '0', STR_PAD_LEFT) ?>)</a>
+                            <?php } else { ?>
+                                <a tabindex="0" class="deactivated" title="Please log in via BattleNet to vote">&or; (<?= str_pad($votesDown, strlen($votesUp), '0', STR_PAD_LEFT) ?>)</a>
+                            <?php } ?>
+                        </p>
+                    </div>
+                    <div style="margin-bottom: 8px">
+                        <span><?= date('d.m.Y', strtotime($timeCreated)) ?></span>
+                        <br class="pc_only">
+                        <span>by <?= $userName ? strstr($userName, '#', true) : 'Bob' ?></span>
+                    </div>
+                    <div class="flagvotes" title="Flag for bad/duplicate content or outdated information">
+                        <p class="button">
+                            <?php if (isLoggedIn()) { ?>
+                                <a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=3#item<?= $id ?>">X (<?= $votesTrash ?>)</a>
+                            <?php } else { ?>
+                                <a tabindex="0" class="deactivated" title="Please log in via BattleNet to vote">X (<?= $votesTrash ?>)</a>
+                            <?php } ?>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="vote-buttons">
-                <div class="upvotes" title="Upvote"><p class="button"><a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=1#item<?= $id ?>">&and; (<?= $votesUp ?>)</a></p></div>
-                <div class="downvotes" title="Downvote"><p class="button"><a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=2#item<?= $id ?>">&or; (<?= str_pad($votesDown, strlen($votesUp), '0', STR_PAD_LEFT) ?>)</a></p></div>
-                <span><?= date('d.m.Y', strtotime($timeCreated)) ?></span>
-                <div class="flagvotes" title="Flag for bad/duplicate content or outdated information"><p class="button"><a href="//bgknowhow.com/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=3#item<?= $id ?>">X (<?= $votesTrash ?>)</a></p></div>
-            </div>
-        </div>
-        <?php
+            <?php
+        }
     }
-}
-?>
+    ?>

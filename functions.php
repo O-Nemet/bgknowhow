@@ -3,11 +3,22 @@ error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 //ini_set('log_errors', 'On');
 
+require_once('modules/blizzard-api-oauth/Client.php');
+
+if (isset($client_id)) {
+// init the auth system client_id, client_secret, region, local all required
+    $client = new Client($client_id, $client_secret, $region, $locale, $redirect_uri);
+}
+
+$lastURL = '';
+
 const IMG_PATH = '//bgknowhow.com/images/';
 
 const PICTURE_LOCAL                  = 'https://bgknowhow.com/images/';
 const PICTURE_LOCAL_HERO             = 'https://bgknowhow.com/images/heroes/';
 const PICTURE_LOCAL_BUDDY            = 'https://bgknowhow.com/images/buddies/';
+const PICTURE_LOCAL_QUEST            = 'https://bgknowhow.com/images/quests/';
+const PICTURE_LOCAL_REWARD           = 'https://bgknowhow.com/images/rewards/';
 const PICTURE_LOCAL_MINION           = 'https://bgknowhow.com/images/minions/';
 const PICTURE_LOCAL_HP               = 'https://bgknowhow.com/images/heropowers/';
 const PICTURE_LOCAL_PORTRAIT_SUFFIX  = '_portrait.png';
@@ -26,8 +37,10 @@ const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // 
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
 $tempHeroes  = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
-$tempBuddies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
 $tempMinions = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
+$tempBuddies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
+$tempQuests  = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_quests_all.json'));
+$tempRewards = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_rewards_all.json'));
 
 // reference table for image tooltips on hover (provided to JS)
 $hoverImages = '';
@@ -40,6 +53,17 @@ foreach ($tempHeroes->data as $key => $object) {
     $hoverImages = $hoverImages . "{name:'" . addslashes($object->name) . "',shortname:'" . addslashes($object->nameShort) . "',id:'$object->heroPowerId',type:'H'},";
 }
 $hoverImages = rtrim($hoverImages, ',');
+
+function isLoggedIn(): bool
+{
+//    session_start();
+
+    if (isset($_SESSION['userid'])) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 function getWebsiteName(): string
 {
@@ -105,15 +129,15 @@ function getWebsiteTitle(): string
     } else if (strpos($page, '/bgcurves/') !== false) {
         $title .= 'Curves';
     } else if (strpos($page, '/bgexternal/') !== false) {
-        $title .= 'External Resources';
+        $title .= 'Resources';
     } else if (strpos($page, '/bgguides/') !== false) {
         $title .= 'Guides';
     } else if (strpos($page, '/bglegends/') !== false) {
-        $title .= 'Lobby Legends';
+        $title .= 'Tournaments';
     } else if (strpos($page, '/bgsim/') !== false) {
         $title .= 'Simulator';
     } else if (strpos($page, '/bgbasics/armor') !== false) {
-        $title .= 'BG Hero Armor Tiers';
+        $title .= 'Hero Armor Tiers';
     } else if (strpos($page, '/bgbasics/') !== false) {
         $title .= 'Battleground Basics';
     } else if (strpos($page, '/bgstrategy/?show=heroes') !== false) {
@@ -222,6 +246,10 @@ function getEntityData($selectedId, $unitType)
 
 function setVote($selectedStrat, $selectedVote)
 {
+    if (!isLoggedIn()) {
+        return false;
+    }
+
     include('config/db.php');
 
     $blocklistIp = [
@@ -248,9 +276,9 @@ function setVote($selectedStrat, $selectedVote)
                                 FROM log_strategy lgs
                                WHERE lgs.time_created >= NOW() - INTERVAL 7 DAY
                                  AND lgs.id_strategy = ?
-                                 AND lgs.ip = ?
+                                 AND lgs.id_user = ?
                                  LIMIT 1")) {
-        $stmt->bind_param("is", $selectedStrat, $userIp);
+        $stmt->bind_param("ii", $selectedStrat, $_SESSION['userid']);
         $stmt->execute();
         $stmt->store_result();
         $stmt->bind_result($alreadyExists);
@@ -267,13 +295,14 @@ function setVote($selectedStrat, $selectedVote)
             $stmt->execute();
             $stmt->close();
 
-            if ($stmt = $mysqli->prepare("INSERT INTO log_strategy (id_strategy, vote, ip, ip_proxy)
+            if ($stmt = $mysqli->prepare("INSERT INTO log_strategy (id_strategy, id_user, vote, ip, ip_proxy)
                                      VALUES (?
                                             ,?
                                             ,?
                                             ,?
+                                            ,?
                                             )")) {
-                $stmt->bind_param('iiss', $selectedStrat, $selectedVote, $userIp, $userProxyIp);
+                $stmt->bind_param('iiiss', $selectedStrat, $_SESSION['userid'], $selectedVote, $userIp, $userProxyIp);
                 $stmt->execute();
                 $stmt->close();
             } else {
@@ -285,6 +314,8 @@ function setVote($selectedStrat, $selectedVote)
             return false;
         }
     }
+
+    return true;
 }
 
 // fetch comp lineup from json
@@ -342,7 +373,7 @@ function drawBoard($minions)
 
 function getCompositionText(): string
 {
-    return "These different compositions are meant to display proven setups to strive for, for the very end game (top 4 and above). In general one of the seven slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Taunt, Poison or Divine Shield. Also primary support units like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight.";
+    return "These different compositions are meant to display proven setups to strive for, for the very end game (top 4 and above). In general one of the seven slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Taunt, Venomous or Divine Shield. Also primary support units like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight.";
 }
 
 function convertStrategyText(string $text): string

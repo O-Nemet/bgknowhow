@@ -34,9 +34,9 @@ if ($postText && $postId && empty($emailCaptcha)) {
     $selectedId = $postId;
 
     if ($stmt = $mysqli->prepare("INSERT INTO bg_strategy
-    (id_" . $unitType . ", text)
-    VALUES (?,?)")) {
-        $stmt->bind_param('is', $postId, $postText);
+    (id_" . $unitType . ", id_user, text)
+    VALUES (?,?,?)")) {
+        $stmt->bind_param('iis', $postId, $_SESSION['userid'], $postText);
         $stmt->execute();
         $stmt->close();
     } else {
@@ -44,4 +44,3 @@ if ($postText && $postId && empty($emailCaptcha)) {
         return false;
     }
 }
-?>
