@@ -22,7 +22,7 @@ if ($selectedId) {
     $stmt->fetch()
     ?>
     <div class="card_wrapper">
-        <h1 class="cardname"><?= $name ?></h1>
+        <h1 class="cardname"><?= $name ?> <?= $isActive === 0 ? '[inactive]' : '' ?></h1>
         <div class="card_picture_big2">
             <img src="<?= PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_BIG_SUFFIX ?>" alt="The picture of <?= $name ?>">
         </div>
