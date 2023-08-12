@@ -24,21 +24,22 @@ if ($selectedId) {
 
     <div class="card_wrapper">
         <div class="card_info">
-            <div class="container"><span class="card_attack card_health"><?= $health ?></span>
-                <img class="img_health" src="<?= PICTURE_LOCAL ?>icons/health.png" title="Health" alt="Health">
+            <div class="container" title="Health">
+                <span class="card_attack card_health"><?= $health ?></span>
+                <img class="img_health" src="<?= PICTURE_LOCAL ?>icons/health.png" alt="Health icon">
             </div>
             <br>
-            <div class="container">
+            <div class="container" title="Armor">
                 <span class="card_attack" style="padding-left: 1px;"><?= $armor ?></span>
-                <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor.webp" title="Armor" alt="Armor">
+                <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor.webp" alt="Armor icon">
             </div>
             <?php
             if ($armorMMR) {
                 ?>
                 <br>
-                <div class="container">
+                <div class="container" title="Armor on high MMR">
                     <span class="card_attack" style="padding-left: 1px;"><?= $armorMMR ?></span>
-                    <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor_mmr.webp" title="Armor on high MMR" alt="Armor on high MMR">
+                    <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor_mmr.webp" alt="Armor icon for high MMR">
                 </div>
                 <?php
             }
@@ -47,7 +48,8 @@ if ($selectedId) {
             <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span>
             <br><br>
         </div>
-        <h1 class="cardname"><?= $name ?> <?= $name != $nameShort ? '(' . $nameShort . ')' : '' ?></h1>
+        <h1 class="cardname"><?= $name ?> <?= $name != $nameShort ? '(' . $nameShort . ')' : '' ?> <?= $isActive === 0 ? '[inactive]' : '' ?></h1>
+        <h1 class="mobile_only cardname_mobile"><?= $name ?> <?= $name != $nameShort ? '(' . $nameShort . ')' : '' ?></h1>
         <div class="card_picture_big">
             <img src="<?= PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_BIG_SUFFIX ?>" alt="The picture of <?= $name ?>">
         </div>
