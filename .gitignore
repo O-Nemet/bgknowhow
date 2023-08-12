@@ -1,3 +1,9 @@
 /.idea/
 /config/db.php
+/config/api_blizzard.php
 /bgjson/output/
+/images/minions/*_render.png
+/images/rewards/*_render.png
+/images/quests/*_render.png
+/images/heropowers/*_render.png
+*.csv
