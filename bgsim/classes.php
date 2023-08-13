@@ -170,17 +170,21 @@ class Battlefield
 {
 //    private array $slotsP1 = [[], [], [], [], [], [], []];
     private array $slots                   =
-        [1 => ['x', 'x', 'x', 'x', 'x', 'x', 'x'], 2 => ['x', 'x', 'x', 'x', 'x', 'x', 'x']];
+        [1 => ['x', 'x', 'x', 'x', 'x', 'x', 'x'],
+         2 => ['x', 'x', 'x', 'x', 'x', 'x', 'x']];
     private int   $roundDamageP1           = 0;
     private int   $roundDamageP2           = 0;
     private int   $totalMinionDamageDoneP1 = 0;
     private int   $totalMinionDamageDoneP2 = 0;
+    private int   $playerAttacking         = 1;
+    private int   $playerDefending         = 2;
 
     public function __construct()
     {
 //        $this->slotsP1[0] = [['x'], ['x'], ['x'], ['x'], ['x'], ['x'], ['x']];
     }
 
+    // before combat special effects
     public function spawnMinion($player, $slot, $minion)
     {
         // $this->getFreeSlot();
@@ -263,24 +267,19 @@ class Battlefield
      * @throws Exception
      *
      * TODO:
-     * - run more than 1 iteration
      * - randomly decide which player attacks first
      * - taunt handling
      */
     public function runFight()
     {
-        $attacker        = 0;
-        $allDead         = false;
-        $foundMinion     = false;
-        $playerAttacking = 1;
-        $playerDefending = 2;
-
-        $minion = $this->slots[$playerAttacking][$attacker];
+        $attacker    = 0; // current board slot of the attacking minion
+        $allDead     = false;
+        $foundMinion = false;
 
         // special handling for Red Whelp (player1)
         for ($i = 0; $i < 6; $i++) {
             if (is_object($this->slots[1][$i]) && $this->slots[1][$i]->getName() === 'Red Whelp') {
-                $target = $this->findTarget($playerDefending);
+                $target = $this->findTarget($this->playerDefending);
                 $this->slots[2][$target]->setHealthByDamage(1);
                 $this->totalMinionDamageDoneP1++;
                 if ($this->slots[2][$target]->getHealth() < 1) {
@@ -290,10 +289,10 @@ class Battlefield
         }
 
         // special handling for Red Whelp (player2)
-        $playerDefending = 1;
+        $this->playerDefending = 1;
         for ($i = 0; $i < 6; $i++) {
             if (is_object($this->slots[2][$i]) && $this->slots[2][$i]->getName() === 'Red Whelp') {
-                $target = $this->findTarget($playerDefending);
+                $target = $this->findTarget($this->playerDefending);
                 $this->slots[1][$target]->setHealthByDamage(1);
                 $this->totalMinionDamageDoneP2++;
                 if ($this->slots[1][$target]->getHealth() < 1) {
@@ -301,39 +300,46 @@ class Battlefield
                 }
             }
         }
+        $this->playerDefending = 2;
 
-        $playerDefending = 2;
         // first found minion (checking left to right) attacks random enemy minion (TODO: taunt handling)
         while (!$allDead) {
+            $minion = $this->slots[$this->playerAttacking][$attacker];
+//            echo "((" . $minion . "))";
 //            if ($attacker === 0) echo "<br>";
 //            echo "|" . $attacker;
             // TODO remove dozy temp handling!
-            if (is_object($minion) && ($minion->getAttack() > 0 || $minion->getName() === 'Dozy Whelp')) {
+            if (is_object($minion) && ($minion->getAttack() > 0)) {
                 $foundMinion = true;
 //                echo "<-";
 
                 // find possible defender
-                $defender = $this->findTarget($playerDefending);
-//                echo $defender . "*";
+                $defender = $this->findTarget($this->playerDefending);
                 if ($defender > -1) {
+//                    echo $this->slots[$this->playerDefending][$defender]->getName() . "*";
+                    // TODO remove dozy temp handling!
                     // special handling for Dozy Whelp
-                    if ($this->slots[$playerDefending][$defender]->getName() === 'Dozy Whelp') {
-                        $this->slots[$playerDefending][$defender]->setAttack($this->slots[$playerDefending][$defender]->getAttack() + 1);
+                    if ($this->slots[$this->playerAttacking][$attacker]->getName() === 'Dozy Whelp' && $this->slots[$this->playerDefending][$defender]->getName() === 'Dozy Whelp') {
+                        $this->slots[$this->playerDefending][$defender]->setAttack($this->slots[$this->playerDefending][$defender]->getAttack() + 1);
+                        $this->slots[$this->playerAttacking][$attacker]->setAttack($this->slots[$this->playerAttacking][$attacker]->getAttack() + 1);
+                    } else if ($this->slots[$this->playerDefending][$defender]->getName() === 'Dozy Whelp') {
+                        $this->slots[$this->playerDefending][$defender]->setAttack($this->slots[$this->playerDefending][$defender]->getAttack() + 1);
                     }
                     // execute attack
-                    // TODO remove dozy temp handling!
-                    if ($this->slots[$playerAttacking][$attacker]->getName() === 'Dozy Whelp') {
-                        $this->slots[$playerAttacking][$attacker]->setAttack($this->slots[$playerAttacking][$attacker]->getAttack() + 1);
-                    }
-                    $this->runAttack($this->slots[$playerAttacking][$attacker], $this->slots[$playerDefending][$defender]);
+                    $this->runAttack($this->slots[$this->playerAttacking][$attacker], $this->slots[$this->playerDefending][$defender]);
                 } else {
                     $allDead = true;
                 }
             }
-            $attacker++;
+
+//            echo "<br>[$playerAttacking | $attacker] ";
+
+            if ($this->playerAttacking === 2) {
+                $attacker++;
+            }
 
             // no minions left on the board
-            if ($attacker > 6 && $foundMinion == false) {
+            if ($attacker > 6 && $foundMinion === false) {
                 $allDead = true;
             } else {
                 // reset at the end of the board
@@ -341,7 +347,11 @@ class Battlefield
                     $attacker    = 0;
                     $foundMinion = false;
                 }
-                $minion = $this->slots[$playerAttacking][$attacker];
+                // switch Attacking and Defending Player
+                $this->playerAttacking = ($this->playerAttacking === 1 ? 2 : 1);
+                $this->playerDefending = ($this->playerDefending === 2 ? 1 : 2);
+
+                $minion = $this->slots[$this->playerAttacking][$attacker];
             }
         }
     }
@@ -351,23 +361,24 @@ class Battlefield
 //        print_r($minion1);
 //        var_dump($minion2);
 //        echo "<br>";
-//        echo "Attack: " . $minion1->getName() . " vs " . $minion2->getName();
+#        echo "<br>[[Attack: " . $minion1->getName() . " vs " . $minion2->getName() . "]]";
 
-        // attack P1
+        // damage done from minion of P1
         $minion2->setHealthByDamage($minion1->getAttack());
         $this->totalMinionDamageDoneP1 += $minion1->getAttack();
 
-        // attack P2
+        // damage done from minion of P2
         $minion1->setHealthByDamage($minion2->getAttack());
         $this->totalMinionDamageDoneP2 += $minion2->getAttack();
 
         // check for death
         if ($minion1->getHealth() < 1) {
-            $this->setSlot(1, $minion1->getPosition(), 'x');
+            $this->setSlot($this->playerAttacking, $minion1->getPosition(), 'x');
         }
         if ($minion2->getHealth() < 1) {
-            $this->setSlot(2, $minion2->getPosition(), 'x');
+            $this->setSlot($this->playerDefending, $minion2->getPosition(), 'x');
         }
+#        echo "!";
     }
 
     public function setSlot($player, $slot, $minion)
