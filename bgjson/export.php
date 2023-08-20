@@ -93,10 +93,10 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
 
         $csvDataHeroes .= $csvData;
 
-        $heroes['data'][$i]['name']         = $name;
-        $heroes['data'][$i]['nameShort']    = $nameShort;
-        $heroes['data'][$i]['pool']         = $pool;
-        $heroes['data'][$i]['health']       = $health;
+        $heroes['data'][$i]['name']      = $name;
+        $heroes['data'][$i]['nameShort'] = $nameShort;
+        $heroes['data'][$i]['pool']      = $pool;
+        $heroes['data'][$i]['health']    = $health;
 //        $heroes['data'][$i]['armorTier']    = $armorTier;
         $heroes['data'][$i]['armor']        = $armor;
         $heroes['data'][$i]['armorHighMMR'] = $armorMMR;
@@ -659,6 +659,99 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     echo 'Rewards select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
 }
 
+// generate anomalies files
+if ($stmt = $mysqli->prepare("SELECT bga.id,
+                                     bga.name,
+                                     bga.text,
+                                     bga.id_blizzard,
+                                     bga.id_playhs,
+                                     bga.id_hpwn,
+                                     bga.flag_active
+                                FROM bg_anomalies bga
+     --                          WHERE bgh.flag_active = ?
+                            ORDER BY bga.name ASC")) {
+    #$stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $text, $blizzardId, $playhsId, $hpwnId, $isActive);
+
+    $row_count = $stmt->num_rows;
+
+    $csvHeader              =
+        'Name' . CSV_SEPARATOR .
+        'Text' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
+        'Picture link' . CSV_SEPARATOR .
+        'Active' . PHP_EOL;
+    $csvDataAnomalies       = $csvHeader;
+    $csvDataAnomaliesActive = $csvHeader;
+    $csvData                = '';
+
+    // json metadata
+    $anomalies['meta']['date']          = date("Y-m-d");
+    $anomalies['meta']['version']       = VERSION;
+    $anomaliesActive['meta']['date']    = date("Y-m-d");
+    $anomaliesActive['meta']['version'] = VERSION;
+
+    $i = 0;
+    $j = 0;
+    while ($stmt->fetch()) {
+        $csvData =
+            $name . CSV_SEPARATOR .
+            (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
+            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
+            (bool)$isActive . PHP_EOL;
+
+        $csvDataAnomalies .= $csvData;
+
+        $anomalies['data'][$i]['name']    = $name;
+        $anomalies['data'][$i]['text']    = $text;
+        $anomalies['data'][$i]['id']      = $blizzardId;
+        $anomalies['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+//        $anomalies['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $anomalies['data'][$i]['websites']['blizzard']  = ($playhsId ? URL_PHS . $playhsId : null);
+        $anomalies['data'][$i]['websites']['bgknowhow'] = URL_BKH . 'anomaly/?id=' . $id;
+        $anomalies['data'][$i]['websites']['fandom']    = URL_HSF . str_replace(' ', '_', $name);
+        $anomalies['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
+        $anomalies['data'][$i]['isActive']              = (bool)$isActive;
+
+        if ($isActive) {
+            $csvDataAnomaliesActive      .= $csvData;
+            $anomaliesActive['data'][$j] = $anomalies['data'][$i];
+
+            $j++;
+        }
+
+        $i++;
+    }
+
+    $stmt->free_result();
+    $stmt->close();
+
+    $csvFile = 'output/bg_anomalies_all.csv';
+    file_put_contents($csvFile, $csvDataAnomalies);
+    echo 'Written file ' . $csvFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $csvFile = 'output/bg_anomalies_active.csv';
+    file_put_contents($csvFile, $csvDataAnomaliesActive);
+    echo 'Written file ' . $csvFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+    $jsonFile = 'output/bg_anomalies_all.json';
+    $jsonData = json_encode($anomalies);
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $jsonData = json_encode($anomaliesActive);
+    $jsonFile = 'output/bg_anomalies_active.json';
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+} else {
+    echo 'Anomalies select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
+}
+
+
 // json metadata
 $allEntities['meta']['date']    = date("Y-m-d");
 $allEntities['meta']['version'] = VERSION;
@@ -668,12 +761,14 @@ unset($minions['meta']);
 unset($buddies['meta']);
 unset($quests['meta']);
 unset($rewards['meta']);
+unset($anomalies['meta']);
 
-$allEntities['data']['heroes']  = $heroes['data'];
-$allEntities['data']['minions'] = $minions['data'];
-$allEntities['data']['buddies'] = $buddies['data'];
-$allEntities['data']['quests']  = $quests['data'];
-$allEntities['data']['rewards'] = $rewards['data'];
+$allEntities['data']['heroes']    = $heroes['data'];
+$allEntities['data']['minions']   = $minions['data'];
+$allEntities['data']['buddies']   = $buddies['data'];
+$allEntities['data']['quests']    = $quests['data'];
+$allEntities['data']['rewards']   = $rewards['data'];
+$allEntities['data']['anomalies'] = $anomalies['data'];
 
 $jsonFile = 'output/bg_entities_all.json';
 $jsonData = json_encode($allEntities);
@@ -689,12 +784,14 @@ unset($minionsActive['meta']);
 unset($buddiesActive['meta']);
 unset($questsActive['meta']);
 unset($rewardsActive['meta']);
+unset($anomaliesActive['meta']);
 
 $allEntitiesActive['data']['heroes']  = $heroesActive['data'];
 $allEntitiesActive['data']['minions'] = $minionsActive['data'];
 @$allEntitiesActive['data']['buddies'] = $buddiesActive['data'];
 @$allEntitiesActive['data']['quests'] = $questsActive['data'];
 @$allEntitiesActive['data']['rewards'] = $rewardsActive['data'];
+@$allEntitiesActive['data']['anomalies'] = $anomaliesActive['data'];
 
 $jsonFile = 'output/bg_entities_active.json';
 $jsonData = json_encode($allEntitiesActive);

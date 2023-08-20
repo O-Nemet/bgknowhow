@@ -47,9 +47,10 @@ include_once('../header.php');
         <tr>
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Buddies</a></td>-->
+            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
             <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
+            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>-->
         </tr>
         </tbody>
     </table>
@@ -60,12 +61,12 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="5">JSON format (all)</th>
+            <th colspan="6">JSON format (all)</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td colspan="5"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All BG Entities</a></td>
+            <td colspan="6"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All BG Entities</a></td>
         </tr>
         <tr>
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
@@ -73,6 +74,7 @@ include_once('../header.php');
             <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
         </tr>
         </tbody>
     </table>
@@ -90,9 +92,10 @@ include_once('../header.php');
         <tr>
             <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.csv"><img src="//bgknowhow.com/images/icons/download_icon.png" alt="Download File"> Active BG Buddies</a></td>-->
+            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
             <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
+            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>-->
         </tr>
         </tbody>
     </table>
@@ -103,7 +106,7 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="5">CSV format (all)</th>
+            <th colspan="6">CSV format (all)</th>
         </tr>
         </thead>
         <tbody>
@@ -113,6 +116,7 @@ include_once('../header.php');
             <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
             <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
+            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
         </tr>
         </tbody>
     </table>
@@ -123,6 +127,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>18.08.2023 - Added the first 20 anomalies and all new minions from the <a href="https://hearthstone.blizzard.com/en-us/news/23987537/27-2-patch-notes" target="_blank">27.2.0</a> patch notes (isActive = false, until patchday).</li>
         <li>04.08.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2702-patch-notes/111231" target="_blank">27.0.2</a> patch notes.</li>
         <li>29.07.2023 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2701-patch-notes/110763" target="_blank">27.0.1</a> patch notes.</li>
         <li>25.07.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23973121/27-0-patch-notes" target="_blank">27.0.0</a> patch notes.</li>

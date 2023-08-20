@@ -4,10 +4,11 @@ include_once('../header.php');
 
 <?php
 
-$minion = $_GET['minion'] ?? '';
-$buddy  = $_GET['buddy'] ?? '';
-$quest  = $_GET['quest'] ?? '';
-$reward = $_GET['reward'] ?? '';
+$minion  = $_GET['minion'] ?? '';
+$buddy   = $_GET['buddy'] ?? '';
+$anomaly = $_GET['anomaly'] ?? '';
+$quest   = $_GET['quest'] ?? '';
+$reward  = $_GET['reward'] ?? '';
 
 if (!empty($_GET['mode'])) {
     $mode = $_GET['mode'];
@@ -54,6 +55,10 @@ if (!empty($buddy)) {
 
     foreach ($tempBuddies->data as $key => $object) {
         $buddies[] = $object;
+    }
+
+    foreach ($tempAnomalies->data as $key => $object) {
+        $anomalies[] = $object;
     }
 
     foreach ($tempQuests->data as $key => $object) {
@@ -239,9 +244,49 @@ if (!empty($buddy)) {
         <?php
     }
 
+    if ($show == 'anomalies' || $show == 'all') {
+        echo '<h2 class="page_title">Anomalies</h2>';
+        echo '<p>One anomaly is randomly selected before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with 20 different anomalies any anomaly would have a chance of 5% to be active, but due to this special rule \'Secrets\' has a 5/24 or 20.83% chance and any other anomaly a 1/24 or 4.17% chance to show up.<br><br>Depending on the anomaly, some heroes, minion types or even minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).</p>';
+        echo '<br>';
+    }
+
+    if ($show == 'anomalies' && $mode == 'gfx') {
+        echo "<div class='strategy-images buddies cf'>";
+        foreach ($anomalies as $anomaly) {
+            echo "<div><a href='" . $anomaly->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_ANOMALY . $anomaly->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$anomaly->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($anomaly->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'></a></div>";
+        }
+        echo "</div>";
+    } else if ($show == 'anomalies' || $show == 'all') {
+        ?>
+        <br>
+        <table class="strategy-table">
+            <thead>
+            <tr>
+                <th colspan="2">Anomalies</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Text</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+            foreach ($anomalies as $anomaly) {
+                echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $anomaly->websites->bgknowhow . '\'">';
+                echo "<td>$anomaly->name</td>";
+                echo "<td class='text' title='" . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'>$anomaly->text</td>";
+                echo "</tr>";
+            }
+            ?>
+            </tbody>
+        </table>
+        <br>
+        <?php
+    }
+
     if ($show == 'quests' || $show == 'all') {
         echo '<h2 class="page_title">Quests</h2>';
-        echo '<p>Quests are offered at the beginning of turn 4 (6 gold). The quest texts utilize placeholders like {0} (for example in the text "Spend {0} Gold."), which are replaced by an actual numeric value based on the armor value of the hero you are playing (heroes with more armor will receive easier to complete quests) and the minion types in the lobby. The baseline value for each quest is documented on the details page.</p>';
+        echo '<p>Quests are offered at the beginning of turn 4 (6 gold). The quest texts utilize placeholders like {0} (for example in the text "Spend {0} Gold."), which are replaced by an actual numeric value based on the armor value of the hero you are playing (heroes with more base armor will receive easier to complete quests) and the minion types in the lobby. The baseline value for each quest is documented on the details page.</p>';
     }
 
     if ($show == 'quests' && $mode == 'gfx') {

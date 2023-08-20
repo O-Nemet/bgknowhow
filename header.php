@@ -180,6 +180,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                                 <li><a href="//bgknowhow.com/bgstrategy/general.php">...General strategy</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=heroes">...Heroes</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=minions">...Minions</a></li>
+                                <li><a href="//bgknowhow.com/bgstrategy/?show=anomalies">...Anomalies</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=quests">...Quests</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=rewards">...Rewards</a></li>
                                 <li><a href="//bgknowhow.com/bgstrategy/?show=buddies">...Buddies</a></li>

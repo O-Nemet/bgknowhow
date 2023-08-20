@@ -8,6 +8,9 @@ if (strpos($page, '/hero/') !== false) {
 } else if (strpos($page, '/buddy/') !== false) {
     $unitType  = 'buddy';
     $unitTypes = 'buddies';
+} else if (strpos($page, '/anomaly/') !== false) {
+    $unitType  = 'anomaly';
+    $unitTypes = 'anomalies';
 } else if (strpos($page, '/minion/') !== false) {
     $unitType  = 'minion';
     $unitTypes = 'minions';

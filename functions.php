@@ -17,6 +17,7 @@ const IMG_PATH = '//bgknowhow.com/images/';
 const PICTURE_LOCAL                  = 'https://bgknowhow.com/images/';
 const PICTURE_LOCAL_HERO             = 'https://bgknowhow.com/images/heroes/';
 const PICTURE_LOCAL_BUDDY            = 'https://bgknowhow.com/images/buddies/';
+const PICTURE_LOCAL_ANOMALY          = 'https://bgknowhow.com/images/anomalies/';
 const PICTURE_LOCAL_QUEST            = 'https://bgknowhow.com/images/quests/';
 const PICTURE_LOCAL_REWARD           = 'https://bgknowhow.com/images/rewards/';
 const PICTURE_LOCAL_MINION           = 'https://bgknowhow.com/images/minions/';
@@ -36,11 +37,12 @@ const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // 
 const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
-$tempHeroes  = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
-$tempMinions = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
-$tempBuddies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
-$tempQuests  = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_quests_all.json'));
-$tempRewards = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_rewards_all.json'));
+$tempHeroes    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
+$tempMinions   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
+$tempAnomalies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_anomalies_all.json'));
+$tempBuddies   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
+$tempQuests    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_quests_all.json'));
+$tempRewards   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_rewards_all.json'));
 
 // reference table for image tooltips on hover (provided to JS)
 $hoverImages = '';
@@ -142,16 +144,26 @@ function getWebsiteTitle(): string
         $title .= 'Battleground Basics';
     } else if (strpos($page, '/bgstrategy/?show=heroes') !== false) {
         $title .= 'Strategy Heroes';
-    } else if (strpos($page, '/bgstrategy/?show=buddies') !== false) {
-        $title .= 'Strategy Buddies';
     } else if (strpos($page, '/bgstrategy/?show=minions') !== false) {
         $title .= 'Strategy Minions';
+    } else if (strpos($page, '/bgstrategy/?show=anomalies') !== false) {
+        $title .= 'Strategy Anomalies';
+    } else if (strpos($page, '/bgstrategy/?show=buddies') !== false) {
+        $title .= 'Strategy Buddies';
+    } else if (strpos($page, '/bgstrategy/?show=quests') !== false) {
+        $title .= 'Strategy Quests';
+    } else if (strpos($page, '/bgstrategy/?show=rewards') !== false) {
+        $title .= 'Strategy Rewards';
     } else if (strpos($page, '/bgstrategy/hero/') !== false) {
         $title .= 'Strategy Hero';
-    } else if (strpos($page, '/bgstrategy/buddy/') !== false) {
-        $title .= 'Strategy Buddy';
     } else if (strpos($page, '/bgstrategy/minion/') !== false) {
         $title .= 'Strategy Minion';
+    } else if (strpos($page, '/bgstrategy/anomaly/') !== false) {
+        $title .= 'Strategy Anomaly';
+    } else if (strpos($page, '/bgstrategy/buddy/') !== false) {
+        $title .= 'Strategy Buddy';
+    } else if (strpos($page, '/bgstrategy/reward/') !== false) {
+        $title .= 'Strategy Reward';
     } else if (strpos($page, '/bgstrategy/') !== false) {
         $title .= 'Strategy All';
     }
@@ -202,6 +214,21 @@ function getEntityData($selectedId, $unitType)
                                      bgb.artist
                                 FROM bg_buddies bgb
                                WHERE bgb.id = ?
+                               LIMIT 1")) {
+            $stmt->bind_param("i", $selectedId);
+            $stmt->execute();
+            $stmt->store_result();
+        }
+    } else if ($unitType == 'anomaly') {
+        if ($stmt = $mysqli->prepare("SELECT bga.id,
+                                     bga.name,
+                                     bga.type,
+                                     bga.text,
+                                     bga.id_blizzard,
+                                     bga.flag_active,
+                                     bga.artist
+                                FROM bg_anomalies bga
+                               WHERE bga.id = ?
                                LIMIT 1")) {
             $stmt->bind_param("i", $selectedId);
             $stmt->execute();
