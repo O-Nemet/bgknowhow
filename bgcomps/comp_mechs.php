@@ -44,7 +44,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Because Magnetize minions are seldomly sold and the Scrapers pull minions from the shared minion pool it is possible to run out of minions to get from your Scrapers.
+        In the past it was possible to run out of Magnetize minions because the Scrapers pull minions from the shared minion pool. But this was changed in a July 2023 update, now magnetized minions will return to the pool upon usage.
     </p>
     <!--    <h3 id="deathrattle">Buster/Kangor Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php

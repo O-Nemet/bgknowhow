@@ -127,7 +127,7 @@ include_once('../header.php');
     </p>
     <h3 id="magnetic">Magnetic <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Since May 2023 (patch 26.2.0) it is possible to play magnetic minions even when you already have the maximum number of 7 minions on your board.
+        Since May 2023 (patch 26.2.0) it is possible to play magnetic minions even when you already have the maximum number of 7 minions on your board. Since July 2023 (patch 27.0.0) any magnetic minion which is magnetized to another minion will return to the shared minion pool.
         <br><br>
         Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=magnetic">list of all Magnetic minions</a> to know your options.
     </p>
@@ -151,7 +151,7 @@ include_once('../header.php');
     </p>
     <h3 id="tripling">Tripling minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        When you buy or otherwise get the third copy of a minion all copies on your battlefield will be pulled back to your hand and combined into a golden minion. In general a tripled minion will have double the stats of the regular minion plus all the permanent buffs accumulated on the prior copies. For an in-depth look at the math involved please refer to our <a href="https://bgknowhow.com/bgbasics/triple_stats.php">Triple Stats guide</a>. In most cases it will also have
+        When you buy or otherwise get the third copy of a minion all copies on your battlefield will be pulled back to your hand and combined into a golden minion. In general a tripled minion will have double the stats of the regular minion plus all the permanent buffs accumulated on the prior copies. For an in-depth look at the math involved please refer to our <a href="https://bgknowhow.com/bgbasics/triple_stats.php">Triple Stats guide</a>. <!--In most cases it will also have-->
         <br><br>
         As a bonus, when you play the golden minion you will receive a discover-effect card which lets you discover one minion from a tier one level higher than your current tavern tier. The tier level for the discover will be locked in when you play the golden minion. Therefore, if you want to get a higher discovery it is possible to delay the playing of your triple. You also benefit from tripled minions by needing one less space on your tavern board.
         <br><br>
@@ -194,7 +194,7 @@ include_once('../header.php');
         <br><br>
         In 7-player lobbies where one player disconnected or conceded early it can be a successful tactic to level faster than
         usual, while taking lots of damage in the early fights to place oneself on the lower half of the scoreboard and
-        therefore have a high repeating chance to face the 'deadguy' and use these auto-win rounds to catchup and overtake
+        therefore have a high repeating chance to face the 'deadguy' and use these auto-win rounds to catch up and overtake
         the other living players.
     </p>
     <h3 id="gamelength">Game length <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
