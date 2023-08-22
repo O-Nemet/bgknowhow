@@ -100,7 +100,7 @@ function getWebsiteTitle(): string
     $title = '';
 
     $url  = "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-    $page = parse_url($url, PHP_URL_PATH);
+    $page = parse_url($url, PHP_URL_PATH) . parse_url($url, PHP_URL_QUERY);
 
     if (strpos($page, '/bgjson/') !== false) {
         $title .= 'BG JSON';
@@ -142,17 +142,17 @@ function getWebsiteTitle(): string
         $title .= 'Hero Armor Tiers';
     } else if (strpos($page, '/bgbasics/') !== false) {
         $title .= 'Battleground Basics';
-    } else if (strpos($page, '/bgstrategy/?show=heroes') !== false) {
+    } else if (strpos($page, '/bgstrategy/show=heroes') !== false) {
         $title .= 'Strategy Heroes';
-    } else if (strpos($page, '/bgstrategy/?show=minions') !== false) {
+    } else if (strpos($page, '/bgstrategy/show=minions') !== false) {
         $title .= 'Strategy Minions';
-    } else if (strpos($page, '/bgstrategy/?show=anomalies') !== false) {
+    } else if (strpos($page, '/bgstrategy/show=anomalies') !== false) {
         $title .= 'Strategy Anomalies';
-    } else if (strpos($page, '/bgstrategy/?show=buddies') !== false) {
+    } else if (strpos($page, '/bgstrategy/show=buddies') !== false) {
         $title .= 'Strategy Buddies';
-    } else if (strpos($page, '/bgstrategy/?show=quests') !== false) {
+    } else if (strpos($page, '/bgstrategy/show=quests') !== false) {
         $title .= 'Strategy Quests';
-    } else if (strpos($page, '/bgstrategy/?show=rewards') !== false) {
+    } else if (strpos($page, '/bgstrategy/show=rewards') !== false) {
         $title .= 'Strategy Rewards';
     } else if (strpos($page, '/bgstrategy/hero/') !== false) {
         $title .= 'Strategy Hero';
@@ -405,11 +405,18 @@ function getCompositionText(): string
 
 function convertStrategyText(string $text): string
 {
+    global $tempHeroes;
     global $tempMinions;
+
+    foreach ($tempHeroes->data as $key => $object) {
+        $text = str_replace("" . $object->name, "<a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a>", $text);
+    }
 
     foreach ($tempMinions->data as $key => $object) {
         if (!$object->isToken) {
             $text = str_replace("" . $object->name, "<a class='hoverimage' href='" . $object->websites->bgknowhow . "'>" . $object->name . "</a>", $text);
+
+//          shortName replacement (tricky due to replace of replace)
 //            if ($textNew !== $text) {
 //                $text = $textNew;
 //            } else {
