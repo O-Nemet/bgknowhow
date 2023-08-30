@@ -113,8 +113,18 @@ include_once('../header.php');
         <br><br>
         Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=venomous">list of all Venomous minions</a> to know your options.
     </p>
+    <h3 id="poisonous">Poisonous <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        A minion with Poisonous will kill any minion (without a Divine Shield) it hits regardless that minions health, once. Unlike Venomous, Poisonous will not be removed from the minion. This is a very strong ability, because in theory a poisonous minion with only 1 attack but enough health could kill an entire opponent's board.
+        <br><br>
+        Therefore, only very few active minions have this ability, namely <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=406">Tide Oracle Morgl</a> and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=182">Emperor Cobra</a> (spawned from a secret).
+    </p>
     <h3 id="avenge">Avenge <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        A minion with Avenge will count the number of minions dying on your side of the board during the combat and trigger their effect for each time the condition was met (e.g. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=277">Ghoul of the Feast</a> with "Avenge (2)" will trigger the first time after 2 of your minions have died and then again after 4, 6, 8, etc. deaths).
+        <br><br>
+        Token minions spawned during combat will also be counted, but the Avenge minion will not count its own death. Avenge minions will usually be placed on the far right of the board to get as many triggers as possible before dying itself. The avenge counters do not carry over from combat to combat, but will reset to zero at the beginning of each new combat turn instead.
+        <br><br>
         Please check out this <a href="https://bgknowhow.com/bgstrategy/?show=minions&ability=avenge">list of all Avenge minions</a> to know your options.
     </p>
     <h3 id="battlecry">Battlecry <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
