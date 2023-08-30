@@ -204,6 +204,9 @@ class Battlefield
                 $minion->setAttack($minion->getAttack() + 1);
                 $minion->setHealth($minion->getHealth() + 1);
                 break;
+            case 'Surf n\' Surf':
+                $minion->setHasDeathrattle(true);
+                break;
             default:
                 // do nothing
                 break;
@@ -416,6 +419,9 @@ class Battlefield
                         break;
                     case 'Scallywag':
                         $this->spawnMinion($player, $slot, new Minion($realMinion->getId() . 't'));
+                        break;
+                    case 'Surf n\' Surf':
+                        $this->spawnMinion($player, $slot, new Minion('BG27_004t2'));
                         break;
                     default:
                         // do nothing

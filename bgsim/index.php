@@ -48,7 +48,7 @@ foreach ($tempMinions->data as $key => $object) {
     <br><br>
     This is a dynamically generated matrix featuring the match-ups of all tier 1 minions on turn 1.<br>
     The number in the square shows how much damage you will deal/receive from the board (in addition to the turn 1 damage).<br>
-    The number of potential matchup losses and the average damage generated for your buddy meter are displayed on the right.<br>
+    The number of potential matchup losses and the average damage dealt are displayed on the right.<br>
     For this scenario the <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=8'>Razorfen Geomancer</a> has been self-gemmed to a 4/2 minion.
     <br><br>
     Click any of these icons below to deactivate the banned minion types of your lobby.
@@ -124,7 +124,7 @@ function getLink($type, $currentValue): string
 {
     // first-load handling (so a call to index.php is valid)
     if (strstr($_SERVER["REQUEST_URI"], '?') === false) {
-        $newLink = $_SERVER["REQUEST_URI"] . '?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1';
+        $newLink = $_SERVER["REQUEST_URI"] . '?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1';
     } else {
         $newLink = $_SERVER["REQUEST_URI"];
     }
