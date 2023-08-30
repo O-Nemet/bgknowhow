@@ -13,12 +13,12 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3 id="deflecto">Deflecto Reset Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deflecto', 'Deflecto', '*Harvest Golem', '*Harvest Golem', 'Copter', 'Troupe', 'Mummy'];
+    $board   = ['Deflecto', 'Deflecto', 'Mummy', 'Horse', 'Horse', 'Tank', 'Mummy'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        When going for the Deflect-o-Bot mech strategy, it is all about the resets for your MVPs, meaning the regaining of your Bots divine shields when another of your minions dies and summons a new mech. The overall strength of your comp will improve by how much you will be able to buff your Deflect-o-Bots by utilizing gems, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=26">Metaltooth Leaper</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=225">Wargear</a> or similar means, during the tavern phase. Which units you pick for the resets is of secondary importance.
+        When going for the Deflect-o-Bot mech strategy, it is all about the resets for your MVPs, meaning the regaining of your Bots divine shields when another of your minions dies and summons a new mech. The overall strength of your comp will improve by how much you will be able to buff your Deflect-o-Bots by utilizing magnetic minions, gems or similar means, during the tavern phase. Which units you pick for the resets is of secondary importance.
         <br><br>
         That is one of the beauties of this comp, because it features a very natural progression where your good early game picks like Mummy and Golem are still valuable in the very late game. And even a Copter buffed with a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a> can be of great use later. Because you don't need any 6-star or golden minions to win games, you can put great tempo pressure on the other players in the lobby, catching them off-guard before they are able to complete their late-game comps.
         <!--        <br><br>-->
@@ -26,18 +26,18 @@ include_once('../header.php');
         <!--        <br><br>-->
         <!--        Another little trick: If your opponent is trying to counter your shields via a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=226">Blaster</a>, your Mecherels will instantly regain their shield as long as another minion with a shield was positioned to the right of the Mecherel.-->
     </p>
-    <h3 id="shields">Greasebot Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Deflecto', 'Copter', 'Troupe', 'Cyborg', 'Cyborg', 'Greasebot', 'Greasebot'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        While this comp may look kinda similar, the focus here is less on the resets and more on the constant stat buffing thanks to the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=83">Grease Bot</a>.
-        <br><br>
-        The Deflect-o-Bot is rather optional in this comp and can be replaced by any shielded minion, even non-mech ones like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=52">Crackling Cyclone</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=214">Bristleback Knight</a>. But of course, with how easy it is to apply a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a>, they will always provide extra value in any mech comp and every reset will synergize with Grease Bot.
-    </p>
-    <h3 id="magnetize">Magnetization Avenge Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <!--    <h3 id="shields">Greasebot Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
+    <!--    --><?php
+    //    $board   = ['Deflecto', 'Copter', 'Troupe', 'Cyborg', 'Cyborg', 'Greasebot', 'Greasebot'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
+    //    ?>
+    <!--    <p>-->
+    <!--        While this comp may look kinda similar, the focus here is less on the resets and more on the constant stat buffing thanks to the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=83">Grease Bot</a>.-->
+    <!--        <br><br>-->
+    <!--        The Deflect-o-Bot is rather optional in this comp and can be replaced by any shielded minion, even non-mech ones like <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=52">Crackling Cyclone</a> or <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=214">Bristleback Knight</a>. But of course, with how easy it is to apply a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a>, they will always provide extra value in any mech comp and every reset will synergize with Grease Bot.-->
+    <!--    </p>-->
+    <h3 id="magnetize">Magnetization Beatboxer Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Reaper', 'Drone', 'Enchanter', 'Beatboxer', 'Beatboxer', 'Scraper', 'Scraper'];
     $minions = getMinionsForBoard($board);
@@ -59,19 +59,20 @@ include_once('../header.php');
     <!--        <br><br>-->
     <!--        The Foe Reaper is the least important part of this comp, but obviously increases your chances against venomous or shield lineups. In addition to the Titus, tripling a Buster is a big plus, whereas a golden Kangor's should be avoided as two regular ones are way more valuable.-->
     <!--    </p>-->
-    <!--    <h3 id="exodia">Macaw/Buster Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Macaw', 'Macaw', 'Reaper', 'Deflecto', 'Buster', 'Buster', 'Titus'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        As you can see, this comp is very similar to the one above, replacing the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=114">Kangor's</a> with Macaws. If beasts are in the lobby, this offers an even stronger alternative, scaling faster than the Mechs-only comp, especially with a golden Titus.-->
-    <!--        <br><br>-->
-    <!--        Due to the Macaws, you have to be mindful to not apply <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a> to any of your late-game minions, because you really need to trigger your Busters with every attack. The Macaws themselves should be buffed with Reborn via a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=95">Reanimating Rattler</a>, so that you will get two attacks from each Macaw.-->
-    <!--        <br><br>-->
-    <!--        Golden Macaws, a golden Titus and golden Busters will make the most impact for this composition. If you only have one Buster, taunting the Deflect-o-Bot or even the Reaper as protection for the essential Titus can sometimes be the right call. But with any Titus comp, winning or losing the attack-first coin flip has a huge impact on the following battle.-->
-    <!--    </p>-->
+    <h3 id="exodia">Macaw/Buster Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Macaw', 'Macaw', 'Reaper', 'Deflecto', 'Buster', 'Buster', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        <!--            As you can see, this comp is very similar to the one above, replacing the <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=114">Kangor's</a> with Macaws. If beasts are in the lobby, this offers an even stronger alternative, scaling faster than the Mechs-only comp, especially with a golden Titus.-->
+        Needs the availability of Beasts.
+        <br><br>
+        Due to the Macaws, you have to be mindful to not apply <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=62">Replicating Menace</a> to any of your late-game minions, because you really need to trigger your Busters with every attack. The Macaws themselves should be buffed with Reborn via a <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=95">Reanimating Rattler</a>, so that you will get two attacks from each Macaw.
+        <br><br>
+        Golden Macaws, a golden Titus and golden Busters will make the most impact for this composition. If you only have one Buster, taunting the Deflect-o-Bot or even the Reaper as protection for the essential Titus can sometimes be the right call. But with any Titus comp, winning or losing the attack-first coin flip has a huge impact on the following battle.
+    </p>
     <!--    <h3>Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
     //    $board   = ['Blaster', 'Selfless', 'Kangor\'s', 'Kangor\'s', 'Buster', 'Buster', 'Titus'];

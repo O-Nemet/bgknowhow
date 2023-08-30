@@ -10,16 +10,16 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3 id="deepblues">Deep Blues Tier 4 Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['*Eventide Brute', 'Wrangler', 'Shaker', 'Shaker', 'Deep Blue', 'Deep Blue', 'Lurker'];
+    $board   = ['Seaborn', 'Wrangler', 'Shaker', 'Shaker', 'Deep Blue', 'Deep Blue', 'Lurker'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Stay on tier 4 to get as many Shakers and Crooners as possible to constantly increase the size of your Deep Blues spellcrafts. Lurker is the best option to make the biggest stats gain permanent each round. Brute will grow quite a bit if you can get one early and Wrangler can be discovered by your triples to strengthen your usually small other minions for the endgame.
+        Stay on tier 4 to get as many Shakers and Crooners as possible to constantly increase the size of your Deep Blues spellcrafts. Lurker is the best option to make the biggest stats gain permanent each round. Searborn Summoner will also help to get the Nagas you are missing and Wrangler can be discovered by your triples to strengthen your usually small other minions for the endgame.
     </p>
     <h3 id="athissa">Athissa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Myrmidon', '*Eventide Brute', 'Athissa', 'Athissa', 'Orgozoa', 'Orgozoa', 'Glowscale'];
+    $board   = ['Thrasher', 'Myrmidon', 'Athissa', 'Athissa', 'Orgozoa', 'Orgozoa', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -28,7 +28,7 @@ include_once('../header.php');
     </p>
     <h3 id="wrangler">Wrangler Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['*Blade Collector', 'Myrmidon', '*Eventide Brute', 'Wrangler', 'Wrangler', 'Glowscale', 'Glowscale'];
+    $board   = ['Thrasher', '*Blade Collector', 'Myrmidon', 'Wrangler', 'Wrangler', 'Glowscale', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
