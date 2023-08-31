@@ -9,6 +9,7 @@ $shortNeedle = 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/';
 $lastPos     = 0;
 $positions   = array();
 
+// has to match the heroes on the blizzard website!
 $tempHeroes = json_decode(file_get_contents('../bgjson/output/bg_heroes_active.json'));
 
 while (($lastPos = strpos($content, $needle, $lastPos)) !== false) {
