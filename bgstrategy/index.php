@@ -39,7 +39,7 @@ if (!empty($_GET['ability'])) {
 
 if (!empty($_GET['tier'])) {
     $minionTier = (int)$_GET['tier'];
-    $minionTier = ($minionTier > 0 && $minionTier < 7) ? $minionTier : 0;
+    $minionTier = ($minionTier > 0 && $minionTier < 8) ? $minionTier : 0;
 } else {
     $minionTier = 0;
 }
@@ -84,7 +84,7 @@ if (!empty($buddy)) {
     }
 
     if ($show == 'heroes' && $mode == 'gfx') {
-        echo "<div class='strategy-images cf'>";
+        echo "<div class='strategy-images heroes cf'>";
         foreach ($heroes as $hero) {
             echo "<div><a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->id . PICTURE_LOCAL_PORTRAIT_SUFFIX . "' class='" . (!$hero->isActive ? 'inactive-img' : '') . "'><br><span>" . $hero->name . "</span></a></div>";
         }
@@ -128,7 +128,7 @@ if (!empty($buddy)) {
     }
 
     $tierFrom = $minionTier !== 0 ? $minionTier : 1;
-    $tierTo   = $minionTier !== 0 ? $minionTier : 6;
+    $tierTo   = $minionTier !== 0 ? $minionTier : 7;
 
     if ($show == 'minions' && $mode == 'gfx') {
         for ($i = $tierFrom; $i <= $tierTo; $i++) {
@@ -205,7 +205,7 @@ if (!empty($buddy)) {
     if ($show == 'buddies' && $mode == 'gfx') {
         echo "<div class='strategy-images buddies cf'>";
         foreach ($buddies as $buddy) {
-            echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$buddy->isActive ? 'inactive-img' : '') . "'><br><span>Hero: " . $buddy->hero . "</span></a></div>";
+            echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$buddy->isActive ? 'inactive-img' : '') . "'><br><span>$buddy->name<br>Hero: " . $buddy->hero . "</span></a></div>";
         }
         echo "</div>";
     } else if ($show == 'buddies' || $show == 'all') {
@@ -246,16 +246,17 @@ if (!empty($buddy)) {
 
     if ($show == 'anomalies' || $show == 'all') {
         echo '<h2 class="page_title">Anomalies</h2>';
-        echo '<p>One anomaly is randomly selected before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with 20 different anomalies any anomaly would have a chance of 5% to be active, but due to this special rule \'Secrets\' has a 5/24 or 20.83% chance and any other anomaly a 1/24 or 4.17% chance to show up.<br><br>Depending on the anomaly, some heroes, minion types or even minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).</p>';
-        echo '<br>';
+        echo '<p>One anomaly is randomly choosen from the pool of active anomalies before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with 20 different anomalies any anomaly would have a chance of 5% to be active, but due to this special rule \'Secrets\' has a 5/24 or 20.83% chance and any other anomaly a 1/24 or 4.17% chance to show up. A new anomaly will be added to the pool every week and feature an increased appearance rate until the next release.
+        <br><br>Depending on the anomaly, some heroes, minion types or even single minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).
+        <br><br>On 29.08. the three anomalies <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=24">Little League</a>, <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=21">Big League</a> and <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=23">Everything\'s on Fire!</a> were added and will have a "increased" appearance rate until new anomalies will be added.</p>';
     }
 
     if ($show == 'anomalies' && $mode == 'gfx') {
-        echo "<div class='strategy-images buddies cf'>";
+        echo "<div class='strategy-images anomalies cf'>";
         foreach ($anomalies as $anomaly) {
-            echo "<div><a href='" . $anomaly->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_ANOMALY . $anomaly->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$anomaly->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($anomaly->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'></a></div>";
+            echo "<div><a href='" . $anomaly->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_ANOMALY . $anomaly->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$anomaly->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($anomaly->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $anomaly->name . "</span></a></div>";
         }
-        echo "</div>";
+        echo "</div><br><br>";
     } else if ($show == 'anomalies' || $show == 'all') {
         ?>
         <br>
@@ -290,11 +291,11 @@ if (!empty($buddy)) {
     }
 
     if ($show == 'quests' && $mode == 'gfx') {
-        echo "<div class='strategy-images buddies cf'>";
+        echo "<div class='strategy-images anomalies cf'>";
         foreach ($quests as $quest) {
-            echo "<div><img src='" . PICTURE_LOCAL_QUEST . $quest->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$quest->isActive ? 'inactive-img' : '') . "' alt='$quest->name'></a></div>";
+            echo "<div><img src='" . PICTURE_LOCAL_QUEST . $quest->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$quest->isActive ? 'inactive-img' : '') . "' alt='$quest->name'><br><span>" . $quest->name . "</span></div>";
         }
-        echo "</div>";
+        echo "</div><br><br>";
     } else if ($show == 'quests' || $show == 'all') {
         ?>
         <br>
@@ -328,11 +329,11 @@ if (!empty($buddy)) {
     }
 
     if ($show == 'rewards' && $mode == 'gfx') {
-        echo "<div class='strategy-images buddies cf'>";
+        echo "<div class='strategy-images anomalies cf'>";
         foreach ($rewards as $reward) {
-            echo "<div><img src='" . PICTURE_LOCAL_REWARD . $reward->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$reward->isActive ? 'inactive-img' : '') . "' alt='$reward->name : " . htmlspecialchars($reward->text, ENT_QUOTES, 'utf-8') . "'></a></div>";
+            echo "<div><img src='" . PICTURE_LOCAL_REWARD . $reward->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$reward->isActive ? 'inactive-img' : '') . "' alt='$reward->name : " . htmlspecialchars($reward->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $reward->name . "</span></div>";
         }
-        echo "</div>";
+        echo "</div><br><br>";
     } else if ($show == 'rewards' || $show == 'all') {
         ?>
         <br>
