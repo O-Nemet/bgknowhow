@@ -2893,6 +2893,13 @@ body.bgstrategy .bgstrategy > a {
     padding-right: 15px;
 }
 
+.strategy-images div {
+    margin: 0 auto;
+    width: 25%;
+    height: 270px;
+    float: left;
+}
+
 .strategy-images {
     margin-left: 70px;
 }
@@ -2902,20 +2909,17 @@ body.bgstrategy .bgstrategy > a {
     /*margin-bottom: 100px;*/
 }
 
-.strategy-images.buddies {
-    margin-left: 70px;
+.strategy-images.buddies, .strategy-images.anomalies {
+    margin-left: 30px;
     /*margin-bottom: 100px;*/
 }
 
-.strategy-images div {
-    margin: 0 auto;
-    width: 25%;
-    height: 270px;
-    float: left;
+.strategy-images.buddies div {
+    height: 350px;
 }
 
-.strategy-images.buddies div {
-    height: 295px;
+.strategy-images.anomalies div {
+    height: 320px;
 }
 
 .strategy-images .tile {
@@ -2969,6 +2973,56 @@ body.bgstrategy .bgstrategy > a {
     z-index: 1;
     border: 2px black solid;
     border-radius: 5px;
+}
+
+.strategy-images .tile:hover .image {
+    /*border: 2px #2E76CF solid;*/
+    filter: contrast(130%);
+}
+
+.strategy-images img {
+    width: 200px;
+    transition: transform .2s; /* for hover animation */
+}
+
+.strategy-images.heroes img {
+    width: 200px;
+}
+
+.strategy-images.buddies img {
+    width: 240px;
+}
+
+.strategy-images.anomalies img {
+    width: 240px;
+}
+
+.strategy-images img:hover {
+    filter: contrast(130%);
+    transform: scale(1.25);
+    /*filter: saturate(3);*/
+    /*filter: hue-rotate(90deg);*/
+}
+
+.strategy-images span {
+    display: block;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.strategy-images.anomalies span {
+    display: block;
+    margin-top: -43px;
+    margin-left: 28px;
+    color: green;
+    font-weight: bold;
+}
+
+.strategy-images.buddies span {
+    display: block;
+    margin-top: -37px;
+    margin-left: 28px;
+    font-weight: bold;
 }
 
 /*.strategy-images .tile .image:hover {*/
@@ -3123,29 +3177,6 @@ body.bgstrategy .bgstrategy > a {
 
 #donate-button img:hover {
     filter: contrast(130%);
-}
-
-.strategy-images .tile:hover .image {
-    /*border: 2px #2E76CF solid;*/
-    filter: contrast(130%);
-}
-
-.strategy-images img {
-    width: 200px;
-    transition: transform .2s; /* for hover animation */
-}
-
-.strategy-images img:hover {
-    filter: contrast(130%);
-    transform: scale(1.25);
-    /*filter: saturate(3);*/
-    /*filter: hue-rotate(90deg);*/
-}
-
-.strategy-images span {
-    display: block;
-    margin-top: -25px;
-    font-weight: bold;
 }
 
 .tier-table {
