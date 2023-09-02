@@ -51,7 +51,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Only possible with the anomaly <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> active. ;-)
+        Only possible with the anomalies <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=13">A Faire Reward</a> and <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a>. ;-)
     </p>
     <!--    <h3 id="lightfang">Lightfang Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php

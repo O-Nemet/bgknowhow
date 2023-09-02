@@ -15,7 +15,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Stay on tier 4 to get as many Shakers and Crooners as possible to constantly increase the size of your Deep Blues spellcrafts. Lurker is the best option to make the biggest stats gain permanent each round. Searborn Summoner will also help to get the Nagas you are missing and Wrangler can be discovered by your triples to strengthen your usually small other minions for the endgame.
+        Stay on tier 4 to get as many Shakers and Crooners as possible (after you get a golden Crooner Shakers are more valuable) to constantly increase the size of your Deep Blues spellcrafts. Lurker is the best option to make the biggest stats gain permanent each round. Searborn Summoner will also help to get the Nagas you are missing and Wrangler can be discovered by your triples to strengthen your usually small other minions for the endgame.
     </p>
     <h3 id="athissa">Athissa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
