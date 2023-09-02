@@ -304,11 +304,6 @@ header #nav_wrapper {
 /*    font-size: 19px;*/
 /*}*/
 
-/*
-        header li:hover {
-                background-color: #76B317;
-        }
-*/
 header li a:hover {
     color: #EEEEEE;
 }
@@ -452,18 +447,6 @@ footer nav span {
     display: block !important;
 }
 
-.increase_qty {
-    font-size: 16px;
-}
-
-.decrease_qty {
-    font-size: 16px;
-}
-
-.remove_row {
-    font-size: 16px;
-}
-
 .disabled { /* not working in IE */
     pointer-events: none !important;
     cursor: default !important;
@@ -482,20 +465,20 @@ footer nav span {
     margin-top: 4px;
 }
 
-.search_icon {
-    background: url("http://mtgoagent.com/static/images/icons/search.gif") no-repeat scroll 4px 4px transparent;
-    display: block;
-    height: 24px;
-    position: relative;
-    /* right: -3px; */
-    left: 285px; /* ex 155px; */
-    top: -31px;
-    width: 24px;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
+/*.search_icon {*/
+/*    background: url("http://mtgoagent.com/static/images/icons/search.gif") no-repeat scroll 4px 4px transparent;*/
+/*    display: block;*/
+/*    height: 24px;*/
+/*    position: relative;*/
+/*    !* right: -3px; *!*/
+/*    left: 285px; !* ex 155px; *!*/
+/*    top: -31px;*/
+/*    width: 24px;*/
+/*    -webkit-transition: all 0.4s ease;*/
+/*    -moz-transition: all 0.4s ease;*/
+/*    -o-transition: all 0.4s ease;*/
+/*    transition: all 0.4s ease;*/
+/*}*/
 
 .search_icon_filter {
     left: 185px;
