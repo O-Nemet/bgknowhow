@@ -6,74 +6,79 @@ include_once('../header.php');
     <p>
         This subpage is featuring helpful and most importantly current (no outdated content here) video guides by different content creators. Please visit their YouTube or Twitch hubs to explore their whole portfolio of videos.
     </p>
-    <br>
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“Win Conditions Tier List Patch 27.0.1 Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“Anomoly Quick Tips! Have the Season 5 Advantage!” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/ZE3OaGLZbaM?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/EVqWWjYuQe8?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Discussing Win Conditions for Mechs, Quilboars, & Neutrals (Patch 27.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <h3>“A Guide to Darkmoon Prizes Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/kEXOjpGk1xk?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/bZ6EcP2fJDw?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
-        <div class="iframe_div">
-            <h3>“Discussing Win Conditions for Pirates and Demons (Patch 26.4)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/a_zoMwjDW6E?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Discussing Win Conditions for Beast, Murloc, Naga, Elemental, Undead, Dragon (Patch 26.2)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/qPbX4aRx43A?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“What Everyone does wrong with Quests” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/AX2fZysv5_8?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Discussing Win Conditions for Mechs, Quilboars, & Neutrals (Patch 27.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/kEXOjpGk1xk?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Discussing Win Conditions for Pirates and Demons (Patch 26.4)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/a_zoMwjDW6E?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Discussing Win Conditions for Beast, Murloc, Naga, Elemental, Undead, Dragon (Patch 26.2)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/qPbX4aRx43A?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“What Everyone does wrong with Quests” by <a href="https://www.youtube.com/channel/UCSL9YkndjEsAm0Oix3tKBTQ" target="_blank">Zorgo</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/AX2fZysv5_8?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
         <div class="iframe_div">
             <h3>“Basic Rock Master Voon How to” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/8mJwvf3sa9c?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
-        <div class="iframe_div">
-            <h3>“Basic Pirates How to” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/w1wul7cGZKE?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Basic Dragon Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/_BBYz4BSQZ0?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Basic Murloc Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/NcjVEYXzj6c?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Basic Naga Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/XgqzRi-RJfE?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Basic Beast Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/U76HK93LXLU?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Basic Pirates How to” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/w1wul7cGZKE?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Basic Dragon Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/_BBYz4BSQZ0?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Basic Murloc Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/NcjVEYXzj6c?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Basic Naga Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/XgqzRi-RJfE?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Basic Beast Win Conditions” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/U76HK93LXLU?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
         <div class="iframe_div">
             <h3>“5 Tips to Instantly get Better at Hearthstone Battlegrounds” by <a href="https://www.youtube.com/c/ItsBen321" target="_blank">ItsBen</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
