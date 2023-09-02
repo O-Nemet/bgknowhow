@@ -61,21 +61,22 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
+                <li><a class="menu-topic" href="//bgknowhow.com/bgstrategy/?show=anomalies">&#9654; Anomaly Strategy</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcomps/">&#9654; Compositions</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgbasics/armor.php">&#9654; Hero Armor</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgcurves/">&#9654; Curves</a></li>
-                <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>-->
+                <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>-->
                 <li><a class="menu-topic" href="//bgknowhow.com/bglegends/">&#9654; Tournaments</a></li>
                 <li><a class="menu-topic" href="//bgknowhow.com/bgexternal/">&#9654; Resources</a></li>
                 <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_pocky.php">&#9654; Guide to Improving at BGs</a></li>-->
                 <!--                <li><a class="menu-topic" href="//bgknowhow.com/bgguides/guide_youtube.php">&#9654; Featured YouTube guides</a></li>-->
                 <li><a class="menu-topic" href="//bgknowhow.com/bgjson/">&#9654; BGJSON</a></li>
                 <?php
-                if (!isset($_SESSION['usertag'])) {
-                    echo '<li><a class="menu-topic" href="//bgknowhow.com/login.php"><i class="bi bi-box-arrow-in-right"></i> &nbsp;Log in via BNet</a></li>';
-                } else {
-                    echo '<li><a class="menu-topic" href="//bgknowhow.com/logout.php"><i class="bi bi-box-arrow-right"></i> &nbsp;Log out</a></li>';
-                }
+                //                if (!isset($_SESSION['usertag'])) {
+                //                    echo '<li><a class="menu-topic" href="//bgknowhow.com/login.php"><i class="bi bi-box-arrow-in-right"></i> &nbsp;Log in via BNet</a></li>';
+                //                } else {
+                //                    echo '<li><a class="menu-topic" href="//bgknowhow.com/logout.php"><i class="bi bi-box-arrow-right"></i> &nbsp;Log out</a></li>';
+                //                }
                 ?>
             </ul>
         </nav>
@@ -149,11 +150,11 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                     <a class="menu-topic" href="//bgknowhow.com/bglegends/">Tournaments</a>
                 </li>
                 <li class="menu-hover bgsim">
-                    <a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">Simulator</a>
+                    <a class="menu-topic" href="//bgknowhow.com/bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">Simulator</a>
                     <div class="menu-container-1">
                         <div class="menu-column-1">
                             <ul>
-                                <li><a href="//bgknowhow.com/bgsim/?be=1&de=1&dr=0&el=1&me=1&mu=0&na=0&pi=1&qu=1&ud=1">...Turn-1 Minion Matrix</a></li>
+                                <li><a href="//bgknowhow.com/bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">...Turn-1 Minion Matrix</a></li>
                                 <li><a href="//bgknowhow.com/bgsim/custom.php">...Custom Board</a></li>
                             </ul>
                         </div>
@@ -194,11 +195,11 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                 </li>
                 <li class="menu-hover login">
                     <?php
-                    if (!isset($_SESSION['usertag'])) {
-                        echo '<a class="menu-topic" href="//bgknowhow.com/login.php" title="Log in via your existing BattleNet account"> <i class="bi bi-box-arrow-in-right"></i> &nbsp;Log in</a>';
-                    } else {
-                        echo '<a class="menu-topic" href="//bgknowhow.com/logout.php" title="End your session"> <i class="bi bi-box-arrow-right"></i> &nbsp;Log out</a>';
-                    }
+                    //                    if (!isset($_SESSION['usertag'])) {
+                    //                        echo '<a class="menu-topic" href="//bgknowhow.com/login.php" title="Log in via your existing BattleNet account"> <i class="bi bi-box-arrow-in-right"></i> &nbsp;Log in</a>';
+                    //                    } else {
+                    //                        echo '<a class="menu-topic" href="//bgknowhow.com/logout.php" title="End your session"> <i class="bi bi-box-arrow-right"></i> &nbsp;Log out</a>';
+                    //                    }
                     ?>
                 </li>
                 <li>
