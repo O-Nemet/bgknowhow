@@ -62,7 +62,7 @@ include_once('../header.php');
         </tr>
         <tr>
             <td>7</td>
-            <td>?</td>
+            <td>10</td>
             <td>6</td>
             <td>5</td>
         </tr>
@@ -76,17 +76,17 @@ foreach ($tempMinions->data as $key => $object) {
         $type  = ((is_null($object->type) || $object->type == 'All') && $object->pool === 'All' && $object->name !== 'Ball of Minions') ? 'None' : $object->type;
         $type2 = !isset($object->types[1]) ? null : $object->types[1];
         @$minion_count[$type][$object->tier] = @$minion_count[$type][$object->tier] + 1;
-        @$minion_count[$type][7] = @$minion_count[$type][7] + 1;
+        @$minion_count[$type][8] = @$minion_count[$type][8] + 1;
         @$minion_pool[$object->pool][$object->tier] = @$minion_pool[$object->pool][$object->tier] + 1;
-        @$minion_pool[$object->pool][7] = @$minion_pool[$object->pool][7] + 1;
+        @$minion_pool[$object->pool][8] = @$minion_pool[$object->pool][8] + 1;
         if ($type2) {
             @$minion_count[$type2][$object->tier] = @$minion_count[$type2][$object->tier] + 1;
-            @$minion_count[$type2][7] = @$minion_count[$type2][7] + 1;
+            @$minion_count[$type2][8] = @$minion_count[$type2][8] + 1;
             @$minion_pool[$object->pools[1]][$object->tier] = @$minion_pool[$object->pools[1]][$object->tier] + 1;
-            @$minion_pool[$object->pools[1]][7] = @$minion_pool[$object->pools[1]][7] + 1;
+            @$minion_pool[$object->pools[1]][8] = @$minion_pool[$object->pools[1]][8] + 1;
         }
         @$minion_count['Total'][$object->tier] = @$minion_count['Total'][$object->tier] + 1;
-        @$minion_count['Total'][7] = @$minion_count['Total'][7] + 1;
+        @$minion_count['Total'][8] = @$minion_count['Total'][8] + 1;
     }
 }
 ?>
@@ -123,9 +123,9 @@ foreach ($tempMinions->data as $key => $object) {
         </thead>
         <tbody>
         <?php
-        for ($i = 1; $i <= 7; $i++) {
+        for ($i = 1; $i <= 8; $i++) {
             echo "<tr>";
-            echo "    <td>" . ($i == 7 ? '<a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a>' : '<a href="//bgknowhow.com/bgstrategy/?show=minions&tier=' . $i . '">' . $i . '</a>') . "</td>";
+            echo "    <td>" . ($i == 8 ? '<a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a>' : '<a href="//bgknowhow.com/bgstrategy/?show=minions&tier=' . $i . '">' . $i . '</a>') . "</td>";
             echo "    <td>" . $minion_count['Beast'][$i] . " (" . ($minion_pool['Beast'][$i] - $minion_count['Beast'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Demon'][$i] . " (" . ($minion_pool['Demon'][$i] - $minion_count['Demon'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Dragon'][$i] . " (" . ($minion_pool['Dragon'][$i] - @$minion_count['Dragon'][$i]) . ")</td>";
@@ -136,7 +136,7 @@ foreach ($tempMinions->data as $key => $object) {
             echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Quilboar'][$i] . " (" . ($minion_pool['Quilboar'][$i] - $minion_count['Quilboar'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Undead'][$i] . " (" . ($minion_pool['Undead'][$i] - $minion_count['Undead'][$i]) . ")</td>";
-            echo "    <td>" . ($i == 3 ? 0 : $minion_count['None'][$i]) . "</td>";
+            echo "    <td>" . (($i == 1) ? 0 : $minion_count['None'][$i]) . "</td>";
             echo "    <td>" . $minion_count['Total'][$i] . "</td>";
             echo "</tr>";
         }
@@ -146,7 +146,7 @@ foreach ($tempMinions->data as $key => $object) {
 
     <h3 id="3on3">Tier 2 minions influencing your decision to go 3on3 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        While some heroes like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
+        While some heroes like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo value of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
     </p>
     <br>
     <p>
@@ -165,7 +165,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Ripsnarl', 'Angler', 'Rewinder', 'Security', 'Frostling'];
+        $board   = ['Rat', 'Ripsnarl', 'Angler', 'Seaborn', 'Bookie', 'Frostling', 'Yrel'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -176,7 +176,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Snapjaw', 'Tusk', 'Prophet', 'Thorncaller', 'Lurker', 'Riffer', 'Snail', 'Golem', 'Copter', 'Lulla', 'Trickster', 'Muck', 'Emissary', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Flutist', 'Tad', 'Rock', 'Scout'];
+        $board   = ['Snapjaw', 'Tusk', 'Lurker', 'Riffer', 'Copter', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Honcho', 'Murcules', 'Duelist'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -187,7 +187,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Spawn', 'Smuggler', 'Party', 'Skull', 'Honcho'];
+        $board   = ['Skull', 'Emissary', 'Tad', 'Smuggler', 'Oozeling', 'Scout'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -198,7 +198,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Bird', 'Selfless', 'Mug', 'Partner'];
+        $board   = ['Bird', 'Invento', 'Selfless', 'Mug'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -221,22 +221,22 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Promo-Drake', 'Kaly'];
+        $board   = ['Stormbringer', 'Razorgore', 'Kaly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Nomi', 'Magmaloc', 'Trumpeter', 'Rock Rock'];
+        $board   = ['Nomi', 'CC', 'Trumpeter', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Deflecto', 'Scraper', 'Beatboxer'];
+        $board   = ['Deflecto', 'Scraper', 'Tank', 'Beatboxer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Bassgill', 'Counter', 'Belcher', 'Murk-Eye'];
+        $board   = ['Bassgill', 'Counter', 'Belcher', 'Choral'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -246,22 +246,22 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Vanessa', '*Record Smuggler', 'Tethys'];
+        $board   = ['*Peggy Sturdybone', 'Vanessa', 'Dealer', 'Tethys'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Aggem', 'Charly', 'Bristlebach'];
+        $board   = ['Aggem', 'Charly', 'Flat Tusk', 'Bristlebach'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Anub', 'Summoner', 'Deathwhisper'];
+        $board   = ['Anub', '*Champion of the Primus', 'Summoner', 'Deathwhisper', 'Nightmare'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
+        $board   = ['Mythrax', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
