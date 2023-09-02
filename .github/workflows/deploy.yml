@@ -31,7 +31,18 @@ jobs:
           sed -i "s/__API_ID__/$API_ID/g" config/api_blizzard.php
           sed -i "s/__API_SECRET__/$API_SECRET/g" config/api_blizzard.php
 
-      - name: 📂 Deploy website to FTP
+      - name: 📂 Deploy website to FTP (SAT)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          port: 21
+          username: ${{ secrets.FTP_USER_SAT }}
+          password: ${{ secrets.FTP_PW_SAT }}
+          local-dir: ./  # Path to your project files
+          server-dir: /  # Remote directory on your FTP server
+          log-level: minimal
+
+      - name: 📂 Deploy website to FTP (PRD)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
