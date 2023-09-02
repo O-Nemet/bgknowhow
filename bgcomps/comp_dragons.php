@@ -24,7 +24,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        <!--        The Murk-Eye is a bonus if Murlocs are available and can be replaced by <a class="hoverimage" href="bgstrategy/minion/?id=319">Rylak Metalhead</a> or used as a flex spot to play <a class="hoverimage" href="bgstrategy/minion/?id=339">Disco Shuffler</a>.-->
+        <!--        The Murk-Eye is a bonus if Murlocs are available and can be replaced by <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak Metalhead</a> or used as a flex spot to play <a class="hoverimage" href="/bgstrategy/minion/?id=339">Disco Shuffler</a>.-->
     </p>
     <br>
 </div>

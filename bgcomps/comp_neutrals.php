@@ -33,7 +33,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        The Reaper can also be a <a class="hoverimage" href="bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
+        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
     </p>
     <h3 id="boogie">Boogie Monster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -42,7 +42,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        The Reaper can also be a <a class="hoverimage" href="bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
+        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
     </p>
     <h3 id="braggart">Braggart KekWait Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -51,7 +51,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Only possible with the anomalies <a href="bgstrategy/anomaly/?id=13">A Faire Reward</a> and <a href="bgstrategy/anomaly/?id=8">Secrets of Norgannon</a>. ;-)
+        Only possible with the anomalies <a href="/bgstrategy/anomaly/?id=13">A Faire Reward</a> and <a href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a>. ;-)
     </p>
     <!--    <h3 id="lightfang">Lightfang Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
@@ -60,7 +60,7 @@ include_once('../header.php');
     //    drawBoard($minions);
     //    ?>
     <!--    <p>-->
-    <!--        The Reaper can also be a <a class="hoverimage" href="bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.-->
+    <!--        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.-->
     <!--    </p>-->
     <br>
 </div>

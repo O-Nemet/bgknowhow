@@ -33,7 +33,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        This is the very endgame, after some scaling with <a class="hoverimage" href="bgstrategy/minion/?id=283">Anub</a> or <a class="hoverimage" href="bgstrategy/minion/?id=390">Champion of the Primus</a>.
+        This is the very endgame, after some scaling with <a class="hoverimage" href="/bgstrategy/minion/?id=283">Anub</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of the Primus</a>.
     </p>
     <h3 id="knight">Eternal Knight Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
