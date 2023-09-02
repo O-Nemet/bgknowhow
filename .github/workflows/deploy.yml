@@ -3,11 +3,50 @@ name: 🚀 Deploy to FTP
 on:
   push:
     branches:
-      - main  # Change this to your main branch
+      - main  # trigger on push to main
+    tags:
+      - '*'   # trigger on tag
 
 jobs:
-  web-deploy:
-    name: Deploy
+  web-deploy-prd:
+    name: Deploy (PRD)
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/0.') # only execute this when tag 0.* is
+
+    steps:
+      - name: 🚚 Checkout code
+        uses: actions/checkout@v3.2.0
+
+      - name: 🔒 Set up PHP environment variables
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          API_ID: ${{ secrets.API_ID }}
+          API_SECRET: ${{ secrets.API_SECRET }}
+        run: |
+          # Replace placeholders in config files with secret values
+          sed -i "s/__DB_HOST__/$DB_HOST/g" config/db.php
+          sed -i "s/__DB_USERNAME__/$DB_USERNAME/g" config/db.php
+          sed -i "s/__DB_PASSWORD__/$DB_PASSWORD/g" config/db.php
+          sed -i "s/__DB_NAME__/$DB_NAME/g" config/db.php          
+          sed -i "s/__API_ID__/$API_ID/g" config/api_blizzard.php
+          sed -i "s/__API_SECRET__/$API_SECRET/g" config/api_blizzard.php
+
+      - name: 📂 Deploy website to FTP (PRD)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          port: 21
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PW }}
+          local-dir: ./  # Path to your project files
+          server-dir: /  # Remote directory on your FTP server
+          log-level: minimal
+
+  web-deploy-sat:
+    name: Deploy (PRD)
     runs-on: ubuntu-latest
 
     steps:
@@ -38,17 +77,6 @@ jobs:
           port: 21
           username: ${{ secrets.FTP_USER_SAT }}
           password: ${{ secrets.FTP_PW_SAT }}
-          local-dir: ./  # Path to your project files
-          server-dir: /  # Remote directory on your FTP server
-          log-level: minimal
-
-      - name: 📂 Deploy website to FTP (PRD)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          port: 21
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PW }}
           local-dir: ./  # Path to your project files
           server-dir: /  # Remote directory on your FTP server
           log-level: minimal
