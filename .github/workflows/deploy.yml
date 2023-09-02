@@ -23,3 +23,4 @@ jobs:
           password: ${{ secrets.FTP_PW }}
           local-dir: ./  # Path to your project files
           server-dir: /  # Remote directory on your FTP server
+          log-level: minimal
