@@ -16,8 +16,8 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          port: 22
+          server: ftp.strato.de
+          port: 21
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PW }}
           local-dir: ./  # Path to your project files
