@@ -33,7 +33,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        The Wranglers enable the possibility to scale non-Naga minions. Therefore, this comp improves by the availability of Pirates or Mechs, because they both offer a cleave minion (Blade Collector and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=133">Reaper</a>).
+        The Wranglers enable the possibility to scale non-Naga minions. Therefore, this comp improves by the availability of Pirates or Mechs, because they both offer a cleave minion (Blade Collector and <a class="hoverimage" href="bgstrategy/minion/?id=133">Reaper</a>).
     </p>
     <br>
 </div>

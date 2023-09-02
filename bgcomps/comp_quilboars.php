@@ -8,9 +8,9 @@ include_once('../header.php');
 </p>
 <br>
 <p>
-    Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs which are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=328">Pricky Piper</a> and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
+    Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs which are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="bgstrategy/minion/?id=328">Pricky Piper</a> and <a class="hoverimage" href="bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
     <br><br>
-    Due to the gems they have synergie with Mechs and Naga. Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.
+    Due to the gems they have synergie with Mechs and Naga. Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.
 </p>
 <div class="comp_wrapper">
     <h3 id="aggem">Aggem Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -56,7 +56,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Beasts. <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=130">Charlga</a> can usually replace any of the non gem-buffing minions.
+        Needs the availability of Beasts. <a class="hoverimage" href="bgstrategy/minion/?id=130">Charlga</a> can usually replace any of the non gem-buffing minions.
     </p>
     <br>
 </div>

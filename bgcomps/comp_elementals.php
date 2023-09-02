@@ -8,7 +8,7 @@ include_once('../header.php');
 </p>
 <br>
 <p>
-    All Elemental builds can be improved by temporarily utilizing <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=356">Elemental of Surprise</a> to triple and apply Divine Shield to as many minions as possible while building up your endgame composition.
+    All Elemental builds can be improved by temporarily utilizing <a class="hoverimage" href="bgstrategy/minion/?id=356">Elemental of Surprise</a> to triple and apply Divine Shield to as many minions as possible while building up your endgame composition.
 </p>
 <div class="comp_wrapper">
     <h3 id="nomi">Nomi/Trumpeter Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -28,7 +28,7 @@ include_once('../header.php');
     //    drawBoard($minions);
     //    ?>
     <!--    <p>-->
-    <!--        Buffs the board. Better with Murlocs available, mostly due to <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=93">Primalfin Lookout</a>. Upstart should be tripled, or it is usually not worth it.-->
+    <!--        Buffs the board. Better with Murlocs available, mostly due to <a class="hoverimage" href="bgstrategy/minion/?id=93">Primalfin Lookout</a>. Upstart should be tripled, or it is usually not worth it.-->
     <!--    </p>-->
     <h3 id="rockrock">Brann + Carbonic Copy Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
