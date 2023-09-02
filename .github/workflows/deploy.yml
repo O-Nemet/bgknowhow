@@ -1,4 +1,4 @@
-name: Deploy to FTP
+name: 🚀 Deploy to FTP
 
 on:
   push:
@@ -6,17 +6,18 @@ on:
       - main  # Change this to your main branch
 
 jobs:
-  deploy:
+  web-deploy:
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: 🚚 Checkout code
         uses: actions/checkout@v3.2.0
 
-      - name: FTP Deploy
+      - name: 📂 Deploy website to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.strato.de
+          server: ${{ secrets.FTP_SERVER }}
           port: 21
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PW }}
