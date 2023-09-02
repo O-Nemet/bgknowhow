@@ -46,7 +46,7 @@ jobs:
           log-level: minimal
 
   web-deploy-sat:
-    name: Deploy (PRD)
+    name: Deploy (SAT)
     runs-on: ubuntu-latest
 
     steps:

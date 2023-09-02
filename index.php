@@ -1,7 +1,7 @@
 <?php
 include_once('header.php');
 ?>
-    <h2 class="page_title">Choose your path</h2>
+    <h2 class="page_title">Make your choice</h2>
 
     <div class="pathes2">
         <a href="bgstrategy/?show=heroes">
