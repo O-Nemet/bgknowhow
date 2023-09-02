@@ -24,6 +24,7 @@ include_once('../header.php');
     </p>
     <h3 id="tavern">Tavern phase <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        The maximum amount of gold available for a turn is capped to 100.
     </p>
     <h3 id="pool">Minion pool <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -115,9 +116,9 @@ include_once('../header.php');
     </p>
     <h3 id="poisonous">Poisonous <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        A minion with Poisonous will kill any minion (without a Divine Shield) it hits regardless that minions health, once. Unlike Venomous, Poisonous will not be removed from the minion. This is a very strong ability, because in theory a poisonous minion with only 1 attack but enough health could kill an entire opponent's board.
+        A minion with Poisonous will kill any minion (without a Divine Shield) it hits regardless that minions health. Unlike Venomous, Poisonous will not be removed from the minion. This is a very strong ability, because in theory a poisonous minion with only 1 attack but enough health could kill an entire opponent's board.
         <br><br>
-        Therefore, only very few active minions have this ability, namely <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=406">Tide Oracle Morgl</a> and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=182">Emperor Cobra</a> (spawned from a secret).
+        Therefore, only very few active minions have this ability, namely <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=128">Amalgadon</a>, <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=406">Tide Oracle Morgl</a> and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/minion/?id=182">Emperor Cobra</a> (spawned from a secret).
     </p>
     <h3 id="avenge">Avenge <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
