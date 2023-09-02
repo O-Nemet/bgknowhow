@@ -14,18 +14,22 @@ jobs:
       - name: 🚚 Checkout code
         uses: actions/checkout@v3.2.0
 
-      - name: Set up PHP environment variables
+      - name: 🔒 Set up PHP environment variables
         env:
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_USERNAME: ${{ secrets.DB_USERNAME }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_NAME: ${{ secrets.DB_NAME }}
+          API_ID: ${{ secrets.API_ID }}
+          API_SECRET: ${{ secrets.API_SECRET }}
         run: |
-          # Replace placeholders in config.php with secret values
-          sed -i "s/__DB_HOST__/$DB_HOST/g" config/db2.php
-          sed -i "s/__DB_USERNAME__/$DB_USERNAME/g" config/db2.php
-          sed -i "s/__DB_PASSWORD__/$DB_PASSWORD/g" config/db2.php
-          sed -i "s/__DB_NAME__/$DB_NAME/g" config/db2.php
+          # Replace placeholders in config files with secret values
+          sed -i "s/__DB_HOST__/$DB_HOST/g" config/db.php
+          sed -i "s/__DB_USERNAME__/$DB_USERNAME/g" config/db.php
+          sed -i "s/__DB_PASSWORD__/$DB_PASSWORD/g" config/db.php
+          sed -i "s/__DB_NAME__/$DB_NAME/g" config/db.php          
+          sed -i "s/__API_ID__/$API_ID/g" config/api_blizzard.php
+          sed -i "s/__API_SECRET__/$API_SECRET/g" config/api_blizzard.php
 
       - name: 📂 Deploy website to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
