@@ -107,25 +107,25 @@ foreach ($tempMinions->data as $key => $object) {
         </tr>
         <tr>
             <th>Tier</th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=beast">Beasts</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=demon">Demons</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=dragon">Dragons</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=elemental">Elementals</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=mech">Mechs</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=murloc">Murlocs</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=naga">Naga</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=pirate">Pirates</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=quilboar">Quilboars</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=undead">Undeads</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions&type=none">None</a></th>
-            <th><a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=beast">Beasts</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=demon">Demons</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=dragon">Dragons</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=elemental">Elementals</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=mech">Mechs</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=murloc">Murlocs</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=naga">Naga</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=pirate">Pirates</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=quilboar">Quilboars</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=undead">Undeads</a></th>
+            <th><a href=/bgstrategy/?show=minions&type=none">None</a></th>
+            <th><a href=/bgstrategy/?show=minions">Total</a></th>
         </tr>
         </thead>
         <tbody>
         <?php
         for ($i = 1; $i <= 8; $i++) {
             echo "<tr>";
-            echo "    <td>" . ($i == 8 ? '<a href="//bgknowhow.com/bgstrategy/?show=minions">Total</a>' : '<a href="//bgknowhow.com/bgstrategy/?show=minions&tier=' . $i . '">' . $i . '</a>') . "</td>";
+            echo "    <td>" . ($i == 8 ? '<a href=/bgstrategy/?show=minions">Total</a>' : '<a href=/bgstrategy/?show=minions&tier=' . $i . '">' . $i . '</a>') . "</td>";
             echo "    <td>" . $minion_count['Beast'][$i] . " (" . ($minion_pool['Beast'][$i] - $minion_count['Beast'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Demon'][$i] . " (" . ($minion_pool['Demon'][$i] - $minion_count['Demon'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Dragon'][$i] . " (" . ($minion_pool['Dragon'][$i] - @$minion_count['Dragon'][$i]) . ")</td>";

@@ -42,15 +42,15 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="5"><a href="//bgknowhow.com/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active BG Entities</a></td>
+            <td colspan="5"><a href=/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active BG Entities</a></td>
         </tr>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
-            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>-->
+            <td><a href=/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
+            <td><a href=/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
+            <!--            <td><a href=/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
+            <td><a href=/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
+            <td><a href=/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
+            <!--            <td><a href=/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>-->
         </tr>
         </tbody>
     </table>
@@ -66,15 +66,15 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="6"><a href="//bgknowhow.com/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All BG Entities</a></td>
+            <td colspan="6"><a href=/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All BG Entities</a></td>
         </tr>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
+            <td><a href=/bgjson/output/bg_heroes_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
+            <td><a href=/bgjson/output/bg_minions_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
+            <td><a href=/bgjson/output/bg_buddies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
+            <td><a href=/bgjson/output/bg_quests_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
+            <td><a href=/bgjson/output/bg_rewards_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
+            <td><a href=/bgjson/output/bg_anomalies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
         </tr>
         </tbody>
     </table>
@@ -90,12 +90,12 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
-            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
-            <!--            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>-->
+            <td><a href=/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
+            <td><a href=/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
+            <!--            <td><a href=/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
+            <td><a href=/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>
+            <td><a href=/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>
+            <!--            <td><a href=/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>-->
         </tr>
         </tbody>
     </table>
@@ -111,12 +111,12 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_heroes_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_minions_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_buddies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_quests_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_rewards_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
-            <td><a href="//bgknowhow.com/bgjson/output/bg_anomalies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
+            <td><a href=/bgjson/output/bg_heroes_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
+            <td><a href=/bgjson/output/bg_minions_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
+            <td><a href=/bgjson/output/bg_buddies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
+            <td><a href=/bgjson/output/bg_quests_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
+            <td><a href=/bgjson/output/bg_rewards_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
+            <td><a href=/bgjson/output/bg_anomalies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
         </tr>
         </tbody>
     </table>

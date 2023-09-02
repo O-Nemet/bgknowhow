@@ -6,7 +6,7 @@ $_SESSION['LAST_URL'] = $_SERVER['HTTP_REFERER'];
     <html>
     <body style="background-color: black">
     <div style="color: white; width: 100%; margin-top: 50px; display: flex; align-items: center; justify-content: center">
-        <img src="//bgknowhow.com/images/icons/logo_battlegrounds_small.webp" width="108" height="108">
+        <img src=/images/icons/logo_battlegrounds_small.webp" width="108" height="108">
         <br class="mobile_only">
         <span id="logintext" style="font-size: 40px;">Processing login... please wait...</span>
     </div>
