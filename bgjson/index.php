@@ -127,6 +127,9 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>30.08.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23987539/27-2-2-patch-notes" target="_blank">27.2.2</a> patch notes.</li>
+        <li>25.08.2023 - Added BG and armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2721-patch-notes/112348" target="_blank">27.2.1</a> patch notes.</li>
+        <li>22.08.2023 - Added all BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23987537/27-2-patch-notes" target="_blank">27.2.0</a> patch notes.</li>
         <li>18.08.2023 - Added the first 20 anomalies and all new minions from the <a href="https://hearthstone.blizzard.com/en-us/news/23987537/27-2-patch-notes" target="_blank">27.2.0</a> patch notes (isActive = false, until patchday).</li>
         <li>04.08.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2702-patch-notes/111231" target="_blank">27.0.2</a> patch notes.</li>
         <li>29.07.2023 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2701-patch-notes/110763" target="_blank">27.0.1</a> patch notes.</li>
@@ -145,17 +148,17 @@ include_once('../header.php');
         <li>27.04.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23935323/26-0-4-patch-notes" target="_blank">26.0.4</a> patch notes.</li>
         <li>20.04.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2603-patch-notes/106272" target="_blank">26.0.3</a> patch notes.</li>
         <li>14.04.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23935319/26-0-2-patch-notes" target="_blank">26.0.2</a> patch notes.</li>
-        <li>09.04.2023 - Added buddy/hero relation as "buddy" field to the heroes JSON/CSV and "hero" field to the buddies JSON/CSV.</li>
+        <li>09.04.2023 - Added buddy/hero relation as "buddy" property to the heroes JSON/CSV and "hero" property to the buddies JSON/CSV.</li>
         <li>04.04.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23934449/26-0-patch-notes" target="_blank">26.0.0</a> patch notes.</li>
         <li>29.03.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2563-patch-notes/104774" target="_blank">25.6.3</a> patch notes.</li>
         <li>23.03.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23921500/25-6-2-patch-notes" target="_blank">25.6.2</a> patch notes.</li>
         <li>18.03.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2561-patch-notes/104261" target="_blank">25.6.1</a> patch notes.</li>
-        <li>17.03.2023 - Added "armor" and "armorHighMMR" fields to, and removed "armorTier" field from the hero dataset.</li>
+        <li>17.03.2023 - Added "armor" and "armorHighMMR" properties to, and removed "armorTier" property from the hero dataset.</li>
         <li>15.03.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23921496/25-6-patch-notes" target="_blank">25.6.0</a> patch notes.</li>
         <li>02.03.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23921492/25-4-3-patch-notes" target="_blank">25.4.3</a> patch notes.</li>
         <li>17.02.2023 - Added armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2541-patch-notes/102926" target="_blank">25.4.1</a> patch notes.</li>
         <li>13.02.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23913671/25-4-patch-notes" target="_blank">25.4.0</a> patch notes.</li>
-        <li>03.02.2023 - Added "types" and "pools" fields to the JSON format in order to support dual type minions.</li>
+        <li>03.02.2023 - Added "types" and "pools" properties to the JSON format in order to support dual type minions.</li>
         <li>26.01.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/23892228/25-2-2-patch-notes" target="_blank">25.2.2</a> patch notes.</li>
         <li>22.01.2023 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2521-patch-notes/101487" target="_blank">25.2.1</a> patch notes.</li>
         <li>18.01.2023 - Temporarily deactivated Scabbs, Tess, Tamsin, Illidan and the minion Murozond (will be bugfixed by Blizzard).</li>
