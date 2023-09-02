@@ -9,9 +9,9 @@ include_once('../header.php');
         <br><br>
         When upgrading to tier 2, tier 4 and tier 6 the number of minions offered per roll in the tavern will increase by 1.
         <br><br>
-        The higher the tier, the fewer copies of each minion will be available in the minion pool shared by all players. For example each tier 6 minion is only available 7 times. So if you fight someone who has a golden tier 6 minion, there will only be a maximum of 4 copies left for pickup in the tavern. This includes most ways of discoveries, but not the hero powers of <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/heroes/?id=66">Tess</a> and <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/heroes/?id=57">Scabbs</a> who will generate additional minions. Minions sold during the game will be readded to the shared pool (golden minions will be reverted to three normal ones).
+        The higher the tier, the fewer copies of each minion will be available in the minion pool shared by all players. For example each tier 6 minion is only available 7 times. So if you fight someone who has a golden tier 6 minion, there will only be a maximum of 4 copies left for pickup in the tavern. This includes most ways of discoveries, but not the hero powers of <a class="hoverimage" href="/bgstrategy/heroes/?id=66">Tess</a> and <a class="hoverimage" href="/bgstrategy/heroes/?id=57">Scabbs</a> who will generate additional minions. Minions sold during the game will be readded to the shared pool (golden minions will be reverted to three normal ones).
         <br><br>
-        Since August 2023 (patch 27.2.0) Tavern Tier 7 has been added to the game, but will only be accessible in games affected by the anomaly <a href="https://bgknowhow.com/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a>. One minion per minion type as well as three neutral minions were newly created and the all types unit <a class="hoverimage" href="https://bgknowhow.com/bgstrategy/heroes/?id=128">Amalgadon</a> returned upgraded from Tier 6.
+        Since August 2023 (patch 27.2.0) Tavern Tier 7 has been added to the game, but will only be accessible in games affected by the anomaly <a href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a>. One minion per minion type as well as three neutral minions were newly created and the all types unit <a class="hoverimage" href="/bgstrategy/heroes/?id=128">Amalgadon</a> returned upgraded from Tier 6.
     </p>
     <br>
     <table class="tier-table">
@@ -92,9 +92,9 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="miniontypes">Minion types and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Nagas have only two tier 4 minions. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Nagas have only two tier 4 minions. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
         <!--        <br><br>-->
-        <!--        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.-->
+        <!--        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.-->
         <br><br>
         The table below is automatically generated and therefore always up to date and accurate. Click on the different types or tiers to display all minions for that selection.
     </p>
@@ -146,7 +146,7 @@ foreach ($tempMinions->data as $key => $object) {
 
     <h3 id="3on3">Tier 2 minions influencing your decision to go 3on3 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        While some heroes like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo value of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
+        While some heroes like <a class="hoverimage" href='/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo value of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
     </p>
     <br>
     <p>
@@ -280,9 +280,9 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="coiler">Ghastcoiler odds <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <div style="margin-top: -30px;">
-        <a href="https://bgknowhow.com/bgstrategy/minion/?id=135"><img width="200" src="https://bgknowhow.com/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;" alt="The minion Ghastcoiler"></a>
+        <a href="/bgstrategy/minion/?id=135"><img width="200" src="/images/minions/BGS_008_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;" alt="The minion Ghastcoiler"></a>
         <p style="width: 920px; padding-top: 40px; text-align: justify;">
-            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a>, an <a class="hoverimage" href='https://bgknowhow.com/bgstrategy/minion/?id=343'>Operatic Belcher</a> or any of the other possible Deathrattle minions.
+            This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='/bgstrategy/minion/?id=208'>Leeroy</a>, an <a class="hoverimage" href='/bgstrategy/minion/?id=343'>Operatic Belcher</a> or any of the other possible Deathrattle minions.
             <br><br>
             There are currently <?= $i + 1 ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
             <br><br>
@@ -298,7 +298,7 @@ foreach ($tempMinions->data as $key => $object) {
 
     <h3 id="queen">Mantid Queen odds <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <div style="margin-top: -30px;">
-        <a href="https://bgknowhow.com/bgstrategy/minion/?id=211"><img width="200" src="https://bgknowhow.com/images/minions/BG22_402_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;" alt="The minion Mantid Queen"></a>
+        <a href="/bgstrategy/minion/?id=211"><img width="200" src="/images/minions/BG22_402_render_80.webp" style="float: left; margin-left: 40px; margin-right: 30px;" alt="The minion Mantid Queen"></a>
         <p style="width: 920px; padding-top: 20px; text-align: justify;">
             This endgame minion will always have Venomous, but what will take it from a good investment to a great one is the combination with Reborn, enabling it to take out two of your opponents biggest minions while only needing one slot on your board. If you are playing this on a board with only minions from one type or neutral ones, the odds of getting the elusive ability are a measly 25% (as there are 4 random buffs to choose from).
             <br><br>

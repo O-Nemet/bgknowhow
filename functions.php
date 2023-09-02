@@ -14,14 +14,14 @@ $lastURL = '';
 
 const IMG_PATH = '//bgknowhow.com/images/';
 
-const PICTURE_LOCAL                  = 'https://bgknowhow.com/images/';
-const PICTURE_LOCAL_HERO             = 'https://bgknowhow.com/images/heroes/';
-const PICTURE_LOCAL_BUDDY            = 'https://bgknowhow.com/images/buddies/';
-const PICTURE_LOCAL_ANOMALY          = 'https://bgknowhow.com/images/anomalies/';
-const PICTURE_LOCAL_QUEST            = 'https://bgknowhow.com/images/quests/';
-const PICTURE_LOCAL_REWARD           = 'https://bgknowhow.com/images/rewards/';
-const PICTURE_LOCAL_MINION           = 'https://bgknowhow.com/images/minions/';
-const PICTURE_LOCAL_HP               = 'https://bgknowhow.com/images/heropowers/';
+const PICTURE_LOCAL                  = '/images/';
+const PICTURE_LOCAL_HERO             = '/images/heroes/';
+const PICTURE_LOCAL_BUDDY            = '/images/buddies/';
+const PICTURE_LOCAL_ANOMALY          = '/images/anomalies/';
+const PICTURE_LOCAL_QUEST            = '/images/quests/';
+const PICTURE_LOCAL_REWARD           = '/images/rewards/';
+const PICTURE_LOCAL_MINION           = '/images/minions/';
+const PICTURE_LOCAL_HP               = '/images/heropowers/';
 const PICTURE_LOCAL_PORTRAIT_SUFFIX  = '_portrait.png';
 const PICTURE_LOCAL_RENDER_SUFFIX    = '_render.png';
 const PICTURE_LOCAL_RENDER_SUFFIX_80 = '_render_80.webp';
@@ -37,12 +37,12 @@ const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // 
 const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
-$tempHeroes    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
-$tempMinions   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
-$tempAnomalies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_anomalies_all.json'));
-$tempBuddies   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
-$tempQuests    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_quests_all.json'));
-$tempRewards   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_rewards_all.json'));
+$tempHeroes    = json_decode(file_get_contents('/bgjson/output/bg_heroes_all.json'));
+$tempMinions   = json_decode(file_get_contents('/bgjson/output/bg_minions_all.json'));
+$tempAnomalies = json_decode(file_get_contents('/bgjson/output/bg_anomalies_all.json'));
+$tempBuddies   = json_decode(file_get_contents('/bgjson/output/bg_buddies_all.json'));
+$tempQuests    = json_decode(file_get_contents('/bgjson/output/bg_quests_all.json'));
+$tempRewards   = json_decode(file_get_contents('/bgjson/output/bg_rewards_all.json'));
 
 // reference table for image tooltips on hover (provided to JS)
 $hoverImages = '';
@@ -404,7 +404,7 @@ function drawBoard($minions)
 function getCompositionText(): string
 {
     return "These different compositions are meant to display proven setups to strive for, for the very end game (top 4 and above). In general one of the seven slots will be the 'flex' spot, used to cycle new minions during the tavern rounds. Therefore, your actual board will rarely be as perfect as these listed here. Of course as many minions as possible should be tripled and buffed with Reborn, Venomous, Divine Shield or Taunt.<br><br>
-        Also primary support units like <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=109'>Brann</a> and <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=208'>Leeroy</a> or a <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight. Tier 7 minions are usually ignored for these comps, as <a href='https://bgknowhow.com/bgstrategy/anomaly/?id=8'>Secrets of Norgannon</a> only has a ~20% chance to be active.";
+        Also primary support units like <a class='hoverimage' href='/bgstrategy/minion/?id=109'>Brann</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=121'>Nomi</a> will usually be tossed for the very last fights, but are sometimes displayed here when being integral to the setup. If one of your units is lacking, it is also often beneficial to replace it with a <a class='hoverimage' href='/bgstrategy/minion/?id=208'>Leeroy</a> or a <a class='hoverimage' href='/bgstrategy/minion/?id=211'>Mantid Queen</a>, before a deciding fight. Tier 7 minions are usually ignored for these comps, as <a href='/bgstrategy/anomaly/?id=8'>Secrets of Norgannon</a> only has a ~20% chance to be active.";
 }
 
 function convertStrategyText(string $text): string

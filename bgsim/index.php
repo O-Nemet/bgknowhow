@@ -49,7 +49,7 @@ foreach ($tempMinions->data as $key => $object) {
     This is a dynamically generated matrix featuring the match-ups of all tier 1 minions on turn 1.<br>
     The number in the square shows how much damage you will deal/receive from the board (in addition to the turn 1 damage).<br>
     The number of potential matchup losses and the average damage dealt are displayed on the right.<br>
-    For this scenario the <a class='hoverimage' href='https://bgknowhow.com/bgstrategy/minion/?id=8'>Razorfen Geomancer</a> has been self-gemmed to a 4/2 minion.
+    For this scenario the <a class='hoverimage' href='/bgstrategy/minion/?id=8'>Razorfen Geomancer</a> has been self-gemmed to a 4/2 minion.
     <br><br>
     Click any of these icons below to deactivate the banned minion types of your lobby.
 </p>
