@@ -12,7 +12,7 @@ if (isset($client_id)) {
 
 $lastURL = '';
 
-const IMG_PATH = '//bgknowhow.com/images/';
+const IMG_PATH                       = '/images/';
 
 const PICTURE_LOCAL                  = '/images/';
 const PICTURE_LOCAL_HERO             = '/images/heroes/';
@@ -37,8 +37,8 @@ const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // 
 const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
-$tempHeroes    = json_decode(file_get_contents('/bgjson/output/bg_heroes_all.json'));
-$tempMinions   = json_decode(file_get_contents('/bgjson/output/bg_minions_all.json'));
+$tempHeroes    = json_decode(file_get_contents('bgjson/output/bg_heroes_all.json'));
+$tempMinions   = json_decode(file_get_contents('bgjson/output/bg_minions_all.json'));
 $tempAnomalies = json_decode(file_get_contents('/bgjson/output/bg_anomalies_all.json'));
 $tempBuddies   = json_decode(file_get_contents('/bgjson/output/bg_buddies_all.json'));
 $tempQuests    = json_decode(file_get_contents('/bgjson/output/bg_quests_all.json'));
