@@ -41,7 +41,7 @@
                     <div class="upvotes" title="Upvote">
                         <p class="button">
                             <?php if (isLoggedIn()) { ?>
-                                <a href=/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=1#item<?= $id ?>">&and; (<?= $votesUp ?>)</a>
+                                <a href="/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=1#item<?= $id ?>">&and; (<?= $votesUp ?>)</a>
                             <?php } else { ?>
                                 <a tabindex="0" class="deactivated" title="Please log in via BattleNet to vote">&and; (<?= $votesUp ?>)</a>
                             <?php } ?>
@@ -50,7 +50,7 @@
                     <div class="downvotes" title="Downvote">
                         <p class="button">
                             <?php if (isLoggedIn()) { ?>
-                                <a href=/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=2#item<?= $id ?>">&or; (<?= str_pad($votesDown, strlen($votesUp), '0', STR_PAD_LEFT) ?>)</a>
+                                <a href="/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=2#item<?= $id ?>">&or; (<?= str_pad($votesDown, strlen($votesUp), '0', STR_PAD_LEFT) ?>)</a>
                             <?php } else { ?>
                                 <a tabindex="0" class="deactivated" title="Please log in via BattleNet to vote">&or; (<?= str_pad($votesDown, strlen($votesUp), '0', STR_PAD_LEFT) ?>)</a>
                             <?php } ?>
@@ -64,7 +64,7 @@
                     <div class="flagvotes" title="Flag for bad/duplicate content or outdated information">
                         <p class="button">
                             <?php if (isLoggedIn()) { ?>
-                                <a href=/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=3#item<?= $id ?>">X (<?= $votesTrash ?>)</a>
+                                <a href="/bgstrategy/<?= $unitType ?>/?id=<?= $selectedId ?>&strat=<?= $id ?>&vote=3#item<?= $id ?>">X (<?= $votesTrash ?>)</a>
                             <?php } else { ?>
                                 <a tabindex="0" class="deactivated" title="Please log in via BattleNet to vote">X (<?= $votesTrash ?>)</a>
                             <?php } ?>
