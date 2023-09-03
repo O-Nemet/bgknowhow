@@ -30,8 +30,8 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
         gtag('js', new Date());
         gtag('config', 'G-P1G76VLP1E');
     </script>
-    <script src="./functions.js" type="text/javascript"></script>
-    <script src="./miniontooltip.js" type="text/javascript"></script>
+    <script src="/functions.js" type="text/javascript"></script>
+    <script src="/miniontooltip.js" type="text/javascript"></script>
 </head>
 
 <script>
