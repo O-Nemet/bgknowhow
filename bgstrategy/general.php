@@ -226,7 +226,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Nomi', 'CC', 'Trumpeter', 'Rock Rock'];
+        $board   = ['CC', 'Nomi', 'Trumpeter', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
