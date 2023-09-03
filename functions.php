@@ -37,11 +37,11 @@ const PICTURE_URL_ORIGINAL     = 'https://art.hearthstonejson.com/v1/orig/'; // 
 const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // webp/jpg
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
-$tempHeroes    = json_decode(file_get_contents($_SERVER['HTTP_HOST'] . '/bgjson/output/bg_heroes_all.json'));
-$tempMinions   = json_decode(file_get_contents($_SERVER['HTTP_HOST'] . '/bgjson/output/bg_minions_all.json'));
-$tempAnomalies = json_decode(file_get_contents($_SERVER['HTTP_HOST'] . '/bgjson/output/bg_anomalies_all.json'));
-$tempBuddies   = json_decode(file_get_contents($_SERVER['HTTP_HOST'] . '/bgjson/output/bg_buddies_all.json'));
-$tempQuests    = json_decode(file_get_contents($_SERVER['HTTP_HOST'] . '/bgjson/output/bg_quests_all.json'));
+$tempHeroes    = json_decode(file_get_contents($_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_heroes_all.json'));
+$tempMinions   = json_decode(file_get_contents($_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_minions_all.json'));
+$tempAnomalies = json_decode(file_get_contents($_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_anomalies_all.json'));
+$tempBuddies   = json_decode(file_get_contents($_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_buddies_all.json'));
+$tempQuests    = json_decode(file_get_contents($_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_quests_all.json'));
 $tempRewards   = json_decode(file_get_contents('../bgjson/output/bg_rewards_all.json'));
 
 // reference table for image tooltips on hover (provided to JS)
