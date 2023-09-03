@@ -47,7 +47,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
 
 <header>
     <div id="website_logo">
-        <a href="//"><img src="<?= IMG_PATH ?>icons/logo_battlegrounds_small.webp" width="80" height="80" alt="The HS Battlegrounds logo"></a>
+        <a href="/"><img src="<?= IMG_PATH ?>icons/logo_battlegrounds_small.webp" width="80" height="80" alt="The HS Battlegrounds logo"></a>
     </div>
 
     <input type="checkbox" id="hamburger_input" class="burger_toggle">
@@ -84,7 +84,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
 
     <div class="overlay"></div>
 
-    <h1><a href="//bgknowhow.com">BG Know-How</a></h1>
+    <h1><a href="/">BG Know-How</a></h1>
     <?php
     $name = isset($_SESSION['usertag']) ? strstr($_SESSION['usertag'], '#', true) : 'friends';
     echo "<h3>“Welcome to my tavern, $name. Enjoy your stay!”</h3>";
