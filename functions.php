@@ -14,14 +14,14 @@ $lastURL = '';
 
 const IMG_PATH = '/images/';
 
-const PICTURE_LOCAL                  = 'images/';
-const PICTURE_LOCAL_HERO             = 'images/heroes/';
-const PICTURE_LOCAL_BUDDY            = 'images/buddies/';
-const PICTURE_LOCAL_ANOMALY          = 'images/anomalies/';
-const PICTURE_LOCAL_QUEST            = 'images/quests/';
-const PICTURE_LOCAL_REWARD           = 'images/rewards/';
-const PICTURE_LOCAL_MINION           = 'images/minions/';
-const PICTURE_LOCAL_HP               = 'images/heropowers/';
+const PICTURE_LOCAL                  = IMG_PATH;
+const PICTURE_LOCAL_HERO             = IMG_PATH . '/heroes/';
+const PICTURE_LOCAL_BUDDY            = IMG_PATH . '/buddies/';
+const PICTURE_LOCAL_ANOMALY          = IMG_PATH . '/anomalies/';
+const PICTURE_LOCAL_QUEST            = IMG_PATH . '/quests/';
+const PICTURE_LOCAL_REWARD           = IMG_PATH . '/rewards/';
+const PICTURE_LOCAL_MINION           = IMG_PATH . '/minions/';
+const PICTURE_LOCAL_HP               = IMG_PATH . '/heropowers/';
 const PICTURE_LOCAL_PORTRAIT_SUFFIX  = '_portrait.png';
 const PICTURE_LOCAL_RENDER_SUFFIX    = '_render.png';
 const PICTURE_LOCAL_RENDER_SUFFIX_80 = '_render_80.webp';
@@ -38,7 +38,7 @@ const PICTURE_URL_MEDIUM       = 'https://art.hearthstonejson.com/v1/256x/'; // 
 const PICTURE_URL_BIG          = 'https://art.hearthstonejson.com/v1/512x/'; // webp/jpg
 
 $tempHeroes    = json_decode(file_get_contents('/bgjson/output/bg_heroes_all.json'));
-$tempMinions   = json_decode(file_get_contents('bgjson/output/bg_minions_all.json'));
+$tempMinions   = json_decode(file_get_contents('./bgjson/output/bg_minions_all.json'));
 $tempAnomalies = json_decode(file_get_contents('bgjson/output/bg_anomalies_all.json'));
 $tempBuddies   = json_decode(file_get_contents('bgjson/output/bg_buddies_all.json'));
 $tempQuests    = json_decode(file_get_contents('bgjson/output/bg_quests_all.json'));
