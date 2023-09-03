@@ -22,20 +22,20 @@ $getActiveOnly = 1;
 //    $stmt->bind_result($id, $name, $health, $blizzardId, $blizzardIdHp, $isActive);
 
 // generate minions files
-if ($stmt = $mysqli->prepare("SELECT bgm.id,
-                                     bgm.name,
-                                     bgm.name_short,
-                                     bgm.id_blizzard
-                                FROM bg_minions bgm
-                               WHERE 1=1
-                                 AND bgm.flag_active = ?
---                                 AND bgm.id > 0
-                                 AND bgm.name IN ('Surf n\' Surf', 'Niuzao', 'Soul Rewinder', 'Keyboard Igniter', 'Famished Felbat', 'Time Saver', 'Stormbringer', 'Electric Synthesizer', 'Obsidian Ravager', 'Carbonic Copy', 'Granite Guardian', 'Adaptable Barricade', 'Omega Buster', 'Sanguine Champion', 'Sore Loser', 'Relentless Sentry', 'Champion of the Primus', 'Recurring Nightmare', 'Fairy Tale Caroler')
-                            ORDER BY bgm.tier, bgm.name ASC")) {
-    $stmt->bind_param("i", $getActiveOnly);
-    $stmt->execute();
-    $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $blizzardId);
+//if ($stmt = $mysqli->prepare("SELECT bgm.id,
+//                                     bgm.name,
+//                                     bgm.name_short,
+//                                     bgm.id_blizzard
+//                                FROM bg_minions bgm
+//                               WHERE 1=1
+//                                 AND bgm.flag_active = ?
+//--                                 AND bgm.id > 0
+//                                 AND bgm.name IN ('Surf n\' Surf', 'Niuzao', 'Soul Rewinder', 'Keyboard Igniter', 'Famished Felbat', 'Time Saver', 'Stormbringer', 'Electric Synthesizer', 'Obsidian Ravager', 'Carbonic Copy', 'Granite Guardian', 'Adaptable Barricade', 'Omega Buster', 'Sanguine Champion', 'Sore Loser', 'Relentless Sentry', 'Champion of the Primus', 'Recurring Nightmare', 'Fairy Tale Caroler')
+//                            ORDER BY bgm.tier, bgm.name ASC")) {
+//    $stmt->bind_param("i", $getActiveOnly);
+//    $stmt->execute();
+//    $stmt->store_result();
+//    $stmt->bind_result($id, $name, $nameShort, $blizzardId);
 
 // generate buddies files
 //if ($stmt = $mysqli->prepare("SELECT bgb.id,
@@ -77,17 +77,17 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //        $stmt->bind_result($id, $name, $blizzardId);
 
 // generate anomaly files
-//    if ($stmt = $mysqli->prepare("SELECT bga.id,
-//                                         bga.name,
-//                                         bga.id_blizzard
-//                                FROM bg_anomalies bga
-//                               WHERE 1=1 -- bgq.flag_active = ?
-//                                 AND bgb.name IN ('Denathrius\' Anima Reserves')
-//                            ORDER BY bga.name ASC")) {
-//        #$stmt->bind_param("i", $getActiveOnly);
-//        $stmt->execute();
-//        $stmt->store_result();
-//        $stmt->bind_result($id, $name, $blizzardId);
+if ($stmt = $mysqli->prepare("SELECT bga.id,
+                                         bga.name,
+                                         bga.id_blizzard
+                                FROM bg_anomalies bga
+                               WHERE 1=1 -- bgq.flag_active = ?
+                                 AND bgb.name IN ('Denathrius\' Anima Reserves')
+                            ORDER BY bga.name ASC")) {
+    #$stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $blizzardId);
 
 
     $row_count = $stmt->num_rows;
