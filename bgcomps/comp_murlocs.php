@@ -10,7 +10,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3 id="battlecry">Battlecry Hand Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bassgill', 'Bassgill', 'Skyfin', 'Primalfin', 'Murk-Eye', 'Primalfin', 'Brann'];
+    $board   = ['Bassgill', 'Bassgill', 'Skyfin', 'Murky', 'Murk-Eye', 'Primalfin', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
