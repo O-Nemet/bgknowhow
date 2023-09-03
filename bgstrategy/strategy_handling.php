@@ -2,16 +2,16 @@
 $url  = "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 $page = parse_url($url, PHP_URL_PATH);
 
-if (strpos($page, '/hero/') !== false) {
+if (str_contains($page, '/hero/')) {
     $unitType  = 'hero';
     $unitTypes = 'heroes';
-} else if (strpos($page, '/buddy/') !== false) {
+} else if (str_contains($page, '/buddy/')) {
     $unitType  = 'buddy';
     $unitTypes = 'buddies';
-} else if (strpos($page, '/anomaly/') !== false) {
+} else if (str_contains($page, '/anomaly/')) {
     $unitType  = 'anomaly';
     $unitTypes = 'anomalies';
-} else if (strpos($page, '/minion/') !== false) {
+} else if (str_contains($page, '/minion/')) {
     $unitType  = 'minion';
     $unitTypes = 'minions';
 }

@@ -50,7 +50,7 @@ $tempMinions   = json_decode(file_get_contents($protocol . $_SERVER['HTTP_HOST']
 $tempAnomalies = json_decode(file_get_contents($protocol . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_anomalies_all.json'));
 $tempBuddies   = json_decode(file_get_contents($protocol . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_buddies_all.json'));
 $tempQuests    = json_decode(file_get_contents($protocol . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_quests_all.json'));
-$tempRewards   = json_decode(file_get_contents('../bgjson/output/bg_rewards_all.json'));
+$tempRewards   = json_decode(file_get_contents($protocol . $_SERVER['HTTP_HOST'] . '/bgjson/output/bg_rewards_all.json'));
 
 // reference table for image tooltips on hover (provided to JS)
 $hoverImages = '';
@@ -337,7 +337,12 @@ function setVote($selectedStrat, $selectedVote)
                                             ,?
                                             ,?
                                             )")) {
-                $stmt->bind_param('iiiss', $selectedStrat, $_SESSION['userid'], $selectedVote, $userIp, $userProxyIp);
+                $stmt->bind_param('iiiss',
+                                  $selectedStrat,
+                                  $_SESSION['userid'],
+                                  $selectedVote,
+                                  $userIp,
+                                  $userProxyIp);
                 $stmt->execute();
                 $stmt->close();
             } else {
@@ -362,7 +367,7 @@ function getMinionsForBoard($board): array
     foreach ($board as $minionName) {
         foreach ($tempMinions->data as $key => $object) {
             // handle full name param (for minions where short name is the same)
-            if (strpos($minionName, '*') !== false) {
+            if (str_contains($minionName, '*')) {
                 $minionNameNew = substr($minionName, strpos($minionName, '*') + 1);
                 if ($object->name === $minionNameNew) {
 //                    echo "* ";
