@@ -43,11 +43,11 @@ if ($selectedId) {
             <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="Card text: <?= $text ?>">
         </div>
         <div class="card_flavor">
-            <?= $textGolden ? 'Golden:' : '' ?><br><span class="price_font" style="text-align: left"><?= $textGolden ?? '' ?></span>
+            <?= $textGolden ? 'Golden:' : '' ?><br><span class="price_font" style="font-style: normal"><?= $textGolden ?? '' ?></span>
         </div>
-        <div class="card_flavor">
-            <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font" style="text-align: left; font-style: italic"><?= $flavor ?? '' ?></span>
-        </div>
+        <!--        <div class="card_flavor">-->
+        <!--            --><?php //= $flavor ? 'Flavor:' : '' ?><!--<br><span class="price_font">--><?php //= $flavor ?? '' ?><!--</span>-->
+        <!--        </div>-->
     </div>
 
     <?php

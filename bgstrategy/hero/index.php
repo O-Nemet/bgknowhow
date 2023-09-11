@@ -57,7 +57,7 @@ if ($selectedId) {
             <img src="<?= PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $hpText ?>">
         </div>
         <div class="card_flavor">
-            <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font" style="text-align: left; font-style: italic"><?= $flavor ?? '' ?></span>
+            <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font"><?= $flavor ?? '' ?></span>
         </div>
     </div>
 
