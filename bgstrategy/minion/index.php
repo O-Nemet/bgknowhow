@@ -36,7 +36,8 @@ if ($selectedId) {
             <!--            <br>-->
             Type:<br><span class="price_font"><?= ($type ?? 'None') ?><?= ($type2 ? '<br>' . $type2 : '') ?></span><br><br>
             Pool:<br><span class="price_font"><?= ($pool ?? 'All') ?><?= ($pool2 ? '<br>' . $pool2 : '') ?></span><br><br>
-            <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span><br>
+            <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span><br><br>
+            <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font"><?= $flavor ?? '' ?></span><br>
             <span style="color: white; text-shadow: none"><?= $blizzardId ?></span>
         </div>
         <div class="card_picture">
@@ -45,9 +46,6 @@ if ($selectedId) {
         <div class="card_flavor">
             <?= $textGolden ? 'Golden:' : '' ?><br><span class="price_font" style="font-style: normal"><?= $textGolden ?? '' ?></span>
         </div>
-        <!--        <div class="card_flavor">-->
-        <!--            --><?php //= $flavor ? 'Flavor:' : '' ?><!--<br><span class="price_font">--><?php //= $flavor ?? '' ?><!--</span>-->
-        <!--        </div>-->
     </div>
 
     <?php
