@@ -1623,7 +1623,7 @@ addthis_toolbox {
     color: gold;
     float: none;
     line-height: normal;
-    letter-spacing: 0.2px;
+    /*letter-spacing: 0.2px;*/
 }
 
 .strategy_input {
