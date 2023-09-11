@@ -1442,7 +1442,7 @@ addthis_toolbox {
 }
 
 .info_small {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 .edition {
@@ -1512,7 +1512,7 @@ addthis_toolbox {
 .card_info {
     position: absolute;
     width: 185px;
-    left: 100px;
+    left: 70px;
     padding-top: 35px;
     color: whitesmoke;
     font-size: 20px;
