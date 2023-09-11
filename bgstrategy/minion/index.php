@@ -36,9 +36,9 @@ if ($selectedId) {
             <!--            <br>-->
             Type:<br><span class="price_font"><?= ($type ?? 'None') ?><?= ($type2 ? '<br>' . $type2 : '') ?></span><br><br>
             Pool:<br><span class="price_font"><?= ($pool ?? 'All') ?><?= ($pool2 ? '<br>' . $pool2 : '') ?></span><br><br>
-            <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span><br><br>
-            <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font"><?= $flavor ?? '' ?></span><br>
-            <span style="color: white; text-shadow: none"><?= $blizzardId ?></span>
+            <?= $artist ? 'Artist:' : '' ?><br><span class="price_font info_small"><?= $artist ?? '' ?></span><br><br>
+            <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font info_small"><?= $flavor ?? '' ?></span><br>
+            <span style="color: white; text-shadow: none; font-size: 10px"><?= $blizzardId ?></span>
         </div>
         <div class="card_picture">
             <img src="<?= PICTURE_LOCAL_MINION . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="Card text: <?= $text ?>">

@@ -1441,6 +1441,10 @@ addthis_toolbox {
     color: gold;
 }
 
+.info_small {
+    font-size: 20px;
+}
+
 .edition {
     margin-bottom: 150px;
 }
