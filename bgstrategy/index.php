@@ -248,7 +248,7 @@ if (!empty($buddy)) {
         echo '<h2 class="page_title">Anomalies</h2>';
         echo '<p>One anomaly is randomly choosen from the pool of active anomalies before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with 20 different anomalies any anomaly would have a chance of 5% to be active, but due to this special rule \'Secrets\' has a 5/24 or 20.83% chance and any other anomaly a 1/24 or 4.17% chance to show up. A new anomaly will be added to the pool every week and feature an increased appearance rate until the next release.
         <br><br>Depending on the anomaly, some heroes, minion types or even single minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).
-        <br><br>On 12.09. the three anomalies <a href="/bgstrategy/anomaly/?id=22">Blood of Sargeras</a>, <a href="/bgstrategy/anomaly/?id=25">Mimiron\'s Clockwork Stadium</a> and <a href="/bgstrategy/anomaly/?id=27">Path of the Treasure-Seeker</a> were added and will have a "increased" appearance rate until new anomalies will be added.</p>';
+        <br><br>On 19.09. the three anomalies <a href="/bgstrategy/anomaly/?id=30">The Yogg-iseum</a>, <a href="/bgstrategy/anomaly/?id=31">Blessed or Blighted</a> and <a href="/bgstrategy/anomaly/?id=32">Golganneth\'s Tempest</a> were added and will have a "increased" appearance rate until new anomalies will be added.</p>';
     }
 
     if ($show == 'anomalies' && $mode == 'gfx') {
