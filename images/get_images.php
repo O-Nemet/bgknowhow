@@ -122,21 +122,21 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
             echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
         }
 
-//        if (!copy(PICTURE_URL_BIG . $blizzardId . '.webp', '../images/' . $blizzardId . '_big.webp')) {
-//            echo 'failed to copy ../images/' . $blizzardId . '_big.webp<br>';
-//        } else {
-//            echo 'copy success ../images/' . $blizzardId . '_big.webp<br>';
-//        }
-//        if (!copy(PICTURE_URL_MEDIUM . $blizzardId . '.webp', '../images/' . $blizzardId . '_medium.webp')) {
-//            echo 'failed to copy ../images/' . $blizzardId . '_medium.webp<br>';
-//        } else {
-//            echo 'copy success ../images/' . $blizzardId . '_medium.webp<br>';
-//        }
-//        if (!copy(PICTURE_URL_TILE . $blizzardId . '.webp', '../images/' . $blizzardId . '_tile.webp')) {
-//            echo 'failed to copy ../images/' . $blizzardId . '_tile.webp<br>';
-//        } else {
-//            echo 'copy success ../images/' . $blizzardId . '_tile.webp<br>';
-//        }
+        if (!copy(PICTURE_URL_BIG . $blizzardId . '.webp', '../images/' . $blizzardId . '_big.webp')) {
+            echo 'failed to copy ../images/' . $blizzardId . '_big.webp<br>';
+        } else {
+            echo 'copy success ../images/' . $blizzardId . '_big.webp<br>';
+        }
+        if (!copy(PICTURE_URL_MEDIUM . $blizzardId . '.webp', '../images/' . $blizzardId . '_medium.webp')) {
+            echo 'failed to copy ../images/' . $blizzardId . '_medium.webp<br>';
+        } else {
+            echo 'copy success ../images/' . $blizzardId . '_medium.webp<br>';
+        }
+        if (!copy(PICTURE_URL_TILE . $blizzardId . '.webp', '../images/' . $blizzardId . '_tile.webp')) {
+            echo 'failed to copy ../images/' . $blizzardId . '_tile.webp<br>';
+        } else {
+            echo 'copy success ../images/' . $blizzardId . '_tile.webp<br>';
+        }
 
     }
 
