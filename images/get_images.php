@@ -82,7 +82,8 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
                                          bga.id_blizzard
                                 FROM bg_anomalies bga
                                WHERE 1=1 -- bgq.flag_active = ?
-                                 AND bga.name IN ('Denathrius\' Anima Reserves')
+                                 -- AND bga.name IN ('Denathrius\' Anima Reserves')
+                                 AND bga.id > 29
                             ORDER BY bga.name ASC")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
