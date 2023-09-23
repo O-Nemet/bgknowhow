@@ -186,7 +186,8 @@ include_once('../header.php');
         Cap is set to 15, meaning if a player would take more than 15 damage (e.g. 20) while the cap is active, the
         damage will be reduced to the maximum amount of 15.
         <br><br>
-        The Damage Cap is in place until both a hero has died and the game has reached at least turn 8 (10 gold).
+        The Damage Cap is in place until only 4 players are left alive.<br>
+        Until 19.09.23 the Damage Cap was in place until both a hero has died and the game has reached at least turn 8 (10 gold).
     </p>
     <h3 id="deadguy">Fighting a ghost aka 'Deadguy' <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
