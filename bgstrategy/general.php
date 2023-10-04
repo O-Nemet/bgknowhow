@@ -272,7 +272,7 @@ foreach ($tempMinions->data as $key => $object) {
 // Ghastcoiler minions
 $i = 0;
 foreach ($tempMinions->data as $key => $object) {
-    if ($object->isActive && $object->isToken === false && $object->abilities->hasDeathrattle && $object->name !== 'Ghastcoiler') {
+    if ($object->isActive && !$object->isToken && $object->abilities->hasDeathrattle && $object->name !== 'Ghastcoiler') {
         $board[] = $object->name;
         $i++;
     }
