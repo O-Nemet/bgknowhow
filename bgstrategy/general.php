@@ -272,7 +272,7 @@ foreach ($tempMinions->data as $key => $object) {
 // Ghastcoiler minions
 $i = 0;
 foreach ($tempMinions->data as $key => $object) {
-    if ($object->isActive && !$object->isToken && $object->abilities->hasDeathrattle && $object->name !== 'Ghastcoiler') {
+    if ($object->isActive && !$object->isToken && $object->abilities->hasDeathrattle && $object->tier <= 6 && $object->name !== 'Ghastcoiler') {
         $board[] = $object->name;
         $i++;
     }
@@ -284,7 +284,7 @@ foreach ($tempMinions->data as $key => $object) {
         <p style="width: 920px; padding-top: 40px; text-align: justify;">
             This beast is a potent lategame minion. Therefore, it is advisable to know the odds of getting a <a class="hoverimage" href='/bgstrategy/minion/?id=208'>Leeroy</a>, an <a class="hoverimage" href='/bgstrategy/minion/?id=343'>Operatic Belcher</a> or any of the other possible Deathrattle minions.
             <br><br>
-            There are currently <?= $i + 1 ?> Deathrattle minions in the game, but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
+            There are currently <?= $i + 1 ?> Deathrattle minions in the game (not counting Tier 7), but the Ghastcoiler can not spawn itself. Therefore, the odds for a specific summon from Coiler are <?= number_format(1 / ($i) * 100, 2) ?>%. You get two chances independent of each other, so for example the odds of getting exactly one Leeroy from one Coiler is <?= number_format(1 / ($i) * 100 * 2, 2) ?>%. Whereas the odds of getting two Leeroys is as low as <?= number_format((1 / ($i) * 2) * (1 / ($i) * 2) * 100, 2) ?>%.
             <br><br>
             <em>(These numbers are currently not filtered for banned minion types. So roughly multiply by 2, depending on your actual lobby composition.)</em>
         </p>
