@@ -165,7 +165,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rat', 'Ripsnarl', 'Angler', 'Seaborn', 'Bookie', 'Frostling', 'Yrel'];
+        $board   = ['Rat', 'Ripsnarl', 'Angler', 'Seaborn', 'Bookie', 'Frostling'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
