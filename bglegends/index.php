@@ -9,13 +9,12 @@ include_once('../header.php');
     <!--    <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
     <!--    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 09:30" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>-->
     <p>
-        The Lobby Legends Winter Championship with a $50,000 prize pool will happen on October 15th (top 16 semi-finals) and October 16th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://hearthstone.blizzard.com/en-us/esports/tournament/lobby-legends-7" target="_blank">Blizzards Event website</a>.
+        The Lobby Legends Fall Championship with a $50,000 prize pool will happen on October 14th (top 16 semi-finals) and October 15th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://hearthstone.blizzard.com/en-us/esports/tournament/lobby-legends-12" target="_blank">Blizzards Event website</a>.
     </p>
     <br>
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-10-15 17:00" data-background="#8dbdd8">Lobby Legends Winter Championship Finals</a>
+    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-10-15 01:00" data-background="#8dbdd8">Lobby Legends Fall Championship Semi-Finals</a>
     <br><br>
-    </p>
     <br>
     <img src="<?= PICTURE_LOCAL ?>misc/ll_logo.webp" alt="Lobby Legends logo">
     <br>
