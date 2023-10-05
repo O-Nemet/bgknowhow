@@ -8,21 +8,51 @@ include_once('../header.php');
     </p>
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“TOP 5 Little League Comps” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <h3>“1 Tip For EVERY Anomaly” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/bzCnnT0AavU?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/5051A49JdE8?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Anomoly Quick Tips! Have the Season 5 Advantage!” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“New Anomalies for THIS week” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/EVqWWjYuQe8?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/hS-a89cBkK0?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“A Guide to Darkmoon Prizes Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“How I Hit 15k MMR in 30 Days” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/bZ6EcP2fJDw?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/EY4jHexqMw?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Murloc Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/JUhXCzenx6M?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Dragon Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/D1PSN_M5vKw?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Beast Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/RGx0alKGcIk?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Demon Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/i95qiJPlC-0?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Mech Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/POJj3LQa12g?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <!--        <div class="iframe_div">-->
