@@ -22,7 +22,7 @@ include_once('../header.php');
         <div class="iframe_div">
             <h3>“How I Hit 15k MMR in 30 Days” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/EY4jHexqMw?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/-EY4jHexqMw?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
