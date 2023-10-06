@@ -35,6 +35,7 @@ bgTooltip.prototype = {
             // get user element data
             //let options = element.dataset.options; // data-options
             let name = element.dataset.name; // data-name
+            let shortname = element.dataset.shortname; // data-shortname
             let set = element.dataset.set; // data-set
             let multiverseid = element.dataset.multiverseid; // data-multiverseid
             let specialimg = element.dataset.specialimg; //data-special
@@ -50,7 +51,10 @@ bgTooltip.prototype = {
                 if (hoverId.type === 'H') {
                     params = "//bgknowhow.com/images/heropowers/"
                     param_img_suffix = "_render_80.webp";
-                } else {
+                } else if (hoverId.type === 'A') {
+                    params = "//bgknowhow.com/images/anomalies/"
+                    param_img_suffix = "_render_80.webp";
+                } else if (hoverId.type === 'M') {
                     params = "//bgknowhow.com/images/minions/"
                     param_img_suffix = "_render_80.webp";
                 }
