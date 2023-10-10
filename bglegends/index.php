@@ -13,7 +13,7 @@ include_once('../header.php');
     </p>
     <br>
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-10-15 01:00" data-background="#8dbdd8">Lobby Legends Fall Championship Semi-Finals</a>
+    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-10-14 18:00" data-background="#8dbdd8">Lobby Legends Fall Championship Semi-Finals</a>
     <br><br>
     <br>
     <img src="<?= PICTURE_LOCAL ?>misc/ll_logo.webp" alt="Lobby Legends logo">
