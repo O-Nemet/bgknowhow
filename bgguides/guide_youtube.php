@@ -14,15 +14,21 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“New Anomalies for THIS week” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“These Anomalies are out TODAY!” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/hS-a89cBkK0?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/BEE0A3xcVYY?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
             <h3>“How I Hit 15k MMR in 30 Days” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/-EY4jHexqMw?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Top 10 WORST Cards in Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/T3o--1N0Y2A?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
