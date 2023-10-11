@@ -68,8 +68,8 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                 <!--                <li><a class="menu-topic" href="/bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>-->
                 <li><a class="menu-topic" href="/bglegends/">&#9654; Tournaments</a></li>
                 <li><a class="menu-topic" href="/bgexternal/">&#9654; Resources</a></li>
-                <!--                <li><a class="menu-topic" href="/bgguides/guide_pocky.php">&#9654; Guide to Improving at BGs</a></li>-->
-                <!--                <li><a class="menu-topic" href="/bgguides/guide_youtube.php">&#9654; Featured YouTube guides</a></li>-->
+                <!--                <li><a class="menu-topic" href="/bgguides/pocky.php">&#9654; Guide to Improving at BGs</a></li>-->
+                <!--                <li><a class="menu-topic" href="/bgguides/youtube.php">&#9654; Featured YouTube guides</a></li>-->
                 <li><a class="menu-topic" href="/bgjson/">&#9654; BGJSON</a></li>
                 <?php
                 //                if (!isset($_SESSION['usertag'])) {
@@ -135,13 +135,13 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                     <a class="menu-topic" href="/bgexternal/">Resources</a>
                 </li>
                 <li class="menu-hover bgguides">
-                    <a class="menu-topic" href="/bgguides/guide_youtube.php">Guides</a>
+                    <a class="menu-topic" href="/bgguides/youtube.php">Guides</a>
                     <div class="menu-container-3">
                         <div class="menu-column-3">
                             <ul>
-                                <li><a href="/bgguides/guide_pocky.php">...Guide to Improving at Battlegrounds</a></li>
-                                <li><a href="/bgguides/guide_youtube.php">...Featured YouTube video guides</a></li>
-                                <li><a href="/bgguides/guide_your.php">...Your guide here</a></li>
+                                <li><a href="/bgguides/pocky.php">...Guide to Improving at Battlegrounds</a></li>
+                                <li><a href="/bgguides/youtube.php">...Featured YouTube video guides</a></li>
+                                <li><a href="/bgguides/your.php">...Your guide here</a></li>
                             </ul>
                         </div>
                     </div>
