@@ -8,13 +8,13 @@ include_once('../header.php');
     <!--    <br><br>-->
     <!--    <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
     <!--    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2022-11-19 09:30" data-background="#8dbdd8">Lobby Legends #9 Qualifier</a>-->
-    <p>
-        The Lobby Legends Fall Championship with a $50,000 prize pool will happen on October 14th (top 16 semi-finals) and October 15th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://hearthstone.blizzard.com/en-us/esports/tournament/lobby-legends-12" target="_blank">Blizzards Event website</a>.
-    </p>
-    <br>
-    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-10-14 18:00" data-background="#8dbdd8">Lobby Legends Fall Championship Semi-Finals</a>
-    <br><br>
+    <!--    <p>-->
+    <!--        The Lobby Legends Fall Championship with a $50,000 prize pool will happen on October 14th (top 16 semi-finals) and October 15th (top 8 finals), and will be live-streamed with moderation on the official <a href="https://www.twitch.tv/playhearthstone" target="_blank">HS Twitch channel</a>. On the first day 2x3 rounds will be played, which usually takes about 6 hours. On the second day 5-8 rounds will be played. Further information can be found on <a href="https://hearthstone.blizzard.com/en-us/esports/tournament/lobby-legends-12" target="_blank">Blizzards Event website</a>.-->
+    <!--    </p>-->
+    <!--    <br>-->
+    <!--    <script src="https://cdn.logwork.com/widget/countdown.js"></script>-->
+    <!--    <a onclick="return false;" href="https://logwork.com/countdown-73ot" class="countdown-timer" data-style="circles" data-timezone="Europe/Berlin" data-date="2023-10-15 18:00" data-background="#8dbdd8">Lobby Legends Fall Championship Finals</a>-->
+    <!--    <br><br>-->
     <br>
     <img src="<?= PICTURE_LOCAL ?>misc/ll_logo.webp" alt="Lobby Legends logo">
     <br>
@@ -25,6 +25,79 @@ include_once('../header.php');
         <br><br>
         The top 4 players from each region (by accumulated points) and the 4 players with most points from any region, will battle it out over two days in the semi-finals (two groups with three rounds each) and the finals (the remaining 8 players would play lobbies until someone has accumulated 20 points and then wins a lobby).
     </p>
+
+    <h3 id="ll12">Lobby Legends #12 (“Fall Championships” at 14/15.10.2023) Top 8 after 6 lobbies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Patch 27.4.3 with all anomalies active and the newest hero <a class="hoverimage" href="/bgstrategy/hero/?id=97">Thorim, Stormlord</a> was played. Also, heroes had low MMR armor values as well as low MMR anomaly selection, and streamer-mode was enabled (meaning players were unable to see which hero was played by whom).
+    </p>
+    <br>
+    <p>
+        <a href="https://www.youtube.com/watch?v=MO_QqEslFPI" target="_blank">YouTube VOD recording of day 1</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=OzIvw1FpfUA" target="_blank">YouTube VOD recording of day 2</a>
+    </p>
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>jeef</td>
+            <td>US (USA)</td>
+            <td>28.5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>BeterBabbit</td>
+            <td>US (USA)</td>
+            <td>31.0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Alutemu</td>
+            <td>AP (JPN)</td>
+            <td>21.5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>DaPeeDou</td>
+            <td>AP (TWN)</td>
+            <td>21.0</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Tume</td>
+            <td>EU (FIN)</td>
+            <td>20.5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>jag-eunsae</td>
+            <td>AP (KOR)</td>
+            <td>18.5</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Waterloooooo</td>
+            <td>US (CAN)</td>
+            <td>18.0</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Satellite</td>
+            <td>AP (JPN)</td>
+            <td>11.5</td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
     <h3 id="ll11">Lobby Legends #11 (“Summer Championships” at 22/23.07.2023) Top 8 after 6 lobbies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Patch 26.6.3 with lots of newly added quests and rewards was played. Also, heroes had low MMR armor values and streamer-mode was enabled (meaning players were unable to see which hero was played by whom) and the overlay did not work due to technological difficulties.
