@@ -176,7 +176,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Snapjaw', 'Tusk', 'Lurker', 'Riffer', 'Copter', 'Bot', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Honcho', 'Murcules', 'Duelist'];
+        $board   = ['Snapjaw', 'Tusk', 'Lurker', 'Riffer', 'Copter', 'Bot', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Flier', 'Refiner', 'Deathswarmer', 'Murcules', 'Duelist'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -211,12 +211,12 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Slamma', 'Mama Bear'];
+        $board   = ['Rylak', 'Slamma', 'Mama Bear', 'Goldrinn'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Rewinder', 'Ur\'zul', 'Felbat', 'Stomper'];
+        $board   = ['Rewinder', 'Ur\'zul', 'Felbat'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -231,12 +231,12 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Deflecto', 'Scraper', 'Tank', 'Beatboxer'];
+        $board   = ['Deflecto', 'Scraper', 'Beatboxer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Bassgill', 'Counter', 'Belcher', 'Choral'];
+        $board   = ['Counter', 'Bassgill', 'Belcher', 'Choral'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -246,7 +246,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['*Peggy Sturdybone', 'Vanessa', 'Dealer', 'Tethys'];
+        $board   = ['*Peggy Sturdybone', 'Dealer', 'Eliza', 'Tethys'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -261,7 +261,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Mythrax', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Boogie'];
+        $board   = ['Mythrax', 'Brann', 'Enchanter', 'Titus', 'Fort', 'Theo'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
