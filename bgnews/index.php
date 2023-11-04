@@ -53,7 +53,7 @@ include_once('../header.php');
     </ul>
     <br>
     <p>
-        If you want to see the new mode in action, several well-known streamers have teamed up and streamed from the BlizzCon floor, playing the current beta version (additional streams will be added when available):
+        If you want to see the new mode in action, several well-known streamers have teamed up and streamed from the BlizzCon floor, playing the current beta version (additional vods will be added when available):
     </p>
     <ul>
         <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp</a> and <a href="https://www.twitch.tv/videos/1967773061?t=0h11m53s" target="_blank">Bofur</a></li>
