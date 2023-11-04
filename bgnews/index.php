@@ -10,6 +10,7 @@ include_once('../header.php');
     </p>
     <ul>
         <li>Each duo team will share a single HP/armor pool (HP will be 30, armor will be the combined hero armor values of both heroes)</li>
+        <li>Each game will feature 4 different duo teams (it can be assumed that the top 2 teams will gain MMR, while the bottom 2 will lose some)</li>
         <li>The buy phase is pretty much the same, but you can check out your partners tavern and board anytime, by clicking on a new portal animation on the right side of your screen</li>
         <li>Each player will have to level their tavern tier up by themselves</li>
         <li>Any card in your hand can be sent to your partner for 1 gold each, by moving it onto the new portal animation</li>
@@ -26,11 +27,16 @@ include_once('../header.php');
                 <li><strong>The Nameless One</strong> featuring the HP "" (Passive. Start of Game: Copy your teammate's hero power)</li>
             </ul>
         </li>
-        <li>The duo mode will add at least 6 new mode-exclusive minions, featuring special abilites designed for the mode:
+        <li>The duo mode will add at least 11 new mode-exclusive minions, featuring special abilites designed for the mode:
             <ul>
                 <li><strong>Passenger</strong> (Tier 1, Neutral) - Whenever your team Passes, gain +1/+1.</li>
+                <li><strong>Morgl the Oracle</strong> (Tier 1, Murloc) - The first time this is Passed each turn, gain +3/+3.</li>
                 <li><strong>Fortune-Hunter Flo</strong> (Tier 2, Neutral) - Battlecry: Your teammate gets a Gold Coint.</li>
+                <li><strong>Gemcarver Blackthorn</strong> (Tier 2, Quilboar) - Deathrattle: You and your teammate get a Blood Gem.</li>
                 <li><strong>Orc-estra Conductor</strong> (Tier 3, Neutral) - Battlecry: Give a minion +2/+1 (Upgraded for each Orc-estra Conductor your team has played.)</li>
+                <li><strong>Plunder Pal</strong> (Tier 3, Pirate) - At the start of your turn, your teammate gains 1 Gold.</li>
+                <li><strong>Long'xin</strong> (Tier 3, Dragon) - At the end of your turn, give your teammate's minions +1 Attack.</li>
+                <li><strong>Archimonde</strong> (Tier 4, Demon) - Battlecry: Minions in your teammate's Tavern have +2/+2 for the rest of the game.</li>
                 <li><strong>Electron</strong> (Tier 5, Mech) - At the end of your turn, give a minion in your teammate's warband Divine Shield.</li>
                 <li><strong>Benefactor</strong> (Tier 5, Naga) - Spellcraft: Pass a different non-Golden minion.</li>
                 <li><strong>Sandy</strong> (Tier 6, Neutral) - Start of Combat: Transform into a copy of your teammate's highest Health minion.</li>
@@ -57,8 +63,13 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/hero_floop.webp">
         <img src="<?= PICTURE_LOCAL ?>news/hero_nameless.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_passenger.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_morgl.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_fortune.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_plunder.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_longxin.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_gemcarver.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_orcestra.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_archimonde.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_electron.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_benefactor.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_sandy.webp">
