@@ -23,7 +23,7 @@ include_once('../header.php');
                 <li><strong>Cho'Gall</strong> featuring the HP "Double Trouble" (Passive. Whenever you play a Golden minion, both you and Gall get a triple reward). These are actually two heroes, but can only be played when picked together, so most likely only when queing up together with your teammate</li>
                 <li><strong>Madame Goya</strong> featuring the HP "Efficient Exchange" (Pass a non-Golden minion.)</li>
                 <li><strong>Flobbidinous Floop</strong> featuring the HP "Glorious Gloop" (Choose a friendly minion. Start of Combat: Transform it into your teammate's highest-Attack minion)</li>
-                <li><strong>Nameless One</strong> featuring the HP "" (Passive. Start of Game: Copy your teammate's hero power)</li>
+                <li><strong>The Nameless One</strong> featuring the HP "" (Passive. Start of Game: Copy your teammate's hero power)</li>
             </ul>
         </li>
         <li>The duo mode will add at least 6 new mode-exclusive minions, featuring special abilites designed for the mode:
@@ -46,7 +46,7 @@ include_once('../header.php');
         If you want to see the new mode in action, several well-known streamers have teamed up and streamed from the BlizzCon floor, playing the current beta version (additional streams will be added when available):
     </p>
     <ul>
-        <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp and Bofur</a></li>
+        <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp</a> and <a href="https://www.twitch.tv/videos/1967773061?t=0h11m53s" target="_blank">Bofur</a></li>
     </ul>
     <br>
     <p>
