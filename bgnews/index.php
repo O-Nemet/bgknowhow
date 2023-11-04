@@ -27,7 +27,7 @@ include_once('../header.php');
                 <li><strong>The Nameless One</strong> featuring the HP "" (Passive. Start of Game: Copy your teammate's hero power)</li>
             </ul>
         </li>
-        <li>The duo mode will add at least 14 new mode-exclusive minions, featuring special abilites designed for the mode:
+        <li>The duo mode will add at least 15 new mode-exclusive minions, featuring special abilites designed for the mode:
             <ul>
                 <li><strong>Passenger</strong> (Tier 1, Neutral) - Whenever your team Passes, gain +1/+1.</li>
                 <li><strong>Morgl the Oracle</strong> (Tier 1, Murloc) - The first time this is Passed each turn, gain +3/+3.</li>
@@ -37,6 +37,7 @@ include_once('../header.php');
                 <li><strong>Plunder Pal</strong> (Tier 3, Pirate) - At the start of your turn, your teammate gains 1 Gold.</li>
                 <li><strong>Long'xin</strong> (Tier 3, Dragon) - At the end of your turn, give your teammate's minions +1 Attack.</li>
                 <li><strong>Archimonde</strong> (Tier 4, Demon) - Battlecry: Minions in your teammate's Tavern have +2/+2 for the rest of the game.</li>
+                <li><strong>Avenging Ally</strong> (Tier 4, Undead) - Avenge (3): Your teammate gets a random Reborn or Deathrattle minion.</li>
                 <li><strong>Friendly Freshwater</strong> (Tier 4, Elemental) - Deathrattle: Your teammate's next 3 Refreshes cost (0).</li>
                 <li><strong>Cloning Cuddlgam</strong> (Tier 4, All) - When you buy or Discover this, your teammate also gets a copy.</li>
                 <li><strong>Electron</strong> (Tier 5, Mech) - At the end of your turn, give a minion in your teammate's warband Divine Shield.</li>
@@ -75,6 +76,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/minion_plunder.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_longxin.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_archimonde.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_avenging.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_freshwater.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_cuddlgam.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_electron.webp">
