@@ -3331,6 +3331,10 @@ body.bgstrategy .bgstrategy > a {
     font-style: italic;
 }
 
+.news strong {
+    font-weight: 700;
+}
+
 .triple_stats ul, .news ul {
     list-style: disc;
     margin-left: 50px;
