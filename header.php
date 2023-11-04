@@ -57,6 +57,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
         <nav id="sidebar_menu">
             <ul>
                 <li><a class="menu-topic" href="/introduction.php">&#9654; Introduction</a></li>
+                <li><a class="menu-topic" href="/bgnews/">&#9654; News</a></li>
                 <li><a class="menu-topic" href="/bgbasics/">&#9654; Basics</a></li>
                 <li><a class="menu-topic" href="/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
@@ -105,6 +106,9 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
     <div id="nav_wrapper">
         <nav id="menu">
             <ul class="menu-top">
+                <li class="menu-hover bgjson">
+                    <a class="menu-topic" href="/bgnews/">News</a>
+                </li>
                 <li class="menu-hover bgjson">
                     <a class="menu-topic" href="/bgjson/">BGJSON</a>
                 </li>

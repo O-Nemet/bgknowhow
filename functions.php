@@ -95,6 +95,8 @@ function getWebsiteName(): string
         return 'bgguides';
     } else if (strpos($page, '/bglegends/') !== false) {
         return 'bglegends';
+    } else if (strpos($page, '/bgnews/') !== false) {
+        return 'bgnews';
     } else if (strpos($page, '/bgsim/') !== false) {
         return 'bgsim';
     } else if (strpos($page, '/bgbasics/') !== false) {
@@ -147,6 +149,8 @@ function getWebsiteTitle(): string
         $title .= 'Guides';
     } else if (strpos($page, '/bglegends/') !== false) {
         $title .= 'Tournaments';
+    } else if (strpos($page, '/bgnews/') !== false) {
+        $title .= 'News';
     } else if (strpos($page, '/bgsim/') !== false) {
         $title .= 'Simulator';
     } else if (strpos($page, '/bgbasics/armor') !== false) {
