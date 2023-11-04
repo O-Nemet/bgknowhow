@@ -2,11 +2,11 @@
 include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
-<br>
 <div class="news">
     <h3 id="bgduos">04.11.2023 - Battlegrounds Duos announced at BlizzCon <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard just revealed an upcoming two player coop mode for Battlegrounds, which will be released "early in 2024".
+        The official announcement can be found on the <a href="https://hearthstone.blizzard.com/en-gb/news/24008691/introducing-battlegrounds-duos" target="_blank">Blizzard HS website</a> or you can view the <a href="https://www.twitch.tv/videos/1967600933?t=2h32m19s" target="_blank">live on stream reveal</a> or the <a href="https://www.twitch.tv/videos/1967600933?t=7h14m54s" target="_blank">preview panel</a>.
     </p>
     <ul>
         <li>Each duo team will share a single HP/armor pool (HP will be the standard of 30, armor will be the combined value of partner#1 + partner#2)</li>
@@ -19,16 +19,17 @@ include_once('../header.php');
         <li>If the board of player#1 is already enough to win against both boards of the enemy duo team, the empty slots on the board will be filled up with minions from player#2 (therefore increasing the damage the losing team takes)</li>
         <li>The duo mode will add at least 4 new mode-exclusive heroes (Cho'Gall, Madame Goya, Lubittonous Gloop and Nameless One)</li>
         <li>The duo mode will add at least 6 new mode-exclusive minions, which for example trigger on passing a minion through the portal, and at least four mode-exclusive heroes (Cho'Gall, Mai Ling, Gloop.</li>
-        <li>An icon-based ping system for minions and buttons (freeze, level, etc) has been added to enable voiceless communication options between teammates. The icons available are a question mark, a green check, a red x and a portal symbol)</li>
+        <li>An icon-based ping system for minions and buttons (freeze, level, etc.) has been added to enable voiceless communication options between teammates. The icons available are a question mark, a green check, a red x and a portal symbol)</li>
         <li>There seems to be a permanent damage cap of 15 at the moment</li>
         <li>Deadguy fight handling seems to be bugged at the moment, as you can fight a duo team again, right after killing it</li>
     </ul>
+    <br>
     <p>
-        Check out the official communication:
+        If you want to see the new mode in action, several well-known streamers have teamed up and streamed from the BlizzCon floor, playing the current beta version (additional streams will be added when available):
     </p>
-    <p>
-        If you want to see the new mode in action, several well-known streamers have teamed up and streamed from the BlizzCon floor, playing the current beta version:
-    </p>
+    <ul>
+        <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp and Bofur</a></li>
+    </ul>
     <br>
 
     <h3 id="season6ending">03.11.2023 - Season of Anomalies coming to an end <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
