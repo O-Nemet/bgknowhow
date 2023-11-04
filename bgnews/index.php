@@ -5,7 +5,7 @@ include_once('../header.php');
 <div class="news">
     <h3 id="bgduos">04.11.2023 - Battlegrounds Duos announced at BlizzCon <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard just revealed an upcoming two player coop mode for Battlegrounds, which will be released "early in 2024".
+        Blizzard just revealed an upcoming two player coop mode for Battlegrounds, which will be released "early in 2024".<br>
         The official announcement can be found on the <a href="https://hearthstone.blizzard.com/en-gb/news/24008691/introducing-battlegrounds-duos" target="_blank">Blizzard HS website</a> or you can view the <a href="https://www.twitch.tv/videos/1967600933?t=2h32m19s" target="_blank">live on stream reveal</a> (90 seconds) or the <a href="https://www.twitch.tv/videos/1967600933?t=7h14m54s" target="_blank">complete preview panel</a> (19 minutes).
     </p>
     <ul>
@@ -27,7 +27,7 @@ include_once('../header.php');
                 <li><strong>The Nameless One</strong> featuring the HP "" (Passive. Start of Game: Copy your teammate's hero power)</li>
             </ul>
         </li>
-        <li>The duo mode will add at least 12 new mode-exclusive minions, featuring special abilites designed for the mode:
+        <li>The duo mode will add at least 14 new mode-exclusive minions, featuring special abilites designed for the mode:
             <ul>
                 <li><strong>Passenger</strong> (Tier 1, Neutral) - Whenever your team Passes, gain +1/+1.</li>
                 <li><strong>Morgl the Oracle</strong> (Tier 1, Murloc) - The first time this is Passed each turn, gain +3/+3.</li>
@@ -37,6 +37,7 @@ include_once('../header.php');
                 <li><strong>Plunder Pal</strong> (Tier 3, Pirate) - At the start of your turn, your teammate gains 1 Gold.</li>
                 <li><strong>Long'xin</strong> (Tier 3, Dragon) - At the end of your turn, give your teammate's minions +1 Attack.</li>
                 <li><strong>Archimonde</strong> (Tier 4, Demon) - Battlecry: Minions in your teammate's Tavern have +2/+2 for the rest of the game.</li>
+                <li><strong>Friendly Freshwater</strong> (Tier 4, Elemental) - Deathrattle: Your teammate's next 3 Refreshes cost (0).</li>
                 <li><strong>Cloning Cuddlgam</strong> (Tier 4, All) - When you buy or Discover this, your teammate also gets a copy.</li>
                 <li><strong>Electron</strong> (Tier 5, Mech) - At the end of your turn, give a minion in your teammate's warband Divine Shield.</li>
                 <li><strong>Benefactor</strong> (Tier 5, Naga) - Spellcraft: Pass a different non-Golden minion.</li>
@@ -65,18 +66,20 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/hero_goya.webp">
         <img src="<?= PICTURE_LOCAL ?>news/hero_floop.webp">
         <img src="<?= PICTURE_LOCAL ?>news/hero_nameless.webp">
+
         <img src="<?= PICTURE_LOCAL ?>news/minion_passenger.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_morgl.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_fortune.webp">
-        <img src="<?= PICTURE_LOCAL ?>news/minion_plunder.webp">
-        <img src="<?= PICTURE_LOCAL ?>news/minion_longxin.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_gemcarver.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_orcestra.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_plunder.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_longxin.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_archimonde.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_freshwater.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_cuddlgam.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_electron.webp">
-        <img src="<?= PICTURE_LOCAL ?>news/minion_xuen.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_benefactor.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_xuen.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_sandy.webp">
     </p>
     <br>
