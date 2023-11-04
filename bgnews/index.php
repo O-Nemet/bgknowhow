@@ -6,7 +6,7 @@ include_once('../header.php');
     <h3 id="bgduos">04.11.2023 - Battlegrounds Duos announced at BlizzCon <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard just revealed an upcoming two player coop mode for Battlegrounds, which will be released "early in 2024".
-        The official announcement can be found on the <a href="https://hearthstone.blizzard.com/en-gb/news/24008691/introducing-battlegrounds-duos" target="_blank">Blizzard HS website</a> or you can view the <a href="https://www.twitch.tv/videos/1967600933?t=2h32m19s" target="_blank">live on stream reveal</a> or the <a href="https://www.twitch.tv/videos/1967600933?t=7h14m54s" target="_blank">complete preview panel</a>.
+        The official announcement can be found on the <a href="https://hearthstone.blizzard.com/en-gb/news/24008691/introducing-battlegrounds-duos" target="_blank">Blizzard HS website</a> or you can view the <a href="https://www.twitch.tv/videos/1967600933?t=2h32m19s" target="_blank">live on stream reveal</a> (90 seconds) or the <a href="https://www.twitch.tv/videos/1967600933?t=7h14m54s" target="_blank">complete preview panel</a> (19 minutes).
     </p>
     <ul>
         <li>Each duo team will share a single HP/armor pool (HP will be 30, armor will be the combined hero armor values of both heroes)</li>
@@ -18,8 +18,20 @@ include_once('../header.php');
         <li>The board of player#2 will spawn in combat after the board of player#1 has been wiped completely (including effects like Deathrattle)</li>
         <li>There is no direct interaction between you or your teammates board during the combat (e.g. a <a class='hoverimage'>Rot Hide Gnoll</a> on your partners board will not count minions which died while your board was active)</li>
         <li>If the board of player#1 is already enough to win against both boards of the enemy duo team, the empty slots on the board will be filled up with minions from player#2 after the combat has concluded (therefore increasing the damage the losing team takes)</li>
-        <li>The duo mode will add at least 4 new mode-exclusive heroes (Cho'Gall, Madame Goya, Lubittonous Gloop and Nameless One)</li>
-        <li>The duo mode will add at least 6 new mode-exclusive minions, featuring special abilites (like triggering on passing a minion through the portal)</li>
+        <li>The duo mode will add at least 4 new mode-exclusive heroes:
+            <ul>
+                <li>Cho and Gall featuring the HP "Double Trouble", who always have to be picked both together</li>
+                <li>Madame Goya</li>
+                <li>Flobbidinous Floop</li>
+                <li>Nameless One</li>
+            </ul>
+        </li>
+        <li>The duo mode will add at least 6 new mode-exclusive minions, featuring special abilites designed for the mode:
+            <ul>
+                <li>Test</li>
+                <li>Test2</li>
+            </ul>
+        </li>
         <li>An icon-based ping system for minions and buttons (freeze, level, etc.) has been added to enable voiceless communication options between teammates. The icons available are a question mark, a green check, a red x and a portal symbol</li>
         <li>There will be seperate queues for traditional BG single player and BG duo teams (with the additional option to also join alone and get teamed up by the system)</li>
         <li>There seems to be a permanent damage cap of 15 at the moment</li>
@@ -32,9 +44,13 @@ include_once('../header.php');
     <ul>
         <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp and Bofur</a></li>
     </ul>
+    <p>
+        Here are a few spoiler pictures of the new heroes and minions (additional images will be added when available):
+        <img src="<?= PICTURE_LOCAL ?>images/news/cho_gall.webp" alt="Cho Gall">
+    </p>
     <br>
 
-    <h3 id="season6ending">03.11.2023 - Season of Anomalies coming to an end <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="season5ending">03.11.2023 - Season of Anomalies coming to an end <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Observant players have reported that the Blizzard launcher lists the current BG season pass available until the 4th of December. This is a pretty decent indicator that the next BG season will start on December 5th. At the moment it is still unknown if that season will start in vanilla mode or with the return of the Buddy or the Quest system. What is certain though is that everyone's MMR rating will be reset to 0 (your hidden MMR will still be there though) and you will have to purchase a new Battle Pass if you want to be able to select more than two heroes at the start of each match.
     </p>
