@@ -51,8 +51,11 @@ include_once('../header.php');
     <br>
     <p>
         Here are a few spoiler pictures of the new heroes and minions (additional images will be added when available):
-        <br>
-        <img src="<?= PICTURE_LOCAL ?>news/cho_gall.webp" alt="Cho Gall">
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/hero_cho_gall.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/hero_goya.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/hero_floop.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/hero_nameless.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_passenger.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_fortune.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_orcestra.webp">
