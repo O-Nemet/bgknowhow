@@ -106,7 +106,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
     <div id="nav_wrapper">
         <nav id="menu">
             <ul class="menu-top">
-                <li class="menu-hover bgjson">
+                <li class="menu-hover bgnews">
                     <a class="menu-topic" href="/bgnews/">News</a>
                 </li>
                 <li class="menu-hover bgjson">
