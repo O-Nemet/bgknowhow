@@ -40,6 +40,7 @@ include_once('../header.php');
                 <li><strong>Cloning Cuddlgam</strong> (Tier 4, All) - When you buy or Discover this, your teammate also gets a copy.</li>
                 <li><strong>Electron</strong> (Tier 5, Mech) - At the end of your turn, give a minion in your teammate's warband Divine Shield.</li>
                 <li><strong>Benefactor</strong> (Tier 5, Naga) - Spellcraft: Pass a different non-Golden minion.</li>
+                <li><strong>Xuen</strong> (Tier 5, Beast) - Deathrattle: Summon a different random minion from your teammate's warband.</li>
                 <li><strong>Sandy</strong> (Tier 6, Neutral) - Start of Combat: Transform into a copy of your teammate's highest Health minion.</li>
             </ul>
         </li>
@@ -74,6 +75,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/minion_archimonde.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_cuddlgam.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_electron.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_xuen.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_benefactor.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_sandy.webp">
     </p>
