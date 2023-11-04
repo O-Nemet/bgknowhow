@@ -22,7 +22,7 @@ include_once('../header.php');
         <li>The duo mode will add at least 4 new mode-exclusive heroes:
             <ul>
                 <li><strong>Cho'Gall</strong> featuring the HP "Double Trouble" (Passive. Whenever you play a Golden minion, both you and Gall get a triple reward). These are actually two heroes, but can only be played when picked together, so most likely only when queing up together with your teammate</li>
-                <li><strong>Madame Goya</strong> featuring the HP "Efficient Exchange" (Pass a non-Golden minion.)</li>
+                <li><strong>Madam Goya</strong> featuring the HP "Efficient Exchange" (Pass a non-Golden minion.)</li>
                 <li><strong>Flobbidinous Floop</strong> featuring the HP "Glorious Gloop" (Choose a friendly minion. Start of Combat: Transform it into your teammate's highest-Attack minion)</li>
                 <li><strong>The Nameless One</strong> featuring the HP "" (Passive. Start of Game: Copy your teammate's hero power)</li>
             </ul>
@@ -57,7 +57,9 @@ include_once('../header.php');
     </p>
     <ul>
         <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp</a> and <a href="https://www.twitch.tv/videos/1967773061?t=0h11m53s" target="_blank">Bofur</a></li>
+        <li><a href="https://www.twitch.tv/videos/1967772907?t=0h12m5s" target="_blank">Kibler</a> and <a href="https://www.twitch.tv/videos/1967776257?t=0h8m38s" target="_blank">Bunnyhoppor</a></li>
         <li><a href="https://www.twitch.tv/videos/1967781979?t=0h3m19s" target="_blank">TrumpSC</a> and Rarran</li>
+        <li><a href="https://www.twitch.tv/videos/1967781548?t=0h3m44s" target="_blank">Tesdey</a> and ???</li>
     </ul>
     <br>
     <p>
