@@ -3330,10 +3330,17 @@ body.bgstrategy .bgstrategy > a {
     font-style: italic;
 }
 
-.triple_stats ul {
+.triple_stats ul, .news ul {
     list-style: disc;
     margin-left: 50px;
     margin-top: 15px;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: 0.5px; /* TODO: test */
+}
+
+.triple_stats ul li, .news ul li {
+    padding-bottom: 5px;
 }
 
 #hero_armor_tiers {
