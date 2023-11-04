@@ -57,6 +57,7 @@ include_once('../header.php');
     </p>
     <ul>
         <li><a href="https://www.twitch.tv/videos/1968641288?t=0h15m31s" target="_blank">Dog</a> teaming up with <a href="https://www.twitch.tv/videos/1968641007?t=0h15m52s" target="_blank">Hafu</a></li>
+        <li><a href="https://www.twitch.tv/videos/1968840634?t=0h2m49s" target="_blank">RDU</a> teaming up with <a href="https://www.twitch.tv/videos/1968823939?t=0h24m9s" target="_blank">SuperJJ</a></li>
         <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp</a> teaming up with <a href="https://www.twitch.tv/videos/1967773061?t=0h11m53s" target="_blank">Bofur</a></li>
         <li><a href="https://www.twitch.tv/videos/1968645953?t=0h10m4s" target="_blank">Tyler</a> teaming up with <a href="https://www.twitch.tv/videos/1968642978?t=0h13m28s" target="_blank">DisguisedToast</a></li>
         <li><a href="https://www.twitch.tv/videos/1967772907?t=0h12m5s" target="_blank">Kibler</a> teaming up with <a href="https://www.twitch.tv/videos/1967776257?t=0h8m38s" target="_blank">Bunnyhoppor</a></li>
