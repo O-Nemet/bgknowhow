@@ -20,16 +20,16 @@ include_once('../header.php');
         <li>If the board of player#1 is already enough to win against both boards of the enemy duo team, the empty slots on the board will be filled up with minions from player#2 after the combat has concluded (therefore increasing the damage the losing team takes)</li>
         <li>The duo mode will add at least 4 new mode-exclusive heroes:
             <ul>
-                <li>Cho and Gall featuring the HP "Double Trouble", who always have to be picked both together</li>
-                <li>Madame Goya</li>
-                <li>Flobbidinous Floop</li>
-                <li>Nameless One</li>
+                <li>Cho and Gall featuring the HP "Double Trouble" (<strong>Passive.</strong> Whenever you play a Golden minion, both you and Gall get a triple reward), who always have to be picked both together</li>
+                <li>Madame Goya featuring the HP "Efficient Exchange" (<strong>Pass</strong> a non-Golden minion.)</li>
+                <li>Flobbidinous Floop featuring the HP "Glorious Gloop" (Choose a friendly minion. <strong>Start of Combat:</strong> Transform it into your teammate's highest-Attack minion)</li>
+                <li>Nameless One featuring the HP "" (<strong>Passive. Start of Game:</strong> Copy your teammate's hero power)</li>
             </ul>
         </li>
         <li>The duo mode will add at least 6 new mode-exclusive minions, featuring special abilites designed for the mode:
             <ul>
                 <li>Test</li>
-                <li>Test2</li>
+                <li>Sandy (Tier 6) -</li>
             </ul>
         </li>
         <li>An icon-based ping system for minions and buttons (freeze, level, etc.) has been added to enable voiceless communication options between teammates. The icons available are a question mark, a green check, a red x and a portal symbol</li>
@@ -44,6 +44,7 @@ include_once('../header.php');
     <ul>
         <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp and Bofur</a></li>
     </ul>
+    <br>
     <p>
         Here are a few spoiler pictures of the new heroes and minions (additional images will be added when available):
         <img src="<?= PICTURE_LOCAL ?>images/news/cho_gall.webp" alt="Cho Gall">
