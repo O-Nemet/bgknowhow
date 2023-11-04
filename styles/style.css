@@ -2557,6 +2557,7 @@ body.bgcurves .bgcurves > a,
 body.bgexternal .bgexternal > a,
 body.bgguides .bgguides > a,
 body.bglegends .bglegends > a,
+body.bgnews .bgnews > a,
 body.bgsim .bgsim > a,
 body.bgstrategy .bgstrategy > a {
     color: #8DBDD8 !important;
