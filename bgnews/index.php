@@ -27,7 +27,7 @@ include_once('../header.php');
                 <li><strong>The Nameless One</strong> featuring the HP "" (Passive. Start of Game: Copy your teammate's hero power)</li>
             </ul>
         </li>
-        <li>The duo mode will add at least 11 new mode-exclusive minions, featuring special abilites designed for the mode:
+        <li>The duo mode will add at least 12 new mode-exclusive minions, featuring special abilites designed for the mode:
             <ul>
                 <li><strong>Passenger</strong> (Tier 1, Neutral) - Whenever your team Passes, gain +1/+1.</li>
                 <li><strong>Morgl the Oracle</strong> (Tier 1, Murloc) - The first time this is Passed each turn, gain +3/+3.</li>
