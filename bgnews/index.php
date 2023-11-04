@@ -37,6 +37,7 @@ include_once('../header.php');
                 <li><strong>Plunder Pal</strong> (Tier 3, Pirate) - At the start of your turn, your teammate gains 1 Gold.</li>
                 <li><strong>Long'xin</strong> (Tier 3, Dragon) - At the end of your turn, give your teammate's minions +1 Attack.</li>
                 <li><strong>Archimonde</strong> (Tier 4, Demon) - Battlecry: Minions in your teammate's Tavern have +2/+2 for the rest of the game.</li>
+                <li><strong>Cloning Cuddlgam</strong> (Tier 4, All) - When you buy or Discover this, your teammate also gets a copy.</li>
                 <li><strong>Electron</strong> (Tier 5, Mech) - At the end of your turn, give a minion in your teammate's warband Divine Shield.</li>
                 <li><strong>Benefactor</strong> (Tier 5, Naga) - Spellcraft: Pass a different non-Golden minion.</li>
                 <li><strong>Sandy</strong> (Tier 6, Neutral) - Start of Combat: Transform into a copy of your teammate's highest Health minion.</li>
@@ -53,6 +54,7 @@ include_once('../header.php');
     </p>
     <ul>
         <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp</a> and <a href="https://www.twitch.tv/videos/1967773061?t=0h11m53s" target="_blank">Bofur</a></li>
+        <li><a href="https://www.twitch.tv/videos/1967781979?t=0h3m19s" target="_blank">TrumpSC</a> and Rarran</li>
     </ul>
     <br>
     <p>
@@ -70,6 +72,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/minion_gemcarver.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_orcestra.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_archimonde.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/minion_cuddlgam.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_electron.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_benefactor.webp">
         <img src="<?= PICTURE_LOCAL ?>news/minion_sandy.webp">
