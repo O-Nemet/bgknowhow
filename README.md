@@ -6,7 +6,7 @@ Other than that everything is handled by HTML/CSS supported by PHP for dynamic u
 
 # Installation
 
-There is no fancy build or pipeline setup needed, at the moment. Every push to the master branch will trigger a GitHub action to deploy the master branch to the FTP of the website host. Connections to the MySQL DB and the Blizzard API access is defined in the config directory (overwritten with GitHub secrets during the deployment process). The database definition/data is not part of the source code, yet.
+There is no fancy build or pipeline setup needed, at the moment. Every push to the main branch will trigger a GitHub action to deploy the main branch to the FTP of the website host. Connections to the MySQL DB and the Blizzard API access is defined in the config directory (overwritten with GitHub secrets during the deployment process). The database definition/data is not part of the source code, yet.
 
 [<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/SamKirkland/FTP-Deploy-Action)
 # Technologies used

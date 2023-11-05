@@ -61,7 +61,10 @@ include_once('../header.php');
         <li><a href="https://www.twitch.tv/videos/1967772385?t=0h12m41s" target="_blank">Kripp</a> teaming up with <a href="https://www.twitch.tv/videos/1967773061?t=0h11m53s" target="_blank">Bofur</a></li>
         <li><a href="https://www.twitch.tv/videos/1968645953?t=0h10m4s" target="_blank">Tyler</a> teaming up with <a href="https://www.twitch.tv/videos/1968642978?t=0h13m28s" target="_blank">DisguisedToast</a></li>
         <li><a href="https://www.twitch.tv/videos/1967772907?t=0h12m5s" target="_blank">Kibler</a> teaming up with <a href="https://www.twitch.tv/videos/1967776257?t=0h8m38s" target="_blank">Bunnyhoppor</a></li>
+        <li><a href="https://www.twitch.tv/videos/1968833822?t=0h11m34s" target="_blank">SunBaconRelaxer</a> teaming up with <a href="https://v.douyu.com/show/NVm0WKNJE3BMJeBP" target="_blank">Wtybill</a></li>
+        <li><a href="https://www.twitch.tv/videos/1968873366" target="_blank">Matsuri</a> teaming up with Ahirun</li>
         <li><a href="https://www.twitch.tv/videos/1967781979?t=0h3m19s" target="_blank">TrumpSC</a> teaming up with Rarran</li>
+        <li><a href="https://www.twitch.tv/videos/1968834409?t=0h10m45s" target="_blank">Portia</a> teaming up with Jinbae</li>
         <li><a href="https://www.twitch.tv/videos/1967781548?t=0h3m44s" target="_blank">Tesdey</a> teaming up with ???</li>
     </ul>
     <br>
