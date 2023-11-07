@@ -264,7 +264,7 @@ include_once('../header.php');
         <p>
             High MMR player from the United States.<br><br>
             Mainstay in the US top16.<br><br>
-            LL#4 top24, LL#5 top48, LL#6 top48.
+            LL#4 top24, LL#5 top48, LL#6 top48, LL#11 top8, Winner LL#12.
         </p>
     </div>
     <div>

@@ -3,6 +3,14 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.0">07.11.2023 - Season of Anomalies coming to an end <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The <a href="https://hearthstone.blizzard.com/en-gb/news/24008693/28-0-patch-notes" target="_blank">28.0.0 patch notes</a> have been released. The patch will hit the servers today and it will activate the last 3 anomalies <a class='hoverimage' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a>.
+        <br><br>
+        The patch notes come without any other gameplay changes for the BG mode, but Blizzard does state that until the start of the new BG season (in early December) there won't be any additional anomalies released. Besides that, from now on you are able to toggle any number of BG strikes and boards in your collection, in order to get a random one of your selection for each of your games.
+    </p>
+    <br>
+
     <h3 id="bgduos">04.11.2023 - Battlegrounds Duos announced at BlizzCon <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard just revealed an upcoming two player coop mode for Battlegrounds, which will be released "early in 2024".<br>
@@ -69,7 +77,7 @@ include_once('../header.php');
     </ul>
     <br>
     <p>
-        Here are a few spoiler pictures of the new heroes and minions (additional images will be added when available):
+        Here are the spoiler pictures of the new heroes and minions (additional images will be added when available):
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/hero_cho_gall.webp">
         <img src="<?= PICTURE_LOCAL ?>news/hero_goya.webp">
@@ -96,7 +104,7 @@ include_once('../header.php');
 
     <h3 id="season5ending">03.11.2023 - Season of Anomalies coming to an end <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Observant players have reported that the Blizzard launcher lists the current BG season pass available until the 4th of December. This is a pretty decent indicator that the next BG season will start on December 5th. At the moment it is still unknown if that season will start in vanilla mode or with the return of the Buddy or the Quest system. What is certain though is that everyone's MMR rating will be reset to 0 (your hidden MMR will still be there though) and you will have to purchase a new Battle Pass if you want to be able to select more than two heroes at the start of each match.
+        Observant players have reported that the Blizzard launcher lists the current BG season pass available until the 4th of December. This is a pretty decent indicator that the next BG season will start on December 5th. At the moment it is still unknown if that season will start in vanilla mode or with the return of the Buddy-, the Prize- or the Quest-system. What is certain though is that everyone's MMR rating will be reset to 0 (your hidden MMR will still be there though) and you will have to purchase a new Battle Pass if you want to be able to select more than two heroes at the start of each match.
     </p>
     <br><br>
 </div>
