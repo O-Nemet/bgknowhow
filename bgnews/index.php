@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="patch28.0">07.11.2023 - Season of Anomalies coming to an end <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="patch28.0">07.11.2023 - Patch 28.0.0 incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://hearthstone.blizzard.com/en-gb/news/24008693/28-0-patch-notes" target="_blank">28.0.0 patch notes</a> have been released. The patch will hit the servers today and it will activate the last 3 anomalies <a class='hoverimage' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a>.
         <br><br>
