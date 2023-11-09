@@ -39,7 +39,7 @@ include_once('../header.php');
             <ul>
                 <li><strong>Passenger</strong> (Tier 1, Neutral) - Whenever your team Passes, gain +1/+1.</li>
                 <li><strong>Morgl the Oracle</strong> (Tier 1, Murloc) - The first time this is Passed each turn, gain +3/+3.</li>
-                <li><strong>Fortune-Hunter Flo</strong> (Tier 2, Neutral) - Battlecry: Your teammate gets a Gold Coint.</li>
+                <li><strong>Fortune-Hunter Flo</strong> (Tier 2, Neutral) - Battlecry: Your teammate gets a Gold Coin.</li>
                 <li><strong>Gemcarver Blackthorn</strong> (Tier 2, Quilboar) - Deathrattle: You and your teammate get a Blood Gem.</li>
                 <li><strong>Orc-estra Conductor</strong> (Tier 3, Neutral) - Battlecry: Give a minion +2/+1 (Upgraded for each Orc-estra Conductor your team has played.)</li>
                 <li><strong>Plunder Pal</strong> (Tier 3, Pirate) - At the start of your turn, your teammate gains 1 Gold.</li>
@@ -71,7 +71,7 @@ include_once('../header.php');
         <li><a href="https://www.twitch.tv/videos/1967772907?t=0h12m5s" target="_blank">Kibler</a> teaming up with <a href="https://www.twitch.tv/videos/1967776257?t=0h8m38s" target="_blank">Bunnyhoppor</a></li>
         <li><a href="https://www.twitch.tv/videos/1968833822?t=0h11m34s" target="_blank">SunBaconRelaxer</a> teaming up with <a href="https://v.douyu.com/show/NVm0WKNJE3BMJeBP" target="_blank">Wtybill</a></li>
         <li><a href="https://www.twitch.tv/videos/1968873366" target="_blank">Matsuri</a> teaming up with Ahirun</li>
-        <li><a href="https://www.twitch.tv/videos/1967781979?t=0h3m19s" target="_blank">TrumpSC</a> teaming up with Rarran</li>
+        <li><a href="https://www.twitch.tv/videos/1967781979?t=0h3m19s" target="_blank">TrumpSC</a> teaming up with <a href="https://www.youtube.com/watch?v=Awtq3GR9l80">Rarran</a></li>
         <li><a href="https://www.twitch.tv/videos/1968834409?t=0h10m45s" target="_blank">Portia</a> teaming up with Jinbae</li>
         <li><a href="https://www.twitch.tv/videos/1967781548?t=0h3m44s" target="_blank">Tesdey</a> teaming up with ???</li>
     </ul>
