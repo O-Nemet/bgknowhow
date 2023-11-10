@@ -3,6 +3,16 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.1">10.11.2023 - Patch 28.0.1 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard released <a href="https://us.forums.blizzard.com/en/hearthstone/t/2801-patch-notes/115936" target="_blank">hotfix patch notes</a> including some updated bans for a number of anomalies. For example Mechs will now be banned from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">How to Even??</a> and Demons from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Deep Blue Sooner</a>.
+        <br><br>
+        They also fixed some bugs, including the
+        <del>Evil</del>
+        <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Anomalous Twin</a> anomaly. So there is a high chance for some/most of the recently temporarily deactived anomalies to rejoin the fray. There is also a chance that the <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> bug has been fixed, but that also has to be tested first.
+    </p>
+    <br>
+
     <h3 id="patch28.0">07.11.2023 - Patch 28.0.0 incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://hearthstone.blizzard.com/en-gb/news/24008693/28-0-patch-notes" target="_blank">28.0.0 patch notes</a> have been released. The patch will hit the servers today and it will activate the last 3 anomalies <a class='hoverimage' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a>.
