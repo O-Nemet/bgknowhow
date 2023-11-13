@@ -14,9 +14,21 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“These Anomalies are out TODAY!” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“1 Tip For EVERY Anomaly Part 2” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/BEE0A3xcVYY?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/23fCaellClw?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Back to Basics: When to Level?” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/Of6WSiCw_64?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Back to Basics: The Ultimate Counter Guide in Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/tTXoAFSsmGM?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -29,6 +41,18 @@ include_once('../header.php');
             <h3>“Top 10 WORST Cards in Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/T3o--1N0Y2A?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“What You Can Do With Motley Phalanx” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/xH4eEmDqIKs?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Menagerie Builds Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/OtRsm_j68-8?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
