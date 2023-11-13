@@ -9,7 +9,9 @@ include_once('../header.php');
         <br><br>
         They also fixed some bugs, including the
         <del>Evil</del>
-        <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Anomalous Twin</a> anomaly. So there is a high chance for some/most of the recently temporarily deactived anomalies to rejoin the fray. There is also a chance that the <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> bug has been fixed, but that also has to be tested first.
+        <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Anomalous Twin</a> anomaly. So there is a high chance for some/most of the recently temporarily deactived anomalies to rejoin the fray.
+        <br><br>
+        Unfortunately the omnipresent stat buffing bugs regarding <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> and <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi</a> have not been fixed, yet.
     </p>
     <br>
 
