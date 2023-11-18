@@ -8,7 +8,7 @@ include_once('../header.php');
 </p>
 <br>
 <p>
-    In general Beast compositions utilize the many deathrattle effects available for this minion type and/or different ways of buffing your units during the combat phase. They are pretty self-reliant (do not need another minion type to shine) and neither have a special strength nor weakness against other minion types. All Beast builds can be improved by temporarily utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=95">Reanimating Rattler</a> to Reborn as many Beasts as possible while building up your endgame composition.
+    In general Beast compositions utilize the many deathrattle effects available for this minion type and/or different ways of buffing your units during the combat phase. They are pretty self-reliant (do not need another minion type to shine) and neither have a special strength nor weakness against other minion types. All Beast builds can be improved by temporarily utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible while building up your endgame composition.
 </p>
 <div class="comp_wrapper">
     <h3 id="slamma">Slamma Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -33,7 +33,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Less reliant on Raptor, more suited for Coiler but essentially any reborn or deathrattle summoning minion will do, to trigger the Felstompers. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=95">Reanimating Rattler</a> to Reborn as many Beasts as possible.
+        Less reliant on Raptor, more suited for Coiler but essentially any reborn or deathrattle summoning minion will do, to trigger the Felstompers. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible.
     </p>
     <h3 id="stomperundead">Stomper Undead Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -42,7 +42,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Undeads. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=95">Reanimating Rattler</a> to Reborn as many Beasts as possible.
+        Needs the availability of Undeads. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible.
     </p>
     <!--    <h3 id="leaper">Leaper Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
@@ -51,7 +51,7 @@ include_once('../header.php');
     //    drawBoard($minions);
     //    ?>
     <!--    <p>-->
-    <!--        Very important to taunt the Leaper. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=95">Reanimating Rattler</a> to Reborn as many Beasts as possible.-->
+    <!--        Very important to taunt the Leaper. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible.-->
     <!--    </p>-->
     <h3 id="rylak">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -60,7 +60,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Quilboars. Very important to not play other Deathrattle or Taunt minions. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=95">Reanimating Rattler</a> to Reborn as many Beasts as possible.
+        Needs the availability of Quilboars. Very important to not play other Deathrattle or Taunt minions. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible.
         <!--        <br><br>-->
         <!--        Improves by the availability of Mechs, because Magnetize is the best option to profit from a heavily buffed tavern. Tricky to play, because your board will be rather weak until you triple minions. <a class="hoverimage" href="/bgstrategy/minion/?id=132">Felbat</a> is also an option to buff your board. The Felementals can be replaced by <a class="hoverimage" href="/bgstrategy/minion/?id=106">Annihilan Battlemaster</a> after your HP is low enough or by <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> in the late game.-->
     </p>
