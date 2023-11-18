@@ -15,7 +15,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3 id="aggem">Aggem Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Thrasher', 'Trickster', 'Spearhide', 'Aggem', 'Charly', 'Amalgam'];
+    $board   = ['Reaper', 'Thrasher', 'Trickster', 'Spearhide', 'Aggem', 'Charly', 'Phalanx'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

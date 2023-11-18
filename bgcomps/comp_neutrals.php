@@ -28,7 +28,7 @@ include_once('../header.php');
     </p>
     <h3 id="mythrax">Mythrax Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Mythrax', 'Mythrax', 'Amalgam', 'Amalgam', 'Enchanter', 'Glowscale'];
+    $board   = ['Reaper', 'Mythrax', 'Mythrax', 'Phalanx', 'Phalanx', 'Enchanter', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -55,7 +55,7 @@ include_once('../header.php');
     </p>
     <!--    <h3 id="lightfang">Lightfang Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
-    //    $board   = ['Reaper', '?Collector', 'Amalgam', 'Glowscale', 'Lightfang', 'Lightfang', 'Enchanter'];
+    //    $board   = ['Reaper', '?Collector', 'Phalanx', 'Glowscale', 'Lightfang', 'Lightfang', 'Enchanter'];
     //    $minions = getMinionsForBoard($board);
     //    drawBoard($minions);
     //    ?>

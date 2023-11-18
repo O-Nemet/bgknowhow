@@ -41,7 +41,7 @@ include_once('../header.php');
     </p>
     <h3>Barnstormer Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Barnstormer', 'Barnstormer', 'Amalgam', 'Amalgam', 'Felbat', 'Titus'];
+    $board   = ['Macaw', 'Barnstormer', 'Barnstormer', 'Phalanx', 'Phalanx', 'Felbat', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

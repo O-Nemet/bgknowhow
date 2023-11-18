@@ -19,7 +19,7 @@ include_once('../header.php');
     </p>
     <h3 id="battlecry">Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['*Blade Collector', 'Dealer', 'Brann', 'Courier', 'Courier', '*Peggy Sturdybone', 'Amalgam'];
+    $board   = ['*Blade Collector', 'Dealer', 'Brann', 'Courier', 'Courier', '*Peggy Sturdybone', 'Phalanx'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -28,12 +28,11 @@ include_once('../header.php');
     </p>
     <h3 id="attack">Attack Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Vanessa', 'Vanessa', '*Blade Collector', '*Blade Collector', 'Dealer', 'Dealer', 'Amalgam'];
+    $board   = ['Eliza', 'Eliza', '*Blade Collector', '*Blade Collector', 'Anchor', 'Anchor', 'Phalanx'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
-    </p>
+
     <br>
 </div>
 
