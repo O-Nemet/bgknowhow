@@ -42,7 +42,7 @@ include_once('../header.php');
         </a>
         <p>
             The official Blizzard leaderboards for each of the three regions (US, EU, AP).<br><br>
-            Qualification for the the Lobby Legends tourneys are based on these ladders.
+            Qualification for the Lobby Legends tourneys are based on these ladders.
         </p>
     </div>
     <div>

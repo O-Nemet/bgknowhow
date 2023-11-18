@@ -24,7 +24,7 @@ include_once('../header.php');
     </p>
     <h3 id="tavern">Tavern phase <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The maximum amount of gold available for a turn is capped to 100.
+        The maximum amount of gold available for a turn is capped to 99.
     </p>
     <h3 id="pool">Minion pool <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
