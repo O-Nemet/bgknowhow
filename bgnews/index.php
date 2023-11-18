@@ -3,7 +3,20 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="patch28.1">10.11.2023 - Patch 28.0.1 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="sggs2023">18.11.2023 - Super Girl Gamer Series for Hearthstone Battlegrounds 2023 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The Super Girl Gamer Pro initiative announced a special Battlegrounds tournament open for female players only, featuring a prize pool of $2,500. The tournament will run two qualifiers on December 8th/9th and the finals on Sunday December 10th. Check out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYRm2Xu8EMJwroTyIkcSMJEhfbjFsxRlvU-U3rfqsAvFIfog/viewform" target="_blank">all the information and sign up</a> if you are eligible and ready for the competition.
+        <br><br>
+    </p>
+    <br>
+    <h3 id="patch28.0.2">18.11.2023 - Patch 28.0.2 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard released a second <a href="https://us.forums.blizzard.com/en/hearthstone/t/2802-patch-notes/116446" target="_blank">hotfix</a> today, removing <a class='hoverimage' href="/bgstrategy/anomaly/?id=36">Shackles of the Primus</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=47">Temperance of Aman’Thul</a> from the pool of active anomalies. In addition they adjusted the appearance rates of a few other anomalies and updated some anomaly-related hero bans.
+        <br><br>
+        Also the stat buffing bugs regarding <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> and <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi</a> should be finally fixed now.
+    </p>
+    <br>
+    <h3 id="patch28.0.1">10.11.2023 - Patch 28.0.1 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard released <a href="https://us.forums.blizzard.com/en/hearthstone/t/2801-patch-notes/115936" target="_blank">hotfix patch notes</a> including some updated bans for a number of anomalies. For example Mechs will now be banned from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">How to Even??</a> and Demons from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Deep Blue Sooner</a>.
         <br><br>
