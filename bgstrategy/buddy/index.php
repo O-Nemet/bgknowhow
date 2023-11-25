@@ -41,6 +41,9 @@ if ($selectedId) {
         <div class="card_picture">
             <img src="<?= PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $text ?>">
         </div>
+        <div class="card_flavor">
+            <?= $textGolden ? 'Golden:' : '' ?><br><span class="price_font" style="font-style: normal"><?= $textGolden ?? '' ?></span>
+        </div>
     </div>
 
     <?php
