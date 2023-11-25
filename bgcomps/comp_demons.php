@@ -13,7 +13,7 @@ include_once('../header.php');
 <div class="comp_wrapper">
     <h3 id="tichondrius">Tichondrius Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Mannoroth', 'Malchezaar', 'Malchezaar', 'Rewinder', 'Rewinder', 'Tichondrius', 'Tichondrius'];
+    $board   = ['Malchezaar', 'Malchezaar', 'Rewinder', 'Rewinder', 'S\'thara', 'Tichondrius', 'Tichondrius'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -22,7 +22,7 @@ include_once('../header.php');
     </p>
     <h3 id="urzul">Ur'zul Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Malchezaar', 'Weaver', 'Weaver', 'Rewinder', 'Felbat', 'Ur\'zul', 'Ur\'zul'];
+    $board   = ['Malchezaar', 'S\'thara', 'Weaver', 'Rewinder', 'Felbat', 'Ur\'zul', 'Ur\'zul'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -31,7 +31,7 @@ include_once('../header.php');
     </p>
     <h3 id="trickster">Macaw/Trickster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Macaw', 'Trickster', 'Mannoroth', 'Felbat', 'Felbat', 'Titus'];
+    $board   = ['Macaw', 'Macaw', 'Trickster', 'Trickster', 'Hawkstrider', 'Hawkstrider', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -40,7 +40,7 @@ include_once('../header.php');
     </p>
     <h3 id="demoneye">Feldrake/Murk-Eye Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Leeroy', '*Legion Overseer', '*Legion Overseer', 'Feldrake', 'Murk-Eye', 'Feldrake', 'Leeroy'];
+    $board   = ['Leeroy', '*Legion Overseer', 'Feldrake', 'Murk-Eye', 'Feldrake', 'S\'thara', 'Mur\'ghoul'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
