@@ -1622,7 +1622,7 @@ addthis_toolbox {
     font-family: Georga, sans-serif;
     font-size: 16px;
     font-style: italic;
-    font-weight: normal;
+    font-weight: 700;
     text-align: left;
     color: gold;
     float: none;
@@ -2498,6 +2498,14 @@ root {
 .menu-topic {
     text-transform: uppercase;
     padding-bottom: 8px;
+}
+
+.menu-topic.mobile {
+    padding-left: 4px;
+}
+
+.menu-topic.mobile::before {
+    content: '&#9654;';
 }
 
 .menu_normallink {
