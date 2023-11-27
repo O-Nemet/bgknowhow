@@ -3,18 +3,18 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="patch28.0.3preview">27.11.2023 - Patch 28.0.3 buffs/nerfs preview <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="patch28.0.3preview">27.11.2023 - Patch 28.0.3 preview <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The <a href="https://twitter.com/PlayHearthstone/status/1729198413076455762" target="_blank">PlayHearthstone X account</a> just announced that the full patch notes for patch 28.0.3 (and most likely the patch itself) will hit tomorrow.
+        The <a href="https://twitter.com/PlayHearthstone/status/1729198413076455762" target="_blank">PlayHearthstone X account</a> just announced that the full patch notes for patch 28.0.3 (and most likely the patch itself) will hit tomorrow. These are the planned buffs and nerfs:
         <br><br>
-        <img width="800" src="<?= PICTURE_LOCAL ?>news/patch28.0.3preview.webp">
+        <img width="500" src="<?= PICTURE_LOCAL ?>news/patch28.0.3preview.webp">
     </p>
     <br>
     <h3 id="microtourneys">27.11.2023 - Weekly micro tournaments run on Mobius <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Sonic on the Competitive Battlegrounds Discord announced
+        Sonic on the Competitive Battlegrounds Discord announced a team up with PlayMobius. Together they plan to organize bi-weekly micro tournaments every Wednesday and Saturday each featuring a prize pool between $6 and $15:
         <br><br>
-        <img width="800" src="<?= PICTURE_LOCAL ?>news/sggs2023.png">
+        <img src="<?= PICTURE_LOCAL ?>news/microtourneys.png">
         <br><br>
         For more information check out the Competitive Battlegrounds Discord or the <a href="https://discord.gg/playmobius" target="blank">Mobius Discord</a>.
     </p>
