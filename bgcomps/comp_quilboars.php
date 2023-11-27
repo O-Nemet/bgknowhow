@@ -56,7 +56,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Beasts. <a class="hoverimage" href="/bgstrategy/minion/?id=130">Charlga</a> can usually replace any of the non gem-buffing minions.
+        Needs the availability of Beasts. <a class="hoverimage" href="/bgstrategy/minion/?id=130">Charlga</a> can usually replace any of the non gem-buffing minions. Reborn the Rylak by using <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a>.
     </p>
     <br>
 </div>

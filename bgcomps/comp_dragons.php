@@ -19,7 +19,7 @@ include_once('../header.php');
     <!--    </p>-->
     <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Warpwing', 'Stormbringer', '*Hunter of Gatherers', '*Hunter of Gatherers', 'Kaly', 'Kaly', 'Brann'];
+    $board   = ['Warpwing', 'Warpwing', 'Stormbringer', '*Hunter of Gatherers', 'Kaly', 'Kaly', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

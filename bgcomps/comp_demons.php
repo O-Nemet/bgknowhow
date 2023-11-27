@@ -40,7 +40,7 @@ include_once('../header.php');
     </p>
     <h3 id="demoneye">Feldrake/Murk-Eye Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Leeroy', '*Legion Overseer', 'Feldrake', 'Murk-Eye', 'Feldrake', 'S\'thara', 'Murghoul'];
+    $board   = ['Leeroy', 'Feldrake', 'Murk-Eye', 'Feldrake', '*Legion Overseer', 'S\'thara', 'Murghoul'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

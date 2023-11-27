@@ -35,15 +35,24 @@ include_once('../header.php');
     <p>
         The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
     </p>
-    <h3 id="boogie">Boogie Monster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="teamaster">Tea Master Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Leeroy', 'Reaper', 'Boogie', 'Boogie', 'Murghoul', 'Glowscale', 'Leeroy'];
+    $board   = ['Leeroy', 'Reaper', 'Theo', 'Theo', 'Murghoul', 'Glowscale', 'Phalanx'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
         The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.
     </p>
+    <!--    <h3 id="boogie">Boogie Monster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
+    <!--    --><?php
+    //    $board   = ['Leeroy', 'Reaper', 'Boogie', 'Boogie', 'Murghoul', 'Glowscale', 'Leeroy'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
+    //    ?>
+    <!--    <p>-->
+    <!--        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.-->
+    <!--    </p>-->
     <h3 id="braggart">Braggart KekWait Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Braggart', 'Braggart', 'Braggart', 'Braggart', 'Braggart', 'Braggart', 'Braggart'];
