@@ -12,11 +12,11 @@ include_once('../header.php');
     <br>
     <h3 id="microtourneys">27.11.2023 - Weekly micro tournaments run on Mobius <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Sonic on the Competitive Battlegrounds Discord announced a team up with PlayMobius. Together they plan to organize bi-weekly micro tournaments every Wednesday and Saturday each featuring a prize pool between $6 and $15:
+        Sonic on the Competitive Battlegrounds Discord announced a team up with PlayMobius. Together they plan to organize semiweekly micro tournaments every Wednesday and Saturday, each featuring a prize pool between $6 and $15:
         <br><br>
-        <img src="<?= PICTURE_LOCAL ?>news/microtourneys.png">
+        <img width="1000" src="<?= PICTURE_LOCAL ?>news/microtourneys.webp">
         <br><br>
-        For more information check out the Competitive Battlegrounds Discord or the <a href="https://discord.gg/playmobius" target="blank">Mobius Discord</a>.
+        For more information check out the <a href="https://discord.com/invite/RUsfdacMwA" target="_blank">Competitive Battlegrounds Discord</a> or the <a href="https://discord.gg/playmobius" target="blank">Mobius Discord</a>.
     </p>
     <br>
     <h3 id="sggs2023">19.11.2023 - Super Girl Gamer Series for Hearthstone Battlegrounds 2023 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
