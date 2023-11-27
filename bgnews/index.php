@@ -3,9 +3,27 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.0.3preview">27.11.2023 - Patch 28.0.3 buffs/nerfs preview <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The <a href="https://twitter.com/PlayHearthstone/status/1729198413076455762" target="_blank">PlayHearthstone X account</a> just announced that the full patch notes for patch 28.0.3 (and most likely the patch itself) will hit tomorrow.
+        <br><br>
+        <img width="800" src="<?= PICTURE_LOCAL ?>news/patch28.0.3preview.webp">
+    </p>
+    <br>
+    <h3 id="microtourneys">27.11.2023 - Weekly micro tournaments run on Mobius <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Sonic on the Competitive Battlegrounds Discord announced
+        <br><br>
+        <img width="800" src="<?= PICTURE_LOCAL ?>news/sggs2023.png">
+        <br><br>
+        For more information check out the Competitive Battlegrounds Discord or the <a href="https://discord.gg/playmobius" target="blank">Mobius Discord</a>.
+    </p>
+    <br>
     <h3 id="sggs2023">19.11.2023 - Super Girl Gamer Series for Hearthstone Battlegrounds 2023 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The Super Girl Gamer Pro initiative announced a special Battlegrounds tournament open for female players only, featuring a prize pool of $2,500. The tournament will run two qualifiers on December 8th/9th and the finals on Sunday December 10th. Check out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYRm2Xu8EMJwroTyIkcSMJEhfbjFsxRlvU-U3rfqsAvFIfog/viewform" target="_blank">all the information and sign up</a> if you are eligible and ready for the competition.
+        <br><br>
+        <img width="800" src="<?= PICTURE_LOCAL ?>news/sggs2023.png">
     </p>
     <br>
     <h3 id="patch28.0.2">18.11.2023 - Patch 28.0.2 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -129,6 +147,8 @@ include_once('../header.php');
     <h3 id="season5ending">03.11.2023 - Season of Anomalies coming to an end <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Observant players have reported that the Blizzard launcher lists the current BG season pass available until the 4th of December. This is a pretty decent indicator that the next BG season will start on December 5th. At the moment it is still unknown if that season will start in vanilla mode or with the return of the Buddy-, the Prize- or the Quest-system. What is certain though is that everyone's MMR rating will be reset to 0 (your hidden MMR will still be there though) and you will have to purchase a new Battle Pass if you want to be able to select more than two heroes at the start of each match.
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/season5ending.webp">
     </p>
     <br><br>
 </div>
