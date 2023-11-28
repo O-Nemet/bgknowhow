@@ -5,7 +5,7 @@ require_once('../functions.php');
 const CSV_SEPARATOR  = ';';
 const VERSION        = '0.8.0';
 const BUDDIES_ACTIVE = false;
-const URL_BKH        = '/bgstrategy/';
+const URL_BKH        = 'https://bgknowhow.com/bgstrategy/';
 const URL_PHS        = 'https://playhearthstone.com/battlegrounds/';
 const URL_HPN        = 'https://hearthpwn.com/cards/';
 const URL_HSF        = 'https://hearthstone.fandom.com/wiki/Battlegrounds/';
