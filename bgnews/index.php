@@ -3,6 +3,13 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.2.0preview">29.11.2023 - Patch 28.2 officially announced <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The <a href="https://twitter.com/PlayHearthstone/status/1729198413076455762" target="_blank">PlayHearthstone X account</a> has finally confirmed that the next Battlegrounds season will start on December 5th after patch 28.2 has been deployed on the servers. The patch notes will drop one day earlier on Monday. It seems like only then will we know what they have planned as an anomaly replacement for the next season. Chances are high that we will finally get a new hero, though.
+        <br><br>
+        <img width="960" src="<?= PICTURE_LOCAL ?>news/patch28.2preview.webp">
+    </p>
+    <br>
     <h3 id="patch28.0.3">28.11.2023 - Patch 28.0.3 now live <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://news.blizzard.com/en-gb/hearthstone/24033781/28-0-3-patch-notes" target="_blank">patch notes for 28.0.3</a> have been published and only a couple of hours later Blizzard already deployed it onto the servers. Enjoy the new power of Elementals and Quilboars!
