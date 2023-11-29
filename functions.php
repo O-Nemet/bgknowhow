@@ -13,7 +13,7 @@ if (isset($client_id)) {
 $lastURL = '';
 
 //const IMG_PATH = '/images/';
-const IMG_PATH = '//bgknowhow.com/images/';
+const IMG_PATH = 'https://bgknowhow.com/images/';
 
 const PICTURE_LOCAL                  = IMG_PATH;
 const PICTURE_LOCAL_HERO             = IMG_PATH . '/heroes/';
