@@ -3,6 +3,13 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="season6preview">29.11.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The <a href="https://twitter.com/PlayHearthstone/status/1729924037097218156" target="_blank">PlayHearthstone X account</a> is on fire today and in a suprising move revealed not one, not two, but three new heroes, joining the fray next Tuesday.
+        <br><br>
+        We also get a <a href="https://hearthstone.blizzard.com/en-us/news/24008696" target="_blank">season 6 preview</a> revealing the new Spell mechanic for the upcoming season. They are previewing 3 of the 42 new spells as well as 3 of 32 brand-new minions and spoilering the return of 5 old minions as well as the removal of 33 currently active ones. In the upcoming days several streamers will reveal all new cards bit by bit. Check out the link to Blizzard for a full reveal schedule and the live-streamed gameplay preview event on December 4th.
+    </p>
+    <br>
     <h3 id="patch28.2.0preview">29.11.2023 - Patch 28.2 officially announced <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://twitter.com/PlayHearthstone/status/1729636291203981744" target="_blank">PlayHearthstone X account</a> has finally confirmed that the next Battlegrounds season will start on December 5th after patch 28.2 has been deployed on the servers. The patch notes will drop one day earlier, on Monday. It seems like only then will we know what they have planned as an anomaly replacement for the next season. Chances are high that we will finally get a new hero, though.
