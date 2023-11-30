@@ -38,7 +38,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_hasty_excavation.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_strike_oil.webp">
         <br><br>
-        One spell of your Tier or lower will be available in the Tavern on each refresh, can be bought for its printed gold cost and will remain in your hand until you choose to play it (just like Blood Gems).
+        One spell of your Tier or lower will be available in the Tavern on each refresh, can be bought for its printed gold cost and will remain in your hand until you choose to play it (just like Blood Gems). With 42 spells in total it seems like that there will be 7 spells per Tavern Tier.
     </p>
     <br>
     <h3 id="season6preview">29.11.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
