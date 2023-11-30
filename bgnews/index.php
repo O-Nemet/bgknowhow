@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="season6previewneutrals">30.11.2023 - New and leaving Neutral minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="s6previewneutrals">30.11.2023 - New and leaving Neutral minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Sway Bae posted a <a href="https://www.youtube.com/watch?v=V8BqJcGKhOw" target="_blank">video on YouTube</a> revealing 6 new neutral minions as well as the list of 9 neutral minions leaving when season 6 will go live next Tuesday.
         <br><br>
@@ -18,7 +18,7 @@ include_once('../header.php');
         <a class='hoverimage' href="/bgstrategy/minion/?id=219">Tavern Tipper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=35">Selfless Hero</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=369">Iron Groundskeeper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=212">Reef Explorer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=208">Leeroy the Reckless</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=120">Mythrax the Unraveler</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=242">Tea Master Theotar</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=227">Uther the Lightbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=144">Zapp Slywick</a>.
     </p>
     <br>
-    <h3 id="season6previewspellst1t2">30.11.2023 - Tier 1 and Tier 2 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="s6previewspellst1t2">30.11.2023 - Tier 1 and Tier 2 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Shady Bunny posted a <a href="https://www.youtube.com/watch?v=SoFVFhmtmt0" target="_blank">video on YouTube</a> revealing all upcoming tier 1 and tier 2 spells for season 6, going live on next Tuesday:
         <br><br>
