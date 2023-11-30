@@ -28,6 +28,8 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_fortify.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_pointy_arrow.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_enchanted_lasso.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_recruit_a_trainee.webp">
+        <br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_careful_investment.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_overconfidence.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_chefs_choice.webp">
@@ -36,7 +38,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_hasty_excavation.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_strike_oil.webp">
         <br><br>
-        One spell will be available in the Tavern on each refresh, can be bought for its stated cost (usually for gold) and will remain in your hand until you chose to play it.
+        One spell of your Tier or lower will be available in the Tavern on each refresh, can be bought for its printed gold cost and will remain in your hand until you choose to play it (just like Blood Gems).
     </p>
     <br>
     <h3 id="season6preview">29.11.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
