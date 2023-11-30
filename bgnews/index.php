@@ -18,6 +18,27 @@ include_once('../header.php');
         <a class='hoverimage' href="/bgstrategy/minion/?id=219">Tavern Tipper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=35">Selfless Hero</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=369">Iron Groundskeeper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=212">Reef Explorer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=208">Leeroy the Reckless</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=120">Mythrax the Unraveler</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=242">Tea Master Theotar</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=227">Uther the Lightbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=144">Zapp Slywick</a>.
     </p>
     <br>
+    <h3 id="season6previewspellst1t2">30.11.2023 - Tier 1 and Tier 2 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Shady Bunny posted a <a href="https://www.youtube.com/watch?v=SoFVFhmtmt0" target="_blank">video on YouTube</a> revealing all upcoming tier 1 and tier 2 spells for season 6, going live on next Tuesday:
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_them_apples.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_tavern_dish_banana.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_tavern_coin.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_fortify.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_pointy_arrow.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_enchanted_lasso.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_careful_investment.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_overconfidence.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_chefs_choice.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_lantern_light.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_leaf_through_the_pages.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_hasty_excavation.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_strike_oil.webp">
+        <br><br>
+        One spell will be available in the Tavern on each refresh, can be bought for its stated cost (usually for gold) and will remain in your hand until you chose to play it.
+    </p>
+    <br>
     <h3 id="season6preview">29.11.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://twitter.com/PlayHearthstone/status/1729924037097218156" target="_blank">PlayHearthstone X account</a> is on fire today and in a suprising move revealed not one, not two, but three new heroes, joining the fray next Tuesday.
@@ -55,14 +76,14 @@ include_once('../header.php');
     <br>
     <h3 id="sggs2023">19.11.2023 - Super Girl Gamer Series for Hearthstone Battlegrounds 2023 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The Super Girl Gamer Pro initiative announced a special Battlegrounds tournament open for female players only, featuring a prize pool of $2,500. The tournament will run two qualifiers on December 8th/9th and the finals on Sunday December 10th. Check out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYRm2Xu8EMJwroTyIkcSMJEhfbjFsxRlvU-U3rfqsAvFIfog/viewform" target="_blank">all the information and sign up</a> if you are eligible and ready for the competition.
+        The Super Girl Gamer Pro initiative announced a special Battlegrounds tournament open for female players only, featuring a prize pool of $2,500. The tournament will run two qualifiers on December 8th/9th and the finals on Sunday, December 10th. Check out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYRm2Xu8EMJwroTyIkcSMJEhfbjFsxRlvU-U3rfqsAvFIfog/viewform" target="_blank">all the information and sign up</a> if you are eligible and ready for the competition.
         <br><br>
         <img width="800" src="<?= PICTURE_LOCAL ?>news/sggs2023.png">
     </p>
     <br>
     <h3 id="patch28.0.2">18.11.2023 - Patch 28.0.2 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard released a second <a href="https://us.forums.blizzard.com/en/hearthstone/t/2802-patch-notes/116446" target="_blank">hotfix</a> today, removing <a class='hoverimage' href="/bgstrategy/anomaly/?id=36">Shackles of the Primus</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=47">Temperance of Aman'Thul</a> from the pool of active anomalies. In addition they adjusted the appearance rates of a few other anomalies and updated some anomaly-related hero bans.
+        Blizzard released a second <a href="https://us.forums.blizzard.com/en/hearthstone/t/2802-patch-notes/116446" target="_blank">hotfix</a> today, removing <a class='hoverimage' href="/bgstrategy/anomaly/?id=36">Shackles of the Primus</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=47">Temperance of Aman'Thul</a> from the pool of active anomalies. In addition, they adjusted the appearance rates of a few other anomalies and updated some anomaly-related hero bans.
         <br><br>
         Also the stat buffing bugs regarding <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> and <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi</a> should be finally fixed now.
     </p>
@@ -81,7 +102,7 @@ include_once('../header.php');
 
     <h3 id="patch28.0">07.11.2023 - Patch 28.0.0 incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The <a href="https://hearthstone.blizzard.com/en-gb/news/24008693/28-0-patch-notes" target="_blank">28.0.0 patch notes</a> have been released. The patch will hit the servers today and it will activate the last 3 anomalies <a class='hoverimage' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a>.
+        The <a href="https://hearthstone.blizzard.com/en-gb/news/24008693/28-0-patch-notes" target="_blank">28.0.0 patch notes</a> have been released. The patch will hit the servers today, and it will activate the last 3 anomalies <a class='hoverimage' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a>.
         <br><br>
         The patch notes come without any other gameplay changes for the BG mode, but Blizzard does state that until the start of the new BG season (in early December) there won't be any additional anomalies released. Besides that, from now on you are able to toggle any number of BG strikes and boards in your collection, in order to get a random one of your selection for each of your games.
     </p>
