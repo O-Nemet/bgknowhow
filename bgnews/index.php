@@ -8,6 +8,7 @@ include_once('../header.php');
         <a href="https://www.twitch.tv/portialyn" target="_blank">Portia</a> provided us with the 6 new Undead minions:
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_undeads.jpg">
+        <br><br>
         The Undead minions leaving will be:
         <a class='hoverimage' href="/bgstrategy/minion/?id=273">Rot Hide Gnoll</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=276">Scarlet Skull</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=282">Soulsplitter</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=388">Relentless Sentry</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=389">Sore Loser</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=287">Sister Deathwhisper</a>.
     </p>
@@ -24,7 +25,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_nalaa.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_worgen.webp">
         <br><br>
-        The minions leaving will be:
+        The Neutral minions leaving will be:
         <a class='hoverimage' href="/bgstrategy/minion/?id=219">Tavern Tipper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=35">Selfless Hero</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=369">Iron Groundskeeper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=212">Reef Explorer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=208">Leeroy the Reckless</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=120">Mythrax the Unraveler</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=242">Tea Master Theotar</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=227">Uther the Lightbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=144">Zapp Slywick</a>.
     </p>
     <br>
