@@ -3,6 +3,13 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="s6previewundeads">01.12.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        <a href="https://www.twitch.tv/portialyn" target="_blank">Portia</a> provided us with the 6 new Undead minions:
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_undeads.jpg">
+    </p>
+    <br>
     <h3 id="s6previewneutrals">30.11.2023 - New and leaving Neutral minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Sway Bae posted a <a href="https://www.youtube.com/watch?v=V8BqJcGKhOw" target="_blank">video on YouTube</a> revealing 6 new neutral minions as well as the list of 9 neutral minions leaving when season 6 will go live next Tuesday. These are all 7 currently known neutral minions:
