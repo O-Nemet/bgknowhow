@@ -8,6 +8,8 @@ include_once('../header.php');
         <a href="https://www.twitch.tv/portialyn" target="_blank">Portia</a> provided us with the 6 new Undead minions:
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_undeads.jpg">
+        The Undead minions leaving will be:
+        <a class='hoverimage' href="/bgstrategy/minion/?id=273">Rot Hide Gnoll</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=276">Scarlet Skull</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=282">Soulsplitter</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=388">Relentless Sentry</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=389">Sore Loser</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=287">Sister Deathwhisper</a>.
     </p>
     <br>
     <h3 id="s6previewneutrals">30.11.2023 - New and leaving Neutral minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
