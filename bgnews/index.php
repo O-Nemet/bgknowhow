@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="s6previewundeads">01.12.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="s6previewundeads">01.12.2023 - New Undead minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         <a href="https://www.twitch.tv/portialyn" target="_blank">Portia</a> provided us with the 6 new Undead minions:
         <br><br>
