@@ -5,10 +5,11 @@ include_once('../header.php');
 <div class="news">
     <h3 id="s6previewneutrals">30.11.2023 - New and leaving Neutral minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Sway Bae posted a <a href="https://www.youtube.com/watch?v=V8BqJcGKhOw" target="_blank">video on YouTube</a> revealing 6 new neutral minions as well as the list of 9 neutral minions leaving when season 6 will go live next Tuesday.
+        Sway Bae posted a <a href="https://www.youtube.com/watch?v=V8BqJcGKhOw" target="_blank">video on YouTube</a> revealing 6 new neutral minions as well as the list of 9 neutral minions leaving when season 6 will go live next Tuesday. These are all 7 currently known neutral minions:
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_battler.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_phaerix.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_rodeo.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_matador.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_fungus.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_nalaa.webp">
@@ -20,7 +21,7 @@ include_once('../header.php');
     <br>
     <h3 id="s6previewspellst1t2">30.11.2023 - Tier 1 and Tier 2 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Shady Bunny posted a <a href="https://www.youtube.com/watch?v=SoFVFhmtmt0" target="_blank">video on YouTube</a> revealing all upcoming tier 1 and tier 2 spells for season 6, going live on next Tuesday:
+        Shady Bunny posted a <a href="https://www.youtube.com/watch?v=SoFVFhmtmt0" target="_blank">video on YouTube</a> revealing all upcoming tier 1 and tier 2 spells for season 6 (Recruit a Trainee was already revealed on the Blizz preview), going live on next Tuesday:
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_them_apples.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t1_tavern_dish_banana.webp">
@@ -45,7 +46,11 @@ include_once('../header.php');
     <p>
         The <a href="https://twitter.com/PlayHearthstone/status/1729924037097218156" target="_blank">PlayHearthstone X account</a> is on fire today and in a suprising move revealed not one, not two, but three new heroes, joining the fray next Tuesday.
         <br><br>
-        We also get a <a href="https://hearthstone.blizzard.com/en-us/news/24008696" target="_blank">season 6 preview</a> revealing the new Spell mechanic for the upcoming season. They are previewing 3 of the 42 new spells as well as 3 of 32 brand-new minions and forecasting the return of 5 old minions as well as the removal of 33 currently active ones. In the upcoming days several streamers will reveal all new cards bit by bit. Check out the link to Blizzard for a full reveal schedule and the live-streamed gameplay preview event on December 4th.
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_hero_doctor.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_hero_snake_eyes.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_hero_bloodwatcher.webp">
+        <br><br>
+        We also get a <a href="https://hearthstone.blizzard.com/en-us/news/24008696" target="_blank">season 6 preview</a> revealing the all new Spell mechanic for the upcoming season. They are previewing 3 of the 42 new spells as well as 3 of 32 brand-new minions and forecasting the return of 5 old minions as well as the removal of 33 currently active ones. In the upcoming days several content creators will reveal all new cards bit by bit. Check out the link to Blizzard for a full reveal schedule and the live-streamed gameplay preview event on December 4th.
     </p>
     <br>
     <h3 id="patch28.2.0preview">29.11.2023 - Patch 28.2 officially announced <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
