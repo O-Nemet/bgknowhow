@@ -3,7 +3,19 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="s6previewundeads">01.12.2023 - New Undead minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="s6previewdragons">01.12.2023 - New Dragon minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        TCK Battlegrounds <a href="https://www.twitch.tv/videos/1992325922" target="_blank">streamed</a> the reveal of 4 new Dragon cards as well as 1 new Beast and 1 new Demon:
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_proto.webp" width="327">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_sporebat.webp" width="327">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_smolderer.webp" width="327">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_specialist.webp" width="327">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_beast_sporebat.webp" width="327">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_demon_dealer.webp" width="327">
+    </p>
+    <br>
+    <h3 id="s6previewundeads">01.12.2023 - New and leaving Undead minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         <a href="https://www.twitch.tv/portialyn" target="_blank">Portia</a> provided us with the 6 new Undead minions:
         <br><br>
