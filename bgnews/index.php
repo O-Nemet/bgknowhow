@@ -8,7 +8,7 @@ include_once('../header.php');
         TCK Battlegrounds <a href="https://www.twitch.tv/videos/1992325922" target="_blank">streamed</a> the reveal of 4 new Dragon cards as well as 1 new Beast and 1 new Demon:
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_proto.webp" width="327">
-        <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_sporebat.webp" width="327">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_sandspewer.webp" width="327">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_smolderer.webp" width="327">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_dragon_specialist.webp" width="327">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_beast_sporebat.webp" width="327">
@@ -19,7 +19,7 @@ include_once('../header.php');
     <p>
         <a href="https://www.twitch.tv/portialyn" target="_blank">Portia</a> provided us with the 6 new Undead minions:
         <br><br>
-        <img src="<?= PICTURE_LOCAL ?>news/patch283_undeads.jpg">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_undeads.jpg" width="1000">
         <br><br>
         The Undead minions leaving will be:
         <a class='hoverimage' href="/bgstrategy/minion/?id=273">Rot Hide Gnoll</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=276">Scarlet Skull</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=282">Soulsplitter</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=388">Relentless Sentry</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=389">Sore Loser</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=287">Sister Deathwhisper</a>.
