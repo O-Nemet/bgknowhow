@@ -3,6 +3,22 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="s6previewmedley">02.12.2023 - Additional New, Returning and leaving minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Slysssa posted a <a href="https://www.youtube.com/watch?v=p58w0HPq3Yc" target="_blank">video on YouTube</a> revealing 6 new minions, 1 returning minions as well as the 6 minions leaving when season 6 will go live next Tuesday.
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_elemental_azerite.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_murloc_grimscale.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_mech_lighter.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_mech_trolley.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_pirate_seafarer.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_elemental_dragon_sandstone.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_elemental_master.webp">
+        <br><br>
+        The minions leaving will be:
+        <a class='hoverimage' href="/bgstrategy/minion/?id=23">Kaboom Bot</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=392">Seaborn Summoner</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=338">Stormbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=350">Upbeat Impressionist</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=385">Carbonic Copy</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi, Kitchen Nightmare</a>.
+    </p>
+    <br>
     <h3 id="s6previewdragons">01.12.2023 - New Dragon minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         TCK Battlegrounds <a href="https://www.twitch.tv/videos/1992325922" target="_blank">streamed</a> the reveal of 4 new Dragon cards as well as 1 new Beast and 1 new Demon:
