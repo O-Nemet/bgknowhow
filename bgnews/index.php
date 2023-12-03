@@ -12,6 +12,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_upper_hand.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_dreamers_embrace.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_unmasked_identity.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_jaws_of_fate.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_golden_touch.webp">
         <br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_perfect_vision.webp">
@@ -19,6 +20,8 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_saloons_finest.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_azerite_empowerment.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_sacred_gift.webp">
+        <br><br>
+        With all 42 spells revealed, we now know that each Tier will have 7 different spells, except Tier 4 which will have 9 spells and Tier 6 which will only have 5 spells.
     </p>
     <br>
     <h3 id="s6previewqbnagas">03.12.2023 - New Quilboar and Naga minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -49,6 +52,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_echoing_roar.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_shiny_ring.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_natural_blessing.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_staff_of_enrichment.webp">
         <br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_ritual_of_growth.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_branns_blessing.webp">
