@@ -8,17 +8,17 @@ include_once('../header.php');
         Kripp posted a <a href="https://www.youtube.com/watch?v=CYi342r5_NI" target="_blank">video on YouTube</a> revealing all upcoming spells from Tavern Tiers 5 and 6.
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_armor_stash.webp">
-        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_upper_hand.webp">
-        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_golden_touch.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_buddy_up.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_upper_hand.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_dreamers_embrace.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_unmasked_identity.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_golden_touch.webp">
         <br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_perfect_vision.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_lost_staff_of_hamuul.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_saloons_finest.webp">
-        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_perfect_vision.webp">
-        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_sacred_gift.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_azerite_empowerment.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_sacred_gift.webp">
     </p>
     <br>
     <h3 id="s6previewqbnagas">03.12.2023 - New Quilboar and Naga minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
