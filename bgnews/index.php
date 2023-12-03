@@ -5,7 +5,7 @@ include_once('../header.php');
 <div class="news">
     <h3 id="s6previewqbnagas">03.12.2023 - New Quilboar and Naga minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        CarryPotter posted a <a href="https://www.youtube.com/watch?v=4RF_dyE3F9w" target="_blank">video on YouTube</a> revealing 4 new Quilboars as well as 1 new 2 returning and 2 changed Naga:
+        CarryPotter posted a <a href="https://www.youtube.com/watch?v=4RF_dyE3F9w" target="_blank">video on YouTube</a> revealing 4 new Quilboars as well as 1 new, 2 returning and 2 adjusted Naga.
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_bandit.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_smudger.webp">
@@ -13,16 +13,17 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_roogug.webp">
         <br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_naga_silivaz.webp">
-        <br>
-        <a class='hoverimage' href="/bgstrategy/minion/?id=23">Slitherspear, Lord of Gains</a> will be nerfed.<br>
-        <a class='hoverimage' href="/bgstrategy/minion/?id=392">Critter Wrangler</a> will return.<br>
-        <a class='hoverimage' href="/bgstrategy/minion/?id=338">Daggerspine Thrasher</a> will be nerfed.<br>
+        <br><br>
+        Because many Naga minions naturally profit from spells being played, some of them have been adjusted for season 6:<br>
         <a class='hoverimage' href="/bgstrategy/minion/?id=350">Snail Cavalry</a> will return.
+        <a class='hoverimage' href="/bgstrategy/minion/?id=338">Daggerspine Thrasher</a> has been moved from Tier 3 to Tier 4 and only slightly buffed to a 4/5 minion.<br>
+        <a class='hoverimage' href="/bgstrategy/minion/?id=392">Critter Wrangler</a> will return and will only buff +1/+2 instead of the old +2/+2, but will now trigger on each spell cast instead of only spellcraft casts.<br>
+        <a class='hoverimage' href="/bgstrategy/minion/?id=23">Slitherspear, Lord of Gains</a> has been moved from Tier 5 to Tier 6 and only slightly buffed to a 4/6 minion.<br>
     </p>
     <br>
     <h3 id="s6previewspellst3t4">02.12.2023 - Tier 3 and Tier 4 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Jeef, most likely the very best player of season 5, posted a <a href="https://www.youtube.com/watch?v=JFIzlTtx_PM" target="_blank">video on YouTube</a> revealing and rating all upcoming spells from Tavern Tiers 3 and 4.
+        Jeef, most likely the very best player of season 5, posted a <a href="https://www.youtube.com/watch?v=JFIzlTtx_PM" target="_blank">video on YouTube</a> revealing and even rating all upcoming spells from Tavern Tiers 3 and 4.
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_fleeting_vigor.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_tricky_trousers.webp">
