@@ -3,6 +3,28 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="s6previewspellst3t4">02.12.2023 - Tier 3 and Tier 4 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Most likely the very best player of season 5 posted a <a href="https://www.youtube.com/watch?v=JFIzlTtx_PM" target="_blank">video on YouTube</a> revealing and also rating all upcoming spells from Tavern Tiers 3 and 4.
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_fleeting_vigor.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_tricky_trousers.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_reckless_investment.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_echoing_roar.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_shiny_ring.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_natural_blessing.webp">
+        <br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_ritual_of_growth.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_branns_blessing.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_defenders_rites.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_titus_tribute.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_contracted_corpse.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_misplaced_tea_set.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_primal_staff.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_hired_headhunter.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_planar_telescope.webp">
+    </p>
+    <br>
     <h3 id="s6previewmedley">02.12.2023 - Additional New, Returning and leaving minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Slysssa posted a <a href="https://www.youtube.com/watch?v=p58w0HPq3Yc" target="_blank">video on YouTube</a> revealing 6 new minions, 1 returning minions as well as the 6 minions leaving when season 6 will go live next Tuesday.
@@ -77,7 +99,9 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_hasty_excavation.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t2_strike_oil.webp">
         <br><br>
-        One spell of your Tier or lower will be available in the Tavern on each refresh, can be bought for its printed gold cost and will remain in your hand until you choose to play it (just like Blood Gems). With 42 spells in total it seems like that there will be 7 spells per Tavern Tier.
+        One spell of your Tier or lower will be available in the Tavern on each refresh, can be bought for its printed gold cost and will remain in your hand until you choose to play it (just like Blood Gems). With 42 spells in total
+        <del>it seems like that there will be 7 spells per Tavern Tier</del>
+        .
     </p>
     <br>
     <h3 id="season6preview">29.11.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
