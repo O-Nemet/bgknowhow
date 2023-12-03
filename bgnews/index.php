@@ -3,9 +3,26 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="s6previewqbnagas">03.12.2023 - New Quilboar and Naga minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        CarryPotter posted a <a href="https://www.youtube.com/watch?v=4RF_dyE3F9w" target="_blank">video on YouTube</a> revealing 4 new Quilboars as well as 1 new 2 returning and 2 changed Naga:
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_bandit.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_smudger.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_conductor.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_roogug.webp">
+        <br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_naga_silivaz.webp">
+        <br>
+        <a class='hoverimage' href="/bgstrategy/minion/?id=23">Slitherspear, Lord of Gains</a> will be nerfed.<br>
+        <a class='hoverimage' href="/bgstrategy/minion/?id=392">Critter Wrangler</a> will return.<br>
+        <a class='hoverimage' href="/bgstrategy/minion/?id=338">Daggerspine Thrasher</a> will be nerfed.<br>
+        <a class='hoverimage' href="/bgstrategy/minion/?id=350">Snail Cavalry</a> will return.
+    </p>
+    <br>
     <h3 id="s6previewspellst3t4">02.12.2023 - Tier 3 and Tier 4 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Most likely the very best player of season 5 posted a <a href="https://www.youtube.com/watch?v=JFIzlTtx_PM" target="_blank">video on YouTube</a> revealing and also rating all upcoming spells from Tavern Tiers 3 and 4.
+        Jeef, most likely the very best player of season 5, posted a <a href="https://www.youtube.com/watch?v=JFIzlTtx_PM" target="_blank">video on YouTube</a> revealing and rating all upcoming spells from Tavern Tiers 3 and 4.
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_fleeting_vigor.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t3_tricky_trousers.webp">
@@ -25,9 +42,9 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_planar_telescope.webp">
     </p>
     <br>
-    <h3 id="s6previewmedley">02.12.2023 - Additional New, Returning and leaving minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="s6previewmedley">02.12.2023 - Additional new, returning and leaving minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Slysssa posted a <a href="https://www.youtube.com/watch?v=p58w0HPq3Yc" target="_blank">video on YouTube</a> revealing 6 new minions, 1 returning minions as well as the 6 minions leaving when season 6 will go live next Tuesday.
+        Slysssa posted a <a href="https://www.youtube.com/watch?v=p58w0HPq3Yc" target="_blank">video on YouTube</a> revealing 6 new minions, 1 returning minion as well as the 6 additional minions leaving when season 6 will go live next Tuesday.
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch283_elemental_azerite.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_murloc_grimscale.webp">
