@@ -3,6 +3,24 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="s6previewspellst5t6">03.12.2023 - Tier 5 and Tier 6 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Kripp posted a <a href="https://www.youtube.com/watch?v=CYi342r5_NI" target="_blank">video on YouTube</a> revealing all upcoming spells from Tavern Tiers 5 and 6.
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_armor_stash.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_upper_hand.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_golden_touch.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_buddy_up.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_dreamers_embrace.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t5_unmasked_identity.webp">
+        <br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_lost_staff_of_hamuul.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_saloons_finest.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_perfect_vision.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_sacred_gift.webp">
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t6_azerite_empowerment.webp">
+    </p>
+    <br>
     <h3 id="s6previewqbnagas">03.12.2023 - New Quilboar and Naga minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         CarryPotter posted a <a href="https://www.youtube.com/watch?v=4RF_dyE3F9w" target="_blank">video on YouTube</a> revealing 4 new Quilboars as well as 1 new, 2 returning and 2 adjusted Naga.
@@ -13,7 +31,8 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_quilboar_roogug.webp">
         <img src="<?= PICTURE_LOCAL ?>news/patch283_naga_silivaz.webp">
         <br><br>
-        Because many Naga minions naturally profit from spells being played, some of them have been adjusted for season 6:<br>
+        Because many Naga minions naturally profit from spells being played, some of them have been adjusted for season 6:
+        <br><br>
         <a class='hoverimage' href="/bgstrategy/minion/?id=194">Snail Cavalry</a> will return.<br>
         <a class='hoverimage' href="/bgstrategy/minion/?id=375">Daggerspine Thrasher</a> has been moved from Tier 3 to Tier 4 and only slightly buffed to a 4/5 minion.<br>
         <a class='hoverimage' href="/bgstrategy/minion/?id=205">Critter Wrangler</a> will return and will only buff +1/+2 instead of the old +2/+2, but will now trigger on each spell cast instead of only spellcraft casts.<br>
