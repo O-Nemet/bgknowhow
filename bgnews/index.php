@@ -38,7 +38,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_elemental_master.webp">
         <br><br>
         The minions leaving will be:
-        <a class='hoverimage' href="/bgstrategy/minion/?id=23">Kaboom Bot</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=392">Seaborn Summoner</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=338">Stormbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=350">Upbeat Impressionist</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=385">Carbonic Copy</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi, Kitchen Nightmare</a>.
+        <a class='hoverimage' href="/bgstrategy/minion/?id=23">Kaboom Bot</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=392">Seaborn Summoner</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=338">Stormbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=350">Upbeat Impressionist</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=385">Carbonic Copy</a> and fan favourite <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi, Kitchen Nightmare</a>.
     </p>
     <br>
     <h3 id="s6previewdragons">01.12.2023 - New Dragon minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
