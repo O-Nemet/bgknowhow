@@ -155,7 +155,6 @@ foreach ($tempMinions->data as $key => $object) {
             <th>Tavern Tier</th>
             <th>Number of different spells</th>
             <th>Copies of each spell</th>
-            <th>Copies of each minion</th>
         </tr>
         </thead>
         <tbody>
