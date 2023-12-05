@@ -11,6 +11,9 @@ if (str_contains($page, '/hero/')) {
 } else if (str_contains($page, '/anomaly/')) {
     $unitType  = 'anomaly';
     $unitTypes = 'anomalies';
+} else if (str_contains($page, '/spell/')) {
+    $unitType  = 'spell';
+    $unitTypes = 'spells';
 } else if (str_contains($page, '/minion/')) {
     $unitType  = 'minion';
     $unitTypes = 'minions';
