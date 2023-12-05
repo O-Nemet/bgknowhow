@@ -145,6 +145,53 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
+    <h3 id="spelltiers">Spell Tiers and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+    </p>
+    <br>
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Tavern Tier</th>
+            <th>Number of different spells</th>
+            <th>Copies of each spell</th>
+            <th>Copies of each minion</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>7</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>7</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>9</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        </tbody>
+    </table>
+
     <h3 id="3on3">Tier 2 minions influencing your decision to go 3on3 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         While some heroes like <a class="hoverimage" href='/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo value of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).

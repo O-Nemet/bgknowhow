@@ -7,7 +7,7 @@ include_once('../header.php');
     <p>
         The <a href="https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes" target="_blank">28.2 patch notes</a> have been released. The patch will hit the servers today, and it will kickstart BG Season 6 with the main theme being the Spells mechanic featuring 42 unique spells, split across the six Tavern Tiers.
         <br><br>
-        Several streamers already played a few hours on the new game version, here is a small selection, to watch while waiting until the patch arrives:<br>
+        Several streamers already played a few hours on the new game version, here is a small selection, to watch while waiting until the patch arrives:
         <a href="https://www.twitch.tv/videos/1995099409?t=0h16m42s" target="_blank">RDU</a>, <a href="https://www.twitch.tv/videos/1995108160" target="_blank">Jeef</a>, <a href="https://www.twitch.tv/videos/1995105450?t=0h7m24s" target="_blank">Zorgo</a>, <a href="https://www.twitch.tv/videos/1995095825?t=0h19m18s" target="_blank">Kripp</a>, <a href="https://www.twitch.tv/videos/1995105378?t=0h7m15s" target="_blank">SuperJJ</a>.
         <br><br>
         Also Ridiculous Hat provided a <a href="https://twitter.com/RidiculousHat/status/1731412270394015752" target="_blank">table of minions leaving the game today</a>:
