@@ -42,15 +42,16 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="5"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active BG Entities</a></td>
+            <td colspan="5"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active Battlegrounds Entities</a></td>
         </tr>
         <tr>
-            <td><a href="/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
-            <td><a href="/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
-            <!--            <td><a href="/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
-            <!--            <td><a href="/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>-->
-            <!--            <td><a href="/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>-->
-            <td><a href="/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
+            <td><a href="/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Minions</a></td>
+            <!--            <td><a href="/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>-->
+            <!--            <td><a href="/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
+            <!--            <td><a href="/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
+            <td><a href="/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_spells_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Spells</a></td>
         </tr>
         </tbody>
     </table>
@@ -66,15 +67,16 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="6"><a href="/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All BG Entities</a></td>
+            <td colspan="6"><a href="/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All Battlegrounds Entities</a></td>
         </tr>
         <tr>
-            <td><a href="/bgjson/output/bg_heroes_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
-            <td><a href="/bgjson/output/bg_minions_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
-            <td><a href="/bgjson/output/bg_buddies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
-            <td><a href="/bgjson/output/bg_quests_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
-            <td><a href="/bgjson/output/bg_rewards_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
-            <td><a href="/bgjson/output/bg_anomalies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_heroes_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Heroes</a></td>
+            <td><a href="/bgjson/output/bg_minions_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Minions</a></td>
+            <td><a href="/bgjson/output/bg_buddies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Buddies</a></td>
+            <td><a href="/bgjson/output/bg_quests_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Quests</a></td>
+            <td><a href="/bgjson/output/bg_rewards_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Rewards</a></td>
+            <td><a href="/bgjson/output/bg_anomalies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_spells_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Spells</a></td>
         </tr>
         </tbody>
     </table>
@@ -90,12 +92,13 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Heroes</a></td>
-            <td><a href="/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Minions</a></td>
-            <!--            <td><a href="/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Buddies</a></td>-->
-            <!--            <td><a href="/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Quests</a></td>-->
-            <!--            <td><a href="/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Rewards</a></td>-->
-            <td><a href="/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active BG Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
+            <td><a href="/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Minions</a></td>
+            <!--            <td><a href="/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>-->
+            <!--            <td><a href="/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
+            <!--            <td><a href="/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
+            <td><a href="/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_spells_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Spells</a></td>
         </tr>
         </tbody>
     </table>
@@ -111,12 +114,13 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td><a href="/bgjson/output/bg_heroes_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Heroes</a></td>
-            <td><a href="/bgjson/output/bg_minions_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Minions</a></td>
-            <td><a href="/bgjson/output/bg_buddies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Buddies</a></td>
-            <td><a href="/bgjson/output/bg_quests_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Quests</a></td>
-            <td><a href="/bgjson/output/bg_rewards_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Rewards</a></td>
-            <td><a href="/bgjson/output/bg_anomalies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All BG Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_heroes_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Heroes</a></td>
+            <td><a href="/bgjson/output/bg_minions_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Minions</a></td>
+            <td><a href="/bgjson/output/bg_buddies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Buddies</a></td>
+            <td><a href="/bgjson/output/bg_quests_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Quests</a></td>
+            <td><a href="/bgjson/output/bg_rewards_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Rewards</a></td>
+            <td><a href="/bgjson/output/bg_anomalies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Anomalies</a></td>
+            <td><a href="/bgjson/output/bg_spells_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Spells</a></td>
         </tr>
         </tbody>
     </table>
@@ -127,6 +131,8 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <!--        <li>05.12.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes" target="_blank">28.2.0</a> patch notes.</li>-->
+        <li>05.12.2023 - Added spells as a new BG entity and inserted all 42 spells from the <a href="https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes" target="_blank">28.2.0</a> patch notes.</li>
         <li>28.11.2023 - Added BG changes from the <a href="https://news.blizzard.com/en-us/hearthstone/24033781/28-0-3-patch-notes" target="_blank">28.0.3</a> patch notes.</li>
         <li>26.10.2023 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2762-patch-notes/115062" target="_blank">27.6.2</a> patch notes.</li>
         <li>18.10.2023 - Added BG changes from the <a href="https://news.blizzard.com/en-us/hearthstone/23989479/27-6-patch-notes" target="_blank">27.6.0</a> patch notes.</li>

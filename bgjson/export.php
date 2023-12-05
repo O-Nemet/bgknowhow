@@ -751,6 +751,106 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
     echo 'Anomalies select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
 }
 
+// generate spells files
+if ($stmt = $mysqli->prepare("SELECT bgs.id,
+                                     bgs.name,
+                                     bgs.tier,
+                                     bgs.cost,
+                                     bgs.text,
+                                     bgs.id_blizzard,
+                                     bgs.id_playhs,
+                                     bgs.id_hpwn,
+                                     bgs.flag_active
+                                FROM bg_spells bgs
+     --                          WHERE bgh.flag_active = ?
+                            ORDER BY bgs.tier, bgs.cost ASC")) {
+    #$stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $tier, $cost, $text, $blizzardId, $playhsId, $hpwnId, $isActive);
+
+    $row_count = $stmt->num_rows;
+
+    $csvHeader           =
+        'Name' . CSV_SEPARATOR .
+        'Tier' . CSV_SEPARATOR .
+        'Cost' . CSV_SEPARATOR .
+        'Text' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
+        'Picture link' . CSV_SEPARATOR .
+        'Active' . PHP_EOL;
+    $csvDataSpells       = $csvHeader;
+    $csvDataSpellsActive = $csvHeader;
+    $csvData             = '';
+
+    // json metadata
+    $spells['meta']['date']          = date("Y-m-d");
+    $spells['meta']['version']       = VERSION;
+    $spellsActive['meta']['date']    = date("Y-m-d");
+    $spellsActive['meta']['version'] = VERSION;
+
+    $i = 0;
+    $j = 0;
+    while ($stmt->fetch()) {
+        $csvData =
+            $name . CSV_SEPARATOR .
+            $tier . CSV_SEPARATOR .
+            $cost . CSV_SEPARATOR .
+            (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
+            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
+            (bool)$isActive . PHP_EOL;
+
+        $csvDataSpells .= $csvData;
+
+        $spells['data'][$i]['name']    = $name;
+        $spells['data'][$i]['tier']    = $tier;
+        $spells['data'][$i]['cost']    = $cost;
+        $spells['data'][$i]['text']    = $text;
+        $spells['data'][$i]['id']      = $blizzardId;
+        $spells['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+//        $spells['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $spells['data'][$i]['websites']['blizzard']  = ($playhsId ? URL_PHS . $playhsId : null);
+        $spells['data'][$i]['websites']['bgknowhow'] = URL_BKH . 'spell/?id=' . $id;
+        $spells['data'][$i]['websites']['fandom']    = URL_HSF . str_replace(' ', '_', $name);
+        $spells['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
+        $spells['data'][$i]['isActive']              = (bool)$isActive;
+
+        if ($isActive) {
+            $csvDataSpellsActive      .= $csvData;
+            $spellsActive['data'][$j] = $spells['data'][$i];
+
+            $j++;
+        }
+
+        $i++;
+    }
+
+    $stmt->free_result();
+    $stmt->close();
+
+    $csvFile = 'output/bg_spells_all.csv';
+    file_put_contents($csvFile, $csvDataSpells);
+    echo 'Written file ' . $csvFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $csvFile = 'output/bg_spells_active.csv';
+    file_put_contents($csvFile, $csvDataSpellsActive);
+    echo 'Written file ' . $csvFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+    $jsonFile = 'output/bg_spells_all.json';
+    $jsonData = json_encode($spells);
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $jsonData = json_encode($spellsActive);
+    $jsonFile = 'output/bg_spells_active.json';
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+} else {
+    echo 'Spells select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
+}
+
 
 // json metadata
 $allEntities['meta']['date']    = date("Y-m-d");
@@ -762,6 +862,7 @@ unset($buddies['meta']);
 unset($quests['meta']);
 unset($rewards['meta']);
 unset($anomalies['meta']);
+unset($spells['meta']);
 
 $allEntities['data']['heroes']    = $heroes['data'];
 $allEntities['data']['minions']   = $minions['data'];
@@ -769,6 +870,7 @@ $allEntities['data']['buddies']   = $buddies['data'];
 $allEntities['data']['quests']    = $quests['data'];
 $allEntities['data']['rewards']   = $rewards['data'];
 $allEntities['data']['anomalies'] = $anomalies['data'];
+$allEntities['data']['spells']    = $spells['data'];
 
 $jsonFile = 'output/bg_entities_all.json';
 $jsonData = json_encode($allEntities);
@@ -785,6 +887,7 @@ unset($buddiesActive['meta']);
 unset($questsActive['meta']);
 unset($rewardsActive['meta']);
 unset($anomaliesActive['meta']);
+unset($spellsActive['meta']);
 
 $allEntitiesActive['data']['heroes']  = $heroesActive['data'];
 $allEntitiesActive['data']['minions'] = $minionsActive['data'];
@@ -792,6 +895,7 @@ $allEntitiesActive['data']['minions'] = $minionsActive['data'];
 @$allEntitiesActive['data']['quests'] = $questsActive['data'];
 @$allEntitiesActive['data']['rewards'] = $rewardsActive['data'];
 @$allEntitiesActive['data']['anomalies'] = $anomaliesActive['data'];
+@$allEntitiesActive['data']['spells'] = $spellsActive['data'];
 
 $jsonFile = 'output/bg_entities_active.json';
 $jsonData = json_encode($allEntitiesActive);
