@@ -262,7 +262,6 @@ function getEntityData($selectedId, $unitType)
                                      bgs.name,
                                      bgs.tier,
                                      bgs.cost,
-                                     bgs.type,
                                      bgs.text,
                                      bgs.id_blizzard,
                                      bgs.flag_active,
