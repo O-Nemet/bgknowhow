@@ -293,6 +293,45 @@ if (!empty($buddy)) {
         <?php
     }
 
+    if ($show == 'spells' || $show == 'all') {
+        echo '<h2 class="page_title">Spells</h2>';
+        echo '<p>One spell from your Tier or lower will be present in the Tavern on each refresh.</p>';
+    }
+
+    if ($show == 'spells' && $mode == 'gfx') {
+        echo "<div class='strategy-images spells cf'>";
+        foreach ($spells as $spell) {
+            echo "<div><a href='" . $spell->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $spell->name . "</span></a></div>";
+        }
+        echo "</div><br><br>";
+    } else if ($show == 'spells' || $show == 'all') {
+        ?>
+        <br>
+        <table class="strategy-table">
+            <thead>
+            <tr>
+                <th colspan="2">Spells</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Text</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+            foreach ($spells as $spell) {
+                echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $spell->websites->bgknowhow . '\'">';
+                echo "<td>$spell->name</td>";
+                echo "<td class='text' title='" . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'>$spell->text</td>";
+                echo "</tr>";
+            }
+            ?>
+            </tbody>
+        </table>
+        <br>
+        <?php
+    }
+
     if ($show == 'quests' || $show == 'all') {
         echo '<h2 class="page_title">Quests</h2>';
         echo '<p>Quests are offered at the beginning of turn 4 (6 gold). The quest texts utilize placeholders like {0} (for example in the text "Spend {0} Gold."), which are replaced by an actual numeric value based on the armor value of the hero you are playing (heroes with more base armor will receive easier to complete quests) and the minion types in the lobby. The baseline value for each quest is documented on the details page.</p>';

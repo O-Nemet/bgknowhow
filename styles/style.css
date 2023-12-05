@@ -2908,7 +2908,7 @@ body.bgstrategy .bgstrategy > a {
     /*margin-bottom: 100px;*/
 }
 
-.strategy-images.buddies, .strategy-images.anomalies {
+.strategy-images.buddies, .strategy-images.anomalies, .strategy-images.spells {
     margin-left: 30px;
     /*margin-bottom: 100px;*/
 }
@@ -2918,6 +2918,10 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .strategy-images.anomalies div {
+    height: 320px;
+}
+
+.strategy-images.spells div {
     height: 320px;
 }
 
@@ -2996,6 +3000,10 @@ body.bgstrategy .bgstrategy > a {
     width: 240px;
 }
 
+.strategy-images.spells img {
+    width: 240px;
+}
+
 .strategy-images img:hover {
     filter: contrast(130%);
     transform: scale(1.25);
@@ -3010,6 +3018,14 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .strategy-images.anomalies span {
+    display: block;
+    margin-top: -43px;
+    margin-left: 28px;
+    color: green;
+    font-weight: bold;
+}
+
+.strategy-images.spells span {
     display: block;
     margin-top: -43px;
     margin-left: 28px;
