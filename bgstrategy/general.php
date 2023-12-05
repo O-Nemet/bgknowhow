@@ -136,8 +136,8 @@ foreach ($tempMinions->data as $key => $object) {
             echo "    <td>" . $minion_count['Pirate'][$i] . " (" . ($minion_pool['Pirate'][$i] - $minion_count['Pirate'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Quilboar'][$i] . " (" . ($minion_pool['Quilboar'][$i] - $minion_count['Quilboar'][$i]) . ")</td>";
             echo "    <td>" . $minion_count['Undead'][$i] . " (" . ($minion_pool['Undead'][$i] - $minion_count['Undead'][$i]) . ")</td>";
-            echo "    <td>" . $minion_count['None'][$i] . "</td>";
-//            echo "    <td>" . (($i == 1) ? 0 : $minion_count['None'][$i]) . "</td>";
+//            echo "    <td>" . $minion_count['None'][$i] . "</td>";
+            echo "    <td>" . (($i == 1) ? 0 : $minion_count['None'][$i]) . "</td>";
             echo "    <td>" . $minion_count['Total'][$i] . "</td>";
             echo "</tr>";
         }

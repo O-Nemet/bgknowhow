@@ -244,13 +244,12 @@ if (!empty($buddy)) {
         <?php
     }
 
-
     // Odds for Secrets of Norgannon
     $numberOfAnomalies = 0;
     foreach ($tempAnomalies->data as $key => $object) {
-        if ($object->isActive) {
+//        if ($object->isActive) {
             $numberOfAnomalies++;
-        }
+//        }
     }
 
     if ($show == 'anomalies' || $show == 'all') {
