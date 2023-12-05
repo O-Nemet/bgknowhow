@@ -3,7 +3,7 @@ require_once('../config/db.php');
 require_once('../functions.php');
 
 const CSV_SEPARATOR  = ';';
-const VERSION        = '0.8.0';
+const VERSION        = '0.9.0';
 const BUDDIES_ACTIVE = false;
 const URL_BKH        = 'https://bgknowhow.com/bgstrategy/';
 const URL_PHS        = 'https://playhearthstone.com/battlegrounds/';
