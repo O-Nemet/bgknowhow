@@ -299,7 +299,7 @@ if (!empty($buddy)) {
 
     if ($show == 'spells' || $show == 'all') {
         echo '<h2 class="page_title">Spells</h2>';
-        echo '<p>One spell from your Tier or lower will be present in the Tavern on each refresh.<br><br></p>';
+        echo '<p style="margin-bottom: 40px;">One spell from your Tier or lower will be present in the Tavern on each refresh.<br><br></p>';
     }
 
     if ($show == 'spells' && $mode == 'gfx') {
