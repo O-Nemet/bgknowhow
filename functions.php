@@ -165,6 +165,8 @@ function getWebsiteTitle(): string
         $title .= 'Strategy Heroes';
     } else if (strpos($page, '/bgstrategy/show=minions') !== false) {
         $title .= 'Strategy Minions';
+    } else if (strpos($page, '/bgstrategy/show=spells') !== false) {
+        $title .= 'Strategy Spells';
     } else if (strpos($page, '/bgstrategy/show=anomalies') !== false) {
         $title .= 'Strategy Anomalies';
     } else if (strpos($page, '/bgstrategy/show=buddies') !== false) {
@@ -177,6 +179,8 @@ function getWebsiteTitle(): string
         $title .= 'Strategy Hero';
     } else if (strpos($page, '/bgstrategy/minion/') !== false) {
         $title .= 'Strategy Minion';
+    } else if (strpos($page, '/bgstrategy/spell/') !== false) {
+        $title .= 'Strategy Spell';
     } else if (strpos($page, '/bgstrategy/anomaly/') !== false) {
         $title .= 'Strategy Anomaly';
     } else if (strpos($page, '/bgstrategy/buddy/') !== false) {
@@ -248,6 +252,23 @@ function getEntityData($selectedId, $unitType)
                                      bga.artist
                                 FROM bg_anomalies bga
                                WHERE bga.id = ?
+                               LIMIT 1")) {
+            $stmt->bind_param("i", $selectedId);
+            $stmt->execute();
+            $stmt->store_result();
+        }
+    } else if ($unitType == 'spell') {
+        if ($stmt = $mysqli->prepare("SELECT bgs.id,
+                                     bgs.name,
+                                     bgs.tier,
+                                     bgs.cost,
+                                     bgs.type,
+                                     bgs.text,
+                                     bgs.id_blizzard,
+                                     bgs.flag_active,
+                                     bgs.artist
+                                FROM bg_spells bgs
+                               WHERE bgs.id = ?
                                LIMIT 1")) {
             $stmt->bind_param("i", $selectedId);
             $stmt->execute();

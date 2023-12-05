@@ -17,7 +17,7 @@ if ($selectedStrat && $selectedVote) {
 if ($selectedId) {
     $stmt = getEntityData($selectedId, $unitType);
 
-    $stmt->bind_result($selectedId, $name, $type, $text, $blizzardId, $isActive, $artist);
+    $stmt->bind_result($selectedId, $name, $tier, $cost, $type, $text, $blizzardId, $isActive, $artist);
 
     $stmt->fetch()
     ?>
