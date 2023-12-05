@@ -50,6 +50,7 @@ if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
 $tempHeroes    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
 $tempMinions   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
 $tempAnomalies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_anomalies_all.json'));
+$tempSpells    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_spells_all.json'));
 $tempBuddies   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
 $tempQuests    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_quests_all.json'));
 $tempRewards   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_rewards_all.json'));
@@ -67,6 +68,7 @@ foreach ($tempHeroes->data as $key => $object) {
 foreach ($tempAnomalies->data as $key => $object) {
     $hoverImages = $hoverImages . "{name:'" . addslashes($object->name) . "',shortname:'" . addslashes($object->name) . "',id:'$object->id',type:'A'},";
 }
+// TODO: Add spells
 $hoverImages = rtrim($hoverImages, ',');
 
 function isLoggedIn(): bool

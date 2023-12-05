@@ -7,6 +7,7 @@ include_once('../header.php');
 $minion  = $_GET['minion'] ?? '';
 $buddy   = $_GET['buddy'] ?? '';
 $anomaly = $_GET['anomaly'] ?? '';
+$spell   = $_GET['spell'] ?? '';
 $quest   = $_GET['quest'] ?? '';
 $reward  = $_GET['reward'] ?? '';
 
@@ -59,6 +60,10 @@ if (!empty($buddy)) {
 
     foreach ($tempAnomalies->data as $key => $object) {
         $anomalies[] = $object;
+    }
+
+    foreach ($tempSpells->data as $key => $object) {
+        $spells[] = $object;
     }
 
     foreach ($tempQuests->data as $key => $object) {
@@ -248,7 +253,7 @@ if (!empty($buddy)) {
     $numberOfAnomalies = 0;
     foreach ($tempAnomalies->data as $key => $object) {
 //        if ($object->isActive) {
-            $numberOfAnomalies++;
+        $numberOfAnomalies++;
 //        }
     }
 
@@ -256,7 +261,7 @@ if (!empty($buddy)) {
         echo '<h2 class="page_title">Anomalies</h2>';
         echo '<p>One anomaly is randomly choosen from the pool of active anomalies before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with currently ' . $numberOfAnomalies . ' different anomalies active any anomaly would have a chance of ' . number_format(100 / $numberOfAnomalies, 2) . '% to be active, but due to this special rule \'Secrets\' has a 5/' . $numberOfAnomalies + 4 . ' or ' . number_format(5 / ($numberOfAnomalies + 4) * 100, 2) . '% chance and any other anomaly a 1/' . $numberOfAnomalies + 4 . ' or ' . number_format(1 / ($numberOfAnomalies + 4) * 100, 2) . '% chance to show up. Three new anomalies will be added to the pool every week and feature an increased appearance rate until the next release.
         <br><br>Depending on the anomaly, some heroes, minion types or even single minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).
-        <br><br>On 07.11. the last three anomalies <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a> were added and will have a "increased" appearance rate for at least a week.</p>';
+        <br><br>On 07.11. the last three anomalies <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a> were added and will have an "increased" appearance rate for at least a week.</p>';
     }
 
     if ($show == 'anomalies' && $mode == 'gfx') {
