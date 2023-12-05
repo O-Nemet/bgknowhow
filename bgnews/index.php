@@ -3,6 +3,15 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.2.0">05.12.2023 - Patch 28.2.0 incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The <a href="https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes" target="_blank">28.2 patch notes</a> have been released. The patch will hit the servers today, and it will kickstart BG Season 6 with the main theme being the Spells mechanic featuring 42 unique spells, split across the six Tavern Tiers.
+        <br><br>
+        Also Ridiculous Hat provided a <a href="https://twitter.com/RidiculousHat/status/1731412270394015752" target="_blank">table of minions leaving the game today</a>:
+        <img src="<?= PICTURE_LOCAL ?>news/patch283_minions_leaving.png">
+    </p>
+    <br>
+
     <h3 id="s6previewspellst5t6">03.12.2023 - Tier 5 and Tier 6 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Kripp posted a <a href="https://www.youtube.com/watch?v=CYi342r5_NI" target="_blank">video on YouTube</a> revealing all upcoming spells from Tavern Tiers 5 and 6.
@@ -24,6 +33,7 @@ include_once('../header.php');
         With all 42 spells revealed, we now know that each Tier will have 7 different spells, except Tier 4 which will have 9 spells and Tier 6 which will only have 5 spells.
     </p>
     <br>
+
     <h3 id="s6previewqbnagas">03.12.2023 - New Quilboar and Naga minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         CarryPotter posted a <a href="https://www.youtube.com/watch?v=4RF_dyE3F9w" target="_blank">video on YouTube</a> revealing 4 new Quilboars as well as 1 new, 2 returning and 2 adjusted Naga.
@@ -42,6 +52,7 @@ include_once('../header.php');
         <a class='hoverimage' href="/bgstrategy/minion/?id=419">Slitherspear, Lord of Gains</a> has been moved from Tier 5 to Tier 6 and only slightly buffed to a 4/6 minion.
     </p>
     <br>
+
     <h3 id="s6previewspellst3t4">02.12.2023 - Tier 3 and Tier 4 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Jeef, most likely the very best player of season 5, posted a <a href="https://www.youtube.com/watch?v=JFIzlTtx_PM" target="_blank">video on YouTube</a> revealing and even rating all upcoming spells from Tavern Tiers 3 and 4.
@@ -65,6 +76,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_spells_t4_planar_telescope.webp">
     </p>
     <br>
+
     <h3 id="s6previewmedley">02.12.2023 - Additional new, returning and leaving minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Slysssa posted a <a href="https://www.youtube.com/watch?v=p58w0HPq3Yc" target="_blank">video on YouTube</a> revealing 6 new minions, 1 returning minion as well as the 6 additional minions leaving when season 6 will go live next Tuesday.
@@ -81,6 +93,7 @@ include_once('../header.php');
         <a class='hoverimage' href="/bgstrategy/minion/?id=23">Kaboom Bot</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=392">Seaborn Summoner</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=338">Stormbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=350">Upbeat Impressionist</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=385">Carbonic Copy</a> and fan favourite <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi, Kitchen Nightmare</a>.
     </p>
     <br>
+
     <h3 id="s6previewdragons">01.12.2023 - New Dragon minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         TCK Battlegrounds <a href="https://www.twitch.tv/videos/1992325922" target="_blank">streamed</a> the reveal of 4 new Dragon cards as well as 1 new Beast and 1 new Demon:
@@ -93,6 +106,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_demon_dealer.webp" width="327">
     </p>
     <br>
+
     <h3 id="s6previewundeads">01.12.2023 - New and leaving Undead minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         <a href="https://www.twitch.tv/portialyn" target="_blank">Portia</a> provided us with the 6 new Undead minions:
@@ -103,6 +117,7 @@ include_once('../header.php');
         <a class='hoverimage' href="/bgstrategy/minion/?id=273">Rot Hide Gnoll</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=276">Scarlet Skull</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=282">Soulsplitter</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=388">Relentless Sentry</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=389">Sore Loser</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=287">Sister Deathwhisper</a>.
     </p>
     <br>
+
     <h3 id="s6previewneutrals">30.11.2023 - New and leaving Neutral minions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Sway Bae posted a <a href="https://www.youtube.com/watch?v=V8BqJcGKhOw" target="_blank">video on YouTube</a> revealing 6 new neutral minions as well as the list of 9 neutral minions leaving when season 6 will go live next Tuesday. These are all 7 currently known neutral minions:
@@ -119,6 +134,7 @@ include_once('../header.php');
         <a class='hoverimage' href="/bgstrategy/minion/?id=219">Tavern Tipper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=35">Selfless Hero</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=369">Iron Groundskeeper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=212">Reef Explorer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=208">Leeroy the Reckless</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=120">Mythrax the Unraveler</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=242">Tea Master Theotar</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=227">Uther the Lightbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=144">Zapp Slywick</a>.
     </p>
     <br>
+
     <h3 id="s6previewspellst1t2">30.11.2023 - Tier 1 and Tier 2 Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Shady Bunny posted a <a href="https://www.youtube.com/watch?v=SoFVFhmtmt0" target="_blank">video on YouTube</a> revealing all upcoming tier 1 and tier 2 spells for season 6 (Recruit a Trainee was already revealed on the Blizz preview), going live on next Tuesday:
@@ -144,6 +160,7 @@ include_once('../header.php');
         .
     </p>
     <br>
+
     <h3 id="season6preview">29.11.2023 - Battlegrounds Season 6 officially announced! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://twitter.com/PlayHearthstone/status/1729924037097218156" target="_blank">PlayHearthstone X account</a> is on fire today and in a suprising move revealed not one, not two, but three new heroes, joining the fray next Tuesday.
@@ -155,6 +172,7 @@ include_once('../header.php');
         We also get a <a href="https://hearthstone.blizzard.com/en-us/news/24008696" target="_blank">season 6 preview</a> revealing the all new Spell mechanic for the upcoming season. They are previewing 3 of the 42 new spells as well as 3 of 32 brand-new minions and forecasting the return of 5 old minions as well as the removal of 33 currently active ones. In the upcoming days several content creators will reveal all new cards bit by bit. Check out the link to Blizzard for a full reveal schedule and the live-streamed gameplay preview event on December 4th.
     </p>
     <br>
+
     <h3 id="patch28.2.0preview">29.11.2023 - Patch 28.2 officially announced <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://twitter.com/PlayHearthstone/status/1729636291203981744" target="_blank">PlayHearthstone X account</a> has finally confirmed that the next Battlegrounds season will start on December 5th after patch 28.2 has been deployed on the servers. The patch notes will drop one day earlier, on Monday. It seems like only then will we know what they have planned as an anomalies replacement for the next season. Chances are high that we will finally get a new hero, though.
@@ -162,11 +180,13 @@ include_once('../header.php');
         <img width="960" src="<?= PICTURE_LOCAL ?>news/patch28.2preview.webp">
     </p>
     <br>
+
     <h3 id="patch28.0.3">28.11.2023 - Patch 28.0.3 now live <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://news.blizzard.com/en-gb/hearthstone/24033781/28-0-3-patch-notes" target="_blank">patch notes for 28.0.3</a> have been published and only a couple of hours later Blizzard already deployed it onto the servers. Enjoy the new power of Elementals and Quilboars!
     </p>
     <br>
+
     <h3 id="patch28.0.3preview">27.11.2023 - Patch 28.0.3 preview <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://twitter.com/PlayHearthstone/status/1729198413076455762" target="_blank">PlayHearthstone X account</a> just announced that the full patch notes for patch 28.0.3 (and most likely the patch itself) will hit tomorrow. These are the planned buffs and nerfs:
@@ -174,6 +194,7 @@ include_once('../header.php');
         <img width="500" src="<?= PICTURE_LOCAL ?>news/patch28.0.3preview.webp">
     </p>
     <br>
+
     <h3 id="microtourneys">27.11.2023 - Weekly micro tournaments run on Mobius <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Sonic on the Competitive Battlegrounds Discord announced a team up with PlayMobius. Together they plan to organize semiweekly micro tournaments every Wednesday and Saturday, each featuring a prize pool between $6 and $15:
@@ -183,6 +204,7 @@ include_once('../header.php');
         For more information check out the <a href="https://discord.com/invite/RUsfdacMwA" target="_blank">Competitive Battlegrounds Discord</a> or the <a href="https://discord.gg/playmobius" target="blank">Mobius Discord</a>.
     </p>
     <br>
+
     <h3 id="sggs2023">19.11.2023 - Super Girl Gamer Series for Hearthstone Battlegrounds 2023 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The Super Girl Gamer Pro initiative announced a special Battlegrounds tournament open for female players only, featuring a prize pool of $2,500. The tournament will run two qualifiers on December 8th/9th and the finals on Sunday, December 10th. Check out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYRm2Xu8EMJwroTyIkcSMJEhfbjFsxRlvU-U3rfqsAvFIfog/viewform" target="_blank">all the information and sign up</a> if you are eligible and ready for the competition.
@@ -190,6 +212,7 @@ include_once('../header.php');
         <img width="800" src="<?= PICTURE_LOCAL ?>news/sggs2023.png">
     </p>
     <br>
+
     <h3 id="patch28.0.2">18.11.2023 - Patch 28.0.2 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard released a second <a href="https://us.forums.blizzard.com/en/hearthstone/t/2802-patch-notes/116446" target="_blank">hotfix</a> today, removing <a class='hoverimage' href="/bgstrategy/anomaly/?id=36">Shackles of the Primus</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=47">Temperance of Aman'Thul</a> from the pool of active anomalies. In addition, they adjusted the appearance rates of a few other anomalies and updated some anomaly-related hero bans.
@@ -197,6 +220,7 @@ include_once('../header.php');
         Also the stat buffing bugs regarding <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> and <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi</a> should be finally fixed now.
     </p>
     <br>
+
     <h3 id="patch28.0.1">10.11.2023 - Patch 28.0.1 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard released <a href="https://us.forums.blizzard.com/en/hearthstone/t/2801-patch-notes/115936" target="_blank">hotfix patch notes</a> including some updated bans for a number of anomalies. For example Mechs will now be banned from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">How to Even??</a> and Demons from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Deep Blue Sooner</a>.
