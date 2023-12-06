@@ -147,6 +147,7 @@ foreach ($tempMinions->data as $key => $object) {
 
     <h3 id="spelltiers">Spell Tiers and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Whenever a spell is bought/generated, it immediately returns to the pool. There is a specific number of copies of each spell in the pool, but it's kind of like appearance rate since they get replaced immediately.
     </p>
     <br>
     <table class="tier-table">
