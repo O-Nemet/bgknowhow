@@ -3,10 +3,11 @@
 /config/api_blizzard.php
 /bgjson/output/
 /images/anomalies/*_render.png
-/images/heroes/*_render.png
-/images/minions/*_render.png
 /images/buddies/*_render.png
-/images/rewards/*_render.png
-/images/quests/*_render.png
+/images/heroes/*_render.png
 /images/heropowers/*_render.png
+/images/minions/*_render.png
+/images/rewards/*_render.png
+/images/spells/*_render.png
+/images/quests/*_render.png
 *.csv
