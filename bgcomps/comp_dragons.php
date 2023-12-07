@@ -4,7 +4,7 @@ include_once('../header.php');
 
 <h2 class="page_title">Standard Compositions: Dragons</h2>
 <p>
-    <?= getCompositionText(); ?>
+    <?php include_once('intro.php'); ?>
 </p>
 <br>
 <div class="comp_wrapper">
@@ -19,15 +19,31 @@ include_once('../header.php');
     <!--    </p>-->
     <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Warpwing', 'Warpwing', 'Stormbringer', '*Hunter of Gatherers', 'Kaly', 'Kaly', 'Brann'];
+    $board   = ['Warpwing', 'Kalecgos', 'Kalecgos', 'Amber Guardian', 'Hunter of Gatherers', 'Brann', 'Outback Smolderer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        <!--        The Murk-Eye is a bonus if Murlocs are available and can be replaced by <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak Metalhead</a> or used as a flex spot to play <a class="hoverimage" href="/bgstrategy/minion/?id=339">Disco Shuffler</a>.-->
+        Focus on getting as many battlecries as you can. When you do activate battlecries, especially ones that give stats, put them on Hired Headhunter so he can give stats to everyone in the board.
+        <br><br>
+        Other important cards: <strong>Brann's Blessing</strong>, <strong>Hired Headhunter</strong>, <strong>Dreamer’s Embrace</strong> will help your build
+    </p>
+    <h3 id="drakkari">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Razorgore', 'Outback Smolderer', 'Nether Drake', 'Nether Drake', 'Whelp Smuggler', 'Hunter of Gatherers', 'Drakkari Enchanter'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        This build may be a bit slow at first, but can really get going once you have <strong>Drakkari Enchanter</strong> or the spell <strong>Primal Staff</strong>. Just make sure that you leave a free space so you can use the Smolderwing's you gain from Outback Smolderer. If you do triple everything and still got free space, <a class='hoverimage' href='/bgstrategy/minion/?id=454'>Ignition Specialist</a> can work very well.
     </p>
     <br>
 </div>
+
+<p>
+    <?php include_once('outro.php'); ?>
+</p>
+<br><br>
 
 <?php
 include_once('../footer.php');
