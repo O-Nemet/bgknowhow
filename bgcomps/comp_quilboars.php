@@ -23,7 +23,7 @@
     <!--    </p>-->
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    //    $board   = ['Tusk', 'Spearhide', 'Spearhide', '*Bristleback Knight', '*Bristleback Knight', 'Bristlebach', 'Tusk'];
+    //    $board   = ['Tusk', 'Spearhide', 'Spearhide', 'Bristleback Knight', 'Bristleback Knight', 'Bristlebach', 'Tusk'];
     $board   = ['Tough Tusk', 'Tough Tusk', 'Geomagus Roogug', 'Withered Spearhide', 'Withered Spearhide', 'Prickly Piper', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
@@ -31,9 +31,9 @@
     <p>
         This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. One Tough Tusk should be taunted and placed on the right side as any minion death will reset their Divine Shields during combat. The Spearhides can basically be any minion which summons another minion via Deathrattle or Reborn.
         <br><br>
-        The stat gains from Bristlebach Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
+        The stat gains from <strong>Bristlebach</strong>'s Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle!
     </p>
-    <h3 id="bristlebach">Bristlebach Infinite Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="bristlebach">Bristlebach Infinite Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Sly Raptor', 'Ghastcoiler', 'Mechanized Gift Horse', 'Eternal Summoner', 'Bristlebach', 'Tough Tusk', 'Tough Tusk'];
     $minions = getMinionsForBoard($board);
@@ -42,7 +42,7 @@
     <p>
         The idea is to have your opponent hit your taunted <strong>Tough Tusk</strong> and attack their Divine Shield, but your minions keep dying, so they will regain their Divine Shield afterward. This is best with Undeads, but Beasts and Mechs provide options, too.
         <br><br>
-        The stat gains from <strong>Bristlebach</strong> Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
+        The stat gains from <strong>Bristlebach</strong>'s Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle!
     </p>
     <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -55,7 +55,7 @@
     </p>
     <!--    <h3 id="flattusk">Tusk/Pirate Gem Comp: <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
-    //    $board   = ['*Bristleback Knight', 'Blade Collector', 'Flat Tusk', 'Flat Tusk', 'Tethys', 'Tethys', '*Underhanded Dealer'];
+    //    $board   = ['Bristleback Knight', 'Blade Collector', 'Flat Tusk', 'Flat Tusk', 'Tethys', 'Tethys', 'Underhanded Dealer'];
     //    $minions = getMinionsForBoard($board);
     //    drawBoard($minions);
     //    ?>
