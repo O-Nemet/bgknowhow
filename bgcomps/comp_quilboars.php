@@ -6,7 +6,7 @@
 </p>
 <br>
 <p>
-    Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="/bgstrategy/minion/?id=328">Pricky Piper</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
+    Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="/bgstrategy/minion/?id=328">Prickly Piper</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
     <br><br>
     Due to the gems they have synergies with Mechs and Naga.
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
@@ -38,7 +38,7 @@
     drawBoard($minions);
     ?>
     <p>
-        The idea is to have your opponent hit your taunted <strong>Tough Tusk</strong> and attack their Divine Shield, but your minions keep dying so they will regain their Divine Shield afterward. This is best with Undeads, but Beasts and Mechs provide options, too. The stat gains from <strong>Bristlebach</strong> Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
+        The idea is to have your opponent hit your taunted <strong>Tough Tusk</strong> and attack their Divine Shield, but your minions keep dying, so they will regain their Divine Shield afterward. This is best with Undeads, but Beasts and Mechs provide options, too. The stat gains from <strong>Bristlebach</strong> Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
     </p>
     <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -81,6 +81,8 @@
     <br>
 </div>
 
+<br>
+<hr>
 <br>
 <p>
     <?php include_once('outro.php'); ?>

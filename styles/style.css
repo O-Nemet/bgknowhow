@@ -3356,7 +3356,7 @@ body.bgstrategy .bgstrategy > a {
     font-style: italic;
 }
 
-.news strong {
+.news strong, .comp_wrapper strong {
     font-weight: 700;
 }
 
