@@ -1,7 +1,9 @@
 <?php include_once('../header.php'); ?>
 
 <h2 class="page_title">Standard Compositions: Quilboars</h2>
-<?php include_once('intro.php'); ?>
+<p>
+    <?php include_once('intro.php'); ?>
+</p>
 <br>
 <p>
     Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="/bgstrategy/minion/?id=328">Pricky Piper</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
@@ -10,15 +12,6 @@
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
 </p>
 <div class="comp_wrapper">
-    <h3 id="deathrattle">Scaling Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Prickly Piper', 'Charlga', 'Moon-Bacon Jazzer', 'Rylak Metalhead', 'Moon-Bacon Jazzer', 'Brann Bronzebeard', 'Titus'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        This is a usual setup for you to scale your Blood Gems to high stats. Sadly, this build is quite weak until you get Blood Gems so be sure to know how to find ways to generate them. Once you get Charlga or Bongo Popper, you can scale the entire build and replace one of these cards with Drakkari Enchanter. If you can only get individual Blood Gems, put them onto strong minions with Divine Shield or Cleave. Rylak Metalhead can be replaced by <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> but isn't as effective.
-    </p>
     <!--    <h3 id="aggem">Aggem Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
     //    $board   = ['Reaper', 'Thrasher', 'Trickster', 'Spearhide', 'Aggem', 'Charly', 'Phalanx'];
@@ -28,15 +21,6 @@
     <!--    <p>-->
     <!--        Very flexible comp where you basically combine Aggem with the best minions available of each type. Also, less dependent on buffing the size of your gems beforehand.-->
     <!--    </p>-->
-    <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Bristleback Knight', 'Bristleback Knight', 'Charlga', 'Bongo Popper', 'Charlga', 'Geomagus Roogug', 'Drakkari Enchanter'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        Heavily depends on buffing the size of your gems before concluding on this board. You can use Titus Rivendare with Prickly Piper, and buy multiple Moon-Bacon Jazzers to help with the scaling.
-    </p>
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     //    $board   = ['Tusk', 'Spearhide', 'Spearhide', '*Bristleback Knight', '*Bristleback Knight', 'Bristlebach', 'Tusk'];
@@ -45,7 +29,7 @@
     drawBoard($minions);
     ?>
     <p>
-        This is supposed to use Bristlebach's ability to refresh the Divine Shield of the Tough Tusks. One Tough Tusk should be taunted and placed on the right side as any minion death will reset their Divine Shields during combat. The Spearhides can basically be any minion which summons another minion via Deathrattle or Reborn. The stat gains from Bristlebach Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
+        This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. One Tough Tusk should be taunted and placed on the right side as any minion death will reset their Divine Shields during combat. The Spearhides can basically be any minion which summons another minion via Deathrattle or Reborn. The stat gains from Bristlebach Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
     </p>
     <h3 id="bristlebach">Bristlebach Infinite Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -54,16 +38,36 @@
     drawBoard($minions);
     ?>
     <p>
-        The idea is to have your opponent hit your taunted Tough Tusk and attack their Divine Shield, but your minions keep dying so they will regain their Divine Shield afterward. This is best with Undeads, but Beasts and Mechs provide options, too. The stat gains from Bristlebach Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
+        The idea is to have your opponent hit your taunted <strong>Tough Tusk</strong> and attack their Divine Shield, but your minions keep dying so they will regain their Divine Shield afterward. This is best with Undeads, but Beasts and Mechs provide options, too. The stat gains from <strong>Bristlebach</strong> Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle.
     </p>
-    <h3 id="flattusk">Tusk/Pirate Gem Comp: <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['*Bristleback Knight', 'Blade Collector', 'Flat Tusk', 'Flat Tusk', 'Tethys', 'Tethys', '*Underhanded Dealer'];
+    $board   = ['Bristleback Knight', 'Bristleback Knight', 'Charlga', 'Bongo Bopper', 'Charlga', 'Geomagus Roogug', 'Drakkari Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Pirates. Heavily depends on buffing the size of your gems before concluding on this board.
+        The key minions for this build are <strong>Charlga</strong> and <strong>Drakkari Enchanter</strong>. Heavily depends on buffing the size of your gems before concluding on this board. You can use Titus Rivendare with Prickly Piper, and buy multiple Moon-Bacon Jazzers to help with the scaling.
+    </p>
+    <!--    <h3 id="flattusk">Tusk/Pirate Gem Comp: <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
+    <!--    --><?php
+    //    $board   = ['*Bristleback Knight', 'Blade Collector', 'Flat Tusk', 'Flat Tusk', 'Tethys', 'Tethys', '*Underhanded Dealer'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
+    //    ?>
+    <!--    <p>-->
+    <!--        Needs the availability of Pirates. Heavily depends on buffing the size of your gems before concluding on this board.-->
+    <!--    </p>-->
+    <h3 id="deathrattle">Scaling Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Prickly Piper', 'Charlga', 'Moon-Bacon Jazzer', 'Rylak Metalhead', 'Moon-Bacon Jazzer', 'Brann Bronzebeard', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        Needs the availability of Beasts. This is a usual setup for you to scale your Blood Gems to high stats. Sadly, this build is quite weak until you get Blood Gems so be sure to know how to find ways to generate them, after you have done enough scaling via <strong>Jazzer</strong> and/or <strong>Piper</strong>.
+        <br><br>
+        Once you get a Charlga or Bongo Popper, you can scale the entire build and replace one of these cards with Drakkari Enchanter. If you can only get individual Blood Gems, put them onto strong minions with Divine Shield or Cleave. <strong>Rylak Metalhead</strong> can be replaced by <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> but isn't as effective.
     </p>
     <h3 id="rylak">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -72,7 +76,7 @@
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Beasts. <a class="hoverimage" href="/bgstrategy/minion/?id=130">Charlga</a> can usually replace any of the non gem-buffing minions. Reborn the Rylak by using <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a>.
+        Needs the availability of Beasts. <a class="hoverimage" href="/bgstrategy/minion/?id=130">Charlga</a> can usually replace any of the non gem-buffing minions. Heavily improves by reborning the <strong>Rylak</strong> by using <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a>.
     </p>
     <br>
 </div>
