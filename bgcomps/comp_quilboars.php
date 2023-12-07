@@ -24,7 +24,7 @@
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     //    $board   = ['Tusk', 'Spearhide', 'Spearhide', 'Bristleback Knight', 'Bristleback Knight', 'Bristlebach', 'Tusk'];
-    $board   = ['Tough Tusk', 'Tough Tusk', 'Geomagus Roogug', 'Withered Spearhide', 'Withered Spearhide', 'Prickly Piper', 'Bristlebach'];
+    $board   = ['Tough Tusk', 'Tough Tusk', 'Prickly Piper', 'Withered Spearhide', 'Withered Spearhide', 'Geomagus Roogug', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -33,7 +33,7 @@
         <br><br>
         The stat gains from <strong>Bristlebach</strong>'s Avenge ability are only temporary buffs during the combat phase. Make sure your Tusks have Divine Shield prior to battle!
     </p>
-    <h3 id="bristlebach">Bristlebach Infinite Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="bristlebachshields">Bristlebach Infinite Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Sly Raptor', 'Ghastcoiler', 'Mechanized Gift Horse', 'Eternal Summoner', 'Bristlebach', 'Tough Tusk', 'Tough Tusk'];
     $minions = getMinionsForBoard($board);
