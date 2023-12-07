@@ -82,9 +82,9 @@
     <p>
         Needs the availability of Beasts. <a class="hoverimage" href="/bgstrategy/minion/?id=130">Charlga</a> can usually replace any of the non gem-buffing minions. Heavily improves by reborning the <strong>Rylak</strong> by using <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a>.
     </p>
-    <br>
 </div>
 
+<br>
 <br>
 <hr>
 <br>

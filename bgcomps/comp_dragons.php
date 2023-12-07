@@ -37,9 +37,12 @@ include_once('../header.php');
     <p>
         This build may be a bit slow at first, but can really get going once you have <strong>Drakkari Enchanter</strong> or the spell <strong>Primal Staff</strong>. Just make sure that you leave a free space so you can use the Smolderwing's you gain from Outback Smolderer. If you do triple everything and still got free space, <a class='hoverimage' href='/bgstrategy/minion/?id=454'>Ignition Specialist</a> can work very well.
     </p>
-    <br>
 </div>
 
+<br>
+<br>
+<hr>
+<br>
 <p>
     <?php include_once('outro.php'); ?>
 </p>
