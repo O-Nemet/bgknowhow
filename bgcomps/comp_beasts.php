@@ -11,7 +11,7 @@ include_once('../header.php');
         In general Beast compositions utilize the many deathrattle effects available for this minion type and/or different ways of buffing your units during the combat phase. They are pretty self-reliant (do not need another minion type to shine) and neither have a special strength nor weakness against other minion types. All Beast builds can be improved by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible while building up your endgame composition. Also <a class="hoverimage" href="/bgstrategy/minion/?id=372">Free-Flying Feathermane</a> is generally a solid pickup to keep in your hand.
     </p>
     <div class="comp_wrapper">
-        <h3 id="slamma">Slamma Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+        <h3 id="slamma">Slamma Summon Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
         $board   = ['Raptor', 'Raptor', 'Octosari', '*Mama Bear', '*Mama Bear', 'Slamma', 'Slamma'];
         $minions = getMinionsForBoard($board);
@@ -42,7 +42,7 @@ include_once('../header.php');
         drawBoard($minions);
         ?>
         <p>
-            This is a special setup with only 5 minions which works by having Octosari's ability already scaled a bit. You are summoning big sized deathrattles while also guaranteeing Octosari will be scaled up.
+            This is a special setup with only 5 minions, which works by having <strong>Octosari</strong>'s ability already scaled a bit. You are summoning big sized deathrattles while also guaranteeing <strong>Octosari</strong> will be scaled up.
         </p>
         <!--    <h3 id="stomper">Stomper Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
         <!--    --><?php
