@@ -4,11 +4,11 @@ include_once('../header.php');
 
 <h2 class="page_title">Standard Compositions: Mechs</h2>
 <p style="text-align: justify">
-    <?= getCompositionText(); ?>
+    <?php include_once('intro.php'); ?>
 </p>
 <br>
 <p>
-    In general Mech compositions are strong against Murlocs and venom/scam comps, and fare better when Quilboars are available to increase the size of shielded mechs in the early- and mid-game. They are weaker against big stats comp featuring Demons, Elementals or Naga.
+    In general Mech compositions are strong against Murlocs and venom/scam comps, and fare better when Quilboars are available to increase the size of shielded mechs in the early- and mid-game. They are weaker against big stats comp like Demons, Elementals or Naga.
 </p>
 <div class="comp_wrapper">
     <h3 id="deflecto">Deflecto Reset Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -46,19 +46,19 @@ include_once('../header.php');
     <p>
         In the past it was possible to run out of Magnetize minions because the Scrapers pull minions from the shared minion pool. But this was changed in a July 2023 update, now magnetized minions will return to the pool upon usage.
     </p>
-    <!--    <h3 id="deathrattle">Buster/Kangor Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Buster', 'Buster', 'Reaper', 'Deflecto', 'Kangor\'s', 'Kangor\'s', 'Titus'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        This comp stands and falls with your ability to get a Titus and to make it golden. It is a bit luck based in general, because if your Titus gets sniped early your overall value will be heavily reduced, and it is tough to really protect the Titus because taunting more than one minion is not beneficial. On the other hand, due to the Deathrattles your board will almost always be full, reducing the chance that your Titus gets attacked to 14,29%.-->
-    <!--        <br><br>-->
-    <!--        It is quite important to taunt the second Buster via <a class="hoverimage" href="/bgstrategy/minion/?id=221">Sparring Partner</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=250">Vigilant Stoneborn</a>. Then you have a 50% chance that your first two dead minions will be Busters. Without the taunt, what will usually happen is that the token from the first Buster will die as a second minion and be saved in the Kangors. Taunting also greatly reduces the chance that your Titus or Kangors will be sniped before providing sufficient value.-->
-    <!--        <br><br>-->
-    <!--        The Foe Reaper is the least important part of this comp, but obviously increases your chances against venomous or shield lineups. In addition to the Titus, tripling a Buster is a big plus, whereas a golden Kangor's should be avoided as two regular ones are way more valuable.-->
-    <!--    </p>-->
+    <h3 id="deathrattle">Buster/Kangor Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Buster', 'Buster', 'Reaper', 'Deflecto', 'Kangor\'s', 'Kangor\'s', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        This comp stands and falls with your ability to get a Titus and to make it golden. It is a bit luck based in general, because if your Titus gets sniped early your overall value will be heavily reduced, and it is tough to really protect the Titus because taunting more than one minion is not beneficial. On the other hand, due to the Deathrattles your board will almost always be full, reducing the chance that your Titus gets attacked to 14,29%.
+        <br><br>
+        It is quite important to taunt the second Buster via <a class="hoverimage" href="/bgstrategy/minion/?id=221">Sparring Partner</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=250">Vigilant Stoneborn</a>. Then you have a 50% chance that your first two dead minions will be Busters. Without the taunt, what will usually happen is that the token from the first Buster will die as a second minion and be saved in the Kangors. Taunting also greatly reduces the chance that your Titus or Kangors will be sniped before providing sufficient value.
+        <br><br>
+        The Foe Reaper is the least important part of this comp, but obviously increases your chances against venomous or shield lineups. In addition to the Titus, tripling a Buster is a big plus, whereas a golden Kangor's should be avoided as two regular ones are way more valuable.
+    </p>
     <h3 id="exodia">Macaw/Buster Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Macaw', 'Macaw', 'Reaper', 'Deflecto', 'Buster', 'Buster', 'Titus'];
@@ -66,27 +66,42 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        <!--            As you can see, this comp is very similar to the one above, replacing the <a class="hoverimage" href="/bgstrategy/minion/?id=114">Kangor's</a> with Macaws. If beasts are in the lobby, this offers an even stronger alternative, scaling faster than the Mechs-only comp, especially with a golden Titus.-->
+        As you can see, this comp is very similar to the one above, replacing the <a class="hoverimage" href="/bgstrategy/minion/?id=114">Kangor's</a> with Macaws. If beasts are in the lobby, this offers an even stronger alternative, scaling faster than the Mechs-only comp, especially with a golden Titus.
         Needs the availability of Beasts.
         <br><br>
         Due to the Macaws, you have to be mindful to not apply <a class="hoverimage" href="/bgstrategy/minion/?id=62">Replicating Menace</a> to any of your late-game minions, because you really need to trigger your Busters with every attack. The Macaws themselves should be buffed with Reborn via a <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a>, so that you will get two attacks from each Macaw.
         <br><br>
         Golden Macaws, a golden Titus and golden Busters will make the most impact for this composition. If you only have one Buster, taunting the Deflect-o-Bot or even the Reaper as protection for the essential Titus can sometimes be the right call. But with any Titus comp, winning or losing the attack-first coin flip has a huge impact on the following battle.
     </p>
-    <!--    <h3>Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Blaster', 'Selfless', 'Kangor\'s', 'Kangor\'s', 'Buster', 'Buster', 'Titus'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        This is a special case of another Mech Deathrattle variation, for which you will bascially need exactly the pieces displayed here (the Selfless Hero is mostly optional, though) and they should be positioned in this order. Due to the timing interaction of the different components, what will happen is that the Blaster will die first and trigger twice, destroying your whole board but the Titus. After that mayhem the Kangor's will both spawn fresh Busters and your board will be 6 big Busters plus the Titus, and every dying Buster will grow the stats on your board again.-->
-    <!--        <br><br>-->
-    <!--        This is a very hard to beat comp, especially if you are able to protect your Titus from <a class="hoverimage" href="/bgstrategy/minion/?id=144">Zapp</a> by buffing it with <a class="hoverimage" href="/bgstrategy/minion/?id=227">Uther</a> or Blood Gems.-->
-    <!--    </p>-->
-    <br>
+    <h3 id="exodia2">Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Blaster', 'Selfless', 'Kangor\'s', 'Kangor\'s', 'Buster', 'Buster', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        This is a special case of another Mech Deathrattle variation, for which you will bascially need exactly the pieces displayed here (the Selfless Hero is mostly optional, though) and they should be positioned in this order. Due to the timing interaction of the different components, what will happen is that the Blaster will die first and trigger twice, destroying your whole board but the Titus. After that mayhem the Kangor's will both spawn fresh Busters and your board will be 6 big Busters plus the Titus, and every dying Buster will grow the stats on your board again.
+        <br><br>
+        This is a very hard to beat comp, especially if you are able to protect your Titus from <a class="hoverimage" href="/bgstrategy/minion/?id=144">Zapp</a> by buffing it with <a class="hoverimage" href="/bgstrategy/minion/?id=227">Uther</a> or Blood Gems.
+    </p>
+    <h3 id="lighter">Lighter Fighter Build <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Lighter Fighter', 'Lighter Fighter', 'Kangor\s', 'Kangor\s', 'Titus', 'Titus', 'Mecha Jaraxxus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        Mecha Jaraxxus is only important to find you Baltharak to give Lighter Fighter reborn. Alternately you can use Tunnel Blaster just like the Exodia OmegaBuster build to summon a bunch of Lighter Fighters. So that would look like
+    </p>
 </div>
 
-<?php
-include_once('../footer.php');
-?>
+<br>
+<br>
+<hr>
+<br>
+<p>
+    <?php include_once('outro.php'); ?>
+</p>
+<br><br>
+
+<?php include_once('../footer.php'); ?>
