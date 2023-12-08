@@ -33,7 +33,7 @@ include_once('../header.php');
         drawBoard($minions);
         ?>
         <p>
-            The Anchors will trigger your <strong>Elizas</strong>, sometimes multiple times, before the actual combat begins.
+            The Anchors will trigger your <strong>Elizas</strong>, sometimes multiple times if you can buff them more health, before the actual combat begins.
         </p>
         <h3 id="deathrattle">Eliza Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php

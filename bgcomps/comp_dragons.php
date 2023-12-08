@@ -3,7 +3,7 @@ include_once('../header.php');
 ?>
 
 <h2 class="page_title">Standard Compositions: Dragons</h2>
-<p>
+<p style="text-align: justify">
     <?php include_once('intro.php'); ?>
 </p>
 <br>

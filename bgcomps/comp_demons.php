@@ -24,7 +24,7 @@ include_once('../header.php');
         </p>
         <h3 id="felbat">Felbat Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Impulsive Trickster', 'Famished Felbat', 'Legion Overseer', 'Legion Overseer', 'Felemental', 'Cultist S\'thera', 'Titus'];
+        $board   = ['Impulsive Trickster', 'Famished Felbat', 'Legion Overseer', 'Legion Overseer', 'Felemental', 'S\'thara', 'Titus'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -35,7 +35,7 @@ include_once('../header.php');
         </p>
         <h3 id="urzul">Ur'zul Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Ur\'zul', 'Weaver', 'Rewinder', 'Felbat', 'Overseer', 'S\'thara', 'Ur\'zul'];
+        $board   = ['Ur\'zul', 'Weaver', 'Rewinder', 'Felbat', 'Legion Overseer', 'S\'thara', 'Ur\'zul'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -44,7 +44,7 @@ include_once('../header.php');
         </p>
         <h3 id="trickster">Macaw/Trickster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Macaw', 'Macaw', 'Trickster', 'Hawkstrider', 'Hawkstrider', 'Cultist', 'Titus'];
+        $board   = ['Macaw', 'Macaw', 'Trickster', 'Hawkstrider', 'Hawkstrider', 'S\'thara', 'Titus'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -53,12 +53,12 @@ include_once('../header.php');
         </p>
         <h3 id="demoneye">Feldrake/Murk-Eye Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Feldrake', 'Murk-Eye', 'Feldrake', '*Legion Overseer', 'S\'thara', 'Titus', 'Murghoul'];
+        $board   = ['Feldrake', 'Murk-Eye', 'Feldrake', 'S\'thara', 'Legion Overseer', 'Titus', 'Murghoul'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
         <p>
-            Needs the availability of Murlocs.
+            Needs the availability of Murlocs. Buff the Tavern as much as possible to scale your <strong>Feldrakes</strong> every turn via the <strong>Murk-Eye</strong>.
         </p>
     </div>
 
