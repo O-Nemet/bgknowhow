@@ -32,7 +32,7 @@ include_once('../header.php');
         <!--    </p>-->
         <h3 id="rockrock">RockRock Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Frostling', 'Carbonic Copy', 'Recycling Wraith', 'Gentle Djinni', 'Rock Rock', 'Rock Rock'];
+        $board   = ['Bramblewitch', 'Wildfire Elemental', 'Frostling', 'Recycling Wraith', 'Gentle Djinni', 'Rock Rock', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -50,12 +50,12 @@ include_once('../header.php');
         </p>
         <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Dancing Barnstormer', 'Frostling', 'Frostling', 'Land Lubber', 'Land Lubber', 'Living Azerite', 'Living Azerite'];
+        $board   = ['Dancing Barnstormer', 'Frostling', 'Sandstone Drake', 'Spellbound Seafarer', 'Land Lubber', 'Land Lubber', 'Living Azerite'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
         <p>
-            Cards like Wildfire Elemental, Carbonic Copy, or Flourish Frosting are ideal. Felemental is also very useful for this build.
+            Cards like Wildfire Elemental and Flourish Frostling are ideal. Felemental, Master of Realities, Ignition Specialist, Mystic Sporebat, and Ensorcelled Fungus are all good cards to add to the build.
         </p>
         <h3 id="deathrattle">Barnstormer Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
