@@ -32,7 +32,7 @@ include_once('../header.php');
         <!--    </p>-->
         <h3 id="rockrock">RockRock Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Flourish Frosting', 'Carbonic Copy', 'Recycling Wraith', 'Gentle Djinni', 'RockRock', 'RockRock'];
+        $board   = ['Frostling', 'Carbonic Copy', 'Recycling Wraith', 'Gentle Djinni', 'Rock', 'Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -50,7 +50,7 @@ include_once('../header.php');
         </p>
         <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Dancing Barnstormer', 'Flourish Frosting', 'Carbonic Copy', 'Land Lubber', 'Land Lubber', 'Living Azerite'];
+        $board   = ['Dancing Barnstormer', 'Frostling', 'Frostling', 'Land Lubber', 'Land Lubber', 'Living Azerite', 'Living Azerite'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
