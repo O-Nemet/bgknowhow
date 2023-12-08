@@ -92,7 +92,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
-        <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha Jaraxxus</a> is an important pickup for this comp, to find you <a class="hoverimage" href="/bgstrategy/minion/?id=291">Baltharak</a> to give <strong>Lighter Fighter</strong> reborn.
+        <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> is an important pickup for this comp, to find you <a class="hoverimage" href="/bgstrategy/minion/?id=291">Baltharak</a> to give <strong>Lighter Fighter</strong> reborn.
     </p>
 </div>
 
