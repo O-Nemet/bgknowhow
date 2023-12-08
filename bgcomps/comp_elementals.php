@@ -32,7 +32,7 @@ include_once('../header.php');
         <!--    </p>-->
         <h3 id="rockrock">RockRock Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Frostling', 'Carbonic Copy', 'Recycling Wraith', 'Gentle Djinni', 'Rock', 'Rock'];
+        $board   = ['Frostling', 'Carbonic Copy', 'Recycling Wraith', 'Gentle Djinni', 'Rock Rock', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
