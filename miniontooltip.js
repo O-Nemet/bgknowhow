@@ -54,6 +54,9 @@ bgTooltip.prototype = {
                 } else if (hoverId.type === 'A') {
                     params = "//bgknowhow.com/images/anomalies/"
                     param_img_suffix = "_render_80.webp";
+                } else if (hoverId.type === 'S') {
+                    params = "//bgknowhow.com/images/spells/"
+                    param_img_suffix = "_render_80.webp";
                 } else if (hoverId.type === 'M') {
                     params = "//bgknowhow.com/images/minions/"
                     param_img_suffix = "_render_80.webp";
