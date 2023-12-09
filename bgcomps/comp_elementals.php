@@ -32,7 +32,7 @@ include_once('../header.php');
         <!--    </p>-->
         <h3 id="rockrock">RockRock Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Bramblewitch', 'Wildfire Elemental', 'Frostling', 'Recycling Wraith', 'Gentle Djinni', 'Rock Rock', 'Rock Rock'];
+        $board   = ['Bramblewitch', 'Wildfire', 'Frostling', 'Wraith', 'Djinni', 'Rock Rock', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -41,7 +41,7 @@ include_once('../header.php');
         </p>
         <h3 id="master">Master of Realities Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Sandstone Drake', 'Sandstone Drake', 'Whelp Smuggler', 'Whelp Smuggler', 'Master of Realities', 'Master of Realities', 'Drakkari Enchanter'];
+        $board   = ['Sandstone', 'Sandstone', 'Smuggler', 'Smuggler', 'Master', 'Master', 'Enchanter'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -50,7 +50,7 @@ include_once('../header.php');
         </p>
         <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Dancing Barnstormer', 'Frostling', 'Sandstone Drake', 'Spellbound Seafarer', 'Land Lubber', 'Land Lubber', 'Living Azerite'];
+        $board   = ['Barnstormer', 'Frostling', 'Sandstone', 'Seafarer', 'Lubber', 'Lubber', 'Azerite'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>

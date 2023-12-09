@@ -89,7 +89,7 @@ include_once('../header.php');
     </p>
     <h3 id="lighter">Lighter Fighter Build <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lighter Fighter', 'Lighter Fighter', 'Hawkstrider', 'Kangor\'s', 'Kangor\'s', 'Titus', 'Titus'];
+    $board   = ['Lighter', 'Lighter', 'Hawkstrider', 'Kangor\'s', 'Kangor\'s', 'Titus', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

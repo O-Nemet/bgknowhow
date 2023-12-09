@@ -7,10 +7,13 @@ include_once('../header.php');
     <?php include_once('intro.php'); ?>
 </p>
 <br>
+<p>
+    Undead shine with many Reborn and Deathrattle effects, usually providing you more minions than your opponents. They are able to buff the attack of every Undead permanently and the minion <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a> provides a unique way to alter and buff your warband.
+</p>
 <div class="comp_wrapper">
     <h3 id="knights">Deathrattle Knight Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Anub', 'Kel', 'Summoner', 'Summoner', 'Titus', 'Mur\'ghoul'];
+    $board   = ['Anub', 'Kel', 'Summoner', 'Summoner', 'Titus', 'Murghoul'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -23,18 +26,18 @@ include_once('../header.php');
         <br><br>
         However, if you do wish to try and get a discovery from a Deathrattle, Harmless Bonehead summons two skeletons. If you are able to destroy him with the aforementioned cards while also having enough board space, then you should be able to get at least one golden Skeleton.
     </p>
-    <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="deathrattle">Deathrattle/Reborn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Mummifier', 'Anub\'arak', 'Handless', 'Handless', 'Summoner', 'Titus', 'Abomination'];
+    $board   = ['Mummifier', 'Anub', 'Handless', 'Handless', 'Summoner', 'Titus', 'Abomination'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        You can replace Hungering Abomination with Champion of Primus, Moroes Steward of Death, or Relentless Mur’ghoul. Taunt the Anub.
+        Taunt the Anub. You can replace Hungering Abomination with Champion of Primus, Moroes Steward of Death, or Relentless Mur'ghoul.
     </p>
     <!--        <h3 id="reborn">Reborn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--        --><?php
-    //        $board   = ['Splitter', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Deathwhisper', '*Champion of the Primus'];
+    //        $board   = ['Splitter', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Deathwhisper', 'Champion of the Primus'];
     //        $minions = getMinionsForBoard($board);
     //        drawBoard($minions);
     //        ?>

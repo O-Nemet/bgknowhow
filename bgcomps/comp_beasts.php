@@ -13,7 +13,7 @@ include_once('../header.php');
     <div class="comp_wrapper">
         <h3 id="slamma">Slamma Summon Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Raptor', 'Raptor', 'Octosari', '*Mama Bear', '*Mama Bear', 'Slamma', 'Slamma'];
+        $board   = ['Raptor', 'Raptor', 'Octosari', 'Mama Bear', 'Mama Bear', 'Slamma', 'Slamma'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>

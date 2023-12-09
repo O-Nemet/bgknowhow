@@ -24,7 +24,7 @@
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     //    $board   = ['Tusk', 'Spearhide', 'Spearhide', 'Bristleback Knight', 'Bristleback Knight', 'Bristlebach', 'Tusk'];
-    $board   = ['Tough Tusk', 'Tough Tusk', 'Prickly Piper', 'Withered Spearhide', 'Withered Spearhide', 'Geomagus Roogug', 'Bristlebach'];
+    $board   = ['Tusk', 'Tusk', 'Piper', 'Spearhide', 'Spearhide', 'Roogug', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -35,7 +35,7 @@
     </p>
     <h3 id="bristlebachshields">Bristlebach Infinite Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Sly Raptor', 'Ghastcoiler', 'Mechanized Gift Horse', 'Eternal Summoner', 'Bristlebach', 'Tough Tusk', 'Tough Tusk'];
+    $board   = ['Raptor', 'Ghastcoiler', 'Horse', 'Summoner', 'Bristlebach', 'Tusk', 'Tusk'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -46,7 +46,7 @@
     </p>
     <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bristleback Knight', 'Bristleback Knight', 'Charlga', 'Bongo Bopper', 'Charlga', 'Geomagus Roogug', 'Drakkari Enchanter'];
+    $board   = ['Bristleback Knight', 'Bristleback Knight', 'Charlga', 'Bopper', 'Charlga', 'Roogug', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -64,7 +64,7 @@
     <!--    </p>-->
     <h3 id="deathrattle">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Prickly Piper', 'Charlga', 'Moon-Bacon Jazzer', 'Rylak Metalhead', 'Moon-Bacon Jazzer', 'Brann Bronzebeard', 'Titus'];
+    $board   = ['Piper', 'Charlga', 'Jazzer', 'Rylak', 'Jazzer', 'Brann', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

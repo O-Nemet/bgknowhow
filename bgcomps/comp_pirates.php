@@ -28,7 +28,7 @@ include_once('../header.php');
         </p>
         <h3 id="attack">Eliza Attack Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Eliza', 'Eliza', '*Blade Collector', '*Blade Collector', 'Anchor', 'Anchor', 'Phalanx'];
+        $board   = ['Eliza', 'Eliza', 'Blade Collector', 'Blade Collector', 'Anchor', 'Anchor', 'Phalanx'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
@@ -37,7 +37,7 @@ include_once('../header.php');
         </p>
         <h3 id="deathrattle">Eliza Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Scallywag', 'Scallywag', 'Rapscallion Recruiter', 'Rapscallion Recruiter', 'Titus', 'Eliza', 'Eliza'];
+        $board   = ['Scallywag', 'Scallywag', 'Recruiter', 'Recruiter', 'Titus', 'Eliza', 'Eliza'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>

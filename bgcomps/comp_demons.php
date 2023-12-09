@@ -24,7 +24,7 @@ include_once('../header.php');
         </p>
         <h3 id="felbat">Felbat Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Impulsive Trickster', 'Famished Felbat', 'Legion Overseer', 'Legion Overseer', 'Felemental', 'S\'thara', 'Titus'];
+        $board   = ['Trickster', 'Felbat', 'Legion Overseer', 'Legion Overseer', 'Felemental', 'S\'thara', 'Titus'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>

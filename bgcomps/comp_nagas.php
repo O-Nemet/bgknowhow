@@ -37,7 +37,7 @@ include_once('../header.php');
         <!--    </p>-->
         <h3 id="wrangler">Wrangler Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Thrasher', '*Blade Collector', 'Myrmidon', 'Wrangler', 'Wrangler', 'Glowscale', 'Glowscale'];
+        $board   = ['Thrasher', 'Blade Collector', 'Myrmidon', 'Wrangler', 'Wrangler', 'Glowscale', 'Glowscale'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
