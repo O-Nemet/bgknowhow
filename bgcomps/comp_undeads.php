@@ -3,58 +3,61 @@ include_once('../header.php');
 ?>
 
 <h2 class="page_title">Standard Compositions: Undeads</h2>
-<p>
-    <?= getCompositionText(); ?>
+<p style="text-align: justify">
+    <?php include_once('intro.php'); ?>
 </p>
 <br>
 <div class="comp_wrapper">
-    <h3 id="deathrattle">Anub/Titus Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="knights">Deathrattle Knight Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Anub', 'Anub', 'Splitter', 'Splitter', 'Summoner', 'Summoner', 'Titus'];
+    $board   = ['Anub', 'Kel', 'Summoner', 'Summoner', 'Titus', 'Mur\'ghoul'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-
+        Taunt Anub'arak. I want to use this section to explain Archlich Kel'Thuzad, <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=441">Grave Gobbler</a>. These cards destroy Undeads during your recruitment phase. What that means is their Deathrattle and abilities will activate permanently. If <strong>Eternal Summoner</strong> gets destroyed when you have a full board you will lose your Summoner and are left with an Eternal Knight. That sounds pretty bad, but there are ways to take advantage of this.
+        <br><br>
+        If you have only Eternal Summoner with Archlich Kel'Thuzad, then you will permanently now have a regular Eternal Summoner, an <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>, and an Eternal Summoner without reborn. If you have <strong>Titus Rivendare</strong>, then you will gain an extra Eternal Knight.
+        <br><br>
+        If you do this one more time, then you can triple the Eternal Summoner. Of course, this is incredibly risky because your build is weak. Archlich Kel'Thuzad is generally used to activate a Deathrattle that won't ruin your board state like Anub'arak or Mummifier.
+        <br><br>
+        However, if you do wish to try and get a discovery from a Deathrattle, Harmless Bonehead summons two skeletons. If you are able to destroy him with the aforementioned cards while also having enough board space, then you should be able to get at least one golden Skeleton.
     </p>
-    <h3 id="reborn">Reborn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Splitter', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Deathwhisper', '*Champion of the Primus'];
+    $board   = ['Mummifier', 'Anub\'arak', 'Handless', 'Handless', 'Summoner', 'Titus', 'Abomination'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-
+        You can replace Hungering Abomination with Champion of Primus, Moroes Steward of Death, or Relentless Mur’ghoul. Taunt the Anub.
     </p>
-    <h3 id="tier7">Tier 7 Nightmare Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Nightmare', 'Nightmare', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Titus'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        This is the very endgame, after some scaling with <a class="hoverimage" href="/bgstrategy/minion/?id=283">Anub</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of the Primus</a>.
-    </p>
-    <h3 id="knight">Eternal Knight Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['*Eternal Knight', '*Eternal Knight', 'Splitter', 'Splitter', 'Summoner', 'Summoner', '*Champion of the Primus'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-
-    </p>
+    <!--        <h3 id="reborn">Reborn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
+    <!--        --><?php
+    //        $board   = ['Splitter', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Deathwhisper', '*Champion of the Primus'];
+    //        $minions = getMinionsForBoard($board);
+    //        drawBoard($minions);
+    //        ?>
+    <!--        <p>-->
+    <!---->
+    <!--        </p>-->
     <h3 id="exodia">Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Blaster', 'Selfless', 'Anub', 'Anub', 'Summoner', 'Summoner', 'Titus'];
+    $board   = ['Blaster', 'Phaerix', 'Anub', 'Anub', 'Summoner', 'Summoner', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
     </p>
-    <br>
 </div>
 
-<?php
-include_once('../footer.php');
-?>
+<br>
+<br>
+<hr>
+<br>
+<p>
+    <?php include_once('outro.php'); ?>
+</p>
+<br><br>
+
+<?php include_once('../footer.php'); ?>

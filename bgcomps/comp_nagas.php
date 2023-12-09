@@ -42,16 +42,16 @@ include_once('../header.php');
         drawBoard($minions);
         ?>
         <p>
-            The <strong>Wrangler</strong>s enable the possibility to scale non-Naga minions. Therefore, this comp improves by the availability of Pirates or Mechs, because they both offer a cleave minion (Blade Collector and <a class="hoverimage" href="/bgstrategy/minion/?id=133">Reaper</a>).
+            The <strong>Wrangler</strong>s enable the possibility to permanently scale non-Naga minions. Therefore, this comp improves by the availability of Pirates or Mechs, because they both offer a cleave minion (Blade Collector and <a class="hoverimage" href="/bgstrategy/minion/?id=133">Reaper</a>).
         </p>
     </div>
 
-    <br>
-    <br>
-    <hr>
-    <br>
-    <p>
-        <?php include_once('outro.php'); ?>
+<br>
+<br>
+<hr>
+<br>
+<p>
+    <?php include_once('outro.php'); ?>
     </p>
     <br><br>
 
