@@ -51,6 +51,7 @@ include_once('../header.php');
     drawBoard($minions);
     ?>
     <p>
+        <strong>Blaster</strong> and <strong>Titus</strong> are the cornerstones of this build. Don't buff the health of your minions too much, so that Blaster will always kill them.
     </p>
 </div>
 

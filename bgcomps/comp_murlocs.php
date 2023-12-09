@@ -28,6 +28,15 @@ include_once('../header.php');
             <br><br>
             The Bassgill is also useful for summoning <a class="hoverimage" href="/bgstrategy/minion/?id=455">Wayward Grimscale</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=399">Relentless Mur'ghoul</a>. Also <strong>Titus Rivendare</strong> is very good for synergy with Operatic Belcher, Bassgill, and Scourfin.
         </p>
+        <h3 id="beast">Beast Math Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+        <?php
+        $board   = ['Scourfin', 'Scourfin', 'Diremuck', 'Titus', 'Slamma', 'Slamma'];
+        $minions = getMinionsForBoard($board);
+        drawBoard($minions);
+        ?>
+        <p>
+            Needs the availability of Beasts. Any beast in your hand will do, but ones with Deathrattle like Sly Raptor or Ghastcoiler are the best. Once you feel that Scourfin has buffed the beast in your hands enough, throw it away for another <strong>Diremuck Forager</strong>. Do not triple Diremuck Forager. Later on replace <strong>Titus</strong> with another effective card.
+        </p>
     </div>
 
     <br>

@@ -26,9 +26,9 @@ include_once('../header.php');
     <p>
         These are just an example of minions that make use of the stats given from Walking Fort and synergize with one another. You can always make the taunted minions be minions with special abilities like Divine Shield or Cleave. Wayward Grimscale, Impulsive Trickster or Foe Reaper 4000 are just some of the options.
     </p>
-    <h3 id="naala">Naala Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Naala', 'Fungus', 'Lubber', 'Silivaz', 'Sporebat', 'Specialist', 'Seafarer'];
+    $board   = ['Nalaa', 'Fungus', 'Nalaa', 'Silivaz', 'Sporebat', 'Specialist', 'Seafarer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

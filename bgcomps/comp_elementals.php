@@ -37,7 +37,7 @@ include_once('../header.php');
         drawBoard($minions);
         ?>
         <p>
-            Carbonic Copy needs you to have 6 minions to summon a copy, so keep that in mind. <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus</a> also helps out with Gentle Djinni. <a class="hoverimage" href="/bgstrategy/minion/?id=384">Emergency Flame</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=125">Tavern Tempest</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a> are other good cards to help.
+            <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus</a> also helps out with Gentle Djinni. <a class="hoverimage" href="/bgstrategy/minion/?id=384">Emergency Flame</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=125">Tavern Tempest</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a> are other good cards to help.
         </p>
         <h3 id="master">Master of Realities Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
