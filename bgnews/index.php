@@ -3,6 +3,15 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="compsupdated">09.12.2023 - Composition pages updated <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The <a href="/bgcomps/">endgame compositions</a> for all the different minion types have been updated, incorporating the minion changes after Patch 28.2.
+        The meta is still fresh, so of course this is just a first pass, but should provide you with plenty ideas and directions to go for.
+        <br><br>
+        From now on these compositions are brought to you by high-MMR player and <a href="https://metafy.gg/@mewwyhs" target="_blank">BG coach</a> <a href="https://twitter.com/mewwyhs" target="_blank">Mewwy</a>. Check out his <a href="https://www.youtube.com/@MewwyHS" target="_blank">YouTube channel</a> and maybe <a href="https://ko-fi.com/mewwyhs" target="_blank">buy him a coffee</a> if you liked it.
+    </p>
+    <br>
+
     <h3 id="patch28.2.0">05.12.2023 - Patch 28.2.0 incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes" target="_blank">28.2 patch notes</a> have been released. The patch will hit the servers today, and it will kickstart BG Season 6 with the main theme being the Spells mechanic featuring 42 unique spells, split across the six Tavern Tiers.
