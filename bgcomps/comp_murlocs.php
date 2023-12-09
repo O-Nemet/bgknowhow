@@ -30,7 +30,7 @@ include_once('../header.php');
         </p>
         <h3 id="beast">Beast Math Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
         <?php
-        $board   = ['Scourfin', 'Scourfin', 'Muck', 'Titus', 'Slamma', 'Slamma'];
+        $board   = ['Scourfin', 'Scourfin', 'Diremuck Forager', 'Titus', 'Slamma', 'Slamma'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         ?>
