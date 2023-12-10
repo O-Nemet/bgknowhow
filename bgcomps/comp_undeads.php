@@ -6,7 +6,7 @@
 </p>
 <br>
 <hr>
-<br>
+<br><br>
 <p>
     Undead shine with many Reborn and Deathrattle effects, usually providing you more minions than your opponents. They are able to buff the attack of every Undead permanently and the minion <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a> provides a unique way to alter and buff your warband.
 </p>
@@ -55,8 +55,7 @@
     </p>
 </div>
 
-<br>
-<br>
+<br><br>
 <hr>
 <br>
 <p>

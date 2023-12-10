@@ -6,7 +6,7 @@
 </p>
 <br>
 <hr>
-<br>
+<br><br>
 <div class="comp_wrapper">
     <!--    <h3 id="fanatic">Fireworks Fanatic Tier 4 Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
@@ -101,8 +101,7 @@
     </p>
 </div>
 
-<br>
-<br>
+<br><br>
 <hr>
 <br>
 <p>

@@ -6,7 +6,7 @@
 </p>
 <br>
 <hr>
-<br>
+<br><br>
 <p>
     In general, Mechs have the upside of having numerous <a href="/bgbasics/#shield">Divine Shield</a> minions, the ability to resummon Mechs, and small token units. This gives them an advantage against venom/scam compositions and builds with low stats. Except for <a class="hoverimage" href="/bgstrategy/minion/?id=353">Beatboxer</a> magnetization composition, this makes them weak against high stat builds like Demons, Elementals, and Naga.
 </p>
@@ -98,8 +98,7 @@
     </p>
 </div>
 
-<br>
-<br>
+<br><br>
 <hr>
 <br>
 <p>
