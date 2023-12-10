@@ -182,7 +182,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                     <div class="menu-container-2">
                         <div class="menu-column-1">
                             <ul>
-                                <li><a href="/bgstrategy/general.php">...General strategy</a></li>
+                                <li><a href="/bgstrategy/general.php">...General Strategy</a></li>
                                 <li><a href="/bgstrategy/?show=heroes">...Heroes</a></li>
                                 <li><a href="/bgstrategy/?show=minions">...Minions</a></li>
                                 <li><a href="/bgstrategy/?show=spells">...Spells</a></li>

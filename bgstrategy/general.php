@@ -1,7 +1,7 @@
 <?php
 include_once('../header.php');
 ?>
-    <h2 class="page_title">General strategy</h2>
+    <h2 class="page_title">General Strategy</h2>
 
     <h3 id="taverntiers">Tavern Tiers and upgrading <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -259,7 +259,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Mama Bear', 'Slamma', 'Goldrinn'];
+        $board   = ['Rylak', 'Slamma', 'Hawkstrider', 'Goldrinn'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);

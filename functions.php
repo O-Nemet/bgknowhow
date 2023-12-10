@@ -440,7 +440,7 @@ function getMinionsForBoard($board): array
 
 
 // generate html for comps board
-function drawBoard($minions)
+function drawBoard($minions): void
 {
     foreach ($minions as $minion) {
         echo '<a href="' . $minion['url'] . '"><img src="' . $minion['picture'] . '" class="' . (!$minion['active'] ? 'inactive-img' : '') . '" alt="' . $minion['name'] . '" title=""></a>';
