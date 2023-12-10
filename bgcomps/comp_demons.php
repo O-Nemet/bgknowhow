@@ -1,12 +1,11 @@
-<?php
-include_once('../header.php');
-?>
+<?php include_once('../header.php'); ?>
 
     <h2 class="page_title">Standard Compositions: Demons</h2>
-    <p style="text-align: justify">
+    <p>
         <?php include_once('intro.php'); ?>
     </p>
     <br>
+    <hr>
     <p>
         In general Demon compositions utilize their many self-damaging effects available for this minion type and their general stat scaling to build huge minions. They are pretty self-reliant (do not need another minion type to shine) but without picking up an early <a class="hoverimage" href="/bgstrategy/minion/?id=310">Soul Rewinder</a> you will usually take too much damage.
     </p>

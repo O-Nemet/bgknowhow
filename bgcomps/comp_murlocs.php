@@ -1,11 +1,11 @@
-<?php
-include_once('../header.php');
-?>
+<?php include_once('../header.php'); ?>
 
     <h2 class="page_title">Standard Compositions: Murlocs</h2>
-    <p style="text-align: justify">
+    <p>
         <?php include_once('intro.php'); ?>
     </p>
+    <br>
+    <hr>
     <br>
     <div class="comp_wrapper">
         <h3 id="battlecry">Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

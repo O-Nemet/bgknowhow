@@ -1,9 +1,11 @@
 <?php include_once('../header.php'); ?>
 
 <h2 class="page_title">Standard Compositions: Quilboars</h2>
-<p style="text-align: justify">
+<p>
     <?php include_once('intro.php'); ?>
 </p>
+<br>
+<hr>
 <br>
 <p>
     Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="/bgstrategy/minion/?id=328">Prickly Piper</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.

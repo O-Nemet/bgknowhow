@@ -1,11 +1,11 @@
-<?php
-include_once('../header.php');
-?>
+<?php include_once('../header.php'); ?>
 
 <h2 class="page_title">Standard Compositions: Mechs</h2>
-<p style="text-align: justify">
+<p>
     <?php include_once('intro.php'); ?>
 </p>
+<br>
+<hr>
 <br>
 <p>
     In general, Mechs have the upside of having numerous <a href="/bgbasics/#shield">Divine Shield</a> minions, the ability to resummon Mechs, and small token units. This gives them an advantage against venom/scam compositions and builds with low stats. Except for <a class="hoverimage" href="/bgstrategy/minion/?id=353">Beatboxer</a> magnetization composition, this makes them weak against high stat builds like Demons, Elementals, and Naga.

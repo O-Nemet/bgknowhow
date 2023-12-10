@@ -1,11 +1,11 @@
-<?php
-include_once('../header.php');
-?>
+<?php include_once('../header.php'); ?>
 
 <h2 class="page_title">Standard Compositions: Undeads</h2>
-<p style="text-align: justify">
+<p>
     <?php include_once('intro.php'); ?>
 </p>
+<br>
+<hr>
 <br>
 <p>
     Undead shine with many Reborn and Deathrattle effects, usually providing you more minions than your opponents. They are able to buff the attack of every Undead permanently and the minion <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a> provides a unique way to alter and buff your warband.

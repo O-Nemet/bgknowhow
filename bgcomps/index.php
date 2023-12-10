@@ -1,6 +1,4 @@
-<?php
-include_once('../header.php');
-?>
+<?php include_once('../header.php'); ?>
 
     <h2 class="page_title">Select your minion type</h2>
 
@@ -18,6 +16,4 @@ include_once('../header.php');
         <div><a href="comp_neutrals.php"><img src="<?= PICTURE_LOCAL ?>misc/comps_neutrals.webp"><span>Neutrals</span></a></div>
     </div>
 
-<?php
-include_once('../footer.php');
-?>
+<?php include_once('../footer.php'); ?>

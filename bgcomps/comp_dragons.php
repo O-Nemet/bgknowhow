@@ -1,12 +1,11 @@
-<?php
-include_once('../header.php');
-?>
+<?php include_once('../header.php'); ?>
 
 <h2 class="page_title">Standard Compositions: Dragons</h2>
-<p style="text-align: justify">
+<p>
     <?php include_once('intro.php'); ?>
 </p>
 <br>
+<hr>
 <div class="comp_wrapper">
     <!--    <h3 id="tarec">Tarec/Promo Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
     <!--    --><?php
@@ -48,6 +47,4 @@ include_once('../header.php');
 </p>
 <br><br>
 
-<?php
-include_once('../footer.php');
-?>
+<?php include_once('../footer.php'); ?>

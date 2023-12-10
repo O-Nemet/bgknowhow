@@ -1,12 +1,11 @@
-<?php
-include_once('../header.php');
-?>
+<?php include_once('../header.php'); ?>
 
     <h2 class="page_title">Standard Compositions: Elementals</h2>
-    <p style="text-align: justify">
+    <p>
         <?php include_once('intro.php'); ?>
     </p>
     <br>
+    <hr>
     <p>
         All Elemental builds can be improved by temporarily utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=356">Elemental of Surprise</a> to triple and apply Divine Shield to as many minions as possible while building up your endgame composition.
     </p>
