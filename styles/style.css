@@ -3586,6 +3586,17 @@ body.bgstrategy .bgstrategy > a {
         width: fit-content;
     }
 
+    /*BGCOMPS*/
+    .bgcompps .comp_wrapper img {
+        width: 270px;
+        display: block;
+        margin: 0 auto -48px;
+    }
+
+    .bgcompps .comp_wrapper p {
+        padding-top: 15px;
+    }
+
     /*BGSTRATEGY*/
     .strategy {
         margin-left: 0;
