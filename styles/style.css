@@ -3587,13 +3587,13 @@ body.bgstrategy .bgstrategy > a {
     }
 
     /*BGCOMPS*/
-    .bgcompps .comp_wrapper img {
+    .bgcomps .comp_wrapper img {
         width: 270px;
         display: block;
         margin: 0 auto -48px;
     }
 
-    .bgcompps .comp_wrapper p {
+    .bgcomps .comp_wrapper p {
         padding-top: 15px;
     }
 
