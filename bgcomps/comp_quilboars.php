@@ -6,7 +6,10 @@
 </p>
 <br>
 <hr>
-<br><br>
+<br>
+<p>
+    <!-- general info about QB -->
+</p>
 <p>
     Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="/bgstrategy/minion/?id=328">Prickly Piper</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
     <br><br>
@@ -14,18 +17,8 @@
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
 </p>
 <div class="comp_wrapper">
-    <!--    <h3 id="aggem">Aggem Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Reaper', 'Thrasher', 'Trickster', 'Spearhide', 'Aggem', 'Charly', 'Phalanx'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        Very flexible comp where you basically combine Aggem with the best minions available of each type. Also, less dependent on buffing the size of your gems beforehand.-->
-    <!--    </p>-->
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    //    $board   = ['Tusk', 'Spearhide', 'Spearhide', 'Bristleback Knight', 'Bristleback Knight', 'Bristlebach', 'Tusk'];
     $board   = ['Tusk', 'Tusk', 'Piper', 'Spearhide', 'Spearhide', 'Roogug', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
@@ -55,15 +48,6 @@
     <p>
         The key minions for this build are <strong>Charlga</strong> and <strong>Drakkari Enchanter</strong>. Heavily depends on buffing the size of your gems before concluding on this board. You can use Titus Rivendare with Prickly Piper, and buy multiple Moon-Bacon Jazzers to help with the scaling.
     </p>
-    <!--    <h3 id="flattusk">Tusk/Pirate Gem Comp: <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Bristleback Knight', 'Blade Collector', 'Flat Tusk', 'Flat Tusk', 'Tethys', 'Tethys', 'Underhanded Dealer'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        Needs the availability of Pirates. Heavily depends on buffing the size of your gems before concluding on this board.-->
-    <!--    </p>-->
     <h3 id="deathrattle">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Piper', 'Charlga', 'Jazzer', 'Rylak', 'Jazzer', 'Brann', 'Titus'];

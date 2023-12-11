@@ -6,7 +6,10 @@
 </p>
 <br>
 <hr>
-<br><br>
+<br>
+<p>
+    <!-- general info about Naga -->
+</p>
 <div class="comp_wrapper">
     <h3 id="deepblues">Deep Blues Tier 4 Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -26,15 +29,6 @@
     <p>
         There are plenty of cards you want to look for that could definitely help out this build. Ensorcelled Fungus, Magnus Manastorm (from the Buddy Up spell), Saloon's Finest, Ignition Specialist, Glowscale, and Land Lubber are some of these cards.
     </p>
-    <!--    <h3 id="athissa">Athissa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Thrasher', 'Myrmidon', 'Athissa', 'Athissa', 'Orgozoa', 'Orgozoa', 'Glowscale'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        An early Orgozoa can help you discover Glowscale or Athissa herself and later provide gold or further spellcrafts to buff your Naga on the board.-->
-    <!--    </p>-->
     <h3 id="wrangler">Wrangler Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Thrasher', 'Blade Collector', 'Myrmidon', 'Wrangler', 'Wrangler', 'Glowscale', 'Glowscale'];

@@ -6,7 +6,7 @@
 </p>
 <br>
 <hr>
-<br><br>
+<br>
 <p>
     Undead shine with many Reborn and Deathrattle effects, usually providing you more minions than your opponents. They are able to buff the attack of every Undead permanently and the minion <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a> provides a unique way to alter and buff your warband.
 </p>
@@ -35,15 +35,6 @@
     <p>
         Taunt the Anub. You can replace Hungering Abomination with Champion of Primus, Moroes Steward of Death, or Relentless Mur'ghoul.
     </p>
-    <!--        <h3 id="reborn">Reborn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--        --><?php
-    //        $board   = ['Splitter', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Deathwhisper', 'Champion of the Primus'];
-    //        $minions = getMinionsForBoard($board);
-    //        drawBoard($minions);
-    //        ?>
-    <!--        <p>-->
-    <!---->
-    <!--        </p>-->
     <h3 id="exodia">Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Blaster', 'Phaerix', 'Anub', 'Anub', 'Summoner', 'Summoner', 'Titus'];

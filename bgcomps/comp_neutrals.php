@@ -6,17 +6,11 @@
 </p>
 <br>
 <hr>
-<br><br>
+<br>
+<p>
+    <!-- general info about Neutrals -->
+</p>
 <div class="comp_wrapper">
-    <!--    <h3 id="fanatic">Fireworks Fanatic Tier 4 Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board = ['*Blade Collector', '*Bristleback Knight', 'Blanchy', 'Blanchy', 'Warden', 'Fanatic', 'Fanatic'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        Stay on tier 4 to limit the minion pool and try to discover Blanchy by tripling your minions.-->
-    <!--    </p>-->
     <h3 id="fort">Fort/Taunt Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Phalanx', 'Glowscale', 'Fort', 'Fort', 'Enchanter', 'Matador', 'Barricade'];
@@ -52,52 +46,6 @@
     ?>
     <p>
         If you don't have Archlich Kel'Thuzad, be sure to use Sprightly Scarab or Mecha-Jaraxxus to give it Reborn. If you can't find Kangor's Apprentice or Cultist S'thara, you can still replace them with cards of other minion types.
-    </p>
-    <!--    <h3 id="mythrax">Mythrax Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Reaper', 'Mythrax', 'Mythrax', 'Phalanx', 'Phalanx', 'Enchanter', 'Glowscale'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.-->
-    <!--    </p>-->
-    <!--    <h3 id="teamaster">Tea Master Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Leeroy', 'Reaper', 'Theo', 'Theo', 'Murghoul', 'Glowscale', 'Phalanx'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.-->
-    <!--    </p>-->
-    <!--    <h3 id="boogie">Boogie Monster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Leeroy', 'Reaper', 'Boogie', 'Boogie', 'Murghoul', 'Glowscale', 'Leeroy'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.-->
-    <!--    </p>-->
-    <!--    <h3 id="braggart">Braggart KekWait Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Braggart', 'Braggart', 'Braggart', 'Braggart', 'Braggart', 'Braggart', 'Braggart'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        Only possible with the anomalies <a href="/bgstrategy/anomaly/?id=13">A Faire Reward</a> and <a href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a>. ;-)-->
-    <!--    </p>-->
-    <!--    <h3 id="lightfang">Lightfang Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Reaper', '?Collector', 'Phalanx', 'Glowscale', 'Lightfang', 'Lightfang', 'Enchanter'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        The Reaper can also be a <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> when Pirates are available.-->
-    <!--    </p>-->
     </p>
 </div>
 
