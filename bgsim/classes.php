@@ -193,6 +193,9 @@ class Battlefield
             case 'Alleycat':
                 $this->spawnMinion($player, $slot + 1, new Minion('CFM_315t'));
                 break;
+            case 'Emerald Proto-Whelp':
+                $minion->setAttack($minion->getAttack() + 1);
+                break;
             case 'Mini-Myrmidon':
                 $minion->setAttack($minion->getAttack() + 2);
                 break;
@@ -406,6 +409,10 @@ class Battlefield
             } else if ($realMinion->getHasDeathrattle()) {
 //                echo "<br>DR FOUND!";
                 switch ($realMinion->getName()) {
+                    case 'Harmless Bonehead':
+                        $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
+                        $this->spawnMinion($player, $slot + 1, new Minion('BRM_006t'));
+                        break;
                     case 'Icky Imp':
                         $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
                         $this->spawnMinion($player, $slot + 1, new Minion('BRM_006t'));
