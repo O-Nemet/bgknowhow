@@ -13,7 +13,7 @@
 <div class="comp_wrapper">
     <h3 id="apm">Infinite gold aka APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['*Blade Collector', '*Underhanded Dealer', '*Underhanded Dealer', 'Tethys', 'Tethys', '*Peggy Sturdybone', 'Seafarer'];
+    $board   = ['*Blade Collector', 'Underhanded Dealer', 'Underhanded Dealer', 'Tethys', 'Tethys', 'Peggy Sturdybone', 'Seafarer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -27,7 +27,7 @@
     drawBoard($minions);
     ?>
     <p>
-        You're trying your best to use Brann to buy as much battlecries for value. You want to buy Tavern Tempest, Murozand, or any cards that give more than one minion. Then use cards like Bloodsail Cannoneer, Gunpowder Courier, Lovesick Balladist to help get <strong>Blade Collector</strong> buffed up to deliver huge cleaves.
+        You're trying your best to use <a class='hoverimage' href='/bgstrategy/minion/?id=109'>Brann</a> to buy as much battlecries for value. You want to buy Tavern Tempest, Murozand, or any cards that give more than one minion. Then use cards like Bloodsail Cannoneer, Gunpowder Courier, Lovesick Balladist to help get <strong>Blade Collector</strong> buffed up to deliver huge cleaves.
     </p>
     <h3 id="attack">Eliza Attack Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
