@@ -19,7 +19,7 @@
     <!--    </p>-->
     <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Warpwing', 'Kaly', 'Kaly', 'Amber Guardian', 'Hunter of Gatherers', 'Brann', 'Smolderer'];
+    $board   = ['Warpwing', 'Kaly', 'Kaly', 'Amber Guardian', 'Hunter', 'Brann', 'Smolderer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -30,7 +30,7 @@
     </p>
     <h3 id="drakkari">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Razorgore', 'Smolderer', 'Drake', 'Drake', 'Smuggler', 'Hunter of Gatherers', 'Enchanter'];
+    $board   = ['Razorgore', 'Smolderer', 'Drake', 'Drake', 'Smuggler', 'Hunter', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

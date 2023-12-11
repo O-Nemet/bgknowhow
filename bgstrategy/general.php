@@ -269,7 +269,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Razorgore', '*Hunter of Gatherers', 'Kaly'];
+        $board   = ['Razorgore', 'Hunter', 'Kaly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
