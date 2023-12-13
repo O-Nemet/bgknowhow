@@ -3,6 +3,16 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.2.2">12.12.2023 - Patch 28.2.2 hotfixes and Bloodwatcher banned <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        After hotfix <a href="https://news.blizzard.com/en-us/hearthstone/24008698/28-2-1-patch-notes" target="_blank">patch 28.2.1</a> last week did not bring any changes for BGs, today's hotfix <a href="https://us.forums.blizzard.com/en/hearthstone/t/2822-patch-notes/" target="_blank">patch 28.2.2 </a> provides us with the first balancing changes in the form of hero armor adjustments. Many heroes received an armor increase, Guff, Ragnaros and Sneed even got buffed to the maximum amount of 20 armor. Whereas only three heroes Lich Baz'hial, Snake Eyes and Tae'thelan Bloodwatcher had their armor reduced.
+        <br><br>
+        Also, due to the increasing clever use of game mechanics regarding the hero power <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Reliquary Research</a> (staying on Tier 2 and buying lots of <a class='hoverimage' href='/bgstrategy/spell/?id=13'>Strike Oil</a>), Blizzard felt forced to move and decided to deactivate the hero <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> until his hero power will get adjusted, most likely in another patch next Tuesday.
+        <br><br>
+        In other news we got confirmation that <a class='hoverimage' href='/bgstrategy/minion/?id=329'>Upbeat Duo</a>>, while not listed in the minion purge lists before Season 6, was indeed intentionally removed and therefore will not come back in the near future.
+    </p>
+    <br>
+
     <h3 id="compsupdated">09.12.2023 - All composition pages updated <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The <a href="/bgcomps/">endgame compositions</a> for all the different minion types have been updated, incorporating the minion changes after Patch 28.2.
