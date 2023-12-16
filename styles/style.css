@@ -3081,6 +3081,10 @@ body.bgstrategy .bgstrategy > a {
     height: 1280px;
 }
 
+.pathes2 #news {
+    background-image: url(https://bgknowhow.com/images/misc/pathes_news.webp);
+}
+
 .pathes2 #strategy_heroes {
     background-image: url(https://bgknowhow.com/images/misc/pathes_heroes.webp);
 }

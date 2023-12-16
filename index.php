@@ -4,6 +4,9 @@ include_once('header.php');
     <h2 class="page_title">Make your choice</h2>
 
     <div class="pathes2">
+        <a href="news/">
+            <div id="news"><span>News</span></div>
+        </a>
         <a href="bgstrategy/?show=heroes">
             <div id="strategy_heroes"><span>Hero<br>Strategy</span></div>
         </a>
@@ -19,9 +22,9 @@ include_once('header.php');
         <a href="bgcomps/">
             <div id="comps"><span>Endgame<br>Comps</span></div>
         </a>
-        <a href="bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">
-            <div id="simulator"><span>Simulator</span></div>
-        </a>
+        <!--        <a href="bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">-->
+        <!--            <div id="simulator"><span>Simulator</span></div>-->
+        <!--        </a>-->
         <a href="bgjson/">
             <div id="bgjson"><span>BGJSON</span></div>
         </a>
