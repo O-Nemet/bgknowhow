@@ -4,8 +4,8 @@ include_once('header.php');
     <h2 class="page_title">Make your choice</h2>
 
     <div class="pathes2">
-        <a href="news/">
-            <div id="news"><span>News</span></div>
+        <a href="bgnews/">
+            <div id="news"><span>Battlegrounds<br>News</span></div>
         </a>
         <a href="bgstrategy/?show=heroes">
             <div id="strategy_heroes"><span>Hero<br>Strategy</span></div>
@@ -13,11 +13,11 @@ include_once('header.php');
         <a href="bgstrategy/?show=minions">
             <div id="strategy_minions"><span>Minion<br>Strategy</span></div>
         </a>
-        <a href="introduction.php">
-            <div id="intro"><span>What?<br>Why?<br>How?</span></div>
-        </a>
         <a href="bgcurves/">
             <div id="curves"><span>Curves</span></div>
+        </a>
+        <a href="introduction.php">
+            <div id="intro"><span>What?<br>Why?<br>How?</span></div>
         </a>
         <a href="bgcomps/">
             <div id="comps"><span>Endgame<br>Comps</span></div>
@@ -29,7 +29,7 @@ include_once('header.php');
             <div id="bgjson"><span>BGJSON</span></div>
         </a>
         <a href="bglegends/">
-            <div id="lobbylegends"><span>Lobby<br>Legends</span></div>
+            <div id="lobbylegends"><span>Tournaments</span></div>
         </a>
         <a href="bgexternal/">
             <div id="external"><span>External<br>Resources</span></div>
