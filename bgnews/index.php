@@ -5,7 +5,7 @@ include_once('../header.php');
 <div class="news">
     <h3 id="patch28.2.3">19.12.2023 - Patch 28.2.3 released and Bloodwatcher unbanned <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard just released <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.3.2</a> onto the servers, bringing lots of adjustments to many minions and spells, as well as a couple of heroes. For example, after a huge nerf (every third Tavern spell now costing 1 gold less, instead of 0 gold total) <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> is allowed to rejoin the game.
+        Blizzard just released <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.2.3</a> onto the servers, bringing lots of adjustments to many minions and spells, as well as a couple of heroes. For example, after a huge nerf (every third Tavern spell now costing 1 gold less, instead of 0 gold total) <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> is allowed to rejoin the game.
         <br><br>
         For a quick overview on which cards got nerfed/buffed check out this info graphic:
         <img src="<?= PICTURE_LOCAL ?>news/patch2832_preview.jpg">
