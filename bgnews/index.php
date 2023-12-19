@@ -8,7 +8,7 @@ include_once('../header.php');
         Blizzard just released <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.2.3</a> onto the servers, bringing lots of adjustments to many minions and spells, as well as a couple of heroes. For example, after a huge nerf (every third Tavern spell now costing 1 gold less, instead of 0 gold total) <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> is allowed to rejoin the game.
         <br><br>
         For a quick overview on which cards got nerfed/buffed check out this info graphic:
-        <img src="<?= PICTURE_LOCAL ?>news/patch2832_preview.jpg">
+        <img src="<?= PICTURE_LOCAL ?>news/patch2823_preview.jpg">
     </p>
     <br>
 
