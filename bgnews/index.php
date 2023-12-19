@@ -3,6 +3,15 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.2.3">19.12.2023 - Patch 28.2.3 released and Bloodwatcher unbanned <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard just released <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.3.2</a> onto the servers, bringing lots of adjustments to many minions and spells, as well as a couple of heroes. For example, after a huge nerf (every third Tavern spell now costing 1 gold less, instead of 0 gold total) <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> is allowed to rejoin the game.
+        <br><br>
+        For a quick overview on which cards got nerfed/buffed check out this info graphic:
+        <img src="<?= PICTURE_LOCAL ?>news/patch2832_preview.jpg">
+    </p>
+    <br>
+
     <h3 id="patch28.2.2">12.12.2023 - Patch 28.2.2 hotfixes and Bloodwatcher banned <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         After hotfix <a href="https://news.blizzard.com/en-us/hearthstone/24008698/28-2-1-patch-notes" target="_blank">patch 28.2.1</a> last week did not bring any changes for BGs, today's hotfix <a href="https://us.forums.blizzard.com/en/hearthstone/t/2822-patch-notes/" target="_blank">patch 28.2.2 </a> provides us with the first balancing changes in the form of hero armor adjustments. Many heroes received an armor increase, <a class='hoverimage' href='/bgstrategy/hero/?id=27'>Guff</a>, <a class='hoverimage' href='/bgstrategy/hero/?id=53'>Ragnaros</a> and <a class='hoverimage' href='/bgstrategy/hero/?id=63'>Sneed</a> even got buffed to the maximum amount of 20 armor. Whereas only three heroes <a class='hoverimage' href='/bgstrategy/hero/?id=35'>Lich Baz'hial</a>, <a class='hoverimage' href='/bgstrategy/hero/?id=99'>Snake Eyes</a> and <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> had their armor reduced.
