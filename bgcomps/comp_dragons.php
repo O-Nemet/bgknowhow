@@ -20,7 +20,9 @@
     <p>
         After securing the key minions <strong>Kalecgos</strong> and <strong>Brann</strong>, focus on getting as many battlecries as you can. When you do activate battlecries, especially ones that give stats, put them on <strong>Hunter of Gatherers</strong> so he can give stats to everyone on the board.
         <br><br>
-        Other important cards: <a class='hoverimage' href='/bgstrategy/spell/?id=23'>Brann's Blessing</a>, <a class='hoverimage' href='/bgstrategy/spell/?id=27'>Hired Headhunter</a>, <a class='hoverimage' href='/bgstrategy/spell/?id=32'>Dreamer's Embrace</a> will help your build.
+        Instead of the Smolderer it is also possible to combine <a class='hoverimage' href='/bgstrategy/spell/?id=263'>General Drakkisath</a> with either <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak Metalhead</a> (when Beasts are available) or <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (when Murlocs are available).
+        <br><br>
+        Other important cards: <a class='hoverimage' href='/bgstrategy/spell/?id=23'>Brann's Blessing</a>, <a class='hoverimage' href='/bgstrategy/spell/?id=27'>Hired Headhunter</a> and <a class='hoverimage' href='/bgstrategy/spell/?id=32'>Dreamer's Embrace</a> will help your build.
     </p>
     <h3 id="drakkari">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
