@@ -8,6 +8,8 @@
 <hr>
 <br>
 <p>
+    <a href="/bgstrategy/?show=minions&type=pirate"><i class="bi bi-box-arrow-up-right"></i> All available Pirates and Pirate-associated minions</a>
+    <br><br>
     <!-- general info about Pirates -->
 </p>
 <div class="comp_wrapper">

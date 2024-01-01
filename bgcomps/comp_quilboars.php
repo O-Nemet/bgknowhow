@@ -8,6 +8,8 @@
 <hr>
 <br>
 <p>
+    <a href="/bgstrategy/?show=minions&type=quilboar"><i class="bi bi-box-arrow-up-right"></i> All available Quilboars and Quilboar-associated minions</a>
+    <br><br>
     <!-- general info about QB -->
 </p>
 <p>

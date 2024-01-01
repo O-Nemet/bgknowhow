@@ -8,7 +8,7 @@
 <hr>
 <br>
 <p>
-    <a href="/bgstrategy/?show=minions&type=beast"><i class="bi bi-box-arrow-up-right"></i> A reference of all available Beasts and Beast-associated minions</a>
+    <a href="/bgstrategy/?show=minions&type=beast"><i class="bi bi-box-arrow-up-right"></i> All available Beasts and Beast-associated minions</a>
     <br><br>
     In general Beast compositions utilize the many deathrattle effects available for this minion type and/or different ways of buffing your units during the combat phase. They are pretty self-reliant (do not need another minion type to shine) and neither have a special strength nor weakness against other minion types. All Beast builds can be improved by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible while building up your endgame composition. Also <a class="hoverimage" href="/bgstrategy/minion/?id=372">Free-Flying Feathermane</a> is generally a solid pickup to keep in your hand.
 </p>

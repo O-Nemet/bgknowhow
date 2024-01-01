@@ -8,6 +8,8 @@
 <hr>
 <br>
 <p>
+    <a href="/bgstrategy/?show=minions&type=none"><i class="bi bi-box-arrow-up-right"></i> All available Neutral and Neutral-associated minions</a>
+    <br><br>
     <!-- general info about Neutrals -->
 </p>
 <div class="comp_wrapper">

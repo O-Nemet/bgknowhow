@@ -8,6 +8,8 @@
 <hr>
 <br>
 <p>
+    <a href="/bgstrategy/?show=minions&type=dragon"><i class="bi bi-box-arrow-up-right"></i> All available Dragons and Dragon-associated minions</a>
+    <br><br>
     <!-- general info about Dragons -->
 </p>
 <div class="comp_wrapper">

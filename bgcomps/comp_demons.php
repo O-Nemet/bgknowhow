@@ -8,6 +8,8 @@
 <hr>
 <br>
 <p>
+    <a href="/bgstrategy/?show=minions&type=demon"><i class="bi bi-box-arrow-up-right"></i> All available Demons and Demon-associated minions</a>
+    <br><br>
     In general Demon compositions utilize their many self-damaging effects available for this minion type and their general stat scaling to build huge minions. They are pretty self-reliant (do not need another minion type to shine) but without picking up an early <a class="hoverimage" href="/bgstrategy/minion/?id=310">Soul Rewinder</a> you will usually take too much damage.
 </p>
 <div class="comp_wrapper">

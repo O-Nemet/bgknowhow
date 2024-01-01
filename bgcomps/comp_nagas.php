@@ -8,6 +8,8 @@
 <hr>
 <br>
 <p>
+    <a href="/bgstrategy/?show=minions&type=naga"><i class="bi bi-box-arrow-up-right"></i> All available Naga and Naga -associated minions</a>
+    <br><br>
     <!-- general info about Naga -->
 </p>
 <div class="comp_wrapper">
