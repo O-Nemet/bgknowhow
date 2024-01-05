@@ -62,7 +62,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                 <li><a class="menu-topic" href="/bgstrategy/general.php">&#9654; General Strategy</a></li>
                 <li><a class="menu-topic" href="/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
-                <li><a class="menu-topic" href="/bgstrategy/?show=anomalies">&#9654; Anomaly Strategy</a></li>
+                <li><a class="menu-topic" href="/bgstrategy/?show=spells">&#9654; Spell Strategy</a></li>
                 <li><a class="menu-topic" href="/bgcomps/">&#9654; Compositions</a></li>
                 <li><a class="menu-topic" href="/bgbasics/armor.php">&#9654; Hero Armor</a></li>
                 <li><a class="menu-topic" href="/bgcurves/">&#9654; Curves</a></li>
