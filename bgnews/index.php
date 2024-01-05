@@ -3,11 +3,29 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="newyear2024">05.01.2024 - A new year and a time to look back <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Happy new year everyone! Back in June 2022 I started this website as a small side project, because I was enjoying the Hearthstone Battlegrounds gameplay and I noticed kind of a void regarding persistent strategic information. I wanted to provide the community and especially newer players with a hub of knowledge and information (you can check out my <a href="/introduction.php">original mission statement</a>, if you like). I also wanted to test out and broaden my skill set, as well as experiment with new ways to structure and develop content.
+        <br><br>
+        Today this website has about 250 unique visitors a day, and according to the engagement time most users are enjoying and utilizing the content very well. Just last week I did receive the first ever PayPal donation, appreciating the time and effort I put into this site so far. I wanted to tell that kind stranger and everyone else, who supported me on this journey, that I am very grateful and that it means a lot to me. With a full-time day job and a family to provide for, I am aware that the speed of adding content is slow compared to other pages and some technical aspects are still lacking. That is one of the reasons why I try to focus on evergreen content and information.
+        <br><br>
+        Anyway, my plans for this website for 2024 are:
+        - reactivate the currently bugged Blizzard account login, so everyone will be able to upvote/downvote the strategy posts, once again
+        - add missing texts and information (for example the basic definitions)
+        - streamline and fix mobile views
+        - maybe write a Discord bot utilizing the BGJSON data
+        - maybe find and motivate more people who have time and knowledge to contribute (shoutout to <a href="https://www.youtube.com/@MewwyHS" target="_blank">Mewwy</a>, TranRed, The Pink God and <a href="https://www.twitch.tv/PockyPlays/videos">PockyPlays</a> who already did during the last year)
+        <br><br>
+        I don't usually advertise this website but if you know someone who could benefit, please spread the word. Maybe add some strategy tips yourself. Or, if you are interested in writing some knowledge or even coding, contribute to <a href="https://github.com/O-Nemet/bgknowhow" target="_blank">this project on GitHub</a>. Also, if you happen to have ideas, for example what type of content to add or how to further improve this website, please take the time to drop me a quick message at <a href="mailto:suggestions@bgknowhow.com">suggestions@bgknowhow.com</a> or on the <a href="https://discord.gg/RUsfdacMwA" target="_blank">Competitive BG Discord</a>.
+        <br><br>
+    </p>
+    <br>
+
     <h3 id="patch28.2.3">19.12.2023 - Patch 28.2.3 released and Bloodwatcher unbanned <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard just released <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.2.3</a> onto the servers, bringing lots of adjustments to many minions and spells, as well as a couple of heroes. For example, after a huge nerf (every third Tavern spell now costing 1 gold less, instead of 0 gold total) <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> is allowed to rejoin the game.
         <br><br>
-        For a quick overview on which cards got nerfed/buffed check out this info graphic:
+        For a quick overview on which cards got nerfed/buffed check out this infographic:
         <img src="<?= PICTURE_LOCAL ?>news/patch2823_preview.jpg">
     </p>
     <br>
