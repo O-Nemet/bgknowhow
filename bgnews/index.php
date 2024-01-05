@@ -10,13 +10,17 @@ include_once('../header.php');
         Today this website has about 250 unique visitors a day, and according to the engagement time most users are enjoying and utilizing the content very well. Just last week I did receive the first ever PayPal donation, appreciating the time and effort I put into this site so far. I wanted to tell that kind stranger and everyone else, who supported me on this journey, that I am very grateful and that it means a lot to me. With a full-time day job and a family to provide for, I am aware that the speed of adding content is slow compared to other pages and some technical aspects are still lacking. That is one of the reasons why I try to focus on evergreen content and information.
         <br><br>
         Anyway, my plans for this website for 2024 are:
-        - reactivate the currently bugged Blizzard account login, so everyone will be able to upvote/downvote the strategy posts, once again
-        - add missing texts and information (for example the basic definitions)
-        - streamline and fix mobile views
-        - maybe write a Discord bot utilizing the BGJSON data
-        - maybe find and motivate more people who have time and knowledge to contribute (shoutout to <a href="https://www.youtube.com/@MewwyHS" target="_blank">Mewwy</a>, TranRed, The Pink God and <a href="https://www.twitch.tv/PockyPlays/videos">PockyPlays</a> who already did during the last year)
+    </p>
+    <ul>
+        <li>reactivate the currently bugged Blizzard account login, so everyone will be able to upvote/downvote the strategy posts, once again</li>
+        <li>add missing texts and information (for example the basic definitions)</li>
+        <li>streamline and fix mobile views</li>
+        <li>maybe write a Discord bot utilizing the BGJSON data</li>
+        <li>maybe find and motivate more people who have time and knowledge to contribute (shoutout to <a href="https://www.youtube.com/@MewwyHS" target="_blank">Mewwy</a>, TranRed, The Pink God and <a href="https://www.twitch.tv/PockyPlays/videos">PockyPlays</a> who already did during the last year)</li>
+    </ul>
+    <p>
         <br><br>
-        I don't usually advertise this website but if you know someone who could benefit, please spread the word. Maybe add some strategy tips yourself. Or, if you are interested in writing some knowledge or even coding, contribute to <a href="https://github.com/O-Nemet/bgknowhow" target="_blank">this project on GitHub</a>. Also, if you happen to have ideas, for example what type of content to add or how to further improve this website, please take the time to drop me a quick message at <a href="mailto:suggestions@bgknowhow.com">suggestions@bgknowhow.com</a> or on the <a href="https://discord.gg/RUsfdacMwA" target="_blank">Competitive BG Discord</a>.
+        I don't usually advertise this website but if you know someone who could benefit, please spread the word and maybe add some strategy tips yourself. Or, if you are interested in writing some knowledge or even adding some coding, contribute to <a href="https://github.com/O-Nemet/bgknowhow" target="_blank">this project on GitHub</a>. Also, if you happen to have ideas, for example what type of content to add or how to further improve this website, please take the time to drop me a quick message at <a href="mailto:suggestions@bgknowhow.com">suggestions@bgknowhow.com</a> or on the <a href="https://discord.gg/RUsfdacMwA" target="_blank">Competitive BG Discord</a>.
         <br><br>
     </p>
     <br>
