@@ -19,6 +19,7 @@ include_once('../header.php');
         <li>maybe write a Discord bot utilizing the BGJSON data</li>
     </ul>
     <p>
+        <br>
         I don't usually advertise this website but if you know someone who could benefit, please spread the word and maybe add some strategy tips yourself. Or, if you are interested in writing down some knowledge or even adding some coding, contribute to <a href="https://github.com/O-Nemet/bgknowhow" target="_blank">this project on GitHub</a>. Also, if you happen to have ideas, for example what type of content to add or how to further improve this website, please take the time to drop me a quick message at <a href="mailto:suggestions@bgknowhow.com">suggestions@bgknowhow.com</a> or on the <a href="https://discord.gg/RUsfdacMwA" target="_blank">Competitive BG Discord</a>.
         <br><br>
         Have a hopefully great and wonderful 2024 everyone!
