@@ -299,7 +299,7 @@ if (!empty($buddy)) {
 
     if ($show == 'spells' || $show == 'all') {
         echo '<h2 class="page_title">Spells</h2>';
-        echo '<p>One spell from your Tier or lower will be present in the Tavern on each refresh. The cost to buy them varies from 1 to 6 Gold. While some spells like <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus\' Tribute</a> can have a huge impact on the outcome of your next fight, cheaper ones like  <a class="hoverimage" href="/bgstrategy/spell/?id=3">Tavern Coin</a> or <a class="hoverimage" href="/bgstrategy/spell/?id=8">Careful Investment</a>.<br><br></p>';
+        echo '<p>One spell from your Tier or lower will be present in the Tavern on each refresh. The cost to buy them varies from 1 to 6 Gold. While some spells like <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus\' Tribute</a> can have a huge impact on the outcome of your next fight, cheaper ones like  <a class="hoverimage" href="/bgstrategy/spell/?id=3">Tavern Coin</a> or <a class="hoverimage" href="/bgstrategy/spell/?id=8">Careful Investment</a> are a good alternative to rolling your last couple of Gold away, at the end of your Tavern phase.<br><br></p>';
     }
 
     if ($show == 'spells' && $mode == 'gfx') {
