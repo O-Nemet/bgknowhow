@@ -26,6 +26,7 @@
         <br><br>
         Other important cards: <a class='hoverimage' href='/bgstrategy/spell/?id=23'>Brann's Blessing</a>, <a class='hoverimage' href='/bgstrategy/spell/?id=27'>Hired Headhunter</a> and <a class='hoverimage' href='/bgstrategy/spell/?id=32'>Dreamer's Embrace</a> will help your build.
     </p>
+
     <h3 id="drakkari">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Razorgore', 'Smolderer', 'Drake', 'Drake', 'Smuggler', 'Hunter', 'Enchanter'];
@@ -33,7 +34,7 @@
     drawBoard($minions);
     ?>
     <p>
-        This build may be a bit slow at first, but can really get going once you have <strong>Drakkari Enchanter</strong> or the spell <a class='hoverimage' href='/bgstrategy/spell/?id=25'>Primal Staff</a>. Just make sure that you leave a free space, so you can use the Smolderwings you gain from Outback Smolderer. If you do triple everything and still got free space, <a class='hoverimage' href='/bgstrategy/minion/?id=454'>Ignition Specialist</a> can work very well.
+        This build may be a bit slow at first, but can really get going once you have <strong>Drakkari Enchanter</strong> or the spell <a class='hoverimage' href='/bgstrategy/spell/?id=25'>Primal Staff</a> (they do not stack, though). Just make sure that you leave a free space, so you can use the Smolderwings you gain from Outback Smolderer. If you do triple everything and still got free space, <a class='hoverimage' href='/bgstrategy/minion/?id=454'>Ignition Specialist</a> can work very well.
     </p>
 </div>
 
