@@ -86,6 +86,8 @@
     ?>
     <p>
         <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> is an important pickup for this comp, to find you <a class="hoverimage" href="/bgstrategy/minion/?id=291">Baltharak</a> to give <strong>Lighter Fighter</strong> reborn. Taunting the Fighters is advised, of course.
+        <br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
     </p>
 </div>
 

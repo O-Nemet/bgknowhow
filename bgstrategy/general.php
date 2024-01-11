@@ -11,7 +11,7 @@ include_once('../header.php');
         <br><br>
         The higher the tier, the fewer copies of each minion will be available in the minion pool shared by all players. For example each tier 6 minion is only available 7 times. So if you fight someone who has a golden tier 6 minion, there will only be a maximum of 4 copies left for pickup in the tavern. This includes most ways of discoveries, but not the hero powers of <a class="hoverimage" href="/bgstrategy/heroes/?id=66">Tess</a> and <a class="hoverimage" href="/bgstrategy/heroes/?id=57">Scabbs</a> who will generate additional minions. Minions sold during the game will be readded to the shared pool (golden minions will be reverted to three normal ones).
         <br><br>
-        Since August 2023 (patch 27.2.0) Tavern Tier 7 has been added to the game, but will only be accessible in games affected by the anomaly <a href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a>. One minion per minion type as well as three neutral minions were newly created and the all types unit <a class="hoverimage" href="/bgstrategy/heroes/?id=128">Amalgadon</a> returned upgraded from Tier 6.
+        Since August 2023 (patch 27.2.0) Tavern Tier 7 has been added to the game, but will only be accessible in games affected by the anomaly <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> or the hero <a class="hoverimage" href="/bgstrategy/hero/?id=97">Thorim, Stormlord</a>. One minion per minion type as well as three neutral minions were newly created for this Tier.
     </p>
     <br>
     <table class="tier-table">

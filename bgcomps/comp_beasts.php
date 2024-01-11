@@ -45,6 +45,8 @@
     ?>
     <p>
         This is a special setup with only 5 minions, which works by having <strong>Octosari</strong>'s ability already scaled a bit. You are summoning big sized deathrattles while also guaranteeing <strong>Octosari</strong> will be scaled up.
+        <br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
     </p>
     <h3 id="rylak">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
