@@ -20,8 +20,9 @@
     drawBoard($minions);
     ?>
     <p>
-        Stay on tier 4 to get as many <strong>Shakers</strong> and <strong>Crooners</strong> as possible (after you get a golden Crooner, Shakers are more valuable) to constantly increase the size of your Deep Blue spellcrafts. Use them on the Zesty Shakers to get extra copies. Lava Lurker is the best option to make the biggest stats gain permanent each round. Wrangler can be discovered by your triples or be replaced with Blade Collector, if Pirates are available.
+        Stay on tier 4 to get as many <strong>Shakers</strong> and <strong>Crooners</strong> as possible (after you get a golden Crooner, Shakers are more valuable) to constantly increase the size of your Deep Blue spellcrafts. Use them on the Zesty Shakers to get extra copies. Lava Lurker is the best option to make the biggest stats gain permanent each round. Wrangler can be discovered by your triples or be replaced with <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a>, if Pirates are available.
     </p>
+
     <h3 id="deepblues">Lord of Gains Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Slitherspear', 'Daggerspine Thrasher', 'Daggerspine Thrasher', 'The Glad-iator', 'Silivaz', 'Silivaz', 'Drakkari Enchanter'];
@@ -29,8 +30,9 @@
     drawBoard($minions);
     ?>
     <p>
-        There are plenty of cards you want to look for that could definitely help out this build. Ensorcelled Fungus, Magnus Manastorm (from the Buddy Up spell), Saloon's Finest, Ignition Specialist, Glowscale, and Land Lubber are some of these cards.
+        There are plenty of cards you want to look for that could definitely help out this build. <a class="hoverimage" href="/bgstrategy/minion/?id=431">Ensorcelled Fungus</a>, <a class="hoverimage" href="/bgstrategy/buddy/?id=44">Magnus Manastorm</a> (from the Buddy Up spell), <a class="hoverimage" href="/bgstrategy/spell/?id=39">Saloon's Finest</a>, <a class='hoverimage' href='/bgstrategy/minion/?id=454'>Ignition Specialist</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a>, and <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> are some of these cards.
     </p>
+
     <h3 id="wrangler">Wrangler Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Thrasher', 'Blade Collector', 'Myrmidon', 'Wrangler', 'Wrangler', 'Glowscale', 'Glowscale'];
@@ -39,6 +41,8 @@
     ?>
     <p>
         The <strong>Wrangler</strong>s enable the possibility to permanently scale non-Naga minions. Therefore, this comp improves by the availability of Pirates or Mechs, because they both offer a cleave minion (Blade Collector and <a class="hoverimage" href="/bgstrategy/minion/?id=133">Reaper</a>).
+        <br><br>
+        Notice that Spellcraft cards and Gems (if Quilboar are available) also count as a "spell" for the Wranglers.
     </p>
 </div>
 
