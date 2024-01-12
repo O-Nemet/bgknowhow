@@ -31,14 +31,14 @@
 
     <h3 id="moroes">Deathrattle Moroes Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Mummifier', 'Moroes', 'Moroes', 'Kel', 'Anub', 'Titus'];
+    $board   = ['Moroes', 'Moroes', 'Kel', 'Mummifier', 'Kel', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Mummifier and the Anub'arak.
+        This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Moroes.
         <br><br>
-        Add a <a class="hoverimage" href="/bgstrategy/minion/?id=421">Hawkstrider Herald</a> if Beasts are available for even more Deathrattle triggers.
+        Heavily improves by adding a <a class="hoverimage" href="/bgstrategy/minion/?id=421">Hawkstrider Herald</a> if Beasts are available, for even more Deathrattle triggers.
         <br><br>
         Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
     </p>
