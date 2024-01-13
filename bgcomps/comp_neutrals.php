@@ -22,7 +22,7 @@
     <p>
         These are just an example of minions that make use of the stats given from <strong>Walking Fort</strong> and synergize with one another. You can always make the taunted minions be minions with special abilities like Divine Shield or Cleave. <a class="hoverimage" href="/bgstrategy/minion/?id=455">Wayward Grimscale</a>, <a class='hoverimage' href='/bgstrategy/minion/?id=5'>Impulsive Trickster</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=133">Foe Reaper 4000</a> are just some of the options.
         <br><br>
-        There are plenty of options to buff any minion with Taunt, therefore if you need the tempo early on it can be a good idea to taunt
+        There are plenty of options to buff any minion with Taunt, therefore if you need the tempo early on it can be a good idea to taunt the Fort or the Enchanter themselves. The downside to this is that you won't really be able to sell them for a scam minion for the final battles, though.
     </p>
 
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
