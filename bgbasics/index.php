@@ -116,7 +116,7 @@ include_once('../header.php');
     </p>
     <h3 id="poisonous">Poisonous <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        A minion with Poisonous will kill any minion (without a Divine Shield) it hits regardless that minions health. Unlike Venomous, Poisonous will not be removed from the minion. This is a very strong ability, because in theory a poisonous minion with only 1 attack but enough health could kill an entire opponent's board.
+        A minion with Poisonous will kill any minion (without a Divine Shield) it hits regardless that minion's health. Unlike Venomous, Poisonous will not be removed from the minion. This is a very strong ability, because in theory a poisonous minion with only 1 attack but enough health could kill an entire opponent's board.
         <br><br>
         Therefore, only very few active minions have this ability, namely <a class="hoverimage" href="/bgstrategy/minion/?id=128">Amalgadon</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=406">Tide Oracle Morgl</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=182">Emperor Cobra</a> (spawned from a secret).
     </p>
@@ -169,6 +169,10 @@ include_once('../header.php');
         Your first triple during a game can often be a key decision guiding your direction or strategy for the rest of the game. Please refer to <a href="/bgstrategy/general.php#keyminions">our list of key minions for each minion type</a>.
         <br><br>
         Already golden minions can not be tripled again and will bind three copies of the minion on your board. Of course, it is possible to get another golden version of a minion by combining three new minions of the same name. When you sell a tripled minion three copies will be readded to the shared minion pool. This is more relevant for high-tier minions, because there are only 9 copies of each tier 5 minion and only 7 minions of each tier 6 minion.
+    </p>
+    <h3 id="pivoting">Pivoting <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Switching from one strategy or minion type to another, usually during the mid-game but sometimes even during the late-game can be the difference between a subpar or a top 4 finish. Knowing when it is the right move to pivot in order to increase your long-term chances, is a skill fed by proper enemy scouting as well as general experience with the flow of the game. Naturally, some strategies like Beasts or Scam are easier to switch to than others, for example Dragons or Elementals.
     </p>
     <h3 id="buffs">Buff persistence <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
