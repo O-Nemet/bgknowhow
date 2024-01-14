@@ -24,6 +24,8 @@
         <br><br>
         Your build becomes stronger, the more self damage you do. Having more than one Wrath Weaver is good, but do not be afraid to triple it if you really need to find your <strong>Tichondrius</strong>. While Tichondrius is great to buff something like Impulsive Trickster, be wary of the board space as you may not have enough room to recycle a card and keep these other demons.
         <br><br>
+        The minions <a class="hoverimage" href="/bgstrategy/minion/?id=394">Dreadbeard</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=437">Bazaar Dealer</a> are suitable for this kind of build during the mid-game, but will usually be replaced later on.
+        <br><br>
         For the very late game <a class="hoverimage" href="/bgstrategy/minion/?id=426">Cultist S'thera</a> with <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus Rivendare</a> is also good if you have a big demon you want to resummon, but it does get countered by <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a>.
     </p>
 
