@@ -172,7 +172,7 @@ include_once('../header.php');
     </p>
     <h3 id="pivoting">Pivoting <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Switching from one strategy or minion type to another, usually during the mid-game but sometimes even during the late-game can be the difference between a subpar or a top 4 finish. Knowing when it is the right move to pivot in order to increase your long-term chances, is a skill fed by proper enemy scouting as well as general experience with the flow of the game. Naturally, some strategies like Beasts or Scam are easier to switch to than others, for example Dragons or Elementals.
+        Transitioning from one strategy or minion type to another, usually during the mid-game but sometimes even during the late-game can be the difference between a subpar or a top 4 finish. Knowing when it is the right move to pivot in order to increase your long-term chances, is a skill fed by proper enemy scouting as well as general experience with the flow of the game. Naturally, some strategies like Beasts or Scam are easier to switch to than others, for example Dragons or Elementals.
     </p>
     <h3 id="buffs">Buff persistence <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
