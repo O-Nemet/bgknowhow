@@ -3,6 +3,18 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.4.0">17.01.2024 - Patch 28.4.0 brining back two BG cards <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard released the <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.4 notes</a>. Unfortunately this time the Battlegrounds mode is merely a sidenote in this patch, as only the previously deactivated due to bugs minion <a class='hoverimage' href='/bgstrategy/minion/?id=449'>Paint Smudger</a> and the spell <a class='hoverimage' href='/bgstrategy/spell/?id=21'>Staff of Enrichment</a> will return to the game.
+        <br><br>
+        Many players were hoping for a nerf to the so-called lubbing strategy, which is based on the minion <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in combination with Demons and kinda skewed the metagame during the last couple of weeks.
+        Influencer manager <a href="https://twitter.com/RidiculousHat/status/1731412270394015752" target="_blank">RidiculousHat</a> stated that testing for a balance changes was not possible yet due to time constraints after the holiday season, but was positive that some changes may turn up before the end of the month.
+        <br><br>
+        So we will have to wait and see a bit longer, until boards like this will be a thing of the past:<br>
+        <img src="<?= PICTURE_LOCAL ?>news/lubberstrategy.webp">
+    </p>
+    <br>
+
     <h3 id="newyear2024">05.01.2024 - A new year and a time to look back <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Happy New Year, everyone! Back in June 2022, I started this website as a small side project because I was enjoying the Hearthstone Battlegrounds gameplay, and I noticed a kind of void regarding persistent strategic information. I wanted to provide the community, especially newer players, with a hub of knowledge and information (you can check out my <a href="/introduction.php">original mission statement</a> if you like). I also wanted to test and broaden my skill set, as well as experiment with new ways to structure and develop content.
