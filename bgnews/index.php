@@ -3,9 +3,9 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="patch28.4.0">17.01.2024 - Patch 28.4.0 brining back two BG cards <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="patch28.4.0">17.01.2024 - Patch 28.4.0 bringing back two BG cards <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24046221/28-4-patch-notes" target="_blank">Patch 28.4 notes</a>. Unfortunately this time the Battlegrounds mode is merely a sidenote in this patch, as only the previously deactivated due to bugs minion <a class='hoverimage' href='/bgstrategy/minion/?id=449'>Paint Smudger</a> and the spell <a class='hoverimage' href='/bgstrategy/spell/?id=21'>Staff of Enrichment</a> will return to the game.
+        Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24046221/28-4-patch-notes" target="_blank">Patch 28.4 notes</a>. Unfortunately this time the Battlegrounds mode is merely a sidenote in the patch, as only the previously deactivated due to bugs minion <a class='hoverimage' href='/bgstrategy/minion/?id=449'>Paint Smudger</a> and the spell <a class='hoverimage' href='/bgstrategy/spell/?id=21'>Staff of Enrichment</a> will return to the game.
         <br><br>
         Many players were hoping for a nerf to the so-called lubbing strategy, which is based on the minion <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in combination with Elementals and Demons, and kinda skewed the metagame during the last couple of weeks.
         Influencer manager <a href="https://twitter.com/RidiculousHat" target="_blank">RidiculousHat</a> stated that testing for balance changes hasn't been possible yet, due to time constraints after the holiday season, but was positive that some changes may turn up before the end of the month.
