@@ -11,6 +11,6 @@ There is no fancy build or pipeline setup needed, at the moment. Every push to t
 [<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/SamKirkland/FTP-Deploy-Action)
 # Technologies used
 
-PHP 8.0.18<br>
+PHP 8.1.0<br>
 HTML5/CSS3<br>
 MySQL 5.7
