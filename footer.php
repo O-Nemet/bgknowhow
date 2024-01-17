@@ -17,6 +17,10 @@
     </small>
 </footer>
 
+<script>
+    let hoverImages = [<?= $hoverImages ?>];
+</script>
+
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function () {
         let tooltips = new bgTooltip();

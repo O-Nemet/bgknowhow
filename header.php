@@ -34,10 +34,6 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
     <script src="/miniontooltip.js" type="text/javascript"></script>
 </head>
 
-<script>
-    let hoverImages = [<?= $hoverImages ?>];
-</script>
-
 <body class="<?= getWebsiteName(); ?>" style="background-color: antiquewhite">
 
 <?php
