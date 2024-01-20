@@ -5,7 +5,11 @@ include_once('../header.php');
 <div class="news">
     <h3 id="lubbberremoved">19.01.2024 - Land Lubber out of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard just removed the infamous <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in an emergency hotfix!
+        Blizzard has just removed the infamous <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in an emergency hotfix!
+        <br><br>
+        Seems like they still do listen to the community after all, but sometimes are restrained by their internal schedules and communication. BG Lead Game Designer <a href="https://twitter.com/LoewenMitchell/status/1748487417236193517" target="_blank">Mitchell Loewen</a> stated that it will return "with some changes in the next hotfix", which will most likely drop before the end of the month.
+        <br>
+        <img src="<?= PICTURE_LOCAL ?>news/lubbergone.png">
     </p>
     <br>
 
@@ -16,7 +20,8 @@ include_once('../header.php');
         Many players were hoping for a nerf to the so-called lubbing strategy, which is based on the minion <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in combination with Elementals and Demons, and kinda skewed the metagame during the last couple of weeks.
         Influencer manager <a href="https://twitter.com/RidiculousHat" target="_blank">RidiculousHat</a> stated that testing for balance changes hasn't been possible yet, due to time constraints after the holiday season, but was positive that some changes may turn up before the end of the month.
         <br><br>
-        So we will have to wait a bit longer, until boards like this will be a thing of the past:<br>
+        So we will have to wait a bit longer, until boards like this will be a thing of the past:
+        <br>
         <img src="<?= PICTURE_LOCAL ?>news/lubberstrategy.webp">
     </p>
     <br>
