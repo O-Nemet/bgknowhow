@@ -6,10 +6,11 @@ include_once('../header.php');
     <h3 id="lubbberremoved">19.01.2024 - Land Lubber out of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard has just removed the infamous <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in an emergency hotfix!
+        And they even added an ingame popup to inform everyone about it, in order to prevent mass tears for staying on Tier 2 for too long.
         <br><br>
         Seems like they still do listen to the community after all, but sometimes are restrained by their internal schedules and communication. BG Lead Game Designer <a href="https://twitter.com/LoewenMitchell/status/1748487417236193517" target="_blank">Mitchell Loewen</a> stated that it will return "with some changes in the next hotfix", which will most likely drop before the end of the month.
         <br><br>
-    <div style="text-align: center"><img src="<?= PICTURE_LOCAL ?>news/lubbergone.png"></div>
+        <img style="display: block; margin: 0 auto;" src="<?= PICTURE_LOCAL ?>news/lubbergone.png">
     </p>
     <br>
 
