@@ -3,6 +3,12 @@ include_once('../header.php');
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="lubbberremoved">19.01.2024 - Land Lubber out of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard just removed the infamous <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in an emergency hotfix!
+    </p>
+    <br>
+
     <h3 id="patch28.4.0">17.01.2024 - Patch 28.4.0 bringing back two BG cards <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24046221/28-4-patch-notes" target="_blank">Patch 28.4 notes</a>. Unfortunately this time the Battlegrounds mode is merely a sidenote in the patch, as only the previously deactivated due to bugs minion <a class='hoverimage' href='/bgstrategy/minion/?id=449'>Paint Smudger</a> and the spell <a class='hoverimage' href='/bgstrategy/spell/?id=21'>Staff of Enrichment</a> will return to the game.
