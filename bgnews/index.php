@@ -8,8 +8,8 @@ include_once('../header.php');
         Blizzard has just removed the infamous <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in an emergency hotfix!
         <br><br>
         Seems like they still do listen to the community after all, but sometimes are restrained by their internal schedules and communication. BG Lead Game Designer <a href="https://twitter.com/LoewenMitchell/status/1748487417236193517" target="_blank">Mitchell Loewen</a> stated that it will return "with some changes in the next hotfix", which will most likely drop before the end of the month.
-        <br>
-        <img src="<?= PICTURE_LOCAL ?>news/lubbergone.png">
+        <br><br>
+    <div style="text-align: center"><img src="<?= PICTURE_LOCAL ?>news/lubbergone.png"></div>
     </p>
     <br>
 
