@@ -7,7 +7,7 @@ include_once("../header.php");
     <p>
         Blizzard has released the <a href="https://hearthstone.blizzard.com/en-us/news/24046220/28-4-1-patch-notes" target="_blank">Patch 28.4.1 notes</a> applying a few BG balance changes to Beasts, Undead, Quilboars, and Spells.
         <br><br>
-        Also <a class="hoverimage" href="/bgstrategy/minion/?id=434">Land Lubber</a> is back in the minion pool, but it got upped to Tier 3 in order to prevent the traditional lubbing strategies.
+        Also <a class="hoverimage" href="/bgstrategy/minion/?id=434">Land Lubber</a> is back in the minion pool, but it got upped to Tier 3 in order to prevent the traditional lubbing strategies. Only time will tell if this was enough of a change or some clever players will come up with another reproducable strategy to lubb.
     </p>
     <br>
 
