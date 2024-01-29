@@ -3,6 +3,14 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.4.1">29.01.2024 - Patch 28.4.1 live today bringing back Lubber <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard has released the <a href="https://hearthstone.blizzard.com/en-us/news/24046220/28-4-1-patch-notes" target="_blank">Patch 28.4.1 notes</a> applying a few BG balance changes to Beasts, Undead, Quilboars, and Spells.
+        <br><br>
+        Also <a class="hoverimage" href="/bgstrategy/minion/?id=434">Land Lubber</a> is back in the minion pool, but it got upped to Tier 3 in order to prevent the traditional lubbing strategies.
+    </p>
+    <br>
+
     <h3 id="lubbberremoved">19.01.2024 - Land Lubber out of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard has just removed the infamous <a class="hoverimage" href="/bgstrategy/minion/?id=434">Land Lubber</a> in an emergency hotfix!

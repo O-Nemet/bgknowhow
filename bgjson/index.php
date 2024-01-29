@@ -131,6 +131,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>29.01.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24046220/28-4-1-patch-notes" target="_blank">28.4.1</a> patch notes.</li>
         <li>19.12.2023 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">28.2.3</a> patch notes.</li>
         <li>12.12.2023 - Added BG armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2822-patch-notes/117872" target="_blank">28.2.2</a> patch notes.</li>
         <li>05.12.2023 - Added all new minions and updates from the <a href="https://hearthstone.blizzard.com/en-us/news/24008697/28-2-patch-notes" target="_blank">28.2.0</a> patch notes.</li>
