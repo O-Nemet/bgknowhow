@@ -202,7 +202,7 @@ foreach ($tempMinions->data as $key => $object) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Gambler', 'Eternal Knight', 'Lubber'];
+        $board   = ['Gambler', 'Eternal Knight'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
