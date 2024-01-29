@@ -14,6 +14,8 @@ include_once('../header.php');
         If your hero power activation costs 1 gold and is worthwhile early on you can alternatively play the so-called Rafaam curve going to level 2 on turn 4 (6 gold), going to level 3 on turn 6 (8 gold) and going to level 4 on turn 7 (9 gold).
         <br><br>
         For the time being, for further information about playing curves please refer to the <a href="https://docs.google.com/spreadsheets/d/1J_NuzXHEsppgrAWJzLEZwESfiiNyURo3pCBAO1ga2mE/" target="_blank">Battlegrounds Curvesheet by Minder and Jkirek</a>.
+        <br><br>
+        Please note: In the currenctly active spell meta of season 6, following a curve plan per hero is not as important as before. The spells offered can often smoothen your turns in the early- and mid-game.
     </p>
 </div>
 

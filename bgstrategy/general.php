@@ -11,7 +11,7 @@ include_once('../header.php');
         <br><br>
         The higher the tier, the fewer copies of each minion will be available in the minion pool shared by all players. For example each tier 6 minion is only available 7 times. So if you fight someone who has a golden tier 6 minion, there will only be a maximum of 4 copies left for pickup in the tavern. This includes most ways of discoveries, but not the hero powers of <a class="hoverimage" href="/bgstrategy/heroes/?id=66">Tess</a> and <a class="hoverimage" href="/bgstrategy/heroes/?id=57">Scabbs</a> who will generate additional minions. Minions sold during the game will be readded to the shared pool (golden minions will be reverted to three normal ones).
         <br><br>
-        Since August 2023 (patch 27.2.0) Tavern Tier 7 has been added to the game, but will only be accessible in games affected by the anomaly <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> or the hero <a class="hoverimage" href="/bgstrategy/hero/?id=97">Thorim, Stormlord</a>. One minion per minion type as well as three neutral minions were newly created for this Tier.
+        Since August 2023 (patch 27.2.0) Tavern Tier 7 has been added to the game, but will only be accessible in games affected by the anomaly <a class="hoverimage" href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> or the hero <a class="hoverimage" href="/bgstrategy/hero/?id=97">Thorim, Stormlord</a>. One minion per minion type as well as three neutral minions were newly created for this Tier.
     </p>
     <br>
     <table class="tier-table">
@@ -255,7 +255,7 @@ foreach ($tempMinions->data as $key => $object) {
 
     <h3 id="keyminions">Key minions guiding your strategy <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Transitioning from mid-game to a viable end-game composition is an important step you should master in order to improve your game. Often times your first discovery of a 5 or 6 drop minion after a triple, will guide you in a specific direction. Here are the key minions for each minion type strategy:
+        Transitioning from mid-game to a viable end-game composition is an important step you should master in order to improve your game. Often times your first discovery of a 5 or 6 drop minion after a triple, will guide you in a specific direction. These are the key minions for each minion type strategy:
     </p>
     <div class="comp_wrapper cf">
         <?php
@@ -264,7 +264,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Rewinder', 'Tichondrius', 'Ur\'zul', 'Felbat'];
+        $board   = ['Rewinder', 'Tichondrius', 'Ur\'zul', 'S\'thara', 'Felbat'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -294,7 +294,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Peggy Sturdybone', 'Underhanded Dealer', 'Eliza', 'Tethys'];
+        $board   = ['Peggy Sturdybone', 'Blade Collector', 'Underhanded Dealer', 'Eliza', 'Tethys'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -304,7 +304,7 @@ foreach ($tempMinions->data as $key => $object) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Anub', '*Champion of the Primus', 'Summoner', 'Kel'];
+        $board   = ['Anub', '*Champion of the Primus', 'Moroes', 'Summoner', 'Kel'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);

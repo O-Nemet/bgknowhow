@@ -24,7 +24,7 @@ include_once('../header.php');
     </p>
     <h3 id="tavern">Tavern phase <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The maximum amount of gold available for a turn is capped to 99.
+        The maximum amount of gold available for a turn is capped to 100.
     </p>
     <h3 id="pool">Minion pool <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -144,6 +144,8 @@ include_once('../header.php');
     </p>
     <h3 id="spellcraft">Spellcraft <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Spellcraft is an ability exclusive to the <a href="/bgstrategy/?show=minions&type=naga">Naga minion</a> type.
+        <br><br>
         Please check out this <a href="/bgstrategy/?show=minions&ability=spellcraft">list of all Spellcraft minions</a> to know your options.
     </p>
     <h3 id="hand">Hand size and interactions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -221,7 +223,7 @@ include_once('../header.php');
         <br><br>
         The first 5 turns are usually refered to as the early game, whereas turns 6 to 10 are the mid-game and
         everything after that is the end game. It is very uncommon for a player to die before turn 8 (notwithstanding
-        conceding or disconnecting), but pretty common on turns 9 to 10. This will also depend on the tempo of the
+        conceding or disconnecting), but pretty common that at least one player does so on turns 9 to 10. This will also depend on the tempo of the
         current meta game and the lobby composition, of course.
     </p>
     <h3 id="damage">Damage Output <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

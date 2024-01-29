@@ -1,12 +1,12 @@
 <?php
-include_once('../header.php');
+include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
     <h3 id="lubbberremoved">19.01.2024 - Land Lubber out of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard has just removed the infamous <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in an emergency hotfix!
-        And they even added an ingame popup to inform everyone about it, in order to prevent mass tears for staying on Tier 2 for too long.
+        Blizzard has just removed the infamous <a class="hoverimage" href="/bgstrategy/minion/?id=434">Land Lubber</a> in an emergency hotfix!
+        And they even added an ingame popup to inform everyone about it (only in english clients), in order to prevent mass tears for staying on Tier 2 for too long.
         <br><br>
         Seems like they still do listen to the community after all, but sometimes are restrained by their internal schedules and communication. BG Lead Game Designer <a href="https://twitter.com/LoewenMitchell/status/1748487417236193517" target="_blank">Mitchell Loewen</a> stated that it will return "with some changes in the next hotfix", which will most likely drop before the end of the month.
         <br><br>
@@ -16,9 +16,9 @@ include_once('../header.php');
 
     <h3 id="patch28.4.0">17.01.2024 - Patch 28.4.0 bringing back two BG cards <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24046221/28-4-patch-notes" target="_blank">Patch 28.4 notes</a>. Unfortunately this time the Battlegrounds mode is merely a sidenote in the patch, as only the previously deactivated due to bugs minion <a class='hoverimage' href='/bgstrategy/minion/?id=449'>Paint Smudger</a> and the spell <a class='hoverimage' href='/bgstrategy/spell/?id=21'>Staff of Enrichment</a> will return to the game.
+        Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24046221/28-4-patch-notes" target="_blank">Patch 28.4 notes</a>. Unfortunately this time the Battlegrounds mode is merely a sidenote in the patch, as only the previously deactivated due to bugs minion <a class="hoverimage" href="/bgstrategy/minion/?id=449">Paint Smudger</a> and the spell <a class="hoverimage" href="/bgstrategy/spell/?id=21">Staff of Enrichment</a> will return to the game.
         <br><br>
-        Many players were hoping for a nerf to the so-called lubbing strategy, which is based on the minion <a class='hoverimage' href='/bgstrategy/minion/?id=434'>Land Lubber</a> in combination with Elementals and Demons, and kinda skewed the metagame during the last couple of weeks.
+        Many players were hoping for a nerf to the so-called lubbing strategy, which is based on the minion <a class="hoverimage" href="/bgstrategy/minion/?id=434">Land Lubber</a> in combination with Elementals and Demons, and kinda skewed the metagame during the last couple of weeks.
         Influencer manager <a href="https://twitter.com/RidiculousHat" target="_blank">RidiculousHat</a> stated that testing for balance changes hasn't been possible yet, due to time constraints after the holiday season, but was positive that some changes may turn up before the end of the month.
         <br><br>
         So we will have to wait a bit longer, until boards like this will be a thing of the past:
@@ -52,7 +52,7 @@ include_once('../header.php');
 
     <h3 id="patch28.2.3">19.12.2023 - Patch 28.2.3 released and Bloodwatcher unbanned <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard just released <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.2.3</a> onto the servers, bringing lots of adjustments to many minions and spells, as well as a couple of heroes. For example, after a huge nerf (every third Tavern spell now costing 1 gold less, instead of 0 gold total) <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> is allowed to rejoin the game.
+        Blizzard just released <a href="https://hearthstone.blizzard.com/en-us/news/24033779/28-2-3-patch-notes" target="_blank">Patch 28.2.3</a> onto the servers, bringing lots of adjustments to many minions and spells, as well as a couple of heroes. For example, after a huge nerf (every third Tavern spell now costing 1 gold less, instead of 0 gold total) <a class="hoverimage" href="/bgstrategy/hero/?id=100">Tae'thelan Bloodwatcher</a> is allowed to rejoin the game.
         <br><br>
         For a quick overview on which cards got nerfed/buffed check out this infographic:
         <img src="<?= PICTURE_LOCAL ?>news/patch2823_preview.jpg">
@@ -61,11 +61,11 @@ include_once('../header.php');
 
     <h3 id="patch28.2.2">12.12.2023 - Patch 28.2.2 hotfixes and Bloodwatcher banned <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        After hotfix <a href="https://news.blizzard.com/en-us/hearthstone/24008698/28-2-1-patch-notes" target="_blank">patch 28.2.1</a> last week did not bring any changes for BGs, today's hotfix <a href="https://us.forums.blizzard.com/en/hearthstone/t/2822-patch-notes/" target="_blank">patch 28.2.2 </a> provides us with the first balancing changes in the form of hero armor adjustments. Many heroes received an armor increase, <a class='hoverimage' href='/bgstrategy/hero/?id=27'>Guff</a>, <a class='hoverimage' href='/bgstrategy/hero/?id=53'>Ragnaros</a> and <a class='hoverimage' href='/bgstrategy/hero/?id=63'>Sneed</a> even got buffed to the maximum amount of 20 armor. Whereas only three heroes <a class='hoverimage' href='/bgstrategy/hero/?id=35'>Lich Baz'hial</a>, <a class='hoverimage' href='/bgstrategy/hero/?id=99'>Snake Eyes</a> and <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> had their armor reduced.
+        After hotfix <a href="https://news.blizzard.com/en-us/hearthstone/24008698/28-2-1-patch-notes" target="_blank">patch 28.2.1</a> last week did not bring any changes for BGs, today's hotfix <a href="https://us.forums.blizzard.com/en/hearthstone/t/2822-patch-notes/" target="_blank">patch 28.2.2 </a> provides us with the first balancing changes in the form of hero armor adjustments. Many heroes received an armor increase, <a class="hoverimage" href="/bgstrategy/hero/?id=27">Guff</a>, <a class="hoverimage" href="/bgstrategy/hero/?id=53">Ragnaros</a> and <a class="hoverimage" href="/bgstrategy/hero/?id=63">Sneed</a> even got buffed to the maximum amount of 20 armor. Whereas only three heroes <a class="hoverimage" href="/bgstrategy/hero/?id=35">Lich Baz"hial</a>, <a class="hoverimage" href="/bgstrategy/hero/?id=99">Snake Eyes</a> and <a class="hoverimage" href="/bgstrategy/hero/?id=100">Tae'thelan Bloodwatcher</a> had their armor reduced.
         <br><br>
-        Also, due to the increasing clever use of game mechanics regarding the hero power <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Reliquary Research</a> (staying on Tier 2 and buying lots of <a class='hoverimage' href='/bgstrategy/spell/?id=13'>Strike Oil</a>), Blizzard felt forced to move and decided to deactivate the hero <a class='hoverimage' href='/bgstrategy/hero/?id=100'>Tae'thelan Bloodwatcher</a> until his hero power will get adjusted, most likely in another patch next Tuesday.
+        Also, due to the increasing clever use of game mechanics regarding the hero power <a class="hoverimage" href="/bgstrategy/hero/?id=100">Reliquary Research</a> (staying on Tier 2 and buying lots of <a class="hoverimage" href="/bgstrategy/spell/?id=13">Strike Oil</a>), Blizzard felt forced to move and decided to deactivate the hero <a class="hoverimage" href="/bgstrategy/hero/?id=100">Tae'thelan Bloodwatcher</a> until his hero power will get adjusted, most likely in another patch next Tuesday.
         <br><br>
-        In other news we got confirmation that <a class='hoverimage' href='/bgstrategy/minion/?id=329'>Upbeat Duo</a>, while not listed in the minion purge lists before Season 6, was indeed intentionally removed and therefore will not come back in the near future.
+        In other news we got confirmation that <a class="hoverimage" href="/bgstrategy/minion/?id=329">Upbeat Duo</a>, while not listed in the minion purge lists before Season 6, was indeed intentionally removed and therefore will not come back in the near future.
     </p>
     <br>
 
@@ -124,10 +124,10 @@ include_once('../header.php');
         <br><br>
         Because many Naga minions naturally profit from spells being played, some of them have been adjusted for season 6:
         <br><br>
-        <a class='hoverimage' href="/bgstrategy/minion/?id=194">Snail Cavalry</a> will return.<br>
-        <a class='hoverimage' href="/bgstrategy/minion/?id=375">Daggerspine Thrasher</a> has been moved from Tier 3 to Tier 4 and only slightly buffed to a 4/5 minion.<br>
-        <a class='hoverimage' href="/bgstrategy/minion/?id=205">Critter Wrangler</a> will return and will only buff +1/+2 instead of the old +2/+2, but will now trigger on each spell cast instead of only spellcraft casts.<br>
-        <a class='hoverimage' href="/bgstrategy/minion/?id=419">Slitherspear, Lord of Gains</a> has been moved from Tier 5 to Tier 6 and only slightly buffed to a 4/6 minion.
+        <a class="hoverimage" href="/bgstrategy/minion/?id=194">Snail Cavalry</a> will return.<br>
+        <a class="hoverimage" href="/bgstrategy/minion/?id=375">Daggerspine Thrasher</a> has been moved from Tier 3 to Tier 4 and only slightly buffed to a 4/5 minion.<br>
+        <a class="hoverimage" href="/bgstrategy/minion/?id=205">Critter Wrangler</a> will return and will only buff +1/+2 instead of the old +2/+2, but will now trigger on each spell cast instead of only spellcraft casts.<br>
+        <a class="hoverimage" href="/bgstrategy/minion/?id=419">Slitherspear, Lord of Gains</a> has been moved from Tier 5 to Tier 6 and only slightly buffed to a 4/6 minion.
     </p>
     <br>
 
@@ -168,7 +168,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_elemental_master.webp">
         <br><br>
         The minions leaving will be:
-        <a class='hoverimage' href="/bgstrategy/minion/?id=23">Kaboom Bot</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=392">Seaborn Summoner</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=338">Stormbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=350">Upbeat Impressionist</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=385">Carbonic Copy</a> and fan favourite <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi, Kitchen Nightmare</a>.
+        <a class="hoverimage" href="/bgstrategy/minion/?id=23">Kaboom Bot</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=392">Seaborn Summoner</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=338">Stormbringer</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=350">Upbeat Impressionist</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=385">Carbonic Copy</a> and fan favourite <a class="hoverimage" href="/bgstrategy/minion/?id=121">Nomi, Kitchen Nightmare</a>.
     </p>
     <br>
 
@@ -192,7 +192,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_undeads.jpg" width="1000">
         <br><br>
         The Undead minions leaving will be:
-        <a class='hoverimage' href="/bgstrategy/minion/?id=273">Rot Hide Gnoll</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=276">Scarlet Skull</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=282">Soulsplitter</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=388">Relentless Sentry</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=389">Sore Loser</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=287">Sister Deathwhisper</a>.
+        <a class="hoverimage" href="/bgstrategy/minion/?id=273">Rot Hide Gnoll</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=276">Scarlet Skull</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=282">Soulsplitter</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=388">Relentless Sentry</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=389">Sore Loser</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=287">Sister Deathwhisper</a>.
     </p>
     <br>
 
@@ -209,7 +209,7 @@ include_once('../header.php');
         <img src="<?= PICTURE_LOCAL ?>news/patch283_neutral_worgen.webp">
         <br><br>
         The Neutral minions leaving will be:
-        <a class='hoverimage' href="/bgstrategy/minion/?id=219">Tavern Tipper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=35">Selfless Hero</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=369">Iron Groundskeeper</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=212">Reef Explorer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=208">Leeroy the Reckless</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=120">Mythrax the Unraveler</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=242">Tea Master Theotar</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=227">Uther the Lightbringer</a>, <a class='hoverimage' href="/bgstrategy/minion/?id=144">Zapp Slywick</a>.
+        <a class="hoverimage" href="/bgstrategy/minion/?id=219">Tavern Tipper</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=35">Selfless Hero</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=369">Iron Groundskeeper</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=212">Reef Explorer</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=208">Leeroy the Reckless</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=120">Mythrax the Unraveler</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=242">Tea Master Theotar</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=227">Uther the Lightbringer</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=144">Zapp Slywick</a>.
     </p>
     <br>
 
@@ -293,27 +293,27 @@ include_once('../header.php');
 
     <h3 id="patch28.0.2">18.11.2023 - Patch 28.0.2 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard released a second <a href="https://us.forums.blizzard.com/en/hearthstone/t/2802-patch-notes/116446" target="_blank">hotfix</a> today, removing <a class='hoverimage' href="/bgstrategy/anomaly/?id=36">Shackles of the Primus</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=47">Temperance of Aman'Thul</a> from the pool of active anomalies. In addition, they adjusted the appearance rates of a few other anomalies and updated some anomaly-related hero bans.
+        Blizzard released a second <a href="https://us.forums.blizzard.com/en/hearthstone/t/2802-patch-notes/116446" target="_blank">hotfix</a> today, removing <a class="hoverimage" href="/bgstrategy/anomaly/?id=36">Shackles of the Primus</a> and <a class="hoverimage" href="/bgstrategy/anomaly/?id=47">Temperance of Aman'Thul</a> from the pool of active anomalies. In addition, they adjusted the appearance rates of a few other anomalies and updated some anomaly-related hero bans.
         <br><br>
-        Also the stat buffing bugs regarding <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> and <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi</a> should be finally fixed now.
+        Also the stat buffing bugs regarding <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak</a> / <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=121">Nomi</a> should be finally fixed now.
     </p>
     <br>
 
     <h3 id="patch28.0.1">10.11.2023 - Patch 28.0.1 hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard released <a href="https://us.forums.blizzard.com/en/hearthstone/t/2801-patch-notes/115936" target="_blank">hotfix patch notes</a> including some updated bans for a number of anomalies. For example Mechs will now be banned from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">How to Even??</a> and Demons from <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Deep Blue Sooner</a>.
+        Blizzard released <a href="https://us.forums.blizzard.com/en/hearthstone/t/2801-patch-notes/115936" target="_blank">hotfix patch notes</a> including some updated bans for a number of anomalies. For example Mechs will now be banned from <a class="hoverimage" href="/bgstrategy/anomaly/?id=56">How to Even??</a> and Demons from <a class="hoverimage" href="/bgstrategy/anomaly/?id=56">Deep Blue Sooner</a>.
         <br><br>
         They also fixed some bugs, including the
         <del>Evil</del>
-        <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Anomalous Twin</a> anomaly. So there is a high chance for some/most of the recently temporarily deactived anomalies to rejoin the fray.
+        <a class="hoverimage" href="/bgstrategy/anomaly/?id=56">Anomalous Twin</a> anomaly. So there is a high chance for some/most of the recently temporarily deactived anomalies to rejoin the fray.
         <br><br>
-        Unfortunately the omnipresent stat buffing bugs regarding <a class='hoverimage' href="/bgstrategy/minion/?id=319">Rylak</a> / <a class='hoverimage' href="/bgstrategy/minion/?id=259">Felemental</a> and <a class='hoverimage' href="/bgstrategy/minion/?id=121">Nomi</a> have not been fixed, yet.
+        Unfortunately the omnipresent stat buffing bugs regarding <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak</a> / <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=121">Nomi</a> have not been fixed, yet.
     </p>
     <br>
 
     <h3 id="patch28.0">07.11.2023 - Patch 28.0.0 incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The <a href="https://hearthstone.blizzard.com/en-gb/news/24008693/28-0-patch-notes" target="_blank">28.0.0 patch notes</a> have been released. The patch will hit the servers today, and it will activate the last 3 anomalies <a class='hoverimage' href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class='hoverimage' href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class='hoverimage' href="/bgstrategy/anomaly/?id=57">Feline Fortune</a>.
+        The <a href="https://hearthstone.blizzard.com/en-gb/news/24008693/28-0-patch-notes" target="_blank">28.0.0 patch notes</a> have been released. The patch will hit the servers today, and it will activate the last 3 anomalies <a class="hoverimage" href="/bgstrategy/anomaly/?id=55">No Face, No Case</a>, <a class="hoverimage" href="/bgstrategy/anomaly/?id=56">Eleventh Hour</a> and <a class="hoverimage" href="/bgstrategy/anomaly/?id=57">Feline Fortune</a>.
         <br><br>
         The patch notes come without any other gameplay changes for the BG mode, but Blizzard does state that until the start of the new BG season (in early December) there won't be any additional anomalies released. Besides that, from now on you are able to toggle any number of BG strikes and boards in your collection, in order to get a random one of your selection for each of your games.
     </p>
@@ -333,7 +333,7 @@ include_once('../header.php');
         <li>New overlay effects for the tavern have been added, clearly indicating that a minion in your tavern could make a triple for your partner</li>
         <li>The starting player for the combat phase will alternate between you and your partner every turn (indicated by the order of the player panel on the left side of the screen)</li>
         <li>The board of player#2 will spawn in combat after the board of player#1 has been wiped completely (including effects like Deathrattle)</li>
-        <li>There is no direct interaction between you or your teammates board during the combat (e.g. a <a class='hoverimage'>Rot Hide Gnoll</a> on your partners board will not count minions which died while your board was active)</li>
+        <li>There is no direct interaction between you or your teammates board during the combat (e.g. a <a class="hoverimage">Rot Hide Gnoll</a> on your partners board will not count minions which died while your board was active)</li>
         <li>If the board of player#1 is already enough to win against both boards of the enemy duo team, the empty slots on the board will be filled up with minions from player#2 after the combat has concluded (therefore increasing the damage the losing team takes)</li>
         <li>The duo mode will add at least 4 new mode-exclusive heroes:
             <ul>
@@ -420,6 +420,6 @@ include_once('../header.php');
 </div>
 
 <?php
-include_once('../footer.php');
+include_once("../footer.php");
 ?>
 
