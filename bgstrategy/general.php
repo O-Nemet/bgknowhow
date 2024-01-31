@@ -171,12 +171,12 @@ foreach ($tempMinions->data as $key => $object) {
         </tr>
         <tr>
             <td>3</td>
-            <td>7</td>
+            <td>9</td>
             <td>9</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>9</td>
+            <td>7</td>
             <td>11</td>
         </tr>
         <tr>
