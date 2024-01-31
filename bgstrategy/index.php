@@ -305,7 +305,7 @@ if (!empty($buddy)) {
     if ($show == 'spells' && $mode == 'gfx') {
         echo "<div class='strategy-images spells cf'>";
         foreach ($spells as $spell) {
-            echo "<div><a href='" . $spell->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $spell->name . "</span></a></div>";
+            echo "<div><a href='" . $spell->websites->bgknowhow . "'><img width='240' height='320' src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $spell->name . "</span></a></div>";
         }
         echo "</div><br><br>";
     } else if ($show == 'spells' || $show == 'all') {
