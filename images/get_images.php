@@ -77,19 +77,32 @@ $getActiveOnly = 1;
 //        $stmt->bind_result($id, $name, $blizzardId);
 
 // generate anomaly files
-if ($stmt = $mysqli->prepare("SELECT bga.id,
-                                         bga.name,
-                                         bga.id_blizzard
-                                FROM bg_anomalies bga
-                               WHERE 1=1 -- bgq.flag_active = ?
-                                 -- AND bga.name IN ('Denathrius\' Anima Reserves')
-                                 AND bga.id > 29
-                            ORDER BY bga.name ASC")) {
+//if ($stmt = $mysqli->prepare("SELECT bga.id,
+//                                         bga.name,
+//                                         bga.id_blizzard
+//                                FROM bg_anomalies bga
+//                               WHERE 1=1 -- bgq.flag_active = ?
+//                                 -- AND bga.name IN ('Denathrius\' Anima Reserves')
+//                                 AND bga.id > 29
+//                            ORDER BY bga.name ASC")) {
+//    #$stmt->bind_param("i", $getActiveOnly);
+//    $stmt->execute();
+//    $stmt->store_result();
+//    $stmt->bind_result($id, $name, $blizzardId);
+
+// generate spell files
+if ($stmt = $mysqli->prepare("SELECT bgs.id,
+                                         bgs.name,
+                                         bgs.id_blizzard
+                                FROM bg_spells bgs
+                               WHERE 1=1 -- bgs.flag_active = ?
+                                 -- AND bgs.name IN ('Denathrius\' Anima Reserves')
+                                 AND bgs.id > 0
+                            ORDER BY bgs.name ASC")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
     $stmt->bind_result($id, $name, $blizzardId);
-
 
     $row_count = $stmt->num_rows;
     if ($row_count == 0) echo '0 results';
@@ -114,8 +127,8 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
 //        }
 
         # minions / hero pictures
-        if (!copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
-            !copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
+        if (!copy(PICTURE_URL_RENDER_FS . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
+            !copy(PICTURE_URL_RENDER_FS . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
         ) {
             echo 'failed to copy ../images/' . $blizzardId . '_render.png<br>';
         } else {
