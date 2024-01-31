@@ -37,8 +37,8 @@
     ?>
     <p>
         Give taunt to minions that aren't Octosari, <strong>Titus</strong> or Banana Slamma. Give stealth and divine shield to Titus Rivendare or Banana Slamma. Make sure you use <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to give reborn to your beasts besides <strong>Hawkstrider</strong>, it's definitely important in this build. Be careful, <a class="hoverimage" href="/bgstrategy/minion/?id=372">Free-Flying Feathermane</a> could be summoned instead of the reborned <strong>Goldrinn</strong>.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 
     <h3 id="octosari">Octosari Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -49,8 +49,8 @@
     ?>
     <p>
         This is a special setup with only 5 minions, which works by having <strong>Octosari</strong>'s ability already scaled a bit. You are summoning big sized deathrattles while also guaranteeing <strong>Octosari</strong> will be scaled up.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 
     <h3 id="rylak">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -61,8 +61,8 @@
     ?>
     <p>
         Needs the availability of Quilboars. Very important to not play other Deathrattle (due to <strong>Macaw</strong>) or Taunt (due to <strong>Rylak</strong>) minions. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn <strong>Rylak</strong> followed by the Macaw.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 
     <h3 id="rylakdemon">Rylak Battlecry Demon Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -75,8 +75,8 @@
         Needs the availability of Demons. Very important to not play other Deathrattle (due to <strong>Macaw</strong>) or Taunt (due to <strong>Rylak</strong>) minions. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn <strong>Rylak</strong> followed by the Macaw.
         <br><br>
         Improves by the availability of Mechs, because Magnetize is the best option to profit from a heavily buffed tavern (replace a Felbat with a <a class="hoverimage" href="/bgstrategy/minion/?id=53">Deflect-o-Bot</a> in that case). Tricky to play, because your board will be rather weak until you triple minions or get Felbats. <a class="hoverimage" href="/bgstrategy/minion/?id=132">Felbat</a> is also an option to buff your board. The Felementals can be replaced by <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> in the late game.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 </div>
 

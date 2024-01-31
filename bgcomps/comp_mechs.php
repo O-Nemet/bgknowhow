@@ -77,8 +77,8 @@
         This is a special case of another Mech Deathrattle variation, for which you will bascially need exactly the pieces displayed here, and they should be positioned in this order. Due to the timing interaction of the different components, what will happen is that the <strong>Blaster</strong> will die first and trigger twice, destroying your whole board but the <strong>Titus</strong>. After that mayhem the <strong>Kangor's</strong> will both spawn fresh <strong>Busters</strong> and your board will be 6 big Busters plus the Titus, and every dying Buster will grow the stats on your board again.
         <br><br>
         This is a very hard to beat comp, especially if you are able to protect your Titus by buffing it.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 
     <h3 id="lighter">Lighter Fighter Build <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -89,8 +89,8 @@
     ?>
     <p>
         <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> is an important pickup for this comp, to find you <a class="hoverimage" href="/bgstrategy/minion/?id=291">Baltharak</a> to give <strong>Lighter Fighter</strong> reborn. Taunting the Fighters is advised, of course.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 </div>
 

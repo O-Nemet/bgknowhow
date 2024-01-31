@@ -39,8 +39,8 @@
         This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Moroes.
         <br><br>
         Heavily improves by adding a <a class="hoverimage" href="/bgstrategy/minion/?id=421">Hawkstrider Herald</a> if Beasts are available, for even more Deathrattle triggers.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 
     <h3 id="deathrattle">Deathrattle/Reborn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -51,8 +51,8 @@
     ?>
     <p>
         Taunt the <strong>Anub'arak</strong>. You can replace Hungering Abomination with <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of the Primus</a>, <a class='hoverimage' href='/bgstrategy/minion/?id=445'>Moroes Steward of Death</a>, or <a class="hoverimage" href="/bgstrategy/minion/?id=399">Relentless Mur'ghoul</a>. As usually, <strong>Titus</strong> will generate lots of value, if he doesn't get sniped.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 
     <h3 id="exodia">Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

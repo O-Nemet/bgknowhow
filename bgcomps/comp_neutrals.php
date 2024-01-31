@@ -55,8 +55,8 @@
     ?>
     <p>
         If you don't have Archlich Kel'Thuzad, be sure to use <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> to give it Reborn. If you can't find Kangor's Apprentice or Cultist S'thara, you can still replace them with cards of other minion types.
-        <br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.
+        <!--<br><br>
+        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
     </p>
 </div>
 
