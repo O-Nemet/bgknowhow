@@ -3001,7 +3001,8 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .strategy-images.spells img {
-    width: 240px;
+    /*width: 240px;*/
+    width: 256px;
 }
 
 .strategy-images img:hover {
