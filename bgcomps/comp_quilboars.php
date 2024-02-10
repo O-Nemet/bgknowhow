@@ -19,7 +19,7 @@
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
 </p>
 <div class="comp_wrapper">
-    <h3 id="roogug">Roogug Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="roogugspell">Roogug Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Tusk', 'Roogug', 'Roogug', 'Smudger', 'Smudger', 'Lubber', 'Piper'];
     $minions = getMinionsForBoard($board);
