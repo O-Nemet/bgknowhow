@@ -34,7 +34,7 @@
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Elementals. Do not triple <strong>Sandstone Drake</strong> or <strong>Master Realities</strong>, they become less effective when put together. <strong>Drakkari Enchanter</strong> accelerates your comp strength into the endgame.</a>.
+        Needs the availability of Elementals. Do not triple <strong>Sandstone Drake</strong> or <strong>Master Realities</strong>, they become less effective when put together. <strong>Drakkari Enchanter</strong> accelerates your comp strength into the endgame.
     </p>
 
     <!--    <h3 id="drakkari">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
