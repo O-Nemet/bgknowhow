@@ -19,6 +19,26 @@
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
 </p>
 <div class="comp_wrapper">
+    <h3 id="roogug">Roogug Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Tusk', 'Roogug', 'Roogug', 'Smudger', 'Smudger', 'Lubber', 'Piper'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        This is a very good build to use when you are not doing well and want to stick behind at Tier 3/4. Each card is a keypiece, so you have to really balance and know at which time of the game is worth recycling. <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a>s are especially important, as the additional health to each Blood Gem and the gem procs from <strong>Roogug</strong> will go a long way. <a class="hoverimage" href="/bgstrategy/minion/?id=90">Necrolyte</a> is also important to ensure a divine shield minion gains a bunch of stats.
+    </p>
+
+    <h3 id="roogug">Roogug Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Piper', 'Roogug', 'Roogug', 'Spearhide', 'Bandit', 'Bopper', 'Charlga'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        Any Quilboar that generates Blood Gems is good, so don't think this is the only way to build this comp. You can also have a <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak Metalhead</a> be paired next to <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> and a golden <a class="hoverimage" href="/bgstrategy/minion/?id=8">Razorfen Geomancer</a>. You can have <a class="hoverimage" href="/bgstrategy/minion/?id=376">Briarback Bookie</a> or use <a class="hoverimage" href="/bgstrategy/minion/?id=45">Bannerboar</a> as well. Either way, you want to put as many Blood Gems onto <strong>Geomagus Roogug</strong> as you can. The only issue with this build is, that the other targets for his gem procs are suboptimal. So do try to put other cards such as a cleave or divine shield.
+    </p>
+
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Tusk', 'Tusk', 'Piper', 'Spearhide', 'Spearhide', 'Roogug', 'Bristlebach'];
