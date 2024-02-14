@@ -2998,6 +2998,7 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.anomalies img {
     width: 240px;
+    height: 364px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -3006,6 +3007,7 @@ body.bgstrategy .bgstrategy > a {
 .strategy-images.spells img {
     /*width: 240px;*/
     width: 256px;
+    height: 364px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
