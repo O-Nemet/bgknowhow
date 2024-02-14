@@ -3006,7 +3006,7 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.spells img {
     /*width: 240px;*/
-    /*width: 256px;*/
+    width: 256px;
     /*height: 364px;*/
     display: flex;
     justify-content: space-evenly;
