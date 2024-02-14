@@ -3,7 +3,7 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
-    <h3 id="patch28.6.0">14.02.2024 - Patch 28.6.0 launched, reactivating quest and rewards! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="patch28.6.0">14.02.2024 - Patch 28.6.0 launched, reactivating quests and rewards! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         In a surprise move Blizzard deciced to spice up the BG season of spells by bringing back quests and rewards for everyone (starting on turn 4). Read all about it as well as the minion and spell updates in the <a href="https://hearthstone.blizzard.com/en-us/news/24056184/28-6-patch-notes" target="_blank">28.6.0 patch notes</a>. For a complete overview check out our listings of all active and inactive <a href="/bgstrategy/?show=quests">quests</a> and <a href="/bgstrategy/?show=rewards">rewards</a>.
         <br><br>

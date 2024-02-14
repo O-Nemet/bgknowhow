@@ -344,7 +344,7 @@ if (!empty($buddy)) {
     if ($show == 'quests' && $mode == 'gfx') {
         echo "<div class='strategy-images anomalies cf'>";
         foreach ($quests as $quest) {
-            echo "<div><img src='" . PICTURE_LOCAL_QUEST . $quest->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$quest->isActive ? 'inactive-img' : '') . "' alt='$quest->name'><br><span>" . $quest->name . "</span></div>";
+            echo "<div><img src='" . PICTURE_LOCAL_QUEST . $quest->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$quest->isActive ? 'inactive-img' : '') . "' alt='$quest->name : " . htmlspecialchars($quest->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $quest->name . "</span></div>";
         }
         echo "</div><br><br>";
     } else if ($show == 'quests' || $show == 'all') {

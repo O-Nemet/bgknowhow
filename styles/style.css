@@ -2998,11 +2998,17 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.anomalies img {
     width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .strategy-images.spells img {
     /*width: 240px;*/
     width: 256px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .strategy-images img:hover {
