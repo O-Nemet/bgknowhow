@@ -240,6 +240,9 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
+        $text       = is_null($text) ? '' : $text;
+        $textGolden = is_null($textGolden) ? '' : $textGolden;
+
         $csvData =
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
