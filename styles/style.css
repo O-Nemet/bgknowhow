@@ -3006,8 +3006,8 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.spells img {
     /*width: 240px;*/
-    width: 256px;
-    height: 364px;
+    /*width: 256px;*/
+    /*height: 364px;*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -3028,7 +3028,7 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.anomalies span {
     display: block;
-    margin-top: -43px;
+    margin-top: -38px;
     margin-left: 28px;
     color: green;
     font-weight: bold;
@@ -3036,7 +3036,7 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.spells span {
     display: block;
-    margin-top: -43px;
+    margin-top: -13px;
     margin-left: 28px;
     color: green;
     font-weight: bold;

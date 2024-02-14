@@ -305,7 +305,7 @@ if (!empty($buddy)) {
     if ($show == 'spells' && $mode == 'gfx') {
         echo "<div class='strategy-images spells cf'>";
         foreach ($spells as $spell) {
-            echo "<div><a href='" . $spell->websites->bgknowhow . "'><img width='256' height='333' src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><br><br><br><span>" . $spell->name . "</span></a></div>";
+            echo "<div><a href='" . $spell->websites->bgknowhow . "'><img width='256' height='333' src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><span>" . $spell->name . "</span></a></div>";
         }
         echo "</div><br><br>";
     } else if ($show == 'spells' || $show == 'all') {
@@ -344,7 +344,7 @@ if (!empty($buddy)) {
     if ($show == 'quests' && $mode == 'gfx') {
         echo "<div class='strategy-images anomalies cf'>";
         foreach ($quests as $quest) {
-            echo "<div><img src='" . PICTURE_LOCAL_QUEST . $quest->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$quest->isActive ? 'inactive-img' : '') . "' alt='$quest->name : " . htmlspecialchars($quest->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $quest->name . "</span></div>";
+            echo "<div><img src='" . PICTURE_LOCAL_QUEST . $quest->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$quest->isActive ? 'inactive-img' : '') . "' alt='$quest->name : " . htmlspecialchars($quest->text, ENT_QUOTES, 'utf-8') . "'><span>" . $quest->name . "</span></div>";
         }
         echo "</div><br><br>";
     } else if ($show == 'quests' || $show == 'all') {
@@ -382,7 +382,7 @@ if (!empty($buddy)) {
     if ($show == 'rewards' && $mode == 'gfx') {
         echo "<div class='strategy-images anomalies cf'>";
         foreach ($rewards as $reward) {
-            echo "<div><img src='" . PICTURE_LOCAL_REWARD . $reward->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$reward->isActive ? 'inactive-img' : '') . "' alt='$reward->name : " . htmlspecialchars($reward->text, ENT_QUOTES, 'utf-8') . "'><br><span>" . $reward->name . "</span></div>";
+            echo "<div><img src='" . PICTURE_LOCAL_REWARD . $reward->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$reward->isActive ? 'inactive-img' : '') . "' alt='$reward->name : " . htmlspecialchars($reward->text, ENT_QUOTES, 'utf-8') . "'><span>" . $reward->name . "</span></div>";
         }
         echo "</div><br><br>";
     } else if ($show == 'rewards' || $show == 'all') {
