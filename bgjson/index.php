@@ -37,12 +37,12 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="4">JSON format (active only)</th>
+            <th colspan="5">JSON format (active only)</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td colspan="4"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active Battlegrounds Entities</a></td>
+            <td colspan="5"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active Battlegrounds Entities</a></td>
         </tr>
         <tr>
             <td><a href="/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
@@ -87,7 +87,7 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="4">CSV format (active only)</th>
+            <th colspan="5">CSV format (active only)</th>
         </tr>
         </thead>
         <tbody>

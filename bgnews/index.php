@@ -3,6 +3,16 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch28.6.0">14.02.2024 - Patch 28.6.0 launched, reactivating quest and rewards! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        In a surprise move Blizzard deciced to spice up the BG season of spells by bringing back quests and rewards for everyone (starting on turn 4). Read all about it as well as the minion and spell updates in the <a href="https://hearthstone.blizzard.com/en-us/news/24056184/28-6-patch-notes" target="_blank">28.6.0 patch notes</a>. For a complete overview check out our listings of all active and inactive <a href="/bgstrategy/?show=quests">quests</a> and <a href="/bgstrategy/?show=rewards">rewards</a>.
+        <br><br>
+        The patch added 11 new rewards, 7 new minions, 3 new spells, 10 new minion type specific spells and also removed 14 minions from the pool (the most prominent victims being <a class='hoverimage' href='/bgstrategy/minion/?id=399'>Relentless Mur'ghoul</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=95">Octosari, Wrap God</a>), while returning 6 minions from past metas (for example <a class='hoverimage' href='/bgstrategy/hero/?id=211'>Mantid Queen</a> is back in the game!).
+        <br><br>
+        Looking ahead, it seems like the current season will run until the middle of April, so better get used to this new meta.
+    </p>
+    <br>
+
     <h3 id="patch28.4.1">29.01.2024 - Patch 28.4.1 live today bringing back Lubber <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard has released the <a href="https://hearthstone.blizzard.com/en-us/news/24046220/28-4-1-patch-notes" target="_blank">Patch 28.4.1 notes</a> applying a few BG balance changes to Beasts, Undead, Quilboars, and Spells.
