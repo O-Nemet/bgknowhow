@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="fort">Fort/Taunt Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Phalanx', 'Glowscale', 'Fort', 'Fort', 'Enchanter', 'Matador', 'Barricade'];
+    $board   = ['Phalanx', 'Glowscale', 'Fort', 'Fort', 'Enchanter', 'Matador', 'Matador'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -39,7 +39,7 @@
 
     <h3 id="scam">Scam Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bramblewitch', 'Bramblewitch', 'Thrasher', 'Thrasher', 'Matador', 'Matador', 'Murghoul'];
+    $board   = ['Queen', 'Queen', 'Thrasher', 'Thrasher', 'Matador', 'Matador', 'Belcher'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
