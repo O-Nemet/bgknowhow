@@ -63,7 +63,7 @@
 
     <h3 id="demoneye">Feldrake/Murk-Eye Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Feldrake', 'Murk-Eye', 'Feldrake', 'S\'thara', 'Legion Overseer', 'Titus', 'Murghoul'];
+    $board   = ['Feldrake', 'Murk-Eye', 'Feldrake', 'S\'thara', 'Legion Overseer', 'Titus', 'Queen'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
