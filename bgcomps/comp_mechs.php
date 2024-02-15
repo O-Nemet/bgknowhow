@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="deflecto">Deflecto Reset Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deflecto', 'Deflecto', 'Mummy', 'Horse', 'Horse', 'Trolley', 'Mummy'];
+    $board   = ['Deflecto', 'Deflecto', 'Mummy', 'Horse', 'Horse', 'Trolley', 'Laborer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -27,7 +27,7 @@
 
     <h3 id="magnetize">Magnetization Beatboxer Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Deflecto', 'Drone', 'Enchanter', 'Beatboxer', 'Beatboxer', 'Scraper'];
+    $board   = ['Reaper', 'Deflecto', 'Scraper', 'Enchanter', 'Beatboxer', 'Beatboxer', 'Laborer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
