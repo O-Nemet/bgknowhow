@@ -34,7 +34,7 @@
     <p>
         When playing this <strong>Nalaa</strong> based composition you will go all-in and buy as many cheap spells as possible each turn. During the mid-game try to secure the best minions supporting this end game build, like the examples shown here, depending on the available minion types.
         <br><br>
-        Other good alternate cards are <a class='hoverimage' href='/bgstrategy/minion/?id=437'>Bazaar Dealer</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=457'>Trembling Trolley</a>. You don't necessarily need Ensorcelled Fungus, but it does scale quite fast. Try to focus on spells that are cheap, give you access to economy, or find more spells.
+        Other good alternate cards are <a class='hoverimage' href='/bgstrategy/minion/?id=466'>Whirling Lass-o-Matic</a>, <a class='hoverimage' href='/bgstrategy/minion/?id=437'>Bazaar Dealer</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=457'>Trembling Trolley</a>. You don't necessarily need Ensorcelled Fungus, but it does scale quite fast. Try to focus on spells that are cheap, give you access to economy, or find more spells.
     </p>
 
     <h3 id="scam">Scam Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
