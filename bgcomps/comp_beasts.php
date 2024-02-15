@@ -15,23 +15,23 @@
 <div class="comp_wrapper">
     <h3 id="slamma">Slamma Summon Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Raptor', 'Raptor', 'Octosari', 'Mama Bear', 'Mama Bear', 'Slamma', 'Slamma'];
+    $board   = ['Rat', 'Saber', 'Raptor', 'Horse', 'Slamma', 'Slamma', 'Stomper'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This composition is very much dependend on having at least two <strong>Slamma</strong>s since they scale multipliable. That means two basic ones would multiply the stats of a Beast summoned during combat by 2 x 2 = 4, whereas a golden would just triple their stats. This can heavily scale with other Slammas as long as you have board space (2 x 2 x 3 = 12 for a golden and a regular one). The multiplication by the Slammas is the last effect that goes into the equation, meaning the <strong>Sly Raptor</strong> will first spawn as 7/7, then the Mama Bears will add their +3/+3 buffs (10/10), followed by the Slammas (resulting in 40/40 for the example lineup shown).
+        This composition is very much dependent on having at least two <strong>Slamma</strong>s since they scale multipliable. That means two basic ones would multiply the stats of a Beast summoned during combat by 2 x 2 = 4, whereas a golden would just triple their stats. This can heavily scale with other Slammas as long as you have board space (2 x 2 x 3 = 12 for a golden and a regular one). The multiplication by the Slammas is the last effect that goes into the equation, meaning the <strong>Sly Raptor</strong> will first spawn as 7/7, then the Mama Bears will add their +3/+3 buffs (10/10), followed by the Slammas (resulting in 40/40 for the example lineup shown).
         <br><br>
         <!--        Blanchy is a great unit to have in this build due to its high base stats being set when it is reborn. If Murlocs are available this can be made even better by having a <a class="hoverimage" href="/bgstrategy/minion/?id=332">Bassgill</a> summon the Blanchy from your hand since that way gets the buffs off of Mama Bear and the Slammas an extra time, which the reborned version will multiply again, to produce a lot more overall combat value. That is also the reason why a minion like <a class="hoverimage" href="/bgstrategy/minion/?id=61">Rat Pack</a> is not a great fit for this comp, due to the tokens only having a low base stat of 1/1.-->
         <!--        <br><br>-->
-        Having Taunt (usually on the Raptors) to protect your Slammas and Mamas to keep them alive is also absolutely neccessary, since your board's power gets at least halved per Slamma that gets killed off. Utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> is great for this combo to make the Slammas reborn, since that keeps up the pressure through their pressence, while having them being pretty large if you have a lot of them. <a class="hoverimage" href="/bgstrategy/minion/?id=95">Octosari</a> is also a great unit to combine with Slamma, if you can get it early on and add a <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus</a> to your board, you can get multiple big summons off of it.
+        Having Taunt (usually on the Raptors) to protect your Slammas and Mamas to keep them alive is also absolutely neccessary, since your board's power gets at least halved per Slamma that gets killed off. Utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> is great for this combo to make the Slammas reborn, since that keeps up the pressure through their pressence, while having them being pretty large if you have a lot of them. 
         <br><br>
         Picking up and keeping in hand two <a class="hoverimage" href="/bgstrategy/minion/?id=372">Free-Flying Feathermane</a> will further increase your composition. The counters to this comp you should watch out for, are <a class="hoverimage" href="/bgstrategy/minion/?id=433">Worgen Vigilante</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=226">Blaster</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=255">Sin'dorei</a> and some Venomous setups, since you could end up only having 3-4 really strong units over the fight.
     </p>
 
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Goldrinn', 'Hawkstrider', 'Raptor', 'Octosari', 'Titus', 'Slamma', 'Slamma'];
+    $board   = ['Goldrinn', 'Hawkstrider', 'Raptor', 'Horse', 'Titus', 'Slamma', 'Slamma'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
