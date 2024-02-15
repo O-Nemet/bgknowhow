@@ -33,7 +33,7 @@
 
     <h3 id="roogug">Roogug Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Piper', 'Roogug', 'Roogug', 'Spearhide', 'Bandit', 'Bopper', 'Charlga'];
+    $board   = ['Piper', 'Roogug', 'Roogug', 'Bandit', 'Bandit', 'Bopper', 'Charlga'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -45,12 +45,12 @@
 
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Tusk', 'Tusk', 'Piper', 'Spearhide', 'Spearhide', 'Roogug', 'Bristlebach'];
+    $board   = ['Tusk', 'Tusk', 'Piper', 'Horse', 'Rider', 'Roogug', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. The Spearhides can basically be any minion which summons another minion via Deathrattle or Reborn.
+        This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. The Horse and Rider can basically be any minion which summons another minion via Deathrattle or Reborn.
         <br><br>
         The stat gains from <strong>Bristlebach</strong>'s Avenge ability are only temporary buffs during the combat phase. Make sure your <strong>Tusks</strong> have Divine Shield prior to battle!
     </p>
