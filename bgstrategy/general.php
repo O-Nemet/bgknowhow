@@ -92,7 +92,7 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="miniontypes">Minion types and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Nagas have only two tier 4 minions. Even on tier 1, where each type used to have two minions, Undeads have access to three minions. <!--, since the addition of <a class="hoverimage" href='/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Mechs have only two tier 2 minions. Even on tier 1, where each type used to have two minions, Undeads have access to three minions. <!--, since the addition of <a class="hoverimage" href='/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
         <!--        <br><br>-->
         <!--        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.-->
         <br><br>
@@ -164,6 +164,8 @@ foreach ($spell_count as $temp) {
     <h3 id="spelltiers">Spell Tiers and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Whenever a spell is bought/generated, it immediately returns to the pool. There is a specific number of copies of each spell in the pool, but it's kind of like appearance rate since they get replaced immediately.
+        <br><br>
+        Since February 2024 (patch 28.6.0) one specific spell for each minion type has been added, which will only be available if the minion type is active for the given Battlegrounds game.
     </p>
     <br>
     <table class="tier-table">
