@@ -92,7 +92,7 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="miniontypes">Minion types and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Nagas have only two tier 4 minions. <!--Even on tier 1, where each type used to have two minions, Elementals have access to three minions, since the addition of <a class="hoverimage" href='/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Nagas have only two tier 4 minions. Even on tier 1, where each type used to have two minions, Undeads have access to three minions. <!--, since the addition of <a class="hoverimage" href='/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
         <!--        <br><br>-->
         <!--        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.-->
         <br><br>
@@ -145,6 +145,22 @@ foreach ($tempMinions->data as $key => $object) {
         </tbody>
     </table>
 
+<?php
+// loops over all active spells
+foreach ($tempSpells->data as $key => $object) {
+    if ($object->isActive === true) {
+        @$spell_count[$object->tier]['count'] = @$spell_count[$object->tier]['count'] + 1;
+        @$spell_count[$object->tier]['gold'] = @$spell_count[$object->tier]['gold'] + $object->cost;
+    }
+}
+
+$i = 1;
+foreach ($spell_count as $temp) {
+    $spell_count[$i]['gold'] = $spell_count[$i]['gold'] / $spell_count[$i]['count'];
+    $i++;
+}
+?>
+
     <h3 id="spelltiers">Spell Tiers and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Whenever a spell is bought/generated, it immediately returns to the pool. There is a specific number of copies of each spell in the pool, but it's kind of like appearance rate since they get replaced immediately.
@@ -156,38 +172,45 @@ foreach ($tempMinions->data as $key => $object) {
             <th>Tavern Tier</th>
             <th>Number of different spells</th>
             <th>Copies of each spell</th>
+            <th>Average gold cost</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>1</td>
-            <td>7</td>
+            <td><?= $spell_count[1]['count'] ?></td>
             <td>5</td>
+            <td><?= number_format($spell_count[1]['gold'], 2) ?></td>
         </tr>
         <tr>
             <td>2</td>
-            <td>6</td>
+            <td><?= $spell_count[2]['count'] ?></td>
             <td>7</td>
+            <td><?= number_format($spell_count[1]['gold'], 2) ?></td>
         </tr>
         <tr>
             <td>3</td>
-            <td>7</td>
+            <td><?= $spell_count[3]['count'] ?></td>
             <td>9</td>
+            <td><?= number_format($spell_count[3]['gold'], 2) ?></td>
         </tr>
         <tr>
             <td>4</td>
-            <td>7</td>
+            <td><?= $spell_count[4]['count'] ?></td>
             <td>11</td>
+            <td><?= number_format($spell_count[4]['gold'], 2) ?></td>
         </tr>
         <tr>
             <td>5</td>
+            <td><?= $spell_count[5]['count'] ?></td>
             <td>7</td>
-            <td>7</td>
+            <td><?= number_format($spell_count[5]['gold'], 2) ?></td>
         </tr>
         <tr>
             <td>6</td>
+            <td><?= $spell_count[6]['count'] ?></td>
             <td>5</td>
-            <td>5</td>
+            <td><?= number_format($spell_count[6]['gold'], 2) ?></td>
         </tr>
         </tbody>
     </table>
