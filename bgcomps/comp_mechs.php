@@ -32,7 +32,7 @@
     drawBoard($minions);
     ?>
     <p>
-        Buy as many magnetic minions as you can to profit of your <strong>Beatboxers</strong> and put it on any Mech you plan to keep until the end game. All of them are decent, so don't be picky. The spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Perfect Vision</a>, multiple <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a>s, and <a class="hoverimage" href="/bgstrategy/minion/?id=364">Cogwork Copter</a><a class="hoverimage" href="/bgstrategy/minion/?id=315">Scourfin</a> all help this build, as they double their effect due to <strong>Beatboxer</strong>.
+        Buy as many magnetic minions as you can to profit of your <strong>Beatboxers</strong> and put it on any Mech you plan to keep until the end game. All of them are decent, so don't be picky. The spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Perfect Vision</a>, multiple <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a>s, and <a class="hoverimage" href="/bgstrategy/minion/?id=364">Cogwork Copter</a> all help this build, as they double their effect due to <strong>Beatboxer</strong>.
         <br><br>
         Magnetization can be given even on full boards. Also, in the past it was possible to run out of Magnetize minions because the Scrapers pulled minions from the shared minion pool. But this was changed in a July 2023 update, now magnetized minions will return to the pool upon usage.
     </p>
