@@ -8,9 +8,9 @@ include_once('../header.php');
     </p>
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“How to Play Lubber PERFECTLY” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <h3>“Positioning explained by a pro” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/cjeNxFqhZrw?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/AsnJkEs9880?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -20,15 +20,9 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Tribe tierlist 4.0 for spell meta!” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <h3>“Quilboar Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/0yTNbFCPvCw?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Huge Spell Meta Discussion (#117)” by <a href="https://www.youtube.com/@EducatedCollins" target="_blank">Educated Collins</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/BDHyKo77eu4?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/hJ0w8aDSV9k?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -44,15 +38,21 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Naga Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“Mastering Hearthstone Battlegrounds: Break Free from Bad Habits” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/CfDtbRswWJw?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/J2JOpQhLvhQ?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Undead Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“Discussing all the quests (Patch 24.2.2)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/9UoTN3L3UKY?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/KWK8lV1HzUM?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Discussing all of the new quests (Patch 27.2.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/EPq0WCKgW5E?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -74,6 +74,12 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
+            <h3>“Leveling explained by a pro” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/A0EqnsBkClo?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“How I Hit 15k MMR in 30 Days” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/-EY4jHexqMw?autoplay=0&origin=https://bgknowhow.com">
@@ -86,6 +92,18 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
+            <h3>“Naga Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/CfDtbRswWJw?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Undead Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/9UoTN3L3UKY?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“Beast Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/U7usJIncjdc?autoplay=0&origin=https://bgknowhow.com">
@@ -94,7 +112,7 @@ include_once('../header.php');
         <div class="iframe_div">
             <h3>“Menagerie Builds Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/OtRsm_j68-8?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/hHKpy6qwpJU?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -119,18 +137,6 @@ include_once('../header.php');
             <h3>“Mech Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/3nANeGyceGk?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Back to Basics: How to Motley Phalanx” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/TAGUrOlKWGw?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“What You Can Do With Motley Phalanx” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/xH4eEmDqIKs?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
