@@ -26,7 +26,7 @@
         <br><br>
         The minions <a class="hoverimage" href="/bgstrategy/minion/?id=394">Dreadbeard</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=437">Bazaar Dealer</a> are suitable for this kind of build during the mid-game, but will usually be replaced later on.
         <br><br>
-        For the very late game <a class="hoverimage" href="/bgstrategy/minion/?id=426">Cultist S'thera</a> with <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus Rivendare</a> is also good if you have a big demon you want to resummon. <!--, but it does get countered by <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a>. -->
+        For the very late game <a class="hoverimage" href="/bgstrategy/minion/?id=426">Cultist S'thera</a> with <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus Rivendare</a> is also good if you have a big demon you want to resummon, but it does get countered by <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a>.
     </p>
 
     <h3 id="felbat">Felbat Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -48,7 +48,7 @@
     drawBoard($minions);
     ?>
     <p>
-        Needs a buildup in order to buff all minions in the Tavern via <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a> and any other means available. Two Insatiable <strong>Ur'zul</strong> are usually better than a golden one due to venomous/poison. Don't forget to utilize <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> for double Ur'zul triggers and magnetic buffs.<!-- Gets weaker if opponents are playing <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a>. -->
+        Needs a buildup in order to buff all minions in the Tavern via <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a> and any other means available. Two Insatiable <strong>Ur'zul</strong> are usually better than a golden one due to venomous/poison. Don't forget to utilize <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> for double Ur'zul triggers and magnetic buffs. Gets weaker if opponents are playing <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a>.
     </p>
 
     <h3 id="trickster">Macaw/Trickster Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
