@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="deflecto">Deflecto Reset Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deflecto', 'Deflecto', 'Mummy', 'Horse', 'Horse', 'Trolley', 'Laborer'];
+    $board   = ['Deflecto', 'Deflecto', 'Mummy', 'Horse', 'Horse', 'Kangor\'s', 'Laborer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -27,12 +27,12 @@
 
     <h3 id="magnetize">Magnetization Beatboxer Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Deflecto', 'Scraper', 'Enchanter', 'Beatboxer', 'Beatboxer', 'Laborer'];
+    $board   = ['Reaper', 'Deflecto', 'Scraper', 'Drone', 'Beatboxer', 'Beatboxer', 'Laborer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Buy as many magnetic minions as you can to profit of your <strong>Beatboxers</strong> and put it on any Mech you plan to keep until the end game. All of them are decent, so don't be picky. The spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Perfect Vision</a>, multiple <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a>s, <a class="hoverimage" href="/bgstrategy/minion/?id=364">Cogwork Copter</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=315">Scourfin</a> (if Murlocs ara available) all help this build, as they double their effect due to <strong>Beatboxer</strong>.
+        Buy as many magnetic minions as you can to profit of your <strong>Beatboxers</strong> and put it on any Mech you plan to keep until the end game. All of them are decent, so don't be picky. The spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Perfect Vision</a>, multiple <a class="hoverimage" href="/bgstrategy/minion/?id=259">Felemental</a>s, and <a class="hoverimage" href="/bgstrategy/minion/?id=364">Cogwork Copter</a> all help this build, as they double their effect due to <strong>Beatboxer</strong>.
         <br><br>
         Magnetization can be given even on full boards. Also, in the past it was possible to run out of Magnetize minions because the Scrapers pulled minions from the shared minion pool. But this was changed in a July 2023 update, now magnetized minions will return to the pool upon usage.
     </p>
