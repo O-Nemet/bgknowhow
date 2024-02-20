@@ -39,7 +39,7 @@
 
     <h3 id="scam">Scam Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Queen', 'Queen', 'Thrasher', 'Thrasher', 'Matador', 'Matador', 'Belcher'];
+    $board   = ['Bramblewitch', 'Queen', 'Queen', 'Thrasher', 'Thrasher', 'Matador', 'Belcher'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
