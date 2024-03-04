@@ -20,7 +20,7 @@ include_once('../header.php');
 
     <br>
     <p class="bgjson_introduction">
-        This page is providing curated and condensed Hearthstone Battleground data in different data collections and file types.<br>
+        This page is providing curated and condensed Hearthstone Battlegrounds data in different data collections and file types.<br>
         Feel free to use this as a starting point for your own projects and content creation (code examples below).<br>
         <br>
         These datasets have several advantages over the data available from the Blizzard API or the Hearthstone JSON files:<br>
@@ -131,6 +131,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>29.02.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2863-patch-notes/121812" target="_blank">28.6.3</a> patch notes.</li>
         <li>22.02.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24056185" target="_blank">28.6.2</a> patch notes.</li>
         <li>17.02.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2861-patch-notes/121011" target="_blank">28.6.1</a> patch notes.</li>
         <li>14.02.2024 - Added new minions, new spells and BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24056184/28-6-patch-notes" target="_blank">28.6.0</a> patch notes.</li>
