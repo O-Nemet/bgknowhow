@@ -5,9 +5,9 @@ include_once("../header.php");
 <div class="news">
     <h3 id="patch29.0.0">11.03.2024 - Patch 29.0.0 launched, bringing back Greta Gold-Gun! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24064735/29-0-patch-notes">29.0 patch notes</a>, celebrating the 10-year Hearthstone anniversary. The Battlegrounds changes are minimal, but they reactivated the dual Naga/Pirate minion <a class="hoverimage" href="/bgstrategy/minion/?id=267">Greta Gold-Gun</a>.
+        Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24064735/29-0-patch-notes" target="_blank">29.0 patch notes</a>, celebrating the 10-year Hearthstone anniversary. The Battlegrounds changes are minimal, but they reactivated the dual Naga/Pirate minion <a class="hoverimage" href="/bgstrategy/minion/?id=267">Greta Gold-Gun</a>.
         <br><br>
-        They also teased upcoming infos about the next major BG update (most likely hitting in the middle of April) which will include the BG Duos feature, first announced at Blizzcon in early November. Check out our <a href="https://bgknowhow.com/bgnews/#bgduos">old news post</a> if you would like to know more.
+        They also teased upcoming infos about the next major BG update (most likely hitting in the middle of April) which will include the BG Duos feature, first announced at Blizzcon in early November. Check out our <a href="#bgduos">old news post</a> if you would like to know more.
         <br><br>
         In other news, Jeef once again proved all the naysayers wrong, who argued that the quest meta is more luck based, by reaching the phenomenal milestone of 18,000 MMR. Check out his <a href="https://www.youtube.com/watch?v=mWDZGJmxZ6A" target="_blank">YouTube video of his last game</a> (featuring a crazy Mech board) or the whole seven hour <a href="https://www.twitch.tv/videos/2087139017" target="_blank">Twitch stream</a>.
     </p>
