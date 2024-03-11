@@ -3,6 +3,16 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch29.0.0">11.03.2024 - Patch 29.0.0 launched, bringing back Greta Gold-Gun! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24064735/29-0-patch-notes">29.0 patch notes</a>, celebrating the 10-year Hearthstone anniversary. The Battlegrounds changes are minimal, but they reactivated the dual Naga/Pirate minion <a class="hoverimage" href="/bgstrategy/minion/?id=267">Greta Gold-Gun</a>.
+        <br><br>
+        They also teased upcoming infos about the next major BG update (most likely hitting in the middle of April) which will include the BG Duos feature, first announced at Blizzcon in early November. Check out our <a href="https://bgknowhow.com/bgnews/#bgduos">old news post</a> if you would like to know more.
+        <br><br>
+        In other news, Jeef once again proved all the naysayers wrong, who argued that the quest meta is more luck based, by reaching the phenomenal milestone of 18,000 MMR. Check out his <a href="https://www.youtube.com/watch?v=mWDZGJmxZ6A" target="_blank">YouTube video of his last game</a> (featuring a crazy Mech board) or the whole seven hour <a href="https://www.twitch.tv/videos/2087139017" target="_blank">Twitch stream</a>.
+    </p>
+    <br>
+
     <h3 id="patch28.6.0">14.02.2024 - Patch 28.6.0 launched, reactivating quests and rewards! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         In a surprise move Blizzard deciced to spice up the BG season of spells by bringing back quests and rewards for everyone (starting on turn 4). Read all about it as well as the minion and spell updates in the <a href="https://hearthstone.blizzard.com/en-us/news/24056184/28-6-patch-notes" target="_blank">28.6.0 patch notes</a>. For a complete overview check out our listings of all active and inactive <a href="/bgstrategy/?show=quests">quests</a> and <a href="/bgstrategy/?show=rewards">rewards</a>.
