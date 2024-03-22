@@ -8,6 +8,18 @@ include_once('../header.php');
     </p>
     <div class="streamers">
         <div class="iframe_div">
+            <h3>“How Rank 1 Chooses Quests” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/7lKi_prLeV8?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Rank 1's Quest Tierlist” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/zWMhLfe6zC8?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
             <h3>“Positioning explained by a pro” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/AsnJkEs9880?autoplay=0&origin=https://bgknowhow.com">
@@ -20,9 +32,21 @@ include_once('../header.php');
             </iframe>
         </div>
         <div class="iframe_div">
-            <h3>“Quilboar Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <h3>“Which Hero to play?! Quest Meta” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/hJ0w8aDSV9k?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/PHbkUcZs2Co?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“When to Pivot / Counter in HS BG Back to Basics” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/BpPrCqJbA0c?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“New To Buddies? What Buddies are Good, and What They Can do!” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/0CqAhKULF3w?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
@@ -43,18 +67,18 @@ include_once('../header.php');
                     src="https://www.youtube.com/embed/J2JOpQhLvhQ?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
-        <div class="iframe_div">
-            <h3>“Discussing all the quests (Patch 24.2.2)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/KWK8lV1HzUM?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Discussing all of the new quests (Patch 27.2.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/EPq0WCKgW5E?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Discussing all the quests (Patch 24.2.2)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/KWK8lV1HzUM?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
+        <!--        <div class="iframe_div">-->
+        <!--            <h3>“Discussing all the new quests (Patch 27.2.0)” by <a href="https://www.youtube.com/channel/UCZeaUP1fx636UFuM9DrpGqA/videos" target="_blank">Mewwy</a></h3>-->
+        <!--            <iframe id="ytplayer" type="text/html" width="800" height="450"-->
+        <!--                    src="https://www.youtube.com/embed/EPq0WCKgW5E?autoplay=0&origin=https://bgknowhow.com">-->
+        <!--            </iframe>-->
+        <!--        </div>-->
         <div class="iframe_div">
             <h3>“How to Choose the Best Hero?” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
@@ -89,6 +113,12 @@ include_once('../header.php');
             <h3>“Top 10 WORST Cards in Hearthstone Battlegrounds” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
                     src="https://www.youtube.com/embed/T3o--1N0Y2A?autoplay=0&origin=https://bgknowhow.com">
+            </iframe>
+        </div>
+        <div class="iframe_div">
+            <h3>“Quilboar Back to Basics Guide” by <a href="https://www.youtube.com/@Heretic721/videos" target="_blank">Heretic721</a></h3>
+            <iframe id="ytplayer" type="text/html" width="800" height="450"
+                    src="https://www.youtube.com/embed/hJ0w8aDSV9k?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
