@@ -22,20 +22,20 @@ $getActiveOnly = 1;
 //    $stmt->bind_result($id, $name, $health, $blizzardId, $blizzardIdHp, $isActive);
 
 // generate minions files
-//if ($stmt = $mysqli->prepare("SELECT bgm.id,
-//                                     bgm.name,
-//                                     bgm.name_short,
-//                                     bgm.id_blizzard
-//                                FROM bg_minions bgm
-//                               WHERE 1=1
-//                                 AND bgm.flag_active = ?
-//--                                 AND bgm.id > 0
-//                                 AND bgm.name IN ('Surf n\' Surf', 'Niuzao', 'Soul Rewinder', 'Keyboard Igniter', 'Famished Felbat', 'Time Saver', 'Stormbringer', 'Electric Synthesizer', 'Obsidian Ravager', 'Carbonic Copy', 'Granite Guardian', 'Adaptable Barricade', 'Omega Buster', 'Sanguine Champion', 'Sore Loser', 'Relentless Sentry', 'Champion of the Primus', 'Recurring Nightmare', 'Fairy Tale Caroler')
-//                            ORDER BY bgm.tier, bgm.name ASC")) {
-//    $stmt->bind_param("i", $getActiveOnly);
-//    $stmt->execute();
-//    $stmt->store_result();
-//    $stmt->bind_result($id, $name, $nameShort, $blizzardId);
+if ($stmt = $mysqli->prepare("SELECT bgm.id,
+                                     bgm.name,
+                                     bgm.name_short,
+                                     bgm.id_blizzard
+                                FROM bg_minions bgm
+                               WHERE 1=1
+                                 AND bgm.flag_active = ?
+--                                 AND bgm.id > 459
+                                 AND bgm.name IN ('Coldlight Seer')
+                            ORDER BY bgm.tier, bgm.name ASC")) {
+    $stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $nameShort, $blizzardId);
 
 // generate buddies files
 //if ($stmt = $mysqli->prepare("SELECT bgb.id,
@@ -58,6 +58,7 @@ $getActiveOnly = 1;
 //                                     bgq.id_blizzard
 //                                FROM bg_quests bgq
 //                               WHERE 1=1 -- bgq.flag_active = ?
+//                                 and bgq.name = 'Fill the Cauldron'
 //                            ORDER BY bgq.name ASC")) {
 //    #$stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
@@ -70,6 +71,8 @@ $getActiveOnly = 1;
 //                                         bgr.id_blizzard
 //                                FROM bg_rewards bgr
 //                               WHERE 1=1 -- bgq.flag_active = ?
+//--                                 and bgr.id > 0
+//                                and bgr.name in ('Divine Armor', 'Ritual Dagger', 'Sinfall Medallion', 'Mirror Shield')
 //                            ORDER BY bgr.name ASC")) {
 //        #$stmt->bind_param("i", $getActiveOnly);
 //        $stmt->execute();
@@ -91,18 +94,18 @@ $getActiveOnly = 1;
 //    $stmt->bind_result($id, $name, $blizzardId);
 
 // generate spell files
-if ($stmt = $mysqli->prepare("SELECT bgs.id,
-                                         bgs.name,
-                                         bgs.id_blizzard
-                                FROM bg_spells bgs
-                               WHERE 1=1 -- bgs.flag_active = ?
-                                 -- AND bgs.name IN ('Denathrius\' Anima Reserves')
-                                 AND bgs.id > 0
-                            ORDER BY bgs.name ASC")) {
-    #$stmt->bind_param("i", $getActiveOnly);
-    $stmt->execute();
-    $stmt->store_result();
-    $stmt->bind_result($id, $name, $blizzardId);
+//if ($stmt = $mysqli->prepare("SELECT bgs.id,
+//                                         bgs.name,
+//                                         bgs.id_blizzard
+//                                FROM bg_spells bgs
+//                               WHERE 1=1 -- bgs.flag_active = ?
+//                                 AND bgs.name IN ('Suspicious Stimulant', 'Fluidity', 'Cloning Conch', 'Spitescale Special', 'Plunder Seeker')
+//                                 -- AND bgs.id > 42
+//                            ORDER BY bgs.name ASC")) {
+//    #$stmt->bind_param("i", $getActiveOnly);
+//    $stmt->execute();
+//    $stmt->store_result();
+//    $stmt->bind_result($id, $name, $blizzardId);
 
     $row_count = $stmt->num_rows;
     if ($row_count == 0) echo '0 results';
@@ -127,29 +130,29 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
 //        }
 
         # minions / hero pictures
-        if (!copy(PICTURE_URL_RENDER_FS . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
-            !copy(PICTURE_URL_RENDER_FS . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
+        if (!copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
+            !copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
         ) {
             echo 'failed to copy ../images/' . $blizzardId . '_render.png<br>';
         } else {
             echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
         }
 
-        if (!copy(PICTURE_URL_BIG . $blizzardId . '.webp', '../images/' . $blizzardId . '_big.webp')) {
-            echo 'failed to copy ../images/' . $blizzardId . '_big.webp<br>';
-        } else {
-            echo 'copy success ../images/' . $blizzardId . '_big.webp<br>';
-        }
-        if (!copy(PICTURE_URL_MEDIUM . $blizzardId . '.webp', '../images/' . $blizzardId . '_medium.webp')) {
-            echo 'failed to copy ../images/' . $blizzardId . '_medium.webp<br>';
-        } else {
-            echo 'copy success ../images/' . $blizzardId . '_medium.webp<br>';
-        }
-        if (!copy(PICTURE_URL_TILE . $blizzardId . '.webp', '../images/' . $blizzardId . '_tile.webp')) {
-            echo 'failed to copy ../images/' . $blizzardId . '_tile.webp<br>';
-        } else {
-            echo 'copy success ../images/' . $blizzardId . '_tile.webp<br>';
-        }
+//        if (!copy(PICTURE_URL_BIG . $blizzardId . '.webp', '../images/' . $blizzardId . '_big.webp')) {
+//            echo 'failed to copy ../images/' . $blizzardId . '_big.webp<br>';
+//        } else {
+//            echo 'copy success ../images/' . $blizzardId . '_big.webp<br>';
+//        }
+//        if (!copy(PICTURE_URL_MEDIUM . $blizzardId . '.webp', '../images/' . $blizzardId . '_medium.webp')) {
+//            echo 'failed to copy ../images/' . $blizzardId . '_medium.webp<br>';
+//        } else {
+//            echo 'copy success ../images/' . $blizzardId . '_medium.webp<br>';
+//        }
+//        if (!copy(PICTURE_URL_TILE . $blizzardId . '.webp', '../images/' . $blizzardId . '_tile.webp')) {
+//            echo 'failed to copy ../images/' . $blizzardId . '_tile.webp<br>';
+//        } else {
+//            echo 'copy success ../images/' . $blizzardId . '_tile.webp<br>';
+//        }
 
     }
 
