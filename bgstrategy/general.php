@@ -249,7 +249,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Snapjaw', 'Bird', 'Tusk', 'Bookie', 'Angler', 'Lurker', 'Riffer', 'Snail', 'Copter', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Sandspewer', 'Refiner', 'Deathswarmer', 'Murcules'];
+        $board   = ['Snapjaw', 'Bird', 'Tusk', 'Bookie', 'Angler', 'Lurker', 'Riffer', 'Snail', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Emissary', 'Refiner', 'Deathswarmer', 'Murcules'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -260,7 +260,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Jazzer', 'Emissary', 'Tad', 'Smuggler', 'Scout'];
+        $board   = ['Thorncaller', 'Copter', 'Sandspewer', 'Seer', 'Tad', 'Smuggler', 'Scout'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -271,7 +271,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Barnstormer', 'Coldlight', 'Oozeling'];
+        $board   = ['Barnstormer', 'Oozeling'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -334,7 +334,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Brann', 'Enchanter', 'Titus', 'Fort', 'Nalaa', 'Phalanx'];
+        $board   = ['Brann', 'Enchanter', 'Titus', 'Fort', 'Nalaa'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
