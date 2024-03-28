@@ -66,6 +66,15 @@ include_once('../header.php');
         </p>
     </div>
     <div>
+        <a href="https://github.com/IBM5100o/HDT_BGrank" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_hdtbgrank.png" alt="Hearthstone Deck Tracker">
+            <span>HDT BGrank</span>
+        </a>
+        <p>
+            A plugin for HS Deck Tracker, displaying the MMR ranking of all the other players in your current game.
+        </p>
+    </div>
+    <div>
         <a href="https://hs-tools.github.io/bg-probabilities/" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_liis_calculator.png" alt="Lii's Hearthstone Battlegrounds Probability Calculator">
             <span>BG Calculator</span>
