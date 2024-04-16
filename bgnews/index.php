@@ -5,11 +5,11 @@ include_once("../header.php");
 <div class="news">
     <h3 id="patch29.2.0">16.04.2024 - Patch 29.2.0 launching Battlegrounds Duos and Season 7 today! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Season 7 brings a massive rework of minions as well as the new coop mode called Battlegrounds Duos. All the changes, including the Duos exclusive heroes, minions and spells, are documented in the <a href="https://hearthstone.blizzard.com/en-us/news/24077473/29-2-patch-notes" target="_blank">29.2 patch notes</a>.
+        Season 7 brings a massive rework of minions, over 50 new minions, as well as the new coop mode called Battlegrounds Duos. All the changes, including the Duos exclusive heroes, minions and spells, are documented in the <a href="https://hearthstone.blizzard.com/en-us/news/24077473/29-2-patch-notes" target="_blank">29.2 patch notes</a>.
         <br><br>
         Quests will be gone, at least for the next couple of months, but <a href="https://bgknowhow.com/bgstrategy/?show=spells">spells</a> were a huge success and are here to stay, with only some smaller adjustments.
         <br><br>
-        If you want to check out some Duos gameplay before joining the fray, Blizzard sponsored a preview for known players of other games:<br>
+        If you want to check out some Duos gameplay before joining the fray, Blizzard sponsored a preview for known players of other games:<br><br>
         <a href="https://youtu.be/YQubPOe-XF0?si=j0mFG_b38cTXT75" target="_blank">Voxy</a> and <a href="https://youtu.be/R9pQnzLN4PA?si=z81t3cr3WGCzg3dU" target="_blank">CovertGoBlu</a><br>
         <a href="https://youtu.be/qlmLBG3OFgA?si=ftF6gIZpj9NExstO" target="_blank">Thijs</a> and <a href="https://youtu.be/dxtGwjzReQ8?si=xfyKFRgYzz3PN8GV" target="_blank">Frodan</a><br>
         <a href="https://youtu.be/FH5dZ_-BAi8?si=YUf-Pm_sEjZ-pfM2" target="_blank">Nina</a> and <a href="https://youtu.be/EBXqhYNH40k?si=GAF8RUIVtgbKjmGo" target="_blank">Dekkster</a><br>

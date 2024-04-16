@@ -22,7 +22,7 @@ $minionTypes['undead']     = isset($_GET['ud']) ? intval($_GET['ud']) : 1;
 
 $minions = [];
 foreach ($tempMinions->data as $key => $object) {
-    if ($object->tier === 1 && $object->isToken === false && $object->isActive === true &&
+    if ($object->tier === 1 && $object->isToken === false && $object->isActive === true && $object->isDuosOnly === false &&
         (
             (($object->pools[0] === 'Beast' || @$object->pools[1] === 'Beast') && $minionTypes['beasts']) ||
             (($object->pools[0] === 'Demon' || @$object->pools[1] === 'Demon') && $minionTypes['demons']) ||

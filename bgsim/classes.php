@@ -37,7 +37,7 @@ class Minion
         $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_active.json'));
 
         foreach ($tempMinions->data as $key => $object) {
-            if ($object->id === $id && (bool)$object->isActive === true) {
+            if ($object->id === $id && (bool)$object->isActive === true && $object->isDuosOnly === false) {
                 $this->id             = $object->id;
                 $this->name           = $object->name;
                 $this->attack         = $object->attack;
