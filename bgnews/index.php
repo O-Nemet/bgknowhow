@@ -3,6 +3,22 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch29.2.0">16.04.2024 - Patch 29.2.0 launching Battlegrounds Duos and Season 7 today! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Season 7 brings a massive rework of minions as well as the new coop mode called Battlegrounds Duos. All the changes, including the Duos exclusive heroes, minions and spells, are documented in the <a href="https://hearthstone.blizzard.com/en-us/news/24077473/29-2-patch-notes" target="_blank">29.2 patch notes</a>.
+        <br><br>
+        Quests will be gone, at least for the next couple of months, but <a href="https://bgknowhow.com/bgstrategy/?show=spells">spells</a> were a huge success and are here to stay, with only some smaller adjustments.
+        <br><br>
+        If you want to check out some Duos gameplay before joining the fray, Blizzard sponsored a preview for known players of other games:
+        <a href="https://youtu.be/YQubPOe-XF0?si=j0mFG_b38cTXT75" target="_blank">Voxy</a> and <a href="https://youtu.be/R9pQnzLN4PA?si=z81t3cr3WGCzg3dU" target="_blank">CovertGoBlu</a><br>
+        <a href="https://youtu.be/qlmLBG3OFgA?si=ftF6gIZpj9NExstO" target="_blank">Thijs</a> and <a href="https://youtu.be/dxtGwjzReQ8?si=xfyKFRgYzz3PN8GV" target="_blank">Frodan</a><br>
+        <a href="https://youtu.be/FH5dZ_-BAi8?si=YUf-Pm_sEjZ-pfM2" target="_blank">Nina</a> and <a href="https://youtu.be/EBXqhYNH40k?si=GAF8RUIVtgbKjmGo" target="_blank">Dekkster</a><br>
+        <a href="https://youtu.be/VL8NuZ9ZY_U?si=gJZHmRjpmiH8m1s3" target="_blank">Regis</a> and <a href="https://youtu.be/pspjaUpcr_8?si=FBecqouZmYBJ8ber" target="_blank">Slysssa</a><br>
+        And for team-ups of professional Battlegrounds players:<br>
+        <a href="https://www.twitch.tv/videos/2120596148" target="_blank">Jeef</a>, <a href="https://www.twitch.tv/videos/2120388650?t=5h42m20s" target="_blank">RDU</a>, <a href="https://www.twitch.tv/videos/2120561968" target="_blank">DogDog</a>, <a href="https://www.twitch.tv/videos/2120548888" target="_blank">Zorgo</a>.
+    </p>
+    <br>
+
     <h3 id="patch29.0.0">11.03.2024 - Patch 29.0.0 launched, bringing back Greta Gold-Gun! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard has released the <a href="https://news.blizzard.com/en-us/hearthstone/24064735/29-0-patch-notes" target="_blank">29.0 patch notes</a>, celebrating the 10-year Hearthstone anniversary. The Battlegrounds changes are minimal, but they reactivated the dual Naga/Pirate minion <a class="hoverimage" href="/bgstrategy/minion/?id=267">Greta Gold-Gun</a>.

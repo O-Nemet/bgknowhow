@@ -29,7 +29,8 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
                                      bgh.hp_cost,
                                      bgh.hp_text,
                                      bgh.hp_id_blizzard,
-                                     bgh.flag_active
+                                     bgh.flag_active,
+                                     bgh.flag_duos
                                 FROM bg_heroes bgh
                                 LEFT JOIN bg_buddies bgb
                                 ON bgh.id = bgb.hero_id                                
@@ -38,7 +39,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armor, $armorMMR, $armorTier, $buddyName, $buddyId, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive);
+    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armor, $armorMMR, $armorTier, $buddyName, $buddyId, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly);
 
     $row_count = $stmt->num_rows;
 
@@ -60,7 +61,8 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         'Hero Power text' . CSV_SEPARATOR .
         'Hero Power Blizzard ID' . CSV_SEPARATOR .
         'Hero Power picture link' . CSV_SEPARATOR .
-        'Active' . PHP_EOL;
+        'Active' . CSV_SEPARATOR .
+        'Duos only' . PHP_EOL;
 
     $csvDataHeroes       = $csvHeader;
     $csvDataHeroesActive = $csvHeader;
@@ -75,7 +77,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-        $csvData =
+        $csvData                                     =
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
@@ -89,7 +91,8 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             (str_contains($hpText, ';') ? '"' . $hpText . '"' : $hpText) . CSV_SEPARATOR .
             $blizzardIdHp . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png' . CSV_SEPARATOR .
-            (bool)$isActive . PHP_EOL;
+            (bool)$isActive . CSV_SEPARATOR .
+            (bool)$isDuosOnly . PHP_EOL;
 
         $csvDataHeroes .= $csvData;
 
@@ -117,6 +120,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['websites']['bgknowhow'] = URL_BKH . 'hero/?id=' . $id;
         $heroes['data'][$i]['websites']['fandom']    = URL_HSF . str_replace(' ', '_', $name);
         $heroes['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
+        $heroes['data'][$i]['isDuosOnly']            = (bool)$isDuosOnly;
         $heroes['data'][$i]['isActive']              = (bool)$isActive;
 
         if ($isActive) {
@@ -169,6 +173,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                      bgm.health,
                                      bgm.flag_token,
                                      bgm.flag_active,
+                                     bgm.flag_duos,
                                      bgm.flag_battlecry,
                                      bgm.flag_deathrattle,
                                      bgm.flag_taunt,                                     
@@ -191,7 +196,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $type, $type2, $pool, $pool2, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasVenomous, $hasReborn, $hasAvenge, $hasMagnetic, $hasSpellcraft, $blizzardId, $summonId, $playhsId, $hpwnId, $artist, $flavor);
+    $stmt->bind_result($id, $name, $nameShort, $type, $type2, $pool, $pool2, $text, $textGolden, $tier, $attack, $health, $isToken, $isActive, $isDuosOnly, $hasBattlecry, $hasDeathrattle, $hasTaunt, $hasShield, $hasWindfury, $hasVenomous, $hasReborn, $hasAvenge, $hasMagnetic, $hasSpellcraft, $blizzardId, $summonId, $playhsId, $hpwnId, $artist, $flavor);
 
     $row_count = $stmt->num_rows;
 
@@ -225,7 +230,8 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         'Picture Link' . CSV_SEPARATOR .
         'Artist' . CSV_SEPARATOR .
         'Flavor' . CSV_SEPARATOR .
-        'Active' . PHP_EOL;
+        'Active' . CSV_SEPARATOR .
+        'Duos only' . PHP_EOL;
 
     $csvData              = '';
     $csvDataMinions       = $csvHeader;
@@ -273,7 +279,8 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
             $artist . CSV_SEPARATOR .
             $flavor . CSV_SEPARATOR .
-            (bool)$isActive . PHP_EOL;
+            (bool)$isActive . CSV_SEPARATOR .
+            (bool)$isDuosOnly . PHP_EOL;
 
         $csvDataMinions .= $csvData;
 
@@ -297,6 +304,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
         $minions['data'][$i]['healthGolden']                = $health * 2;
         $minions['data'][$i]['textGolden']                  = $textGolden;
         $minions['data'][$i]['isActive']                    = (bool)$isActive;
+        $minions['data'][$i]['isDuosOnly']                  = (bool)$isDuosOnly;
         $minions['data'][$i]['isToken']                     = (bool)$isToken;
         $minions['data'][$i]['abilities']['hasBattlecry']   = (bool)$hasBattlecry;
         $minions['data'][$i]['abilities']['hasDeathrattle'] = (bool)$hasDeathrattle;
@@ -763,14 +771,15 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
                                      bgs.id_blizzard,
                                      bgs.id_playhs,
                                      bgs.id_hpwn,
-                                     bgs.flag_active
+                                     bgs.flag_active,
+                                     bgs.flag_duos
                                 FROM bg_spells bgs
      --                          WHERE bgh.flag_active = ?
                             ORDER BY bgs.tier, bgs.cost ASC")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $tier, $cost, $text, $blizzardId, $playhsId, $hpwnId, $isActive);
+    $stmt->bind_result($id, $name, $tier, $cost, $text, $blizzardId, $playhsId, $hpwnId, $isActive, $isDuosOnly);
 
     $row_count = $stmt->num_rows;
 
@@ -781,7 +790,8 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
         'Text' . CSV_SEPARATOR .
         'Blizzard ID' . CSV_SEPARATOR .
         'Picture link' . CSV_SEPARATOR .
-        'Active' . PHP_EOL;
+        'Active' . CSV_SEPARATOR .
+        'Duos only' . PHP_EOL;
     $csvDataSpells       = $csvHeader;
     $csvDataSpellsActive = $csvHeader;
     $csvData             = '';
@@ -795,14 +805,15 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-        $csvData =
+        $csvData                       =
             $name . CSV_SEPARATOR .
             $tier . CSV_SEPARATOR .
             $cost . CSV_SEPARATOR .
             (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
-            (bool)$isActive . PHP_EOL;
+            (bool)$isActive . CSV_SEPARATOR .
+            (bool)$isDuosOnly . PHP_EOL;
 
         $csvDataSpells .= $csvData;
 
@@ -818,6 +829,7 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
         $spells['data'][$i]['websites']['fandom']    = URL_HSF . str_replace(' ', '_', $name);
         $spells['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
         $spells['data'][$i]['isActive']              = (bool)$isActive;
+        $spells['data'][$i]['isDuosOnly']            = (bool)$isDuosOnly;
 
         if ($isActive) {
             $csvDataSpellsActive      .= $csvData;
