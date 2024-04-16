@@ -80,7 +80,7 @@ include_once('../header.php');
 <?php
 // loops over all active non-token minions, identifies the type and increases the count for the type and the pool
 foreach ($tempMinions->data as $key => $object) {
-    if ($object->isActive === true && $object->isDuoOnly === false && $object->isToken !== true) {
+    if ($object->isActive === true && $object->isDuosOnly === false && $object->isToken !== true) {
         $type  = ((is_null($object->type) || $object->type == 'All') && $object->pool === 'All' && $object->name !== 'Ball of Minions') ? 'None' : $object->type;
         $type2 = !isset($object->types[1]) ? null : $object->types[1];
         @$minion_count[$type][$object->tier] = @$minion_count[$type][$object->tier] + 1;
