@@ -9,13 +9,13 @@ include_once("../header.php");
         <br><br>
         Quests will be gone, at least for the next couple of months, but <a href="https://bgknowhow.com/bgstrategy/?show=spells">spells</a> were a huge success and are here to stay, with only some smaller adjustments.
         <br><br>
-        If you want to check out some Duos gameplay before joining the fray, Blizzard sponsored a preview for known players of other games:
+        If you want to check out some Duos gameplay before joining the fray, Blizzard sponsored a preview for known players of other games:<br>
         <a href="https://youtu.be/YQubPOe-XF0?si=j0mFG_b38cTXT75" target="_blank">Voxy</a> and <a href="https://youtu.be/R9pQnzLN4PA?si=z81t3cr3WGCzg3dU" target="_blank">CovertGoBlu</a><br>
         <a href="https://youtu.be/qlmLBG3OFgA?si=ftF6gIZpj9NExstO" target="_blank">Thijs</a> and <a href="https://youtu.be/dxtGwjzReQ8?si=xfyKFRgYzz3PN8GV" target="_blank">Frodan</a><br>
         <a href="https://youtu.be/FH5dZ_-BAi8?si=YUf-Pm_sEjZ-pfM2" target="_blank">Nina</a> and <a href="https://youtu.be/EBXqhYNH40k?si=GAF8RUIVtgbKjmGo" target="_blank">Dekkster</a><br>
-        <a href="https://youtu.be/VL8NuZ9ZY_U?si=gJZHmRjpmiH8m1s3" target="_blank">Regis</a> and <a href="https://youtu.be/pspjaUpcr_8?si=FBecqouZmYBJ8ber" target="_blank">Slysssa</a><br>
-        And for team-ups of professional Battlegrounds players:<br>
-        <a href="https://www.twitch.tv/videos/2120596148" target="_blank">Jeef</a>, <a href="https://www.twitch.tv/videos/2120388650?t=5h42m20s" target="_blank">RDU</a>, <a href="https://www.twitch.tv/videos/2120561968" target="_blank">DogDog</a>, <a href="https://www.twitch.tv/videos/2120548888" target="_blank">Zorgo</a>.
+        <a href="https://youtu.be/VL8NuZ9ZY_U?si=gJZHmRjpmiH8m1s3" target="_blank">Regis</a> and <a href="https://youtu.be/pspjaUpcr_8?si=FBecqouZmYBJ8ber" target="_blank">Slysssa</a><br><br>
+        And for team-ups of professional Battlegrounds players:<br><br>
+        <a href="https://www.twitch.tv/videos/2120596148" target="_blank">Jeef</a>, <a href="https://www.twitch.tv/videos/2120388650?t=5h42m20s" target="_blank">RDU</a>, <a href="https://www.twitch.tv/videos/2120561968" target="_blank">DogDog</a>, <a href="https://www.twitch.tv/videos/2120548888" target="_blank">Zorgo</a>, <a href="https://www.twitch.tv/videos/2120558887" target="_blank">XQN</a>.
     </p>
     <br>
 

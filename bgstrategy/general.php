@@ -19,7 +19,7 @@ include_once('../header.php');
         <tr>
             <th>Tavern Tier</th>
             <th>Upgrade base cost</th>
-            <th>Upgrade base cost duo</th>
+            <th>Upgrade base cost (duos)</th>
             <th>Minions in tavern</th>
             <th>Copies of each minion</th>
         </tr>
