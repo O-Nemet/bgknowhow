@@ -19,18 +19,6 @@
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
 </p>
 <div class="comp_wrapper">
-    <h3 id="roogugspell">Roogug Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Tusk', 'Roogug', 'Roogug', 'Smudger', 'Smudger', 'Lubber', 'Piper'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        This is a very good build to use when you are not doing well and want to stick behind on Tier 3/4. Each card is a keypiece, so you have to really balance and know at which time of the game is worth recycling. <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a>s are especially important, as the additional health to each Blood Gem and the gem procs from <strong>Roogug</strong> will go a long way. <a class="hoverimage" href="/bgstrategy/minion/?id=90">Necrolyte</a> is also important to ensure a Divine Shield minion gains a bunch of stats.
-        <br><br>
-        Taunt the Piper to further increase the size of your gems. If Pirate or Elemental are available <strong>Land Lubber</strong> is a huge boon, providing more cheap spells to trigger the <strong>Paint Smudger</strong>s.
-    </p>
-
     <h3 id="roogug">Roogug Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Piper', 'Roogug', 'Roogug', 'Bandit', 'Bandit', 'Bopper', 'Charlga'];
@@ -45,31 +33,19 @@
 
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Tusk', 'Tusk', 'Piper', 'Horse', 'Rider', 'Roogug', 'Bristlebach'];
+    $board   = ['Tusk', 'Tusk', 'Horse', 'Horse', 'Pokey', 'Roogug', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. The Horse and Rider can basically be any minion which summons another minion via Deathrattle or Reborn.
-        <br><br>
-        The stat gains from <strong>Bristlebach</strong>'s Avenge ability are only temporary buffs during the combat phase. Make sure your <strong>Tusks</strong> have Divine Shield prior to battle!
-    </p>
-
-    <h3 id="bristlebachshields">Bristlebach Infinite Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Raptor', 'Ghastcoiler', 'Horse', 'Summoner', 'Bristlebach', 'Tusk', 'Tusk'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        The idea is to have your opponent hit your taunted <strong>Tough Tusk</strong> and attack their Divine Shield, but your minions keep dying, so they will regain their Divine Shield afterward. This is best with Undeads, but Beasts and Mechs provide options, too.
+        This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. The Horses can basically be any minion which summons another minion via Deathrattle or Reborn.
         <br><br>
         The stat gains from <strong>Bristlebach</strong>'s Avenge ability are only temporary buffs during the combat phase. Make sure your <strong>Tusks</strong> have Divine Shield prior to battle!
     </p>
 
     <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bristleback Knight', 'Bristleback Knight', 'Charlga', 'Bopper', 'Charlga', 'Roogug', 'Enchanter'];
+    $board   = ['Bopper', 'Roogug', 'Charlga', 'Charlga', 'Pokey', 'Pokey', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
