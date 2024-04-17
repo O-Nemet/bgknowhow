@@ -100,7 +100,7 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="miniontypes">Minion types and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Mechs have only two tier 2 minions. Even on tier 1, where each type used to have two minions, Undeads have access to three minions. <!--, since the addition of <a class="hoverimage" href='/bgstrategy/minion/?id=216'>Bubblette</a>. -->Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1.
+        The different minion types are not equally distributed across the six tavern tiers. For example Quilboar have only two tier 2 minions. <!-- Even on tier 1, where each type used to have two minions, Undeads have access to three minions. Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1. -->
         <!--        <br><br>-->
         <!--        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.-->
         <br><br>
@@ -227,7 +227,7 @@ foreach ($spell_count as $temp) {
 
     <h3 id="3on3">Tier 2 minions influencing your decision to go 3on3 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        While some heroes like <a class="hoverimage" href='/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo value of all the tier 2 minions available, if you have decided to level on turn two. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='/bgstrategy/minion/?id=14'>Sellemental</a> or <a class="hoverimage" href='/bgstrategy/hero/?id=193'>Shell Collector</a>. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
+        While some heroes like <a class="hoverimage" href='/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo value of all the tier 2 minions available, if you have decided to level on turn 2. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='/bgstrategy/minion/?id=2'>Deck Swabbie</a> <!--or <a class="hoverimage" href='/bgstrategy/hero/?id=193'>Shell Collector</a> -->. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
     </p>
     <br>
     <p>
@@ -235,7 +235,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Gambler', 'Eternal Knight'];
+        $board   = ['Gambler', 'Eternal Knight', 'Defense'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -246,7 +246,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Cyclone', 'Rat', 'Ripsnarl', 'Rewinder', 'Gobbler', 'Yrel'];
+        $board   = ['Cyclone', 'Ripsnarl', 'Rewinder', 'Security', 'Drake', 'Rooster', 'Saloonkeeper', 'Cho'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -257,7 +257,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Snapjaw', 'Bird', 'Tusk', 'Bookie', 'Angler', 'Lurker', 'Riffer', 'Snail', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Emissary', 'Refiner', 'Deathswarmer', 'Murcules'];
+        $board   = ['Goose', 'Party', 'Selly', 'Shipwright', 'Tusk', 'Collector', 'Lurker', 'Riffer', 'Snail', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Winterfinner', 'Deathswarmer', 'Dancer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -268,7 +268,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Thorncaller', 'Copter', 'Sandspewer', 'Seer', 'Tad', 'Smuggler', 'Scout'];
+        $board   = ['Thorncaller', 'Geomancer', 'Seer', 'Tad', 'Coldlight', 'Smuggler', 'Scout'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -279,7 +279,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Barnstormer', 'Oozeling'];
+        $board   = ['Oozeling'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
