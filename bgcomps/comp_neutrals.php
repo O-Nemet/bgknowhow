@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="odd">Odd Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bramblewitch', 'Mrymidon', 'Matriarch', 'Seafarer', 'Mooneater\'s Champion', 'Mooneater\'s Champion', 'Brann'];
+    $board   = ['Bramblewitch', 'Myrmidon', 'Matriarch', 'Seafarer', 'Mooneater\'s Champion', 'Mooneater\'s Champion', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -24,7 +24,7 @@
 
     <h3 id="even">Even Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Deathscale', 'Felboar', 'Lubber', 'Rylak', 'Tempest', 'Greymane'];
+    $board   = ['Lasso', 'Deathscale', 'Lubber', 'Greymane\'s Champion', 'Greymane\'s Champion', 'Rylak', 'Tempest'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -33,7 +33,7 @@
 
     <h3 id="evenspell">Even Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Trickster', 'Blade Collector', 'Lubber', 'Chimera', 'Chimera', 'Greymane'];
+    $board   = ['Lasso', 'Trickster', 'Blade Collector', 'Lubber', 'Chimera', 'Chimera', 'Greymane\'s Champion'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
