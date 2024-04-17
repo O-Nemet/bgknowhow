@@ -8,7 +8,7 @@ include_once("../header.php");
         Mewwy did some theorycrafting and came up with different lines and strategies to strive for and try out during the first week. The <a href="/bgcomps/">endgame compositions</a> for all the different minion types have been updated, incorporating the minion changes after Patch 29.2.
         The meta is still fresh, so of course this is just a first pass, but should provide you with plenty ideas and directions to aim for. Additonal information on how to build and play these builds will follow in the near future.
         <br><br>
-        Outdated information on other areas of this website will also be updated in the next couple of days, after the new meta has settled a bit. Additionally, we will add an indicator for cards which are only available in Duos as well as special strategy information for this new coop mode.
+        Outdated information on other areas of this website will also be updated during the next couple of days, after the new meta has settled a bit. Additionally, we will add an indicator for cards which are only available in Duos as well as special strategy information for this new coop mode.
         <br><br>
         These compositions are brought to you by high-MMR player and <a href="https://metafy.gg/@mewwyhs" target="_blank">BG coach</a> <a href="https://twitter.com/mewwyhs" target="_blank">Mewwy</a>. Check out his <a href="https://www.youtube.com/@MewwyHS" target="_blank">YouTube channel</a> and maybe <a href="https://ko-fi.com/mewwyhs" target="_blank">buy him a coffee</a> if you liked them. </p>
     <br>
