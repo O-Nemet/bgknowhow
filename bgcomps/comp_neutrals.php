@@ -13,21 +13,36 @@
     <!-- general info about Neutrals -->
 </p>
 <div class="comp_wrapper">
-    <h3 id="fort">Fort/Taunt Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="odd">Odd Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Phalanx', 'Glowscale', 'Fort', 'Fort', 'Enchanter', 'Matador', 'Matador'];
+    $board   = ['Bramblewitch', 'Mrymidon', 'Matriarch', 'Seafarer', 'Mooneater\'s Champion', 'Mooneater\'s Champion', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        These are just an example of minions that make use of the stats given from <strong>Walking Fort</strong> and synergize with one another. You can always make the taunted minions be minions with special abilities like Divine Shield or Cleave. <a class="hoverimage" href="/bgstrategy/minion/?id=455">Wayward Grimscale</a>, <a class='hoverimage' href='/bgstrategy/minion/?id=5'>Impulsive Trickster</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=133">Foe Reaper 4000</a> are just some of the options.
-        <br><br>
-        There are plenty of options to buff any minion with Taunt, therefore if you need the tempo early on it can be a good idea to taunt the Fort or the Enchanter themselves. The downside to this is that you won't really be able to sell them for a scam minion for the final battles, though.
+    </p>
+
+    <h3 id="even">Even Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Lasso', 'Deathscale', 'Felboar', 'Lubber', 'Rylak', 'Tempest', 'Greymane'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+    </p>
+
+    <h3 id="evenspell">Even Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Lasso', 'Trickster', 'Blade Collector', 'Lubber', 'Chimera', 'Chimera', 'Greymane'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
     </p>
 
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Nalaa', 'Fungus', 'Nalaa', 'Silivaz', 'Sporebat', 'Specialist', 'Seafarer'];
+    $board   = ['Nalaa', 'Fungus', 'Nalaa', 'Silivaz', 'Matriarch', 'Hooktail', 'Seafarer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -39,7 +54,7 @@
 
     <h3 id="scam">Scam Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bramblewitch', 'Queen', 'Queen', 'Thrasher', 'Thrasher', 'Matador', 'Belcher'];
+    $board   = ['Bramblewitch', 'Bramblewitch', 'Leeroy', 'Leeroy', 'Thrasher', 'Thrasher', 'Belcher'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -47,17 +62,6 @@
         This is a build used if you just cannot find an actual build that scales. This won't win against every build, but it is very effective if your opponent only has 7 strong minions without Deathrattles, Reborns, Divine Shields, or Cleaves.
     </p>
 
-    <h3 id="deathrattle">Deathrattle Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Phalanx', 'Kel', 'Belcher', 'Kangor\'s', 'S\'thara', 'Hawkstrider', 'Titus'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        If you don't have Archlich Kel'Thuzad, be sure to use <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=260">Mecha-Jaraxxus</a> to give it Reborn. If you can't find Kangor's Apprentice or Cultist S'thara, you can still replace them with cards of other minion types.
-        <!--<br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
-    </p>
 </div>
 
 <br><br>
