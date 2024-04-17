@@ -10,7 +10,7 @@ include_once("../header.php");
         <br><br>
         Outdated information on other areas of this website will also be updated during the next couple of days, after the new meta has settled a bit. Additionally, we will add an indicator for cards which are only available in Duos as well as special strategy information for this new coop mode.
         <br><br>
-        These compositions are brought to you by high-MMR player and <a href="https://metafy.gg/@mewwyhs" target="_blank">BG coach</a> <a href="https://twitter.com/mewwyhs" target="_blank">Mewwy</a>. Check out his <a href="https://www.youtube.com/@MewwyHS" target="_blank">YouTube channel</a> and maybe <a href="https://ko-fi.com/mewwyhs" target="_blank">buy him a coffee</a> if you liked them. </p>
+        These compositions are brought to you by high-MMR player and <a href="https://metafy.gg/@mewwyhs" target="_blank">BG coach</a> <a href="https://twitter.com/mewwyhs" target="_blank">Mewwy</a>. Check out his <a href="https://www.youtube.com/@MewwyHS" target="_blank">YouTube channel</a> and maybe <a href="https://ko-fi.com/mewwyhs" target="_blank">buy him a coffee</a> if you like them. </p>
     <br>
 
     <h3 id="patch29.2.0">16.04.2024 - Patch 29.2.0 launching Battlegrounds Duos and Season 7 today! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
