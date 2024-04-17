@@ -35,7 +35,7 @@
 
     <h3 id="siren">Siren Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Mrymidon', 'Siren', 'Siren', 'Silivaz', 'Enchanter', 'Slitherspear', 'Glowscale'];
+    $board   = ['Myrmidon', 'Siren', 'Siren', 'Silivaz', 'Enchanter', 'Slitherspear', 'Glowscale'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
