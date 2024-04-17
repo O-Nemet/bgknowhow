@@ -27,7 +27,7 @@
 
     <h3 id="magnetize">Magnetization Beatboxer Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Deflecto', 'Scraper', 'Drone', 'Beatboxer', 'Beatboxer', 'Laborer'];
+    $board   = ['Deflecto', 'Scraper', 'Drone', 'Beatboxer', 'Beatboxer', 'Mk II', 'Laborer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -35,6 +35,15 @@
         Buy as many magnetic minions as you can to profit of your <strong>Beatboxers</strong> and put it on any Mech you plan to keep until the end game. All of them are decent, so don't be picky. The spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Perfect Vision</a> can buff magnetic minions in the Tavern.
         <br><br>
         Magnetization can be given even on full boards. Also, in the past it was possible to run out of Magnetize minions because the Scrapers pulled minions from the shared minion pool. But this was changed in a July 2023 update, now magnetized minions will return to the pool upon usage.
+    </p>
+
+    <h3 id="shield">Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Deflecto', 'Deflecto', 'Untameabull', 'Lasso', 'Puller', 'Horse', 'Czarina'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
     </p>
 
 </div>
