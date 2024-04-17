@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="battlecry">Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Murky', 'Murk-Eye', 'Murky', 'Murk-Eye', 'Primalfin', 'Grimscale', 'Brann'];
+    $board   = ['Choral', 'Choral', 'Bassgill', 'Primalfin', 'Murk-Eye', 'Primalfin', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -30,22 +30,11 @@
     drawBoard($minions);
     ?>
     <p>
-        Heavily depends on growing one or two <a class="hoverimage" href="/bgstrategy/minion/?id=333">Bream Counter</a> in your hand or your venom carrying you to victory (don't play this against Undead). Diremuck Forager is a good alternative to Bassgil. Constantly recycle Murlocs so Bream Counter gets buffed.
+        Heavily depends on growing one or two <a class="hoverimage" href="/bgstrategy/minion/?id=333">Bream Counter</a> in your hand or your venom carrying you to victory (don't play this against Undead). <a class="hoverimage" href="/bgstrategy/minion/?id=417">Diremuck Forager</a> is a good alternative to Bassgil. Constantly recycle Murlocs so Bream Counter gets buffed.
         <br><br>
-        The Bassgill is also useful for summoning <a class="hoverimage" href="/bgstrategy/minion/?id=455">Wayward Grimscale</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=399">Relentless Mur'ghoul</a>. Also <strong>Titus Rivendare</strong> is very good for synergy with Operatic Belcher and Bassgill.
-        <!--<br><br>
-        Look out for the spell <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus' Tribute</a> which provides the same effect as one <strong>Titus</strong> without needing the board space, but also stacks with it.-->
+        <strong>Titus Rivendare</strong> is very good for synergy with Operatic Belcher and Bassgill.
     </p>
 
-    <!--    <h3 id="beast">Beast Math Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    --><?php
-    //    $board   = ['Scourfin', 'Scourfin', 'Diremuck Forager', 'Titus', 'Slamma', 'Slamma'];
-    //    $minions = getMinionsForBoard($board);
-    //    drawBoard($minions);
-    //    ?>
-    <!--    <p>-->
-    <!--        Needs the availability of Beasts. Any beast in your hand will do, but ones with Deathrattle like <a class="hoverimage" href="/bgstrategy/minion/?id=297">Sly Raptor</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=135">Ghastcoiler</a> are the best. Once you feel that <strong>Scourfin</strong> has buffed the beast in your hands enough, throw it away for another <strong>Diremuck Forager</strong>. Do not triple Diremuck Forager. Later on replace <strong>Titus</strong> with another effective card.-->
-    <!--    </p>-->
 </div>
 
 <br><br>
