@@ -3,6 +3,16 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch29.2.0comps">17.04.2024 - All composition pages updated for Season 7 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Mewwy did some theorycrafting and came up with different lines and strategies to strive for and try out during the first week. The <a href="/bgcomps/">endgame compositions</a> for all the different minion types have been updated, incorporating the minion changes after Patch 29.2.
+        The meta is still fresh, so of course this is just a first pass, but should provide you with plenty ideas and directions to aim for. Additonal information on how to build and play these builds will follow in the near future.
+        <br><br>
+        Outdated information on other areas of this website will also be updated in the next couple of days, after the new meta has settled a bit. Additionally, we will add an indicator for cards which are only available in Duos as well as special strategy information for this new coop mode.
+        <br><br>
+        These compositions are brought to you by high-MMR player and <a href="https://metafy.gg/@mewwyhs" target="_blank">BG coach</a> <a href="https://twitter.com/mewwyhs" target="_blank">Mewwy</a>. Check out his <a href="https://www.youtube.com/@MewwyHS" target="_blank">YouTube channel</a> and maybe <a href="https://ko-fi.com/mewwyhs" target="_blank">buy him a coffee</a> if you liked them. </p>
+    <br>
+
     <h3 id="patch29.2.0">16.04.2024 - Patch 29.2.0 launching Battlegrounds Duos and Season 7 today! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Season 7 brings a massive rework of minions, over 50 new minions, as well as the new coop mode called Battlegrounds Duos. All the changes, including the Duos exclusive heroes, minions and spells, are documented in the <a href="https://hearthstone.blizzard.com/en-us/news/24077473/29-2-patch-notes" target="_blank">29.2 patch notes</a>.
