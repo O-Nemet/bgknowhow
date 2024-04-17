@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="apm">Infinite gold aka APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Underhanded Dealer', 'Peggy', 'Peggy', 'Record Smuggler', 'Tethys', 'Tethys', 'Brann'];
+    $board   = ['Underhanded Dealer', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Record Smuggler', 'Tethys', 'Tethys', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -25,7 +25,7 @@
 
     <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Blade Collector', 'Blade Collector', 'Peggy', 'Peggy', 'Lubber', 'Tethys', 'Greymane'];
+    $board   = ['Blade Collector', 'Blade Collector', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Lubber', 'Tethys', 'Greymane\'s Champion'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
