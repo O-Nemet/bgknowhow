@@ -292,7 +292,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Slamma', 'Hawkstrider', 'Goldrinn'];
+        $board   = ['Rylak', 'Skyblazer', 'Trigore', 'Octosari', 'Stomper', 'Goldrinn'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -302,17 +302,17 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Feldrake', 'Razorgore', 'Hunter', 'Kaly'];
+        $board   = ['Poet', 'Promo-Drake', 'Kaly'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Frostling', 'Master', 'Rock Rock'];
+        $board   = ['Frostling', 'Magma', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Deflecto', 'Lighter', 'Scraper', 'Beatboxer'];
+        $board   = ['Deflecto', 'Scraper', 'Czarina', 'Beatboxer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -322,7 +322,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Lava Lurker', 'Deep Blue', 'Wrangler', 'Slitherspear'];
+        $board   = ['Lava Lurker', 'Deep Blue', 'Slitherspear'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -332,7 +332,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Piper', 'Roogug', 'Charly', 'Bristlebach'];
+        $board   = ['Piper', 'Roogug', 'Charly', 'Pokey', 'Bristlebach'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -342,7 +342,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Brann', 'Enchanter', 'Titus', 'Fort', 'Nalaa'];
+        $board   = ['Brann', 'Enchanter', 'Titus', 'Greymane\'s Champion', 'Nalaa'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
