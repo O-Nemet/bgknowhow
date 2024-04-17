@@ -25,7 +25,7 @@
 
     <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Wildfire', 'Lubber', 'Lubber', 'Azerite', 'Fiery', 'Shelly', 'Matriarch'];
+    $board   = ['Wildfire', 'Lubber', 'Lubber', 'Azerite', 'Slimy', 'Shelly', 'Matriarch'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
