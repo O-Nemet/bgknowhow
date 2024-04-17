@@ -35,7 +35,7 @@
 
     <h3 id="deathrattle">Deathrattle Stomper Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Guest', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Primus', 'Stomper'];
+    $board   = ['Guest', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Champion of the Primus', 'Stomper'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
