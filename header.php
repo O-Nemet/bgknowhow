@@ -140,6 +140,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                         <div class="menu-column-3">
                             <ul>
                                 <li><a href="/bgguides/pocky.php">...Guide to Improving at Battlegrounds</a></li>
+                                <li><a href="/bgguides/jeef.php">...Jeef's composition, direction and leveling guides</a></li>
                                 <li><a href="/bgguides/youtube.php">...Featured YouTube video guides</a></li>
                                 <li><a href="/bgguides/your.php">...Your guide here</a></li>
                             </ul>
