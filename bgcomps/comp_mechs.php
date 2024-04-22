@@ -39,7 +39,7 @@
 
     <h3 id="shield">Shield Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deflecto', 'Deflecto', 'Untameabull', 'Lasso', 'Puller', 'Horse', 'Czarina'];
+    $board   = ['Lasso', 'Lasso', 'Deflecto', 'Deflecto', 'Puller', 'Lubber', 'Czarina'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
