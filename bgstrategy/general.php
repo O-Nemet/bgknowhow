@@ -19,7 +19,7 @@ include_once('../header.php');
         <tr>
             <th>Tavern Tier</th>
             <th>Upgrade base cost</th>
-            <th>Upgrade base cost (duos)</th>
+            <th>Upgrade base cost (Duos)</th>
             <th>Minions in tavern</th>
             <th>Copies of each minion</th>
         </tr>
@@ -100,7 +100,9 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="miniontypes">Minion types and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Quilboar have only two tier 2 minions. <!-- Even on tier 1, where each type used to have two minions, Undeads have access to three minions. Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1. -->
+        The different minion types are not equally distributed across the six tavern tiers. For example Quilboar have only two tier 2 minions.
+        Also, Mechs got 6 different Zilliax modules on tier 2, which are handled differently: Each different Zilliax Module has an appearance rate 1/3 that of a regular tier 2 minion's. Any combination of three Modules will combine into a Golden Zilliax: Assembled, which has all the keywords of the Modules used as the components.
+        <!-- Even on tier 1, where each type used to have two minions, Undeads have access to three minions. Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1. -->
         <!--        <br><br>-->
         <!--        On tier 5 there is one special case regarding the minion <a class="hoverimage" href='/bgstrategy/minion/?id=104'>Agamaggan, the Great Boar</a>, which is of type Beast but will only show up in lobbies featuring Quilboar. This leads to the curious effect of <a class="hoverimage" href='/bgstrategy/minion/?id=212'>Reef Explorer</a> providing you with a guaranteed Agamaggan, when you already control a minion of each type.-->
         <br><br>
@@ -246,7 +248,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Cyclone', 'Ripsnarl', 'Rewinder', 'Security', 'Drake', 'Rooster', 'Saloonkeeper', 'Cho'];
+        $board   = ['Cyclone', 'Ripsnarl', 'Rewinder', 'Drake', 'Goose', 'Rooster', 'Saloonkeeper', 'Cho'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -257,7 +259,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Goose', 'Party', 'Selly', 'Shipwright', 'Tusk', 'Collector', 'Lurker', 'Riffer', 'Snail', 'Lulla', 'Trickster', 'Muck', 'Skyfin', 'Winterfinner', 'Deathswarmer', 'Dancer'];
+        $board   = ['Party', 'Selly', 'Shipwright', 'Tusk', 'Collector', 'Lurker', 'Riffer', 'Snail', 'Lulla', 'Security', 'Trickster', 'Muck', 'Skyfin', 'Winterfinner', 'Deathswarmer', 'Dancer'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -322,7 +324,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Lava Lurker', 'Deep Blue', 'Slitherspear'];
+        $board   = ['Lava Lurker', 'Deep Blue', 'Deathscale', 'Slitherspear'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
