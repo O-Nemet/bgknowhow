@@ -294,7 +294,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Skyblazer', 'Trigore', 'Octosari', 'Stomper', 'Goldrinn'];
+        $board   = ['Rylak', 'Skyblazer', 'Octosari', 'Stomper', 'Goldrinn'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -309,7 +309,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Frostling', 'Lubber', 'Magma', 'Rock Rock'];
+        $board   = ['Azerite', 'Frostling', 'Lubber', 'Magma', 'Rock Rock'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
