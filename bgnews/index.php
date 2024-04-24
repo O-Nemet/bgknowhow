@@ -3,6 +3,16 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch29.2.2incoming">24.04.2024 - Lots of balance changes incoming and early Duo hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        After not much more than a week of Season 7 gameplay the official <a href="https://twitter.com/PlayHearthstone/status/1782816717736972319" target="_blank">Hearthstone account on X</a> has already announced a preview of over 60 BG balancing changes coming with patch 29.2.2 later during this week:<br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch2922_preview.jpg"><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch2922_preview_duos.jpg">
+        <br><br>
+        <br><br>
+        Earlier this week Blizzard felt forced to remove the minions <a class="hoverimage" href="/bgstrategy/minion/?id=507">Zilliax: Bonding Module</a> (due to a scaling bug being abused), <a class="hoverimage" href="/bgstrategy/minion/?id=522">Orc-estra Conductor</a> (due to being overpowered) and <a class="hoverimage" href="/bgstrategy/minion/?id=523">Plunder Pal</a>. They will be readded in changed forms with the upcoming patch.
+        <br>
+
     <h3 id="patch29.2.0comps">17.04.2024 - All composition pages updated for Season 7 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Mewwy did some theorycrafting and came up with different lines and strategies to strive for and try out during the first week. The <a href="/bgcomps/">endgame compositions</a> for all the different minion types have been updated, incorporating the minion changes after Patch 29.2.
