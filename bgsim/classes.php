@@ -37,7 +37,7 @@ class Minion
         $tempMinions = json_decode(file_get_contents('../bgjson/output/bg_minions_active.json'));
 
         foreach ($tempMinions->data as $key => $object) {
-            if ($object->id === $id && (bool)$object->isActive === true && $object->isDuosOnly === false) {
+            if ($object->id === $id && (bool)$object->isActive === true && (bool)$object->isDuosOnly === false) {
                 $this->id             = $object->id;
                 $this->name           = $object->name;
                 $this->attack         = $object->attack;
@@ -387,7 +387,7 @@ class Battlefield
         $this->totalMinionDamageDoneP1 += $minion1->getAttack();
 
         if ($minion2->getName() === 'Trusty Pup') {
-            $$minion2->setAttack($minion2->getAttack() + 1);
+            $minion2->setAttack($minion2->getAttack() + 1);
         }
 
         // damage done from minion of P2
@@ -395,7 +395,7 @@ class Battlefield
         $this->totalMinionDamageDoneP2 += $minion2->getAttack();
 
         if ($minion1->getName() === 'Trusty Pup') {
-            $$minion1->setAttack($minion1->getAttack() + 1);
+            $minion1->setAttack($minion1->getAttack() + 1);
         }
 
         // check for death
