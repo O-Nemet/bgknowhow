@@ -129,7 +129,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                     </div>
                 </li>
                 <li class="menu-hover bgcurves">
-                    <a class="menu-topic" href="/bgcurves/">Curves</a>
+                    <a class="menu-topic" href="/bgduos/">Duos</a>
                 </li>
                 <li class="menu-hover bgexternal">
                     <a class="menu-topic" href="/bgexternal/">Resources</a>
@@ -139,9 +139,9 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                     <div class="menu-container-3">
                         <div class="menu-column-3">
                             <ul>
-                                <li><a href="/bgguides/pocky.php">...Guide to Improving at Battlegrounds</a></li>
                                 <li><a href="/bgguides/jeef.php">...Jeef's composition spreadsheet/guide</a></li>
                                 <li><a href="/bgguides/youtube.php">...Featured YouTube video guides</a></li>
+                                <li><a href="/bgguides/pocky.php">...Guide to Improving at Battlegrounds</a></li>
                                 <li><a href="/bgguides/your.php">...Your guide here</a></li>
                             </ul>
                         </div>
@@ -167,6 +167,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                         <div class="menu-column-1">
                             <ul>
                                 <li><a href="/bgbasics/">...Definitions</a></li>
+                                <li><a href="/bgcurves/">Curves</a></li>
                                 <li><a href="/bgbasics/triple_stats.php">...Triple Stats</a></li>
                                 <li><a href="/bgbasics/faq.php">...FAQ</a></li>
                                 <li><a href="/bgbasics/armor.php">...Hero Armor</a></li>
