@@ -193,11 +193,18 @@ class Battlefield
             case 'Alleycat':
                 $this->spawnMinion($player, $slot + 1, new Minion('CFM_315t'));
                 break;
+            case 'Deep-Sea Angler':
+                $minion->setHealth($minion->getHealth() + 2);
+                break;
             case 'Emerald Proto-Whelp':
                 $minion->setAttack($minion->getAttack() + 1);
                 break;
             case 'Mini-Myrmidon':
                 $minion->setAttack($minion->getAttack() + 2);
+                break;
+            case 'Misfit Dragonling':
+                $minion->setAttack($minion->getAttack() + 1);
+                $minion->setHealth($minion->getHealth() + 1);
                 break;
             case 'Picky Eater':
                 $minion->setAttack($minion->getAttack() + 2);
@@ -319,6 +326,12 @@ class Battlefield
                 $foundMinion = true;
 //                echo "<-";
 
+                // attack proc handling
+                if ($this->slots[$this->playerAttacking][$attacker]->getName() === 'Glim Guardian') {
+                    $this->slots[$this->playerAttacking][$attacker]->setAttack($this->slots[$this->playerAttacking][$attacker]->getAttack() + 2);
+                    $this->slots[$this->playerAttacking][$attacker]->setHealth($this->slots[$this->playerAttacking][$attacker]->getHealth() + 1);
+                }
+
                 // find possible defender
                 $defender = $this->findTarget($this->playerDefending);
                 if ($defender > -1) {
@@ -373,9 +386,17 @@ class Battlefield
         $minion2->setHealthByDamage($minion1->getAttack());
         $this->totalMinionDamageDoneP1 += $minion1->getAttack();
 
+        if ($minion2->getName() === 'Trusty Pup') {
+            $$minion2->setAttack($minion2->getAttack() + 1);
+        }
+
         // damage done from minion of P2
         $minion1->setHealthByDamage($minion2->getAttack());
         $this->totalMinionDamageDoneP2 += $minion2->getAttack();
+
+        if ($minion1->getName() === 'Trusty Pup') {
+            $$minion1->setAttack($minion1->getAttack() + 1);
+        }
 
         // check for death
         if ($minion1->getHealth() < 1) {
@@ -409,16 +430,14 @@ class Battlefield
             } else if ($realMinion->getHasDeathrattle()) {
 //                echo "<br>DR FOUND!";
                 switch ($realMinion->getName()) {
-                    case 'Harmless Bonehead':
+                    case 'Imprisoner':
+                    case 'Cord Puller':
                         $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
-                        $this->spawnMinion($player, $slot + 1, new Minion('BRM_006t'));
                         break;
+                    case 'Harmless Bonehead':
                     case 'Icky Imp':
                         $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
                         $this->spawnMinion($player, $slot + 1, new Minion('BRM_006t'));
-                        break;
-                    case 'Imprisoner':
-                        $this->spawnMinion($player, $slot, new Minion('BRM_006t'));
                         break;
                     case 'Manasaber':
                         $this->spawnMinion($player, $slot, new Minion('BG26_800t'));
@@ -427,6 +446,7 @@ class Battlefield
                     case 'Scallywag':
                         $this->spawnMinion($player, $slot, new Minion($realMinion->getId() . 't'));
                         break;
+                    case 'Kindly Grandmother':
                     case 'Surf n\' Surf':
                         $this->spawnMinion($player, $slot, new Minion('BG27_004t2'));
                         break;
