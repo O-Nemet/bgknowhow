@@ -3,6 +3,14 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch29.2.2">25.04.2024 - Patch 29.2.2 released and Mechs temporarily out of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard released the patch today. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24087317/29-2-2-patch-notes" target="_blank">patch notes</a> for a complete list of minion and spell changes.
+        <br><br>
+        Although Mechs received quite some buffs, they already had to be <a href="https://twitter.com/ben_heathstone/status/1783595047436595619" target="_blank">hotfixed</a> out for the moment (too many bugs in the machine).
+    </p>
+    <br>
+
     <h3 id="patch29.2.2incoming">24.04.2024 - Lots of balance changes incoming and early Duo hotfixes <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         After not much more than a week of Season 7 gameplay the official <a href="https://twitter.com/PlayHearthstone/status/1782816717736972319" target="_blank">Hearthstone account on X</a> has already announced a preview of over 60 BG balancing changes coming with patch 29.2.2 later during this week:<br><br>
@@ -11,8 +19,9 @@ include_once("../header.php");
         <br><br>
         This patch will certainly shake up the young meta once again and possibly reactivate some of the seven currently deactivated heroes, again.
         <br><br>
-        Earlier this week Blizzard felt forced to remove the minions <a class="hoverimage" href="/bgstrategy/minion/?id=507">Zilliax: Bonding Module</a> (due to a scaling bug being abused), <a class="hoverimage" href="/bgstrategy/minion/?id=522">Orc-estra Conductor</a> (due to being way to overpowered in the Duos mode) and <a class="hoverimage" href="/bgstrategy/minion/?id=523">Plunder Pal</a> (due to a regular bug). They will be readded in changed forms with the upcoming patch.
-        <br>
+        Earlier this week Blizzard felt forced to remove the minions <a class="hoverimage" href="/bgstrategy/minion/?id=507">Zilliax: Bonding Module</a> (due to a scaling bug being abused), <a class="hoverimage" href="/bgstrategy/minion/?id=522">Orc-estra Conductor</a> (due to being way too overpowered in the Duos mode) and <a class="hoverimage" href="/bgstrategy/minion/?id=523">Plunder Pal</a> (due to a regular bug). They will be readded in changed forms with the upcoming patch.
+    </p>
+    <br>
 
     <h3 id="patch29.2.0comps">17.04.2024 - All composition pages updated for Season 7 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -21,7 +30,8 @@ include_once("../header.php");
         <br><br>
         Outdated information on other areas of this website will also be updated during the next couple of days, after the new meta has settled a bit. Additionally, we will add an indicator for cards which are only available in Duos as well as special strategy information for this new coop mode.
         <br><br>
-        These compositions are brought to you by high-MMR player and <a href="https://metafy.gg/@mewwyhs" target="_blank">BG coach</a> <a href="https://twitter.com/mewwyhs" target="_blank">Mewwy</a>. Check out his <a href="https://www.youtube.com/@MewwyHS" target="_blank">YouTube channel</a> and maybe <a href="https://ko-fi.com/mewwyhs" target="_blank">buy him a coffee</a> if you like them. </p>
+        These compositions are brought to you by high-MMR player and <a href="https://metafy.gg/@mewwyhs" target="_blank">BG coach</a> <a href="https://twitter.com/mewwyhs" target="_blank">Mewwy</a>. Check out his <a href="https://www.youtube.com/@MewwyHS" target="_blank">YouTube channel</a> and maybe <a href="https://ko-fi.com/mewwyhs" target="_blank">buy him a coffee</a> if you like them.
+    </p>
     <br>
 
     <h3 id="patch29.2.0">16.04.2024 - Patch 29.2.0 launching Battlegrounds Duos and Season 7 today! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
