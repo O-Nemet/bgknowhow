@@ -131,6 +131,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>25.04.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24087317/29-2-2-patch-notes" target="_blank">29.2.2</a> patch notes.</li>
         <li>22.04.2024 - Added BG armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2921-patch-notes/126400" target="_blank">29.2.1</a> patch notes.</li>
         <li>16.04.2024 - Added new heroes, minions, spells and BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24077473/29-2-patch-notes" target="_blank">29.2.0</a> patch notes.</li>
         <li>15.04.2024 - Added flag isDuosOnly to the hero, minion and spell datasets.</li>
