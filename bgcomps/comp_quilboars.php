@@ -45,7 +45,7 @@
 
     <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bopper', 'Roogug', 'Charlga', 'Charlga', 'Pokey', 'Pokey', 'Enchanter'];
+    $board   = ['Pokey', 'Pokey', 'Charlga', 'Charlga', 'Bopper', 'Roogug', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
