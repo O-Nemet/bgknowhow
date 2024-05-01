@@ -250,7 +250,7 @@ include_once('../header.php');
     <p>
         There are rating floors between 2000 and 6000 for your MMR. Your rating does not drop below each floor once it
         is above it. Currently, there is a floor every 500 rating points: 2000, 2500, 3000, 3500, 4000, 4500, 5000,
-        5500, 6000.
+        5500, 6000. Below 2000 MMR you won't lose any points for an 8th place, anyway.
         <!--        (<a href=https://hearthstone.blizzard.com/en-us/news/23523064 target="_blank">source</a>)-->
     </p>
     <h3 id="ratinginternal">Internal rating <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
