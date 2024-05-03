@@ -20,6 +20,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
                                      bgh.health,
                                      bgh.armor,
                                      bgh.armor_mmr,
+                                     bgh.armor_duos,
                                      bgh.armor_tier,
                                      bgb.name,
                                      bgb.id_blizzard,
@@ -39,7 +40,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armor, $armorMMR, $armorTier, $buddyName, $buddyId, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly);
+    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armor, $armorMMR, $armorDuos, $armorTier, $buddyName, $buddyId, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly);
 
     $row_count = $stmt->num_rows;
 
@@ -54,6 +55,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         //        'Armor-Tier' . CSV_SEPARATOR .
         'Armor' . CSV_SEPARATOR .
         'Armor High MMR' . CSV_SEPARATOR .
+        'Armor Duos' . CSV_SEPARATOR .
         (BUDDIES_ACTIVE ? 'Buddy' . CSV_SEPARATOR : null) .
         'Blizzard ID' . CSV_SEPARATOR .
         'Picture link' . CSV_SEPARATOR .
@@ -77,13 +79,14 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-        $csvData                                     =
+        $csvData =
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
             //            $armorTier . CSV_SEPARATOR .
             $armor . CSV_SEPARATOR .
             $armorMMR . CSV_SEPARATOR .
+            $armorDuos . CSV_SEPARATOR .
             (BUDDIES_ACTIVE ? '"' . $buddyName . '"' . CSV_SEPARATOR : null) .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER . $blizzardId . '.png' . CSV_SEPARATOR .
@@ -102,7 +105,8 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['health']    = $health;
 //        $heroes['data'][$i]['armorTier']    = $armorTier;
         $heroes['data'][$i]['armor']        = $armor;
-        $heroes['data'][$i]['armorHighMMR'] = $armorMMR;
+        $heroes['data'][$i]['armorHighMMR'] = $armorMMR ? $armorMMR : $armor;
+        $heroes['data'][$i]['armorDuos']    = $armorDuos;
         (BUDDIES_ACTIVE ? $heroes['data'][$i]['buddy'] = $buddyName : null);
 //        (BUDDIES_ACTIVE ? $heroes['data'][$i]['buddy']['name'] = $buddyName : null);
 //        (BUDDIES_ACTIVE ? $heroes['data'][$i]['buddy']['id'] = $buddyId : null);
@@ -805,7 +809,7 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-        $csvData                       =
+        $csvData =
             $name . CSV_SEPARATOR .
             $tier . CSV_SEPARATOR .
             $cost . CSV_SEPARATOR .
