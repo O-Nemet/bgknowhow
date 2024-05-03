@@ -3,6 +3,14 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+    <h3 id="patch29.2.3">02.05.2024 - Patch 29.2.3 released and Mechs back in the game! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard released a <a href="https://us.forums.blizzard.com/en/hearthstone/t/2923-patch-notes/127552" target="_blank">hotfix patch</a> today, bringing back Mechs in their improved forms. Watch out for the magnetic overlords in your games!
+        <br><br>
+        They also added separate armor values to each hero for Duos mode (usually 2-3 lower than in Solo mode) and slightly increased the late game (turn 7+) turn timers in Duos.
+    </p>
+    <br>
+
     <h3 id="patch29.2.2">25.04.2024 - Patch 29.2.2 released and Mechs temporarily out of the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard released the patch today. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24087317/29-2-2-patch-notes" target="_blank">patch notes</a> for a complete list of minion and spell changes.
