@@ -386,16 +386,16 @@ class Battlefield
         $minion2->setHealthByDamage($minion1->getAttack());
         $this->totalMinionDamageDoneP1 += $minion1->getAttack();
 
-        if ($minion2->getName() === 'Trusty Pup') {
-            $minion2->setAttack($minion2->getAttack() + 1);
-        }
-
         // damage done from minion of P2
         $minion1->setHealthByDamage($minion2->getAttack());
         $this->totalMinionDamageDoneP2 += $minion2->getAttack();
 
         if ($minion1->getName() === 'Trusty Pup') {
             $minion1->setAttack($minion1->getAttack() + 1);
+        }
+
+        if ($minion2->getName() === 'Trusty Pup') {
+            $minion2->setAttack($minion2->getAttack() + 1);
         }
 
         // check for death
