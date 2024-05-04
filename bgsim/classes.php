@@ -87,7 +87,7 @@ class Minion
         } else if ($this->name === 'Incorporeal Corporal' && $damage >= 1) {
             // TODO: fix results by implementing random roll for attack first and a loop for each individual fight
             $this->health = 0;
-        } else if (($this->health - $damage < 1) && $this->hasShield) {
+        } else if ($this->hasShield) {
             $this->hasShield = false;
         } else {
             $this->health = $this->health - $damage;
