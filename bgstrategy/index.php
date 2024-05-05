@@ -45,6 +45,12 @@ if (!empty($_GET['tier'])) {
     $minionTier = 0;
 }
 
+if (!empty($_GET['duos'])) {
+    $isDuos = $_GET['duos'] == (1 || true) ? true : false;
+} else {
+    $isDuos = false;
+}
+
 if (!empty($buddy)) {
     echo "buddy " . $buddy;
 } else if (!empty($minion)) {
@@ -136,6 +142,20 @@ if (!empty($buddy)) {
     $tierTo   = $minionTier !== 0 ? $minionTier : 7;
 
     if ($show == 'minions' && $mode == 'gfx') {
+
+        echo '<div class="typeFilter">';
+        echo '<a href="/bgstrategy/?show=minions&type=beast"><img src="<?= PICTURE_LOCAL ?>misc/pool_beasts.png" alt="Beasts" title="Beasts"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=demon"><img src="<?= PICTURE_LOCAL ?>misc/pool_demons.png" alt="Demons" title="Demons"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=dragon"><img src="<?= PICTURE_LOCAL ?>misc/pool_dragons.png" alt="Dragons" title="Dragons"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=elemental"><img src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" alt="Elementals" title="Elementals"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=mech"><img src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" alt="Mechs" title="Mechs"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=murloc"><img src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" alt="Murlocs" title="Murlocs"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=naga"><img src="<?= PICTURE_LOCAL ?>misc/pool_nagas.png" alt="Nagas" title="Nagas"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=pirate"><img src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" alt="Pirates" title="Pirates"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=quilboar"><img src="<?= PICTURE_LOCAL ?>misc/pool_quilboars.png" alt="Quilboars" title="Quilboars"></a>';
+        echo '<a href="/bgstrategy/?show=minions&type=undead"><img src="<?= PICTURE_LOCAL ?>misc/pool_undeads.png" alt="Undeads" title="Undeads"></a>';
+        echo '</div>';
+
         for ($i = $tierFrom; $i <= $tierTo; $i++) {
             echo "<div style='width: 101%; display: flex; justify-content: center;'>";
             for ($j = 1; $j <= $i; $j++) {
@@ -154,7 +174,7 @@ if (!empty($buddy)) {
                 } else {
                     $hasAbility = true;
                 }
-                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool) && ($hasAbility)) {
+                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool) && ($hasAbility) && ($isDuos === $minion->isDuosOnly)) {
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                     echo "<div class='name'>" . $minion->name . "</div>";
                     echo "<div class='mask'></div>";
