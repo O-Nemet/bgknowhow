@@ -2908,13 +2908,13 @@ body.bgstrategy .bgstrategy > a {
     display: inline-block;
 }
 
-.strategy-images .overlay {
+.strategy-images .overlay-duo {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.strategy-images .overlay img {
+.strategy-images .overlay-duo img {
     width: 30px;
     height: auto;
 }
