@@ -2908,14 +2908,14 @@ body.bgstrategy .bgstrategy > a {
     display: inline-block;
 }
 
-.strategy-images .overlay-duo {
+.strategy-images.heroes .overlay-duo {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 134px;
 }
 
-.strategy-images .overlay-duo img {
-    width: 30px;
+.strategy-images.heroes .overlay-duo img {
+    width: 60px !important;
     height: auto;
 }
 

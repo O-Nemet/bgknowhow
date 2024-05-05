@@ -101,7 +101,7 @@ if (!empty($buddy)) {
                         <a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->id . PICTURE_LOCAL_PORTRAIT_SUFFIX . "' class='" . (!$hero->isActive ? 'inactive-img' : '') . "'>
                         <br><span>" . $hero->name . "</span></a>";
             if ($hero->isDuosOnly) {
-                echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp'></div>";
+                echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
             }
             echo "</div>";
         }
