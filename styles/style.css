@@ -2922,7 +2922,7 @@ body.bgstrategy .bgstrategy > a {
     right: 134px;
 }
 
-.strategy-images.heroes .overlay-duo img {
+.strategy-images .overlay-duo img {
     width: 60px !important;
     max-width: 100%;
     height: auto;
