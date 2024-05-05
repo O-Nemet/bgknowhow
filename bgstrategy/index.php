@@ -97,7 +97,13 @@ if (!empty($buddy)) {
     if ($show == 'heroes' && $mode == 'gfx') {
         echo "<div class='strategy-images heroes cf'>";
         foreach ($heroes as $hero) {
-            echo "<div><a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->id . PICTURE_LOCAL_PORTRAIT_SUFFIX . "' class='" . (!$hero->isActive ? 'inactive-img' : '') . "'><br><span>" . $hero->name . "</span></a></div>";
+            echo "<div class='image-container'>
+                        <a href='" . $hero->websites->bgknowhow . "'><img width='200' src='" . PICTURE_LOCAL_HERO . $hero->id . PICTURE_LOCAL_PORTRAIT_SUFFIX . "' class='" . (!$hero->isActive ? 'inactive-img' : '') . "'>
+                        <br><span>" . $hero->name . "</span></a>";
+            if ($hero->isDuosOnly) {
+                echo "<div class='overlay'><img src='" . PICTURE_LOCAL . "/icons/duos.png'></div>";
+            }
+            echo "</div>";
         }
         echo "</div>";
     } else if ($show == 'heroes' || $show == 'all') {
@@ -150,7 +156,7 @@ if (!empty($buddy)) {
         echo "<a href='/bgstrategy/?show=minions&type=elemental'><img src='" . PICTURE_LOCAL . "misc/pool_elementals.png' alt='Elementals' title='Elementals'></a>";
         echo "<a href='/bgstrategy/?show=minions&type=mech'><img src='" . PICTURE_LOCAL . "misc/pool_mechs.png' alt='Mechs' title='Mechs'></a>";
         echo "<a href='/bgstrategy/?show=minions&type=murloc'><img src='" . PICTURE_LOCAL . "misc/pool_murlocs.png' alt='Murlocs' title='Murlocs'></a>";
-        echo "<a href='/bgstrategy/?show=minions&type=naga'><img src='" . PICTURE_LOCAL . "misc/pool_nagas.png' alt='Nagas' title='Nagas'></a>";
+        echo "<a href='/bgstrategy/?show=minions&type=naga'><img src='" . PICTURE_LOCAL . "misc/pool_naga.png' alt='Nagas' title='Nagas'></a>";
         echo "<a href='/bgstrategy/?show=minions&type=pirate'><img src='" . PICTURE_LOCAL . "misc/pool_pirates.png' alt='Pirates' title='Pirates'></a>";
         echo "<a href='/bgstrategy/?show=minions&type=quilboar'><img src='" . PICTURE_LOCAL . "misc/pool_quilboars.png' alt='Quilboars' title='Quilboars'></a>";
         echo "<a href='/bgstrategy/?show=minions&type=undead'><img src='" . PICTURE_LOCAL . "misc/pool_undeads.png' alt='Undeads' title='Undeads'></a>";

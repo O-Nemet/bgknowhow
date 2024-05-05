@@ -2892,6 +2892,10 @@ body.bgstrategy .bgstrategy > a {
     padding-right: 15px;
 }
 
+.strategy-images {
+    margin-left: 70px;
+}
+
 .strategy-images div {
     margin: 0 auto;
     width: 25%;
@@ -2899,8 +2903,20 @@ body.bgstrategy .bgstrategy > a {
     float: left;
 }
 
-.strategy-images {
-    margin-left: 70px;
+.strategy-images .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.strategy-images .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.strategy-images .overlay img {
+    width: 30px;
+    height: auto;
 }
 
 .strategy-images.minions {
