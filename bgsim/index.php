@@ -61,10 +61,10 @@ foreach ($tempMinions->data as $key => $object) {
     <a href="<?= getLink('el', $minionTypes['elementals']); ?>"><img class="<?= ($minionTypes['elementals'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_elementals.png" alt="Elementals" title="Elementals"></a>
     <a href="<?= getLink('me', $minionTypes['mechs']); ?>"><img class="<?= ($minionTypes['mechs'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_mechs.png" alt="Mechs" title="Mechs"></a>
     <a href="<?= getLink('mu', $minionTypes['murlocs']); ?>"><img class="<?= ($minionTypes['murlocs'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_murlocs.png" alt="Murlocs" title="Murlocs"></a>
-    <a href="<?= getLink('na', $minionTypes['nagas']); ?>"><img class="<?= ($minionTypes['nagas'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_naga.png" alt="Nagas" title="Nagas"></a>
+    <a href="<?= getLink('na', $minionTypes['nagas']); ?>"><img class="<?= ($minionTypes['nagas'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_naga.png" alt="Naga" title="Naga"></a>
     <a href="<?= getLink('pi', $minionTypes['pirates']); ?>"><img class="<?= ($minionTypes['pirates'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_pirates.png" alt="Pirates" title="Pirates"></a>
-    <a href="<?= getLink('qu', $minionTypes['quilboar']); ?>"><img class="<?= ($minionTypes['quilboar'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_quilboar.png" alt="Quilboar" title="Quilboar"></a>
-    <a href="<?= getLink('ud', $minionTypes['undead']); ?>"><img class="<?= ($minionTypes['undead'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_undead.png" alt="Undead" title="Undead"></a>
+    <a href="<?= getLink('qu', $minionTypes['quilboar']); ?>"><img class="<?= ($minionTypes['quilboar'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_quilboars.png" alt="Quilboars" title="Quilboars"></a>
+    <a href="<?= getLink('ud', $minionTypes['undead']); ?>"><img class="<?= ($minionTypes['undead'] ? 'active' : 'inactive') ?>" src="<?= PICTURE_LOCAL ?>misc/pool_undeads.png" alt="Undeads" title="Undeads"></a>
 </div>
 
 <br><br>
