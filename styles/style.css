@@ -2917,6 +2917,11 @@ body.bgstrategy .bgstrategy > a {
     right: 134px;
 }
 
+.strategy-images.minions .overlay-duo {
+    top: 10px;
+    right: 134px;
+}
+
 .strategy-images.spells .overlay-duo {
     top: 10px;
     right: 134px;
@@ -3039,6 +3044,13 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .strategy-images img:hover {
+    filter: contrast(130%);
+    transform: scale(1.25);
+    /*filter: saturate(3);*/
+    /*filter: hue-rotate(90deg);*/
+}
+
+.strategy-images img:hover ~ .overlay-duo img {
     filter: contrast(130%);
     transform: scale(1.25);
     /*filter: saturate(3);*/

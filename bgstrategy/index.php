@@ -185,7 +185,12 @@ if (!empty($buddy)) {
                     echo "<div class='name'>" . $minion->name . "</div>";
                     echo "<div class='mask'></div>";
 //                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
+                    echo "<div class='image-container'>";
                     echo "<div class='image' style='background-image: url(" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . ")'></div>";
+                    if ($minion->isDuosOnly) {
+                        echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
+                    }
+                    echo "</div>";
                     echo "</div>";
                 }
             }
