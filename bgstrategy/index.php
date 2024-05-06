@@ -149,7 +149,7 @@ if (!empty($buddy)) {
 
     if ($show == 'minions' && $mode == 'gfx') {
 
-        echo "<div class='typeFilter'>";
+        echo "<div class='typeFilter' style='margin-left: 30px'>";
         echo "<a href='/bgstrategy/?show=minions&type=beast'><img src='" . PICTURE_LOCAL . "misc/pool_beasts.png' alt='Beasts' title='Beasts'></a>";
         echo "<a href='/bgstrategy/?show=minions&type=demon'><img src='" . PICTURE_LOCAL . "misc/pool_demons.png' alt='Demons' title='Demons'></a>";
         echo "<a href='/bgstrategy/?show=minions&type=dragon'><img src='" . PICTURE_LOCAL . "misc/pool_dragons.png' alt='Dragons' title='Dragons'></a>";

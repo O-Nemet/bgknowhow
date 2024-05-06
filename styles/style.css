@@ -2659,7 +2659,7 @@ body.bgstrategy .bgstrategy > a {
     /*height: 180px;*/
 }
 
-.comp_wrapper img:hover ~ .overlay-duo {
+.comp_wrapper .image-container:hover ~ .overlay-duo {
     display: none;
 }
 
@@ -2941,8 +2941,8 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .strategy-images.heroes .overlay-duo {
-    top: 10px;
-    right: 134px;
+    top: 9px;
+    right: 135px;
 }
 
 .strategy-images.minions .overlay-duo {
@@ -3026,7 +3026,7 @@ body.bgstrategy .bgstrategy > a {
     background-position: -54px 0px;
     background-clip: padding-box;
     z-index: 1;
-    border: 2px black solid;
+    border: 1px black solid;
     border-radius: 5px;
 }
 
