@@ -2903,6 +2903,10 @@ body.bgstrategy .bgstrategy > a {
     float: left;
 }
 
+.strategy-images.minions div {
+    height: 85px;
+}
+
 .strategy-images .image-container {
     position: relative;
     display: block; /*inline-block;*/
@@ -2919,7 +2923,7 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .strategy-images.minions .overlay-duo {
-    top: -19px;
+    top: -14px;
     right: -24px;
 }
 
