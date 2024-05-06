@@ -2659,7 +2659,7 @@ body.bgstrategy .bgstrategy > a {
     /*height: 180px;*/
 }
 
-.comp_wrapper img:hover .overlay-duo {
+.comp_wrapper img:hover ~ .overlay-duo {
     display: none;
 }
 
@@ -3077,9 +3077,10 @@ body.bgstrategy .bgstrategy > a {
     transform: none;
 }
 
-.strategy-images img:hover .overlay-duo {
-    filter: contrast(130%);
-    transform: scale(1.25);
+.strategy-images img:hover ~ .overlay-duo {
+    display: none;
+    /*filter: contrast(130%);*/
+    /*transform: scale(1.25);*/
     /*filter: saturate(3);*/
     /*filter: hue-rotate(90deg);*/
 }
