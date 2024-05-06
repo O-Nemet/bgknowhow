@@ -180,7 +180,7 @@ if (!empty($buddy)) {
                 } else {
                     $hasAbility = true;
                 }
-                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool) && ($hasAbility) && ($isDuos === $minion->isDuosOnly)) {
+                if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool) && ($hasAbility) && ($isDuos === $minion->isDuosOnly || !$isDuos)) {
                     echo "<div class='image-container'>";
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                     echo "<div class='name'>" . $minion->name . "</div>";
