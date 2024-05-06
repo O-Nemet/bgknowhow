@@ -96,7 +96,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             (str_contains($hpText, ';') ? '"' . $hpText . '"' : $hpText) . CSV_SEPARATOR .
             $blizzardIdHp . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png' . CSV_SEPARATOR .
-            (str_contains($notes, ';') ? '"' . $notes . '"' : $notes) . CSV_SEPARATOR .
+            (!is_null($notes) ? (str_contains($notes, ';') ? '"' . $notes . '"' : $notes) : '') . CSV_SEPARATOR .
             (bool)$isActive . CSV_SEPARATOR .
             (bool)$isDuosOnly . PHP_EOL;
 
