@@ -2912,6 +2912,10 @@ body.bgstrategy .bgstrategy > a {
     display: block; /*inline-block;*/
 }
 
+.comp_wrapper .image-container {
+    float: left;
+}
+
 .strategy-images .overlay-duo, .comp_wrapper .overlay-duo {
     position: absolute;
     z-index: 5;
@@ -2923,9 +2927,13 @@ body.bgstrategy .bgstrategy > a {
     height: auto;
 }
 
+.comp_wrapper .overlay-duo img {
+    width: 30px !important;
+}
+
 .comp_wrapper .overlay-duo {
-    top: 29px;
-    right: 16px;
+    top: 18px;
+    right: 1px;
 }
 
 .strategy-images.heroes .overlay-duo {
