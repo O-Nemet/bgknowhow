@@ -55,7 +55,7 @@ include_once('../header.php');
         </tr>
         <tr>
             <td>5</td>
-            <td>11</td>
+            <td>10</td>
             <td>13</td>
             <td>5</td>
             <td>9</td>
