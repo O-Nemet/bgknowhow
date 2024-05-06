@@ -336,11 +336,11 @@ if (!empty($buddy)) {
     if ($show == 'spells' && $mode == 'gfx') {
         echo "<div class='strategy-images spells cf'>";
         foreach ($spells as $spell) {
-            echo "<div class='image-container'><a href='" . $spell->websites->bgknowhow . "'><img width='256' height='333' src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><span>" . $spell->name . "</span>";
+            echo "<a href='" . $spell->websites->bgknowhow . "'><div class='image-container'><img width='256' height='333' src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><span>" . $spell->name . "</span>";
             if ($spell->isDuosOnly) {
                 echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
             }
-            echo "</a></div>";
+            echo "</div></a>";
         }
         echo "</div><br><br>";
     } else if ($show == 'spells' || $show == 'all') {
