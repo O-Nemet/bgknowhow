@@ -39,7 +39,8 @@
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>This is the above build, but an alternate way to pull it off. Soft-hearted Siren helps you get the spells you need to scale up, and it can provide more Spells than only having Silivaz. Ideally, you do want to have another Slitherspear if possible. 
+    <p>
+        This is the above build, but an alternate way to pull it off. <strong>Soft-hearted Siren</strong> helps you get the spells you need to scale up, and it can provide more Spells than only having Silivaz. Ideally, you do want to have another <strong>Slitherspear</strong> if possible.
     </p>
 </div>
 

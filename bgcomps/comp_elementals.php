@@ -20,7 +20,7 @@
     drawBoard($minions);
     ?>
     <p>
-        An alternate way for you to scale in combination with Rock Rock is to use Greymane's Champion. This way when you purchase cards such as Sellemental, Tavern Tempest, and Patient Scout. This however means you need to replace cards like Wildfire Elemental and Gentle Djinni with Tier-2, Tier-4, or Tier-6 Elementals. Remember, this build does not necessarily need to be completely Elementals. RockRock buffs regardless, so if you want to have a cleave such as Blade Collector or Foe Reaper then you very well can.
+        An alternate way for you to scale in combination with <strong>Rock Rock</strong> is to use <a class='hoverimage' href='/bgstrategy/minion/?id=473'>Greymane's Champion</a>. You can then purchase cards such as <a class='hoverimage' href='/bgstrategy/minion/?id=14'>Sellemental</a>, <a class='hoverimage' href='/bgstrategy/minion/?id=125'>Tavern Tempest</a>, and <a class='hoverimage' href='/bgstrategy/minion/?id=247'>Patient Scout</a>. This however means you need to replace cards like Wildfire Elemental and Gentle Djinni with Tier 2, Tier 4, or Tier 6 Elementals. Remember, this build does not necessarily need to be completely Elementals. <strong>Rock Rock</strong> buffs regardless, so if you want to have a cleave such as <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=133">Foe Reaper 4000</a> then you very well can.
     </p>
 
     <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -29,7 +29,10 @@
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>The way for this build to scale high is to create triples. Once you make huge stats with Living Azerite and the spells used, you need to start replacing weaker cards with the stronger cards in the shop. Then you need to triple the cards so that you have a card with three times the amount of scaling you provided through Living Azerite. You got to pay attention when it's time to start throwing away like Living Azerite or Land Lubber because over time they start to feel weaker due to lack of onboard scaling. This is a build that does not need you to be at Tier-5, but there are plenty of Tier-5 minions that help the build. Slimy Felblood also is quite useful to use. 
+    <p>
+        The way for this build to scale high is to create triples. Once you make huge stats with <strong>Living Azerite</strong> and the spells used, you need to start replacing weaker minions with the stronger ones in the shop. Then you need to triple the cards so that you have a card with three times the amount of scaling you provided through Living Azerite. You got to pay attention when it's time to start throwing away like <strong>Living Azerite</strong> or <strong>Land Lubber</strong> because over time they start to feel weaker due to lack of onboard scaling. You can replace them with more <strong>Shellemental</strong>s, for example.
+        <br><br>
+        This is a build that does not need you to be at Tier 5, but there are plenty of Tier 5 minions that help the build. <a class="hoverimage" href="/bgstrategy/minion/?id=476">Slimy Felblood</a> also is quite useful to use.
     </p>
 
 </div>

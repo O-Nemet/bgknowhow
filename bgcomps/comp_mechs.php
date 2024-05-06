@@ -10,7 +10,9 @@
 <p>
     <a href="/bgstrategy/?show=minions&type=mech"><i class="bi bi-box-arrow-up-right"></i> All available Mechs and Mech-associated minions</a>
     <br><br>
-    In general, Mechs have the upside of having numerous <a href="/bgbasics/#shield">Divine Shield</a> minions, the ability to resummon Mechs, and small token units. This gives them an advantage against venom/scam compositions and builds with low stats. Except for <a class="hoverimage" href="/bgstrategy/minion/?id=353">Beatboxer</a> magnetization composition, this makes them weak against high stat builds like Demons, Elementals, and Naga. Mechs now have a new mechanic added through the Ziliax cards. Cards such as Ziliax: Defense Module, Ziliax: Crystal Module, and Ziliax: Smoke Module can add incredibly strong keywords to other Mechs. However, you need to triple them with Ziliax: Bonding Module to make sure you can put it on other Mechs.
+    In general, Mechs have the upside of having numerous <a href="/bgbasics/#shield">Divine Shield</a> minions, the ability to resummon Mechs, and small token units. This gives them an advantage against venom/scam compositions and builds with low stats. Except for <a class="hoverimage" href="/bgstrategy/minion/?id=353">Beatboxer</a> magnetization composition, this makes them weak against high stat builds like Demons, Elementals, and Naga.
+    <br><br>
+    Mechs also got a new mechanic added through the 6 Zilliax cards available on Tier 2. Cards such as <a class="hoverimage" href="/bgstrategy/minion/?id=504">Zilliax: Defense Module</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=503">Zilliax: Crystal Module</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=506">Zilliax: Whirring Module</a> can add incredibly strong keywords to other Mechs. However, you need to triple them with <a class="hoverimage" href="/bgstrategy/minion/?id=353">Zilliax: Bonding Module</a> to make sure you can put it on other Mechs.
 </p>
 <div class="comp_wrapper">
     <h3 id="deflecto">Deflecto Reset Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -43,7 +45,8 @@
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>The key is obviously to buy the cheapest spells you can. Land Lubber can help with that, but Lasso definitely makes it much easier. If you are missing any of these cards, Foe Reaper, Polarizing Beatboxer, Untameabull can all be good cards as long as you can apply Divine Shield on them. I would not recommend tripling any of these cards other than Charging Czarina.
+    <p>
+        The key with this comp is obviously to buy the cheapest spells you can. Land Lubber can help with that, but <strong>Lasso</strong> definitely makes it much easier. If you are missing any of these cards, <a class="hoverimage" href="/bgstrategy/minion/?id=133">Reaper</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=353">Beatboxer</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=481">Untameabull</a> can all be good cards as long as you can apply Divine Shield on them. I would not recommend tripling any of these cards other than <strong>Charging Czarina</strong>.
     </p>
 
 </div>
