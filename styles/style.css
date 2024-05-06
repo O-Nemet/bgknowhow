@@ -2648,6 +2648,7 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .comp_wrapper img {
+    position: relative;
     width: 136px; /* 124px; */
     transition: transform .2s; /* Animation */
     /*height: 180px;*/
@@ -2655,6 +2656,7 @@ body.bgstrategy .bgstrategy > a {
 
 .comp_wrapper img:hover {
     transform: scale(2);
+    z-index: 6;
     /*width: 248px;*/
     /*height: 180px;*/
 }
