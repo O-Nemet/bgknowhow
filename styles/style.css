@@ -2659,7 +2659,7 @@ body.bgstrategy .bgstrategy > a {
     /*height: 180px;*/
 }
 
-.comp_wrapper .image-container:hover ~ .overlay-duo {
+.comp_wrapper .image-container:hover + .overlay-duo {
     display: none;
 }
 
@@ -2998,8 +2998,9 @@ body.bgstrategy .bgstrategy > a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-left: -9px;
     padding-top: 45px;
-    padding-left: 2px;
+    /*padding-left: 2px;*/
     font-family: Arial, Helvetica, Geneva, sans-serif;
     font-size: 18px;
     font-weight: 500;
