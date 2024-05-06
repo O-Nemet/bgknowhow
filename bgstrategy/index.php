@@ -336,11 +336,11 @@ if (!empty($buddy)) {
     if ($show == 'spells' && $mode == 'gfx') {
         echo "<div class='strategy-images spells cf'>";
         foreach ($spells as $spell) {
-            echo "<div class='image-container'><a href='" . $spell->websites->bgknowhow . "'><img width='256' height='333' src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><span>" . $spell->name . "</span></a>";
+            echo "<div class='image-container'><a href='" . $spell->websites->bgknowhow . "'><img width='256' height='333' src='" . PICTURE_LOCAL_SPELL . $spell->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$spell->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($spell->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($spell->text, ENT_QUOTES, 'utf-8') . "'><span>" . $spell->name . "</span>";
             if ($spell->isDuosOnly) {
                 echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
             }
-            echo "</div>";
+            echo "</a></div>";
         }
         echo "</div><br><br>";
     } else if ($show == 'spells' || $show == 'all') {
@@ -412,7 +412,7 @@ if (!empty($buddy)) {
 
     if ($show == 'rewards' || $show == 'all') {
         echo '<h2 class="page_title">Rewards</h2>';
-        echo '<p>Rewards are permanent effects you get for completing your quest. They can be linked to any <a href="https://bgknowhow.com/bgstrategy/?show=quests">quest</a>, but the quest completion difficulty will be either increased or decresed, based on the general value of the reward.<br></p>';
+        echo '<p>Rewards are permanent effects you get for completing your quest. They can be linked to any <a href="https://bgknowhow.com/bgstrategy/?show=quests">quest</a>, but the quest completion difficulty (also known as baseline requirements) will be either increased or decreased, based on the general value of the reward.<br></p>';
     }
 
     if ($show == 'rewards' && $mode == 'gfx') {
