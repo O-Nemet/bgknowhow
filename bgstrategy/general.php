@@ -355,7 +355,7 @@ foreach ($spell_count as $temp) {
 // Ghastcoiler minions
 $i = 0;
 foreach ($tempMinions->data as $key => $object) {
-    if ($object->isActive && !$object->isDuosOnly && !$object->isToken && $object->abilities->hasDeathrattle && $object->tier <= 6 && $object->name !== 'Ghastcoiler') {
+    if ($object->isActive && !$object->isToken && $object->abilities->hasDeathrattle && $object->tier <= 6 && $object->name !== 'Ghastcoiler') {
         $board[] = $object->name;
         $i++;
     }
