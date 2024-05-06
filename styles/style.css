@@ -3009,11 +3009,11 @@ body.bgstrategy .bgstrategy > a {
 .strategy-images .image-container .tile .mask {
     position: absolute;
     z-index: 2;
-    top: -6px;
+    top: -7px;
     right: -9px;
     width: 225px;
     height: 100%;
-    border-radius: 50px;
+    border-radius: 15px;
     background: rgba(0, 0, 0, 0) url("https://bgknowhow.com/images/misc/tile_mask.png") repeat scroll left center;
     background-size: cover;
 }
@@ -3027,6 +3027,7 @@ body.bgstrategy .bgstrategy > a {
     background-clip: padding-box;
     z-index: 1;
     border: 1px black solid;
+    border-left: none;
     border-radius: 5px;
 }
 
