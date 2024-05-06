@@ -10,7 +10,7 @@
 <p>
     <a href="/bgstrategy/?show=minions&type=dragon"><i class="bi bi-box-arrow-up-right"></i> All available Dragons and Dragon-associated minions</a>
     <br><br>
-    <!-- general info about Dragons -->
+   Dragons have two major mechanics this season. Battlecries as always, and Start of Combat effects. With cards like Persistent Poet, you want to try and make every dragon gain Divine Shield permanently from Amber Guardian.
 </p>
 <div class="comp_wrapper">
     <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -33,16 +33,16 @@
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>This is to start the build. Eventually, you are going to want another Nightbane, use Poet to give permanent stats to minions, and to get another Poet. If you're unable to use Hooktail or Lubber to gain stats for Nightbane to give, I would suggest using the below build instead.
     </p>
 
     <h3 id="tarecgosa">Tarecgosa Buff Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Tarecgosa', 'Tarecgosa', 'Promo-Drake', 'Promo-Drake', 'Amber Guardian', 'Poet', 'Rallier'];
+    $board   = ['Nightbane', 'Poet', 'Poet', 'Promo-Drake', 'Promo-Drake', 'Amber Guardian', 'Rallier'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>Tarecgosa also can be used but isn't completely necessary. Once Amber Guardian permanently gives minions Divine Shield, you can start replacing it with other cards. Persistent Poet is not a card I would want to triple either. You want to make sure you can give as many minions as possible the permanent stats. Lastly, it's never bad to have more than one Nightbane, so go for that if you're done with Amber Guardian or want to replace Roaring Rallier.
     </p>
 
 </div>
