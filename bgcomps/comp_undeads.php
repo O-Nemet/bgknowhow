@@ -15,12 +15,12 @@
 <div class="comp_wrapper">
     <h3 id="knights">Deathrattle Knight Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Guest', 'Anub', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Titus'];
+    $board   = ['Anub', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Deathwhisper','Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Taunt Anub'arak.
+        Ideally, you want to have reborn already on Anub'arak through the use of Mummifier combined with Disguised Graverobber. Sister Deathwhisper is here to make sure your minions have enough health to not die from indirect damage. Afterwards, you can replace it with Mummifier, Champion of Primus, or Deadstomper.
     </p>
 
     <h3 id="moroes">Deathrattle Moroes Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -30,16 +30,16 @@
     drawBoard($minions);
     ?>
     <p>
-        This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Moroes.
+        This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Moroes. Alternatively, you can replace Moroes with Nightbane to gain a lot of attack instead of health.
     </p>
 
     <h3 id="deathrattle">Deathrattle Stomper Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Guest', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Champion of the Primus', 'Stomper'];
+    $board   = ['Mummifier', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Champion of the Primus', 'Stomper'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>Be sure to taunt Mummifier. This is a build you want to complete as soon as possible as you have cards like Eternal Summoner and Champion of the Primus that can only scale during combat. You are not going to do that well if you build this in the late game.
     </p>
 
     <h3 id="exodia">Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
