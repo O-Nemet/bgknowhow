@@ -448,11 +448,11 @@ function getMinionsForBoard($board): array
 function drawBoard($minions): void
 {
     foreach ($minions as $minion) {
-        if ($minion->isDuosOnly) {
+        if ($minion['isDuosOnly']) {
             echo "<div class='image-container'>";
         }
         echo '<a href="' . $minion['url'] . '"><img src="' . $minion['picture'] . '" class="' . (!$minion['active'] ? 'inactive-img' : '') . '" alt="' . $minion['name'] . '" title=""></a>';
-        if ($minion->isDuosOnly) {
+        if ($minion['isDuosOnly']) {
             echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
             echo "</div>";
         }
