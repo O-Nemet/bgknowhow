@@ -3705,7 +3705,6 @@ body.bgstrategy .bgstrategy > a {
     .strategy-wrapper {
         width: fit-content;
     }
-
     .strategy-item {
         /*width: fit-content;*/
         width: 91%;
@@ -3727,8 +3726,18 @@ body.bgstrategy .bgstrategy > a {
         right: 60px;
     }
 
+    .strategy-images.spells .overlay-duo {
+        top: 29px;
+        right: -10px;
+    }
+
     .strategy-images.minions {
-        margin-left: 70px;
+        margin-left: 100px;
+    }
+
+    .strategy-images.minions .overlay-duo {
+        top: 0px;
+        right: -48px;
     }
 
     .vote-buttons {
