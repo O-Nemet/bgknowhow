@@ -2659,6 +2659,10 @@ body.bgstrategy .bgstrategy > a {
     /*height: 180px;*/
 }
 
+.comp_wrapper img:hover ~ .overlay-duo {
+    display: none;
+}
+
 .comp_wrapper h3 {
     margin-top: 20px;
     margin-left: -25px;
@@ -3073,7 +3077,7 @@ body.bgstrategy .bgstrategy > a {
     transform: none;
 }
 
-.strategy-images img:hover ~ .overlay-duo img {
+.strategy-images img:hover ~ .overlay-duo {
     filter: contrast(130%);
     transform: scale(1.25);
     /*filter: saturate(3);*/
@@ -3277,7 +3281,7 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .typeFilter {
-    width: 94%;
+    width: 97%;
     margin: 0 auto;
 }
 
