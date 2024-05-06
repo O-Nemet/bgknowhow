@@ -131,6 +131,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>06.05.2024 - Added "notes" property to the hero dataset. Official notes from Blizzard, like <i>"Illidan Stormrage is banned from Dragons games across all Battlegrounds"</i>, will be listed here for the time being, separated by semicolons.</li>
         <li>03.05.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2923-patch-notes/127552" target="_blank">29.2.3</a> patch notes. Added "armorDuos" property to the hero dataset.</li>
         <li>25.04.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24087317/29-2-2-patch-notes" target="_blank">29.2.2</a> patch notes.</li>
         <li>22.04.2024 - Added BG armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2921-patch-notes/126400" target="_blank">29.2.1</a> patch notes.</li>

@@ -31,7 +31,8 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
                                      bgh.hp_text,
                                      bgh.hp_id_blizzard,
                                      bgh.flag_active,
-                                     bgh.flag_duos
+                                     bgh.flag_duos,
+                                     bgh.notes
                                 FROM bg_heroes bgh
                                 LEFT JOIN bg_buddies bgb
                                 ON bgh.id = bgb.hero_id                                
@@ -40,7 +41,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armor, $armorMMR, $armorDuos, $armorTier, $buddyName, $buddyId, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly);
+    $stmt->bind_result($id, $name, $nameShort, $pool, $health, $armor, $armorMMR, $armorDuos, $armorTier, $buddyName, $buddyId, $blizzardId, $playhsId, $hpwnId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly, $notes);
 
     $row_count = $stmt->num_rows;
 
@@ -63,6 +64,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         'Hero Power text' . CSV_SEPARATOR .
         'Hero Power Blizzard ID' . CSV_SEPARATOR .
         'Hero Power picture link' . CSV_SEPARATOR .
+        'Notes' . CSV_SEPARATOR .
         'Active' . CSV_SEPARATOR .
         'Duos only' . PHP_EOL;
 
@@ -79,7 +81,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
     $i = 0;
     $j = 0;
     while ($stmt->fetch()) {
-        $csvData =
+        $csvData                                     =
             $name . CSV_SEPARATOR .
             $nameShort . CSV_SEPARATOR .
             $health . CSV_SEPARATOR .
@@ -94,6 +96,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
             (str_contains($hpText, ';') ? '"' . $hpText . '"' : $hpText) . CSV_SEPARATOR .
             $blizzardIdHp . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png' . CSV_SEPARATOR .
+            (str_contains($notes, ';') ? '"' . $notes . '"' : $notes) . CSV_SEPARATOR .
             (bool)$isActive . CSV_SEPARATOR .
             (bool)$isDuosOnly . PHP_EOL;
 
@@ -124,6 +127,7 @@ if ($stmt = $mysqli->prepare("SELECT bgh.id,
         $heroes['data'][$i]['websites']['bgknowhow'] = URL_BKH . 'hero/?id=' . $id;
         $heroes['data'][$i]['websites']['fandom']    = URL_HSF . str_replace(' ', '_', $name);
         $heroes['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
+        $heroes['data'][$i]['notes']                 = $notes;
         $heroes['data'][$i]['isDuosOnly']            = (bool)$isDuosOnly;
         $heroes['data'][$i]['isActive']              = (bool)$isActive;
 
