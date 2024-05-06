@@ -15,34 +15,34 @@
 <div class="comp_wrapper">
     <h3 id="odd">Odd Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Bramblewitch', 'Myrmidon', 'Matriarch', 'Seafarer', 'Mooneater\'s Champion', 'Mooneater\'s Champion', 'Brann'];
+    $board   = ['Bramblewitch', 'Myrmidon', 'Matriarch', 'Seafarer', 'Felboar', 'Mooneater\'s Champion', 'Mooneater\'s Champion'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>The goal is to get as much Tier 1, Tier 3, or Tier 5 spells as possible to buff up your minions. You could always buy minions of those Tiers, but you would need to free up a slot to play them. There are not many economy, odd Tier cards either to make it worth your gold, other than the cards Patient Scout and Sellemental give when you sell them.
     </p>
 
     <h3 id="even">Even Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Deathscale', 'Lubber', 'Greymane\'s Champion', 'Greymane\'s Champion', 'Rylak', 'Tempest'];
+    $board   = ['Lasso', 'Collector', 'Lubber', 'Greymane\'s Champion', 'Greymane\'s Champion', 'Tempest', 'Rylak'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>This is a minion focused method to pull off this build, with some Spell support. Ideally, the Pirate alternative is much more efficient. Using two Tethys to gain minions, but if you wanted to do a menagerie build then this works too. I would say the below build is a better way to make the build, as spells are much cheaper and do not require you to create board space.
     </p>
 
     <h3 id="evenspell">Even Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Trickster', 'Blade Collector', 'Lubber', 'Chimera', 'Chimera', 'Greymane\'s Champion'];
+    $board   = ['Lasso', 'Chimera', 'Blade Collector', 'Lubber', 'Silivaz', 'Greymane\s Champion', 'Greymane\'s Champion'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>If you cannot find another Greymane's Champion, you can use Naala the Redeemer instead. But the best thing to do here is focus on purchasing and playing spells rather than minions. Having a golden Land Lubber or Silivaz definitely improves your build.
     </p>
 
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Nalaa', 'Fungus', 'Nalaa', 'Silivaz', 'Matriarch', 'Hooktail', 'Seafarer'];
+    $board   = ['Seafarer', 'Fungus', 'Hooktail', 'Silivaz', 'Matriarch', 'Naala', 'Naala'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
