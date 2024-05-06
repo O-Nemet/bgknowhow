@@ -55,7 +55,7 @@
 
     <h3 id="deathrattle">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Piper', 'Charlga', 'Jazzer', 'Rylak', 'Jazzer', 'Brann', 'Titus'];
+    $board   = ['Piper', 'Piper', 'Charlga', 'Brann', 'Titus', 'Jazzer', 'Rylak'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

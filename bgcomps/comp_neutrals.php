@@ -35,7 +35,7 @@
 
     <h3 id="evenspell">Even Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Chimera', 'Blade Collector', 'Lubber', 'Silivaz', 'Greymane\s Champion', 'Greymane\'s Champion'];
+    $board   = ['Lasso', 'Chimera', 'Blade Collector', 'Lubber', 'Silivaz', 'Greymane\'s Champion', 'Greymane\'s Champion'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -45,7 +45,7 @@
 
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Seafarer', 'Fungus', 'Hooktail', 'Silivaz', 'Matriarch', 'Naala', 'Naala'];
+    $board   = ['Seafarer', 'Fungus', 'Hooktail', 'Silivaz', 'Matriarch', 'Nalaa', 'Nalaa'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -64,7 +64,7 @@
     <p>
         This is a build used if you just cannot find an actual build that scales. This won't win against every build, but it is very effective if your opponent only has 7 strong minions without Deathrattles, Reborns, Divine Shields, or Cleaves.
         <br><br>
-        If neither Elementals or Quilboars are available, the Undead minion <a class='hoverimage' href='/bgstrategy/minion/?id=515'>Hateful Hag</a> can work as an alternative.
+        If neither Elementals nor Quilboars are available, the Undead minion <a class='hoverimage' href='/bgstrategy/minion/?id=515'>Hateful Hag</a> can work as an alternative by providing Reborn to Leeroy or Venomous minions.
     </p>
 
 </div>

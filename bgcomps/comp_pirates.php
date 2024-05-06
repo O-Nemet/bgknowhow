@@ -17,7 +17,7 @@
 <div class="comp_wrapper">
     <h3 id="buffs">Buff Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board = ['Blade Collector', 'Blade Collector', 'Courier', 'Shipwright', 'Shipwright', 'Hooktail', 'Lubber'];;
+    $board   = ['Blade Collector', 'Blade Collector', 'Courier', 'Shipwright', 'Shipwright', 'Hooktail', 'Lubber'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

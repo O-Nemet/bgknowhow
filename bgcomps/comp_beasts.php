@@ -20,7 +20,7 @@
     drawBoard($minions);
     ?>
     <p>
-        The latest build for Beasts. This relies heavily on <strong>Irisdescent Skyblazer</strong> being the main way for your minions to gain stats. In the early and mid game, this build becomes quite strong. However, as the game progresses, if you do not have an early Skyblazer then you may have an issue outscaling other builds. You can include cards such as <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus Rivendare</a> to combine itself with the effects of Silithid Burrower, <a class="hoverimage" href="/bgstrategy/minion/?id=60">Monstrous Macaw</a>, and Fire Dancer.
+        The latest build for Beasts. This relies heavily on <strong>Irisdescent Skyblazer</strong> being the main way for your minions to gain stats. In the early and mid-game, this build becomes quite strong. However, as the game progresses, if you do not have an early Skyblazer then you may have an issue outscaling other builds. You can include cards such as <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus Rivendare</a> to combine itself with the effects of Silithid Burrower, <a class="hoverimage" href="/bgstrategy/minion/?id=60">Monstrous Macaw</a>, and Fire Dancer.
     </p>
 
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
