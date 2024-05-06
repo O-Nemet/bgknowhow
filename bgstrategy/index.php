@@ -291,7 +291,7 @@ if (!empty($buddy)) {
     if ($show == 'anomalies' || $show == 'all') {
         echo '<h2 class="page_title">Anomalies</h2>';
         echo '<p>One anomaly is randomly choosen from the pool of active anomalies before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with currently ' . $numberOfAnomalies . ' different anomalies active any anomaly would have a chance of ' . number_format(100 / $numberOfAnomalies, 2) . '% to be active, but due to this special rule \'Secrets\' has a 5/' . $numberOfAnomalies + 4 . ' or ' . number_format(5 / ($numberOfAnomalies + 4) * 100, 2) . '% chance and any other anomaly a 1/' . $numberOfAnomalies + 4 . ' or ' . number_format(1 / ($numberOfAnomalies + 4) * 100, 2) . '% chance to show up. Three new anomalies will be added to the pool every week and feature an increased appearance rate until the next release.
-        <br><br>Depending on the anomaly, some heroes, minion types or even single minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).';
+        <br><br>Depending on the anomaly, some heroes, minion types or even single minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).<br>';
     }
 
     if ($show == 'anomalies' && $mode == 'gfx') {
@@ -330,7 +330,7 @@ if (!empty($buddy)) {
 
     if ($show == 'spells' || $show == 'all') {
         echo '<h2 class="page_title">Spells</h2>';
-        echo '<p>One spell from your Tier or lower will be present in the Tavern on each refresh. The cost to buy them varies from 1 to 7 Gold. While some spells like <a class="hoverimage" href="/bgstrategy/spell/?id=38">Titus\' Tribute</a> can have a huge impact on the outcome of your next fight, cheaper ones like  <a class="hoverimage" href="/bgstrategy/spell/?id=3">Tavern Coin</a> or <a class="hoverimage" href="/bgstrategy/spell/?id=8">Careful Investment</a> are a good alternative to rolling your last couple of Gold away, at the end of your Tavern phase.<br><br></p>';
+        echo '<p>One spell from your Tier or lower will be present in the Tavern on each refresh. The cost to buy them varies from 1 to 7 Gold. While some spells like <a class="hoverimage" href="/bgstrategy/spell/?id=33">Unmasked Identity</a> can have a huge impact on the outcome of your next fight, cheaper ones like  <a class="hoverimage" href="/bgstrategy/spell/?id=3">Tavern Coin</a> or <a class="hoverimage" href="/bgstrategy/spell/?id=8">Careful Investment</a> are a good alternative to rolling your last couple of Gold away, at the end of your Tavern phase.<br><br>There is also one specific spell for each minion type (for example <a class="hoverimage" href="/bgstrategy/spell/?id=48">Guzzle the Goop</a>), which will only be available if the minion type is active for the given Battlegrounds game.<br><br>There a few spells exlusive to Duos mode (like <a class="hoverimage" href="/bgstrategy/spell/?id=60">Portal in a Bottle</a>) which support the Pass mechanic. These appeareance rate of these spells is increased by 50%.<br></p>';
     }
 
     if ($show == 'spells' && $mode == 'gfx') {
@@ -373,7 +373,7 @@ if (!empty($buddy)) {
 
     if ($show == 'quests' || $show == 'all') {
         echo '<h2 class="page_title">Quests</h2>';
-        echo '<p>Quests are offered at the beginning of turn 4 (6 gold). The quest texts utilize placeholders like {0} (for example in the text "Spend {0} Gold."), which are replaced by an actual numeric value based on the armor value of the hero you are playing (heroes with more base armor will receive easier to complete quests) and the minion types in the lobby. The baseline value for each quest is documented on the details page.</p>';
+        echo '<p>Quests are offered at the beginning of turn 4 (6 gold). The quest texts utilize placeholders like {0} (for example in the text "Spend {0} Gold."), which are replaced by an actual numeric value based on the armor value of the hero you are playing (heroes with more base armor will receive easier to complete quests) and the minion types in the lobby. The baseline value for each quest is documented on the details page. Finishing a quest will provide you with the attached <a href="/bgstrategy/?show=rewards">reward</a>.</p>';
     }
 
     if ($show == 'quests' && $mode == 'gfx') {
@@ -412,6 +412,7 @@ if (!empty($buddy)) {
 
     if ($show == 'rewards' || $show == 'all') {
         echo '<h2 class="page_title">Rewards</h2>';
+        echo '<p>Rewards are permanent effects you get for completing your quest. They can be linked to any <a href="https://bgknowhow.com/bgstrategy/?show=quests">quest</a>, but the quest completion difficulty will be either increased or decresed, based on the general value of the reward.<br></p>';
     }
 
     if ($show == 'rewards' && $mode == 'gfx') {
@@ -438,7 +439,7 @@ if (!empty($buddy)) {
             foreach ($rewards as $reward) {
                 echo '<tr style="cursor: pointer;">';
                 echo "<td>$reward->name</td>";
-                echo "<td class='text' title='" . htmlspecialchars($quest->text, ENT_QUOTES, 'utf-8') . "'>$reward->text</td>";
+                echo "<td class='text' title='" . htmlspecialchars($reward->text, ENT_QUOTES, 'utf-8') . "'>$reward->text</td>";
                 echo "</tr>";
             }
             ?>
