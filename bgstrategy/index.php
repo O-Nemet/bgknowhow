@@ -181,11 +181,11 @@ if (!empty($buddy)) {
                     $hasAbility = true;
                 }
                 if ($minion->tier === $i && ($minionPool === 'Everything' || $minion->pools[0] === $minionPool || @$minion->pools[1] === $minionPool) && ($hasAbility) && ($isDuos === $minion->isDuosOnly)) {
+                    echo "<div class='image-container'>";
                     echo '<div class="tile" onclick="window.location.href=\'' . $minion->websites->bgknowhow . '\'">';
                     echo "<div class='name'>" . $minion->name . "</div>";
                     echo "<div class='mask'></div>";
-//                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
-                    echo "<div class='image-container'>";
+                    //                        echo "<a href='" . $minion->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . "'></a>";
                     echo "<div class='image' style='background-image: url(" . PICTURE_LOCAL_MINION . $minion->id . PICTURE_LOCAL_TILE_SUFFIX . ")'></div>";
                     if ($minion->isDuosOnly) {
                         echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
