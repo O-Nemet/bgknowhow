@@ -2986,8 +2986,8 @@ body.bgstrategy .bgstrategy > a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding-top: 41px;
-    padding-left: 5px;
+    padding-top: 45px;
+    padding-left: 2px;
     font-family: Arial, Helvetica, Geneva, sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -3276,6 +3276,8 @@ body.bgstrategy .bgstrategy > a {
 .typeFilter img {
     cursor: pointer;
     width: 99px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .typeFilter img:hover {

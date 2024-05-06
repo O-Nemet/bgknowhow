@@ -407,29 +407,29 @@ function getMinionsForBoard($board): array
                 $minionNameNew = substr($minionName, strpos($minionName, '*') + 1);
                 if ($object->name === $minionNameNew) {
 //                    echo "* ";
-                    $minions[$i]['name']      = $object->name;
-                    $minions[$i]['picture']   = $object->pictureSmall;
-                    $minions[$i]['url']       = $object->websites->bgknowhow;
-                    $minions[$i]['isDuoOnly'] = $object->isDuoOnly;
-                    $minions[$i]['active']    = $object->isActive;
+                    $minions[$i]['name']       = $object->name;
+                    $minions[$i]['picture']    = $object->pictureSmall;
+                    $minions[$i]['url']        = $object->websites->bgknowhow;
+                    $minions[$i]['isDuosOnly'] = $object->isDuosOnly;
+                    $minions[$i]['active']     = $object->isActive;
                     continue 2;
                 }
             } else {
                 if ($object->name === $minionName) {
 //                    echo "long ";
-                    $minions[$i]['name']      = $object->name;
-                    $minions[$i]['picture']   = $object->pictureSmall;
-                    $minions[$i]['url']       = $object->websites->bgknowhow;
-                    $minions[$i]['isDuoOnly'] = $object->isDuoOnly;
-                    $minions[$i]['active']    = $object->isActive;
+                    $minions[$i]['name']       = $object->name;
+                    $minions[$i]['picture']    = $object->pictureSmall;
+                    $minions[$i]['url']        = $object->websites->bgknowhow;
+                    $minions[$i]['isDuosOnly'] = $object->isDuosOnly;
+                    $minions[$i]['active']     = $object->isActive;
                     continue 2;
                 } else if ($object->nameShort === $minionName) {
 //                    echo "short ";
-                    $minions[$i]['name']      = $object->name;
-                    $minions[$i]['picture']   = $object->pictureSmall;
-                    $minions[$i]['url']       = $object->websites->bgknowhow;
-                    $minions[$i]['isDuoOnly'] = $object->isDuoOnly;
-                    $minions[$i]['active']    = $object->isActive;
+                    $minions[$i]['name']       = $object->name;
+                    $minions[$i]['picture']    = $object->pictureSmall;
+                    $minions[$i]['url']        = $object->websites->bgknowhow;
+                    $minions[$i]['isDuosOnly'] = $object->isDuosOnly;
+                    $minions[$i]['active']     = $object->isActive;
                     continue 2;
                 }
             }
@@ -443,7 +443,6 @@ function getMinionsForBoard($board): array
 
     return $minions;
 }
-
 
 // generate html for comps board
 function drawBoard($minions): void
