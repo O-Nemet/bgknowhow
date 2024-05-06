@@ -2907,14 +2907,25 @@ body.bgstrategy .bgstrategy > a {
     height: 85px;
 }
 
-.strategy-images .image-container {
+.strategy-images .image-container, .comp_wrapper .image-container {
     position: relative;
     display: block; /*inline-block;*/
 }
 
-.strategy-images .overlay-duo {
+.strategy-images .overlay-duo, .comp_wrapper .overlay-duo {
     position: absolute;
     z-index: 5;
+}
+
+.strategy-images .overlay-duo img, .comp_wrapper .overlay-duo img {
+    width: 60px !important;
+    max-width: 100%;
+    height: auto;
+}
+
+.comp_wrapper .overlay-duo {
+    top: 29px;
+    right: 16px;
 }
 
 .strategy-images.heroes .overlay-duo {
@@ -2930,12 +2941,6 @@ body.bgstrategy .bgstrategy > a {
 .strategy-images.spells .overlay-duo {
     top: 29px;
     right: 16px;
-}
-
-.strategy-images .overlay-duo img {
-    width: 60px !important;
-    max-width: 100%;
-    height: auto;
 }
 
 .strategy-images.minions {
