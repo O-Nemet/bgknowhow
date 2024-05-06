@@ -2935,7 +2935,7 @@ body.bgstrategy .bgstrategy > a {
 }
 
 .strategy-images.minions {
-    margin-left: 110px;
+    margin-left: 70px;
     /*margin-bottom: 100px;*/
 }
 
@@ -2956,7 +2956,7 @@ body.bgstrategy .bgstrategy > a {
     height: 330px;
 }
 
-.strategy-images .tile {
+.strategy-images ~ .tile {
     width: 200px;
     height: 80px;
     margin-right: 30px;
@@ -2966,11 +2966,11 @@ body.bgstrategy .bgstrategy > a {
     color: #FFF;
 }
 
-.strategy-images .tile:hover {
+.strategy-images ~ .tile:hover {
     color: #2E76CF !important;
 }
 
-.strategy-images .tile .name {
+.strategy-images ~ .tile .name {
     width: 90%;
     position: relative;
     z-index: 3;
@@ -2985,7 +2985,7 @@ body.bgstrategy .bgstrategy > a {
     text-shadow: #000 2px 0 0, #000 1.75517px .95885px 0, #000 1.0806px 1.68294px 0, #000 .14147px 1.99499px 0, #000 -.83229px 1.81859px 0, #000 -1.60229px 1.19694px 0, #000 -1.97998px .28224px 0, #000 -1.87291px -.70157px 0, #000 -1.30729px -1.5136px 0, #000 -.42159px -1.95506px 0, #000 .56732px -1.91785px 0, #000 1.41734px -1.41108px 0, #000 1.92034px -.55883px 0;
 }
 
-.strategy-images .tile .mask {
+.strategy-images ~ .tile .mask {
     position: absolute;
     z-index: 2;
     top: -6px;
@@ -2997,7 +2997,7 @@ body.bgstrategy .bgstrategy > a {
     background-size: cover;
 }
 
-.strategy-images .tile .image {
+.strategy-images ~ .tile .image {
     position: absolute;
     background-size: cover;
     height: 80%;
@@ -3009,7 +3009,7 @@ body.bgstrategy .bgstrategy > a {
     border-radius: 5px;
 }
 
-.strategy-images .tile:hover .image {
+.strategy-images ~ .tile:hover .image {
     /*border: 2px #2E76CF solid;*/
     filter: contrast(130%);
 }
@@ -3092,7 +3092,7 @@ body.bgstrategy .bgstrategy > a {
     font-weight: bold;
 }
 
-/*.strategy-images .tile .image:hover {*/
+/*.strategy-images ~ .tile .image:hover {*/
 /*    background-image: linear-gradient(to bottom, rgba(18, 42, 66, .85), rgba(18, 42, 66, .85)) !important;*/
 /*filter: grayscale(100%);*/
 /*filter: contrast(130%);*/
@@ -3234,7 +3234,7 @@ body.bgstrategy .bgstrategy > a {
     margin-left: -50px;
 }
 
-.matrix_column .tile .mask {
+.matrix_column ~ .tile .mask {
     position: absolute;
     z-index: 2;
     top: -6px;
