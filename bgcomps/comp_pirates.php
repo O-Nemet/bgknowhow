@@ -29,7 +29,7 @@
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>You want to focus on getting as much even Tier minions or spells to get scaling from this build. Replacing Lubber with another Tethys will definitely help, as you will get a better chance of receiving even Tier minions from his effect. Once you find another Greymane's Champion I would start to replace Peggy Sturdybone with it, unless you already tripled for that card.
     </p>
 
     <h3 id="buffs">Buff Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -38,7 +38,7 @@
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
-    <p>
+    <p>By no means is this a build that gets you first place. It is a decent build to get you Top 4 however. It's a simple build where you buy spells and use as much gold as possible to gain attack on your minions. Sadly, this build will be utterly destroyed by things like Divine Shield, Reborn and Deathrattles.
     </p>
 
     <h3 id="deathrattle">Eliza Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
