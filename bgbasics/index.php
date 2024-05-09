@@ -12,7 +12,7 @@ include_once('../header.php');
         A key part in influencing your decision for a hero is the availability of minion types in your BG lobby. While there are 10 different minion types (<a href="/bgstrategy/?show=minions&type=beast">Beast</a>, <a href="/bgstrategy/?show=minions&type=demon">Demons</a>, <a href="/bgstrategy/?show=minions&type=dragon">Dragons</a>, <a href="/bgstrategy/?show=minions&type=elemental">Elementals</a>, <a href="/bgstrategy/?show=minions&type=mech">Mechs</a>, <a href="/bgstrategy/?show=minions&type=murloc">Murlocs</a>, <a href="/bgstrategy/?show=minions&type=naga">Naga</a>, <a href="/bgstrategy/?show=minions&type=pirate">Pirates</a>, <a href="/bgstrategy/?show=minions&type=quilboar">Quilboars</a>, <a href="/bgstrategy/?show=minions&type=undead">Undeads</a> and <a
                 href="/bgstrategy/?show=minions&type=none">Neutrals</a> which are in each game) only a random selection of 5 of them will be available for each game. Some heroes do perform better with a specific minion type or a combination of minion types due to synergies with their hero power. Also, some minion types have a huge effect on how the game will play out in general. For example with Murlocs in, players will have access to more Venomous minions than usual which means the value of high HP minions is reduced.
         <br><br>
-        With 8 players in each game a maximum of 32 heroes will be offered to pick from. Some heroes are only offered in games featuring a specific minion type (e.g. <a href="/bgstrategy/hero/?id=42">Millificent Manastorm</a> only when Mechs are available). The heroes offered to you can not be picked by other players. With each new game you will get another random selection offered, therefore it is possible to not see a specific hero for a long time.
+        With 8 players in each game a maximum of 32 heroes will be offered to pick from. Some heroes are only offered in games featuring a specific minion type (e.g. <a class="hoverimage" href="/bgstrategy/hero/?id=42">Millificent Manastorm</a> only when Mechs are available). The heroes offered to you can not be picked by other players. With each new game you will get another random selection offered, therefore it is possible to not see a specific hero for a long time.
     </p>
     <h3 id="armor">Hero armor <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -22,14 +22,37 @@ include_once('../header.php');
         <br><br>
         For a sorted list of all heroes and their armor values check out this <a href="/bgbasics/armor.php">page</a>.
     </p>
-    <h3 id="tavern">Tavern phase <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <p>
-        The maximum amount of gold available for a turn is capped to 100.
-    </p>
     <h3 id="pool">Minion pool <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Before the start of each game the 5 available minion types (chosen at random) will be listed above the hero selection. After the game has started you can always check the available/banned minion types by hovering/tipping the right border of the gaming board.
+        <br><br>
+        With 10 different types and 5 of them drawn for each game, there is a 50% chance that a specific minion type is available, and in total there are 252 different type combinations possible. Depending on the actual mix of types, some minion types can be at an advantage or disadvantage for that current game of BGs, while sometimes combining two or more specific minion types can enable game-winning lines of play.
+        <br><br>
+        Since January 2023 (patch 25.2.0) dual-type minions have been added. These minions feature two different minion types and are available as long as one of its minion types is available in your game (<a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a> being one example).
     </p>
-    <h3 id="attacks">Attacks <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="tavern">Tavern phase <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Each game begins with the Tavern phase in which you are offered a selection of three minions to buy. The cost of buying a minion is always 3 Gold (ignoring some corner cases) and because every player begins the game with a starting amount of 3 Gold, during the first turn there is usually not much more to do then choose the best of the three minions, buy it, and play it from your hand onto your board.
+        <br><br>
+        You can sell any minion already on your board for 1 Gold, back into the tavern. But this usually makes sense only after your board has reached the maximum amount of seven minions, and you want to play other minions better than the ones already present.
+        <br><br>
+        Each player will gain 1 permanent Gold per turn, up to the 'maximum' of 10 Gold (reached on turn 8). There are some means to gain more gold than 10 during your turn (the most common one would be selling of minions). The maximum amount of gold available during a turn is capped to 100.
+        <br><br>
+        Anytime during this phase you can pay 1 Gold and push the roll button to get offered a new set of minions. You can use this button as many times as you want and can afford the gold. It is usually advised not to roll too much during the early game and rather buy the best minions offered, to fill up your board.
+        <br><br>
+        Every player starts the game on Tier 1, which means only minions of that tier will be offered to buy (check out the <a href="https://bgknowhow.com/bgstrategy/general.php#miniontypes">tier distribution</a> if you want to know which ones). You can increase your personal tier by pressing the level-up button and paying the amount of gold needed to do that. Each tavern phase the cost to upgrade will be reduced by 1. The upgrade base cost for each tier is different (see <a href="https://bgknowhow.com/bgstrategy/general.php#taverntiers">Tavern Tiers</a>) with the upgrade to Tier 2 being the cheapest at an initial 5 Gold. Therefore, the earliest you can level to Tier 2 is usually on turn 2. The higher the tier the more different minions will be offered on each refresh (3 on tier 1, 4 on tiers 2 and 3, 5 on tiers 4 and 5 and 6 on tier 6).
+        <br><br>
+        After the turn timer (25-40 seconds during the early rounds, 60-120 seconds later) has run out, the game will switch into the Combat phase where your minions face off against the minions of your next opponent. After each Combat phase there will be a new Tavern phase with a fresh roll of available minions offered.
+        <br><br>
+        If you want to buy more minions from the tavern than you can afford, you have the option of using the freeze-button which will lock the current tavern until the start of the next Tavern phase and prevent the free refresh.
+    </p>
+    <h3 id="spells">Spells <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        In addition to the minions, each refresh of the tavern will also feature one spell (since December 2023, patch 28.2.0). These spells are different non-permanent effects, but their cost to buy can range from 1 to 7 gold.
+        <br><br>
+        Click here for a <a href="bgstrategy/?show=spells">list of all currently active</a> spells.
+    </p>
+    <h3 id="combat">Combat phase <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         In the combat phase the left-most minion (with an attack > 0) of one player will attack a random minion on the opponents board. On a full board that means your attacking minion has a 1:7 (or 14.29%) chance to attack a specific minion of your opponent. This luck-factor can become very relevant when 'sniping' a minion like <a class="hoverimage" href="/bgstrategy/minion/?id=117">Mama Bear</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus</a> will decide over the outcome of the match.
         <br><br>
@@ -138,13 +161,17 @@ include_once('../header.php');
     </p>
     <h3 id="magnetic">Magnetic <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Magnetic is a Mech-only keyword that works when you play the magnetic minion to the left of any Mech (or a minion with all minion types) already on your board. The played minion will then instantly be integrated into the target minion, increasing its stats and adding any new keywords or effects stated on the played card. If you do not want to trigger the magnetic effect, you have to play the minion to the right of the Mechs, or to the left of a non-Mech minion on your board.
+        <br><br>
         Since May 2023 (patch 26.2.0) it is possible to play magnetic minions even when you already have the maximum number of 7 minions on your board. Since July 2023 (patch 27.0.0) any magnetic minion which is magnetized to another minion will return to the shared minion pool.
         <br><br>
         Please check out this <a href="/bgstrategy/?show=minions&ability=magnetic">list of all Magnetic minions</a> to know your options.
     </p>
     <h3 id="spellcraft">Spellcraft <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Spellcraft is an ability exclusive to the <a href="/bgstrategy/?show=minions&type=naga">Naga minion</a> type.
+        Spellcraft is an ability exclusive to the <a href="/bgstrategy/?show=minions&type=naga">Naga minion</a> type, but some dual-type Naga (like <a class="hoverimage" href="/bgstrategy/minion/?id=479">Dragonic Deathscale</a>) do exist, which let the ability bleed into other types, too.
+        <br><br>
+        When you play a minion with Spellcraft you will get a temporary spell with its effect added to your hand. In addition, for each Spellcraft minion on your board at the start of your Tavern turn you will also receive its Spellcraft spell. These spells will be destroyed at the end of each Tavern turn. Therefore, you should always plan for enough time to play all of them, and they can not be stored for future turns. If your hand is already full (10 cards maximum) when you would receive a Spellcraft, you will still receive it after you clear your hand of cards.
         <br><br>
         Please check out this <a href="/bgstrategy/?show=minions&ability=spellcraft">list of all Spellcraft minions</a> to know your options.
     </p>
@@ -166,7 +193,7 @@ include_once('../header.php');
     <p>
         When you buy or otherwise get the third copy of a minion all copies on your battlefield will be pulled back to your hand and combined into a golden minion. In general a tripled minion will have double the stats of the regular minion plus all the permanent buffs accumulated on the prior copies. For an in-depth look at the math involved please refer to our <a href="/bgbasics/triple_stats.php">Triple Stats guide</a>. <!--In most cases it will also have-->
         <br><br>
-        As a bonus, when you play the golden minion you will receive a discover-effect card which lets you discover one minion from a tier one level higher than your current tavern tier. The tier level for the discover will be locked in when you play the golden minion. Therefore, if you want to get a higher discovery it is possible to delay the playing of your triple. You also benefit from tripled minions by needing one less space on your tavern board.
+        As a bonus, when you play the golden minion you will receive a discover-effect card which lets you discover one minion from a tier one level higher than your current tavern tier. The tier level for the discovery will be locked in when you play the golden minion. Therefore, if you want to get a higher discovery it is possible to delay the playing of your triple. You also benefit from tripled minions by needing one less space on your tavern board.
         <br><br>
         Your first triple during a game can often be a key decision guiding your direction or strategy for the rest of the game. Please refer to <a href="/bgstrategy/general.php#keyminions">our list of key minions for each minion type</a>.
         <br><br>
@@ -184,6 +211,9 @@ include_once('../header.php');
     </p>
     <h3 id="order">Order of effects <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
+        Some effects happen at the end of your Tavern turn or at the beginning of the Combat phase. If multiple effects of the same kind are triggered they will usually happen from left to right. For example with the Quilboar minions <a class="hoverimage" href="/bgstrategy/minion/?id=514">Pokey Thornmantle</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=130">Charlga</a>, you should always position the Pokeys to the left of the Charlgas, because then they will increase the size of your Blood Gems before the Charlga will apply them to your minions.
+        <br><br>
+        Effects of hero powers will usually happen before minion effects.
     </p>
     <h3 id="damagecap">Damage Cap <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -193,7 +223,7 @@ include_once('../header.php');
         damage will be reduced to the maximum amount of 15.
         <br><br>
         The Damage Cap is in place until only 4 players are left alive.<br>
-        Until 19.09.23 the Damage Cap was in place until both a hero has died and the game has reached at least turn 8 (10 gold).
+        Until September 2023 the Damage Cap was in place until both a hero had died and the game had reached at least turn 8 (10 gold).
     </p>
     <h3 id="deadguy">Fighting a ghost aka 'Deadguy' <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
@@ -232,12 +262,6 @@ include_once('../header.php');
     <h3 id="scouting">Scouting <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
     </p>
-    <h3 id="disconnecting">Disconnecting intentionally <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <p>
-    </p>
-    <h3 id="conceding">Conceding <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <p>
-    </p>
     <h3 id="rating">Rating (BG MMR) <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The rating shown after every game is your match making rating (MMR), a first place will normally net you around +100 points, whereas an 8th place will make you lose around -100 points. The actual values are based on a formula and depend on the MMR of every player in the lobby and your actual placement at the end of the game.
@@ -262,6 +286,17 @@ include_once('../header.php');
         A lobby win at that point in time will net you up to 300 points, allowing you to climb back to your 'real' MMR
         faster. This bonus for point gains will decrease the closer you'll get to your internal MMR (and will also be
         capped at ~8000 MMR, even if you had a very high rating like 10,000+ in the last season).
+    </p>
+    <h3 id="conceding">Conceding <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        You can concede a running game at any time by opening the options dialog and pressing the concede button, after which you will lose (or sometimes even gain) points according to your current rank.
+        <br><br>
+        If you have to or want to concede, you should wait until the combat phase has been started. Because then the combat results will already be calculated server-side, and you will share points with everyone dying during the current round.
+        <br><br>
+        If you are in the top 2, and you know or see that your opponent outmatches you and your chances to win are slim to none, you can save time by conceding, without getting punished for it.
+    </p>
+    <h3 id="disconnecting">Disconnecting intentionally <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
     </p>
     <h3 id="winningpercentages">Winning percentages <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
