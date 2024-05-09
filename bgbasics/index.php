@@ -175,6 +175,9 @@ include_once('../header.php');
         <br><br>
         Please check out this <a href="/bgstrategy/?show=minions&ability=spellcraft">list of all Spellcraft minions</a> to know your options.
     </p>
+    <h3 id="gems">Blood Gems <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+    </p>
     <h3 id="hand">Hand size and interactions <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The maximum number of cards (minions, spells, effects, coins, gems, etc.) in your hand is 10. After that you first have to play a card to buy or receive another one. Cards which would added to your hand if you are at maximum hand size will be lost, except for Spellcraft cards, which will be newly generated when the space opens up again.
