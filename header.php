@@ -171,6 +171,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                                 <li><a href="/bgbasics/triple_stats.php">...Triple Stats</a></li>
                                 <li><a href="/bgbasics/faq.php">...FAQ</a></li>
                                 <li><a href="/bgbasics/armor.php">...Hero Armor</a></li>
+                                <li><a href="/bgbasics/bugs.php">...Known Bugs</a></li>
                             </ul>
                         </div>
                     </div>

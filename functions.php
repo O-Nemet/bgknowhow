@@ -162,8 +162,14 @@ function getWebsiteTitle(): string
         $title .= 'News';
     } else if (strpos($page, '/bgsim/') !== false) {
         $title .= 'Simulator';
+    } else if (strpos($page, '/bgbasics/triple') !== false) {
+        $title .= 'Triple Stats';
+    } else if (strpos($page, '/bgbasics/faq') !== false) {
+        $title .= 'Frequently Asked Questions';
     } else if (strpos($page, '/bgbasics/armor') !== false) {
-        $title .= 'Hero Armor Tiers';
+        $title .= 'Hero Armor';
+    } else if (strpos($page, '/bgbasics/bugs') !== false) {
+        $title .= 'Known Bugs';
     } else if (strpos($page, '/bgbasics/') !== false) {
         $title .= 'Battleground Basics';
     } else if (strpos($page, '/bgstrategy/show=heroes') !== false) {
