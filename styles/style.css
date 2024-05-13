@@ -3444,7 +3444,7 @@ body.bgstrategy .bgstrategy > a {
     font-weight: 700;
 }
 
-.triple_stats ul, .news ul {
+.triple_stats ul, .news ul, .bugs ul {
     list-style: disc;
     margin-left: 50px;
     margin-top: 15px;
@@ -3453,7 +3453,7 @@ body.bgstrategy .bgstrategy > a {
     letter-spacing: 0.5px; /* TODO: test */
 }
 
-.triple_stats ul li, .news ul li {
+.triple_stats ul li, .news ul li, .bugs ul li {
     padding-bottom: 5px;
 }
 
