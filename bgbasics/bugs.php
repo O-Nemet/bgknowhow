@@ -12,6 +12,7 @@ include_once('../header.php');
         <!--        <li></li>-->
         <!--        <li></li>-->
     </ul>
+    <br><br>
     <p>
         <span class="small_info">Last update: 12.05.2024</span>
     </p>

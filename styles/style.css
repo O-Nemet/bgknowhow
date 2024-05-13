@@ -244,7 +244,7 @@ th a:hover {
     color: #8DBDD8;
 }
 
-p a {
+p a, ul li a {
     font-weight: bold;
 }
 
