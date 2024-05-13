@@ -2259,6 +2259,7 @@ root {
     display: block;
     outline: 0px none;
     text-decoration: none;
+    font-weight: normal;
 }
 
 #menu li:hover a {
