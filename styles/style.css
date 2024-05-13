@@ -2576,7 +2576,7 @@ body.bgstrategy .bgstrategy > a {
     font-style: italic;
 }
 
-.bgjson_last_update {
+.small_info {
     float: right;
     margin-top: 5px;
     padding-right: 50px;
@@ -3639,7 +3639,7 @@ body.bgstrategy .bgstrategy > a {
         margin: unset;
     }
 
-    .bgjson_last_update {
+    .small_info {
         float: left;
     }
 

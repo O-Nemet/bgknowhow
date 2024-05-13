@@ -55,7 +55,7 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.json')); ?></span>
+    <span class="small_info">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.json')); ?></span>
 
     <br><br>
 
@@ -80,7 +80,7 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></span>
+    <span class="small_info">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.json')); ?></span>
 
     <br><br>
 
@@ -102,7 +102,7 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.csv')); ?></span>
+    <span class="small_info">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_active.csv')); ?></span>
 
     <br><br>
 
@@ -124,7 +124,7 @@ include_once('../header.php');
         </tr>
         </tbody>
     </table>
-    <span class="bgjson_last_update">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></span>
+    <span class="small_info">Last update: <?= date("F d, Y H:i:s", filemtime('output/bg_heroes_all.csv')); ?></span>
 
     <br><br>
 
