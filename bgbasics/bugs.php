@@ -9,7 +9,7 @@ include_once('../header.php');
     </p>
     <ul>
         <li>When trippling <a class="hoverimage" href="/bgstrategy/minion/?id=470">Winged Chimera</a> with <a class="hoverimage" href="/bgstrategy/minion/?id=356">Elemental of Surprise</a> its ability counter will be set to 0 and it will lose its ability to buff your minions, permanently.</li>
-        <!--        <li></li>-->
+        <li>When you have multiple <a class="hoverimage" href="/bgstrategy/minion/?id=475">Timecap'n Hooktail</a> on your board, minions with buff effects triggered by it (like <a class="hoverimage" href="/bgstrategy/minion/?id=42">Whelp Smuggler</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=535">Defiant Shipwright</a>) will not proc for each instance, but only once.</li>
         <!--        <li></li>-->
     </ul>
     <br><br>
