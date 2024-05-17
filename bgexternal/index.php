@@ -121,7 +121,7 @@ include_once('../header.php');
         </p>
     </div>
     <div>
-        <a href="https://hearthstone.fandom.com/wiki/Hearthstone_Wiki/Battlegrounds" target="_blank">
+        <a href="https://hearthstone.wiki.gg/wiki/Battlegrounds" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_hearthstone_wiki.webp" alt="Hearthstone Wiki">
             <span>HS Wiki</span>
         </a>
