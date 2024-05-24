@@ -100,7 +100,7 @@ foreach ($tempMinions->data as $key => $object) {
 ?>
     <h3 id="miniontypes">Minion types and distribution <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        The different minion types are not equally distributed across the six tavern tiers. For example Quilboar have only two tier 2 minions.
+        The different minion types are not equally distributed across the six tavern tiers. For example Quilboars have only two tier 2 minions.
         Also, Mechs got 6 different Zilliax modules on tier 2, which are handled differently: Each different Zilliax Module has an appearance rate 1/3 that of a regular tier 2 minions' (so 5 copies of each Module, 30 in total in the pool). Any combination of three Modules will combine into a Golden Zilliax: Assembled, which has all the keywords of the Modules used as the components.
         <!-- Even on tier 1, where each type used to have two minions, Undeads have access to three minions. Also notice the neutral minion <a class="hoverimage" href='/bgstrategy/minion/?id=17'>Wrath Weaver</a>, which is the third minion in the Demon pool on tier 1. -->
         <!--        <br><br>-->
@@ -176,6 +176,8 @@ foreach ($spell_count as $temp) {
         Whenever a spell is bought/generated, it immediately returns to the pool. There is a specific number of copies of each spell in the pool, but it's kind of like appearance rate since they get replaced immediately.
         <br><br>
         Since February 2024 (patch 28.6.0) one specific spell for each minion type has been added, which will only be available if the minion type is active for the given Battlegrounds game.
+        <br><br>
+        For a full list of all available/active spells check out our <a href="/bgstrategy/?show=spells">spells strategy page</a>.
     </p>
     <br>
     <table class="tier-table">
@@ -294,7 +296,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Skyblazer', 'Stomper', 'Goldrinn'];
+        $board   = ['Rylak', 'Trigore', 'Skyblazer', 'Stomper', 'Goldrinn'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -324,7 +326,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Lava Lurker', 'Deep Blue', 'Deathscale', 'Slitherspear'];
+        $board   = ['Lava Lurker', 'Deep Blue', 'Shelly', 'Deathscale', 'Slitherspear'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -339,7 +341,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Anub', '*Champion of the Primus', 'Moroes', 'Summoner', 'Kel'];
+        $board   = ['Anub', '*Champion of the Primus', 'Moroes', 'Summoner', 'Kel', 'Sister'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
