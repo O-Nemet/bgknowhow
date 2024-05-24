@@ -131,6 +131,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>24.05.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24077480/29-4-2-patch-notes" target="_blank">29.4.2</a> patch notes.</li>
         <li>17.05.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2941-patch-notes/128613" target="_blank">29.4.1</a> patch notes.</li>
         <li>17.05.2024 - Updated all "websites -> fandom" properties to "websites -> wiki" and updated the base link to the new HS Wiki</li>
         <li>06.05.2024 - Added "notes" property to the hero dataset. Official notes from Blizzard, like <i>"Illidan Stormrage is banned from Dragons games across all Battlegrounds"</i>, will be listed here for the time being, separated by semicolons.</li>
