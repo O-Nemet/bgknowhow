@@ -3,6 +3,23 @@ include_once("../header.php");
 ?>
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
+
+    <h3 id="patch29.4.2">24.05.2024 - Patch 29.4.2 released <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard released <a href="https://hearthstone.blizzard.com/en-us/news/24077480/29-4-2-patch-notes" target="_blank">patch 29.4.2</a> adjusting a plethora of minions and a few spells, too:
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch2942_preview.jpg"><br>
+        <br><br>
+        These minions/spells received buffs: Trigore the Lasher, Iridescent Skyblazer, Impulsive Trickster, Molten Rock, Party Elemental, Bream Counter, King Bagurgle, Murky, Defiant Shipwright, Gunpowder Courier, Spellbound Seafarer, Underhanded Dealer, Hungering Abomination, Sister Deathwhisper, Deadstomper, Wrath Weaver, Oozeling Gladiator, Fire Dancer, and Cloning Conch (Tavern Spell).
+        <br><br>
+        These minions/spells were nerfed: Fiery Felblood, Roaring Rallier, Amber Guardian, Timecap’n Hooktail, Deep Blue Crooner, Whirling Lass-o-Matic, Scrap Scraper, Pokey Thornmantle, Winged Chimera, and Scavenge for Parts, Dreamer’s Embrace, Plunder Seeker (Tavern Spells).
+        <br><br>
+        In Duos Orc-estra Conductor was buffed a little bit, while Man’ari Messenger was nerfed from Tier 4 to Tier 5.
+        <br><br>
+        They also somehow fumbled on actually adding <a class="hoverimage" href="/bgstrategy/minion/?id=139">Lil' Rag</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=61">Rat Pack</a> to the game. You can read about stuff like that on our new <a href="/bgbasics/bugs.php">known bugs page</a>, to stay on top of everything wrong with the game.
+    </p>
+    <br>
+
     <h3 id="patch29.2.3">02.05.2024 - Patch 29.2.3 released and Mechs back in the game! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard released a <a href="https://us.forums.blizzard.com/en/hearthstone/t/2923-patch-notes/127552" target="_blank">hotfix patch</a> today, bringing back Mechs in their improved forms. Watch out for the magnetic overlords in your games!
