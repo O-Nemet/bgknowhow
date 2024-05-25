@@ -341,7 +341,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Anub', '*Champion of the Primus', 'Moroes', 'Summoner', 'Kel', 'Sister'];
+        $board   = ['Anub', '*Champion of the Primus', 'Moroes', 'Summoner', 'Kel', 'Deathwhisper'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
