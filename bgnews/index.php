@@ -4,6 +4,12 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
+    <h3 id="patch29.4.3">30.05.2024 - Patch 29.4.3 adding missing minions to the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard released a small server-side <a href="https://us.forums.blizzard.com/en/hearthstone/t/2943-patch-notes/129365" target="_blank">patch 29.4.3</a> which finally brings <a class="hoverimage" href="/bgstrategy/minion/?id=139">Lil' Rag</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=61">Rat Pack</a> back into the minion pool.
+    </p>
+    <br>
+
     <h3 id="patch29.4.2">24.05.2024 - Patch 29.4.2 released <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard released <a href="https://hearthstone.blizzard.com/en-us/news/24077480/29-4-2-patch-notes" target="_blank">patch 29.4.2</a> adjusting a plethora of minions and a few spells, too:
