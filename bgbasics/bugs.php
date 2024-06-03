@@ -23,7 +23,7 @@ include_once('../header.php');
     </ul>
     <br><br>
     <p>
-        <span class="small_info">Last update: 12.05.2024</span>
+        <span class="small_info">Last update: 03.06.2024</span>
     </p>
 </div>
 
