@@ -229,6 +229,60 @@ foreach ($spell_count as $temp) {
         </tbody>
     </table>
 
+    <br><br>
+
+    <h3 id="buddycurves" class="cf">Buying Buddies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Each hero has a Buddy button, which you can press during your shop turn to buy the buddy. The Buddy button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.
+        <br><br>
+        The first time you press the button, you'll get one copy of your Buddy; the second time you press the button, you'll get two copies. The cost to press the button resets and is slightly increased after you press it the first time.
+    </p>
+    <br>
+
+    <table class="tier-table">
+        <thead>
+        <tr>
+            <th>Buddy Tier</th>
+            <th>Initial Cost</th>
+            <th>Reset Cost</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>11</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>13</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>15</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>17</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>19</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>21</td>
+            <td>23</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
     <h3 id="3on3">Tier 2 minions influencing your decision to go 3on3 <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         While some heroes like <a class="hoverimage" href='/bgstrategy/hero/?id=13'>Cookie</a> and <a class="hoverimage" href='/bgstrategy/hero/?id=24'>Galewing</a> demand to play a 3on3 curve nearly 100% of the time, there are others where the decision to go for tier 3 on turn 3 will heavily depend on the tier 2 minions offered in the tavern. Below you will find a tier list of sorts, for the tempo value of all the tier 2 minions available, if you have decided to level on turn 2. Notice that you will usually sell the minion bought on turn 1 in order to buy two better minions, unless you got a 'token' like <a class="hoverimage" href='/bgstrategy/minion/?id=2'>Deck Swabbie</a> <!--or <a class="hoverimage" href='/bgstrategy/hero/?id=193'>Shell Collector</a> -->. Therefore, make sure that those two minions are worth it (don't buy tier 1 minions, for example).
@@ -433,56 +487,6 @@ foreach ($tempMinions->data as $key => $object) {
         </tr>
         </tbody>
     </table>
-
-    <!--    <h3 id="buddycurves" class="cf">Buying Buddies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
-    <!--    <p>-->
-    <!--        Each hero has a Buddy button, which you can press during your shop turn to buy the buddy. The Buddy button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.-->
-    <!--        <br><br>-->
-    <!--        The first time you press the button, you'll get one copy of your Buddy; the second time you press the button, you'll get two copies. The cost to press the button resets and is slightly increased after you press it the first time.-->
-    <!--    </p>-->
-    <!--    <br>-->
-    <!---->
-    <!--    <table class="tier-table">-->
-    <!--        <thead>-->
-    <!--        <tr>-->
-    <!--            <th>Tier</th>-->
-    <!--            <th>Initial Cost</th>-->
-    <!--            <th>Reset Cost</th>-->
-    <!--        </tr>-->
-    <!--        </thead>-->
-    <!--        <tbody>-->
-    <!--        <tr>-->
-    <!--            <td>1</td>-->
-    <!--            <td>11</td>-->
-    <!--            <td>13</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>2</td>-->
-    <!--            <td>13</td>-->
-    <!--            <td>15</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>3</td>-->
-    <!--            <td>15</td>-->
-    <!--            <td>17</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>4</td>-->
-    <!--            <td>17</td>-->
-    <!--            <td>19</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>5</td>-->
-    <!--            <td>19</td>-->
-    <!--            <td>21</td>-->
-    <!--        </tr>-->
-    <!--        <tr>-->
-    <!--            <td>6</td>-->
-    <!--            <td>21</td>-->
-    <!--            <td>23</td>-->
-    <!--        </tr>-->
-    <!--        </tbody>-->
-    <!--    </table>-->
 
     <br><br>
 
