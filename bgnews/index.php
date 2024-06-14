@@ -4,6 +4,14 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
+    <h3 id="patch29.6.0teaser">15.06.2024 - Buddies will soon rejoin the Battlegrounds <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Blizzard announced the upcoming half-season update, bringing back Buddies. This is the first time we will see buddies in the Duos mode and 12 new buddies have been designed for all the new heroes added since the last buddy meta. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24061012/buddies-are-coming-back" target="_blank">complete official announcement</a> including all planned changes on minions, heroes and buddies.
+        <br><br>
+        No date has been set for the arrival of this patch, but based on all the details already provided we can expect it to arrive within the next two weeks.
+    </p>
+    <br>
+
     <h3 id="patch29.4.3">30.05.2024 - Patch 29.4.3 adding missing minions to the game <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard released a small server-side <a href="https://us.forums.blizzard.com/en/hearthstone/t/2943-patch-notes/129365" target="_blank">patch 29.4.3</a> which finally brings <a class="hoverimage" href="/bgstrategy/minion/?id=139">Lil' Rag</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=61">Rat Pack</a> back into the minion pool.
