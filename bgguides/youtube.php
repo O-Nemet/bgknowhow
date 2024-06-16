@@ -6,7 +6,7 @@ include_once('../header.php');
     <p>
         This subpage is featuring helpful and most importantly current (no outdated content here) video guides by different content creators. Please visit their YouTube or Twitch hubs to explore their whole portfolio of videos.
     </p>
-    <div class="streamers">https://www.youtube.com/watch?v=C68vYNe62tk
+    <div class="streamers">
         <div class="iframe_div">
             <h3>“Rating all Minions for Season 7 Battlegrounds” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
