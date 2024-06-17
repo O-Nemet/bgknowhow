@@ -4,6 +4,16 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
+    <h3 id="patch29.6.0">18.06.2024 - Patch 29.6.0 already live! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        In an unexpected move Blizzard decided to release the patch, bringing buddies back into the Battlegrounds, today. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24061012/buddies-are-coming-back" target="_blank">patch preview</a> for all the changes and the official <a href="https://hearthstone.blizzard.com/en-us/news/24108513/29-6-patch-notes" target="_blank">patch notes</a> for an additional list of bugfixes.
+        <br><br>
+        If you need a reminder how the gold cost reduction for your buddies works, check out our <a href="https://bgknowhow.com/bgstrategy/general.php#buddycurves">buddy tier table</a>, and bookmark our searchable <a href="https://bgknowhow.com/bgstrategy/?show=buddies">list of all buddies</a> (sorted by tier). We also got you covered with our up to date <a href="https://bgknowhow.com/bgbasics/bugs.php">list of known bugs</a>.
+        <br><br>
+        <a class="hoverimage" href="/bgstrategy/hero/?id=105">Madam Goya</a> already had to be emergency banned due to her buddy being totally unbalanced. Which hero/buddy will be the next one to look out for, or the next one to fall to the banhammer?
+    </p>
+    <br>
+
     <h3 id="patch29.6.0teaser">15.06.2024 - Buddies will soon rejoin the Battlegrounds <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Blizzard announced the upcoming half-season update, bringing back Buddies. This is the first time we will see buddies in the Duos mode and 12 new buddies have been designed for all the new heroes added since the last buddy meta. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24061012/buddies-are-coming-back" target="_blank">complete official announcement</a> including all planned changes on minions, heroes and buddies.
