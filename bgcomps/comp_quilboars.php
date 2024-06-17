@@ -1,4 +1,4 @@
-<?php include_once('../header.php'); ?>
+: <?php include_once('../header.php'); ?>
 
 <h2 class="page_title">Standard Compositions: Quilboars</h2>
 <p>
@@ -26,14 +26,14 @@
     drawBoard($minions);
     ?>
     <p>
-        Any Quilboar that generates Blood Gems is good, so don't think this is the only way to build this comp. You can also have a <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak Metalhead</a> be paired next to <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> and a golden <a class="hoverimage" href="/bgstrategy/minion/?id=8">Razorfen Geomancer</a>. You can have <a class="hoverimage" href="/bgstrategy/minion/?id=376">Briarback Bookie</a> or use <a class="hoverimage" href="/bgstrategy/minion/?id=45">Bannerboar</a> as well.
+        Any Quilboar that generates Blood Gems is good, so don't think this is the only way to build this comp. You can also have a <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak Metalhead</a> be paired next to <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> and a golden <a class="hoverimage" href="/bgstrategy/minion/?id=8">Razorfen Geomancer</a>. You can have <a class="hoverimage" href="/bgstrategy/minion/?id=376">Briarback Bookie</a> or use <a class="hoverimage" href="/bgstrategy/minion/?id=45">Bannerboar</a> as well. Reminder, Pokey Thornmantle does NOT get stronger from Drakkari Enchanter's effect. Feel free to replace this card with something else after he has buffed your Blood Gems to a desirable number.
         <br><br>
         Either way, you want to put as many Blood Gems onto <strong>Geomagus Roogug</strong> as you can. The only issue with this build is, that the other targets for his gem procs are suboptimal. So do try to move your gems over to a minion with Cleave or Divine Shield by using <a class="hoverimage" href="/bgstrategy/minion/?id=90">Necrolyte</a>.
     </p>
 
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Tusk', 'Tusk', 'Horse', 'Horse', 'Pokey', 'Roogug', 'Bristlebach'];
+    $board   = ['Tusk', 'Tusk', 'Three', 'Horse', 'Horse', 'Roogug', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -64,7 +64,7 @@
         <br><br>
         Instead of Brann you can also play a <a class="hoverimage" href="/bgstrategy/minion/?id=60">Monstrous Macaw</a> (on position #1 of course).
         <br><br>
-        Once you get a Charlga or <a class='hoverimage' href='/bgstrategy/minion/?id=348'>Bongo Bopper</a>, you can scale the entire build and replace one of these cards with Drakkari Enchanter. If you can only get individual Blood Gems, put them onto strong minions with Divine Shield or Cleave. <strong>Rylak Metalhead</strong> can be replaced by <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (if Murlocs are available) but isn't as effective.
+        Once you get a Charlga or <a class='hoverimage' href='/bgstrategy/minion/?id=348'>Bongo Bopper</a>, you can scale the entire build and replace one of these cards with Drakkari Enchanter. If you can only get individual Blood Gems, put them onto strong minions with Divine Shield or Cleave. <strong>Rylak Metalhead</strong> can be replaced by <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (if Murlocs are available) but isn't as effective. Once you have the Blood Gems built, you can use Three Little Quilboars with Titus Rivendare for big stats on your quilboar.
     </p>
 </div>
 
