@@ -20,9 +20,9 @@
     drawBoard($minions);
     ?>
     <p>
-        This is basically a composition to start out Murlocs before you start switching the cards into more endgame like the two builds below. You're going to use <strong>Fairy Gillmother</strong> as a way to find and search for not only battlecries for <strong>'Loc Prince</strong>, but Bream Counter. Once you find Bream Counter, then you start finding Bassgill or Diremuck Forager. If you don't get Bream Counter then you use the battlecries gained to buff up your other Murlocs. Eventually, if you can't get them strong enough you get <a class="hoverimage" href="/bgstrategy/minion/?id=343">Operatic Belcher</a> to give them venomous.    
+        This is basically a composition to start out Murlocs before you start switching the cards into more endgame like the two builds below. You're going to use <strong>Fairy Gillmother</strong> as a way to find and search for not only battlecries for <strong>'Loc Prince</strong>, but Bream Counter. Once you find Bream Counter, then you start finding Bassgill or Diremuck Forager. If you don't get Bream Counter then you use the battlecries gained to buff up your other Murlocs. Eventually, if you can't get them strong enough you get <a class="hoverimage" href="/bgstrategy/minion/?id=343">Operatic Belcher</a> to give them venomous.
     </p>
-<div class="comp_wrapper">
+
     <h3 id="battlecry">Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Choral', 'Choral', 'Bassgill', 'Primalfin', 'Murk-Eye', 'Primalfin', 'Brann'];
@@ -44,7 +44,6 @@
         <br><br>
         <strong>Titus Rivendare</strong> is very good for synergy with Operatic Belcher and Bassgill.
     </p>
-
 </div>
 
 <br><br>

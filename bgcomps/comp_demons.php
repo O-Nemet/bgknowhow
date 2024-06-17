@@ -36,15 +36,15 @@
     <p>
         Taunt the <strong>Impulsive Trickster</strong> to profit from the Cultist and <strong>Titus</strong>. Improve the Tavern's health by playing multiple <a class="hoverimage" href="/bgstrategy/minion/?id=476">Slimy Felblood</a> early on.
     </p>
-      <h3 id="felbateot">Felbat End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-        <?php
-        $board   = ['Fiery', 'Felbat', 'Felbat', 'Leeroy', 'Bramblewitch', 'S\'thara', 'S\'thara'];
-        $minions = getMinionsForBoard($board);
-        drawBoard($minions);
-        ?>
-        <p>
-            This is a build if you manage to get double <strong>Famished Felbat</strong>. By having two Felbats and one other Demon, it will eat the entire shop. Tier-6 is required so that you can eat 6 minions instead of 5. If you triple the Felbat, then start getting other Demons and <a class="hoverimage" href="/bgstrategy/minion/?id=345">Drakkari Enchanter</a>.
-        </p>        
+    <h3 id="felbateot">Felbat End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Fiery', 'Felbat', 'Felbat', 'Leeroy', 'Bramblewitch', 'S\'thara', 'S\'thara'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        This is a build if you manage to get double <strong>Famished Felbat</strong>. By having two Felbats and one other Demon, it will eat the entire shop. Tier-6 is required so that you can eat 6 minions instead of 5. If you triple the Felbat, then start getting other Demons and <a class="hoverimage" href="/bgstrategy/minion/?id=345">Drakkari Enchanter</a>.
+    </p>
 </div>
 
 <br><br>
