@@ -37,17 +37,17 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="5">JSON format (active only)</th>
+            <th colspan="4">JSON format (active only)</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td colspan="5"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active Battlegrounds Entities</a></td>
+            <td colspan="4"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active Battlegrounds Entities</a></td>
         </tr>
         <tr>
             <td><a href="/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
             <td><a href="/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Minions</a></td>
-            <!--            <td><a href="/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>-->
+            <td><a href="/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>
             <!--            <td><a href="/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>-->
@@ -87,14 +87,14 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="5">CSV format (active only)</th>
+            <th colspan="4">CSV format (active only)</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td><a href="/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
             <td><a href="/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Minions</a></td>
-            <!--            <td><a href="/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>-->
+            <td><a href="/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>
             <!--            <td><a href="/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>-->
@@ -131,6 +131,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>17.06.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24061012/buddies-are-coming-back" target="_blank">29.6.0</a> patch notes (or rather the patch preview).</li>
         <li>24.05.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24077480/29-4-2-patch-notes" target="_blank">29.4.2</a> patch notes.</li>
         <li>17.05.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2941-patch-notes/128613" target="_blank">29.4.1</a> patch notes.</li>
         <li>17.05.2024 - Updated all "websites -> fandom" properties to "websites -> wiki" and updated the base link to the new HS Wiki</li>
