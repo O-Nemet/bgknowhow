@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="rockrock">RockRock Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Wildfire', 'Wraith', 'Magmaloc', 'Magmaloc', 'Djinni', 'Rock Rock', 'Rock Rock'];
+    $board   = ['Wildfire', 'Wraith', 'Magmaloc', 'Magmaloc', 'Rag', 'Rock Rock', 'Rock Rock'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
