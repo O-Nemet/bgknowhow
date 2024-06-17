@@ -25,7 +25,7 @@
 
     <h3 id="even">Even Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Collector', 'Lubber', 'Greymane\'s Champion', 'Greymane\'s Champion', 'Tempest', 'Rylak'];
+    $board   = ['Nightbane', 'Collector', 'Lubber', 'Greymane\'s Champion', 'Greymane\'s Champion', 'Tempest', 'Rylak'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -35,7 +35,7 @@
 
     <h3 id="evenspell">Even Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Chimera', 'Blade Collector', 'Lubber', 'Silivaz', 'Greymane\'s Champion', 'Greymane\'s Champion'];
+    $board   = ['Lasso', 'Lasso', 'Blade Collector', 'Lubber', 'Silivaz', 'Greymane\'s Champion', 'Greymane\'s Champion'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -45,14 +45,12 @@
 
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Seafarer', 'Fungus', 'Hooktail', 'Silivaz', 'Matriarch', 'Nalaa', 'Nalaa'];
+    $board   = ['Lasso', 'Arid', 'Seafarer', 'Silivaz', 'Matriarch', 'Nalaa', 'Nalaa'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
         When playing this <strong>Nalaa</strong> based composition you will go all-in and buy as many cheap spells as possible each turn. During the mid-game try to secure the best minions supporting this end game build, like the examples shown here, depending on the available minion types.
-        <br><br>
-        Other good alternate cards are <a class='hoverimage' href='/bgstrategy/minion/?id=466'>Whirling Lass-o-Matic</a>, <a class='hoverimage' href='/bgstrategy/minion/?id=437'>Bazaar Dealer</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=457'>Trembling Trolley</a>. You don't necessarily need Ensorcelled Fungus, but it does scale quite fast. Try to focus on spells that are cheap, give you access to economy, or which find more spells.
     </p>
 
     <h3 id="scam">Scam Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

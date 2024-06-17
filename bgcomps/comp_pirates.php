@@ -17,7 +17,7 @@
 <div class="comp_wrapper">
     <h3 id="buffs">Buff Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Blade Collector', 'Blade Collector', 'Courier', 'Shipwright', 'Shipwright', 'Hooktail', 'Lubber'];
+    $board   = ['Blade Collector', 'Blade Collector', 'Sentry', 'Shipwright', 'Shipwright', 'Courier', 'Courier'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -32,7 +32,7 @@
     drawBoard($minions);
     ?>
     <p>
-        Peggy Sturdybone gets some diminishing returns if you have a wide board of Pirates. So when she stops being effective buffing your <strong>Blade Collector</strong>, you can replace her with <a class='hoverimage' href='/bgstrategy/minion/?id=109'>Brann</a> and use battlecries like <a class='hoverimage' href='/bgstrategy/minion/?id=325'>Lovesick Balladist</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=361'>Bloodsail Cannoneer</a>. <strong>Tethys</strong> is your endgame minion to really go infinite.
+        Peggy Sturdybone gets some diminishing returns if you have a wide board of Pirates. So when she stops being effective buffing your <strong>Blade Collector</strong>, you can replace her with <a class='hoverimage' href='/bgstrategy/minion/?id=109'>Brann</a> and use battlecries like <a class='hoverimage' href='/bgstrategy/minion/?id=325'>Lovesick Balladist</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=361'>Crow's Nest Sentry</a>. <strong>Tethys</strong> is your endgame minion to really go infinite. To make sure you go infinite and gain a lot of minions from Tethys, you have to buy cards that give you extra gold to spend. Cards such as: <a class="hoverimage" href="/bgstrategy/minion/?id=125">Tavern Tempest</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=193">Shell Collector</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=119">Murozond</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=93">Primalfin Lookout</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=429">Rodeo Performer</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=263">General Drakkasith</a>.
     </p>
 
     <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -52,7 +52,7 @@
     drawBoard($minions);
     ?>
     <p>
-        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build.
+        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</A would really help out in this build.
     </p>
 </div>
 
