@@ -59,14 +59,17 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                 <li><a class="menu-topic" href="/bgstrategy/?show=heroes">&#9654; Hero Strategy</a></li>
                 <li><a class="menu-topic" href="/bgstrategy/?show=minions">&#9654; Minion Strategy</a></li>
                 <li><a class="menu-topic" href="/bgstrategy/?show=spells">&#9654; Spell Strategy</a></li>
+                <li><a class="menu-topic" href="/bgstrategy/?show=buddies">&#9654; Buddy Strategy</a></li>
                 <li><a class="menu-topic" href="/bgcomps/">&#9654; Compositions</a></li>
                 <li><a class="menu-topic" href="/bgbasics/armor.php">&#9654; Hero Armor</a></li>
                 <li><a class="menu-topic" href="/bgcurves/">&#9654; Curves</a></li>
+                <li><a class="menu-topic" href="/bgguides/jeef.php">&#9654; Jeef's guide</a></li>
                 <!--                <li><a class="menu-topic" href="/bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">&#9654; Simulator</a></li>-->
-                <li><a class="menu-topic" href="/bglegends/">&#9654; Tournaments</a></li>
                 <li><a class="menu-topic" href="/bgexternal/">&#9654; Resources</a></li>
                 <!--                <li><a class="menu-topic" href="/bgguides/pocky.php">&#9654; Guide to Improving at BGs</a></li>-->
                 <!--                <li><a class="menu-topic" href="/bgguides/youtube.php">&#9654; Featured YouTube guides</a></li>-->
+                <li><a class="menu-topic" href="/bgbasics/bugs.php">&#9654; Known Bugs</a></li>
+                <li><a class="menu-topic" href="/bglegends/">&#9654; Tournaments</a></li>
                 <li><a class="menu-topic" href="/bgjson/">&#9654; BGJSON</a></li>
                 <?php
                 //                if (!isset($_SESSION['usertag'])) {
@@ -169,9 +172,9 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                                 <li><a href="/bgbasics/">...Definitions</a></li>
                                 <li><a href="/bgcurves/">...Curves</a></li>
                                 <li><a href="/bgbasics/triple_stats.php">...Triple Stats</a></li>
-                                <li><a href="/bgbasics/faq.php">...FAQ</a></li>
                                 <li><a href="/bgbasics/armor.php">...Hero Armor</a></li>
                                 <li><a href="/bgbasics/bugs.php">...Known Bugs</a></li>
+                                <li><a href="/bgbasics/faq.php">...FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -185,10 +188,10 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                                 <li><a href="/bgstrategy/?show=heroes">...Heroes</a></li>
                                 <li><a href="/bgstrategy/?show=minions">...Minions</a></li>
                                 <li><a href="/bgstrategy/?show=spells">...Spells</a></li>
+                                <li><a href="/bgstrategy/?show=buddies">...Buddies</a></li>
                                 <li><a href="/bgstrategy/?show=anomalies">...Anomalies</a></li>
                                 <li><a href="/bgstrategy/?show=quests">...Quests</a></li>
                                 <li><a href="/bgstrategy/?show=rewards">...Rewards</a></li>
-                                <li><a href="/bgstrategy/?show=buddies">...Buddies</a></li>
                                 <li><a href="/bgstrategy/?mode=txt">...All Entities</a></li>
                             </ul>
                         </div>
