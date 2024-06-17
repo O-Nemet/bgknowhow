@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deathscale', 'Yu\'lon', 'Kaly', 'Kaly', 'Brann', 'Drakkisath', 'Rylak'];
+    $board   = ['Deathscale', 'Deathscale', 'Kaly', 'Kaly', 'Brann', 'Drakkisath', 'Rylak'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -25,24 +25,14 @@
         Other important cards: <a class='hoverimage' href='/bgstrategy/spell/?id=27'>Hired Headhunter</a> and <a class='hoverimage' href='/bgstrategy/spell/?id=32'>Dreamer's Embrace</a> will help your build.
     </p>
 
-    <h3 id="poet">Attack Dragon Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Nightbane', 'Amber Guardian', 'Hooktail', 'Poet', 'Hooktail', 'Lubber', 'Smuggler'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        This is to start the build. Eventually, you are going to want another <strong>Nightbane</strong>, use <strong>Poet</strong> to give permanent stats to minions, and to get another <strong>Poet</strong>. If you're unable to use Hooktail or Lubber to gain stats for Nightbane to give, I would suggest using the below build instead.
-    </p>
-
-    <h3 id="tarecgosa">Tarecgosa Buff Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="persistent">Persistent Buff Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Nightbane', 'Poet', 'Poet', 'Promo-Drake', 'Promo-Drake', 'Amber Guardian', 'Rallier'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        <a class='hoverimage' href='/bgstrategy/minion/?id=101'>Tarecgosa</a> also can be used but isn't completely necessary. Once <strong>Amber Guardian</strong> permanently gives minions Divine Shield, you can start replacing it with other cards. Persistent Poet is not a card I would want to triple either. You want to make sure you can give as many minions as possible the permanent stats. Lastly, it's never bad to have more than one Nightbane, so go for that if you're done with Amber Guardian or want to replace Roaring Rallier.
+        <a class='hoverimage' href='/bgstrategy/minion/?id=101'>Tarecgosa</a> also can be used but isn't completely necessary. Once <strong>Amber Guardian</strong> permanently gives minions Divine Shield, you can start replacing it with other cards. Persistent Poet is not a card I would want to triple either. You want to make sure you can give as many minions as possible the permanent stats. Lastly, it's never bad to have more than one <strong>Nightbane</strong>, so go for that if you're done with Amber Guardian or want to replace Roaring Rallier.
         <br><br>
         Also consider <a class='hoverimage' href='/bgstrategy/minion/?id=515'>Hateful Hag</a>, if Undead are available, and you could need a permanent Reborn to win against Scam boards.
     </p>
