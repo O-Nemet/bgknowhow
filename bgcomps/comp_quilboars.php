@@ -1,4 +1,4 @@
-: <?php include_once('../header.php'); ?>
+<?php include_once('../header.php'); ?>
 
 <h2 class="page_title">Standard Compositions: Quilboars</h2>
 <p>
@@ -10,9 +10,6 @@
 <p>
     <a href="/bgstrategy/?show=minions&type=quilboar"><i class="bi bi-box-arrow-up-right"></i> All available Quilboars and Quilboar-associated minions</a>
     <br><br>
-    <!-- general info about QB -->
-</p>
-<p>
     Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="/bgstrategy/minion/?id=328">Prickly Piper</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
     <br><br>
     Due to the gems they have synergies with Mechs and Naga.
@@ -64,7 +61,7 @@
         <br><br>
         Instead of Brann you can also play a <a class="hoverimage" href="/bgstrategy/minion/?id=60">Monstrous Macaw</a> (on position #1 of course).
         <br><br>
-        Once you get a Charlga or <a class='hoverimage' href='/bgstrategy/minion/?id=348'>Bongo Bopper</a>, you can scale the entire build and replace one of these cards with Drakkari Enchanter. If you can only get individual Blood Gems, put them onto strong minions with Divine Shield or Cleave. <strong>Rylak Metalhead</strong> can be replaced by <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (if Murlocs are available) but isn't as effective. Once you have the Blood Gems built, you can use Three Little Quilboars with Titus Rivendare for big stats on your quilboar.
+        Once you get a Charlga or <a class='hoverimage' href='/bgstrategy/minion/?id=348'>Bongo Bopper</a>, you can scale the entire build and replace one of these cards with Drakkari Enchanter. If you can only get individual Blood Gems, put them onto strong minions with Divine Shield or Cleave. <strong>Rylak Metalhead</strong> can be replaced by <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (if Murlocs are available) but isn't as effective. Once you have the Blood Gems buffed, you can use <a class='hoverimage' href='/bgstrategy/minion/?id=545'>Three Lil' Quilboar</a> with Titus Rivendare for big stats on your Quilboar.
     </p>
 </div>
 
