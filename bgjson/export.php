@@ -384,7 +384,7 @@ if ($stmt = $mysqli->prepare("SELECT bgb.id,
                                      bgb.id_playhs,
                                      bgb.id_hpwn,
                                      bgb.flag_active,
-                                     bgb.flag_duos,
+                                     bgb.flag_duos
                                 FROM bg_buddies bgb
 --                               WHERE bgb.flag_active = ?
                             ORDER BY bgb.tier, bgb.name ASC")) {
