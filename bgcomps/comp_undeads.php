@@ -20,7 +20,7 @@
     drawBoard($minions);
     ?>
     <p>
-        Ideally, you want to have Reborn already on Anub'arak through the use of <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> triggered by <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>. Sister Deathwhisper is in here to make sure your minions have enough health to not die from indirect damage. Afterward, you can replace it with <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of Primus</a>, or <a class="hoverimage" href="/bgstrategy/minion/?id=465">Deadstomper</a>.
+        Ideally, you want to have Reborn already on Anub'arak through the use of <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> triggered by <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>. Sister Deathwhisper is in here to make sure your minions have enough health to not die from indirect damage. Afterward, you can replace it with <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of Primus</a>, or <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a>.
     </p>
 
     <h3 id="moroes">Deathrattle Moroes Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -33,7 +33,7 @@
         This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Moroes. Alternatively, you can replace Moroes with Nightbane to gain a lot of attack instead of health.
     </p>
 
-    <h3 id="deathrattle">Deathrattle Stomper Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Mummifier', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Champion of the Primus', 'Acabra'];
     $minions = getMinionsForBoard($board);
