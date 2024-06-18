@@ -289,7 +289,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Gambler', 'Eternal Knight', 'Defense', 'Whirring'];
+        $board   = ['Gambler', 'Eternal Knight', 'Defense', 'Whirring', 'Pen Pal'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -346,7 +346,7 @@ foreach ($spell_count as $temp) {
     </p>
     <div class="comp_wrapper cf">
         <?php
-        $board   = ['Rylak', 'Trigore', 'Skyblazer', 'Stomper', 'Goldrinn'];
+        $board   = ['Rylak', 'Trigore', 'Skyblazer', 'Goldrinn', 'Acabra'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -371,7 +371,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Counter', 'Bassgill', 'Belcher', 'Choral'];
+        $board   = ['Gillmother', 'Counter', 'Bassgill', 'Belcher', 'Choral'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
@@ -396,7 +396,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Chimera', 'Brann', 'Enchanter', 'Titus', 'Greymane\'s Champion', 'Nalaa'];
+        $board   = ['Brann', 'Enchanter', 'Titus', 'Greymane\'s Champion', 'Nalaa', 'Arid'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
