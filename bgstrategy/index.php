@@ -241,11 +241,11 @@ if (!empty($buddy)) {
     if ($show == 'buddies' && $mode == 'gfx') {
         echo "<div class='strategy-images buddies cf'>";
         foreach ($buddies as $buddy) {
-            echo "<div><a href='" . $buddy->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$buddy->isActive ? 'inactive-img' : '') . "'><br><span>$buddy->name<br>Hero: " . $buddy->hero . "</span>";
+            echo "<a href='" . $buddy->websites->bgknowhow . "'><div class='image-container'><img src='" . PICTURE_LOCAL_BUDDY . $buddy->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$buddy->isActive ? 'inactive-img' : '') . "'><br><span>$buddy->name<br>Hero: " . $buddy->hero . "</span>";
             if ($buddy->isDuosOnly) {
                 echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
             }
-            echo "</a></div>";
+            echo "</div></a>";
         }
         echo "</div>";
     } else if ($show == 'buddies' || $show == 'all') {

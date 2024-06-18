@@ -2958,6 +2958,11 @@ body.bgstrategy .bgstrategy > a {
     right: 16px;
 }
 
+.strategy-images.spells .overlay-duo {
+    top: 29px;
+    right: 16px;
+}
+
 .strategy-images.minions {
     margin-left: 70px;
     /*margin-bottom: 100px;*/
