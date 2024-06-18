@@ -8,6 +8,7 @@ include_once('../header.php');
         Here is a list of currently known/active bugs with gameplay impact in Hearthstone Battlegrounds:
     </p>
     <ul>
+        <li><a class="hoverimage" href="/bgstrategy/minion/?id=507">Zilliax: Bonding Module</a> that is goldenized in the shop can't be Magnetized.</li>
         <li><a class="hoverimage" href="/bgstrategy/minion/?id=542">Fairy Gillmother</a> can generate herself.</li>
         <li><a class="hoverimage" href="/bgstrategy/spell/?id=30">Planar Telescope</a> gives nothing if your most common type is not one of the minion types in the game and you're not at Tier 6 (where there is an "All" type minion).</li>
         <li>When you have multiple <a class="hoverimage" href="/bgstrategy/minion/?id=475">Timecap'n Hooktail</a> on your board, minions with buff effects triggered by it (like <a class="hoverimage" href="/bgstrategy/minion/?id=42">Whelp Smuggler</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=535">Defiant Shipwright</a>) will not proc for each instance, but only once.</li>
