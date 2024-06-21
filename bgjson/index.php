@@ -131,6 +131,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>21.06.2024 - Added BG armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2961-patch-notes/130456" target="_blank">29.6.1</a> patch notes</li>
         <li>18.06.2024 - Added flag isDuosOnly to the buddy dataset.</li>
         <li>17.06.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24061012/buddies-are-coming-back" target="_blank">29.6.0</a> patch notes (or rather the patch preview).</li>
         <li>24.05.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24077480/29-4-2-patch-notes" target="_blank">29.4.2</a> patch notes.</li>
