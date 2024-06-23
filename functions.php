@@ -271,7 +271,7 @@ function getEntityData($selectedId, $unitType)
                                      bgb.artist,
                                      bgh.id AS heroId,
                                      bgh.name AS heroName,
-                                     bgh.blizzardId AS blizzardIdHero
+                                     bgh.id_blizzard AS blizzardIdHero
                                 FROM bg_buddies bgb
                            LEFT JOIN bg_heroes bgh ON bgb.hero_id = bgh.id 
                                WHERE bgb.id = ?
