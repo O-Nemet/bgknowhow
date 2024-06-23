@@ -17,7 +17,7 @@ if ($selectedStrat && $selectedVote) {
 if ($selectedId) {
     $stmt = getEntityData($selectedId, $unitType);
 
-    $stmt->bind_result($selectedId, $name, $type, $text, $textGolden, $tier, $attack, $health, $blizzardId, $isActive, $artist);
+    $stmt->bind_result($selectedId, $name, $type, $text, $textGolden, $tier, $attack, $health, $blizzardId, $isActive, $artist, $heroId, $heroName, $blizzardIdHero);
 
     $stmt->fetch()
     ?>
@@ -34,9 +34,11 @@ if ($selectedId) {
             <div class="container"><span class="card_attack card_health"><?= $health ?></span>
                 <img class="img_health" src="<?= PICTURE_LOCAL ?>icons/health.png">
             </div>
+            <div class="container">
+                <a href="/bgstrategy/hero/?id=<?= $heroId ?>"><img class="img_health" src="<?= PICTURE_LOCAL_HP . $blizzardIdHero . PICTURE_LOCAL_RENDER_SUFFIX_80 ?> alt="<?= $heroName ?>"></a>
+            </div>
             <br><br>
-            <?= $artist ? 'Artist:' : '' ?> <span class="price_font"><?= $artist ?? '' ?></span><br><br>
-            <!--                --><?//= $flavor ? 'Flavor:' : '' ?><!--<span class="price_font" style="text-align: left; font-style: italic">--><?//= $flavor ?? '' ?><!--</span><br>-->
+            <?= $artist ? 'Artist:' : '' ?><span class="price_font"><?= $artist ?? '' ?></span><br><br>
         </div>
         <div class="card_picture">
             <img src="<?= PICTURE_LOCAL_BUDDY . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $text ?>">

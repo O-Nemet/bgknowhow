@@ -259,8 +259,12 @@ function getEntityData($selectedId, $unitType)
                                      bgb.health,
                                      bgb.id_blizzard,
                                      bgb.flag_active,
-                                     bgb.artist
+                                     bgb.artist,
+                                     bgh.id AS heroId,
+                                     bgh.name AS heroName,
+                                     bgh.blizzardId AS blizzardIdHero
                                 FROM bg_buddies bgb
+                           LEFT JOIN bg_heroes bgh ON bgb.hero_id = bgh.id 
                                WHERE bgb.id = ?
                                LIMIT 1")) {
             $stmt->bind_param("i", $selectedId);

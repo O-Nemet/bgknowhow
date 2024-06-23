@@ -63,7 +63,7 @@ if ($selectedId) {
         <div class="card_buddy">
             <a href="/bgstrategy/buddy/?id=<?= $buddyId ?>"><img src="<?= PICTURE_LOCAL_BUDDY . $blizzardIdBuddy . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="Buddy: <?= $buddyName ?>"></a>
         </div>
-        <div class="card_flavor">
+        <div class="card_flavor flavor_hero">
             <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font"><?= $flavor ?? '' ?></span>
         </div>
     </div>
