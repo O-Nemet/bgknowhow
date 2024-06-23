@@ -35,7 +35,7 @@ if ($selectedId) {
                 <img class="img_health" src="<?= PICTURE_LOCAL ?>icons/health.png">
             </div>
             <div class="container">
-                <a href="/bgstrategy/hero/?id=<?= $heroId ?>"><img src="<?= PICTURE_LOCAL_HERO . $blizzardIdHero . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $heroName ?>"></a>
+                <a href="/bgstrategy/hero/?id=<?= $heroId ?>"><img class="img_hero" src="<?= PICTURE_LOCAL_HERO . $blizzardIdHero . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $heroName ?>"></a>
             </div>
             <br><br>
             <?= $artist ? 'Artist:' : '' ?><span class="price_font"><?= $artist ?? '' ?></span><br><br>

@@ -1528,7 +1528,8 @@ addthis_toolbox {
     float: none;
 }
 
-.card_info .container, #hero_armor_tiers .container {
+.card_info .container,
+#hero_armor_tiers .container {
     position: relative;
     display: inline-block;
 }
@@ -1545,6 +1546,10 @@ addthis_toolbox {
 
 .card_info .img_armor {
     width: 100px;
+}
+
+.card_info .img_hero {
+    margin-left: -34px
 }
 
 .card_info .card_attack, #hero_armor_tiers .card_attack {
@@ -3736,6 +3741,7 @@ body.bgstrategy .bgstrategy > a {
     .strategy-wrapper {
         width: fit-content;
     }
+
     .strategy-item {
         /*width: fit-content;*/
         width: 91%;
