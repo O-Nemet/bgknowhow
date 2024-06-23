@@ -1,15 +1,16 @@
 <?php
-$subDomain = explode('.', parse_url($url))[0];
-$isSAT     = $subDomain === 'sat';
+//$subDomain = explode('.', parse_url($url))[0];
+//$isSAT     = $subDomain === 'sat';
 
 error_reporting(E_ALL);
 ini_set('log_errors', 'On');
+ini_set('display_errors', 'On');
 
-if ($isSAT) {
-    ini_set('display_errors', 'On');
-} else {
-    ini_set('display_errors', 'Off');
-}
+//if ($isSAT) {
+//    ini_set('display_errors', 'On');
+//} else {
+//    ini_set('display_errors', 'Off');
+//}
 
 require_once('modules/blizzard-api-oauth/Client.php');
 
