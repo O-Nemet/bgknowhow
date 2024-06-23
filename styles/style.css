@@ -1610,7 +1610,7 @@ addthis_toolbox {
     position: absolute;
     right: 20px;
     width: 300px;
-    margin-top: 340px;
+    margin-top: 500px;
     color: whitesmoke;
     text-align: justify;
     font-size: 20px;
@@ -1629,6 +1629,13 @@ addthis_toolbox {
     float: none;
     line-height: normal;
     /*letter-spacing: 0.2px;*/
+}
+
+.card_buddy {
+    position: absolute;
+    right: 20px;
+    width: 300px;
+    margin-top: 340px;
 }
 
 .strategy_input {
@@ -3565,7 +3572,7 @@ body.bgstrategy .bgstrategy > a {
 
     header h1 {
         margin-top: 21px;
-        font-size: 35px;
+        font-size: 32px;
     }
 
     header h3 {
@@ -3635,7 +3642,7 @@ body.bgstrategy .bgstrategy > a {
     }
 
     .card_wrapper .cardname, .card_wrapper .card_picture_big, .card_wrapper .card_picture_big2,
-    .card_wrapper .card_info, .card_wrapper .card_flavor {
+    .card_wrapper .card_info, .card_wrapper .card_flavor, .card_wrapper .card_buddy {
         display: none;
     }
 
