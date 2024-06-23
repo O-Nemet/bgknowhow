@@ -17,7 +17,7 @@ if ($selectedStrat && $selectedVote) {
 if ($selectedId) {
     $stmt = getEntityData($selectedId, $unitType);
 
-    $stmt->bind_result($selectedId, $name, $nameShort, $health, $armorTier, $armor, $armorMMR, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive, $artist, $flavor);
+    $stmt->bind_result($selectedId, $name, $nameShort, $health, $armorTier, $armor, $armorMMR, $armorDuos, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly, $artist, $flavor);
 
     $stmt->fetch();
     ?>
@@ -44,6 +44,10 @@ if ($selectedId) {
                 <?php
             }
             ?>
+            <div class="container" title="Armor in Duos mode">
+                <span class="card_attack" style="padding-left: 1px;"><?= $armorDuos ?></span>
+                <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor.webp" alt="Armor icon">
+            </div>
             <br><br><br>
             <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span>
             <br><br>
