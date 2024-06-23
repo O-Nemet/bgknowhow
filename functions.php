@@ -12,6 +12,14 @@ if (isset($client_id)) {
 
 $lastURL = '';
 
+const FILE_HEROES    = 'https://bgknowhow.com/bgjson/output/bg_heroes_all.json';
+const FILE_MINIONS   = 'https://bgknowhow.com/bgjson/output/bg_minions_all.json';
+const FILE_ANOMALIES = 'https://bgknowhow.com/bgjson/output/bg_anomalies_all.json';
+const FILE_SPELLS    = 'https://bgknowhow.com/bgjson/output/bg_spells_all.json';
+const FILE_BUDDIES   = 'https://bgknowhow.com/bgjson/output/bg_buddies_all.json';
+const FILE_QUESTS    = 'https://bgknowhow.com/bgjson/output/bg_quests_all.json';
+const FILE_REWARDS   = 'https://bgknowhow.com/bgjson/output/bg_rewards_all.json';
+
 //const IMG_PATH = '/images/';
 const IMG_PATH = 'https://bgknowhow.com/images/';
 
@@ -48,13 +56,13 @@ if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
     $protocol = 'http://';
 }
 
-$tempHeroes    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_heroes_all.json'));
-$tempMinions   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_minions_all.json'));
-$tempAnomalies = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_anomalies_all.json'));
-$tempSpells    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_spells_all.json'));
-$tempBuddies   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_buddies_all.json'));
-$tempQuests    = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_quests_all.json'));
-$tempRewards   = json_decode(file_get_contents('https://bgknowhow.com/bgjson/output/bg_rewards_all.json'));
+$tempHeroes    = json_decode(file_get_contents(FILE_HEROES));
+$tempMinions   = json_decode(file_get_contents(FILE_MINIONS));
+$tempAnomalies = json_decode(file_get_contents(FILE_ANOMALIES));
+$tempSpells    = json_decode(file_get_contents(FILE_SPELLS));
+$tempBuddies   = json_decode(file_get_contents(FILE_BUDDIES));
+$tempQuests    = json_decode(file_get_contents(FILE_QUESTS));
+$tempRewards   = json_decode(file_get_contents(FILE_REWARDS));
 
 // reference table for image tooltips on hover (provided to JS)
 $hoverImages = '';
@@ -220,11 +228,13 @@ function getEntityData($selectedId, $unitType)
                                      bgh.armor_tier,
                                      bgh.armor,
                                      bgh.armor_mmr,
+                                     bgh.armor_duos,
                                      bgh.id_blizzard,
                                      bgh.hp_cost,
                                      bgh.hp_text,
                                      bgh.hp_id_blizzard,
-                                     bgh.flag_active,   
+                                     bgh.flag_active,
+                                     bgh.flag_duos,
                                      bgh.artist,
                                      bgh.flavor
                                 FROM bg_heroes bgh
