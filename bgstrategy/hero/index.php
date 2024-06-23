@@ -17,7 +17,7 @@ if ($selectedStrat && $selectedVote) {
 if ($selectedId) {
     $stmt = getEntityData($selectedId, $unitType);
 
-    $stmt->bind_result($selectedId, $name, $nameShort, $health, $armorTier, $armor, $armorMMR, $armorDuos, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly, $artist, $flavor);
+    $stmt->bind_result($selectedId, $name, $nameShort, $health, $armorTier, $armor, $armorMMR, $armorDuos, $blizzardId, $hpCost, $hpText, $blizzardIdHp, $isActive, $isDuosOnly, $artist, $flavor, $buddyId, $buddyName);
 
     $stmt->fetch();
     ?>
@@ -46,7 +46,7 @@ if ($selectedId) {
             ?>
             <div class="container" title="Armor in Duos mode">
                 <span class="card_attack" style="padding-left: 1px;"><?= $armorDuos ?></span>
-                <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/armor.webp" alt="Armor icon">
+                <img class="img_armor" src="<?= PICTURE_LOCAL ?>icons/duos.webp" alt="Armor icon">
             </div>
             <br><br><br>
             <?= $artist ? 'Artist:' : '' ?><br><span class="price_font"><?= $artist ?? '' ?></span>
@@ -59,6 +59,10 @@ if ($selectedId) {
         </div>
         <div class="card_picture">
             <img src="<?= PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $hpText ?>">
+        </div>
+        <div class="card_picture">
+            Buddy: <a href="/bgstrategy/buddy/?id=<?= $buddyId ?>"><?= $buddyName ?></a>
+            <!--            <img src="--><?php //= PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80 ?><!--" alt="--><?php //= $hpText ?><!--">-->
         </div>
         <div class="card_flavor">
             <?= $flavor ? 'Flavor:' : '' ?><br><span class="price_font"><?= $flavor ?? '' ?></span>
