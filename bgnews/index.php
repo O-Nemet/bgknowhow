@@ -4,6 +4,24 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
+    <h3 id="patch29.6.2preview">26.06.2024 - First adjustments for the Buddy meta incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        The official HS account on X has posted a <a href="https://x.com/PlayHearthstone/status/1805632062306623573" target="_blank">preview of the upcoming changes</a>, which will reach the live servers later this week (Thursday most likely). The two most important changes seem to be the removal of the battlecry enabler <a class="hoverimage" href="/bgstrategy/minion/?id=479">Draconic Deathscale</a> and the long awaited nerf to <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a>.
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch296_minions.jpg"><br>
+        Buffs: Electric Synthesizer, Tarecgosa, Roaring Rallier; Whelp Smuggler; Moon Bacon Jazzer; and Boon of Beetles<br>
+        Nerfs: Alexstrasza (Hero), Onyxia (Hero), Trigore the Lasher, Iridescent Skyblazer, and Ghoul-acabra
+        <br><br>
+        Returning to the game: <a class="hoverimage" href="/bgstrategy/minion/?id=380">Hunter of Gatherers</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=298">Gem Smuggler</a>
+        Removed from the game: <a class="hoverimage" href="/bgstrategy/minion/?id=479">Draconic Deathscale</a>
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch2962_buddies.jpg"><br>
+        Buffs to Buddies: George the Fallen, Murloc Holmes, Edwin VanCleef, Scabbs Cutterbutter, Varden Dawngrasp, Rokara, Galewing, Heistbaron Togwaggle, Mutanus the Devourer, Xyrella, Trade Prince Gallywix, Rock Master Voone, Fungalmancer Flurgl, Thorim Stormlord, and Dancin’ Deryl
+        <br><br>
+        Nerfs to Buddies: Alexstrasza, Queen Azshara, Cap’n Hoggarr, Yogg-Saron Hope’s End, Overlord Saurfang, Lich Baz’hial, Maiev Shadowsong, Doctor Holli’dae, Death Speaker Blackthorn, Snake Eyes, Chenvaala, Rakanishu, Greybough, Elise Starseeker, Vol’jin, Reno Jackson, Sneed, Professor Putricide, Ini Stormcoil, A. F. Kay, The Curator, and Madam Goya
+    </p>
+    <br>
+
     <h3 id="patch29.6.0">18.06.2024 - Patch 29.6.0 already live! <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         In an unexpected move Blizzard decided to release the patch, bringing buddies back into the Battlegrounds, today. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24061012/buddies-are-coming-back" target="_blank">patch preview</a> for all the changes and the official <a href="https://hearthstone.blizzard.com/en-us/news/24108513/29-6-patch-notes" target="_blank">patch notes</a> for an additional list of bugfixes.
