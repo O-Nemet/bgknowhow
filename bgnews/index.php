@@ -12,7 +12,7 @@ include_once("../header.php");
         Buffs: Electric Synthesizer, Tarecgosa, Roaring Rallier; Whelp Smuggler; Moon Bacon Jazzer; and Boon of Beetles<br>
         Nerfs: Alexstrasza (Hero), Onyxia (Hero), Trigore the Lasher, Iridescent Skyblazer, and Ghoul-acabra
         <br><br>
-        Returning to the game: <a class="hoverimage" href="/bgstrategy/minion/?id=380">Hunter of Gatherers</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=298">Gem Smuggler</a>
+        Returning to the game: <a class="hoverimage" href="/bgstrategy/minion/?id=380">Hunter of Gatherers</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=298">Gem Smuggler</a><br>
         Removed from the game: <a class="hoverimage" href="/bgstrategy/minion/?id=479">Draconic Deathscale</a>
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch2962_buddies.jpg"><br>
