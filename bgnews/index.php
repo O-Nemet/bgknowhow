@@ -8,14 +8,16 @@ include_once("../header.php");
     <p>
         The official HS account on X has posted a <a href="https://x.com/PlayHearthstone/status/1805632062306623573" target="_blank">preview of the upcoming changes</a>, which will reach the live servers later this week (Thursday most likely). The two most important changes seem to be the removal of the battlecry enabler <a class="hoverimage" href="/bgstrategy/minion/?id=479">Draconic Deathscale</a> and the long awaited nerf to <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a>.
         <br><br>
-        <img src="<?= PICTURE_LOCAL ?>news/patch296_minions.jpg"><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch2962_minions.jpg">
+        <br><br>
         Buffs: Electric Synthesizer, Tarecgosa, Roaring Rallier; Whelp Smuggler; Moon Bacon Jazzer; and Boon of Beetles<br>
         Nerfs: Alexstrasza (Hero), Onyxia (Hero), Trigore the Lasher, Iridescent Skyblazer, and Ghoul-acabra
         <br><br>
         Returning to the game: <a class="hoverimage" href="/bgstrategy/minion/?id=380">Hunter of Gatherers</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=298">Gem Smuggler</a><br>
         Removed from the game: <a class="hoverimage" href="/bgstrategy/minion/?id=479">Draconic Deathscale</a>
         <br><br>
-        <img src="<?= PICTURE_LOCAL ?>news/patch2962_buddies.jpg"><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch2962_buddies.jpg">
+        <br><br>
         Buffs to Buddies: George the Fallen, Murloc Holmes, Edwin VanCleef, Scabbs Cutterbutter, Varden Dawngrasp, Rokara, Galewing, Heistbaron Togwaggle, Mutanus the Devourer, Xyrella, Trade Prince Gallywix, Rock Master Voone, Fungalmancer Flurgl, Thorim Stormlord, and Dancin’ Deryl
         <br><br>
         Nerfs to Buddies: Alexstrasza, Queen Azshara, Cap’n Hoggarr, Yogg-Saron Hope’s End, Overlord Saurfang, Lich Baz’hial, Maiev Shadowsong, Doctor Holli’dae, Death Speaker Blackthorn, Snake Eyes, Chenvaala, Rakanishu, Greybough, Elise Starseeker, Vol’jin, Reno Jackson, Sneed, Professor Putricide, Ini Stormcoil, A. F. Kay, The Curator, and Madam Goya
