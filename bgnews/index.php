@@ -4,6 +4,14 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
+    <h3 id="patch29.6.2">27.06.2024 - Patch 29.6.2 online <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Check out the official <a href="https://hearthstone.blizzard.com/en-us/news/24108515/29-6-2-patch-notes" target="_blank">patch notes</a> for all the adjustments to buddies (lots of tier changes), minions (mostly Beasts and Dragons) and a couple of heroes (the dragon ladies).
+        <br><br>
+        <a class="hoverimage" href="/bgstrategy/hero/?id=105">Madam Goya</a> has been added back into the Duos game, only after her buddy got limited to non-Buddy minions.
+    </p>
+    <br>
+
     <h3 id="patch29.6.2preview">26.06.2024 - First adjustments for the Buddy meta incoming <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         The official HS account on X has posted a <a href="https://x.com/PlayHearthstone/status/1805632062306623573" target="_blank">preview of the upcoming changes</a>, which will reach the live servers later this week (Thursday most likely). The two most important changes seem to be the removal of the battlecry enabler <a class="hoverimage" href="/bgstrategy/minion/?id=479">Draconic Deathscale</a> and the long awaited nerf to <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a>.
