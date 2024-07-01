@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deathscale', 'Deathscale', 'Kaly', 'Kaly', 'Brann', 'Drakkisath', 'Rylak'];
+    $board   = ['Kaly', 'Kaly', 'Hunter', 'Hunter', 'Brann', 'Drakkisath', 'Rylak'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
