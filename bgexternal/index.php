@@ -26,6 +26,16 @@ include_once('../header.php');
         </p>
     </div>
     <div>
+        <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=battlegrounds" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards">
+            <span>BG Leaderboard</span>
+        </a>
+        <p>
+            The official Blizzard leaderboards for each of the three regions (US, EU, AP).<br><br>
+            Qualification for the Lobby Legends tourneys were based on these ladders.
+        </p>
+    </div>
+    <div>
         <a href="https://www.bgcurvesheet.com/" target="_blank">
             <img src="<?= PICTURE_LOCAL ?>misc/website_bgcheatsheet.jpg" alt="Battlegrounds CheatSheet">
             <span>BG Curve Sheet</span>
@@ -33,16 +43,6 @@ include_once('../header.php');
         <p>
             Google Docs listing all heroes, their main curve and minion type benefits.<br><br>
             Also featuring a cheat sheet for all BG curves.<br>
-        </p>
-    </div>
-    <div>
-        <a href="https://hearthstone.blizzard.com/community/leaderboards?region=US&leaderboardId=battlegrounds" target="_blank">
-            <img src="<?= PICTURE_LOCAL ?>misc/website_leaderboard.png" alt="Battleground Leaderboards">
-            <span>BG Leaderboard</span>
-        </a>
-        <p>
-            The official Blizzard leaderboards for each of the three regions (US, EU, AP).<br><br>
-            Qualification for the Lobby Legends tourneys are based on these ladders.
         </p>
     </div>
     <div>
@@ -72,6 +72,15 @@ include_once('../header.php');
         </a>
         <p>
             A plugin for HS Deck Tracker, displaying the MMR ranking of all the other players in your current game.
+        </p>
+    </div>
+    <div>
+        <a href="https://hsbgguide.com/" target="_blank">
+            <img src="<?= PICTURE_LOCAL ?>misc/website_hsbg.png" alt="HSBG Guide">
+            <span>HSBG Guide</span>
+        </a>
+        <p>
+            A website to display Jeef's guides for comps and buddies.
         </p>
     </div>
     <div>
