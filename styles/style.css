@@ -2791,6 +2791,7 @@ body.bgstrategy .bgstrategy > a {
     height: 33px;
     font-size: 30px;
     border: 2px solid black;
+    padding-top: 2px;
     text-align: center;
     background: black;
     color: gold;
