@@ -22,6 +22,7 @@ include_once('../header.php');
     <ul>
         <li>
             <del>When you have multiple <a class="hoverimage" href="/bgstrategy/minion/?id=475">Timecap'n Hooktail</a> on your board, minions with buff effects triggered by it (like <a class="hoverimage" href="/bgstrategy/minion/?id=42">Whelp Smuggler</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=535">Defiant Shipwright</a>) will not proc for each instance, but only once.</del>
+            (fixed in 30.0.0)
         </li>
         <li>
             <del><a class="hoverimage" href="/bgstrategy/minion/?id=507">Zilliax: Bonding Module</a> that is goldenized in the shop can't be Magnetized.</del>
