@@ -6,10 +6,12 @@ include_once("../header.php");
 
     <h3 id="patch30.0.0">16.07.2024 - Patch 30.0 and a hotfix <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        While the official <a href="https://news.blizzard.com/en-us/hearthstone/24115553/30-0-patch-notes" target="_blank">patch notes</a> did not bring much news for BG players, other than bringin back the buddy spell <a class="hoverimage" href="/bgstrategy/spell/?id=34">Buddy Up</a> and fixing some BG bugs, an additional hotfix was added, outright banning some heroes:
+        While the official <a href="https://news.blizzard.com/en-us/hearthstone/24115553/30-0-patch-notes" target="_blank">patch notes</a> did not deliver much changes for BG players, other than bringing back the buddy spell <a class="hoverimage" href="/bgstrategy/spell/?id=34">Buddy Up</a> (reducing its gold cost to 3) and fixing some BG bugs, an additional hotfix was added, outright banning some heroes:
         <br><br>
-        - Alexstrasza, Queen Azshara, Millhouse Manastorm, and Cap'n Hoggarr have been temporarily removed from the Hero Pool for balance reasons.<br>
-        - Madam Goya and Sylvanas Windrunner have been temporarily removed from the Duos Hero Pool for balance reasons.
+        * Alexstrasza, Queen Azshara, Millhouse Manastorm, and Cap'n Hoggarr have been temporarily removed from the Hero Pool for balance reasons.<br>
+        * Madam Goya and Sylvanas Windrunner have been temporarily removed from the Duos Hero Pool for balance reasons.
+        <br><br>
+        With the current BG season most likely ending in around 5 weeks (the Battle Pass is listed as available only until August 20), we can expect one balance patch aimed at Battlegrounds, which should bring these heroes back into the game.
     </p>
     <br>
 
