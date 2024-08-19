@@ -10,5 +10,6 @@
 /images/minions/*_render.png
 /images/rewards/*_render.png
 /images/spells/*_render.png
+/images/trinkets/*_render.png
 /images/quests/*_render.png
 *.csv

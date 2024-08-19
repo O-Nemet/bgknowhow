@@ -878,6 +878,110 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
     echo 'Spells select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
 }
 
+// generate trinkets files
+if ($stmt = $mysqli->prepare("SELECT bgt.id,
+                                     bgt.name,
+                                     bgt.turn,
+                                     bgt.cost,
+                                     bgt.text,
+                                     bgt.id_blizzard,
+                                     bgt.id_playhs,
+                                     bgt.id_hpwn,
+                                     bgt.flag_active,
+                                     bgt.flag_duos
+                                FROM bg_trinkets bgt
+     --                          WHERE bgh.flag_active = ?
+                            ORDER BY bgt.tier, bgt.cost ASC")) {
+    #$stmt->bind_param("i", $getActiveOnly);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($id, $name, $tier, $cost, $text, $blizzardId, $playhsId, $hpwnId, $isActive, $isDuosOnly);
+
+    $row_count = $stmt->num_rows;
+
+    $csvHeader             =
+        'Name' . CSV_SEPARATOR .
+        'Turn' . CSV_SEPARATOR .
+        'Cost' . CSV_SEPARATOR .
+        'Text' . CSV_SEPARATOR .
+        'Blizzard ID' . CSV_SEPARATOR .
+        'Picture link' . CSV_SEPARATOR .
+        'Active' . CSV_SEPARATOR .
+        'Duos only' . PHP_EOL;
+    $csvDataTrinkets       = $csvHeader;
+    $csvDataTrinketsActive = $csvHeader;
+    $csvData               = '';
+
+    // json metadata
+    $trinkets['meta']['date']          = date("Y-m-d");
+    $trinkets['meta']['version']       = VERSION;
+    $trinketsActive['meta']['date']    = date("Y-m-d");
+    $trinketsActive['meta']['version'] = VERSION;
+
+    $i = 0;
+    $j = 0;
+    while ($stmt->fetch()) {
+        $csvData =
+            $name . CSV_SEPARATOR .
+            $turn . CSV_SEPARATOR .
+            $cost . CSV_SEPARATOR .
+            (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
+            $blizzardId . CSV_SEPARATOR .
+            PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
+            (bool)$isActive . CSV_SEPARATOR .
+            (bool)$isDuosOnly . PHP_EOL;
+
+        $csvDataTrinkets .= $csvData;
+
+        $trinkets['data'][$i]['name']    = $name;
+        $trinkets['data'][$i]['turn']    = $turn;
+        $trinkets['data'][$i]['cost']    = $cost;
+        $trinkets['data'][$i]['text']    = $text;
+        $trinkets['data'][$i]['id']      = $blizzardId;
+        $trinkets['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
+//        $trinkets['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
+        $trinkets['data'][$i]['websites']['blizzard']  = ($playhsId ? URL_PHS . $playhsId : null);
+        $trinkets['data'][$i]['websites']['bgknowhow'] = URL_BKH . 'spell/?id=' . $id;
+        $trinkets['data'][$i]['websites']['wiki']      = URL_HSF . str_replace(' ', '_', $name);
+        $trinkets['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
+        $trinkets['data'][$i]['isActive']              = (bool)$isActive;
+        $trinkets['data'][$i]['isDuosOnly']            = (bool)$isDuosOnly;
+
+        if ($isActive) {
+            $csvDataTrinketsActive      .= $csvData;
+            $trinketsActive['data'][$j] = $trinkets['data'][$i];
+
+            $j++;
+        }
+
+        $i++;
+    }
+
+    $stmt->free_result();
+    $stmt->close();
+
+    $csvFile = 'output/bg_trinkets_all.csv';
+    file_put_contents($csvFile, $csvDataTrinkets);
+    echo 'Written file ' . $csvFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $csvFile = 'output/bg_trinkets_active.csv';
+    file_put_contents($csvFile, $csvDataTrinketsActive);
+    echo 'Written file ' . $csvFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+    $jsonFile = 'output/bg_trinkets_all.json';
+    $jsonData = json_encode($trinkets);
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $i . ' entries.<br>' . PHP_EOL;
+
+    $jsonData = json_encode($trinketsActive);
+    $jsonFile = 'output/bg_trinkets_active.json';
+    file_put_contents($jsonFile, $jsonData);
+    echo 'Written file ' . $jsonFile . ' with ' . $j . ' entries.<br>' . PHP_EOL;
+
+} else {
+    echo 'Trinkets select failed: (' . $mysqli->errno . ') ' . $mysqli->error . '<br>';
+}
+
 
 // json metadata
 $allEntities['meta']['date']    = date("Y-m-d");
@@ -898,6 +1002,7 @@ $allEntities['data']['quests']    = $quests['data'];
 $allEntities['data']['rewards']   = $rewards['data'];
 $allEntities['data']['anomalies'] = $anomalies['data'];
 $allEntities['data']['spells']    = $spells['data'];
+$allEntities['data']['trinkets']  = $trinkets['data'];
 
 $jsonFile = 'output/bg_entities_all.json';
 $jsonData = json_encode($allEntities);
@@ -915,6 +1020,7 @@ unset($questsActive['meta']);
 unset($rewardsActive['meta']);
 unset($anomaliesActive['meta']);
 unset($spellsActive['meta']);
+unset($trinketsActive['meta']);
 
 $allEntitiesActive['data']['heroes']  = $heroesActive['data'];
 $allEntitiesActive['data']['minions'] = $minionsActive['data'];
@@ -923,6 +1029,7 @@ $allEntitiesActive['data']['minions'] = $minionsActive['data'];
 @$allEntitiesActive['data']['rewards'] = $rewardsActive['data'];
 @$allEntitiesActive['data']['anomalies'] = $anomaliesActive['data'];
 @$allEntitiesActive['data']['spells'] = $spellsActive['data'];
+@$allEntitiesActive['data']['trinkets'] = $trinketsActive['data'];
 
 $jsonFile = 'output/bg_entities_active.json';
 $jsonData = json_encode($allEntitiesActive);

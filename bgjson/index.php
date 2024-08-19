@@ -47,11 +47,12 @@ include_once('../header.php');
         <tr>
             <td><a href="/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
             <td><a href="/bgjson/output/bg_minions_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Minions</a></td>
-            <td><a href="/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>
+            <td><a href="/bgjson/output/bg_spells_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Spells</a></td>
+            <!--            <td><a href="/bgjson/output/bg_buddies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>-->
-            <td><a href="/bgjson/output/bg_spells_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Spells</a></td>
+            <td><a href="/bgjson/output/bg_trinkets_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Trinkets</a></td>
         </tr>
         </tbody>
     </table>
@@ -62,21 +63,22 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="7">JSON format (all)</th>
+            <th colspan="8">JSON format (all)</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td colspan="7"><a href="/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All Battlegrounds Entities</a></td>
+            <td colspan="8"><a href="/bgjson/output/bg_entities_all.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> All Battlegrounds Entities</a></td>
         </tr>
         <tr>
             <td><a href="/bgjson/output/bg_heroes_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Heroes</a></td>
             <td><a href="/bgjson/output/bg_minions_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Minions</a></td>
+            <td><a href="/bgjson/output/bg_spells_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Spells</a></td>
             <td><a href="/bgjson/output/bg_buddies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Buddies</a></td>
             <td><a href="/bgjson/output/bg_quests_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Quests</a></td>
             <td><a href="/bgjson/output/bg_rewards_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Rewards</a></td>
             <td><a href="/bgjson/output/bg_anomalies_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Anomalies</a></td>
-            <td><a href="/bgjson/output/bg_spells_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Spells</a></td>
+            <td><a href="/bgjson/output/bg_trinkets_all.json"><i class="bi bi-file-earmark-arrow-down"></i> All Trinkets</a></td>
         </tr>
         </tbody>
     </table>
@@ -94,11 +96,12 @@ include_once('../header.php');
         <tr>
             <td><a href="/bgjson/output/bg_heroes_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
             <td><a href="/bgjson/output/bg_minions_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Minions</a></td>
-            <td><a href="/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>
+            <td><a href="/bgjson/output/bg_spells_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Spells</a></td>
+            <!--            <td><a href="/bgjson/output/bg_buddies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Buddies</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>-->
-            <td><a href="/bgjson/output/bg_spells_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Spells</a></td>
+            <td><a href="/bgjson/output/bg_trinkets_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Trinkets</a></td>
         </tr>
         </tbody>
     </table>
@@ -109,18 +112,19 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="7">CSV format (all)</th>
+            <th colspan="8">CSV format (all)</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td><a href="/bgjson/output/bg_heroes_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Heroes</a></td>
             <td><a href="/bgjson/output/bg_minions_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Minions</a></td>
+            <td><a href="/bgjson/output/bg_spells_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Spells</a></td>
             <td><a href="/bgjson/output/bg_buddies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Buddies</a></td>
             <td><a href="/bgjson/output/bg_quests_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Quests</a></td>
             <td><a href="/bgjson/output/bg_rewards_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Rewards</a></td>
             <td><a href="/bgjson/output/bg_anomalies_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Anomalies</a></td>
-            <td><a href="/bgjson/output/bg_spells_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Spells</a></td>
+            <td><a href="/bgjson/output/bg_trinkets_all.csv"><i class="bi bi-file-earmark-arrow-down"></i> All Trinkets</a></td>
         </tr>
         </tbody>
     </table>
@@ -131,6 +135,9 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>20.08.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes" target="_blank">30.2.0</a> patch notes</li>
+        <li>09.08.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24125212/30-0-3-patch-notes" target="_blank">30.0.3</a> patch notes</li>
+        <li>23.07.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3001-hotfix-patch/131943" target="_blank">30.0.1</a> patch notes</li>
         <li>27.06.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24108515/29-6-2-patch-notes" target="_blank">29.6.2</a> patch notes</li>
         <li>21.06.2024 - Added BG armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2961-patch-notes/130456" target="_blank">29.6.1</a> patch notes</li>
         <li>18.06.2024 - Added flag isDuosOnly to the buddy dataset.</li>

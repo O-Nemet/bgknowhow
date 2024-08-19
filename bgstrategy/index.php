@@ -375,6 +375,49 @@ if (!empty($buddy)) {
         <?php
     }
 
+    if ($show == 'trinkets' || $show == 'all') {
+        echo '<h2 class="page_title">Trinkets</h2>';
+        echo '<p>Trinkets are special passive power-ups that you buy with Gold and use for the rest of the game. Trinkets are offered twice per game: on turns 6 and 9. Each offering, you’ll get 4 Trinkets to choose from. In total, there are 56 Lesser Trinkets (turn 6) and 60 Greater Trinkets (turn 9). Some Trinkets have a Lesser and a Greater version--letting you diversify or double-up on your effects.<br></p>';
+    }
+
+    if ($show == 'trinkets' && $mode == 'gfx') {
+        echo "<div class='strategy-images trinkets cf'>";
+        foreach ($trinkets as $trinket) {
+            echo "<a href='" . $trinket->websites->bgknowhow . "'><div class='image-container'><img width='256' height='333' src='" . PICTURE_LOCAL_trinket . $trinket->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$trinket->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($trinket->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($trinket->text, ENT_QUOTES, 'utf-8') . "'><span>" . $trinket->name . "</span>";
+            if ($trinket->isDuosOnly) {
+                echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
+            }
+            echo "</div></a>";
+        }
+        echo "</div><br><br>";
+    } else if ($show == 'trinkets' || $show == 'all') {
+        ?>
+        <br>
+        <table class="strategy-table">
+            <thead>
+            <tr>
+                <th colspan="2">Trinkets</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Text</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+            foreach ($trinkets as $trinket) {
+                echo '<tr style="cursor: pointer;" onclick="window.location.href=\'' . $trinket->websites->bgknowhow . '\'">';
+                echo "<td>$trinket->name</td>";
+                echo "<td class='text' title='" . htmlspecialchars($trinket->text, ENT_QUOTES, 'utf-8') . "'>$trinket->text</td>";
+                echo "</tr>";
+            }
+            ?>
+            </tbody>
+        </table>
+        <br>
+        <?php
+    }
+
     if ($show == 'quests' || $show == 'all') {
         echo '<h2 class="page_title">Quests</h2>';
         echo '<p>Quests are offered at the beginning of turn 4 (6 gold). The quest texts utilize placeholders like {0} (for example in the text "Spend {0} Gold."), which are replaced by an actual numeric value based on the armor value of the hero you are playing (heroes with more base armor will receive easier to complete quests) and the minion types in the lobby. The baseline value for each quest is documented on the details page. Finishing a quest will provide you with the attached <a href="/bgstrategy/?show=rewards">reward</a>.</p>';

@@ -25,6 +25,7 @@ const FILE_HEROES    = 'https://bgknowhow.com/bgjson/output/bg_heroes_all.json';
 const FILE_MINIONS   = 'https://bgknowhow.com/bgjson/output/bg_minions_all.json';
 const FILE_ANOMALIES = 'https://bgknowhow.com/bgjson/output/bg_anomalies_all.json';
 const FILE_SPELLS    = 'https://bgknowhow.com/bgjson/output/bg_spells_all.json';
+const FILE_TRINKETS  = 'https://bgknowhow.com/bgjson/output/bg_trinkets_all.json';
 const FILE_BUDDIES   = 'https://bgknowhow.com/bgjson/output/bg_buddies_all.json';
 const FILE_QUESTS    = 'https://bgknowhow.com/bgjson/output/bg_quests_all.json';
 const FILE_REWARDS   = 'https://bgknowhow.com/bgjson/output/bg_rewards_all.json';
@@ -37,6 +38,7 @@ const PICTURE_LOCAL_HERO             = IMG_PATH . 'heroes/';
 const PICTURE_LOCAL_BUDDY            = IMG_PATH . 'buddies/';
 const PICTURE_LOCAL_ANOMALY          = IMG_PATH . 'anomalies/';
 const PICTURE_LOCAL_SPELL            = IMG_PATH . 'spells/';
+const PICTURE_LOCAL_TRINKET          = IMG_PATH . 'trinkets/';
 const PICTURE_LOCAL_QUEST            = IMG_PATH . 'quests/';
 const PICTURE_LOCAL_REWARD           = IMG_PATH . 'rewards/';
 const PICTURE_LOCAL_MINION           = IMG_PATH . 'minions/';
@@ -69,6 +71,7 @@ $tempHeroes    = json_decode(file_get_contents(FILE_HEROES));
 $tempMinions   = json_decode(file_get_contents(FILE_MINIONS));
 $tempAnomalies = json_decode(file_get_contents(FILE_ANOMALIES));
 $tempSpells    = json_decode(file_get_contents(FILE_SPELLS));
+$tempTrinkets  = json_decode(file_get_contents(FILE_TRINKETS));
 $tempBuddies   = json_decode(file_get_contents(FILE_BUDDIES));
 $tempQuests    = json_decode(file_get_contents(FILE_QUESTS));
 $tempRewards   = json_decode(file_get_contents(FILE_REWARDS));
@@ -195,6 +198,8 @@ function getWebsiteTitle(): string
         $title .= 'Strategy Minions';
     } else if (strpos($page, '/bgstrategy/show=spells') !== false) {
         $title .= 'Strategy Spells';
+    } else if (strpos($page, '/bgstrategy/show=trinkets') !== false) {
+        $title .= 'Strategy Trinkets';
     } else if (strpos($page, '/bgstrategy/show=anomalies') !== false) {
         $title .= 'Strategy Anomalies';
     } else if (strpos($page, '/bgstrategy/show=buddies') !== false) {
@@ -306,6 +311,22 @@ function getEntityData($selectedId, $unitType)
                                      bgs.artist
                                 FROM bg_spells bgs
                                WHERE bgs.id = ?
+                               LIMIT 1")) {
+            $stmt->bind_param("i", $selectedId);
+            $stmt->execute();
+            $stmt->store_result();
+        }
+    } else if ($unitType == 'trinket') {
+        if ($stmt = $mysqli->prepare("SELECT bgt.id,
+                                     bgt.name,
+                                     bgt.turns,
+                                     bgt.cost,
+                                     bgt.text,
+                                     bgt.id_blizzard,
+                                     bgt.flag_active,
+                                     bgt.artist
+                                FROM bg_trinkets bgt
+                               WHERE bgt.id = ?
                                LIMIT 1")) {
             $stmt->bind_param("i", $selectedId);
             $stmt->execute();
