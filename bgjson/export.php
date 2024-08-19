@@ -3,7 +3,7 @@ require_once('../config/db.php');
 require_once('../functions.php');
 
 const CSV_SEPARATOR  = ';';
-const VERSION        = '0.9.0';
+const VERSION        = '0.10.0';
 const BUDDIES_ACTIVE = true;
 const URL_BKH        = 'https://bgknowhow.com/bgstrategy/';
 const URL_PHS        = 'https://playhearthstone.com/battlegrounds/';
@@ -881,6 +881,7 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
 // generate trinkets files
 if ($stmt = $mysqli->prepare("SELECT bgt.id,
                                      bgt.name,
+                                     bgt.pool,
                                      bgt.turn,
                                      bgt.cost,
                                      bgt.text,
@@ -891,11 +892,11 @@ if ($stmt = $mysqli->prepare("SELECT bgt.id,
                                      bgt.flag_duos
                                 FROM bg_trinkets bgt
      --                          WHERE bgh.flag_active = ?
-                            ORDER BY bgt.tier, bgt.cost ASC")) {
+                            ORDER BY bgt.turn, bgt.cost ASC")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $tier, $cost, $text, $blizzardId, $playhsId, $hpwnId, $isActive, $isDuosOnly);
+    $stmt->bind_result($id, $name, $pool, $turn, $cost, $text, $blizzardId, $playhsId, $hpwnId, $isActive, $isDuosOnly);
 
     $row_count = $stmt->num_rows;
 
@@ -903,6 +904,7 @@ if ($stmt = $mysqli->prepare("SELECT bgt.id,
         'Name' . CSV_SEPARATOR .
         'Turn' . CSV_SEPARATOR .
         'Cost' . CSV_SEPARATOR .
+        'Pool' . CSV_SEPARATOR .
         'Text' . CSV_SEPARATOR .
         'Blizzard ID' . CSV_SEPARATOR .
         'Picture link' . CSV_SEPARATOR .
@@ -925,6 +927,7 @@ if ($stmt = $mysqli->prepare("SELECT bgt.id,
             $name . CSV_SEPARATOR .
             $turn . CSV_SEPARATOR .
             $cost . CSV_SEPARATOR .
+            $pool . CSV_SEPARATOR .
             (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
@@ -936,6 +939,7 @@ if ($stmt = $mysqli->prepare("SELECT bgt.id,
         $trinkets['data'][$i]['name']    = $name;
         $trinkets['data'][$i]['turn']    = $turn;
         $trinkets['data'][$i]['cost']    = $cost;
+        $trinkets['data'][$i]['pool']    = $pool;
         $trinkets['data'][$i]['text']    = $text;
         $trinkets['data'][$i]['id']      = $blizzardId;
         $trinkets['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
