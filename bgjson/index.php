@@ -135,11 +135,12 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
-        <li>20.08.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes" target="_blank">30.2.0</a> patch notes</li>
-        <li>09.08.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24125212/30-0-3-patch-notes" target="_blank">30.0.3</a> patch notes</li>
-        <li>23.07.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3001-hotfix-patch/131943" target="_blank">30.0.1</a> patch notes</li>
-        <li>27.06.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24108515/29-6-2-patch-notes" target="_blank">29.6.2</a> patch notes</li>
-        <li>21.06.2024 - Added BG armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2961-patch-notes/130456" target="_blank">29.6.1</a> patch notes</li>
+        <li>20.08.2024 - Added all new minions and updates from the <a href="https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes" target="_blank">30.2.0</a> patch notes.</li>
+        <li>20.08.2024 - Added trinkets as a new BG entity and inserted all 116 trinkets from the <a href="https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes" target="_blank">30.2.0</a> patch notes</li>
+        <li>09.08.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24125212/30-0-3-patch-notes" target="_blank">30.0.3</a> patch notes.</li>
+        <li>23.07.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3001-hotfix-patch/131943" target="_blank">30.0.1</a> patch notes.</li>
+        <li>27.06.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24108515/29-6-2-patch-notes" target="_blank">29.6.2</a> patch notes.</li>
+        <li>21.06.2024 - Added BG armor changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/2961-patch-notes/130456" target="_blank">29.6.1</a> patch notes.</li>
         <li>18.06.2024 - Added flag isDuosOnly to the buddy dataset.</li>
         <li>17.06.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24061012/buddies-are-coming-back" target="_blank">29.6.0</a> patch notes (or rather the patch preview).</li>
         <li>24.05.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24077480/29-4-2-patch-notes" target="_blank">29.4.2</a> patch notes.</li>

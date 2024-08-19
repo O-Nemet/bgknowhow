@@ -8,6 +8,7 @@ $minion  = $_GET['minion'] ?? '';
 $buddy   = $_GET['buddy'] ?? '';
 $anomaly = $_GET['anomaly'] ?? '';
 $spell   = $_GET['spell'] ?? '';
+$trinket = $_GET['trinket'] ?? '';
 $quest   = $_GET['quest'] ?? '';
 $reward  = $_GET['reward'] ?? '';
 
@@ -70,6 +71,10 @@ if (!empty($buddy)) {
 
     foreach ($tempSpells->data as $key => $object) {
         $spells[] = $object;
+    }
+
+    foreach ($tempTrinkets->data as $key => $object) {
+        $trinkets[] = $object;
     }
 
     foreach ($tempQuests->data as $key => $object) {
@@ -377,7 +382,7 @@ if (!empty($buddy)) {
 
     if ($show == 'trinkets' || $show == 'all') {
         echo '<h2 class="page_title">Trinkets</h2>';
-        echo '<p>Trinkets are special passive power-ups that you buy with Gold and use for the rest of the game. Trinkets are offered twice per game: on turns 6 and 9. Each offering, you will get 4 Trinkets to choose from. In total, there are 56 Lesser Trinkets (turn 6) and 60 Greater Trinkets (turn 9). Some Trinkets have a Lesser and a Greater version--letting you diversify or double-up on your effects.<br></p>';
+        echo '<p>Trinkets are special passive power-ups that you buy with Gold and use for the rest of the game. Trinkets are offered twice per game: on turns 6 and 9. Each offering, you will get 4 Trinkets to choose from. In total, there are 56 Lesser Trinkets (turn 6) and 60 Greater Trinkets (turn 9). Some Trinkets have a Lesser and a Greater version, letting you diversify or double-up on your effects.<br></p>';
     }
 
     if ($show == 'trinkets' && $mode == 'gfx') {

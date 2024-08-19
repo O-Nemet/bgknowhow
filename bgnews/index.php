@@ -8,6 +8,8 @@ include_once("../header.php");
     <p>
         Back from summer vacation, tomorrow will see the release of Season 8 featuring the all-new Trinkets mechanic. Buddies will be replaced by it, but Spells once again are here to stay. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24119592/announcing-battlegrounds-season-8" target="_blank">official season announcement</a> and the <a href="https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes" target="_blank">full patch notes</a> to see and all the big and small changes on heroes and minions.
         <br><br>
+        In addition to the 116 different trinkets, the patch will bring us 27 new minions, 1 new hero, 2 new spells and 22 returning minions while 41 minions have will be removed from the minion pool.
+        <br><br>
         To see the new trinkets in action several streamers played in a preview event today:<br>
         * <a href="https://www.twitch.tv/videos/2228368643?t=1h42m28s" target="_blank">Jeef pov</a><br>
         * <a href="https://www.twitch.tv/videos/2228252902?t=5h57m13s" target="_blank">RDU pov</a><br>
