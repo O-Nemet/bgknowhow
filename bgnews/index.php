@@ -4,6 +4,18 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
+    <h3 id="patch30.2.0">19.08.2024 - Season 8 and patch 30.2 imminent <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        Back from summer vacation, tomorrow will see the release of Season 8 featuring the all-new trinket mechanic. Buddies will be replaced by it, but spells once again are here to stay. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24119592/announcing-battlegrounds-season-8" target="_blank">official season announcement</a> and the <a href="https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes" target="_blank">full patch notes</a> to see and all the big and small changes on heroes and minions.
+        <br><br>
+        To see the new trinkets in action several streamers played in a preview event today:
+        * <a href="https://www.twitch.tv/videos/2228368643?t=1h42m28s" target="_blank">Jeef pov</a><br>
+        * <a href="https://www.twitch.tv/videos/2228252902?t=5h57m13s" target="_blank">RDU pov</a><br>
+        * <a href="https://www.twitch.tv/videos/2228425908?t=0h3m58s" target="_blank">Zorgo pov</a><br>
+        * <a href="https://www.twitch.tv/videos/2228413356?t=0h23m31s" target="_blank">Dogdog pov</a>
+    </p>
+    <br>
+
     <h3 id="patch30.0.0">16.07.2024 - Patch 30.0 and a hotfix <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         While the official <a href="https://news.blizzard.com/en-us/hearthstone/24115553/30-0-patch-notes" target="_blank">patch notes</a> did not deliver much changes for BG players, other than bringing back the buddy spell <a class="hoverimage" href="/bgstrategy/spell/?id=34">Buddy Up</a> (reducing its gold cost to 3) and fixing some BG bugs, an additional hotfix was added, outright banning some heroes:
