@@ -2930,6 +2930,10 @@ body.bgstrategy .bgstrategy > a {
     margin-left: 70px;
 }
 
+.strategy-images.trinkets {
+    margin-left: 25px;
+}
+
 .strategy-images div {
     margin: 0 auto;
     width: 25%;
@@ -2995,8 +2999,8 @@ body.bgstrategy .bgstrategy > a {
     /*margin-bottom: 100px;*/
 }
 
-.strategy-images.buddies, .strategy-images.anomalies, .strategy-images.spells, .strategy-images.trinket {
-    margin-left: 30px;
+.strategy-images.buddies, .strategy-images.anomalies, .strategy-images.spells, .strategy-images.trinkets {
+    margin-left: 25px;
     /*margin-bottom: 100px;*/
 }
 
@@ -3108,6 +3112,7 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.trinkets img {
     width: 256px;
+    height: 360px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -3157,7 +3162,7 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.trinkets span {
     display: block;
-    margin-top: -13px;
+    margin-top: -40px;
     margin-left: 28px;
     color: green;
     font-weight: bold;
