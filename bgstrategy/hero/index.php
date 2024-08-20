@@ -61,7 +61,7 @@ if ($selectedId) {
             <img src="<?= PICTURE_LOCAL_HP . $blizzardIdHp . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="<?= $hpText ?>">
         </div>
         <div class="card_buddy">
-            <a href="/bgstrategy/buddy/?id=<?= $buddyId ?>"><img src="<?= PICTURE_LOCAL_BUDDY . $blizzardIdBuddy . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="Buddy: <?= $buddyName ?>"></a>
+            <a href="/bgstrategy/buddy/?id=<?= $buddyId ?>"><img class="inactive-img" src="<?= PICTURE_LOCAL_BUDDY . $blizzardIdBuddy . PICTURE_LOCAL_RENDER_SUFFIX_80 ?>" alt="Buddy: <?= $buddyName ?>"></a>
         </div>
         <!--        <div class="card_flavor flavor_hero">-->
         <!--            --><?php //= $flavor ? 'Flavor:' : '' ?><!--<br><span class="price_font">--><?php //= $flavor ?? '' ?><!--</span>-->
