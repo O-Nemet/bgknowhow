@@ -321,7 +321,7 @@ function getEntityData($selectedId, $unitType)
     } else if ($unitType == 'trinket') {
         if ($stmt = $mysqli->prepare("SELECT bgt.id,
                                      bgt.name,
-                                     bgt.turns,
+                                     bgt.turn,
                                      bgt.cost,
                                      bgt.text,
                                      bgt.id_blizzard,
