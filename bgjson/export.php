@@ -945,7 +945,7 @@ if ($stmt = $mysqli->prepare("SELECT bgt.id,
         $trinkets['data'][$i]['picture'] = PICTURE_URL_RENDER_BG . $blizzardId . '.png';
 //        $trinkets['data'][$i]['pictureSmall']          = PICTURE_LOCAL_HERO . $blizzardId . PICTURE_LOCAL_RENDER_SUFFIX_80;
         $trinkets['data'][$i]['websites']['blizzard']  = ($playhsId ? URL_PHS . $playhsId : null);
-        $trinkets['data'][$i]['websites']['bgknowhow'] = URL_BKH . 'spell/?id=' . $id;
+        $trinkets['data'][$i]['websites']['bgknowhow'] = URL_BKH . 'trinket/?id=' . $id;
         $trinkets['data'][$i]['websites']['wiki']      = URL_HSF . str_replace(' ', '_', $name);
         $trinkets['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
         $trinkets['data'][$i]['isActive']              = (bool)$isActive;
