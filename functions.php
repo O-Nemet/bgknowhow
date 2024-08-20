@@ -214,6 +214,8 @@ function getWebsiteTitle(): string
         $title .= 'Strategy Minion';
     } else if (strpos($page, '/bgstrategy/spell/') !== false) {
         $title .= 'Strategy Spell';
+    } else if (strpos($page, '/bgstrategy/trinket/') !== false) {
+        $title .= 'Strategy Trinket';
     } else if (strpos($page, '/bgstrategy/anomaly/') !== false) {
         $title .= 'Strategy Anomaly';
     } else if (strpos($page, '/bgstrategy/buddy/') !== false) {
