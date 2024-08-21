@@ -787,7 +787,7 @@ if ($stmt = $mysqli->prepare("SELECT bgs.id,
                                      bgs.flag_duos
                                 FROM bg_spells bgs
      --                          WHERE bgh.flag_active = ?
-                            ORDER BY bgs.tier, bgs.cost ASC")) {
+                            ORDER BY bgs.tier, bgs.cost, bgs.name ASC")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
@@ -892,7 +892,7 @@ if ($stmt = $mysqli->prepare("SELECT bgt.id,
                                      bgt.flag_duos
                                 FROM bg_trinkets bgt
      --                          WHERE bgh.flag_active = ?
-                            ORDER BY bgt.turn, bgt.cost ASC")) {
+                            ORDER BY bgt.turn, bgt.cost, bgt.name ASC")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
