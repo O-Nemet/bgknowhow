@@ -11,13 +11,13 @@
     <a href="/bgstrategy/?show=minions&type=mech"><i class="bi bi-box-arrow-up-right"></i> All available Mechs and Mech-associated minions</a>
     <br><br>
     In general, Mechs have the upside of having numerous <a href="/bgbasics/#shield">Divine Shield</a> minions, the ability to resummon Mechs, and small token units. This gives them an advantage against venom/scam compositions and builds with low stats. Except for <a class="hoverimage" href="/bgstrategy/minion/?id=353">Beatboxer</a> magnetization composition, this makes them weak against high stat builds like Demons, Elementals, and Naga.
-    <br><br>
-    Mechs also got a new mechanic added through the 6 Zilliax cards available on Tier 2. Cards such as <a class="hoverimage" href="/bgstrategy/minion/?id=504">Zilliax: Defense Module</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=503">Zilliax: Crystal Module</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=506">Zilliax: Whirring Module</a> can add incredibly strong keywords to other Mechs. However, you need to triple them with <a class="hoverimage" href="/bgstrategy/minion/?id=353">Zilliax: Bonding Module</a> to make sure you can put it on other Mechs.
+    <!--    <br><br>-->
+    <!--    Mechs also got a new mechanic added through the 6 Zilliax cards available on Tier 2. Cards such as <a class="hoverimage" href="/bgstrategy/minion/?id=504">Zilliax: Defense Module</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=503">Zilliax: Crystal Module</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=506">Zilliax: Whirring Module</a> can add incredibly strong keywords to other Mechs. However, you need to triple them with <a class="hoverimage" href="/bgstrategy/minion/?id=353">Zilliax: Bonding Module</a> to make sure you can put it on other Mechs.-->
 </p>
 <div class="comp_wrapper">
     <h3 id="deflecto">Deflecto Reset Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deflecto', 'Deflecto', 'Automaton', 'Automaton', 'Kangor/'s', 'Kangor/'s', 'Greasebot'];
+    $board   = ['Deflecto', 'Deflecto', 'Automaton', 'Automaton', 'Kangor\'s', 'Kangor\'s', 'Greasebot'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -49,24 +49,24 @@
 
     <h3 id="shield">Kaboom Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Kaboom', 'Kaboom', 'Kangor/'s', 'Kangor/'s', 'Titus', 'Titus'];
+    $board   = ['Macaw', 'Kaboom', 'Kaboom', 'Kangor\'s', 'Kangor\'s', 'Titus', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This build NEEDS you to have the Kaboom Bot Portrait Trinket.
+        This build NEEDS you to have the <a class="hoverimage" href="/bgstrategy/trinket/?id=21">Kaboom Bot Portrait</a> trinket.
     </p>
 
- <h3 id="shield">Ancestral Automaton Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="shield">Ancestral Automaton Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Leeroy', 'Automaton', 'Automaton', 'Kangor/'s', 'Kangor/'s', 'Titus', 'Titus'];
+    $board   = ['Leeroy', 'Automaton', 'Automaton', 'Kangor\'s', 'Kangor\'s', 'Titus', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
         Think of this build similarly to Eternal Summoner and Eternal Knights, except they get stronger for the amount of times they get summoned. So cards like Mecha Jaraxxus, Baltharak and Prosthetic Hand helps resummon them. Fortunately, the returning Kangor's Apprentice also resummons a board full with a combination of Titus. Leeroy can be any card, but preferably a card that isn't a Mech so Kangor's can't resummon it.
-
-        Trinkets that would go well with this include Automaton Portrait, Rivendare Portrait, Twin Sky Lanterns, Boom Controller, Mechagon Adaptor, and Karazhan Chess Set.
+        <br><br>
+        Trinkets that would go well with this include <a class="hoverimage" href="/bgstrategy/trinket/?id=22">Automaton Portrait</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=69">Rivendare Portrait</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=66">Twin Sky Lanterns</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=83">Boom Controller</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=82">Mechagon Adaptor</a>, and <a class="hoverimage" href="/bgstrategy/trinket/?id=109">Karazhan Chess Set</a>.
     </p>
 </div>
 
