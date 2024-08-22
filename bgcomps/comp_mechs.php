@@ -49,7 +49,7 @@
 
     <h3 id="shield">Kaboom Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Kaboom', 'Kaboom', 'Kangor/s', 'Kangor/s', 'Titus', 'Titus'];
+    $board   = ['Macaw', 'Kaboom', 'Kaboom', 'Kangor/'s', 'Kangor/'s', 'Titus', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
