@@ -231,7 +231,7 @@ foreach ($spell_count as $temp) {
 
     <h3 id="buddycurves" class="cf">Buying Buddies <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Each hero has a Buddy button, which you can press during your shop turn to buy the buddy. The Buddy button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.
+        When the Buddy mechanic is active each hero has a Buddy button, which you can press during your shop turn to buy the buddy. The Buddy button's initial cost is based on your Buddy's Tavern Tier, and is reduced by 3 Gold each time you win or tie a combat, or reduced by 2 Gold each time you lose a combat.
         <br><br>
         The first time you press the button, you'll get one copy of your Buddy; the second time you press the button, you'll get two copies. The cost to press the button resets and is slightly increased after you press it the first time.
     </p>
