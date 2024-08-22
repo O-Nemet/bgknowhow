@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="selfdamage">Self-Damage Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Savior', 'Horse', 'Trigore', 'Trigore', 'Skyblazer', 'Skyblazer'];
+    $board   = ['Macaw', 'Savior', 'Savior', 'Trigore', 'Trigore', 'Skyblazer', 'Skyblazer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -25,7 +25,7 @@
 
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Goldrinn', 'Horse', 'Horse', 'Octosari', 'Acabra', 'Titus'];
+    $board   = ['Macaw', 'Goldrinn', 'Manasaber', 'Mount', 'Octosari', 'Acabra', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -33,14 +33,14 @@
         Please understand that Monstrous Macaw's effect the leftmost card on your board, not necessarily to it. It will always land on <strong>Goldrinn</strong>, as long as you position it to be the leftmost deathrattle card in comparison to the other deathrattle cards. Ghoul-acabra is not necessary for the build, but it can be another way to gain strength if you cannot find another Goldrinn. Other deathrattle cards from the beast pool like <a class="hoverimage" href="/bgstrategy/minion/?id=61">Rat Pack</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=135">Ghastcoiler</a> can also fit in the build.
     </p>
 
-    <h3 id="rylak">Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="rylak">Frogleaper Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Macaw', 'Piper', 'Piper', 'Titus', 'Jazzer', 'Rylak'];
+    $board   = ['Leaper', 'Macaw', 'Manasaber', 'Leaper', 'Manasaber', 'Mount', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Needs the availability of Quilboars. Very important to not play other Deathrattle (due to <strong>Macaw</strong>) or Taunt (due to <strong>Rylak</strong>) minions. Heavily improves by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn <strong>Rylak</strong> followed by the Macaw.
+        The frogs are back! Sadly, the game has removed many of minions that spawn deathrattle tokens. This does not mean you have no options. Manasaber,  <a class="hoverimage" href="/bgstrategy/minion/?id=297">Sly Raptor</a> and  <a class="hoverimage" href="/bgstrategy/minion/?id=555">Indomitable Mount</a> are your best choices. Now, the most important thing to know about this build is that you absolutely NEED Titus. The amount of bounces Leapers will provide without Titus is negligible. Keep your Titus safe, make sure you taunt and reborn your minions accordingly, and put Macaw at a spot where it's able to activate Manasaber's deathrattle.
     </p>
 
 </div>
