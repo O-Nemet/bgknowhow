@@ -64,7 +64,7 @@
     drawBoard($minions);
     ?>
     <p>
-        Think of this build similarly to Eternal Summoner and Eternal Knights, except they get stronger for the amount of times they get summoned. So cards like Mecha Jaraxxus' Baltharak and Prosthetic Hand helps resummon them. Fortunately, the returning Kangor's Apprentice also resummons a board full with a combination of Titus. Leroy can be any card, but preferably a card that isn't a Mech so Kangor's can't resummon it.
+        Think of this build similarly to Eternal Summoner and Eternal Knights, except they get stronger for the amount of times they get summoned. So cards like Mecha Jaraxxus, Baltharak and Prosthetic Hand helps resummon them. Fortunately, the returning Kangor's Apprentice also resummons a board full with a combination of Titus. Leeroy can be any card, but preferably a card that isn't a Mech so Kangor's can't resummon it.
 
         Trinkets that would go well with this include Automaton Portrait, Rivendare Portrait, Twin Sky Lanterns, Boom Controller, Mechagon Adaptor, and Karazhan Chess Set.
     </p>
