@@ -22,7 +22,7 @@ if (!empty($_GET['mode'])) {
             if ($mode === 'txt') {
                 echo "<div><a class='hoverimage' href='" . $hero->websites->bgknowhow . "'>" . $hero->name . "</a></div>";
             } else {
-                echo "<div><a href='" . $hero->websites->bgknowhow . "'><img src='" . $hero->picturePortrait . "' title='" . htmlspecialchars($hero->name, ENT_QUOTES, 'utf-8') . " has " . ($hero->armorHighMMR ?? $hero->armor) . " armor (high MMR), " . ($hero->armor ?? $hero->armorHighMMR) . " armor (low MMR) or  " . $hero->armorDuos . " armor (Duos)' alt='" . htmlspecialchars($hero->name, ENT_QUOTES, 'utf-8') . " has " . ($hero->armorHighMMR ?? $hero->armor) . " armor (high MMR), " . ($hero->armor ?? $hero->armorHighMMR) . " armor (low MMR) or " . $hero->armorDuos . " armor (Duos) ' ></img></a></div>";
+                echo "<div><a href='" . $hero->websites->bgknowhow . "'><img src='" . $hero->picturePortrait . "' title='" . htmlspecialchars($hero->name, ENT_QUOTES, 'utf-8') . " has " . ($hero->armorHighMMR ?? $hero->armor) . " armor (high MMR), " . ($hero->armor ?? $hero->armorHighMMR) . " armor (low MMR) or " . $hero->armorDuos . " armor (Duos)' alt='" . htmlspecialchars($hero->name, ENT_QUOTES, 'utf-8') . " has " . ($hero->armorHighMMR ?? $hero->armor) . " armor (high MMR), " . ($hero->armor ?? $hero->armorHighMMR) . " armor (low MMR) or " . $hero->armorDuos . " armor (Duos) ' ></img></a></div>";
             }
         }
     }
