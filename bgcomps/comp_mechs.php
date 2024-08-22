@@ -59,7 +59,7 @@
 
  <h3 id="shield">Ancestral Automaton Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Leroy', 'Automaton', 'Automaton', 'Kangor/s', 'Kangor/s', 'Titus', 'Titus'];
+    $board   = ['Leeroy', 'Automaton', 'Automaton', 'Kangor/'s', 'Kangor/'s', 'Titus', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
