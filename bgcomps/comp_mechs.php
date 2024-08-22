@@ -17,7 +17,7 @@
 <div class="comp_wrapper">
     <h3 id="deflecto">Deflecto Reset Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deflecto', 'Deflecto', 'Automaton', 'Automaton', 'Kangor/s', 'Kangor/s', 'Greasebot'];
+    $board   = ['Deflecto', 'Deflecto', 'Automaton', 'Automaton', 'Kangor/'s', 'Kangor/'s', 'Greasebot'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
