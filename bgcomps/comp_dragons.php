@@ -23,7 +23,7 @@
         After securing the key minions <strong>Kalecgos</strong> and <strong>Brann</strong>, focus on getting as many battlecries as you can. <strong>Rylak</strong> can also be replaced with <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (when Murlocs are available).
         <br><br>
         Other important cards: <a class='hoverimage' href='/bgstrategy/spell/?id=27'>Hired Headhunter</a> and <a class='hoverimage' href='/bgstrategy/spell/?id=32'>Dreamer's Embrace</a> will help your build.
-
+<br><br>
         Goldenizer, Bob-blehead, Dragonwing Glider, Rockin' Music Box, Smuggler Portrait, Tiger Carving, Bronzebeard Portrait, Shaman Prayer Beads, Essence of Dreams, Alliance Keychain, and Emerald Dreamcatcher are ideal trinkets.
     </p>
 
