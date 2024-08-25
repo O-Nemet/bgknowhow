@@ -36,7 +36,7 @@
     drawBoard($minions);
     ?>
     <p>
-        This is what Felbat build should normally look like as you start, but you can always change the cards depending on your situation. Demons are interchangeable, but these are more ideal than others. <a class="hoverimage" href="/bgstrategy/minion/?id=476">Slimy Felblood</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=557">Mirage Conjurer</a> are cards I would recycle so you can keep finding cards that buff the shop.
+        This is what Felbat build should normally look like as you start, but you can always change the cards depending on your situation. Demons are interchangeable, but these are more ideal than others. <a class="hoverimage" href="/bgstrategy/minion/?id=476">Slimy Felblood</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=557">Mirage Conjurer</a> are cards I would recycle, so you can keep finding cards that buff the shop.
         <br><br>
         Darnassus Pie, Dalaran Cheese Wheel, Feblood Portrait, Nether Pendant, Bronze Timepiece, Glowing Gauntlet, Felbat Portrait, and Nomi Sticker are ideal trinkets.
     </p>
@@ -53,12 +53,12 @@
     </p>
     <h3 id="felbateot">Insatiable Ur'zul Self Damage Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Ur\'zul', ''Ur\'zul', 'Pilgrimp', 'Pilgrimp', 'Jaraxxus', 'Murk-Eye', 'Jaraxxus'];
+    $board   = ['Ur\'zul', 'Ur\'zul', 'Pilgrimp', 'Pilgrimp', 'Jaraxxus', 'Murk-Eye', 'Jaraxxus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Ur'zul now has a few ways to gain stats fast without needing to sell minions. Mecha Jaraxxus allows you to attach magnetics to your demons, while letting Ur'zul to gain buffs. Pilgrimp is just another option to get free Demons. The only major issue is that Pilgrimp costs health, so you may want <a class="hoverimage" href="/bgstrategy/minion/?id=310">Soul Rewinder</a>. Unfortunately, Rewinder will be useless in combat. Ideally, you want to remove taunt on Ur'zul with <a class="hoverimage" href="/bgstrategy/spell/?id=16">Tricky Trousers</a>. 
+        Ur'zul now has a few ways to gain stats fast without needing to sell minions. Mecha Jaraxxus allows you to attach magnetics to your demons, while letting Ur'zul to gain buffs. Pilgrimp is just another option to get free Demons. The only major issue is that Pilgrimp costs health, so you may want <a class="hoverimage" href="/bgstrategy/minion/?id=310">Soul Rewinder</a>. Unfortunately, Rewinder will be useless in combat. Ideally, you want to remove taunt on Ur'zul with <a class="hoverimage" href="/bgstrategy/spell/?id=16">Tricky Trousers</a>.
         <br><br>
         Darnassus Pie, Dalaran Cheese Wheel, Feblood Portrait, Nether Pendant, Bronze Timepiece, Glowing Gauntlet, Felbat Portrait, and Nomi Sticker are ideal trinkets.
     </p>
