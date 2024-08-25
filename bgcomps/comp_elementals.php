@@ -21,7 +21,7 @@
     ?>
     <p>
         Remember, this build does not necessarily need to be completely Elementals. <strong>Rock Rock</strong> buffs regardless, so if you want to have a cleave minion such as <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=133">Foe Reaper 4000</a> then you very well can.
-
+        <br><br>
         Lava Lamp, Primordial Terrarium, Kodo Leather Pouch, Jarred Frostling, Essence of Dreams, Shaman Prayer Beads, Karazhan Chest Set are ideal trinkets.
     </p>
 
@@ -35,10 +35,9 @@
         The way for this build to scale high is to create triples. Once you make huge stats with <strong>Living Azerite</strong> and the spells used, you need to start replacing weaker minions with the stronger ones in the shop. Then you need to triple the cards so that you have a card with three times the amount of scaling you provided through Living Azerite. You got to pay attention when it's time to start throwing away like <strong>Living Azerite</strong> or <strong>Land Lubber</strong> because over time they start to feel weaker due to lack of onboard scaling.
         <br><br>
         This is a build that does not need you to be at Tier 5, but there are plenty of Tier 5 minions that help the build. <a class="hoverimage" href="/bgstrategy/minion/?id=476">Slimy Felblood</a> also is quite useful to use.
-
+        <br><br>
         Demonblood Gourd, Darnassus Pie, Dalaran Cheese Wheel, Felblood Portrait, Nomi Sticker, Azerite Portrait, Alliance Keychain, Karazhan Chess Set, Devourer Sticker, Training Certificate, are ideal trinkets.
     </p>
-
 </div>
 
 <br><br>
