@@ -23,18 +23,21 @@
         After securing the key minions <strong>Kalecgos</strong> and <strong>Brann</strong>, focus on getting as many battlecries as you can. <strong>Rylak</strong> can also be replaced with <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (when Murlocs are available).
         <br><br>
         Other important cards: <a class='hoverimage' href='/bgstrategy/spell/?id=27'>Hired Headhunter</a> and <a class='hoverimage' href='/bgstrategy/spell/?id=32'>Dreamer's Embrace</a> will help your build.
+<br><br>
+        Goldenizer, Bob-blehead, Dragonwing Glider, Rockin' Music Box, Smuggler Portrait, Tiger Carving, Bronzebeard Portrait, Shaman Prayer Beads, Essence of Dreams, Alliance Keychain, and Emerald Dreamcatcher are ideal trinkets.
     </p>
 
     <h3 id="persistent">Persistent Buff Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Nightbane', 'Poet', 'Poet', 'Promo-Drake', 'Promo-Drake', 'Amber Guardian', 'Rallier'];
+    $board   = ['Warpwing', 'Poet', 'Poet', 'Promo-Drake', 'Promo-Drake', 'Amber Guardian', 'Rallier'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        <a class='hoverimage' href='/bgstrategy/minion/?id=101'>Tarecgosa</a> also can be used but isn't completely necessary. Once <strong>Amber Guardian</strong> permanently gives minions Divine Shield, you can start replacing it with other cards. Persistent Poet is not a card I would want to triple either. You want to make sure you can give as many minions as possible the permanent stats. Lastly, it's never bad to have more than one <strong>Nightbane</strong>, so go for that if you're done with Amber Guardian or want to replace Roaring Rallier.
+        <a class='hoverimage' href='/bgstrategy/minion/?id=101'>Tarecgosa</a> also can be used but isn't completely necessary. Once <strong>Amber Guardian</strong> permanently gives minions Divine Shield, you can start replacing it with other cards. Persistent Poet is not a card I would want to triple either. You want to make sure you can give as many minions as possible the permanent stats. Lastly, it's never bad to have more than one <strong>Nightbane</strong>, so go for that if you're done with Amber Guardian or want to replace Roaring Rallier. This might feel extremely slow due to Promo Drake, Rallier and Amber Guardian being your only form of scaling.
         <br><br>
-        Also consider <a class='hoverimage' href='/bgstrategy/minion/?id=515'>Hateful Hag</a>, if Undead are available, and you could need a permanent Reborn to win against Scam boards.
+
+        Valorous Medallion, Charging Staff, Holy Mallet, Training Certificate, Alliance Keychain, Bronze Timepiece, are ideal trinkets.
     </p>
 
 </div>
