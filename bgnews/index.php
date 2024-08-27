@@ -4,13 +4,28 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
+    <h3 id="patch29.6.2preview">27.08.2024 - First adjustments for the Trinket meta <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <p>
+        After hotfix <a href="https://us.forums.blizzard.com/en/hearthstone/t/3021-patch-notes/133884" target="_blank">30.2.1</a> brought us gold cost adjustments for many of the trinkets and the unexpected removal of <a class="hoverimage" href="/bgstrategy/minion/?id=478">Shellemental</a> and readdition of <a class="hoverimage" href="/bgstrategy/minion/?id=255">Sin'dorei Straight Shot</a> as well as a lot of bug fixes, Blizzard already announced Patch 30.2.2 for this coming Thursday.
+        <br><br>
+        The official HS account on X has posted a <a href="https://x.com/PlayHearthstone/status/1828477592577425754" target="_blank">preview of the upcoming changes</a>). For Battlegrounds many minions will be buffed and just a few nerfed while the two minions <a class="hoverimage" href="/bgstrategy/minion/?id=306">Upbeat Frontdrake</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=204">Corrupted Myrmidon</a> will rejoin the brawl.
+        <br><br>
+        <img src="<?= PICTURE_LOCAL ?>news/patch322_preview.jpg">
+        <br><br>
+        Buffs: Guff Runetotem, Lightfang Enforcer, Crow's Nest Sentry, Ice Fisher, Cruise Controller, Thundering Abomination, Bountiful Bedrock, Wannabe Gargoyle, Hunter of Gatherers, and Channel the Devourer.<br>
+        Nerfs: Ancestral Automaton, Snail Cavalry, and Zesty Shaker.
+        <br><br>
+        They also hinted at adjustment to some of the more outlying trinkets coming rather sooner than later, as they are quite actively monitoring the current results.
+    </p>
+    <br>
+
     <h3 id="patch30.2.0">19.08.2024 - Season 8 and patch 30.2 imminent <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         Back from summer vacation, tomorrow will see the release of Season 8 featuring the all-new Trinkets mechanic. Buddies will be replaced by it, but Spells once again are here to stay. Check out the <a href="https://hearthstone.blizzard.com/en-us/news/24119592/announcing-battlegrounds-season-8" target="_blank">official season announcement</a> and the <a href="https://hearthstone.blizzard.com/en-us/news/24122902/30-2-patch-notes" target="_blank">full patch notes</a> to see and all the big and small changes on heroes and minions.
         <br><br>
         In addition to the 116 different trinkets, the patch will bring us 27 new minions, 1 new hero, 2 new spells and 22 returning minions while 41 minions have will be removed from the minion pool.
         <br><br>
-        To see the new trinkets in action several streamers played in a preview event today:<br>
+        To see the new trinkets in action several streamers played in a preview event today:<br><br>
         * <a href="https://www.twitch.tv/videos/2228368643?t=1h42m28s" target="_blank">Jeef pov</a><br>
         * <a href="https://www.twitch.tv/videos/2228252902?t=5h57m13s" target="_blank">RDU pov</a><br>
         * <a href="https://www.twitch.tv/videos/2228425908?t=0h3m58s" target="_blank">Zorgo pov</a><br>
