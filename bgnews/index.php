@@ -10,7 +10,7 @@ include_once("../header.php");
         <br><br>
         The official HS account on X has posted a <a href="https://x.com/PlayHearthstone/status/1828477592577425754" target="_blank">preview of the upcoming changes</a>). For Battlegrounds many minions will be buffed and just a few nerfed while the two minions <a class="hoverimage" href="/bgstrategy/minion/?id=306">Upbeat Frontdrake</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=204">Corrupted Myrmidon</a> will rejoin the brawl.
         <br><br>
-        <img src="<?= PICTURE_LOCAL ?>news/patch322_preview.jpg">
+        <img src="<?= PICTURE_LOCAL ?>news/patch3022_preview.jpg">
         <br><br>
         Buffs: Guff Runetotem, Lightfang Enforcer, Crow's Nest Sentry, Ice Fisher, Cruise Controller, Thundering Abomination, Bountiful Bedrock, Wannabe Gargoyle, Hunter of Gatherers, and Channel the Devourer.<br><br>
         Nerfs: Ancestral Automaton, Snail Cavalry, and Zesty Shaker.
