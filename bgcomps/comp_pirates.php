@@ -37,15 +37,15 @@
             Performer</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=263">General Drakkasith</a>.
     </p>
 
-    <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Blade Collector', 'Blade Collector', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Lubber', 'Tethys', 'Greymane\'s Champion'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        You want to focus on getting as many even Tier minions or spells to get scaling from this build. Replacing Lubber with another <strong>Tethys</strong> will definitely help, as you will get a better chance of receiving even Tier minions from his effect. Once you find another <strong>Greymane's Champion</strong> I would start to replace Peggy Sturdybone with it, unless you already tripled for that card.
-    </p>
+    <!--    <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
+    <!--    --><?php
+    //    $board   = ['Blade Collector', 'Blade Collector', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Lubber', 'Tethys', 'Greymane\'s Champion'];
+    //    $minions = getMinionsForBoard($board);
+    //    drawBoard($minions);
+    //    ?>
+    <!--    <p>-->
+    <!--        You want to focus on getting as many even Tier minions or spells to get scaling from this build. Replacing Lubber with another <strong>Tethys</strong> will definitely help, as you will get a better chance of receiving even Tier minions from his effect. Once you find another <strong>Greymane's Champion</strong> I would start to replace Peggy Sturdybone with it, unless you already tripled for that card.-->
+    <!--    </p>-->
 
     <h3 id="deathrattle">Eliza Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php

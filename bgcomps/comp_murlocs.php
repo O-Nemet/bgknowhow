@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="starter">Murloc Starter Kit Composition <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Striker', 'Prince', 'Prince', 'Magmaloc', 'Gillmother', 'Gillmother', 'Brann'];
+    $board   = ['Striker', 'Prince', 'Prince', 'Burglar', 'Gillmother', 'Gillmother', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

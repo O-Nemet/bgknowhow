@@ -15,12 +15,12 @@
 <div class="comp_wrapper">
     <h3 id="knights">Deathrattle Knight Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Anub', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Deathwhisper', 'Titus'];
+    $board   = ['Anub', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Acabra', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Ideally, you want to have Reborn already on Anub'arak through the use of <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> triggered by <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>. Sister Deathwhisper is in here to make sure your minions have enough health to not die from indirect damage. Afterward, you can replace it with <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of Primus</a>, or <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a>.
+        Ideally, you want to have Reborn already on Anub'arak through the use of <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> triggered by <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>. Ghoul-acabra is in here to make sure your minions have enough health to not die from indirect damage. Afterward, you can replace it with <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of Primus</a>, or <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a>.
     </p>
 
     <h3 id="moroes">Deathrattle Moroes Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

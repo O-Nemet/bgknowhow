@@ -16,33 +16,33 @@
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
 </p>
 <div class="comp_wrapper">
-    <h3 id="roogug">Roogug Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="roogug">Surveyor Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Piper', 'Roogug', 'Pokey', 'Bandit', 'Bandit', 'Bopper', 'Charlga'];
+    $board   = ['Piper', 'Surveyor', 'Surveyor', 'Bandit', 'Bandit', 'Bopper', 'Pokey'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
         Any Quilboar that generates Blood Gems is good, so don't think this is the only way to build this comp. You can also have a <a class="hoverimage" href="/bgstrategy/minion/?id=319">Rylak Metalhead</a> be paired next to <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> and a golden <a class="hoverimage" href="/bgstrategy/minion/?id=8">Razorfen Geomancer</a>. You can have <a class="hoverimage" href="/bgstrategy/minion/?id=376">Briarback Bookie</a> or use <a class="hoverimage" href="/bgstrategy/minion/?id=45">Bannerboar</a> as well. Reminder, Pokey Thornmantle does NOT get stronger from Drakkari Enchanter's effect. Feel free to replace this card with something else after he has buffed your Blood Gems to a desirable number.
         <br><br>
-        Either way, you want to put as many Blood Gems onto <strong>Geomagus Roogug</strong> as you can. The only issue with this build is, that the other targets for his gem procs are suboptimal. So do try to move your gems over to a minion with Cleave or Divine Shield by using <a class="hoverimage" href="/bgstrategy/minion/?id=90">Necrolyte</a>.
+        The only issue with this build is, that the targets for all the gems are suboptimal. So do try to move your gems over to a minion with Cleave or Divine Shield by using the spell <a class="hoverimage" href="/bgstrategy/spell/?id=55">Gem Confiscation</a>.
     </p>
 
     <h3 id="bristlebach">Bristlebach Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Tusk', 'Tusk', 'TLQ', 'Horse', 'Horse', 'Roogug', 'Bristlebach'];
+    $board   = ['Tusk', 'Tusk', 'TLQ', 'Handless', 'Handless', 'TLQ', 'Bristlebach'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. The Horses can basically be any minion which summons another minion via Deathrattle or Reborn.
+        This is supposed to use <strong>Bristlebach</strong>'s ability to refresh the Divine Shield of the <strong>Tough Tusks</strong>. The Handless can basically be any minion which summons another minion via Deathrattle or Reborn.
         <br><br>
         The stat gains from <strong>Bristlebach</strong>'s Avenge ability are only temporary buffs during the combat phase. Make sure your <strong>Tusks</strong> have Divine Shield prior to battle!
     </p>
 
     <h3 id="charly">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Pokey', 'Pokey', 'Charlga', 'Charlga', 'Bopper', 'Roogug', 'Enchanter'];
+    $board   = ['Pokey', 'Charlga', 'Charlga', 'Bopper', 'Bopper', 'Surveyor', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
