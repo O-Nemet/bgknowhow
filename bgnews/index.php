@@ -4,7 +4,7 @@ include_once("../header.php");
 <h2 class="page_title">Battleground News</h2>
 <div class="news">
 
-    <h3 id="patch29.6.2preview">27.08.2024 - First adjustments for the Trinket meta <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="patch30.2.2preview">27.08.2024 - First adjustments for the Trinket meta <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
         After hotfix <a href="https://us.forums.blizzard.com/en/hearthstone/t/3021-patch-notes/133884" target="_blank">30.2.1</a> brought us gold cost adjustments for many of the trinkets and the unexpected removal of <a class="hoverimage" href="/bgstrategy/minion/?id=478">Shellemental</a> and readdition of <a class="hoverimage" href="/bgstrategy/minion/?id=255">Sin'dorei Straight Shot</a> as well as a lot of bug fixes, Blizzard already announced Patch 30.2.2 for this coming Thursday.
         <br><br>
@@ -12,7 +12,7 @@ include_once("../header.php");
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch322_preview.jpg">
         <br><br>
-        Buffs: Guff Runetotem, Lightfang Enforcer, Crow's Nest Sentry, Ice Fisher, Cruise Controller, Thundering Abomination, Bountiful Bedrock, Wannabe Gargoyle, Hunter of Gatherers, and Channel the Devourer.<br>
+        Buffs: Guff Runetotem, Lightfang Enforcer, Crow's Nest Sentry, Ice Fisher, Cruise Controller, Thundering Abomination, Bountiful Bedrock, Wannabe Gargoyle, Hunter of Gatherers, and Channel the Devourer.<br><br>
         Nerfs: Ancestral Automaton, Snail Cavalry, and Zesty Shaker.
         <br><br>
         They also hinted at adjustment to some of the more outlying trinkets coming rather sooner than later, as they are quite actively monitoring the current results.
