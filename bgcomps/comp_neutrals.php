@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Lubber', 'Seafarer', 'Lubber', 'Naala', 'Nalaa', 'Arid'];
+    $board   = ['Lasso', 'Lubber', 'Seafarer', 'Lubber', 'Nalaa', 'Nalaa', 'Arid'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
