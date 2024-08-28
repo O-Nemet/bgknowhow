@@ -23,11 +23,13 @@
     ?>
     <p>
         By no means is this a build that gets you first place. It is a decent build to get you Top 4, however. It's a simple build where you buy spells and use as much gold as possible to gain attack on your minions. Sadly, this build will be utterly destroyed by things like Divine Shield, Reborn and Deathrattles.
+
+        Bob's Tip Jar, Kodo Leather Pouch, Booty Bay Brew, Windrunner Necklace, Ceremonial Sword, Elementium Chest, Fancy Spelbook, Designer Eyepatch, and Balladist Portrait are all ideal trinkets.
     </p>
 
     <h3 id="apm">Infinite gold aka APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Underhanded Dealer', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Record Smuggler', 'Tethys', 'Tethys', 'Brann'];
+    $board   = ['Fisher', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Record Smuggler', 'Tethys', 'Tethys', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -35,6 +37,8 @@
         Peggy Sturdybone gets some diminishing returns if you have a wide board of Pirates. So when she stops being effective buffing your <strong>Blade Collector</strong>, you can replace her with <a class='hoverimage' href='/bgstrategy/minion/?id=109'>Brann</a> and use battlecries like <a class='hoverimage' href='/bgstrategy/minion/?id=325'>Lovesick Balladist</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=361'>Crow's Nest Sentry</a>. <strong>Tethys</strong> is your endgame minion to really go infinite. To make sure you go infinite and gain a lot of minions from Tethys, you have to buy cards that give you extra gold to spend. Cards such as <a class="hoverimage" href="/bgstrategy/minion/?id=125">Tavern Tempest</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=193">Shell Collector</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=119">Murozond</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=93">Primalfin Lookout</a>, <a class="hoverimage"
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      href="/bgstrategy/minion/?id=429">Rodeo
             Performer</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=263">General Drakkasith</a>.
+
+        Essence of Dreams, Bob's Tip Jar, Kodo Leather Pouch, Booty Bay Brew, Ceremonial Sword, Elementium Chest, Fancy Spelbook, Designer Eyepatch, Goldenizer Supply, and Balladist Portrait are all ideal trinkets.
     </p>
 
     <!--    <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
@@ -49,12 +53,14 @@
 
     <h3 id="deathrattle">Eliza Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Scallywag', 'Scallywag', 'Recruiter', 'Recruiter', 'Eliza', 'Eliza', 'Titus'];
+    $board   = ['Controller', 'Flagbearer', 'Flagbearer', 'Recruiter', 'Eliza', 'Eliza', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</A would really help out in this build.
+        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a> would really help out in this build.
+
+        Staff of Scourge, Fishy Sticker, Windrunner Necklace, Ceremonial Sword, Elementium Chest, Fancy Spellbook, Goldenizer Supply, and Balladist Portrait are all ideal trinkets.
     </p>
 </div>
 
