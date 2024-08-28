@@ -20,7 +20,9 @@
     drawBoard($minions);
     ?>
     <p>
-        Ideally, you want to have Reborn already on Anub'arak through the use of <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> triggered by <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>. Ghoul-acabra is in here to make sure your minions have enough health to not die from indirect damage. Afterward, you can replace it with <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of Primus</a>, or <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a>.
+        Ideally, you want to have Reborn already on Anub'arak through the use of <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> triggered by <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>. Ghoul-acabra is in here to make sure your minions have enough health to not die from indirect damage. Afterward, you can replace it with <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of Primus</a>.
+        <br><br>
+        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
     </p>
 
     <h3 id="moroes">Deathrattle Moroes Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -31,16 +33,20 @@
     ?>
     <p>
         This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Moroes. Alternatively, you can replace Moroes with Nightbane to gain a lot of attack instead of health.
+        <br><br>
+        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
     </p>
 
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Mummifier', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Champion of the Primus', 'Acabra'];
+    $board   = ['Caretaker', 'Caretaker', 'Summoner', 'Summoner', 'Crasher', 'Titus', 'Acabra'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Be sure to taunt Mummifier. This is a build you want to complete as soon as possible as you have cards like <strong>Eternal Summoner</strong> and <strong>Champion of the Primus</strong> that can only scale during combat. You are not going to do that well if you build this in the late game.
+        This is a build you want to complete as soon as possible as you have cards like <strong>Eternal Summoner</strong> and <strong>Champion of the Primus</strong> that can only scale during combat. You are not going to do that well if you build this in the late game.
+        <br><br>
+        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
     </p>
 
     <h3 id="exodia">Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -51,6 +57,8 @@
     ?>
     <p>
         <strong>Blaster</strong> and <strong>Titus</strong> are the cornerstones of this build. Don't buff the health of your minions too much, so that Blaster will always kill them.
+        <br><br>
+        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
     </p>
 </div>
 
