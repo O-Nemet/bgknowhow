@@ -45,12 +45,14 @@
 
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Arid', 'Seafarer', 'Silivaz', 'Matriarch', 'Nalaa', 'Nalaa'];
+    $board   = ['Lasso', 'Lubber', 'Seafarer', 'Lubber', 'Naala', 'Nalaa', 'Arid'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
         When playing this <strong>Nalaa</strong> based composition you will go all-in and buy as many cheap spells as possible each turn. During the mid-game try to secure the best minions supporting this end game build, like the examples shown here, depending on the available minion types.
+
+        Goldenlizer Supply, Holy Mallet, Alliance Keychain, Peacebloom Candle, Bronze Timepiece, Exquisite Dishware, are all ideal trinkets.
     </p>
 
     <h3 id="scam">Scam Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -65,6 +67,17 @@
         If neither Elementals nor Quilboars are available, the Undead minion <a class='hoverimage' href='/bgstrategy/minion/?id=515'>Hateful Hag</a> can work as an alternative by providing Reborn to Leeroy or Venomous minions.
     </p>
 
+<h3 id="nalaa">Lightfang Menagerie <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Reaper', 'Collector', 'Warpwing', 'Trickster', 'Arid', 'Lightfang', 'Enchanter'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        When playing this <strong>Nalaa</strong> based composition you will go all-in and buy as many cheap spells as possible each turn. During the mid-game try to secure the best minions supporting this end game build, like the examples shown here, depending on the available minion types.
+
+        Goldenlizer Supply, Holy Mallet, Alliance Keychain, Peacebloom Candle, Bronze Timepiece, Exquisite Dishware, Enforcer Portrait are all ideal trinkets.
+         </p>
 </div>
 
 <br><br>
