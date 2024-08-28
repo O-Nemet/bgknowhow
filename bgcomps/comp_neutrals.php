@@ -25,18 +25,16 @@
         Goldenizer Supply, Holy Mallet, Alliance Keychain, Peacebloom Candle, Bronze Timepiece, Exquisite Dishware, are all ideal trinkets.
     </p>
 
-    <h3 id="nalaa">Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="lightfang">Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Collector', 'Warpwing', 'Trickster', 'Arid', 'Lightfang', 'Enchanter'];
+    $board   = ['Reaper', 'Blade Collector', 'Warpwing', 'Trickster', 'Arid', 'Lightfang', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        When playing this <strong>Nalaa</strong> based composition you will go all-in and buy as many cheap spells as possible each turn. During the mid-game try to secure the best minions supporting this end game build, like the examples shown here, depending on the available minion types.
-        <br><br>
-        Goldenizer Supply, Holy Mallet, Alliance Keychain, Peacebloom Candle, Bronze Timepiece, Exquisite Dishware, Enforcer Portrait are all ideal trinkets.
-   </p>
-    
+        The combination of <strong>Lightfang Enforcer</strong> and <strong>Enchanter</strong> make this tempo comp (based on Tier 5 minions) possible. The other minions can basically be a best-of of the available minion types, just don't play more than one minion per type.
+    </p>
+
     <h3 id="scam">Scam Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Bramblewitch', 'Bramblewitch', 'Leeroy', 'Leeroy', 'Thrasher', 'Thrasher', 'Belcher'];
