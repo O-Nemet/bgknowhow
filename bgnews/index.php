@@ -8,7 +8,7 @@ include_once("../header.php");
     <p>
         After <a href="https://us.forums.blizzard.com/en/hearthstone/t/3021-patch-notes/133884" target="_blank">hotfix 30.2.1</a> brought us gold cost adjustments for many of the trinkets and the unexpected removal of <a class="hoverimage" href="/bgstrategy/minion/?id=478">Shellemental</a> and readdition of <a class="hoverimage" href="/bgstrategy/minion/?id=255">Sin'dorei Straight Shot</a> as well as a lot of bug fixes, Blizzard already announced Patch 30.2.2 for this coming Thursday.
         <br><br>
-        The official HS account on X has posted a <a href="https://x.com/PlayHearthstone/status/1828477592577425754" target="_blank">preview of the upcoming changes</a>). For Battlegrounds many minions will be buffed and just a few nerfed while the two minions <a class="hoverimage" href="/bgstrategy/minion/?id=306">Upbeat Frontdrake</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=204">Corrupted Myrmidon</a> will rejoin the brawl.
+        The official HS account on X has posted a <a href="https://x.com/PlayHearthstone/status/1828477592577425754" target="_blank">preview of the upcoming changes</a>. For Battlegrounds many minions will be buffed and just a few nerfed while the two minions <a class="hoverimage" href="/bgstrategy/minion/?id=306">Upbeat Frontdrake</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=204">Corrupted Myrmidon</a> will rejoin the brawl.
         <br><br>
         <img src="<?= PICTURE_LOCAL ?>news/patch3022_preview.jpg">
         <br><br>
