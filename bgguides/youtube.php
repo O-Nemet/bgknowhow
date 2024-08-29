@@ -8,15 +8,9 @@ include_once('../header.php');
     </p>
     <div class="streamers">
         <div class="iframe_div">
-            <h3>“Rating all Minions for Season 7 Battlegrounds” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
+            <h3>“BEST Trinkets and Comps for Season 8 Battlegrounds” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
             <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/C68vYNe62tk?autoplay=0&origin=https://bgknowhow.com">
-            </iframe>
-        </div>
-        <div class="iframe_div">
-            <h3>“Tribe Tierlist For Season 7 Battlegrounds” by <a href="https://www.youtube.com/@JeefHS/videos" target="_blank">JeefHS</a></h3>
-            <iframe id="ytplayer" type="text/html" width="800" height="450"
-                    src="https://www.youtube.com/embed/0ys5ygwUE7M?autoplay=0&origin=https://bgknowhow.com">
+                    src="https://www.youtube.com/embed/iZzVytUq3eY?autoplay=0&origin=https://bgknowhow.com">
             </iframe>
         </div>
         <div class="iframe_div">
