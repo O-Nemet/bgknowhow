@@ -169,7 +169,7 @@ include_once('../header.php');
     </p>
     <h3 id="spellcraft">Spellcraft <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <p>
-        Spellcraft is an ability exclusive to the <a href="/bgstrategy/?show=minions&type=naga">Naga minion</a> type, but some dual-type Naga (like <a class="hoverimage" href="/bgstrategy/minion/?id=479">Dragonic Deathscale</a>) do exist, which let the ability bleed into other types, too.
+        Spellcraft is an ability exclusive to the <a href="/bgstrategy/?show=minions&type=naga">Naga minion</a> type, but some dual-type Naga (like <a class="hoverimage" href="/bgstrategy/minion/?id=479">Draconic Deathscale</a>) do exist, which let the ability bleed into other types, too.
         <br><br>
         When you play a minion with Spellcraft you will get a temporary spell with its effect added to your hand. In addition, for each Spellcraft minion on your board at the start of your Tavern turn you will also receive its Spellcraft spell. These spells will be destroyed at the end of each Tavern turn. Therefore, you should always plan for enough time to play all of them, and they can not be stored for future turns. If your hand is already full (10 cards maximum) when you would receive a Spellcraft, you will still receive it after you clear your hand of cards.
         <br><br>
