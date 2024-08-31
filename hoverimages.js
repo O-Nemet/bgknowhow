@@ -1,5 +1,5 @@
 // This script was taken from https://giventofly.github.io/MTG-Tooltip-Js/#examples and modified to display either
-// minion or heropower pictures for Hearthstone Battlegrounds
+// minion, heropower, spell, anomaly or trinket pictures for Hearthstone Battlegrounds
 // Original Copyright (c) 2018 José Moreira (original source code from https://github.com/giventofly/MTG-Tooltip-Js)
 
 const bgTooltip = function (customSettings) {
@@ -56,6 +56,9 @@ bgTooltip.prototype = {
                     param_img_suffix = "_render_80.webp";
                 } else if (hoverId.type === 'S') {
                     params = "//bgknowhow.com/images/spells/"
+                    param_img_suffix = "_render_80.webp";
+                } else if (hoverId.type === 'T') {
+                    params = "//bgknowhow.com/images/trinkets/"
                     param_img_suffix = "_render_80.webp";
                 } else if (hoverId.type === 'M') {
                     params = "//bgknowhow.com/images/minions/"
@@ -293,20 +296,6 @@ bgTooltip.prototype = {
             }
         }
         return null;
-    },
-    //define images for lands
-    _shocklands: [{"blood crypt": {"type": "shocklands", "old": "dis", "new": "rtr", "exp": "exp"}}, {"breeding pool": {"type": "shocklands", "old": "dis", "new": "gtc", "exp": "exp"}}, {"godless shrine": {"type": "shocklands", "old": "gpt", "new": "gtc", "exp": "exp"}}, {"hallowed fountain": {"type": "shocklands", "old": "dis", "new": "rtr", "exp": "exp"}}, {"overgrown tomb": {"type": "shocklands", "old": "rav", "new": "rtr", "exp": "exp"}}, {"sacred foundry": {"type": "shocklands", "old": "rav", "new": "gtc", "exp": "exp"}}, {"steam vents": {"type": "shocklands", "old": "gpt", "new": "rtr", "exp": "exp"}}, {"stomping ground": {"type": "shocklands", "old": "gpt", "new": "gtc", "exp": "exp"}}, {"temple garden": {"type": "shocklands", "old": "rav", "new": "rtr", "exp": "exp"}}, {"watery grave": {"type": "shocklands", "old": "rav", "new": "gtc", "exp": "exp"}}],
-    _fetchlands: [{"arid mesa": {"type": "fetchlands", "old": "zen", "new": "mm3", "exp": "exp"}}, {"bloodstained mire": {"type": "fetchlands", "old": "ons", "new": "ktk", "exp": "exp"}}, {"flooded strand": {"type": "fetchlands", "old": "ons", "new": "ktk", "exp": "exp"}}, {"marsh flats": {"type": "fetchlands", "old": "zen", "new": "mm3", "exp": "exp"}}, {"misty rainforest": {"type": "fetchlands", "old": "zen", "new": "mm3", "exp": "exp"}}, {"polluted delta": {"type": "fetchlands", "old": "ons", "new": "ktk", "exp": "exp"}}, {"scalding tarn": {"type": "fetchlands", "old": "zen", "new": "mm3", "exp": "exp"}}, {"verdant catacombs": {"type": "fetchlands", "old": "zen", "new": "mm3", "exp": "exp"}}, {"windswept heath": {"type": "fetchlands", "old": "ons", "new": "ktk", "exp": "exp"}}, {"wooded foothills": {"type": "fetchlands", "old": "ons", "new": "ktk", "exp": "exp"}}],
-    _painlands: [{"adarkar wastes": {"type": "painlands", "old": "ie", "new": "10e", "exp": "6e"}}, {"battlefield forge": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}, {"brushland": {"type": "painlands", "old": "ie", "new": "10e", "exp": "6e"}}, {"caves of koilos": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}, {"karplusan forest": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}, {"llanowar wastes": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}, {"shivan reef": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}, {"yavimaya coast": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}, {"underground river": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}, {"sulfurous springs": {"type": "painlands", "old": "ap", "new": "ori", "exp": "10e"}}],
-    _basiclands: [{"mountain": {"type": "basiclands", "uhn": "unh", "ust": "ust", "ugl": "ug"}}, {"plains": {"type": "basiclands", "uhn": "unh", "ust": "ust", "ugl": "ug"}}, {"forest": {"type": "basiclands", "uhn": "unh", "ust": "ust", "ugl": "ug"}}, {"swamp": {"type": "basiclands", "uhn": "unh", "ust": "ust", "ugl": "ug"}}, {"island": {"type": "basiclands", "uhn": "unh", "ust": "ust", "ugl": "ug"}}],
-    _alltogether: function () {
-        //join all the landsets together
-        const alltogether = [this._shocklands, this._fetchlands, this._painlands, this._basiclands];
-        alltogether.forEach(elem => {
-            elem.forEach((item, index) => {
-                Object.assign(this._lands, elem[index]);
-            });
-        });
     },
     _lands: {},
 

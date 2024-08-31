@@ -89,6 +89,9 @@ foreach ($tempHeroes->data as $key => $object) {
 foreach ($tempAnomalies->data as $key => $object) {
     $hoverImages = $hoverImages . "{name:'" . addslashes($object->name) . "',shortname:'" . addslashes($object->name) . "',id:'$object->id',type:'A'},";
 }
+foreach ($tempTrinkets->data as $key => $object) {
+    $hoverImages = $hoverImages . "{name:'" . addslashes($object->name) . "',shortname:'" . addslashes($object->name) . "',id:'$object->id',type:'T'},";
+}
 foreach ($tempSpells->data as $key => $object) {
     $hoverImages = $hoverImages . "{name:'" . addslashes($object->name) . "',shortname:'" . addslashes($object->name) . "',id:'$object->id',type:'S'},";
 }

@@ -31,7 +31,7 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
         gtag('config', 'G-P1G76VLP1E');
     </script>
     <script src="/functions.js" type="text/javascript"></script>
-    <script src="/miniontooltip.js" type="text/javascript"></script>
+    <script src="/hoverimages.js" type="text/javascript"></script>
 </head>
 
 <body class="<?= getWebsiteName(); ?>" style="background-color: antiquewhite">
