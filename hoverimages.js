@@ -297,6 +297,14 @@ bgTooltip.prototype = {
         }
         return null;
     },
+    _alltogether: function () {
+        //join all the landsets together
+        const alltogether = [];
+        alltogether.forEach(elem => {
+            elem.forEach((item, index) => {
+                Object.assign(this._lands, elem[index]);
+            });
+        });
+    },
     _lands: {},
-
 }
