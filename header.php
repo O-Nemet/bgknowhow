@@ -155,11 +155,11 @@ $lastURL = isset($_SERVER['HTTP_REFERER']) ?? null;
                     <a class="menu-topic" href="/bglegends/">Tournaments</a>
                 </li>
                 <li class="menu-hover bgsim">
-                    <a class="menu-topic" href="/bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">Simulator</a>
+                    <a class="menu-topic" href="/bgsim/?be=1&de=1&dr=1&el=0&me=1&mu=1&na=1&pi=1&qu=1&ud=1">Simulator</a>
                     <div class="menu-container-1">
                         <div class="menu-column-1">
                             <ul>
-                                <li><a href="/bgsim/?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1">...Turn-1 Minion Matrix</a></li>
+                                <li><a href="/bgsim/?be=1&de=1&dr=1&el=0&me=1&mu=1&na=1&pi=1&qu=1&ud=1">...Turn-1 Minion Matrix</a></li>
                                 <li><a href="/bgsim/custom.php">...Custom Board</a></li>
                             </ul>
                         </div>

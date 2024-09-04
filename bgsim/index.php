@@ -124,7 +124,7 @@ function getLink($type, $currentValue): string
 {
     // first-load handling (so a call to index.php is valid)
     if (strstr($_SERVER["REQUEST_URI"], '?') === false) {
-        $newLink = $_SERVER["REQUEST_URI"] . '?be=1&de=1&dr=1&el=1&me=1&mu=1&na=1&pi=1&qu=1&ud=1';
+        $newLink = $_SERVER["REQUEST_URI"] . '?be=1&de=1&dr=1&el=0&me=1&mu=1&na=1&pi=1&qu=1&ud=1';
     } else {
         $newLink = $_SERVER["REQUEST_URI"];
     }
