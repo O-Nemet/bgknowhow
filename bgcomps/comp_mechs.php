@@ -66,7 +66,7 @@
     <p>
         Think of this build similarly to Eternal Summoner and Eternal Knights, except they get stronger for the amount of times they get summoned. So cards like Mecha Jaraxxus, Baltharak and Prosthetic Hand helps resummon them. Fortunately, the returning Kangor's Apprentice also resummons a board full with a combination of Titus. Leeroy can be any card, but preferably a card that isn't a Mech so Kangor's can't resummon it.
         <br><br>
-        Trinkets that would go well with this include <a class="hoverimage" href="/bgstrategy/trinket/?id=22">Automaton Portrait</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=69">Rivendare Portrait</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=66">Twin Sky Lanterns</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=83">Boom Controller</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=82">Mechagon Adaptor</a>, and <a class="hoverimage" href="/bgstrategy/trinket/?id=109">Karazhan Chess Set</a>.
+        Trinkets that would go well with this include <a class="hoverimage" href="/bgstrategy/trinket/?id=22">Automaton Portrait</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=69">Rivendare Portrait</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=66">Twin Sky Lanterns</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=83">Boom Controller</a>, <a class="hoverimage" href="/bgstrategy/trinket/?id=82">Mechagon Adapter</a>, and <a class="hoverimage" href="/bgstrategy/trinket/?id=109">Karazhan Chess Set</a>.
     </p>
 </div>
 
