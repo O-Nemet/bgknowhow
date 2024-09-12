@@ -61,7 +61,7 @@ include_once('../header.php');
     </ul>
     <br><br>
     <p>
-        <span class="small_info">Last update: 24.08.2024</span>
+        <span class="small_info">Last update: 08.09.2024</span>
     </p>
 </div>
 
