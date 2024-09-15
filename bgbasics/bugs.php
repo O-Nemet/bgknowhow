@@ -8,7 +8,7 @@ include_once('../header.php');
         Here is a list of currently known/active bugs with gameplay impact in Hearthstone Battlegrounds:
     </p>
     <ul>
-        <li>Giving a Magnetic mech in the shop Taunt, and then Magnetizing it, the Taunt won't apply to <a class="hoverimage" href="/bgstrategy/minion/?id=353">Polarizing Beatboxer</a>. Also, temporary stat buffs on Magnetic minions will no longer be applied to the Beatboxer, too (might be intended).</li>
+        <li>Trinkets which mention a minion type will sometimes display minion types not in the game (like Draenai or Night Elves). This is only a visual bug.</li>
         <li><a class="hoverimage" href="/bgstrategy/spell/?id=30">Planar Telescope</a> gives nothing if your most common type is not one of the minion types in the game, and you're not at Tier 6 (where there is an "All" type minion).</li>
     </ul>
     <ul>
@@ -18,6 +18,11 @@ include_once('../header.php');
         <li>Duos: The quest indicator for the hero power of <a class="hoverimage" href="/bgstrategy/hero/?id=87">Sire Denathrius</a> will be hidden on your screen, making it harder to track your quest progress (your teammate can see it though).</li>
     </ul>
     <ul>
+        <li>
+            <del>Giving a Magnetic mech in the shop Taunt, and then Magnetizing it, the Taunt won't apply to <a class="hoverimage" href="/bgstrategy/minion/?id=353">Polarizing Beatboxer</a>. Also, temporary stat buffs on Magnetic minions will no longer be applied to the Beatboxer, too (might be intended).</del>
+            (fixed in 30.4.1.)
+        </li>
+
         <li>
             <del>When tripling an "All" type minion with <a class="hoverimage" href="/bgstrategy/minion/?id=356">Elemental of Surprise</a>, the Golden version loses its "All" type and becomes just an elemental.</del>
             (fixed in 30.2.1)
@@ -61,7 +66,7 @@ include_once('../header.php');
     </ul>
     <br><br>
     <p>
-        <span class="small_info">Last update: 08.09.2024</span>
+        <span class="small_info">Last update: 15.09.2024</span>
     </p>
 </div>
 
