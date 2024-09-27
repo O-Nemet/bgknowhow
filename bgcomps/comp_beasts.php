@@ -25,7 +25,7 @@
 
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Goldrinn', 'Manasaber', 'Mount', 'Octosari', 'Acabra', 'Titus'];
+    $board   = ['Macaw', 'Goldrinn', 'Mount', 'Mount', 'Octosari', 'Acabra', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -35,12 +35,12 @@
 
     <h3 id="rylak">Frogleaper Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Leaper', 'Macaw', 'Manasaber', 'Leaper', 'Manasaber', 'Mount', 'Titus'];
+    $board   = ['Leaper', 'Macaw', 'Mount', 'Leaper', 'Savior', 'Mount', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        The frogs are back! Sadly, the game has removed many of the minions that spawn deathrattle tokens. But, this does not mean you have no options. Manasaber, <a class="hoverimage" href="/bgstrategy/minion/?id=297">Sly Raptor</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=555">Indomitable Mount</a> are your best choices. Now, the most important thing to know about this build is that you absolutely NEED <strong>Titus Rivendare</strong>. The amount of bounces <strong>Leapers</strong> will provide without Titus is negligible. Keep your Titus safe, make sure you taunt and reborn your minions accordingly, and put Macaw at a spot where it's able to activate Manasaber's deathrattle.
+        The frogs are back! Sadly, the game has removed many of the minions that spawn deathrattle tokens. But, this does not mean you have no options. Manasaber, <a class="hoverimage" href="/bgstrategy/minion/?id=297">Sly Raptor</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=555">Indomitable Mount</a> are your best choices. Now, the most important thing to know about this build is that you absolutely NEED <strong>Titus Rivendare</strong>. The amount of bounces <strong>Leapers</strong> will provide without Titus is negligible. Keep your Titus safe, make sure you taunt and reborn your minions accordingly, and put Macaw at a spot where it's able to activate Mount's deathrattle.
     </p>
 
 </div>
