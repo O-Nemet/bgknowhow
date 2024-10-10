@@ -135,6 +135,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>10.10.2024 - Added all new trinkets, minions and updates from the <a href="https://hearthstone.blizzard.com/en-us/news/24143781" target="_blank">30.6.0</a> patch notes.</li>
         <li>27.09.2024 - Added BG changes from the <a href="https://news.blizzard.com/en-us/hearthstone/24128997/30-4-3-patch-notes" target="_blank">30.4.3</a> patch notes.</li>
         <li>15.09.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3041-patch-notes/135070" target="_blank">30.4.1</a> patch notes.</li>
         <li>09.09.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24135706" target="_blank">30.4.0</a> patch notes.</li>

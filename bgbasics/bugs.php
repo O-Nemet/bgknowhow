@@ -12,12 +12,15 @@ include_once('../header.php');
         <li><a class="hoverimage" href="/bgstrategy/spell/?id=30">Planar Telescope</a> gives nothing if your most common type is not one of the minion types in the game, and you're not at Tier 6 (where there is an "All" type minion).</li>
     </ul>
     <ul>
-        <li>Duos: Your partner's gold amount is not shown.</li>
         <li>Duos: There is a chance that after hiding your discover options and switching to your partner's screen, you won't be able to your options again.</li>
         <li>Duos: Treasures from <a class="hoverimage" href="/bgstrategy/hero/?id=71">Tickatus</a>'s hero power can't be passed to your teammate.</li>
         <li>Duos: The quest indicator for the hero power of <a class="hoverimage" href="/bgstrategy/hero/?id=87">Sire Denathrius</a> will be hidden on your screen, making it harder to track your quest progress (your teammate can see it though).</li>
     </ul>
     <ul>
+        <li>
+            <del>Duos: Your partner's gold amount is not shown.</del>
+            (fixed in 30.6.0)
+        </li>
         <li>
             <del>Giving a Magnetic mech in the shop Taunt, and then Magnetizing it, the Taunt won't apply to <a class="hoverimage" href="/bgstrategy/minion/?id=353">Polarizing Beatboxer</a>. Also, temporary stat buffs on Magnetic minions will no longer be applied to the Beatboxer, too (might be intended).</del>
             (fixed in 30.4.1.)
@@ -66,7 +69,7 @@ include_once('../header.php');
     </ul>
     <br><br>
     <p>
-        <span class="small_info">Last update: 15.09.2024</span>
+        <span class="small_info">Last update: 10.10.2024</span>
     </p>
 </div>
 
