@@ -2,7 +2,7 @@
 
 A website about Hearthstone Battlegrounds, currently hosted at https://bgknowhow.com.<br><br>
 The only JavaScript utilized is for the image tooltips, Google Analytics and the Paypal donation button.<br>
-Other than that everything is handled by HTML/CSS supported by PHP for dynamic user interaction. There are plans to utilize the Angular framework in the future, to decrease code clutter and increase UI/UX possibilities.
+Other than that everything is handled by HTML/CSS supported by PHP for dynamic user interaction. There are plans to utilize the Angular framework in the future, to decrease code clutter and increase UI/UX possibilities..
 
 # Installation
 
