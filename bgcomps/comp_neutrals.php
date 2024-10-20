@@ -47,14 +47,14 @@
         If neither Elementals nor Quilboars are available, the Undead minion <a class='hoverimage' href='/bgstrategy/minion/?id=515'>Hateful Hag</a> can work as an alternative by providing Reborn to Leeroy or Venomous minions.
     </p>
 
-        <h3 id="Theotar">Theotar Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="theotar">Theotar Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Blade Collector', 'Warpwing', 'Theotar', 'Theotar', 'Elise', 'Elise'];
+    $board   = ['Reaper', 'Blade Collector', 'Warpwing', 'Theo', 'Theo', 'Elise', 'Elise'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Focus on getting neutral minions such as the Golden Monkeys. Eventually you will want to triple Theotar or Elise, be sure to replace them with Leroy or Deadly Spore.
+        Focus on getting neutral minions such as the Golden Monkeys. Eventually you will want to triple <strong>Theotar</strong> or Elise, be sure to replace them with <a class="hoverimage" href="/bgstrategy/minion/?id=208">Leeroy</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=111">Deadly Spore</a>.
     </p>
 </div>
 
