@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Lubber', 'Seafarer', 'Lubber', 'Nalaa', 'Nalaa', 'Arid'];
+    $board   = ['Lasso', 'Lubber', 'Slider', 'Lubber', 'Nalaa', 'Nalaa', 'Arid'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -45,6 +45,16 @@
         This is a build used if you just cannot find an actual build that scales. This won't win against every build, but it is very effective if your opponent only has 7 strong minions without Deathrattles, Reborns, Divine Shields, or Cleaves.
         <br><br>
         If neither Elementals nor Quilboars are available, the Undead minion <a class='hoverimage' href='/bgstrategy/minion/?id=515'>Hateful Hag</a> can work as an alternative by providing Reborn to Leeroy or Venomous minions.
+    </p>
+
+        <h3 id="Theotar">Theotar Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Reaper', 'Blade Collector', 'Warpwing', 'Theotar', 'Theotar', 'Elise', 'Elise'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        Focus on getting neutral minions such as the Golden Monkeys. Eventually you will want to triple Theotar or Elise, be sure to replace them with Leroy or Deadly Spore.
     </p>
 </div>
 
