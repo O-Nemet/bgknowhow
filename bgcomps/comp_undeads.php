@@ -39,7 +39,7 @@
 
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Caretaker', 'Caretaker', 'Summoner', 'Summoner', 'Crasher', 'Titus', 'Acabra'];
+    $board   = ['Macaw', 'Caretaker', 'Caretaker', 'Summoner', 'Summoner', 'Crasher', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
