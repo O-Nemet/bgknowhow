@@ -382,7 +382,7 @@ if (!empty($buddy)) {
 
     if ($show == 'trinkets' || $show == 'all') {
         echo '<h2 class="page_title">Trinkets</h2>';
-        echo '<p>Trinkets are special passive power-ups that you buy with Gold and use for the rest of the game. Trinkets are offered twice per game: on turns 6 and 9. Each offering, you will get 4 Trinkets to choose from, influenced by your hero, the minion types in the game, and your warband. In total, there are 56 Lesser Trinkets (turn 6) and 60 Greater Trinkets (turn 9). Some Trinkets have a Lesser and a Greater version, letting you diversify or double-up on your effects.<br></p>';
+        echo '<p>Trinkets are special passive power-ups that you buy with Gold and use for the rest of the game. Trinkets are offered twice per game: on turns 6 (8 Gold) and 9 (10 Gold). Each offering, you will get 4 Trinkets to choose from, influenced by your hero, the minion types in the game, and your current warband. In total, there are 71 Lesser Trinkets (turn 6) and 78 Greater Trinkets (turn 9). Some Trinkets have a Lesser and a Greater version, letting you diversify or double-up on their effects.<br></p>';
     }
 
     if ($show == 'trinkets' && $mode == 'gfx') {
