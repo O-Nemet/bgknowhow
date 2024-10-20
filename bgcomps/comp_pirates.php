@@ -29,7 +29,7 @@
 
     <h3 id="apm">Infinite gold aka APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Fisher', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Record Smuggler', 'Tethys', 'Tethys', 'Brann'];
+    $board   = ['Fisher', 'Peggy Sturdybone', 'Peggy Sturdybone', 'Looter', 'Tethys', 'Tethys', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
