@@ -135,6 +135,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>21.11.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24161533/31-0-3-patch-notes" target="_blank">31.0.3</a> patch notes.</li>
         <li>03.11.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3101-patch-notes/137048" target="_blank">31.0.1</a> patch notes.</li>
         <li>24.10.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3063-patch-notes/136635" target="_blank">30.6.3</a> patch notes.</li>
         <li>20.10.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24149104" target="_blank">30.6.2</a> patch notes.</li>
