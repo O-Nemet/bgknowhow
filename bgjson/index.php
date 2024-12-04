@@ -42,7 +42,7 @@ include_once('../header.php');
         </thead>
         <tbody>
         <tr>
-            <td colspan="4"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active Battlegrounds Entities</a></td>
+            <td colspan="3"><a href="/bgjson/output/bg_entities_active.json"><i class="bi bi-file-earmark-arrow-down-fill"></i> Active Battlegrounds Entities</a></td>
         </tr>
         <tr>
             <td><a href="/bgjson/output/bg_heroes_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Heroes</a></td>
@@ -52,7 +52,7 @@ include_once('../header.php');
             <!--            <td><a href="/bgjson/output/bg_quests_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_rewards_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_anomalies_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>-->
-            <td><a href="/bgjson/output/bg_trinkets_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Trinkets</a></td>
+            <!--            <td><a href="/bgjson/output/bg_trinkets_active.json"><i class="bi bi-file-earmark-arrow-down"></i> Active Trinkets</a></td>-->
         </tr>
         </tbody>
     </table>
@@ -89,7 +89,7 @@ include_once('../header.php');
     <table class="format-table">
         <thead>
         <tr>
-            <th colspan="4">CSV format (active only)</th>
+            <th colspan="3">CSV format (active only)</th>
         </tr>
         </thead>
         <tbody>
@@ -101,7 +101,7 @@ include_once('../header.php');
             <!--            <td><a href="/bgjson/output/bg_quests_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Quests</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_rewards_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Rewards</a></td>-->
             <!--            <td><a href="/bgjson/output/bg_anomalies_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Anomalies</a></td>-->
-            <td><a href="/bgjson/output/bg_trinkets_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Trinkets</a></td>
+            <!--            <td><a href="/bgjson/output/bg_trinkets_active.csv"><i class="bi bi-file-earmark-arrow-down"></i> Active Trinkets</a></td>-->
         </tr>
         </tbody>
     </table>
@@ -135,6 +135,7 @@ include_once('../header.php');
     <p class="caption"><u>Latest Changes:</u></p>
     <br>
     <ul id="latest_changes">
+        <li>05.12.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24163459/31-2-patch-notes" target="_blank">31.2.0</a> patch notes.</li>
         <li>21.11.2024 - Added BG changes from the <a href="https://hearthstone.blizzard.com/en-us/news/24161533/31-0-3-patch-notes" target="_blank">31.0.3</a> patch notes.</li>
         <li>03.11.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3101-patch-notes/137048" target="_blank">31.0.1</a> patch notes.</li>
         <li>24.10.2024 - Added BG changes from the <a href="https://us.forums.blizzard.com/en/hearthstone/t/3063-patch-notes/136635" target="_blank">30.6.3</a> patch notes.</li>
