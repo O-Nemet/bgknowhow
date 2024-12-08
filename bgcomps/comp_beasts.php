@@ -13,30 +13,44 @@
     All Beast builds can be improved by utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=420">Sprightly Scarab</a> to Reborn as many Beasts as possible while building up your endgame composition.
 </p>
 <div class="comp_wrapper">
-    <h3 id="selfdamage">Self-Damage Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="selfdamage">Beast Starter Kit <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Savior', 'Savior', 'Trigore', 'Trigore', 'Skyblazer', 'Skyblazer'];
+    $board   = ['Raptor', 'Forest Rover', 'Vermin', 'Manasaber', 'Manasaber', 'Humming Bird', 'Bird Buddy'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This relies heavily on <strong>Irisdescent Skyblazer</strong> being the main way for your minions to gain stats. In the early and mid-game, this build becomes quite strong. However, as the game progresses, if you do not have an early Skyblazer then you may have an issue outscaling other builds. 
-        <br><br>
-        The best trinket for this build is: Gilnean Thorned Rose
+        Think of this as what a beast build will look like around the early to mid game. This is not an end game composition, but will help lead you to better builds down the line.
     </p>
 
-    <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="deathrattle">Goldrinn Beasts <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Goldrinn', 'Horse', 'Mount', 'Octosari', 'Chameleon', 'Titus'];
+    $board   = ['Macaw', 'Goldrinn', 'Horse', 'Horse', 'Manasaber', 'Mount', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
         Please understand that Monstrous Macaw's effect the leftmost card on your board, not necessarily to it. It will always land on <strong>Goldrinn</strong>, as long as you position it to be the leftmost deathrattle card in comparison to the other deathrattle cards. Ghoul-acabra is not necessary for the build, but it can be another way to gain strength if you cannot find another Goldrinn. Other deathrattle cards from the beast pool like <a class="hoverimage" href="/bgstrategy/minion/?id=297">Sly Raptor</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=305">Manasaber</a> can also fit in the build.
         <br><br>
-        The best trinkets for this build are: Fishy Sticker, Slamma Sticker, and Deathly Phylactery.
     </p>
-
+ <h3 id="deathrattle">Beatle Beasts <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Macaw', 'Turquoise Skitter', 'Buzzing Vermin', 'Mount', 'Nest Swarmer', 'Runed Progenitor', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+This is the newest build for Beasts. Your goal is to buff Beatles as much as you can, then summon an overwhelming amount during combat. The biggest problem is that you really ned to know how to order your build so that you can summon as much beatles as you possible can during combat.        <br><br>
+    </p>
+    <h3 id="deathrattle">Rylak Beatles Beast<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Macaw', 'Rylak', 'Forest Rover', 'Nest Swarmer', 'Nest Swarmer', 'Brann', 'Titus'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+This can be the starter kit for Beatle Beast as this focusing a lot more on scaling than the previous build. However, it still can summon plenty of Beatles for combat. Just be sure to know when to stop scaling and focus on just improving your build for the final fights in your lobby.        <br><br>
+    </p>
 </div>
 
 <br><br>
