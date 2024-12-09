@@ -10,23 +10,23 @@
 <p>
     <a href="/bgstrategy/?show=minions&type=quilboar"><i class="bi bi-box-arrow-up-right"></i> All available Quilboars and Quilboar-associated minions</a>
     <br><br>
-    Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled by using <a class="hoverimage" href="/bgstrategy/minion/?id=328">Prickly Piper</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=321">Moon-Bacon Jazzer</a> as much as possible/reasonable while leveling up.
+    Quilboars have a special mechanic in the form of Blood Gems, which in their base form are +1/+1 buffs that are stored as spells in your hand (the maximum hand size is 10). Gems should be scaled as much as possible/reasonable while leveling up.
     <br><br>
     Due to the gems they have synergies with Mechs and Naga.
     <!--    Quilboar also enable the so called 'Menagerie' builds via <a class="hoverimage" href="/bgstrategy/minion/?id=105">Aggem Thorncurse</a> where you try to pick the best minions of each type.-->
 </p>
 <div class="comp_wrapper">
-    <h3 id="roogug">Starter Quilboar <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="starter">Starter Quilboar <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Buffoon', 'Bannerboar', 'Gem Rat', 'Crystal Infuser', 'Boar Gamer', 'Thorned Trailblazer', 'Prophet of the Boar'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This is just a build that you start with to set up and start going towards to the other builds.
+        This is just a build that you start with, to set up and start going towards to the other builds.
     </p>
 
-    <h3 id="bristlebach">Choose One Quilboar <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="chooseone">Choose One Quilboar <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['TLQ', 'Turbo Hogrider', 'Turbo Hogrider', 'Gem Rat', 'Thorned Trailblazer', 'Thorned Trailblazer', 'Boar Game'];
     $minions = getMinionsForBoard($board);
@@ -46,7 +46,7 @@
         As opposed to the above build, this will give you a lot of cards in your hand, possibly more than you can hold. This build plays on it's own, and only really needs you to just play the Blood Gems and Gem Rat spell from your hand.
     </p>
 
-    <h3 id="deathrattle"> Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="battlecry"> Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Pokey', 'Gem Rat', 'Gemsmuggler', 'Murk-Eye', 'Gemsmuggler', 'Brann', 'Enchanter'];
     $minions = getMinionsForBoard($board);
