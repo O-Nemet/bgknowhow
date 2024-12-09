@@ -27,7 +27,7 @@
 
     <h3 id="magneticsummon">Magnetic Summon Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Holo Rover', 'Holo Rover', 'Dr. Boom\'s Monster', 'Dr . Boom\'s Monster', 'Kangor\'s', 'Kangor\'s', 'Titus'];
+    $board   = ['Holo Rover', 'Holo Rover', 'Monster', 'Monster', 'Kangor\'s', 'Kangor\'s', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
