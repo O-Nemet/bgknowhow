@@ -30,7 +30,7 @@
     drawBoard($minions);
     ?>
     <p>
-        This build is trying to take advantage of Deathly Striker and Wandering Wight's synergy. You are trying to summon as much minions as you can for Deathly Striker's avenge, and with the attack gained from Anub'arak, they should also have a lot of health from Wandering Wight's ability. The tough part really hoping attacks go right during combat. Just make sure you know who to taunt, and how to order the cards properly.
+        This build is trying to take advantage of Deathly Striker and Wandering Wight's synergy. You are trying to summon as much minions as you can for Deathly Striker's avenge, and with the attack gained from Anub'arak, they should also have a lot of health from Wandering Wight's ability. The tough part really is hoping attacks go right during combat. Just make sure you know who to taunt, and how to order the cards properly.
     </p>
 </div>
 
