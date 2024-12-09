@@ -13,52 +13,24 @@
     Undead shine with many Reborn and Deathrattle effects, usually providing you more minions than your opponents. They are able to buff the attack of every Undead permanently and the minion <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a> provides a unique way to alter and buff your warband. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</a> also helps in almost all of the builds.
 </p>
 <div class="comp_wrapper">
-    <h3 id="knights">Deathrattle Knight Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Anub', 'Handless', 'Handless', 'Summoner', 'Summoner', 'Acabra', 'Titus'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        Ideally, you want to have Reborn already on Anub'arak through the use of <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> triggered by <a class="hoverimage" href="/bgstrategy/minion/?id=444">Disguised Graverobber</a>. Ghoul-acabra is in here to make sure your minions have enough health to not die from indirect damage. Afterward, you can replace it with <a class="hoverimage" href="/bgstrategy/minion/?id=442">Mummifier</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=390">Champion of Primus</a>.
-        <br><br>
-        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
-    </p>
-
-    <h3 id="moroes">Deathrattle Moroes Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
-    <?php
-    $board   = ['Moroes', 'Kel', 'Mummifier', 'Summoner', 'Summoner', 'Titus', 'Acabra'];
-    $minions = getMinionsForBoard($board);
-    drawBoard($minions);
-    ?>
-    <p>
-        This build is about generating as many golden <strong>Moroes</strong> as possible via <strong>Kel'Thuzad</strong>, which is why you will usually end your turn with only 6 minions on the board. In contrast to the other Undead builds this one does not depend on <a class="hoverimage" href="/bgstrategy/minion/?id=286">Eternal Summoner</a> or playing early <a class="hoverimage" href="/bgstrategy/minion/?id=274">Eternal Knight</a>s, but can be started with those two key cards only and any other Undead minions available. Taunt the Moroes. Alternatively, you can replace Moroes with Nightbane to gain a lot of attack instead of health.
-        <br><br>
-        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
-    </p>
-
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Caretaker', 'Caretaker', 'Summoner', 'Summoner', 'Crasher', 'Titus'];
+    $board   = ['Anub', 'Mummifier', 'Caretaker', 'Handless Forsaken', 'Acabra', 'Catabomb Crasher', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        This is a build you want to complete as soon as possible as you have cards like <strong>Eternal Summoner</strong> and <strong>Champion of the Primus</strong> that can only scale during combat. You are not going to do that well if you build this in the late game.
-        <br><br>
-        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
+        For this build you are trying to try do a few things. First, build attack from Anub'arak. Second, summon as much minions as you can to activate Catacomb Crasher's ability. And third, once you gain all the stats you can from Ghoul-acabra, replace him with other cards that will help summon a lot of minions. You could have Monsterous Macaw replace Anub'arak to summon a lot of cards from Caretaker to activate Catacomb Crasher's effect. Or you can use Deathly Striker to summon more minions.
     </p>
 
-    <h3 id="exodia">Exodia Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="swarm">Swarm Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Blaster', 'Phaerix', 'Anub', 'Anub', 'Summoner', 'Summoner', 'Titus'];
+    $board   = ['Anub', 'Caretaker', 'Caretaker', 'Deathly Striker', 'Wandering Wight', 'Titus', 'Crasher'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        <strong>Blaster</strong> and <strong>Titus</strong> are the cornerstones of this build. Don't buff the health of your minions too much, so that Blaster will always kill them.
-        <br><br>
-        Windrunner Necklace, Artisanal Urn, Eternal Portrait, Comfy Coffin, Staff of the Scourge, Ceremonial Sword, Horde Keychain, Fishy Sticker, Butcher's Sickle, Mug of the Sire, and Goldenlizer Supply are the ideal trinkets.
+        This build is trying to take advantage of Deathly Striker and Wandering Wight's synergy. You are trying to summon as much minions as you can for Deathly Striker's avenge, and with the attack gained from Anub'arak, they should also have a lot of health from Wandering Wight's ability. The tough part really hoping attacks go right during combat. Just make sure you know who to taunt, and how to order the cards properly.
     </p>
 </div>
 
