@@ -30,7 +30,7 @@
     drawBoard($minions);
     ?>
     <p>
-        You're going to gain a lot of Battlecries with this build. Eventually, you're going to replace the Primalfin with King Bagurgle or Murky to gain more stat buffs. 
+        You're going to gain a lot of Battlecries with this build. Eventually, you're going to replace the Primalfin with King Bagurgle or Murky to gain more stat buffs.
     </p>
 
     <h3 id="keyword">Keyword Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

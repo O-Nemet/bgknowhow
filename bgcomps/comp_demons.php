@@ -37,6 +37,7 @@
         This is what Felbat build should normally look like as you start, but you can always change the cards depending on your situation. Demons are interchangeable, but these are more ideal than others. <a class="hoverimage" href="/bgstrategy/minion/?id=476">Slimy Felblood</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=557">Mirage Conjurer</a> are cards I would recycle, so you can keep finding cards that buff the shop.
         <br><br>
     </p>
+
     <h3 id="felbateot">Felbat End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Felemental', 'Young Murk-Eye', 'Felemental', 'Felbat', 'Drakkari Enchanter', 'Leroy', 'Leroy'];
@@ -47,6 +48,7 @@
         Some players end up finding two Felbats. What they don't realize is, having multiple Felbats mean you need less demons. You're going to eat at least 4 minions just by having two of them. So you only need one more demon. If you triple the Felbat, then start getting other Demons and <a class="hoverimage" href="/bgstrategy/minion/?id=345">Drakkari Enchanter</a>.
         <br><br>
     </p>
+
     <h3 id="felbateot">Spell Felbat Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Big Brother', 'Big Brother', 'Batty Terrorguard', 'Batty Terrorguard', 'Archimonde', 'Felbat', 'Malchezaar'];
@@ -56,7 +58,8 @@
     <p>
         More emphasis on using spells and having them buff the shop for bigger <strong>Felbat</strong> stat gain. Be sure to aim for cheap spells.
     </p>
-     <h3 id="selfdmg">Spell Self Damage Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+
+    <h3 id="selfdmg">Spell Self Damage Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Weaver', 'Archimonde', 'Malchezaar', 'Batty Terrorguard', 'Batty Terrorguard', 'Tichondrius', 'Big Brother'];
     $minions = getMinionsForBoard($board);

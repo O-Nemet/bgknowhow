@@ -31,9 +31,9 @@
     drawBoard($minions);
     ?>
     <p>
-        <a class='hoverimage' href='/bgstrategy/minion/?id=101'>Tarecgosa</a> also can be used but isn't completely necessary. Once <strong>Nadina</strong> permanently gives minions Divine Shield, you can start replacing it with other cards. Persistent Poet is not a card I would want to triple either. You want to make sure you can give as many minions as possible the permanent stats. Lastly, it's never bad to have more than one <strong>Nightbane</strong>, so go for that if you're done with Amber Guardian or want to replace Roaring Rallier.    
+        <a class='hoverimage' href='/bgstrategy/minion/?id=101'>Tarecgosa</a> also can be used but isn't completely necessary. Once <strong>Nadina</strong> permanently gives minions Divine Shield, you can start replacing it with other cards. Persistent Poet is not a card I would want to triple either. You want to make sure you can give as many minions as possible the permanent stats. Lastly, it's never bad to have more than one <strong>Nightbane</strong>, so go for that if you're done with Amber Guardian or want to replace Roaring Rallier.
     </p>
-    
+
     <h3 id="endofturn">End of Turn Dragons <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Nadina', 'Razorgore', 'Outback Smolderer', 'Nether Drake', 'Nether Drake', 'Hunter of Gatherers', 'Drakkari Enchanter'];
