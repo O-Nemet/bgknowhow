@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="nalaa">Nalaa Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Lasso', 'Lubber', 'Slider', 'Lubber', 'Nalaa', 'Nalaa', 'Arid'];
+    $board   = ['Lasso', 'Lubber', 'Slider', 'Lubber', 'Nalaa', 'Nalaa', 'Atrocity'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -27,7 +27,7 @@
 
     <h3 id="lightfang">Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Reaper', 'Blade Collector', 'Warpwing', 'Trickster', 'Arid', 'Lightfang', 'Enchanter'];
+    $board   = ['Reaper', 'Blade Collector', 'Warpwing', 'Trickster', 'Atrocity', 'Lightfang', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

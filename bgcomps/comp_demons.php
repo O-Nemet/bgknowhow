@@ -23,8 +23,6 @@
         Needs an early <strong>Soul Rewinder</strong> and <strong>Weaver</strong> or <strong>Malchezaar</strong> to trigger damage to yourself. Continously buffs your whole board.
         <br><br>
         Your build becomes stronger, the more self damage you do. Having more than one Wrath Weaver is good, but do not be afraid to triple it if you really need to find your <strong>Tichondrius</strong>. While Tichondrius is great to buff something like Impulsive Trickster, be wary of the board space as you may not have enough room to recycle a card and keep these other demons.
-        <br><br>
-        For the very late game <a class="hoverimage" href="/bgstrategy/minion/?id=426">Cultist S'thera</a> with <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus Rivendare</a> is also good if you have a big demon you want to resummon, but it does get countered by <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a>.
     </p>
 
     <h3 id="felbatdr">Starter Felbat Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

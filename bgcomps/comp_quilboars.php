@@ -43,7 +43,7 @@
     drawBoard($minions);
     ?>
     <p>
-        As opposed to the above build, this will give you a lot of cards in your hand, possibly more than you can hold. This build plays on it's own, and only really needs you to just play the Blood Gems and Gem Rat spell from your hand.
+        As opposed to the above build, this will give you a lot of cards in your hand, possibly more than you can hold. This build plays on its own, and only really needs you to just play the Blood Gems and Gem Rat spell from your hand.
     </p>
 
     <h3 id="battlecry"> Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -53,7 +53,7 @@
     drawBoard($minions);
     ?>
     <p>
-        You need to have already buffed your Blood Gems to a good number, or else this build is not going to go well. Luckily, Pokey and Gem Rat exist. Focus more on health first, then attack. This build also plays by itself, but do try your best to find Eyes of the Earth Mother to turn Gemsmuggler golden. 
+        You need to have already buffed your Blood Gems to a good number, or else this build is not going to go well. Luckily, Pokey and Gem Rat exist. Focus more on health first, then attack. This build also plays by itself, but do try your best to find Eyes of the Earth Mother to turn Gemsmuggler golden.
     </p>
 </div>
 

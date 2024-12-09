@@ -10,7 +10,7 @@
 <p>
     <a href="/bgstrategy/?show=minions&type=mech"><i class="bi bi-box-arrow-up-right"></i> All available Mechs and Mech-associated minions</a>
     <br><br>
-    In general, Mechs have the upside of having numerous <a href="/bgbasics/#shield">Divine Shield</a> minions, the ability to resummon Mechs, and small token units. This gives them an advantage against venom/scam compositions and builds with low stats. Except for <a class="hoverimage" href="/bgstrategy/minion/?id=353">Beatboxer</a> magnetization composition, this makes them weak against high stat builds like Demons, Elementals, and Naga.
+    In general, Mechs have the upside of having numerous <a href="/bgbasics/#shield">Divine Shield</a> minions, the ability to resummon Mechs, and small token units. This gives them an advantage against venom/scam compositions and builds with low stats. But this makes them weaker against high stat builds like Demons, Elementals, and Naga.
     <!--    <br><br>-->
     <!--    Mechs also got a new mechanic added through the 6 Zilliax cards available on Tier 2. Cards such as <a class="hoverimage" href="/bgstrategy/minion/?id=504">Zilliax: Defense Module</a>, <a class="hoverimage" href="/bgstrategy/minion/?id=503">Zilliax: Crystal Module</a>, and <a class="hoverimage" href="/bgstrategy/minion/?id=506">Zilliax: Whirring Module</a> can add incredibly strong keywords to other Mechs. However, you need to triple them with <a class="hoverimage" href="/bgstrategy/minion/?id=353">Zilliax: Bonding Module</a> to make sure you can put it on other Mechs.-->
 </p>

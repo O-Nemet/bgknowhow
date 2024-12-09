@@ -20,7 +20,7 @@
     drawBoard($minions);
     ?>
     <p>
-        You need to play as much spells as you can. Ideally, try to play cards that give a lot of spells like various Quilboar cards such as Crystal Infuser and Fearless Foodie. This build is heavily focused on Showy Cyclist giving the buffs you need to make the rest of your Naga strong. Sadly, the power of this build does go down without Beasts or Quilboar's in the lobby, so be wary of this.
+        You need to play as many spells as you can. Ideally, try to play cards that give a lot of spells like various Quilboar cards such as Crystal Infuser and Fearless Foodie. This build is heavily focused on Showy Cyclist giving the buffs you need to make the rest of your Naga strong. Sadly, the power of this build does go down without Beasts or Quilboar's in the lobby, so be wary of this.
     </p>
 
     <h3 id="groundbreaker">Groundbreaker Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

@@ -42,7 +42,7 @@
     drawBoard($minions);
     ?>
     <p>
-        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a> would really help out in this build.    
+        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a> would really help out in this build.
     </p>
 </div>
 
