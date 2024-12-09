@@ -28,7 +28,7 @@
 
     <h3 id="chooseone">Choose One Quilboar <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['TLQ', 'Turbo Hogrider', 'Turbo Hogrider', 'Gem Rat', 'Thorned Trailblazer', 'Thorned Trailblazer', 'Boar Game'];
+    $board   = ['TLQ', 'Turbo Hogrider', 'Turbo Hogrider', 'Gem Rat', 'Thorned Trailblazer', 'Thorned Trailblazer', 'Boar Gamer'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -48,12 +48,12 @@
 
     <h3 id="battlecry"> Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Pokey', 'Gem Rat', 'Gemsmuggler', 'Murk-Eye', 'Gemsmuggler', 'Brann', 'Enchanter'];
+    $board   = ['Pokey', 'Gem Rat', 'Gem Smuggler', 'Murk-Eye', 'Gem Smuggler', 'Brann', 'Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        You need to have already buffed your Blood Gems to a good number, or else this build is not going to go well. Luckily, Pokey and Gem Rat exist. Focus more on health first, then attack. This build also plays by itself, but do try your best to find Eyes of the Earth Mother to turn Gemsmuggler golden.
+        You need to have already buffed your Blood Gems to a good number, or else this build is not going to go well. Luckily, Pokey and Gem Rat exist. Focus more on health first, then attack. This build also plays by itself, but do try your best to find Eyes of the Earth Mother to turn <strong>Gem Smuggler</strong> golden.
     </p>
 </div>
 

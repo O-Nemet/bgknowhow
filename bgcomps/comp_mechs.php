@@ -61,7 +61,7 @@
     drawBoard($minions);
     ?>
     <p>
-        You're going to try your best to get Magnetic reborn cards to resummon the Automaton's. You do this by finding Mecha Jaraxxus or Prosthetic Hand. While Leroy is here to fill the rest of the build up, by being a universally strong card, Chameleon is here to be a third Kangor's. Eventually, you can replace Leroy with a third Automaton that is golden by using the spell "Eyes of the Earth Mother".
+        You're going to try your best to get Magnetic reborn cards to resummon the Automaton's. You do this by finding Mecha Jaraxxus or Prosthetic Hand. While Leroy is here to fill up the rest of the build, by being a universally strong card, Chameleon is here to be a third Kangor's. Eventually, you can replace Leroy with a third Automaton that is golden by using the spell "Eyes of the Earth Mother".
     </p>
 
     <h3 id="endofturn">End of Turn Mech <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>

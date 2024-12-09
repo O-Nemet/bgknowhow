@@ -17,7 +17,7 @@
 <div class="comp_wrapper">
     <h3 id="apm">Infinite gold aka APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Blade Collector', 'Doubloon Grifter', 'Doubloon Grifter', 'Dual-Wield Corsair', 'Dual-Wild Corsair', 'Spacefarer', 'Gunpowder Courier'];
+    $board   = ['Blade Collector', 'Doubloon Grifter', 'Doubloon Grifter', 'Corsair', 'Corsair', 'Spacefarer', 'Gunpowder Courier'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
