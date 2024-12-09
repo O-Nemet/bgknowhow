@@ -10,9 +10,9 @@
 <p>
     <a href="/bgstrategy/?show=minions&type=pirate"><i class="bi bi-box-arrow-up-right"></i> All available Pirates and Pirate-associated minions</a>
     <br><br>
-    The main mechanic of Pirates is spending or gaining Gold. <a class='hoverimage' href='/bgstrategy/minion/?id=98'>Ripsnarl Captain</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=322'>Gunpowder Courier</a> are very good early game boosts, but kinda lock yourself into a full Pirate board. They feature the cheapest Cleave minion in the form of <a class='hoverimage' href='/bgstrategy/minion/?id=327'>Blade Collector</a>.
+    The main mechanic of Pirates is spending or gaining Gold. <a class='hoverimage' href='/bgstrategy/minion/?id=98'>Ripsnarl Captain</a> and <a class='hoverimage' href='/bgstrategy/minion/?id=322'>Gunpowder Courier</a> are very good early game boosts, but kinda lock yourself into a full Pirate board. They also feature the cheapest Cleave minion in the form of <a class='hoverimage' href='/bgstrategy/minion/?id=327'>Blade Collector</a>.
     <br><br>
-    Pirates are the original APM (meaning high-speed buying/cycling of cards) minion type as the power of <a class='hoverimage' href='/bgstrategy/minion/?id=322'>Fleet Admiral Tethys</a> enables different builds.
+    Pirates are the original APM (meaning high-speed buying/cycling of cards) minion type.
 </p>
 <div class="comp_wrapper">
     <h3 id="apm">Infinite gold aka APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -22,7 +22,7 @@
     drawBoard($minions);
     ?>
     <p>
-        You need to focus on buying cards that gives you Pirates such as Patient Scout, Boundless Potential, Hired Headhunter, Contracted Corpse, and Gritty Headhunter. This is going to start slow, especially when you don't have cards to give you the buffs to scale your minion. Do not focus on just buying Pirates, or else you will be wasting money on no stats.
+        You need to focus on buying cards that gives you Pirates such as Patient Scout, Boundless Potential, Hired Headhunter, Contracted Corpse, and Gritty Headhunter. This is going to start slow, especially when you don't have cards to give you the buffs to scale your minions. Do not focus on just buying Pirates, or else you will be wasting money on no stats.
     </p>
 
     <!--    <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>-->
@@ -42,8 +42,7 @@
     drawBoard($minions);
     ?>
     <p>
-        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a> would really help out in this build.
-    
+        The idea here is that we will scale by having as many attacks as we can. The biggest issue with this build is the awkward way to build this composition. We want to have Scallywag attack first, but <strong>Rapscallion Recruiter</strong> must also attack next. The moment <strong>Eliza</strong> or even <strong>Titus</strong> goes down, the whole build falls apart. Cards like <a class="hoverimage" href="/bgstrategy/minion/?id=203">Glowscale</a> and even <a class="hoverimage" href="/bgstrategy/minion/?id=428">Phaerix</a> can be great cards to help support this build. <a class="hoverimage" href="/bgstrategy/minion/?id=539">Prime Mate</a> and <a class="hoverimage" href="/bgstrategy/minion/?id=540">Ghoul-acabra</a> would really help out in this build.    
     </p>
 </div>
 
