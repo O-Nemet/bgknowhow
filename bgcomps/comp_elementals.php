@@ -13,30 +13,34 @@
     All Elemental builds can be improved by temporarily utilizing <a class="hoverimage" href="/bgstrategy/minion/?id=356">Elemental of Surprise</a> to triple and apply Divine Shield to as many minions as possible while building up your endgame composition.
 </p>
 <div class="comp_wrapper">
-    <h3 id="rockrock">RockRock Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="nomi">Nomi Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Frostling', 'Wraith', 'Moss', 'Bedrock', 'Rag', 'Rock Rock', 'Rock Rock'];
+    $board   = ['Barnstormer', 'Djinni', 'Djinni', 'Felemental', 'Rag, 'Rag, 'Nomi'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        Remember, this build does not necessarily need to be completely Elementals. <strong>Rock Rock</strong> buffs regardless, so if you want to have a cleave minion such as <a class="hoverimage" href="/bgstrategy/minion/?id=327">Blade Collector</a> or <a class="hoverimage" href="/bgstrategy/minion/?id=133">Foe Reaper 4000</a> then you very well can.
-        <br><br>
-        Lava Lamp, Primordial Terrarium, Kodo Leather Pouch, Jarred Frostling, Essence of Dreams, Shaman Prayer Beads, Karazhan Chest Set are ideal trinkets.
+        You are going to want to recycle and replay as much Elementals as you possibly can. The best way to do this is by using cards like Gentle Djinni and Windfall Tornado. While the main goal is to buff the Elementals in the shop, the second goal is triple the Elementals that are being buffed. This way, all of the stats you accumulated, are being combined into one strong unit. Ideally, one of the cards is Elemental of Surprise to add Divine Shields to your minions.
     </p>
 
-    <h3 id="spells">Spell Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="apm">APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Fiery', 'Lubber', 'Lubber', 'Azerite', 'Azerite', 'Glass', 'Glass'];
+    $board   = ['Ultraviolet Ascendant', 'Rag', 'Fire Baller', 'Snow Baller', 'Windfall Tornado', 'Brann', 'Djinni'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        The way for this build to scale high is to create triples. Once you make huge stats with <strong>Living Azerite</strong> and the spells used, you need to start replacing weaker minions with the stronger ones in the shop. Then you need to triple the cards so that you have a card with three times the amount of scaling you provided through Living Azerite. You got to pay attention when it's time to start throwing away like <strong>Living Azerite</strong> or <strong>Land Lubber</strong> because over time they start to feel weaker due to lack of onboard scaling.
-        <br><br>
-        This is a build that does not need you to be at Tier 5, but there are plenty of Tier 5 minions that help the build. <a class="hoverimage" href="/bgstrategy/minion/?id=476">Slimy Felblood</a> also is quite useful to use.
-        <br><br>
-        Demonblood Gourd, Darnassus Pie, Dalaran Cheese Wheel, Felblood Portrait, Nomi Sticker, Azerite Portrait, Alliance Keychain, Karazhan Chess Set, Devourer Sticker, Training Certificate, are ideal trinkets.
+        Keep this in mind. No, you are not keeping the Baller cards or Windfall Tornado in your build. These cards, and Sellemental, are used to replay Elementals so Ultraviolet Ascendant can buff your board at the start of combat. Eventually you're going to want cards like Twilight Primordium, Meteorite Crasher, and One-Amalgam Tour Group in your build to make more use of the Elementals being recycled.
+    </p>
+    
+    <h3 id="eot">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Ultraviolet Ascendant', 'Twilight Primordium', 'Murk-Eye', 'Djinni', 'Enchanter', 'Rag', 'Brann'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        This is like the above build except focuses more on Battlecries being replayed by Murk-Eye.
     </p>
 </div>
 
