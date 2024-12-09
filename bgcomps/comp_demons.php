@@ -23,7 +23,6 @@
         Needs an early <strong>Soul Rewinder</strong> and <strong>Weaver</strong> or <strong>Malchezaar</strong> to trigger damage to yourself. Continously buffs your whole board.
         <br><br>
         Your build becomes stronger, the more self damage you do. Having more than one Wrath Weaver is good, but do not be afraid to triple it if you really need to find your <strong>Tichondrius</strong>. While Tichondrius is great to buff something like Impulsive Trickster, be wary of the board space as you may not have enough room to recycle a card and keep these other demons.
-
         <br><br>
         For the very late game <a class="hoverimage" href="/bgstrategy/minion/?id=426">Cultist S'thera</a> with <a class="hoverimage" href="/bgstrategy/minion/?id=256">Titus Rivendare</a> is also good if you have a big demon you want to resummon, but it does get countered by <a class="hoverimage" href="/bgstrategy/minion/?id=398">Transmuted Bramblewitch</a>.
     </p>
@@ -47,7 +46,6 @@
     <p>
         Some players end up finding two Felbats. What they don't realize is, having multiple Felbats mean you need less demons. You're going to eat at least 4 minions just by having two of them. So you only need one more demon. If you triple the Felbat, then start getting other Demons and <a class="hoverimage" href="/bgstrategy/minion/?id=345">Drakkari Enchanter</a>.
         <br><br>
-
     </p>
     <h3 id="felbateot">Spell Felbat Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
@@ -56,9 +54,9 @@
     drawBoard($minions);
     ?>
     <p>
-        More emphasis on using spells and having them buff the shop for bigger Felbat stat gain. Be sure to aim for cheap spells.
+        More emphasis on using spells and having them buff the shop for bigger <strong>Felbat</strong> stat gain. Be sure to aim for cheap spells.
     </p>
-     <h3 id="felbateot">Spell Self Damage Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+     <h3 id="selfdmg">Spell Self Damage Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Weaver', 'Archimonde', 'Malchezaar', 'Batty Terrorguard', 'Batty Terrorguard', 'Tichondrius', 'Big Brother'];
     $minions = getMinionsForBoard($board);
