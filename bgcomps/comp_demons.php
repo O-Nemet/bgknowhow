@@ -40,7 +40,7 @@
 
     <h3 id="felbateot">Felbat End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Felemental', 'Young Murk-Eye', 'Felemental', 'Felbat', 'Drakkari Enchanter', 'Leroy', 'Leroy'];
+    $board   = ['Felemental', 'Young Murk-Eye', 'Felemental', 'Felbat', 'Drakkari Enchanter', 'Leeroy', 'Leeroy'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -49,7 +49,7 @@
         <br><br>
     </p>
 
-    <h3 id="felbateot">Spell Felbat Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="felbatspell">Spell Felbat Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Big Brother', 'Big Brother', 'Batty Terrorguard', 'Batty Terrorguard', 'Archimonde', 'Felbat', 'Malchezaar'];
     $minions = getMinionsForBoard($board);

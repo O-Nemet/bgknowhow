@@ -27,7 +27,7 @@
 
     <h3 id="magneticsummon">Magnetic Summon Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Holoy Rover', 'Holo Rover', 'Dr. Boom\'s Monster', 'Dr . Boom\'s Monster', 'Kangor\s', 'Kangor\s', 'Titus'];
+    $board   = ['Holo Rover', 'Holo Rover', 'Dr. Boom\'s Monster', 'Dr . Boom\'s Monster', 'Kangor\'s', 'Kangor\'s', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -46,7 +46,7 @@
     </p>
     <h3 id="mecherel">Holy Mecherel Comp<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Deflect', 'Deflect', 'Grease', 'Grease', 'Czarina', 'Holy Mecherel', 'Holy Mecherel'];
+    $board   = ['Deflecto', 'Deflecto', 'Greasebot', 'Greasebot', 'Czarina', 'Holy Mecherel', 'Holy Mecherel'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -66,7 +66,7 @@
 
     <h3 id="endofturn">End of Turn Mech <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Moonsteel Juggernaut', 'Moonsteel Juggernaut', 'Mecha Jaraxxus', 'Young Murk-Eye', 'Mecha Jaraxxus', 'Brann', 'Drakkari Enchanter'];
+    $board   = ['Moonsteel Juggernaut', 'Moonsteel Juggernaut', 'Jaraxxus', 'Young Murk-Eye', 'Jaraxxus', 'Brann', 'Drakkari Enchanter'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>

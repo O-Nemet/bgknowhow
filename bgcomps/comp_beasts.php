@@ -36,7 +36,7 @@
 
     <h3 id="beatles">Beatle Beasts <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Macaw', 'Turquoise Skitter', 'Buzzing Vermin', 'Mount', 'Nest Swarmer', 'Runed Progenitor', 'Titus'];
+    $board   = ['Macaw', 'Skitterer', 'Buzzing Vermin', 'Mount', 'Nest Swarmer', 'Runed Progenitor', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
