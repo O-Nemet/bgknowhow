@@ -15,17 +15,17 @@
 <div class="comp_wrapper">
     <h3 id="nomi">Nomi Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Barnstormer', 'Djinni', 'Djinni', 'Felemental', 'Lil Rag', 'Lil Rag', 'Nomi'];
+    $board   = ['Barnstormer', 'Djinni', 'Djinni', 'Felemental', 'Rag, 'Rag, 'Nomi'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
     <p>
-        You are going to want to recycle and replay as much Elementals as you possibly can. The best way to do this is by using cards like Gentle Djinni and Windfall Tornado. While the main goal is to buff the Elementals in the shop, the second goal is triple the Elementals that are being buffed. This way, all of the stats you accumulated, are being combined into one strong unit. Ideally, one of the cards are Elemental of Surprise.
+        You are going to want to recycle and replay as much Elementals as you possibly can. The best way to do this is by using cards like Gentle Djinni and Windfall Tornado. While the main goal is to buff the Elementals in the shop, the second goal is triple the Elementals that are being buffed. This way, all of the stats you accumulated, are being combined into one strong unit. Ideally, one of the cards is Elemental of Surprise to add Divine Shields to your minions.
     </p>
 
-    <h3 id="APM">APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="apm">APM Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Ultraviolet Ascendant', 'Lil Rag', 'Fire Baller', 'Snow Baller', 'Windfall Tornado', 'Brann', 'Djinni'];
+    $board   = ['Ultraviolet Ascendant', 'Rag', 'Fire Baller', 'Snow Baller', 'Windfall Tornado', 'Brann', 'Djinni'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
@@ -33,9 +33,9 @@
         Keep this in mind. No, you are not keeping the Baller cards or Windfall Tornado in your build. These cards, and Sellemental, are used to replay Elementals so Ultraviolet Ascendant can buff your board at the start of combat. Eventually you're going to want cards like Twilight Primordium, Meteorite Crasher, and One-Amalgam Tour Group in your build to make more use of the Elementals being recycled.
     </p>
     
-    <h3 id="EoT">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="eot">End of Turn Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Ultraviolet Ascendant', 'Twilight Primordium', 'Murk-Eye', 'Djinni', 'Enchanter', 'Lil Rag', 'Brann'];
+    $board   = ['Ultraviolet Ascendant', 'Twilight Primordium', 'Murk-Eye', 'Djinni', 'Enchanter', 'Rag', 'Brann'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
