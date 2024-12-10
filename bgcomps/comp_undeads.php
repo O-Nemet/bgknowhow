@@ -15,7 +15,7 @@
 <div class="comp_wrapper">
     <h3 id="deathrattle">Deathrattle Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Anub', 'Mummifier', 'Caretaker', 'Handless Forsaken', 'Acabra', 'Catabomb Crasher', 'Titus'];
+    $board   = ['Anub', 'Mummifier', 'Caretaker', 'Handless Forsaken', 'Acabra', 'Crasher', 'Titus'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
