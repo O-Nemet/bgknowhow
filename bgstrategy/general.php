@@ -294,6 +294,7 @@ foreach ($spell_count as $temp) {
         //        drawBoard($minions);
         //        unset($board);
         ?>
+        <br>
     </div>
     <p>
         Heavily think about switching up your 3on3 plan:
@@ -391,7 +392,7 @@ foreach ($spell_count as $temp) {
         drawBoard($minions);
         unset($board);
         echo "<br>";
-        $board   = ['Anub', 'Champion of the Primus', 'Caretaker', 'Crasher', 'Striker', 'Acabra'];
+        $board   = ['Anub', 'Champion of the Primus', 'Caretaker', 'Crasher', 'Deathly Striker', 'Acabra'];
         $minions = getMinionsForBoard($board);
         drawBoard($minions);
         unset($board);
