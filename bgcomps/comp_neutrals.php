@@ -21,7 +21,6 @@
     ?>
     <p>
         When playing this <strong>Saloon</strong> based composition you will go all-in and buy as many cheap spells as possible each turn. Unfortunately, there's only two minions in the game that give you guarenteed spells each turn. Eventually, when you triple them, you should replace them with better minions that have Cleave, Divine Shield or any other special abilities.
-    
     </p>
 
     <h3 id="lightfang">Menagerie Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
@@ -42,7 +41,6 @@
     ?>
     <p>
         This is a build used if you just cannot find an actual build that scales. This won't win against every build, but it is very effective if your opponent only has 7 strong minions without Deathrattles, Reborns, Divine Shields, or Cleaves. Also, I would taunt Loc Prince. The idea is Belcher attacks, Loc Prince gains venom, your opponent hits Loc Prince, then your 2nd Belcher attacks, giving Loc Prince venom once more.
-       
     </p>
 
     <h3 id="theotar">Theotar Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
