@@ -2,6 +2,10 @@
 require_once('../config/db.php');
 require_once('../functions.php');
 
+error_reporting(E_ALL);
+ini_set('log_errors', 'On');
+ini_set('display_errors', 'Off');
+
 $getActiveOnly = 1;
 
 // generate heroes files
@@ -12,11 +16,13 @@ $getActiveOnly = 1;
 //                                     bgh.hp_id_blizzard,
 //                                     bgh.flag_active
 //                                FROM bg_heroes bgh
-//                               WHERE bgh.flag_active = ?
-//                                 AND bgh.name IN ('Kurtrus Ashfallen')
+//                               WHERE 1=1
+//                                   AND bgh.id > 106
+//--                                 AND bgh.flag_active = ?
+//--                                 AND bgh.name IN ('Guff Runetotem')
 //--                                 AND bgh.id_blizzard IN ('BG26_HERO_101', 'BG26_HERO_102')
 //                            ORDER BY bgh.name ASC")) {
-//    $stmt->bind_param("i", $getActiveOnly);
+////    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
 //    $stmt->store_result();
 //    $stmt->bind_result($id, $name, $health, $blizzardId, $blizzardIdHp, $isActive);
@@ -29,8 +35,9 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
                                 FROM bg_minions bgm
                                WHERE 1=1
                                  AND bgm.flag_active = ?
---                                 AND bgm.id > 459
-                                 AND bgm.name IN ('Coldlight Seer')
+--                                 AND bgm.id > 641
+                                 AND bgm.date_modified is not null
+--                                 AND bgm.name IN ('Humming Bird', 'Salty Looter', 'Karmic Chameleon', 'Colossus of the Sun', 'Mechanized Gift Horse', 'Putrid Pupil', 'Slippery Slider', 'Loc Prince', 'Depraved Felfin', 'Amber Guardian', 'Archimonde', 'Goldrinn, the Great Wolf', 'Tea Master Theotar', 'Papa Bear')
                             ORDER BY bgm.tier, bgm.name ASC")) {
     $stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
@@ -44,8 +51,8 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //                                     bgb.flag_active
 //                                FROM bg_buddies bgb
 //                               WHERE bgb.flag_active = ?
-//                                 AND bgb.id_blizzard is not null
-//                                 AND bgb.name IN ('Piloted Whirl-O-Tron')
+//--                                 WHERE bgb.id > 92
+//--                                 AND bgb.name IN ('Piloted Whirl-O-Tron')
 //                            ORDER BY bgb.tier, bgb.name ASC")) {
 //    $stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
@@ -72,7 +79,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //                                FROM bg_rewards bgr
 //                               WHERE 1=1 -- bgq.flag_active = ?
 //--                                 and bgr.id > 0
-//                                and bgr.name in ('Divine Armor', 'Ritual Dagger', 'Sinfall Medallion', 'Mirror Shield')
+//                                and bgr.name in ('Sinfall Medallion')
 //                            ORDER BY bgr.name ASC")) {
 //        #$stmt->bind_param("i", $getActiveOnly);
 //        $stmt->execute();
@@ -99,13 +106,29 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //                                         bgs.id_blizzard
 //                                FROM bg_spells bgs
 //                               WHERE 1=1 -- bgs.flag_active = ?
-//                                 AND bgs.name IN ('Suspicious Stimulant', 'Fluidity', 'Cloning Conch', 'Spitescale Special', 'Plunder Seeker')
-//                                 -- AND bgs.id > 42
+//--                                 AND bgs.name IN ('Channel the Devourer')
+//                                 AND bgs.id > 0
 //                            ORDER BY bgs.name ASC")) {
 //    #$stmt->bind_param("i", $getActiveOnly);
 //    $stmt->execute();
 //    $stmt->store_result();
 //    $stmt->bind_result($id, $name, $blizzardId);
+
+// generate trinket files
+//    if ($stmt = $mysqli->prepare("SELECT bgt.id,
+//                                     bgt.name,
+//                                     bgt.id_blizzard
+//                                FROM bg_trinkets bgt
+//                               WHERE 1=1 -- bgt.flag_active = ?
+//--                                 AND bgt.name IN ('???')
+//                                 AND bgt.id > 0
+//                            ORDER BY bgt.name ASC")) {
+//        #$stmt->bind_param("i", $getActiveOnly);
+//        $stmt->execute();
+//        $stmt->store_result();
+//        $stmt->bind_result($id, $name, $blizzardId);
+
+##################################
 
     $row_count = $stmt->num_rows;
     if ($row_count == 0) echo '0 results';
@@ -120,7 +143,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //            echo 'copy success ../images/' . $blizzardId . '_render.png<br>';
 //        }
 
-        # heropowers
+//        # heropowers
 //        if (!copy(PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png', '../images/' . $blizzardIdHp . '_render.png') ||
 //            !copy(PICTURE_URL_RENDER_BG . $blizzardIdHp . '.png', '../images/convert/' . $blizzardIdHp . '_render.png')
 //        ) {
@@ -129,7 +152,7 @@ if ($stmt = $mysqli->prepare("SELECT bgm.id,
 //            echo 'copy success ../images/' . $blizzardIdHp . '_render.png<br>';
 //        }
 
-        # minions / hero pictures
+        # minions / heroes / spells / anomalies / ... pictures
         if (!copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/' . $blizzardId . '_render.png') ||
             !copy(PICTURE_URL_RENDER_BG . $blizzardId . '.png', '../images/convert/' . $blizzardId . '_render.png')
         ) {
