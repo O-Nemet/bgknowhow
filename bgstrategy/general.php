@@ -226,6 +226,12 @@ foreach ($spell_count as $temp) {
             <td>5</td>
             <td><?= number_format($spell_count[6]['gold'], 2) ?></td>
         </tr>
+        <tr>
+            <td>7</td>
+            <td><?= $spell_count[7]['count'] ?></td>
+            <td>3</td>
+            <td><?= number_format($spell_count[7]['gold'], 2) ?></td>
+        </tr>
         </tbody>
     </table>
 
