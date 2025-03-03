@@ -2994,6 +2994,11 @@ body.bgstrategy .bgstrategy > a {
     right: 16px;
 }
 
+.strategy-images.anomalies .overlay-duo {
+    top: 29px;
+    right: 16px;
+}
+
 .strategy-images.trinkets .overlay-duo {
     top: 29px;
     right: 16px;
