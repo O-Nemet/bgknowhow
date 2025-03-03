@@ -306,11 +306,11 @@ if (!empty($buddy)) {
     if ($show == 'anomalies' && $mode == 'gfx') {
         echo "<div class='strategy-images anomalies cf'>";
         foreach ($anomalies as $anomaly) {
-            echo "<div><a href='" . $anomaly->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_ANOMALY . $anomaly->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$anomaly->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($anomaly->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'><span>" . $anomaly->name . "</span></a>";
+            echo "<div><a href='" . $anomaly->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_ANOMALY . $anomaly->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$anomaly->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($anomaly->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'><span>" . $anomaly->name . "</span>";
             if ($anomaly->isDuosOnly) {
                 echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
             }
-            echo "</div>";
+            echo "</div></a>";
         }
         echo "</div><br><br>";
     } else if ($show == 'anomalies' || $show == 'all') {
