@@ -741,7 +741,7 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
         $anomalies['data'][$i]['websites']['wiki']      = URL_HSF . str_replace(' ', '_', $name);
         $anomalies['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
         $anomalies['data'][$i]['isActive']              = (bool)$isActive;
-        $anomalies['data'][$i]['isActive']              = (bool)$isDuosOnly;
+        $anomalies['data'][$i]['isDuosOnly']            = (bool)$isDuosOnly;
 
         if ($isActive) {
             $csvDataAnomaliesActive      .= $csvData;
