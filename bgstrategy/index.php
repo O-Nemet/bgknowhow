@@ -292,21 +292,25 @@ if (!empty($buddy)) {
     // Odds for Secrets of Norgannon
     $numberOfAnomalies = 0;
     foreach ($tempAnomalies->data as $key => $object) {
-//        if ($object->isActive) {
-        $numberOfAnomalies++;
-//        }
+        if ($object->isActive) {
+            $numberOfAnomalies++;
+        }
     }
 
     if ($show == 'anomalies' || $show == 'all') {
         echo '<h2 class="page_title">Anomalies</h2>';
-        echo '<p>One anomaly is randomly choosen from the pool of active anomalies before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with currently ' . $numberOfAnomalies . ' different anomalies active any anomaly would have a chance of ' . number_format(100 / $numberOfAnomalies, 2) . '% to be active, but due to this special rule \'Secrets\' has a 5/' . $numberOfAnomalies + 4 . ' or ' . number_format(5 / ($numberOfAnomalies + 4) * 100, 2) . '% chance and any other anomaly a 1/' . $numberOfAnomalies + 4 . ' or ' . number_format(1 / ($numberOfAnomalies + 4) * 100, 2) . '% chance to show up. Three new anomalies will be added to the pool every week and feature an increased appearance rate until the next release.
+        echo '<p>One anomaly is randomly choosen from the pool of active anomalies before the hero selection and will apply to all players for the remainder of the whole game. The anomaly called <a class=\'hoverimage\' href="/bgstrategy/anomaly/?id=8">Secrets of Norgannon</a> is five times as likely to be selected as any other anomalies. Which means with currently ' . $numberOfAnomalies . ' different anomalies active any anomaly would have a chance of ' . number_format(100 / $numberOfAnomalies, 2) . '% to be active, but due to this special rule \'Secrets\' has a 5/' . $numberOfAnomalies + 4 . ' or ' . number_format(5 / ($numberOfAnomalies + 4) * 100, 2) . '% chance and any other anomaly a 1/' . $numberOfAnomalies + 4 . ' or ' . number_format(1 / ($numberOfAnomalies + 4) * 100, 2) . '% chance to show up.
         <br><br>Depending on the anomaly, some heroes, minion types or even single minions can be banned. There is also a system in place to increase the chances of more complex anomalies for high MMR lobbies (~6000 or more).<br>';
     }
 
     if ($show == 'anomalies' && $mode == 'gfx') {
         echo "<div class='strategy-images anomalies cf'>";
         foreach ($anomalies as $anomaly) {
-            echo "<div><a href='" . $anomaly->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_ANOMALY . $anomaly->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$anomaly->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($anomaly->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'><span>" . $anomaly->name . "</span></a></div>";
+            echo "<div><a href='" . $anomaly->websites->bgknowhow . "'><img src='" . PICTURE_LOCAL_ANOMALY . $anomaly->id . PICTURE_LOCAL_RENDER_SUFFIX_80 . "' class='" . (!$anomaly->isActive ? 'inactive-img' : '') . "' alt='" . htmlspecialchars($anomaly->name, ENT_QUOTES, 'utf-8') . ": " . htmlspecialchars($anomaly->text, ENT_QUOTES, 'utf-8') . "'><span>" . $anomaly->name . "</span></a>";
+            if ($spell->isDuosOnly) {
+                echo "<div class='overlay-duo'><img src='" . PICTURE_LOCAL . "icons/duos.webp' title='Available only in Duos mode' alt='Duos only'></div>";
+            }
+            echo "</div>";
         }
         echo "</div><br><br>";
     } else if ($show == 'anomalies' || $show == 'all') {

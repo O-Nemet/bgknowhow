@@ -689,14 +689,15 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
                                      bga.id_blizzard,
                                      bga.id_playhs,
                                      bga.id_hpwn,
-                                     bga.flag_active
+                                     bga.flag_active,
+                                     bga.flag_duos
                                 FROM bg_anomalies bga
      --                          WHERE bgh.flag_active = ?
                             ORDER BY bga.name ASC")) {
     #$stmt->bind_param("i", $getActiveOnly);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $text, $blizzardId, $playhsId, $hpwnId, $isActive);
+    $stmt->bind_result($id, $name, $text, $blizzardId, $playhsId, $hpwnId, $isActive, $isDuosOnly);
 
     $row_count = $stmt->num_rows;
 
@@ -705,7 +706,8 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
         'Text' . CSV_SEPARATOR .
         'Blizzard ID' . CSV_SEPARATOR .
         'Picture link' . CSV_SEPARATOR .
-        'Active' . PHP_EOL;
+        'Active' . CSV_SEPARATOR .
+        'Duos Only' . PHP_EOL;
     $csvDataAnomalies       = $csvHeader;
     $csvDataAnomaliesActive = $csvHeader;
     $csvData                = '';
@@ -724,7 +726,8 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
             (str_contains($text, ';') ? '"' . $text . '"' : $text) . CSV_SEPARATOR .
             $blizzardId . CSV_SEPARATOR .
             PICTURE_URL_RENDER_BG . $blizzardId . '.png' . CSV_SEPARATOR .
-            (bool)$isActive . PHP_EOL;
+            (bool)$isActive . CSV_SEPARATOR .
+            (bool)$isDuosOnly . PHP_EOL;
 
         $csvDataAnomalies .= $csvData;
 
@@ -738,6 +741,7 @@ if ($stmt = $mysqli->prepare("SELECT bga.id,
         $anomalies['data'][$i]['websites']['wiki']      = URL_HSF . str_replace(' ', '_', $name);
         $anomalies['data'][$i]['websites']['hearthpwn'] = ($hpwnId ? URL_HPN . $hpwnId : null);
         $anomalies['data'][$i]['isActive']              = (bool)$isActive;
+        $anomalies['data'][$i]['isActive']              = (bool)$isDuosOnly;
 
         if ($isActive) {
             $csvDataAnomaliesActive      .= $csvData;
