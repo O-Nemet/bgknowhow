@@ -3104,7 +3104,7 @@ body.bgstrategy .bgstrategy > a {
 
 .strategy-images.anomalies img {
     width: 240px;
-    height: 364px;
+    /*height: 364px;*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -3798,6 +3798,11 @@ body.bgstrategy .bgstrategy > a {
     }
 
     .strategy-images.spells .overlay-duo {
+        top: 29px;
+        right: -10px;
+    }
+
+    .strategy-images.anomalies .overlay-duo {
         top: 29px;
         right: -10px;
     }
