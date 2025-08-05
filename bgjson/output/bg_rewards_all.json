@@ -1,0 +1,728 @@
+{
+  "meta": {
+    "date": "2025-08-05",
+    "version": "0.10.0"
+  },
+  "data": [
+    {
+      "name": "Alter Ego",
+      "text": "Even Tier minions in Bob's Tavern have +7\/+7. (Swaps to Odd next turn!)",
+      "id": "BG24_Reward_321",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_321.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/95149",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Alter_Ego",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199523"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Anima Bribe",
+      "text": "After you sell a minion, give its stats to a minion in Bob's Tavern.",
+      "id": "BG24_Reward_305",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_305.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89645",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Anima_Bribe",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199508"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Another Hidden Body",
+      "text": "Discover a minion of your Tavern Tier. (Can be earned endlessly!)",
+      "id": "BG24_Reward_311",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_311.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/91992",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Another_Hidden_Body",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199517"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Beyond the Mirage",
+      "text": "Tavern spells cost (1) less.",
+      "id": "BG28_Reward_500",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_500.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Beyond_the_Mirage",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Blood Goblet",
+      "text": "At the end of your turn, give your right-most minion Attack equal to your missing Health.",
+      "id": "BG24_Reward_708",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_708.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97118",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Blood_Goblet",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316655"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Bloodsoaked Tome",
+      "text": "Minions in Bob's Tavern cost 2 Gold.",
+      "id": "BG27_Reward_811",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_811.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104818",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bloodsoaked_Tome",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777855"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Boom Squad",
+      "text": "Avenge (3): Deal 10 damage to the highest Health enemy minion.",
+      "id": "BG27_Reward_502",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_502.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104697",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Boom_Squad",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777839"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Cooked Book",
+      "text": "After you buy a minion, give it +1\/+1 and upgrade this.",
+      "id": "BG24_Reward_306",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_306.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89650",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Cooked_Book",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199510"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Cycle of Energy",
+      "text": "Avenge (4): Get a random Tavern spell.",
+      "id": "BG28_Reward_504",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_504.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Cycle_of_Energy",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Devils in the Details",
+      "text": "At the end of your turn, your left and right-most minions consume a minion in Bob's Tavern.",
+      "id": "BG24_Reward_309",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_309.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/90437",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Devils_in_the_Details",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199514"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Divine Armor",
+      "text": "At the end of your turn, give the left-most minion in your hand +8\/+8 and Divine Shield.",
+      "id": "BG27_Reward_809",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_809.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104700",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Divine_Armor",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777851"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Doppelganger's Locket",
+      "text": "After each combat, Discover a non-Golden minion from your last opponent's warband. It keeps enchantments.",
+      "id": "BG27_Reward_806",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_806.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104677",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Doppelganger's_Locket",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777848"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Double-Headed Reward",
+      "text": "The first time you buy a card each turn, get an extra copy of it.",
+      "id": "BG28_Reward_506",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_506.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Double-Headed_Reward",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Endless Blood Moon",
+      "text": "Your Blood Gems give an extra +2\/+2. At the start of your turn, add two to your hand.",
+      "id": "BG27_Reward_815",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_815.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104842",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Endless_Blood_Moon",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777859"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Enhance-a-matic",
+      "text": "At the start of your turn, get an Enhanced Part that gives +5\/+5 and a random bonus.",
+      "id": "BG24_Reward_715",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_715.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97658",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Enhance-a-matic",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1414943"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Essence of Zerus",
+      "text": "At the end of your turn, get a 'Shifter Zerus' which transforms into random minions.",
+      "id": "BG24_Reward_362",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_362.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97445",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Essence_of_Zerus",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316650"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Ethereal Evidence",
+      "text": "At the start of every turn, choose from 2 new Rewards.",
+      "id": "BG24_Reward_363",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_363.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97485",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Ethereal_Evidence",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316651"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Evil Twin",
+      "text": "Start of Combat: Summon a copy of your highest-Health minion.",
+      "id": "BG24_Reward_111",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_111.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89481",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Evil_Twin",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199485"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Ghastly Mask",
+      "text": "Add 'another card' to your hand. Your end of turn effects trigger an extra time.",
+      "id": "BG24_Reward_130",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_130.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/90917",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Ghastly_Mask",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199498"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Gift of the Golden Kobold",
+      "text": "After you Refresh 5 times, make the highest Tier minion in the Tavern Golden.",
+      "id": "BG28_Reward_508",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_508.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Gift_of_the_Golden_Kobold",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Gilnean War Horn",
+      "text": "Add [a specified \"Battlecry\" minion] to your hand. Your Battlecries trigger an extra time.",
+      "id": "BG27_Reward_802",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_802.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104673",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Gilnean_War_Horn",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1884736"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Hidden Treasure Vault",
+      "text": "At the start of your turn, gain 1 Gold. (Upgrades each turn!)",
+      "id": "BG24_Reward_361",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_361.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97442",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Hidden_Treasure_Vault",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316649"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Ice Sickle",
+      "text": "Avenge (1): Give a minion in your hand +3 Attack. ",
+      "id": "BG27_Reward_800",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_800.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104666",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Ice_Sickle",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777844"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Invigorating Conch",
+      "text": "When you buy a minion, give its stats to a random friendly minion.",
+      "id": "BG27_Reward_503",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_503.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104703",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Invigorating_Conch",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777840"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Kidnap Sack",
+      "text": "Spellcraft: Choose a non-Golden minion. Add it to your hand.",
+      "id": "BG24_Reward_718",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_718.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97966",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Kidnap_Sack",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316659"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Map of the Unknown",
+      "text": "After you play a minion of a type you don't control, give a friendly minion of each type +2\/+1.",
+      "id": "BG27_Reward_810",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_810.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104701",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Map_of_the_Unknown",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777853"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Menagerie Mayhem",
+      "text": "At the end of your turn, give your minions +1 Attack for each friendly minion type.",
+      "id": "BG24_Reward_331",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_331.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/95631",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Menagerie_Mayhem",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199527"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Mirror Shield",
+      "text": "After each Refresh, give a minion in Bob's Tavern +6\/+6 and Divine Shield.",
+      "id": "BG24_Reward_128",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_128.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/90914",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Mirror_Shield",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199495"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Open Auditions",
+      "text": "At the start of your turn, Discover a Buddy.",
+      "id": "BG28_Reward_513",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_513.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Open_Auditions",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Partner in Crime",
+      "text": "Get your Golden Buddy.",
+      "id": "BG24_Reward_310",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_310.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Partner_in_Crime",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199516"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Pilfered Lamps",
+      "text": "You only need 2 copies of a minion to make it Golden.",
+      "id": "BG24_Reward_350",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_350.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/95867",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Pilfered_Lamps",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199529"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Red Hand",
+      "text": "At the start of your turn, give a minion in your hand +12\/+12.",
+      "id": "BG24_Reward_131",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_131.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92542",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Red_Hand",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199499"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Ritual Dagger",
+      "text": "After a friendly Deathrattle minion dies, give it +5\/+5 permanently.",
+      "id": "BG24_Reward_113",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_113.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89483",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Ritual_Dagger",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199486"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Scepter of Guidance",
+      "text": "Bob's Tavern always offers 2 [randomly selected type] when Refreshed.",
+      "id": "BG27_Reward_812",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_812.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104821",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Scepter_of_Guidance",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777856"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Secret Culprit",
+      "text": "Get [a particular Tier 7 minion].",
+      "id": "BG28_Reward_510",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_510.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Secret_Culprit",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Secret Sinstone",
+      "text": "After you Discover a card, get an extra copy of it.",
+      "id": "BG24_Reward_129",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_129.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/90916",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Secret_Sinstone",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199497"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Sinfall Medallion",
+      "text": "After you play a minion, give 2 other friendly minions of its Tavern Tier +4\/+4.",
+      "id": "BG24_Reward_712",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_712.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97452",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Sinfall_Medallion",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316657"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Snicker Snacks",
+      "text": "At the end of your turn, 2 friendly minions trigger their Battlecries.",
+      "id": "BG24_Reward_107",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_107.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89449",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Snicker_Snacks",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199483"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Soul Pact",
+      "text": "After you play a minion, give other minions of the same type +1\/+1. ",
+      "id": "BG27_Reward_808",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_808.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104667",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Soul_Pact",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777849"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Splitting Scroll",
+      "text": "Whenever you buy a Tavern spell that costs (3) or more, get an extra copy of it.",
+      "id": "BG28_Reward_502",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_502.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Splitting_Scroll",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Stable Amalgamation",
+      "text": "Avenge (7): When you have space, summon a 50\/50 Amalgam.",
+      "id": "BG28_Reward_518",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_518.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Stable_Amalgamation",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Staff of Origination",
+      "text": "Start of Combat: Give your minions +12\/+12.",
+      "id": "BG24_Reward_312",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_312.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92552",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Staff_of_Origination",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199518"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Stash of the Scribe",
+      "text": "At the start of each turn, get 3 random Tavern spells.",
+      "id": "BG28_Reward_515",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_515.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Stash_of_the_Scribe",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Stolen Gold",
+      "text": "Start of Combat: Make your left and right-most minions Golden.",
+      "id": "BG24_Reward_109",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_109.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89473",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Stolen_Gold",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199484"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Sturdy Shard",
+      "text": "At the end of your turn, give your minions without Taunt +1\/+2 for each Taunt minion you control.",
+      "id": "BG27_Reward_804",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_804.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104675",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Sturdy_Shard",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777846"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Teal Tiger Sapphire",
+      "text": "Minions in Bob's Tavern have +1\/+1 for each time it was Refreshed this turn.",
+      "id": "BG24_Reward_308",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_308.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/90435",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Teal_Tiger_Sapphire",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199512"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Temporal Tampering",
+      "text": "Your Tavern spells cast twice.",
+      "id": "BG28_Reward_501",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_501.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Temporal_Tampering",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "The Friends Along the Way",
+      "text": "At the start of your turn, get 2 random [specified minion type].",
+      "id": "BG24_Reward_134",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_134.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92551",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Friends_Along_the_Way",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199501"
+      },
+      "isActive": false
+    },
+    {
+      "name": "The Golden Hammer",
+      "text": "Spellcraft: Make a friendly minion Golden until next turn.",
+      "id": "BG24_Reward_719",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_719.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97756",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Golden_Hammer",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316661"
+      },
+      "isActive": false
+    },
+    {
+      "name": "The Smoking Gun",
+      "text": "Your minions have +4 Attack.",
+      "id": "BG24_Reward_125",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_125.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/90865",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Smoking_Gun",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199493"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Theotar's Parasol",
+      "text": "At the end of your turn, give your right-most minion Stealth until next turn and +8 Health.",
+      "id": "BG24_Reward_115",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_115.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89947",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Theotar's_Parasol",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199489"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Timeline Acceleration",
+      "text": "At the start of your turn, get two Accelerators that transform a minion into one from a Tavern Tier higher.",
+      "id": "BG27_Reward_504",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_504.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104724",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Timeline_Acceleration",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777842"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Tiny Henchmen",
+      "text": "At the end of your turn, give +3\/+3 to 3 friendly minions of Tier 3 or lower.",
+      "id": "BG24_Reward_136",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_136.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/93069",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tiny_Henchmen",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199503"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Transm-ogre-fication",
+      "text": "At the end of your turn, set your lowest Health minion's stats equal to your highest Health minion's stats.",
+      "id": "BG27_Reward_814",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_814.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104844",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Transm-ogre-fication",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777857"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Tumbling Disaster",
+      "text": "Whenever you summon a minion in combat, give it +1\/+1. Avenge (4): Upgrade this permanently.",
+      "id": "BG28_Reward_505",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Reward_505.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tumbling_Disaster",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Turbulent Tombs",
+      "text": "Add [a specified \"Deathrattle\" minion] to your hand. Your Deathrattles trigger an extra time.",
+      "id": "BG27_Reward_803",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Reward_803.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104670",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Turbulent_Tombs",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1884737"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Victim's Specter",
+      "text": "After each combat, get a plain copy of the last friendly minion that died.",
+      "id": "BG24_Reward_138",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_138.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/93074",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Victim's_Specter",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199505"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Volatile Venom",
+      "text": "Your minions have +7\/+7. After they attack, they die. Horribly.",
+      "id": "BG24_Reward_364",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_364.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97597",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Volatile_Venom",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316653"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Wondrous Wisdomball",
+      "text": "Occasionally gives helpful Refreshes.",
+      "id": "BG24_Reward_313",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_313.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92554",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Wondrous_Wisdomball",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199520"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Yogg-tastic Tasties",
+      "text": "At the start of your turn, spin the Wheel of Yogg-Saron.",
+      "id": "BG24_Reward_135",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Reward_135.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92563",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Yogg-tastic_Tasties",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199502"
+      },
+      "isActive": false
+    }
+  ]
+}

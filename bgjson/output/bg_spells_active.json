@@ -1,0 +1,936 @@
+{
+  "meta": {
+    "date": "2025-08-05",
+    "version": "0.10.0"
+  },
+  "data": [
+    {
+      "name": "Alliance Flag",
+      "tier": 1,
+      "cost": 1,
+      "text": "Choose One - Give a minion +4 Attack; or +4 Health.",
+      "id": "BG31_880",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_880.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117567",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=63",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Alliance_Flag",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fortify",
+      "tier": 1,
+      "cost": 1,
+      "text": "Give a minion +3 Health and Taunt.",
+      "id": "BG28_503",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_503.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103791",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=5",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fortify",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tavern Coin",
+      "tier": 1,
+      "cost": 1,
+      "text": "Gain 1 Gold.",
+      "id": "BG28_810",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_810.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104436",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=3",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tavern_Coin",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tavern Dish Banana",
+      "tier": 1,
+      "cost": 1,
+      "text": "Give a minion +2\/+2.",
+      "id": "BG28_897",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_897.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105752",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=6",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tavern_Dish_Banana",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Them Apples",
+      "tier": 1,
+      "cost": 1,
+      "text": "Give minions in the Tavern +1\/+2.",
+      "id": "BG28_966",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_966.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105903",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=1",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Them_Apples",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Enchanted Lasso",
+      "tier": 1,
+      "cost": 2,
+      "text": "Steal a random minion from Bob's Tavern.",
+      "id": "BG28_512",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_512.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104502",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=7",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Enchanted_Lasso",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Recruit a Trainee",
+      "tier": 1,
+      "cost": 2,
+      "text": "Get a random Tier 1 minion.",
+      "id": "BG28_504",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_504.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103793",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=2",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Recruit_a_Trainee",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Careful Investment",
+      "tier": 2,
+      "cost": 1,
+      "text": "Gain 2 Gold next turn.",
+      "id": "BG28_800",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_800.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103779",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=8",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Careful_Investment",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Lantern Light",
+      "tier": 2,
+      "cost": 1,
+      "text": "Give a minion stats equal to your Tier.",
+      "id": "BG28_885",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_885.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105269",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=10",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Lantern_Light",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Chef's Choice",
+      "tier": 2,
+      "cost": 2,
+      "text": "Choose a minion. Get a different minion of the same type.",
+      "id": "BG28_518",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_518.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105664",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=11",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Chef's_Choice",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Cry Foul",
+      "tier": 2,
+      "cost": 2,
+      "text": "Get a plain copy of a random minion from your last opponent's warband.",
+      "id": "BG30_800",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_800.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112884",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=61",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Cry_Foul",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Shiny Ring",
+      "tier": 2,
+      "cost": 2,
+      "text": "Give your minions +1\/+1.",
+      "id": "BG28_168",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_168.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/109230",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=18",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Shiny_Ring",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Hasty Excavation",
+      "tier": 2,
+      "cost": 3,
+      "text": "Gain 1 Gold. This costs Health to buy instead of Gold.",
+      "id": "BG28_571",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_571.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104559",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=14",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Hasty_Excavation",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Strike Oil",
+      "tier": 2,
+      "cost": 3,
+      "text": "Increase your maximum Gold by 1.",
+      "id": "BG28_805",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_805.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104029",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=13",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Strike_Oil",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fleeting Vigor",
+      "tier": 3,
+      "cost": 1,
+      "text": "Start of Combat: Give your minions +2\/+1. ",
+      "id": "BG28_519",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_519.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105665",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=17",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fleeting_Vigor",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Gem Day",
+      "tier": 3,
+      "cost": 1,
+      "text": "Choose One - Your Blood Gems give an extra +1 Attack this game; or +1 Health.",
+      "id": "BG31_893",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_893.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/116596",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=64",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Gem_Day",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Overconfidence",
+      "tier": 3,
+      "cost": 1,
+      "text": "If you win your next combat, gain 3 Gold. If you tie, gain 1.",
+      "id": "BG28_884",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_884.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105267",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=9",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Overconfidence",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Robust Evolution",
+      "tier": 3,
+      "cost": 1,
+      "text": "Choose a minion. Transform it into a random minion of a higher Tier. It keeps its stats.",
+      "id": "BG30_804",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_804.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113901",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=62",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Robust_Evolution",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tricky Trousers",
+      "tier": 3,
+      "cost": 1,
+      "text": "Give a minion +1\/+2 and Taunt. If it already has Taunt, remove it.",
+      "id": "BG28_520",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_520.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105667",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=16",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tricky_Trousers",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Catch!",
+      "tier": 3,
+      "cost": 2,
+      "text": "Give your minions +2 Attack. (Upgrades by +2 Attack after this is Passed!)",
+      "id": "BGDUO_123",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_123.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/107918",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=59",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Catch!",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Staff of Enrichment",
+      "tier": 3,
+      "cost": 2,
+      "text": "Minions in the Tavern have +1\/+2 this game.",
+      "id": "BG28_886",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_886.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105276",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=21",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Staff_of_Enrichment",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Echoing Roar",
+      "tier": 3,
+      "cost": 3,
+      "text": "Give a friendly minion \"At the end of your turn, gain +2\/+2.\"",
+      "id": "BG28_814",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_814.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104440",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=19",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Echoing_Roar",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Natural Blessing",
+      "tier": 3,
+      "cost": 3,
+      "text": "Choose a minion. Give all minions that share a type with it +2\/+2.",
+      "id": "BG28_845",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_845.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104472",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=20",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Natural_Blessing",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Portal in a Fountain",
+      "tier": 3,
+      "cost": 3,
+      "text": "Pass a minion in the Tavern.",
+      "id": "BG31_243",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_243.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119470",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=65",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Portal_in_a_Fountain",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Planar Telescope",
+      "tier": 3,
+      "cost": 4,
+      "text": "Discover a minion of your most common type.",
+      "id": "BG28_521",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_521.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105669",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=30",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Planar_Telescope",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Time Management",
+      "tier": 3,
+      "cost": 4,
+      "text": "Choose One - Give your minions +2\/+2; or At the start of your next turn, give your minions +4\/+4.",
+      "id": "BG31_881",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_881.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117573",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=66",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Time_Management",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Boon of Beetles",
+      "tier": 4,
+      "cost": 1,
+      "text": "When you have space in combat, summon two 2\/2 Beetles with Taunt. (2 left!)",
+      "id": "BG28_603",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_603.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110401",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=49",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Boon_of_Beetles",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Gem Confiscation",
+      "tier": 4,
+      "cost": 1,
+      "text": "Play 2 Blood Gems on a friendly minion. It steals all Blood Gems from its neighbors.",
+      "id": "BG28_698",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_698.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110642",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=55",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Gem_Confiscation",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Forest's Bounty",
+      "tier": 4,
+      "cost": 2,
+      "text": "Choose One - Give a minion +7\/+7; or Give your minions +2\/+1.",
+      "id": "BG31_886",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_886.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117584",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=75",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Forest's_Bounty",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Marauder's Contract",
+      "tier": 4,
+      "cost": 2,
+      "text": "Steal a random Pirate from the Tavern.",
+      "id": "BG31_891",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_891.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115900",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=69",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Marauder's_Contract",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Spitescale Special",
+      "tier": 4,
+      "cost": 2,
+      "text": "Get 3 random Spellcraft spells.",
+      "id": "BG28_606",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_606.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110406",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=52",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Spitescale_Special",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Defender's Rites",
+      "tier": 4,
+      "cost": 3,
+      "text": "Give a friendly minion +8\/+8 and Taunt.",
+      "id": "BG28_825",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_825.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104445",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=29",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Defender's_Rites",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Hired Headhunter",
+      "tier": 4,
+      "cost": 3,
+      "text": "Discover a Battlecry minion.",
+      "id": "BG28_GIL_836",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_GIL_836.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105264",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=27",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Hired_Headhunter",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Misplaced Tea Set",
+      "tier": 4,
+      "cost": 3,
+      "text": "Give a friendly minion of each type +3\/+3.",
+      "id": "BG28_888",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_888.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105271",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=26",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Misplaced_Tea_Set",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Scavenge for Parts",
+      "tier": 4,
+      "cost": 3,
+      "text": "At the end of your turn, get a random Magnetic minion. Lasts 3 turns.",
+      "id": "BG28_600",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_600.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110383",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=46",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Scavenge_for_Parts",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Cloning Conch",
+      "tier": 4,
+      "cost": 4,
+      "text": "Get a random Murloc and a copy of it.",
+      "id": "BG28_601",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_601.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110400",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=47",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Cloning_Conch",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Guzzle the Goop",
+      "tier": 4,
+      "cost": 4,
+      "text": "At the end of your turn, give your Dragons +4 Attack. Lasts 3 turns.",
+      "id": "BG28_602",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_602.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110409",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=48",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Guzzle_the_Goop",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Temperature Shift",
+      "tier": 4,
+      "cost": 4,
+      "text": "Get a 'Fire Baller' and a 'Snow Baller'.",
+      "id": "BG31_819",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_819.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117670",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=68",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Temperature_Shift",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Butchering",
+      "tier": 5,
+      "cost": 2,
+      "text": "Destroy a friendly Undead. Your Undead have extra Attack equal to its Tier this game.",
+      "id": "BG28_604",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_604.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110412",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=50",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Butchering",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Portal in a Crystal",
+      "tier": 5,
+      "cost": 2,
+      "text": "Pass a friendly non-Golden minion.",
+      "id": "BG31_244",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_244.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119471",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=71",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Portal_in_a_Crystal",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Saloon's Finest",
+      "tier": 5,
+      "cost": 2,
+      "text": "Refresh the Tavern with Tavern spells.",
+      "id": "BG28_849",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_849.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104494",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=39",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Saloon's_Finest",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Armor Stash",
+      "tier": 5,
+      "cost": 3,
+      "text": "Set your Armor to 5.",
+      "id": "BG28_500",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_500.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103785",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=31",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Armor_Stash",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Channel the Devourer",
+      "tier": 5,
+      "cost": 3,
+      "text": "Remove a minion. Give its stats to a random friendly minion.",
+      "id": "EBG_Spell_032",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/EBG_Spell_032.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/100899",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=45",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Channel_the_Devourer",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Contracted Corpse",
+      "tier": 5,
+      "cost": 3,
+      "text": "Discover a Deathrattle minion.",
+      "id": "BG28_882",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_882.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/105265",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=28",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Contracted_Corpse",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Upper Hand",
+      "tier": 5,
+      "cost": 3,
+      "text": "Start of Combat: Set a random enemy minion's Health to 1.",
+      "id": "BG28_573",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_573.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104560",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=35",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Upper_Hand",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Corrupted Cupcakes",
+      "tier": 5,
+      "cost": 4,
+      "text": "Choose a friendly Demon. It consumes 3 random minions in the Tavern to gain their stats.",
+      "id": "BG28_607",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_607.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110407",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=53",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Corrupted_Cupcakes",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bargain Bundle",
+      "tier": 5,
+      "cost": 5,
+      "text": "Discover a minion. Your teammate gets the other options.",
+      "id": "BG31_242",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_242.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117671",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=70",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bargain_Bundle",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Golden Touch",
+      "tier": 5,
+      "cost": 5,
+      "text": "Make a random minion in the Tavern Golden.",
+      "id": "BG28_830",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_830.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104448",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=37",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Golden_Touch",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Lost Staff of Hamuul",
+      "tier": 6,
+      "cost": 2,
+      "text": "Choose a minion. Refresh the Tavern with minions of that type.",
+      "id": "EBG_Spell_038",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/EBG_Spell_038.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/100911",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=40",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Lost_Staff_of_Hamuul",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Perfect Vision",
+      "tier": 6,
+      "cost": 2,
+      "text": "Set a minion's stats to 20\/20. ",
+      "id": "BG28_838",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_838.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104601",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=38",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Perfect_Vision",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fandral's Fortune",
+      "tier": 6,
+      "cost": 3,
+      "text": "Discover a Choose One card. It has both effects combined.",
+      "id": "BG31_892",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_892.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/116221",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=72",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fandral's_Fortune",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Knockoff Wisdomball",
+      "tier": 6,
+      "cost": 3,
+      "text": "Your next 2 Refreshes are helpful! (2 left!)",
+      "id": "BG30_802",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_802.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113902",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=73",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Knockoff_Wisdomball",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Azerite Empowerment",
+      "tier": 6,
+      "cost": 4,
+      "text": "Give your minions +4\/+4.",
+      "id": "BG28_169",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_169.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/109232",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=41",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Azerite_Empowerment",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Eyes of the Earth Mother",
+      "tier": 6,
+      "cost": 4,
+      "text": "Choose a friendly minion from Tier 4 or below. Make it Golden.",
+      "id": "EBG_Spell_017",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/EBG_Spell_017.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/100601",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=57",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Eyes_of_the_Earth_Mother",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "The Road Less Traveled",
+      "tier": 6,
+      "cost": 4,
+      "text": "Choose One - Get a random Tier 6 minion; or Get two random Tier 5 minions.",
+      "id": "BG31_884",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_884.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117592",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=74",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Road_Less_Traveled",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Sharing is Caring",
+      "tier": 7,
+      "cost": 2,
+      "text": "Start of Combat: Your left-most minion gains stats equal to the nearest enemy minion's.",
+      "id": "BG31_889",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_889.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119599",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=76",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Sharing_is_Caring",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Hallowed Ritual",
+      "tier": 7,
+      "cost": 5,
+      "text": "Discover a Tier 7 minion.",
+      "id": "BG31_896",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_896.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119718",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=78",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Hallowed_Ritual",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Blade of Ambition",
+      "tier": 7,
+      "cost": 6,
+      "text": "Choose a minion. Set its Attack and Health to match the highest in your warband.",
+      "id": "BG31_895",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_895.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119603",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/spell\/?id=77",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Blade_of_Ambition",
+        "hearthpwn": null
+      },
+      "isActive": true,
+      "isDuosOnly": false
+    }
+  ]
+}

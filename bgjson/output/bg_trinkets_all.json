@@ -1,0 +1,2541 @@
+{
+  "meta": {
+    "date": "2025-08-05",
+    "version": "0.10.0"
+  },
+  "data": [
+    {
+      "name": "Artisanal Urn",
+      "turn": 6,
+      "cost": 0,
+      "pool": "Undead",
+      "text": "Your Undead have +3 Attack.",
+      "id": "BG30_MagicItem_989",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_989.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112014",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=41",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Artisanal_Urn",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Azeroth Model Globe",
+      "turn": 6,
+      "cost": 0,
+      "pool": null,
+      "text": "At the start of every 2 turns, Discover a Tier 6 minion.",
+      "id": "BG30_MagicItem_425",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_425.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112001",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=49",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Azeroth_Model_Globe",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bob-blehead",
+      "turn": 6,
+      "cost": 0,
+      "pool": null,
+      "text": "Gain 2 Gold. The Tavern no longer offers cards from Tier 1 or Tier 2.",
+      "id": "BG30_MagicItem_998",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_998.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113101",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=55",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bob-blehead",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Demonblood Gourd",
+      "turn": 6,
+      "cost": 0,
+      "pool": "Demon|Elemental",
+      "text": "Spellcraft: Choose a friendly minion. It consumes a random minion in the Tavern to gain its stats.",
+      "id": "BG30_MagicItem_429",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_429.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112078",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=8",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Demonblood_Gourd",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Investment Contract",
+      "turn": 6,
+      "cost": 0,
+      "pool": null,
+      "text": "After you Pass, reduce the Cost of upgrading the Tavern by (1).",
+      "id": "BGDUO_MagicItem_009",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_009.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117940",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=133",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Investment_Contract",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Ship in a Bottle",
+      "turn": 6,
+      "cost": 0,
+      "pool": "Pirate",
+      "text": "Start of Combat: Get and summon a random Pirate. It attacks immediately.",
+      "id": "BG30_MagicItem_407",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_407.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111505",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=30",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Ship_in_a_Bottle",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Smuggler Portrait",
+      "turn": 6,
+      "cost": 0,
+      "pool": "Dragon",
+      "text": "Get a 'Whelp Smuggler'. Your Whelp Smugglers are Dragons.",
+      "id": "BG30_MagicItem_825",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_825.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111255",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=12",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Smuggler_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Booty Bay Brew",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Pirate",
+      "text": "Whenever you spend Gold, give a friendly Pirate +1\/+2.",
+      "id": "BG30_MagicItem_924",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_924.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110993",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=31",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Booty_Bay_Brew",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Burgling Claw",
+      "turn": 6,
+      "cost": 1,
+      "pool": null,
+      "text": "At the start of your turn, get a plain copy of the highest Tier minion in your last opponent's warband.",
+      "id": "BG30_MagicItem_930",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_930.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117800",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=126",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Burgling_Claw",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Dalaran Cheese Wheel",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Demon|Elemental",
+      "text": "Minions in the Tavern have +1\/+1. Upgrades every 4 times you Refresh.",
+      "id": "BG30_MagicItem_879",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_879.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111384",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=18",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Dalaran_Cheese_Wheel",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Dragonwing Glider",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Dragon",
+      "text": "Whenever you play a card, give a friendly Dragon +3 Attack.",
+      "id": "BG30_MagicItem_900",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_900.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110985",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=11",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Dragonwing_Glider",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Glowing Gauntlet",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Demon|Mech",
+      "text": "Minions in the Tavern have +3\/+3.",
+      "id": "BG30_MagicItem_841",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_841.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111092",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=6",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Glowing_Gauntlet",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Goldenizer Supply",
+      "turn": 6,
+      "cost": 1,
+      "pool": null,
+      "text": "At the end of every 3 turns, get a Goldenizer.",
+      "id": "BG30_MagicItem_435",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_435.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112082",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=50",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Goldenizer_Supply",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Goose Portrait",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Beast",
+      "text": "Get a 'Silver Goose'. After you summon 3 Silver Fledglings, get a Lucky Egg.",
+      "id": "BG30_MagicItem_777",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_777.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117895",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=118",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Goose_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Great Boar Sticker",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Quilboar",
+      "text": "Your Blood Gems give an extra +3 Attack.",
+      "id": "BG30_MagicItem_988",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_988.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112013",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=35",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Great_Boar_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Innkeeper's Stein",
+      "turn": 6,
+      "cost": 1,
+      "pool": null,
+      "text": "The Tavern offers an extra minion of a higher Tier whenever it is Refreshed.",
+      "id": "BG30_MagicItem_423",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_423.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111999",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=48",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Innkeeper's_Stein",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Kaboom Bot Portrait",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Mech",
+      "text": "Get a 'Kaboom Bot'. Your Kaboom Bots' Deathrattles deal 10 extra damage.",
+      "id": "BG30_MagicItem_803",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_803.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110956",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=21",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Kaboom_Bot_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Marine Signet",
+      "turn": 6,
+      "cost": 1,
+      "pool": null,
+      "text": "After you play 4 minions, get a random Tier 1 Tavern spell and upgrade this.",
+      "id": "BG30_MagicItem_711",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_711.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117897",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=121",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Marine_Signet",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Nerglish Phrasebook",
+      "turn": 6,
+      "cost": 1,
+      "pool": "Murloc",
+      "text": "After you play a minion, give the left-most minion in your hand +3\/+2.",
+      "id": "BG30_MagicItem_914",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_914.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110991",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=24",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Nerglish_Phrasebook",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Souvenir Stand",
+      "turn": 6,
+      "cost": 1,
+      "pool": null,
+      "text": "When you buy your Greater Trinket, this transforms into a copy of it.",
+      "id": "BG30_MagicItem_888",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_888.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112895",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=52",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Souvenir_Stand",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Alliance Keychain",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Dragon",
+      "text": "The first time a friendly minion dies each combat, give its maximum stats to a random friendly minion.",
+      "id": "BG30_MagicItem_433",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_433.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112083",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=43",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Alliance_Keychain",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bartend-o-Tron's Oilcan",
+      "turn": 6,
+      "cost": 2,
+      "pool": null,
+      "text": "Reduce the Cost of upgrading the Tavern by (3). At the start of your turn, repeat this.",
+      "id": "BG30_MagicItem_705",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_705.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117854",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=125",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bartend-o-Tron's_Oilcan",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Belcher Portrait",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Murloc",
+      "text": "Get an 'Operatic Belcher'. Whenever a friendly minion loses Venomous, it gains +4\/+4 permanently.",
+      "id": "BG30_MagicItem_432",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_432.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112402",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=25",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Belcher_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Book of Medivh",
+      "turn": 6,
+      "cost": 2,
+      "pool": null,
+      "text": "Discover a Tavern spell. At the start of each turn, Discover another.",
+      "id": "BG30_MagicItem_420",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_420.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111609",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=56",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Book_of_Medivh",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Ceremonial Sword",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Pirate|Undead",
+      "text": "Whenever a friendly minion attacks, give it +4 Attack.",
+      "id": "BG30_MagicItem_925",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_925.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115464",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=32",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Ceremonial_Sword",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Colorful Compass",
+      "turn": 6,
+      "cost": 2,
+      "pool": null,
+      "text": "Get a random <minion type>. At the start of each turn, get another.",
+      "id": "BG30_MagicItem_426",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_426.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112002",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=45",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Colorful_Compass",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Deathly Phylactery",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Undead",
+      "text": "Discover a Deathrattle minion. Your first Deathrattle each combat triggers an extra time.",
+      "id": "BG30_MagicItem_700",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_700.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117794",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=117",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Deathly_Phylactery",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Electromagnetic Device",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Mech",
+      "text": "Discover a Magnetic minion. Whenever you Magnetize a minion, give it +2\/+2.",
+      "id": "BG30_MagicItem_709",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_709.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117894",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=119",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Electromagnetic_Device",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Feral Talisman",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Beast|Undead",
+      "text": "Your minions have +2\/+1.",
+      "id": "BG30_MagicItem_880",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_880.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111211",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=1",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Feral_Talisman",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Goblin Wallet",
+      "turn": 6,
+      "cost": 2,
+      "pool": null,
+      "text": "At the end of each turn, increase your Maximum Gold by 1.",
+      "id": "BG30_MagicItem_847",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_847.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111448",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=54",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Goblin_Wallet",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Holy Mallet",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Dragon",
+      "text": "Start of Combat: Give your left and right-most minions Divine Shield.",
+      "id": "BG30_MagicItem_902",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_902.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111401",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=9",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Holy_Mallet",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Kodo Leather Pouch",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Pirate|Elemental",
+      "text": "After you buy a card, give two random friendly minions +2\/+1.",
+      "id": "BG30_MagicItem_414",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_414.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111533",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=19",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Kodo_Leather_Pouch",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Lorewalker Scroll",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Quilboar|Naga",
+      "text": "Whenever you cast a spell on a minion, give it +2\/+1.",
+      "id": "BG30_MagicItem_422",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_422.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111664",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=29",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Lorewalker_Scroll",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Lucky Tabby",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Beast",
+      "text": "After 6 friendly minions die, get a random Beast.",
+      "id": "BG30_MagicItem_931",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_931.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111408",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=2",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Lucky_Tabby",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Nomi Sticker",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Elemental",
+      "text": "After you play an Elemental, Elementals in the Tavern have +1\/+1 this game.",
+      "id": "BG30_MagicItem_544",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_544.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112392",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=16",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Nomi_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Primordial Terrarium",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Elemental",
+      "text": "After you play an Elemental, your next Tavern spell costs (1) less.",
+      "id": "BG30_MagicItem_979",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_979.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111977",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=17",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Primordial_Terrarium",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Quilligraphy Set",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Quilboar",
+      "text": "Avenge (4): Your Blood Gems give an extra +1 Health this game.",
+      "id": "BG30_MagicItem_410",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_410.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111512",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=34",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Quilligraphy_Set",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Replica Cathedral",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Quilboar|Naga",
+      "text": "Your first spell each turn casts twice.",
+      "id": "BG30_MagicItem_434",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_434.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112855",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=27",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Replica_Cathedral",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Rusty Trident",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Naga",
+      "text": "Start of Combat: Give your Naga, \u201cDeathrattle: Get a random Spellcraft spell.\u201d",
+      "id": "BG30_MagicItem_917",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_917.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111557",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=26",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Rusty_Trident",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Shaman Prayer Beads",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Dragon|Murloc|Pirate|Elem",
+      "text": "After you buy 2 Battlecry minions, get a random Battlecry minion.",
+      "id": "BG30_MagicItem_982",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_982.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112004",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=75",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Shaman_Prayer_Beads",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Staff of the Scourge",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Undead",
+      "text": "Avenge (5): Give a random friendly minion Reborn.",
+      "id": "BG30_MagicItem_437",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_437.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112080",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=38",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Staff_of_the_Scourge",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "The Eye of Dalaran",
+      "turn": 6,
+      "cost": 2,
+      "pool": null,
+      "text": "Whenever a friendly minion with no type dies, get a random Tavern spell.",
+      "id": "BG30_MagicItem_981",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_981.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112850",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=44",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Eye_of_Dalaran",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Token of the Old Gods",
+      "turn": 6,
+      "cost": 2,
+      "pool": null,
+      "text": "Spellcraft: Choose a minion. Then choose a minion from a Tier higher to transform it into.",
+      "id": "BG30_MagicItem_416",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_416.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111556",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=51",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Token_of_the_Old_Gods",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Trip Vouchers",
+      "turn": 6,
+      "cost": 2,
+      "pool": null,
+      "text": "In 2 turns, choose a Greater Trinket to buy and replace this.",
+      "id": "BG30_MagicItem_891",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_891.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112991",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=53",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Trip_Vouchers",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Valorous Medallion",
+      "turn": 6,
+      "cost": 2,
+      "pool": "Dragon",
+      "text": "Start of Combat: Give your minions +2\/+2.",
+      "id": "BG30_MagicItem_970",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_970.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111920",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=10",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Valorous_Medallion",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Empowered Mirror",
+      "turn": 6,
+      "cost": 3,
+      "pool": null,
+      "text": "Become a copy of your teammate's Lesser Trinket.",
+      "id": "BGDUO_MagicItem_010",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_010.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117941",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=134",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Empowered_Mirror",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Fishy Sticker",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Beast|Mech|Undead",
+      "text": "Get a Fish of N'Zoth that copies Deathrattles.",
+      "id": "BG30_MagicItem_821",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_821.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110966",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=40",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fishy_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fungalmancer Sticker",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Murloc",
+      "text": "After you sell 5 minions, get a random Murloc.",
+      "id": "BG30_MagicItem_710",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_710.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117896",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=120",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fungalmancer_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Hoggy Bank",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Quilboar",
+      "text": "Start of Combat: Give your Quilboar \"Deathrattle: Get a Blood Gem\".",
+      "id": "BG30_MagicItem_411",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_411.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111514",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=33",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Hoggy_Bank",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Lava Lamp",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Elemental",
+      "text": "After you sell 5 minions, get a random Elemental.",
+      "id": "BG30_MagicItem_951",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_951.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111499",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=15",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Lava_Lamp",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Rewinder Portrait",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Demon",
+      "text": "Get a 'Soul Rewinder' and a 'Wrath Weaver'. Your Soul Rewinders also gain Attack.",
+      "id": "BG30_MagicItem_868",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_868.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110975",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=5",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Rewinder_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Rockin' Music Box",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Dragon|Murloc",
+      "text": "Get a random Battlecry minion. At the start of each turn get another.",
+      "id": "BG30_MagicItem_430",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_430.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112079",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=14",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Rockin'_Music_Box",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tiger Carving",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Beast",
+      "text": "Whenever a friendly minion takes damage, give a random friendly minion +2 Attack permanently.",
+      "id": "BG30_MagicItem_427",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_427.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112073",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=3",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tiger_Carving",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Training Certificate",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Dragon",
+      "text": "Start of Combat: Double the stats of your two lowest-Attack minions.",
+      "id": "BG30_MagicItem_962",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_962.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111417",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=13",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Training_Certificate",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Windrunner Necklace",
+      "turn": 6,
+      "cost": 3,
+      "pool": "Pirate|Undead",
+      "text": "Your left-most minion in combat has +8 Attack in combat.",
+      "id": "BG30_MagicItem_997",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_997.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112408",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=42",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Windrunner_Necklace",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Blingtron's Sunglasses",
+      "turn": 6,
+      "cost": 4,
+      "pool": "Mech",
+      "text": "After you summon a Mech in combat, give a friendly Mech Divine Shield.",
+      "id": "BG30_MagicItem_978",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_978.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111976",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=23",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Blingtron's_Sunglasses",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bottle Sticker",
+      "turn": 6,
+      "cost": 4,
+      "pool": null,
+      "text": "Get a 'Portal in a Bottle'. At the start of each turn, get another.",
+      "id": "BGDUO_MagicItem_005",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_005.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117936",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=131",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bottle_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Charging Staff",
+      "turn": 6,
+      "cost": 4,
+      "pool": "Mech",
+      "text": "At the end of each turn, give your minions with Divine Shield +3 Attack.",
+      "id": "BG30_MagicItem_984",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_984.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112005",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=20",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Charging_Staff",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Comfy Coffin",
+      "turn": 6,
+      "cost": 4,
+      "pool": "Undead",
+      "text": "After you cast a Tavern spell, your Undead have +1 Attack this game (wherever they are).",
+      "id": "BG30_MagicItem_547",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_547.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112399",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=39",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Comfy_Coffin",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Common Thread",
+      "turn": 6,
+      "cost": 4,
+      "pool": null,
+      "text": "Pass a copy of the first card you buy each turn.",
+      "id": "BGDUO_MagicItem_001",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_001.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117932",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=128",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Common_Thread",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Felblood Portrait",
+      "turn": 6,
+      "cost": 4,
+      "pool": "Demon|Elemental",
+      "text": "Get a 'Slimy Felblood.' Your Fiery and Slimy Felbloods give Attack and Health.",
+      "id": "BG30_MagicItem_869",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_869.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111404",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=4",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Felblood_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Mystery Cube",
+      "turn": 6,
+      "cost": 4,
+      "pool": null,
+      "text": "Choose from 2 new Lesser Trinkets to replace this for free. At the start of each turn, repeat this.",
+      "id": "BG30_MagicItem_703",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_703.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117801",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=127",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Mystery_Cube",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Summoning Sphere",
+      "turn": 6,
+      "cost": 4,
+      "pool": null,
+      "text": "Start of Combat: Summon a copy of your teammate's highest Health minion.",
+      "id": "BGDUO_MagicItem_003",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_003.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117934",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=129",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Summoning_Sphere",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Automaton Portrait",
+      "turn": 6,
+      "cost": 5,
+      "pool": "Mech",
+      "text": "Get an 'Ancestral Automaton'. Start of Combat: Summon an Ancestral Automaton.",
+      "id": "BG30_MagicItem_303",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_303.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111403",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=22",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Automaton_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Charm of Generosity",
+      "turn": 6,
+      "cost": 5,
+      "pool": null,
+      "text": "After your team Passes, give your minions +2 Attack.",
+      "id": "BGDUO_MagicItem_004",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_004.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117935",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=130",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Charm_of_Generosity",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Orc-estra Portrait",
+      "turn": 6,
+      "cost": 5,
+      "pool": null,
+      "text": "Get an 'Orc-estra Conductor'. At the start of each turn, get another.",
+      "id": "BGDUO_MagicItem_007",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_007.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117938",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=132",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Orc-estra_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Reflective Pendant",
+      "turn": 6,
+      "cost": 5,
+      "pool": null,
+      "text": "Get a plain copy of a minion you control. At the start of each turn, repeat this.",
+      "id": "BG30_MagicItem_706",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_706.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117857",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=124",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Reflective_Pendant",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tickatus Sticker",
+      "turn": 6,
+      "cost": 5,
+      "pool": null,
+      "text": "Discover a Tier 3 Darkmoon Prize. At the start of every 3 turns, repeat this.",
+      "id": "BG30_MagicItem_707",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_707.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117860",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=123",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tickatus_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Yogg-Tastic Pastry",
+      "turn": 6,
+      "cost": 5,
+      "pool": null,
+      "text": "Spin the Wheel of Yogg-Saron. At the start of each turn, spin it again.",
+      "id": "BG30_MagicItem_994",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_994.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113104",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=46",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Yogg-Tastic_Pastry",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Eternal Portrait",
+      "turn": 6,
+      "cost": 6,
+      "pool": "Undead",
+      "text": "Get an 'Eternal Knight'. Start of Combat: Give your Eternal Knights Taunt and Reborn.",
+      "id": "BG30_MagicItem_301",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_301.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111388",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=36",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Eternal_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bleeding Heart",
+      "turn": 6,
+      "cost": 7,
+      "pool": "Undead",
+      "text": "Avenge (6): Summon and get a random Undead.",
+      "id": "BG30_MagicItem_713",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_713.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117906",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=122",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bleeding_Heart",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Artisanal Urn",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Undead",
+      "text": "Your Undead have +8 Attack.",
+      "id": "BG30_MagicItem_989t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_989t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117157",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=99",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Artisanal_Urn",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Belcher Portrait",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Murloc",
+      "text": "Get an 'Operatic Belcher'. Whenever a friendly minion loses Venomous, it gains +14\/+14 permanently.",
+      "id": "BG30_MagicItem_432t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_432t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115240",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=63",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Belcher_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bob's Tip Jar",
+      "turn": 9,
+      "cost": 0,
+      "pool": null,
+      "text": "Gain 4 Gold. Increase your maximum Gold by 4.",
+      "id": "BG30_MagicItem_996",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_996.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112988",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=116",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bob's_Tip_Jar",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bronze Timepiece",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Dragon|Undead",
+      "text": "Start of Combat: Set each of your minions' Attack and Health to the higher of the two.",
+      "id": "BG30_MagicItem_995",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_995.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112411",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=105",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bronze_Timepiece",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bronzebeard Portrait",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Dragon|Murloc",
+      "text": "Get a 'Brann Bronzebeard' and a random Battlecry minion. Your Brann Bronzebeards are both Murlocs and Dragons.",
+      "id": "BG30_MagicItem_418",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_418.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111607",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=85",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bronzebeard_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Darnassus Pie",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Demon|Elemental",
+      "text": "Minions in the Tavern have +1\/+1 for each minion you've sold this turn.",
+      "id": "BG30_MagicItem_992",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_992.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112055",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=7",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Darnassus_Pie",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Devourer Sticker",
+      "turn": 9,
+      "cost": 0,
+      "pool": null,
+      "text": "Get a 'Channel the Devourer'. At the start of each turn, get another.",
+      "id": "BG30_MagicItem_543",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_543.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112385",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=111",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Devourer_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Enforcer Portrait",
+      "turn": 9,
+      "cost": 0,
+      "pool": null,
+      "text": "Get a 'Lightfang Enforcer'. Your Lightfang Enforcers have all minion types.",
+      "id": "BG30_MagicItem_971",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_971.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111921",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=47",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Enforcer_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Essence of Dreams",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Dragon|Murloc",
+      "text": "Get a 'Dreamer's Embrace'. At the start of each turn, get another.",
+      "id": "BG30_MagicItem_916",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_916.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111253",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=84",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Essence_of_Dreams",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Glowing Gauntlet",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Demon|Mech",
+      "text": "Minions in the Tavern have +8\/+8.",
+      "id": "BG30_MagicItem_841t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_841t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115234",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=59",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Glowing_Gauntlet",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Glowscale Portrait",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Naga",
+      "text": "Get a \u2018Glowscale'. Your first Spellcraft enchantment each turn is permanent.",
+      "id": "BG30_MagicItem_548",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_548.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112464",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=88",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Glowscale_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Mug of the Sire",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Undead",
+      "text": "Whenever you would summon a minion that doesn't fit in your warband, give your minions +5 Attack.",
+      "id": "BG30_MagicItem_438t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_438t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113302",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=100",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Mug_of_the_Sire",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Nether Pendant",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Demon",
+      "text": "Minions in the Tavern have +1\/+1. Upgrades every 4 times your hero takes damage.",
+      "id": "BG30_MagicItem_541",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_541.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112382",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=70",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Nether_Pendant",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Precious Pearl",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Naga",
+      "text": "Spellcraft: Give a minion +30\/+30 until next turn.",
+      "id": "BG30_MagicItem_714",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_714.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117944",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=141",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Precious_Pearl",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Promo Portrait",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Dragon",
+      "text": "Get a 'Prized Promo Drake'. Your first Start of Combat effect each combat triggers an extra time.",
+      "id": "BG30_MagicItem_918",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_918.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117798",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=136",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Promo_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tinyfin Onesie",
+      "turn": 9,
+      "cost": 0,
+      "pool": "Murloc",
+      "text": "Start of Combat: Your left-most minion gains the stats of the highest Health minion in your hand.",
+      "id": "BG30_MagicItem_441",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_441.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113099",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=86",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tinyfin_Onesie",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Charging Staff",
+      "turn": 9,
+      "cost": 1,
+      "pool": "Mech",
+      "text": "At the end of each turn, give your minions with Divine Shield +7 Attack.",
+      "id": "BG30_MagicItem_984t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_984t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115258",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=81",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Charging_Staff",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Dragonwing Glider",
+      "turn": 9,
+      "cost": 1,
+      "pool": "Dragon",
+      "text": "Whenever you play a card, give a friendly Dragon +8 Attack.",
+      "id": "BG30_MagicItem_900t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_900t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115223",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=74",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Dragonwing_Glider",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Elementium Chest",
+      "turn": 9,
+      "cost": 1,
+      "pool": "Pirate",
+      "text": "Each combat, after 2 friendly Pirates attack, gain 1 Gold next turn.",
+      "id": "BG30_MagicItem_923",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_923.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111406",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=90",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Elementium_Chest",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Feral Talisman",
+      "turn": 9,
+      "cost": 1,
+      "pool": "Beast|Undead",
+      "text": "Your minions have +6\/+4.",
+      "id": "BG30_MagicItem_880t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_880t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111250",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=57",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Feral_Talisman",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Manipulator Portrait",
+      "turn": 9,
+      "cost": 1,
+      "pool": null,
+      "text": "Get a Faceless Manipulator.",
+      "id": "BG30_MagicItem_876",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_876.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111207",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=144",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Manipulator_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Reinforced Shield",
+      "turn": 9,
+      "cost": 1,
+      "pool": "Undead",
+      "text": "Whenever you summon a minion, give it Divine Shield. (4 times per combat.)",
+      "id": "BG30_MagicItem_886",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_886.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110967",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=102",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Reinforced_Shield",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Twin Sky Lanterns",
+      "turn": 9,
+      "cost": 1,
+      "pool": "Murloc|Undead",
+      "text": "When you have space, summon a copy of the first minion you summon each combat.",
+      "id": "BG30_MagicItem_822",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_822.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/114208",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=37",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Twin_Sky_Lanterns",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Booty Bay Brew",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Pirate",
+      "text": "Whenever you spend Gold, give a friendly Pirate +3\/+4.",
+      "id": "BG30_MagicItem_924t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_924t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115245",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=64",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Booty_Bay_Brew",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Colorful Compass",
+      "turn": 9,
+      "cost": 2,
+      "pool": null,
+      "text": "Get 2 random <minion type>. At the start of each turn, get 2 more.",
+      "id": "BG30_MagicItem_426t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_426t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115250",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=108",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Colorful_Compass",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Conductor Portrait",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Quilboar",
+      "text": "Get a 'Snarling Conductor'. Whenever you discard a card, play a Blood Gem on all your minions.",
+      "id": "BG30_MagicItem_402",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_402.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111476",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=94",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Conductor_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fancy Spellbook",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Pirate",
+      "text": "After you spend 7 Gold, get a random Tavern spell.",
+      "id": "BG30_MagicItem_999",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_999.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113102",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=93",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fancy_Spellbook",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Horde Keychain",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Beast|Undead",
+      "text": "Your minions from Tier 3 or lower have +7\/+5.",
+      "id": "BG30_MagicItem_843t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_843t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115251",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=107",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Horde_Keychain",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Kodo Leather Pouch",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Pirate|Elemental",
+      "text": "After you buy a card, give a random friendly minion +4\/+4.",
+      "id": "BG30_MagicItem_414t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_414t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115221",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=79",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Kodo_Leather_Pouch",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Lorewalker Scroll",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Quilboar|Naga",
+      "text": "Whenever you cast a spell on a minion, give it +5\/+5.",
+      "id": "BG30_MagicItem_422t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_422t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117416",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=89",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Lorewalker_Scroll",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Nazjatar Postcard",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Naga",
+      "text": "After you play a non-Naga minion, get a random Spellcraft spell.",
+      "id": "BG30_MagicItem_919",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_919.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117797",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=140",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Nazjatar_Postcard",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Nomi Sticker",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Elemental",
+      "text": "After you play an Elemental, Elementals in the Tavern have +2\/+2 this game.",
+      "id": "BG30_MagicItem_544t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_544t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115235",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=60",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Nomi_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Peacebloom Candle",
+      "turn": 9,
+      "cost": 2,
+      "pool": null,
+      "text": "The first two Tavern spells you buy each turn are free.",
+      "id": "BG30_MagicItem_986",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_986.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112009",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=110",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Peacebloom_Candle",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Quilligraphy Set",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Quilboar",
+      "text": "Avenge (4): Your Blood Gems give an extra +1\/+1 this game.",
+      "id": "BG30_MagicItem_410t2",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_410t2.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115253",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=65",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Quilligraphy_Set",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "The Eye of Sargeras",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Demon",
+      "text": "Every fourth card you buy costs Health instead of Gold.",
+      "id": "BG30_MagicItem_701",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_701.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117795",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=135",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Eye_of_Sargeras",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tiger Carving",
+      "turn": 9,
+      "cost": 2,
+      "pool": "Beast",
+      "text": "Whenever a friendly minion takes damage, give a random friendly minion +4 Attack permanently.",
+      "id": "BG30_MagicItem_427t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_427t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115231",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=58",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tiger_Carving",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Blood Golem Sticker",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Quilboar",
+      "text": "Whenever a friendly Quilboar dies, summon a Golem with stats equal to its Blood Gems. (2 times per combat.)",
+      "id": "BG30_MagicItem_442",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_442.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113096",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=97",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Blood_Golem_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Designer Eyepatch",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Pirate",
+      "text": "You only need 2 copies of a Pirate to make it Golden.",
+      "id": "BG30_MagicItem_439",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_439.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112990",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=92",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Designer_Eyepatch",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Empowered Mirror",
+      "turn": 9,
+      "cost": 3,
+      "pool": null,
+      "text": "Become a copy of your teammate's Greater Trinket.",
+      "id": "BGDUO_MagicItem_010",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_010.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117941",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=149",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Empowered_Mirror",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Exquisite Dishware",
+      "turn": 9,
+      "cost": 3,
+      "pool": null,
+      "text": "At the end of each turn, get a random minion of each different type you control.",
+      "id": "BG30_MagicItem_419",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_419.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111608",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=112",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Exquisite_Dishware",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Great Boar Sticker",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Quilboar",
+      "text": "Your Blood Gems give an extra +2\/+2.",
+      "id": "BG30_MagicItem_988t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_988t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115225",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=95",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Great_Boar_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Jarred Frostling",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Elemental",
+      "text": "Start of Combat: Give 2 friendly Elementals \u2018Deathrattle: Summon a Flourishing Frostling'.",
+      "id": "BG30_MagicItem_952",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_952.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111500",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=77",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Jarred_Frostling",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Magic Road Sign",
+      "turn": 9,
+      "cost": 3,
+      "pool": null,
+      "text": "After you sell your first minion each turn, Pass it.",
+      "id": "BGDUO_MagicItem_006",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_006.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117937",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=147",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Magic_Road_Sign",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Mecha-Jaraxxus Sticker",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Mech|Demon",
+      "text": "Get 2 random Magnetic Mecha-Demons. At the start of each turn, get 2 more.",
+      "id": "BG30_MagicItem_942",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_942.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117855",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=138",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Mecha-Jaraxxus_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Nerglish Phrasebook",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Murloc",
+      "text": "After you play a minion, give the left-most minion in your hand +5\/+5.",
+      "id": "BG30_MagicItem_914t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_914t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115237",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=62",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Nerglish_Phrasebook",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Valorous Medallion",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Dragon",
+      "text": "Start of Combat: Give your minions +6\/+6.",
+      "id": "BG30_MagicItem_970t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_970t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115219",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=73",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Valorous_Medallion",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Windrunner Necklace",
+      "turn": 9,
+      "cost": 3,
+      "pool": "Pirate|Undead",
+      "text": "Your left-most minion in combat has +15 Attack in combat.",
+      "id": "BG30_MagicItem_997t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_997t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115228",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=104",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Windrunner_Necklace",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Azerite Portrait",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Elemental",
+      "text": "Get a 'Living Azerite'. Your Living Azerites also give stats to friendly Elementals.",
+      "id": "BG30_MagicItem_431",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_431.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112400",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=78",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Azerite_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Balladist Portrait",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Pirate",
+      "text": "Get a 'Lovesick Balladist'. At the start of each turn, get another. Your Lovesick Balladists also give Attack.",
+      "id": "BG30_MagicItem_987",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_987.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112011",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=91",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Balladist_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Book of Medivh",
+      "turn": 9,
+      "cost": 4,
+      "pool": null,
+      "text": "Discover 2 Tavern spells. At the start of each turn, Discover 2 more.",
+      "id": "BG30_MagicItem_420t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_420t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115230",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=113",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Book_of_Medivh",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fishy Sticker",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Beast|Mech|Undead",
+      "text": "Start of Combat: Summon a Golden Fish of N'Zoth that copies Deathrattles.",
+      "id": "BG30_MagicItem_821t2",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_821t2.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111046",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=103",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fishy_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fridge Magnet",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Mech",
+      "text": "Get a random Magnetic minion.",
+      "id": "BG30_MagicItem_545",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_545.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112397",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=80",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fridge_Magnet",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Gilnean Thorned Rose",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Beast",
+      "text": "Avenge (4): Give your minions +3\/+3 permanently and deal 1 damage to them.",
+      "id": "BG30_MagicItem_864",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_864.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/110972",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=67",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Gilnean_Thorned_Rose",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Jar o' Gems",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Quilboar",
+      "text": "Each combat, after 2 friendly minions attack, play a Blood Gem on all your Quilboar.",
+      "id": "BG30_MagicItem_546",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_546.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112398",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=96",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Jar_o'_Gems",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Mechagon Adapter",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Mech",
+      "text": "After a friendly Mech loses Divine Shield, give it Divine Shield. (3 times per combat.)",
+      "id": "BG30_MagicItem_910",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_910.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111529",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=82",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Mechagon_Adapter",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Spitescale Sushi Roll",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Naga",
+      "text": "Get a 'Spitescale Special'. Your first two Spellcraft spells each turn cast twice.",
+      "id": "BG30_MagicItem_920",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_920.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111400",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=87",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Spitescale_Sushi_Roll",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Surprise Portrait",
+      "turn": 9,
+      "cost": 4,
+      "pool": "Elemental",
+      "text": "Get an 'Elemental of Surprise'. (More appear when you least expect them...)",
+      "id": "BG30_MagicItem_555",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_555.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117905",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=137",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Surprise_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Cho'gall Sticker",
+      "turn": 9,
+      "cost": 5,
+      "pool": null,
+      "text": "Whenever your team plays a Golden minion, both you and your teammate get a Triple Reward.",
+      "id": "BGDUO_MagicItem_002",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_002.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117933",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=146",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Cho'gall_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Dalaran Cheese Wheel",
+      "turn": 9,
+      "cost": 5,
+      "pool": "Demon|Elemental",
+      "text": "Minions in the Tavern have +2\/+2. Upgrades every 4 times you Refresh.",
+      "id": "BG30_MagicItem_879t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_879t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115236",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=61",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Dalaran_Cheese_Wheel",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Flagbearer Portrait",
+      "turn": 9,
+      "cost": 5,
+      "pool": "Pirate",
+      "text": "Get a 'Sky Pirate Flagbearer'. Your Sky Pirates have +6 Attack.",
+      "id": "BG30_MagicItem_921",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_921.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117799",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=142",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Flagbearer_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Karazhan Chess Set",
+      "turn": 9,
+      "cost": 5,
+      "pool": null,
+      "text": "Start of Combat: Summon a copy of your left-most minion.",
+      "id": "BG30_MagicItem_972",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_972.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111922",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=109",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Karazhan_Chess_Set",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Redeemer Portrait",
+      "turn": 9,
+      "cost": 5,
+      "pool": null,
+      "text": "Get a 'Nalaa the Redeemer'. Tavern spells cost (1) less (but not less than 1).",
+      "id": "BG30_MagicItem_944",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_944.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117858",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=145",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Redeemer_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Rivendare Portrait",
+      "turn": 9,
+      "cost": 5,
+      "pool": "Beast|Undead",
+      "text": "Get a 'Titus Rivendare'. Start of Combat: Double the Health of your Titus Rivendares.",
+      "id": "BG30_MagicItem_310",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_310.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112102",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=69",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Rivendare_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Slamma Sticker",
+      "turn": 9,
+      "cost": 5,
+      "pool": "Beast",
+      "text": "After you summon a Beast in combat, double its stats.",
+      "id": "BG30_MagicItem_540",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_540.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112381",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=68",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Slamma_Sticker",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Alliance Keychain",
+      "turn": 9,
+      "cost": 6,
+      "pool": "Dragon",
+      "text": "The first time a friendly minion dies each combat, give its maximum stats to 2 random friendly minions.",
+      "id": "BG30_MagicItem_433t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_433t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115248",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=106",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Alliance_Keychain",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Comfy Coffin",
+      "turn": 9,
+      "cost": 6,
+      "pool": "Undead",
+      "text": "Whenever you cast a Tavern spell, your Undead have +2 Attack this game (wherever they are).",
+      "id": "BG30_MagicItem_547t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_547t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115226",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=101",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Comfy_Coffin",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Felbat Portrait",
+      "turn": 9,
+      "cost": 6,
+      "pool": "Demon",
+      "text": "Get a 'Famished Felbat'. The Tavern always has 7 cards.",
+      "id": "BG30_MagicItem_991",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_991.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112054",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=71",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Felbat_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Ironforge Anvil",
+      "turn": 9,
+      "cost": 6,
+      "pool": null,
+      "text": "Start of Combat: Triple the stats of your minions with no type.",
+      "id": "BG30_MagicItem_403",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_403.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111488",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=114",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Ironforge_Anvil",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Pagle's Fishing Rod",
+      "turn": 9,
+      "cost": 6,
+      "pool": null,
+      "text": "Get a random Tier 7 minion. At the start of each turn, get another.",
+      "id": "BG30_MagicItem_993",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_993.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113103",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=115",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Pagle's_Fishing_Rod",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Shaker Portrait",
+      "turn": 9,
+      "cost": 6,
+      "pool": "Naga",
+      "text": "Get a 'Zesty Shaker'. Your Zesty Shakers give an extra copy of the spell.",
+      "id": "BG30_MagicItem_828",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_828.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/114212",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=28",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Shaker_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Surveyor Portrait",
+      "turn": 9,
+      "cost": 6,
+      "pool": "Quilboar",
+      "text": "Get a 'Hot-Air Surveyor'. At the start of each turn, get 3 Blood Gems.",
+      "id": "BG30_MagicItem_943",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_943.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117856",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=143",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Surveyor_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Twin Sky Lanterns",
+      "turn": 9,
+      "cost": 6,
+      "pool": "Murloc|Undead",
+      "text": "When you have space, summon 2 copies of the first minion you summon each combat.",
+      "id": "BG30_MagicItem_822t2",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_822t2.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115247",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=66",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Twin_Sky_Lanterns",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Boom Controller",
+      "turn": 9,
+      "cost": 7,
+      "pool": "Mech",
+      "text": "When you have space, summon an exact copy of your first Mech that died each combat.",
+      "id": "BG30_MagicItem_440",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_440.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/113095",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=83",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Boom_Controller",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Emerald Dreamcatcher",
+      "turn": 9,
+      "cost": 7,
+      "pool": "Dragon",
+      "text": "Start of Combat: Set your Dragons' Attack to the highest in your warband.",
+      "id": "BG30_MagicItem_542",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_542.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/112383",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=76",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Emerald_Dreamcatcher",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Butcher's Sickle",
+      "turn": 9,
+      "cost": 8,
+      "pool": "Undead",
+      "text": "Get a 'Butchering' and a random Undead with a Deathrattle. At the start of each turn, repeat this.",
+      "id": "BG30_MagicItem_406",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_406.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/111502",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=98",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Butcher's_Sickle",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Darnassus Pie",
+      "turn": 9,
+      "cost": 8,
+      "pool": "Demon|Elemental",
+      "text": "Minions in the Tavern have +2\/+2 for each minion you've sold this turn.",
+      "id": "BG30_MagicItem_992t",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_992t.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/115218",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=72",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Darnassus_Pie",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Primalfin Portrait",
+      "turn": 9,
+      "cost": 8,
+      "pool": "Murloc",
+      "text": "Get a 'Primalfin Lookout'. Whenever you Discover a minion, get a random Tavern spell.",
+      "id": "BG30_MagicItem_702",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG30_MagicItem_702.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117796",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=139",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Primalfin_Portrait",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Moveout Box",
+      "turn": 9,
+      "cost": 10,
+      "pool": null,
+      "text": "Skip this turn. At the end of it, replace your warband with a copy of your teammate's.",
+      "id": "BGDUO_MagicItem_008",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_MagicItem_008.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/117939",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/trinket\/?id=148",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Moveout_Box",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    }
+  ]
+}

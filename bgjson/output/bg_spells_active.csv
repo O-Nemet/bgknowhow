@@ -1,0 +1,59 @@
+Name;Tier;Cost;Text;Blizzard ID;Picture link;Active;Duos only
+Alliance Flag;1;1;"Choose One - Give a minion +4 Attack; or +4 Health.";BG31_880;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_880.png;1;
+Fortify;1;1;Give a minion +3 Health and Taunt.;BG28_503;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_503.png;1;
+Tavern Coin;1;1;Gain 1 Gold.;BG28_810;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_810.png;1;
+Tavern Dish Banana;1;1;Give a minion +2/+2.;BG28_897;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_897.png;1;
+Them Apples;1;1;Give minions in the Tavern +1/+2.;BG28_966;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_966.png;1;
+Enchanted Lasso;1;2;Steal a random minion from Bob's Tavern.;BG28_512;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_512.png;1;
+Recruit a Trainee;1;2;Get a random Tier 1 minion.;BG28_504;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_504.png;1;
+Careful Investment;2;1;Gain 2 Gold next turn.;BG28_800;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_800.png;1;
+Lantern Light;2;1;Give a minion stats equal to your Tier.;BG28_885;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_885.png;1;
+Chef's Choice;2;2;Choose a minion. Get a different minion of the same type.;BG28_518;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_518.png;1;
+Cry Foul;2;2;Get a plain copy of a random minion from your last opponent's warband.;BG30_800;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG30_800.png;1;
+Shiny Ring;2;2;Give your minions +1/+1.;BG28_168;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_168.png;1;
+Hasty Excavation;2;3;Gain 1 Gold. This costs Health to buy instead of Gold.;BG28_571;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_571.png;1;
+Strike Oil;2;3;Increase your maximum Gold by 1.;BG28_805;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_805.png;1;
+Fleeting Vigor;3;1;Start of Combat: Give your minions +2/+1. ;BG28_519;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_519.png;1;
+Gem Day;3;1;"Choose One - Your Blood Gems give an extra +1 Attack this game; or +1 Health.";BG31_893;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_893.png;1;
+Overconfidence;3;1;If you win your next combat, gain 3 Gold. If you tie, gain 1.;BG28_884;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_884.png;1;
+Robust Evolution;3;1;Choose a minion. Transform it into a random minion of a higher Tier. It keeps its stats.;BG30_804;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG30_804.png;1;
+Tricky Trousers;3;1;Give a minion +1/+2 and Taunt. If it already has Taunt, remove it.;BG28_520;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_520.png;1;
+Catch!;3;2;Give your minions +2 Attack. (Upgrades by +2 Attack after this is Passed!);BGDUO_123;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BGDUO_123.png;1;1
+Staff of Enrichment;3;2;Minions in the Tavern have +1/+2 this game.;BG28_886;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_886.png;1;
+Echoing Roar;3;3;Give a friendly minion "At the end of your turn, gain +2/+2.";BG28_814;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_814.png;1;
+Natural Blessing;3;3;Choose a minion. Give all minions that share a type with it +2/+2.;BG28_845;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_845.png;1;
+Portal in a Fountain;3;3;Pass a minion in the Tavern.;BG31_243;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_243.png;1;1
+Planar Telescope;3;4;Discover a minion of your most common type.;BG28_521;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_521.png;1;
+Time Management;3;4;"Choose One - Give your minions +2/+2; or At the start of your next turn, give your minions +4/+4.";BG31_881;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_881.png;1;
+Boon of Beetles;4;1;When you have space in combat, summon two 2/2 Beetles with Taunt. (2 left!);BG28_603;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_603.png;1;
+Gem Confiscation;4;1;Play 2 Blood Gems on a friendly minion. It steals all Blood Gems from its neighbors.;BG28_698;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_698.png;1;
+Forest's Bounty;4;2;"Choose One - Give a minion +7/+7; or Give your minions +2/+1.";BG31_886;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_886.png;1;
+Marauder's Contract;4;2;Steal a random Pirate from the Tavern.;BG31_891;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_891.png;1;
+Spitescale Special;4;2;Get 3 random Spellcraft spells.;BG28_606;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_606.png;1;
+Defender's Rites;4;3;Give a friendly minion +8/+8 and Taunt.;BG28_825;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_825.png;1;
+Hired Headhunter;4;3;Discover a Battlecry minion.;BG28_GIL_836;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_GIL_836.png;1;
+Misplaced Tea Set;4;3;Give a friendly minion of each type +3/+3.;BG28_888;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_888.png;1;
+Scavenge for Parts;4;3;At the end of your turn, get a random Magnetic minion. Lasts 3 turns.;BG28_600;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_600.png;1;
+Cloning Conch;4;4;Get a random Murloc and a copy of it.;BG28_601;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_601.png;1;
+Guzzle the Goop;4;4;At the end of your turn, give your Dragons +4 Attack. Lasts 3 turns.;BG28_602;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_602.png;1;
+Temperature Shift;4;4;Get a 'Fire Baller' and a 'Snow Baller'.;BG31_819;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_819.png;1;
+Butchering;5;2;Destroy a friendly Undead. Your Undead have extra Attack equal to its Tier this game.;BG28_604;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_604.png;1;
+Portal in a Crystal;5;2;Pass a friendly non-Golden minion.;BG31_244;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_244.png;1;1
+Saloon's Finest;5;2;Refresh the Tavern with Tavern spells.;BG28_849;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_849.png;1;
+Armor Stash;5;3;Set your Armor to 5.;BG28_500;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_500.png;1;
+Channel the Devourer;5;3;Remove a minion. Give its stats to a random friendly minion.;EBG_Spell_032;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/EBG_Spell_032.png;1;
+Contracted Corpse;5;3;Discover a Deathrattle minion.;BG28_882;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_882.png;1;
+Upper Hand;5;3;Start of Combat: Set a random enemy minion's Health to 1.;BG28_573;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_573.png;1;
+Corrupted Cupcakes;5;4;Choose a friendly Demon. It consumes 3 random minions in the Tavern to gain their stats.;BG28_607;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_607.png;1;
+Bargain Bundle;5;5;Discover a minion. Your teammate gets the other options.;BG31_242;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_242.png;1;1
+Golden Touch;5;5;Make a random minion in the Tavern Golden.;BG28_830;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_830.png;1;
+Lost Staff of Hamuul;6;2;Choose a minion. Refresh the Tavern with minions of that type.;EBG_Spell_038;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/EBG_Spell_038.png;1;
+Perfect Vision;6;2;Set a minion's stats to 20/20. ;BG28_838;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_838.png;1;
+Fandral's Fortune;6;3;Discover a Choose One card. It has both effects combined.;BG31_892;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_892.png;1;
+Knockoff Wisdomball;6;3;Your next 2 Refreshes are helpful! (2 left!);BG30_802;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG30_802.png;1;
+Azerite Empowerment;6;4;Give your minions +4/+4.;BG28_169;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG28_169.png;1;
+Eyes of the Earth Mother;6;4;Choose a friendly minion from Tier 4 or below. Make it Golden.;EBG_Spell_017;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/EBG_Spell_017.png;1;
+The Road Less Traveled;6;4;"Choose One - Get a random Tier 6 minion; or Get two random Tier 5 minions.";BG31_884;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_884.png;1;
+Sharing is Caring;7;2;Start of Combat: Your left-most minion gains stats equal to the nearest enemy minion's.;BG31_889;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_889.png;1;
+Hallowed Ritual;7;5;Discover a Tier 7 minion.;BG31_896;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_896.png;1;
+Blade of Ambition;7;6;Choose a minion. Set its Attack and Health to match the highest in your warband.;BG31_895;https://art.hearthstonejson.com/v1/bgs/latest/enUS/512x/BG31_895.png;1;

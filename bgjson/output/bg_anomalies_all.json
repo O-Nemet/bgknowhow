@@ -1,0 +1,1100 @@
+{
+  "meta": {
+    "date": "2025-08-05",
+    "version": "0.10.0"
+  },
+  "data": [
+    {
+      "name": "A Faire Reward",
+      "text": "Instead of a minion, Triple Rewards Discover a Tier 1 Darkmoon Prize (Improves in 4 turns!).",
+      "id": "BG27_Anomaly_755",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_755.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102093",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=13",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/A_Faire_Reward",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885217"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "All Bottled Up",
+      "text": "At the start of each turn, get a 'Portal in a Bottle'.",
+      "id": "BGDUO_Anomaly_005",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_Anomaly_005.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119142",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=76",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/All_Bottled_Up",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Anomalous Bribe",
+      "text": "After you sell a minion, give its stats to a minion in the Tavern.",
+      "id": "BG27_Anomaly_561",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_561.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106499",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=44",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Anomalous_Bribe",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994559"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Anomalous Evidence",
+      "text": "At the start of your turn, choose from 2 new Quest Rewards.",
+      "id": "BG27_Anomaly_803",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_803.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102982",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=9",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Anomalous_Evidence",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885222"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Anomalous Twin",
+      "text": "Start of combat: Summon a copy of your highest-Health minion.",
+      "id": "BG27_Anomaly_560",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_560.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106498",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=43",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Anomalous_Twin",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994558"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Anomalous Wisdomball",
+      "text": "You occasionally get helpful Refreshes! (Unlocks on Turn 6.)",
+      "id": "BG27_Anomaly_562",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_562.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106500",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=42",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Anomalous_Wisdomball",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994560"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Anti-Gravity Stadium",
+      "text": "Minions in the Tavern have their Attack and Health swapped.",
+      "id": "BG27_Anomaly_004",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_004.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/101991",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=2",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Anti-Gravity_Stadium",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885185"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Audience's Choice",
+      "text": "At the start of each turn, one player chooses a card for ALL players to get at end of turn.",
+      "id": "BG27_Anomaly_580",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_580.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/107226",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=48",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Audience's_Choice",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994568"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Big League",
+      "text": "Only Tavern Tiers 3, 4, 5, and 6 exist. Start with 10 extra Armor.",
+      "id": "BG27_Anomaly_100",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_100.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102986",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=21",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Big_League",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885189"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Blessed or Blighted",
+      "text": "Start of Combat: Give your left-most minion Divine Shield and your right-most minion Reborn.",
+      "id": "BG27_Anomaly_726",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_726.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102908",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=31",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Blessed_or_Blighted",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994313"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Blood of Sargeras",
+      "text": "At the start of your turn, set your hero's Health to 12.",
+      "id": "BG27_Anomaly_502",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_502.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102972",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=22",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Blood_of_Sargeras",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885203"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bring Home the Bacon",
+      "text": "Start with two upgrading Piggy Banks. Break them open to gain Gold!",
+      "id": "BG27_Anomaly_302",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_302.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102076",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=46",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bring_Home_the_Bacon",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994550"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Bring in the Buddies",
+      "text": "Buddies are in the Tavern.",
+      "id": "BG27_Anomaly_810",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_810.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103541",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=11",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Bring_in_the_Buddies",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885225"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Continuing Education",
+      "text": "At the start of each turn, get an Evolving Scroll. Each turn, it transforms into a Tavern spell from a higher Tier.",
+      "id": "BG31_Anomaly_102",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_102.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118697",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=59",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Continuing_Education",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Cosmic Duality",
+      "text": "At the start of the game, Discover a second Hero Power.",
+      "id": "BG31_Anomaly_123",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_123.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119094",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=71",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Cosmic_Duality",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Curse of Aggramar",
+      "text": "Start at 5 Health and 5 Gold. Your hero can only take 1 damage at a time.",
+      "id": "BG27_Anomaly_006",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_006.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/101994",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=38",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Curse_of_Aggramar",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994298"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Deep Blue Sooner",
+      "text": "At the start of your turn, get 2 temporary 'Deep Blues'. They give a minion more stats each time.",
+      "id": "BG27_Anomaly_820",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_820.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103111",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=51",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Deep_Blue_Sooner",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994570"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Denathrius' Anima Reserves",
+      "text": "Quests and Rewards are in this game. All heroes are Sire Denathrius.",
+      "id": "BG27_Anomaly_822",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_822.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103113",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=6",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Denathrius'_Anima_Reserves",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885226"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Double Header",
+      "text": "The first time you buy a minion each turn, get an extra copy of it.",
+      "id": "BG27_Anomaly_711",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_711.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102046",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=16",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Double_Header",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885205"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Echoes of Argus",
+      "text": "Your Battlecries and Deathrattles trigger an extra time.",
+      "id": "BG27_Anomaly_802",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_802.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102177",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=17",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Echoes_of_Argus",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885221"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Eleventh Hour",
+      "text": "The first time your hero takes fatal damage in combat, prevent it and gain 11 Gold next turn.",
+      "id": "BG27_Anomaly_575",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_575.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106633",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=56",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Eleventh_Hour",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994565"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Elven Elite",
+      "text": "The Tavern only offers cards of your Tier.",
+      "id": "BG31_Anomaly_111",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_111.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118734",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=64",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Elven_Elite",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Emergency Landing",
+      "text": "Twice per turn, you can remove all copies of a minion in the Tavern from your pool. ",
+      "id": "BG31_Anomaly_117",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_117.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118676",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=69",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Emergency_Landing",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Eonar's Overgrown Arena",
+      "text": "At the start of your turn, give minions in the Tavern +1\/+1 for the rest of the game.",
+      "id": "BG27_Anomaly_300",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_300.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102008",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=41",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Eonar's_Overgrown_Arena",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994300"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Everything's on Fire!",
+      "text": "At the start of the game, take 25 damage. After another hero dies, regain 5 Health.",
+      "id": "BG27_Anomaly_714",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_714.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102412",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=23",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Everything's_on_Fire!",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885206"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Factory Line",
+      "text": "At the end of every 2 turns, get a plain copy of your left-most minion.",
+      "id": "BG31_Anomaly_114",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_114.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118670",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=66",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Factory_Line",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "False Idols",
+      "text": "You only need 2 copies of a minion to make it Golden. Instead of a Triple Reward, get a Gold Coin.",
+      "id": "BG27_Anomaly_301",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_301.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102075",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=18",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/False_Idols",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885200"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Feline Fortune",
+      "text": "After another hero dies, Discover a minion from their warband. It keeps enchantments.",
+      "id": "BG27_Anomaly_558",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_558.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106468",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=57",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Feline_Fortune",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994556"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Finicky Hourglass",
+      "text": "Start at Tavern Tier 2.",
+      "id": "BG27_Anomaly_001",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_001.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/101959",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=14",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Finicky_Hourglass",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885183"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Fortitude of Khaz'goroth",
+      "text": "At the end of your turn, set your left and right-most minions' Health to the higher of the two.",
+      "id": "BG27_Anomaly_830",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_830.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103593",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=4",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fortitude_of_Khaz'goroth",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885227"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Gladiator's Spoils",
+      "text": "After you win a combat, Discover a minion of your Tier. Otherwise, get a random one of a Tier lower.",
+      "id": "BG27_Anomaly_715",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_715.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102455",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=35",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Gladiator's_Spoils",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994309"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Golden Arrow",
+      "text": "Every 3 turns, get a 'Golden Arrow'.",
+      "id": "BG31_Anomaly_124",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_124.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119044",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=72",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Golden_Arrow",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Golden Friendship",
+      "text": "Once per game, you can Goldenize and Pass a minion.",
+      "id": "BGDUO_Anomaly_003",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_Anomaly_003.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119157",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=75",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Golden_Friendship",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Golganneth's Tempest",
+      "text": "Minions cost 2 Gold. You cannot Refresh the Tavern. It Refreshes itself after you buy a card.",
+      "id": "BG27_Anomaly_900",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_900.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102005",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=32",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Golganneth's_Tempest",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994320"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Grapnel of the Titans",
+      "text": "The first minion you buy each turn is free.",
+      "id": "BG27_Anomaly_303",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_303.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102085",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=19",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Grapnel_of_the_Titans",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885201"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "How to Even??",
+      "text": "Only Tavern Tiers 2, 4, and 6 exist. Triple rewards Discover a minion of your Tier.",
+      "id": "BG27_Anomaly_102",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_102.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102988",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=50",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/How_to_Even??",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994549"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Incubation Mutation",
+      "text": "Minions with no type have all minion types.",
+      "id": "BG31_Anomaly_112",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_112.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118700",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=65",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Incubation_Mutation",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Instant Warband",
+      "text": "Start with 3 different Tier 1 minions in hand.",
+      "id": "BG31_Anomaly_127",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_127.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119749",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=74",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Instant_Warband",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Lay of the Land",
+      "text": "The Tavern offers 1 extra Tavern spell after each Refresh",
+      "id": "BG31_Anomaly_101",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_101.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118680",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=58",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Lay_of_the_Land",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Light the Way",
+      "text": "After you Refresh two times, gain 1 Gold next turn.",
+      "id": "BG31_Anomaly_116",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_116.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118673",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=68",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Light_the_Way",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Line in the Sand",
+      "text": "Start with Sandy in play.",
+      "id": "BGDUO_Anomaly_006",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_Anomaly_006.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119093",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=77",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Line_in_the_Sand",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Little League",
+      "text": "Only Tavern Tiers 1, 2, 3, and 4 exist.",
+      "id": "BG27_Anomaly_800",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_800.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102006",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=24",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Little_League",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885219"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Magic Shop",
+      "text": "Spell Tickets are in the Tavern! Get 3 to Discover a Tavern spell of your Tier.",
+      "id": "BG31_Anomaly_115",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_115.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118674",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=67",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Magic_Shop",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Marin's Treasure Box",
+      "text": "Trinkets are in this game. All heroes are Marin the Manager.",
+      "id": "BG31_Anomaly_106",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_106.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118669",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=62",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Marin's_Treasure_Box",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Match Fixing",
+      "text": "Guess which player will win your next combat. If you're correct, get 3 Coins.",
+      "id": "BG27_Anomaly_805",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_805.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102989",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=33",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Match_Fixing",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994317"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Might of Khaz'goroth",
+      "text": "At the end of your turn, set your left and right-most minions' Attack to the higher of the two.",
+      "id": "BG27_Anomaly_719",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_719.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102737",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=3",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Might_of_Khaz'goroth",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885210"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Mimiron's Clockwork Stadium",
+      "text": "You cannot upgrade the Tavern with Gold. It upgrades itself every 2 turns. (2 turns left!)",
+      "id": "BG27_Anomaly_005",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_005.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/101992",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=25",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Mimiron's_Clockwork_Stadium",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885188"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Money Match",
+      "text": "Start at 10 Gold.",
+      "id": "BG27_Anomaly_000",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_000.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/101954",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=5",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Money_Match",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885182"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Mystical Blossom",
+      "text": "At the start of each turn, Discover a Tavern spell. (Unlocks on Turn 3.)",
+      "id": "BG31_Anomaly_109",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_109.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118671",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=63",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Mystical_Blossom",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Nguyen's Shifting Disks",
+      "text": "All heroes are Master Nguyen.",
+      "id": "BG27_Anomaly_720",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_720.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102748",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=10",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Nguyen's_Shifting_Disks",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885212"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "No Face, No Case",
+      "text": "Every 4 turns, Get a 'Faceless Manipulator'.",
+      "id": "BG27_Anomaly_577",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_577.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106631",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=55",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/No_Face,_No_Case",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994567"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "No Place Like Holmes",
+      "text": "Each turn, look at 2 minions. Guess which one your next opponent had last combat for a Coin.",
+      "id": "BG27_Anomaly_555",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_555.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106438",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=54",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/No_Place_Like_Holmes",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994553"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Oops, All _______!",
+      "text": "Only minions of this type and Neutrals are in the Tavern.",
+      "id": "BG27_Anomaly_104t4",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_104t4.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103206",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=12",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Oops,_All________!",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885194"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Overseer's Orb",
+      "text": "After you upgrade the Tavern, Refresh it with minions of your most common type.",
+      "id": "BG27_Anomaly_718",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_718.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102457",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=26",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Overseer's_Orb",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885209"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Packed Stands",
+      "text": "The Tavern always has 7 cards.",
+      "id": "BG27_Anomaly_750",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_750.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102083",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=15",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Packed_Stands",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885214"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Path of the Treasure-Seeker",
+      "text": "After you Refresh 5 times, find the Golden Monkey! (5 left!)",
+      "id": "BG27_Anomaly_754",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_754.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102092",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=27",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Path_of_the_Treasure-Seeker",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885216"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Perfected Alchemy",
+      "text": "Start with a 'Goldenizer'.",
+      "id": "BG27_Anomaly_751",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_751.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102084",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=28",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Perfected_Alchemy",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885215"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Planar Alignment",
+      "text": "At the start of each turn, get a random minion of your most common type. (Unlocks on Turn 2.)",
+      "id": "BG31_Anomaly_126",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_126.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119748",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=73",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Planar_Alignment",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Pooled Resources",
+      "text": "You can send your Gold to your teammate.",
+      "id": "BGDUO_Anomaly_007",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BGDUO_Anomaly_007.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119143",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=78",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Pooled_Resources",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": true
+    },
+    {
+      "name": "Prudence of Amitus",
+      "text": "Unspent Gold carries over to your next turn. If you saved at least 5, gain 1 extra.",
+      "id": "BG27_Anomaly_002",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_002.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/101986",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=1",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Prudence_of_Amitus",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885184"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Reckless Enhancement",
+      "text": "Minions in the Tavern each randomly gain Taunt, Windfury, Divine Shield, or Reborn.",
+      "id": "BG27_Anomaly_505",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_505.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103198",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=39",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Reckless_Enhancement",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994304"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Rising Current",
+      "text": "After you upgrade the Tavern, Discover a Tier 1 spell. (Improves every 2 turns!)",
+      "id": "BG31_Anomaly_104",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_104.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118733",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=60",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Rising_Current",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Scout's Honor",
+      "text": "Start with a Patient Scout in play.",
+      "id": "BG31_Anomaly_120",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_120.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/119092",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=70",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Scout's_Honor",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Secrets of Norgannon",
+      "text": "Tavern Tier 7 exists. Start with 10 extra Armor.",
+      "id": "BG27_Anomaly_504",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_504.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/103078",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=8",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Secrets_of_Norgannon",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885204"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Shackles of the Primus",
+      "text": "After each combat, remove your warband. At the start of your turn, triple your Gold.",
+      "id": "BG27_Anomaly_724",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_724.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102855",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=36",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Shackles_of_the_Primus",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994312"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Sin'dorei Mirror",
+      "text": "After you buy your first Tavern spell each turn, get an extra copy of it. (Unlocks on Turn 5.)",
+      "id": "BG31_Anomaly_105",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG31_Anomaly_105.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/118688",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=61",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Sin'dorei_Mirror",
+        "hearthpwn": null
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Summoning of Champions",
+      "text": "At the start of the game, all players Discover a Tier 6 minion from the same choices.",
+      "id": "BG27_Anomaly_723",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_723.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102875",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=37",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Summoning_of_Champions",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994311"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Tavern Special",
+      "text": "All minions types are in the Tavern. It always has 7 cards.",
+      "id": "BG27_Anomaly_103",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_103.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102991",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=40",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Tavern_Special",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994299"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Temperance of Aman'Thul",
+      "text": "Start of Tavern Tier 3 with 9 Gold. All cards in the first shop are Tier 3.",
+      "id": "BG27_Anomaly_501",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_501.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102971",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=47",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Temperance_of_Aman'Thul",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994552"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "The Golden Arena",
+      "text": "ALL minions are Golden, but you do not get Triple Rewards.",
+      "id": "BG27_Anomaly_801",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_801.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102090",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=20",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Golden_Arena",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885220"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "The Keys to Victory",
+      "text": "After you play a minion, give your other minions +1\/+1 for each Keyword they share with it.",
+      "id": "BG27_Anomaly_753",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_753.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102089",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=45",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Keys_to_Victory",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994569"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "The Yogg-iseum",
+      "text": "At the start of each turn, spin the SAME Wheel of Yogg-Saron.",
+      "id": "BG27_Anomaly_503",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_503.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102976",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=30",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/The_Yogg-iseum",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994303"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Treasure Hoard",
+      "text": "On Turn 6, Discover a Golden Tier 4 minion. (5 turns left!)",
+      "id": "BG27_Anomaly_559",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_559.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106470",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=52",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Treasure_Hoard",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994557"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Uncompensated Upset",
+      "text": "Start at 1 Gold. Minions cost (1) but sell for (0). Upgrading the Tavern costs (2) less.",
+      "id": "BG27_Anomaly_721",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_721.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102792",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=7",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Uncompensated_Upset",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885213"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Up-Prizing",
+      "text": "After you upgrade the Tavern, Discover a Tier 1 Darkmoon Prize. (Improves in 3 turns!)",
+      "id": "BG27_Anomaly_716",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_716.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102459",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=34",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Up-Prizing",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994310"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Valuation Inflation",
+      "text": "Tavern Tier 1 does not exist. Minions cost gold equal to their Tavern Tier.",
+      "id": "BG27_Anomaly_556",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_556.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/106443",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=53",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Valuation_Inflation",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994555"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "What Are the Odds?",
+      "text": "Only Tavern Tiers 1, 3, and 5 exist. Triple rewards Discover a minion of your Tier.",
+      "id": "BG27_Anomaly_101",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_101.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102987",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=49",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/What_Are_the_Odds?",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1994547"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    },
+    {
+      "name": "Wisdom of Ulduar",
+      "text": "At the end of every 3 turns, set your right-most minion's stats to 15\/15. (3 turns left!)",
+      "id": "BG27_Anomaly_717",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Anomaly_717.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/102456",
+        "bgknowhow": "https:\/\/bgknowhow.com\/bgstrategy\/anomaly\/?id=29",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Wisdom_of_Ulduar",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1885207"
+      },
+      "isActive": false,
+      "isDuosOnly": false
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "date": "2025-08-05",
+    "version": "0.10.0"
+  },
+  "data": [
+    {
+      "name": "Assemble a Lineup",
+      "text": "Quest: Summon 17 minions.",
+      "id": "BG24_Quest_114",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_114.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89643",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Assemble_a_Lineup",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199467"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Burn the Evidence",
+      "text": "Quest: Sell 9 minions.",
+      "id": "BG27_Quest_800",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Quest_800.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104658",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Burn_the_Evidence",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777836"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Crack the Case",
+      "text": "Quest: Have friendly minions attack 12 times.",
+      "id": "BG24_Quest_352",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_352.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97743",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Crack_the_Case",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316646"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Cry for Help",
+      "text": "Quest: Play 4 Battlecry minions.",
+      "id": "BG24_Quest_311",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_311.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89011",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Cry_for_Help",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199475"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Dust for Prints",
+      "text": "Quest: Add 20 cards to your hand.",
+      "id": "BG24_Quest_314",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_314.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89044",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Dust_for_Prints",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199477"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Exhume the Bones",
+      "text": "Quest: Trigger 7 friendly Deathrattles.",
+      "id": "BG24_Quest_320",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_320.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89057",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Exhume_the_Bones",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199479"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Fill the Cauldron",
+      "text": "Quest: Cast 9 spells.",
+      "id": "BG28_Quest_500",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG28_Quest_500.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Fill_the_Cauldron",
+        "hearthpwn": null
+      },
+      "isActive": false
+    },
+    {
+      "name": "Find the Murder Weapon",
+      "text": "Quest: Increase a friendly minion's stats 14 times.",
+      "id": "BG24_Quest_123",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_123.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92548",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Find_the_Murder_Weapon",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199469"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Follow the Money",
+      "text": "Quest: Spend 33 Gold.",
+      "id": "BG24_Quest_126",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_126.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/95940",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Follow_the_Money",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199472"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Hire an Investigator",
+      "text": "Quest: End your turn with unspent Gold 3 times.",
+      "id": "BG24_Quest_351",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_351.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/97674",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Hire_an_Investigator",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1316645"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Invite the Guests",
+      "text": "Quest: Buy 6 minions.",
+      "id": "BG24_Quest_313",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_313.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89037",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Invite_the_Guests",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199476"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Pressure the Authorities",
+      "text": "Quest: Get your warband to 35 total Attack.",
+      "id": "BG27_Quest_801",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Quest_801.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104661",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Pressure_the_Authorities",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777837"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Reenact the Murder",
+      "text": "Quest: Have 19 friendly minions die.",
+      "id": "BG24_Quest_124",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_124.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92549",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Reenact_the_Murder",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199470"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Round up the Suspects",
+      "text": "Quest: Destroy 18 enemy minions.",
+      "id": "BG27_Quest_802",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG27_Quest_802.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/104660",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Round_up_the_Suspects",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1777838"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Sort It All Out",
+      "text": "Quest: Order your minions from lowest to highest Attack for 4 combats.",
+      "id": "BG24_Quest_125",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_125.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/92550",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Sort_It_All_Out",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199471"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Track the Footprints",
+      "text": "Quest: Have Bob's Tavern Refreshed 9 times.",
+      "id": "BG24_Quest_112",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_112.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89641",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Track_the_Footprints",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199466"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Unlikely Duo",
+      "text": "Quest: Play 5 minions from [either of two randomly selected types].",
+      "id": "BG24_Quest_151",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_151.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/90328",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Unlikely_Duo",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199473"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Unmask the Culprit",
+      "text": "Quest: Lose or tie 3 combats.",
+      "id": "BG24_Quest_120",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_120.png",
+      "websites": {
+        "blizzard": "https:\/\/playhearthstone.com\/battlegrounds\/89958",
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Unmask_the_Culprit",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199468"
+      },
+      "isActive": false
+    },
+    {
+      "name": "Witness Protection",
+      "text": "Quest: Have a friendly Taunt minion attacked 6 times.",
+      "id": "BG24_Quest_318",
+      "picture": "https:\/\/art.hearthstonejson.com\/v1\/bgs\/latest\/enUS\/512x\/BG24_Quest_318.png",
+      "websites": {
+        "blizzard": null,
+        "wiki": "https:\/\/hearthstone.wiki.gg\/wiki\/Battlegrounds\/Witness_Protection",
+        "hearthpwn": "https:\/\/hearthpwn.com\/cards\/1199478"
+      },
+      "isActive": false
+    }
+  ]
+}
