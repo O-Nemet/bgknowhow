@@ -2,7 +2,8 @@
 
 A website about Hearthstone Battlegrounds, formerly hosted for 2.5 years at https://bgknowhow.com.<br><br>
 Discontinued since the end of Season 10 (July 2025) due to time constrains.<br>
-If you intend to set up something like this I'd suggest writing an automatic patch interpreter (to constantly update your database), first.<br>
+You can still check out a demo on the test environment http://sat.bgknowhow.com/ (data frozen on BG patch 31.6.2).<br><br>
+If you intend to set up something like this I'd suggest writing an automatic patch interpreter (to constantly update your database), first.
 Blizzard likes to wildly switch card texts and stats around, especially in Battlegrounds, and you won't be able to stay up to date manually.
 <br><br>
 The only JavaScript utilized is for the image tooltips, Google Analytics and the Paypal donation button.<br>
